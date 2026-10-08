@@ -1,0 +1,19 @@
+# Quarto çıktıları
+/_site/
+/.quarto/
+/_freeze/
+*_files/
+
+# İşletim sistemi ve düzenleyici dosyaları
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.tmp
+.vscode/
+*.Rproj.user/
+
+# Gizli bilgiler
+.env
+
+**/*.quarto_ipynb

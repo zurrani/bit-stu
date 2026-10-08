@@ -1,0 +1,2 @@
+/* Genel profil: programa özgü (havacılık) kutular gizlenir. quarto render --profile genel */
+.callout.kutu-havacilik, .kutu-havacilik { display: none !important; }

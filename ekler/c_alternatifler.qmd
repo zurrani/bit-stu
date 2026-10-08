@@ -1,0 +1,31 @@
+---
+title: "Ek C · Her şeyin bir alternatifi var"
+description: "Her işlev için ücretli, ücretsiz, açık kaynak ve yapay zekâ özellikli seçenekler."
+---
+
+Her işlev için en az bir ücretsiz ve bir açık kaynak seçenek vardır. Bu derste ürünü değil, işlevi öğreniyoruz; bir araç ortadan kalksa da yerine koyabileceğin bir başkası olur.
+
+Planlar, fiyatlar ve yapay zekâ özellikleri sık değişir. Tablo bir başlangıç noktasıdır; güncel durumu ürünün kendi sayfasından kontrol et.
+
+::: {.tablo-kaydir}
+| İşlev | Ücretli | Ücretsiz | Açık kaynak | Yapay zekâ özelliği |
+|---|---|---|---|---|
+| Masaüstü işletim sistemi | Windows, macOS (cihazla birlikte) | ChromeOS (cihazla birlikte) | Ubuntu, Mint, Fedora, Debian, Pardus | Windows'ta Copilot, macOS'ta Apple Intelligence |
+| Mobil işletim sistemi | iOS (cihazla birlikte) | Android | AOSP, LineageOS, GrapheneOS | Gemini, Apple Intelligence |
+| Tarayıcı | | Chrome, Edge, Safari | Firefox, Chromium, Brave | Tarayıcılara gömülü asistanlar |
+| Arama | | Google, Bing, Yandex, DuckDuckGo, Startpage | SearXNG | Perplexity, ChatGPT araması, Google'ın yapay zekâ özetleri |
+| Bulut depolama | Google One, Microsoft 365, iCloud+, Dropbox | Sağlayıcıların ücretsiz kotaları | Nextcloud | Drive'da Gemini, OneDrive'da Copilot |
+| E-posta | Microsoft 365, Google Workspace | Gmail, Outlook.com, Proton Mail (temel) | Thunderbird (istemci) | Gmail'de Gemini, Outlook'ta Copilot |
+| Mesajlaşma ve iş birliği | Slack, Teams (kurumsal) | WhatsApp, Telegram, Teams | Signal, Element | Mesajlaşma uygulamalarına gömülü asistanlar |
+| Kelime işlemci | Word (Microsoft 365) | Google Dokümanlar, Word'ün web sürümü, Pages | LibreOffice Writer, ONLYOFFICE | Copilot, Gemini |
+| Hesap tablosu | Excel (Microsoft 365) | Google E-Tablolar, Excel'in web sürümü, Numbers | LibreOffice Calc, ONLYOFFICE | Copilot, Gemini, Claude in Excel |
+| Sunum | PowerPoint, Canva Pro | Google Slaytlar, Canva, Keynote | LibreOffice Impress | Copilot, Gemini, Gamma |
+| Not ve bilgi yönetimi | Notion (ücretli planlar) | OneNote, Google Keep, Obsidian | Joplin, Logseq | Notion AI, OneNote'ta Copilot |
+| Yapay zekâ asistanı | ChatGPT, Claude, Gemini ücretli planları | Aynı hizmetlerin ücretsiz katmanları, Copilot | Açık ağırlıklı modeller ve onları bilgisayarda çalıştıran araçlar | Ajan ve araştırma modları |
+| Parola yöneticisi | 1Password | Bitwarden, işletim sistemi yöneticileri | Bitwarden, KeePassXC | |
+| Harita | | Google Haritalar, Apple Haritalar, Yandex Haritalar | OpenStreetMap, Organic Maps | Harita uygulamalarına gömülü asistanlar |
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Her gün kullandığın üç uygulamayı seç. Her biri yarın kapansa yerine ne kullanırdın? Verilerini yanına alabilir miydin?
+:::

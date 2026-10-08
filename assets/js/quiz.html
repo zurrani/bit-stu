@@ -1,0 +1,68 @@
+<script>
+/* Kendini sına: Her soru bir .quiz-q bloğudur; data-answer doğru harfi, data-explain gerekçeyi taşır.
+   Yanıtlar yalnızca tarayıcıda işlenir; hiçbir veri kaydedilmez ya da gönderilmez. */
+(function () {
+  function kur() {
+    document.querySelectorAll('.quiz-q').forEach(function (soru) {
+      var dogruHarf = (soru.dataset.answer || '').trim().toUpperCase();
+      var gerekce = soru.dataset.explain || '';
+      var secenekler = soru.querySelectorAll(':scope > ul > li, :scope > ol > li');
+      if (!dogruHarf || !secenekler.length) return;
+
+      var geri = document.createElement('p');
+      geri.className = 'quiz-geri';
+      geri.setAttribute('aria-live', 'polite');
+
+      var goster = document.createElement('button');
+      goster.type = 'button';
+      goster.className = 'quiz-goster';
+      goster.textContent = 'Cevabı göster';
+      goster.hidden = true;
+
+      var butonlar = [];
+      secenekler.forEach(function (li, sira) {
+        var harf = String.fromCharCode(65 + sira);
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.className = 'quiz-secenek';
+        b.innerHTML = li.innerHTML;
+        b.dataset.harf = harf;
+        li.innerHTML = '';
+        li.appendChild(b);
+        butonlar.push(b);
+        b.addEventListener('click', function () {
+          butonlar.forEach(function (x) { x.classList.remove('dogru', 'yanlis'); });
+          if (harf === dogruHarf) {
+            b.classList.add('dogru');
+            geri.className = 'quiz-geri ok';
+            geri.textContent = 'Doğru. ' + gerekce;
+            goster.hidden = true;
+            butonlar.forEach(function (x) { x.disabled = true; });
+          } else {
+            b.classList.add('yanlis');
+            geri.className = 'quiz-geri no';
+            geri.textContent = 'Bu değil. Bir daha düşün ya da cevabı gör.';
+            goster.hidden = false;
+          }
+        });
+      });
+
+      goster.addEventListener('click', function () {
+        butonlar.forEach(function (x) {
+          x.classList.remove('yanlis');
+          if (x.dataset.harf === dogruHarf) x.classList.add('dogru');
+          x.disabled = true;
+        });
+        geri.className = 'quiz-geri ok';
+        geri.textContent = 'Doğru cevap ' + dogruHarf + '. ' + gerekce;
+        goster.hidden = true;
+      });
+
+      soru.appendChild(geri);
+      soru.appendChild(goster);
+    });
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', kur);
+  else kur();
+})();
+</script>

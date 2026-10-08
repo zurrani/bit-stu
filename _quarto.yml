@@ -1,0 +1,100 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - docs/*.qmd
+    - ekler/*.qmd
+    - hakkinda.qmd
+  resources:
+    - assets/fonts/
+    - materyal/
+
+lang: tr
+
+website:
+  title: "BIT · Temel Bilgi Teknolojileri"
+  description: "Temel Bilgi Teknolojileri (Basic Information Technologies) dersinin notları, ekleri ve sunumları."
+  site-url: "https://bit.zurrani.com"
+  favicon: assets/img/favicon.svg
+  search:
+    location: navbar
+    type: overlay
+  page-navigation: true
+  back-to-top-navigation: true
+  reader-mode: true
+  open-graph: true
+  navbar:
+    title: "BIT"
+    left:
+      - text: "Ders notları"
+        href: docs/01_teknoloji-neyi-cozer.qmd
+      - text: "Ekler"
+        href: ekler/sozluk.qmd
+      - text: "Hakkında"
+        href: hakkinda.qmd
+    right:
+      - text: "zurrani.com"
+        href: https://zurrani.com
+  sidebar:
+    style: docked
+    collapse-level: 1
+    contents:
+      - text: "Ana sayfa"
+        href: index.qmd
+      - text: "Bu ders nasıl işler?"
+        href: docs/00_cerceve.qmd
+      - section: "Haftalar"
+        contents:
+          - text: "1 · Teknoloji neyi çözer, bedeli nedir?"
+            href: docs/01_teknoloji-neyi-cozer.qmd
+      - section: "Ekler"
+        contents:
+          - text: "Sözlük"
+            href: ekler/sozluk.qmd
+          - text: "A · 2000–2025 kırılımları"
+            href: ekler/a_kirilimlar.qmd
+          - text: "B · Bilim kurgudan gerçeğe"
+            href: ekler/b_bilim-kurgu.qmd
+          - text: "C · Her şeyin bir alternatifi var"
+            href: ekler/c_alternatifler.qmd
+      - text: "Hakkında"
+        href: hakkinda.qmd
+  page-footer:
+    left: "Temel Bilgi Teknolojileri · Öğr. Gör. Emre Akar · İÜC Teknik Bilimler MYO"
+    right: "İçerik [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr)"
+
+format:
+  html:
+    theme:
+      light: [default, assets/css/bit.scss]
+      dark: [default, assets/css/bit-dark.scss]
+    css: assets/css/fonts.css
+    toc: true
+    toc-depth: 2
+    toc-title: "Bu sayfada"
+    grid:
+      body-width: 760px
+      sidebar-width: 280px
+      margin-width: 260px
+    smooth-scroll: false
+    anchor-sections: true
+    link-external-icon: false
+    link-external-newwindow: true
+    include-after-body: assets/js/quiz.html
+
+language:
+  search-no-results-text: "Sonuç bulunamadı"
+  search-matching-documents-text: "eşleşen sayfa"
+  search-text-placeholder: "Ara"
+  search-clear-button-title: "Temizle"
+  search-detached-cancel-button-title: "Vazgeç"
+  toc-title-document: "Bu sayfada"
+  toc-title-website: "Bu sayfada"
+  callout-tip-title: "İpucu"
+  callout-note-title: "Not"
+  callout-warning-title: "Uyarı"
+  callout-important-title: "Önemli"
+  callout-caution-title: "Dikkat"
+  code-copy-button-tooltip: "Kopyala"
+  back-to-top: "Başa dön"

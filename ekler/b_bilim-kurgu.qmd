@@ -1,0 +1,25 @@
+---
+title: "Ek B · Bilim kurgudan gerçeğe"
+description: "Geçmişin bilim kurgusu, şimdinin teknolojisi: öngörüler, bugünkü karşılıkları ve getirdikleri sorular."
+---
+
+Bilim kurgu bir teknolojiyi öngördüğünde çoğu zaman getireceği sorunu da öngörür. Son sütun, derste tartışacağımız sorudur.
+
+::: {.tablo-kaydir}
+| Eser (yıl) | Öngörü | Bugünkü karşılığı | Tartışma sorusu |
+|---|---|---|---|
+| Jules Verne, *Ay'a Yolculuk* (1865) | Florida'dan fırlatılan, üç kişilik Ay aracı | Apollo programı (1968–1969) | Hayal gücü mühendisliği nasıl besler? |
+| E. M. Forster, *Makine Duruyor* (1909) | Herkesin odasından ekranla konuştuğu, makineye tamamen bağımlı bir toplum; makine durunca çöküş | Görüntülü görüşme, uzaktan yaşam, büyük kesintiler | Teknoloji susarsa ne yaparız? |
+| Dick Tracy çizgi romanı (1946) | Kol saati telsiz | Akıllı saat | Giyilebilir cihazlar ne kadar veri topluyor? |
+| *Star Trek* (1966) | Kapaklı iletişim cihazı, evrensel çevirmen | Cep telefonu, anlık çeviri | Çeviri yapay zekâsı dil öğrenmeyi gereksiz kılar mı? |
+| *2001: Uzay Macerası* (1968) | Tablet ve konuşan yapay zekâ (HAL 9000) | Tabletler, sesli asistanlar | Yapay zekâya ne kadar yetki verilmeli? |
+| William Gibson, *Neuromancer* (1984) | "Siberuzay" | İnternet kültürü | Sanal ile gerçek arasındaki sınır nerede? |
+| Neal Stephenson, *Snow Crash* (1992) | "Metaverse" ve avatarlar | Sanal dünyalar | Sanal dünyalarda kim kural koyar? |
+| *Geleceğe Dönüş II* (1989) | Görüntülü görüşme, parmak iziyle ödeme, drone | Hepsi gerçek oldu (uçan kaykay hariç) | Biyometrik veri çalınırsa şifre gibi değiştirilebilir mi? |
+| *Azınlık Raporu* (2002) | Kişiye özel reklam, suç tahmini, el hareketiyle kontrol edilen ekran | Hedefli reklam, öngörücü polislik yazılımları | Algoritma "suçlu olabilirsin" derse ne olur? |
+| *Her* (2013) | Yapay zekâ ile duygusal bağ | Yapay zekâ arkadaşlık uygulamaları | Yapay zekâ ile kurulan bağın sınırı ne olmalı? |
+| *Black Mirror*, "Nosedive" (2016) | Herkesin herkesi puanladığı bir toplum | Puanlama ve itibar sistemleri | Puanlarımız fırsatlarımızı belirlerse? |
+| Isaac Asimov, *Ben, Robot* (1950) | Robot yasaları | Yapay zekâ etiği ve hizalama tartışmaları | Kurallar akıllı bir sisteme yetecek mi? |
+:::
+
+Karşı örnekleri de unutmamak gerekir: uçan arabalar ve ışınlanma henüz gelmedi. Bilim kurgu bir kehanet değil, bir düşünce deneyidir.

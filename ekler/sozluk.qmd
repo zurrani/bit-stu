@@ -1,0 +1,41 @@
+---
+title: "Sözlük"
+description: "Derste geçen kavramlar ve kısa tanımları. Her hafta yayımlandıkça yeni kavramlar eklenir."
+---
+
+Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği haftayı gösterir.
+
+| Kavram | Anlamı |
+|---|---|
+| Algoritma (1) | Bir sorunu çözmek için izlenen, sırası belli adımlar dizisi |
+| Amara yasası (1) | Teknolojinin kısa vadeli etkisini abartıp uzun vadeli etkisini küçümseme eğilimi |
+| Beceri (1) | Bir aracı ya da yöntemi kullanabilme |
+| Beygir gücü (1) | James Watt'ın tanımladığı güç birimi; yaklaşık 745,7 watt |
+| Bilgelik (1) | Bilgiyi deneyim ve değerlendirmeyle birleştirip doğru kararı verebilme |
+| Bilgi (1) | Enformasyonun yorumlanıp anlam kazanmış hali |
+| Bilgi işçisi (1) | Elleriyle değil, bilgiyle çalışan kişi (Peter Drucker, 1959) |
+| Bilgi toplumu (1) | Bilginin ve verinin temel üretim gücü haline geldiği toplum |
+| Bilgi ve iletişim teknolojileri, BİT (1) | Bilginin üretilmesi, saklanması, işlenmesi ve iletilmesi için kullanılan donanım, yazılım ve ağların tümü |
+| Bilgisayar (1) | Aritmetik ve mantıksal işlem dizilerini otomatik yürütmek üzere programlanabilen makine |
+| Bilim (1) | Evreni ve doğayı anlamak için sistematik bilgi üretme çabası |
+| Bilişim (1) | Bilginin, özellikle elektronik makineler aracılığıyla düzenli biçimde işlenmesi; Fransızca "informatique" karşılığı (1971) |
+| Bit (1) | İkili sayı sisteminde 0 ya da 1 değerini alan, bilginin en küçük birimi |
+| Çoklu buluş (1) | Aynı buluşun birbirinden habersiz kişilerce neredeyse aynı anda yapılması |
+| DigComp (1) | Avrupa Komisyonu'nun dijital yetkinlik çerçevesi; güncel sürümü 3.0 (2025) |
+| Dijital ikiz (1) | Fiziksel bir nesnenin ya da sistemin, gerçek veriyle güncellenen sanal kopyası |
+| Endüstri 4.0 (1) | Siber-fiziksel sistemler, Nesnelerin İnterneti ve veriye dayalı akıllı üretim dönemi |
+| Enformasyon (1) | Bağlam kazanmış, ne olduğu belli veri |
+| Entegre devre (1) | Çok sayıda transistör ve elektronik bileşenin tek bir yarı iletken parça üzerinde birleştirilmesi |
+| Hipotez (1) | Bir olguyu açıklayan, test edilebilir öneri |
+| İkili sistem (1) | Yalnızca 0 ve 1 rakamlarını kullanan sayı sistemi; bilgisayarların temel dili |
+| Kuram, teori (1) | Çok sayıda gözlem ve deneyle desteklenmiş, açıklama gücü yüksek bilimsel çerçeve |
+| Makine (1) | Bir işi yapmak için kuvvet uygulayan ve hareketi kontrol eden fiziksel sistem |
+| Mikroişlemci (1) | Bir bilgisayarın işlem biriminin tamamını tek bir çipte toplayan entegre devre |
+| Moore yasası (1) | Bir çipteki transistör sayısının düzenli aralıklarla ikiye katlanacağı öngörüsü (1965) |
+| Öngörücü bakım (1) | Sensör verisinden yararlanarak arızayı oluşmadan tahmin etmeye dayanan bakım yaklaşımı |
+| Sanayi devrimi (1) | 1760'larda İngiltere'de başlayan, makineleşme ve seri üretim dönemi |
+| Teknoloji (1) | Bilimsel bilginin pratik sorunlara çözüm bulmak için kullanılması |
+| Transistör (1) | Elektrik akımını açıp kapatan ya da yükselten yarı iletken bileşen; dijital elektroniğin temel taşı |
+| Veri (1) | Bağlamı olmayan ham değer |
+| Yedeklilik (1) | Bir işlevin, ana sistem çökse de sürmesi için bağımsız bir yedekle güvenceye alınması |
+| Yetkinlik (1) | Bilgi, beceri ve tutumun bir görevi başarıyla yapacak şekilde birleşmesi |

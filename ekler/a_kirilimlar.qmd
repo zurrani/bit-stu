@@ -1,0 +1,36 @@
+---
+title: "Ek A · 2000–2025 kırılımları"
+description: "Son yirmi beş yılda hayatımızı değiştiren teknolojik dönüm noktaları."
+---
+
+Yirmi beş yılda telefon cebe, bilgisayar buluta, bilgi algoritmalara, yazı üretimi yapay zekâya geçti. Bu tablo Hafta 1 ve Hafta 14'te kullanılır. Tarihleri ezberlemen gerekmez; amaç, bugün sıradan saydığımız şeylerin ne kadar yeni olduğunu görmek.
+
+::: {.tablo-kaydir}
+| Yıl | Kırılım | Neden önemli? |
+|---|---|---|
+| 2000 | Dot-com balonunun patlaması; 2000 yılı hatası (Y2K) sorunsuz atlatıldı | İnternet şirketlerinde ilk büyük düzeltme |
+| 2001 | Wikipedia ve iPod | Ortak bilgi üretimi; müziğin dijitalleşmesi |
+| 2004 | Facebook; 1 GB ücretsiz depolamalı Gmail | Sosyal ağ çağı; "ücretsiz hizmet karşılığında veri" modeli |
+| 2005 | YouTube ve Google Haritalar | Herkesin yayıncı olması; haritanın cebe girmesi |
+| 2006 | Amazon Web Services | Bulut bilişimin ticarileşmesi |
+| 2007 | iPhone | Dokunmatik akıllı telefon ve mobil internet |
+| 2008 | App Store ve ilk Android telefon; Bitcoin makalesi | Uygulama ekonomisi; kripto paralar |
+| 2009 | WhatsApp | Ücretsiz mesajlaşma, SMS'in gerilemesi |
+| 2010 | iPad ve Instagram; Stuxnet'in ortaya çıkması | Tabletler; fiziksel hasar veren ilk bilinen siber silah |
+| 2012 | Derin öğrenme atılımı (AlexNet) | Bugünkü yapay zekânın başlangıcı |
+| 2013 | Snowden belgeleri | Kitlesel gözetim ve mahremiyet tartışması |
+| 2016 | AlphaGo'nun Lee Sedol'u yenmesi; Türkiye'de 4.5G | Yapay zekânın sezgi gerektiren bir oyunda ustalaşması; hızlı mobil internet |
+| 2017 | Transformer mimarisi; WannaCry fidye yazılımı | Büyük dil modellerinin temeli; küresel fidye saldırısı |
+| 2018 | Cambridge Analytica skandalı; GDPR'nin uygulanmaya başlaması | Veri ve siyasi manipülasyon; mahremiyet hukuku |
+| 2019 | 5G'nin ticari kullanımı | Düşük gecikme, Nesnelerin İnterneti |
+| 2020 | Pandemiyle uzaktan çalışma ve eğitim; AlphaFold 2; SolarWinds saldırısı | Dijitalin zorunlu hale gelmesi; tedarik zinciri saldırıları |
+| 2021 | Facebook, WhatsApp ve Instagram'ın yaklaşık 6 saatlik küresel kesintisi | Tek bir şirkete bağımlılığın riski |
+| 2022 | ChatGPT ve görsel üreten yapay zekâlar | Üretken yapay zekânın kitleselleşmesi |
+| 2023 | Çok kipli modeller; yapay zekânın ofis araçlarına girmesi | Metin, görsel ve sesin bir arada işlenmesi |
+| 2024 | AB Yapay Zekâ Yasası'nın yürürlüğe girmesi; CrowdStrike kesintisi; yapay zekâ çalışmalarına Fizik ve Kimya Nobel ödülleri | Yapay zekânın düzenlenmesi; tek bir güncellemenin küresel etkisi; bilimsel tanınma |
+| 2025 | Yapay zekâ ajanları ve akıl yürüten modeller; düşük maliyetli açık modeller; Windows 10 desteğinin sonu; İber Yarımadası'ndaki büyük elektrik kesintisi | Yapay zekânın iş yapmaya başlaması; maliyetin düşmesi; kesinti riskleri |
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+2000 yılında bir öğrencinin cebinde ne vardı? Telefon, harita, müzik, sözlük, fotoğraf makinesi, banka kartı. Bugün bunların kaçı tek bir cihazda?
+:::

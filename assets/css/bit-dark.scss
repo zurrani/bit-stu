@@ -1,0 +1,159 @@
+/*-- scss:defaults --*/
+
+// Karanlık tema. Palet: kokpit paneli arduvazı, uçak iç yapısındaki çinko kromat astar yeşili,
+// "uçuştan önce çıkar" etiketinin kırmızısı. Her renk bir kutu türünü taşır.
+$bit-zemin:   #162027;
+$bit-metin:   #E3E7E1;
+$bit-ikincil: #A5B0A9;
+$bit-primer:  #B5C266;   // Havacılık bağlantısı, görev kartı çizgisi
+$bit-baglanti:#82BCD9;   // bağlantılar, Bu notu nasıl okursun
+$bit-rbf:     #F0868C;   // Efsane mi gerçek mi?
+$bit-amber:   #E2B14E;   // Düşün
+$bit-camgobegi:#72C2B3;  // Bu ne işime yarar?
+$bit-cizgi:   #33424B;
+
+$body-bg: #162027;
+$body-color: #E3E7E1;
+$link-color: #82BCD9;
+$primary: #82BCD9;
+$secondary: #A5B0A9;
+$border-color: #33424B;
+
+$font-family-sans-serif: "Atkinson Hyperlegible Next", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+$headings-font-family: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
+$headings-font-weight: 600;
+$font-size-root: 17px;
+$line-height-base: 1.62;
+
+$navbar-bg: #0F171C;
+$navbar-fg: #E7EAE3;
+$navbar-hl: #FFFFFF;
+$sidebar-bg: #162027;
+$footer-bg: #162027;
+
+$callout-color-note: #82BCD9;
+$callout-color-tip: #72C2B3;
+$callout-color-important: #F0868C;
+$callout-color-caution: #E2B14E;
+$callout-color-warning: #E2B14E;
+
+$table-border-color: #33424B;
+
+/*-- scss:rules --*/
+
+:root {
+  --bit-primer: #{$bit-primer};
+  --bit-panel: #0F171C;
+  --bit-panel-metin: #E7EAE3;
+  --bit-panel-ikincil: #AEB8B0;
+  --bit-cizgi: #{$bit-cizgi};
+  --bit-dogru: #{$bit-camgobegi};
+  --bit-yanlis: #{$bit-rbf};
+  --bit-yuzey: #1C2830;
+}
+
+// Tipografi: 1.25 oranlı ölçek, başlıklar dar ve sıkı, gövde ferah.
+h1, .title { font-size: 2.6rem; line-height: 1.05; letter-spacing: -0.005em; }
+h2 { font-size: 1.85rem; line-height: 1.15; margin-top: 2.6rem; padding-bottom: .25rem; border-bottom: 2px solid var(--bit-cizgi); }
+h3 { font-size: 1.4rem; line-height: 1.2; margin-top: 1.9rem; }
+h4 { font-size: 1.15rem; }
+.subtitle { font-family: $headings-font-family; font-weight: 500; font-size: 1.35rem; color: $bit-ikincil; }
+p, li { max-width: 70ch; }
+strong { font-weight: 700; }
+
+// Gezinme
+.navbar-title { font-family: $headings-font-family; font-weight: 600; font-size: 1.45rem; letter-spacing: .02em; }
+.sidebar-item-text, .sidebar-section-text { font-size: .95rem; }
+.sidebar nav[role="doc-toc"] ul > li > a { font-size: .92rem; }
+
+// Görev kartı: her haftanın başındaki tek cesur öğe.
+// Bakım görev kartından esinlenir; içindeki her alan gerçek bir bilgi taşır.
+.gorev-karti {
+  background: var(--bit-panel);
+  color: var(--bit-panel-metin);
+  border-top: 6px solid var(--bit-primer);
+  border-radius: 4px;
+  padding: 1.15rem 1.35rem 1.25rem;
+  margin: .5rem 0 2rem;
+  dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: .9rem 1.5rem; margin: 0 0 1rem; }
+  dl > div { border-left: 2px solid rgba(231,234,227,.25); padding-left: .75rem; }
+  dt { font-family: $headings-font-family; font-weight: 500; font-size: .95rem; color: var(--bit-panel-ikincil); margin: 0; }
+  dd { font-family: $headings-font-family; font-weight: 600; font-size: 1.3rem; margin: 0; line-height: 1.2; }
+  .gk-soru { font-size: 1.12rem; margin: 0; max-width: none; padding-top: .9rem; border-top: 1px solid rgba(231,234,227,.2); }
+  .gk-soru b { color: #D5DE8C; font-weight: 700; }
+}
+
+// Ana sayfa girişi: "bit" sözlük maddesi gibi kurulur.
+.giris {
+  margin: 1rem 0 2.5rem;
+  .madde { font-family: $headings-font-family; font-weight: 600; font-size: clamp(5rem, 16vw, 9rem); line-height: .85; margin: 0; color: $bit-metin; }
+  .madde-tur { font-style: italic; color: $bit-ikincil; margin: .4rem 0 0; }
+  .madde-tanim { font-size: 1.3rem; line-height: 1.45; max-width: 34ch; margin: .2rem 0 1.4rem; }
+  .madde-ders { max-width: 60ch; color: $bit-ikincil; }
+  .ikili { font-family: $headings-font-family; color: var(--bit-primer); letter-spacing: .08em; }
+}
+
+// Haftalar listesi: gerçek bir sıra olduğu için numaralı.
+.hafta-listesi {
+  list-style: none; padding: 0; margin: 1rem 0 2rem; border-top: 1px solid var(--bit-cizgi);
+  li { display: grid; grid-template-columns: 3rem 1fr auto; align-items: baseline; gap: .75rem; padding: .7rem 0; border-bottom: 1px solid var(--bit-cizgi); max-width: none; }
+  .no { font-family: $headings-font-family; font-weight: 600; font-size: 1.35rem; color: $bit-ikincil; }
+  .durum { font-size: .9rem; color: $bit-ikincil; }
+  li.hazir .no { color: var(--bit-primer); }
+  li.hazir .durum { color: var(--bit-primer); font-weight: 700; }
+}
+
+// Kutular: Quarto kutuları, türüne göre renk alır.
+.callout { max-width: 72ch; }
+.callout.kutu-havacilik { border-left-color: var(--bit-primer) !important; }
+.callout.kutu-havacilik .callout-header { background-color: rgba(181,194,102,.14) !important; }
+.callout.kutu-havacilik .callout-icon::before { filter: hue-rotate(60deg) saturate(.6); }
+.callout.kutu-havacilik + .table, .callout.kutu-havacilik + table { margin-top: -.5rem; }
+
+// Tablolar
+table { font-size: .95rem; }
+.table > :not(caption) > * > * { padding: .5rem .6rem; }
+thead th { font-family: $headings-font-family; font-weight: 600; font-size: 1.02rem; }
+.tablo-kaydir { overflow-x: auto; }
+
+// Kendini sına
+.quiz-q {
+  background: var(--bit-yuzey);
+  border: 1px solid var(--bit-cizgi);
+  border-radius: 6px;
+  padding: 1rem 1.15rem .6rem;
+  margin: 0 0 1.1rem;
+  max-width: 72ch;
+  > p:first-child { margin-bottom: .6rem; }
+  ul { list-style: none; padding: 0; margin: 0 0 .5rem; }
+  li { margin: 0 0 .45rem; max-width: none; }
+}
+.quiz-secenek {
+  display: block; width: 100%; text-align: left;
+  font: inherit; color: inherit;
+  background: transparent;
+  border: 1px solid var(--bit-cizgi);
+  border-radius: 4px;
+  padding: .45rem .7rem;
+  cursor: pointer;
+  &:hover { border-color: $bit-ikincil; }
+  &:focus-visible { outline: 3px solid $bit-baglanti; outline-offset: 2px; }
+  &.dogru { border-color: var(--bit-dogru); background: rgba(114,194,179,.14); }
+  &.yanlis { border-color: var(--bit-yanlis); background: rgba(240,134,140,.12); }
+  &[disabled] { cursor: default; }
+  p { margin: 0; }
+}
+.quiz-geri { margin: .3rem 0 .4rem; font-size: .97rem; min-height: 1.4em; }
+.quiz-geri.ok { color: var(--bit-dogru); }
+.quiz-geri.no { color: var(--bit-yanlis); }
+.quiz-goster { font: inherit; font-size: .9rem; background: none; border: 0; padding: 0; color: $bit-baglanti; text-decoration: underline; cursor: pointer; }
+
+// Erişilebilirlik
+:focus-visible { outline: 3px solid $bit-baglanti; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+
+@media print {
+  .gorev-karti { background: #fff; color: #000; border: 1px solid #000; border-top: 6px solid #000; }
+  .gorev-karti dt, .gorev-karti .gk-soru b { color: #000; }
+  .quiz-geri, .quiz-goster { display: none; }
+}

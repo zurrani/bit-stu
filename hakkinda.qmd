@@ -1,0 +1,30 @@
+---
+title: "Hakkında"
+description: "Ders, yazar, gizlilik, yapay zekâ kullanım beyanı ve lisans."
+toc: false
+---
+
+## Ders
+
+Temel Bilgi Teknolojileri (Basic Information Technologies, kısaca BIT), İstanbul Üniversitesi-Cerrahpaşa Teknik Bilimler Meslek Yüksekokulu'nda okutulan ortak bir derstir. Bu sitedeki notlar Uçak Teknolojisi Programı için havacılık örnekleriyle zenginleştirilmiştir; çekirdek içerik diğer programlar için de geçerlidir.
+
+## Yazar
+
+Öğr. Gör. Emre Akar, İÜC Teknik Bilimler MYO, Uçak Teknolojisi Programı.
+Diğer projeler: [zurrani.com](https://zurrani.com)
+
+Notlarda bir hata görürsen ya da bir öneride bulunmak istersen kurumsal e-posta üzerinden bildirebilirsin. Konu satırına "BIT, Hafta numarası, hata" yazman yeterli.
+
+## Gizlilik
+
+Bu site çerez kullanmaz, ziyaretçi izlemez ve reklam göstermez. Yazı tipleri sitenin kendi sunucusundan yüklenir; sayfayı açtığında üçüncü taraf bir sunucuya istek gönderilmez. "Kendini sına" sorularına verdiğin yanıtlar yalnızca senin tarayıcında işlenir, hiçbir yere kaydedilmez.
+
+## Yapay zekâ kullanım beyanı
+
+Bu dersin bir kuralı da yapay zekâ kullanımını beyan etmektir; bu site de aynı kurala uyar. Notlar öğretim görevlisi tarafından, Anthropic'in Claude yapay zekâ asistanının yardımıyla planlanmış, yazılmış ve gözden geçirilmiştir. İçeriğin doğruluğundan ve son halinden öğretim görevlisi sorumludur.
+
+## Lisans
+
+Metin içeriği [Creative Commons Atıf-GayriTicari-AynıLisanslaPaylaş 4.0 Uluslararası (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.tr) lisansıyla paylaşılır: kaynak gösterdiğin, ticari amaçla kullanmadığın ve türettiğin içeriği aynı lisansla paylaştığın sürece kullanabilirsin. Görsellerin lisansları ayrıca belirtilir.
+
+Site [Quarto](https://quarto.org) ile hazırlanmıştır. Yazı tipleri: Atkinson Hyperlegible Next (Braille Institute) ve Barlow Condensed; her ikisi de SIL Open Font License ile dağıtılır.

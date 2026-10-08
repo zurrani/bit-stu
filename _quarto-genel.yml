@@ -1,0 +1,7 @@
+# Genel profil: havacılık kutuları olmadan, diğer programlar için derleme.
+# Kullanım: quarto render --profile genel
+format:
+  html:
+    css:
+      - assets/css/fonts.css
+      - assets/css/genel.css
