@@ -50,6 +50,8 @@ website:
             href: docs/01_teknoloji-neyi-cozer.qmd
           - text: "2 · Bilgisayar nasıl düşünür?"
             href: docs/02_bilgisayar-nasil-dusunur.qmd
+          - text: "3 · İşletim sistemleri"
+            href: docs/03_isletim-sistemleri.qmd
       - section: "Ekler"
         contents:
           - text: "Sözlük"

@@ -26,7 +26,7 @@ Bu ders bilgisayar kullanmayı değil, dijital dünyada güvenle düşünmeyi ve
 <ol class="hafta-listesi">
   <li class="hazir"><span class="no">1</span><a href="docs/01_teknoloji-neyi-cozer.html">Teknoloji neyi çözer, bedeli nedir?</a><span class="durum">Yayında</span></li>
   <li class="hazir"><span class="no">2</span><a href="docs/02_bilgisayar-nasil-dusunur.html">Bilgisayar nasıl düşünür?</a><span class="durum">Yayında</span></li>
-  <li><span class="no">3</span><span>İşletim sistemleri: masaüstü, mobil ve dosya yönetimi</span><span class="durum">Yakında</span></li>
+  <li class="hazir"><span class="no">3</span><a href="docs/03_isletim-sistemleri.html">İşletim sistemleri: masaüstü, mobil ve dosya yönetimi</a><span class="durum">Yayında</span></li>
   <li><span class="no">4</span><span>Ağ, internet, bulut ve kablosuz iletişim</span><span class="durum">Yakında</span></li>
   <li><span class="no">5</span><span>Bilgi okuryazarlığı: arama ve doğrulama</span><span class="durum">Yakında</span></li>
   <li><span class="no">6</span><span>Üretken yapay zekâ: nasıl çalışır, hayatı nasıl dönüştürüyor?</span><span class="durum">Yakında</span></li>

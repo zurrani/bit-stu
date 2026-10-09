@@ -1,0 +1,303 @@
+---
+title: "İşletim sistemleri: masaüstü, mobil ve dosya yönetimi"
+subtitle: "Hafta 3"
+description: "Yazılım ve işletim sistemi; Windows, Linux, macOS, Android ve iOS; izinler ve mahremiyet; dosyalar, uzantılar, klasörler ve adlandırma; 3-2-1 yedekleme."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>3 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.3 Veriyi yönetme, 4.1 Cihazları koruma, 4.2 Mahremiyet</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Bir bilgisayarın ne zaman "çöp" olacağına donanım mı karar verir, yazılım mı?</p>
+</div>
+```
+
+Geçen hafta bilgisayarın donanımını, yani aşçıyı, tezgâhı ve kileri gördük. Bu hafta mutfağı yöneten yazılıma geçiyoruz: işletim sistemi. Hangi işletim sistemini kullandığın; cihazının kaç yıl güvenle çalışacağını, verilerinin kimlerle paylaşılacağını ve ne kadar para harcayacağını belirler. Haftanın ikinci yarısında her gün yaptığımız ama pek düşünmediğimiz bir işe bakacağız: dosyaları adlandırmak, düzenlemek ve kaybetmemek.
+
+**Okuma süresi:** yaklaşık 25 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. İşletim sisteminin temel görevlerini açıklamak.
+2. Windows, Linux, macOS, Android ve iOS'u açıklık, güncelleme desteği, güvenlik ve mahremiyet açısından karşılaştırmak.
+3. Kendi telefonundaki uygulama izinlerini ve bilgisayarındaki gizlilik ayarlarını denetlemek.
+4. Dosya adı, uzantı, yol ve klasör yapısını kullanmak; tutarlı bir adlandırma ve sürüm kuralı uygulamak.
+5. Kendi verileri için 3-2-1 yedekleme planı kurmak.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Yazılım nedir?
+
+Yazılım, donanıma ne yapacağını söyleyen komutlar bütünüdür. 1990'ların el konsollarındaki Tetris oyunu, cihazın çipine gömülü küçük bir programdı; o cihaz başka bir şey yapamazdı. Bugün aynı oyunun birkaç yüz satırlık bir JavaScript sürümü herhangi bir tarayıcıda çalışabilir. Oyun aynı, ama birincisi tek işe adanmış bir gömülü sistemdeydi, ikincisi genel amaçlı bir bilgisayarda bir uygulama olarak çalışıyor.
+
+Yazılımlar iki büyük gruba ayrılır:
+
+| Tür | Görevi | Örnek |
+|---|---|---|
+| Sistem yazılımı | Bilgisayarın çalışmasını ve donanımın yönetilmesini sağlar | İşletim sistemi, aygıt sürücüleri, BIOS ve UEFI |
+| Uygulama yazılımı | Kullanıcının işini görür | Tarayıcı, kelime işlemci, oyun, mesajlaşma uygulaması |
+
+Bilgisayar açıldığında ilk çalışan yazılım anakarttaki **UEFI**'dir (eski bilgisayarlarda BIOS): donanımı kontrol eder ve işletim sistemini başlatır. **Aygıt sürücüleri** ise işletim sistemi ile belirli bir donanım (yazıcı, ekran kartı, kamera) arasında çevirmenlik yapar; sürücüsü olmayan bir yazıcıyı işletim sistemi tanımaz.
+
+## 2. İşletim sistemi ne yapar?
+
+İşletim sistemi, donanım ile kullanıcı ve uygulamalar arasındaki yöneticidir. Beş temel görevi vardır:
+
+- **Süreç yönetimi:** Aynı anda açık onlarca programa sırayla işlemci zamanı verir.
+- **Bellek yönetimi:** Hangi programın RAM'in neresini kullanacağına karar verir; RAM yetmezse diski yedek bellek gibi kullanır (Hafta 2'deki sürekli yanan disk ışığı).
+- **Dosya yönetimi:** Dosyaların diskte nerede ve nasıl tutulacağını düzenler.
+- **Giriş-çıkış yönetimi:** Klavyeden, kameradan, ağdan gelen ve ekrana, yazıcıya giden veriyi yönetir.
+- **Güvenlik:** Kullanıcı hesaplarını, izinleri ve programların birbirine karışmamasını sağlar.
+
+İşletim sistemini bir havalimanının hava trafik kontrolü gibi düşünebilirsin: pist (işlemci) tektir, uçaklar (programlar) sırayla iner ve kalkar, kule her birine zaman dilimi verir ve çarpışmalarını önler. Kule çökerse hiçbir uçak kalkamaz. Windows'ta bu çöküşün bilinen yüzü **mavi ekrandır**: çekirdekte kurtarılamaz bir hata olduğunda sistem, verileri daha fazla bozmamak için kendini durdurur.
+
+İşletim sisteminin kalbine **çekirdek** denir; donanımla doğrudan konuşan, en ayrıcalıklı katman odur.
+
+### Grafik arayüz ve komut satırı
+
+Çoğumuz işletim sistemini **grafik arayüzle** (GUI) kullanırız: pencereler, simgeler, fare. Ama hâlâ çok güçlü bir ikinci yol var: **komut satırı** (CLI). Komut satırında işlemleri yazarak yaparsın. İlk bakışta eski görünür, ama yüzlerce dosyaya aynı işlemi tek satırla uygulamak, uzaktaki bir sunucuyu yönetmek ya da bir işi otomatikleştirmek için vazgeçilmezdir.
+
+```text
+dir              klasördeki dosyaları listeler (macOS ve Linux'ta: ls)
+cd Belgeler      Belgeler klasörüne girer
+mkdir Deneme     Deneme adında yeni bir klasör oluşturur
+cd ..            bir üst klasöre çıkar
+```
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
+Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistemiyle değil, **gerçek zamanlı işletim sistemleriyle** çalışır. Bunlarda önemli olan hız değil, öngörülebilirliktir: bir görevin her seferinde belirli bir süre içinde tamamlanacağı garanti edilmelidir. Bu yazılımlar DO-178C gibi standartlara göre, her satırı izlenebilir biçimde geliştirilir ve onaylanır. Kokpitte ise pilotlar haritalar, el kitapları ve performans hesapları için Elektronik Uçuş Çantası (EFB) olarak tabletler kullanır.
+:::
+
+## 3. Masaüstü işletim sistemleri
+
+### Kısa bir zaman çizelgesi
+
+| Yıl | İşletim sistemi | Önemi |
+|---|---|---|
+| 1969–1973 | Unix (Bell Laboratuvarları) | Çok kullanıcılı tasarım; bugünkü Linux, macOS, Android ve iOS'un düşünsel atası |
+| 1981 | MS-DOS | IBM PC ile yaygınlaşan, komut satırlı işletim sistemi |
+| 1984 | Macintosh | Grafik arayüzü ve fareyi geniş kitlelere taşıdı |
+| 1985 | Windows 1.0 | Microsoft'un grafik arayüzü; DOS'un üzerinde çalışıyordu |
+| 1991 | Linux | Linus Torvalds'ın başlattığı açık kaynak çekirdek |
+| 2007–2008 | iPhone işletim sistemi ve Android | Akıllı telefon çağı |
+
+### Windows
+
+Dünyadaki masaüstü bilgisayarların çoğu Windows kullanır. Windows 10'un desteği 14 Ekim 2025'te sona erdi; bu tarihten sonra Microsoft, bireysel kullanıcılara yalnızca ek ve süreli bir güvenlik güncellemesi programı sundu. Windows 11 ise daha sıkı donanım gereksinimleri getirdi: TPM 2.0 adlı güvenlik çipi, güvenli önyükleme ve belirli bir yaştan yeni işlemciler. Bu yüzden teknik olarak sağlam olan pek çok bilgisayar resmî olarak Windows 11'e geçemiyor.
+
+Yeni Windows sürümleri yapay zekâ özellikleriyle de geliyor. Bunlardan Recall, ekranda yapılanların düzenli görüntülerini kaydedip aranabilir hale getirmek için tasarlandı; mahremiyet eleştirileri üzerine isteğe bağlı hale getirildi. Windows ayrıca Microsoft'a **tanılama verisi** (telemetri) gönderir; gönderilen verinin kapsamı Ayarlar'daki Gizlilik bölümünden sınırlanabilir.
+
+### Linux
+
+Linux aslında bir **çekirdektir**. Bu çekirdeğin üzerine masaüstü, uygulamalar ve araçlar eklenerek **dağıtımlar** oluşturulur: Ubuntu, Linux Mint, Fedora, Debian ve TÜBİTAK'ın geliştirdiği yerli dağıtım Pardus bunlardan bazılarıdır. Linux ücretsizdir ve açık kaynaklıdır.
+
+Masaüstünde payı küçük olsa da Linux dünyayı görünmeden yönetir: internet sunucularının ve bulut hizmetlerinin büyük çoğunluğu, dünyanın en güçlü süper bilgisayarlarının tamamı ve Android telefonlar Linux çekirdeğiyle çalışır. Desteği bitmiş eski bir bilgisayara hafif bir Linux dağıtımı kurmak, ona yıllarca güvenli kullanım kazandırabilir. Bir Linux dağıtımını USB belleğe yazıp bilgisayara hiçbir şey kurmadan denemek mümkündür (canlı USB).
+
+### macOS
+
+Apple'ın bilgisayarlarında çalışan macOS da Unix kökenlidir. Donanımı ve yazılımı aynı şirket ürettiği için uyumu yüksektir, ama yalnızca Apple cihazlarında çalışır.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Mac'e ve Linux'a virüs bulaşmaz." Yanlış. Bu sistemler daha az kullanıcıya sahip olduğu için tarihsel olarak daha az hedef alındı, ama zararlı yazılımlar her işletim sistemi için yazılır. Özellikle sosyal mühendislik, yani kullanıcıyı kandırıp bir şeyi kendi eliyle kurdurmak, hangi sistemi kullandığına bakmaz. Güncel tutmak ve dikkatli olmak her sistemde gereklidir.
+:::
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+Revolution OS (2001): Linux'un ve özgür yazılım hareketinin hikâyesini anlatan belgesel.
+:::
+
+## 4. Mobil işletim sistemleri
+
+Bugün telefonların neredeyse tamamı iki işletim sisteminden birini kullanır: Android ve iOS. Dünyada ve Türkiye'de Android belirgin biçimde çoğunluktadır.
+
+| | Android | iOS |
+|---|---|---|
+| Geliştiren | Google ve açık kaynak topluluğu | Apple |
+| Temel | Linux çekirdeği; açık kaynak çekirdeği AOSP | Kapalı kaynak; Unix kökenli |
+| Cihazlar | Pek çok üreticinin telefonu | Yalnızca iPhone |
+| Güncelleme süresi | Üreticiye ve modele göre değişir; bazı modellerde birkaç yıl, bazı üst modellerde yedi yıla kadar | Apple tarafından, genellikle uzun süre |
+| Uygulama kurma | Mağazanın yanında başka kaynaklardan da kurulabilir (yan yükleme) | Esas olarak App Store; AB'de düzenlemeyle alternatif mağazalara açıldı |
+
+Android'in ilk sürümleri tatlı adlarıyla anılırdı: Cupcake, Donut, KitKat, Lollipop. Bu alışkanlık 2019'da bırakıldı.
+
+**Ekosistemler de ölebilir.** 2009'da akıllı telefon pazarını Nokia'nın Symbian'ı ve BlackBerry yönetiyordu; Microsoft'un Windows Phone'u da önemli bir aday sayılıyordu. Birkaç yıl içinde üçü de neredeyse ortadan kalktı ve onlara bağlı uygulamalar, aksesuarlar ve alışkanlıklar da onlarla birlikte gitti. Bir platform seçmek, o platformun geleceğine de bahse girmektir; bu yüzden verilerini taşınabilir biçimlerde tutmak önemlidir.
+
+**Yan yükleme**, uygulamayı resmî mağaza dışından kurmaktır. Özgürlük sağlar, ama "modlu", yani değiştirilmiş uygulamalar zararlı yazılım taşımanın en yaygın yollarından biridir.
+
+## 5. İşletim sistemi ve mahremiyet
+
+İşletim sistemi verilerine en yakın yazılımdır: kameraya, mikrofona, konuma ve rehbere hangi uygulamanın erişeceğine o karar verir, ama sana sorarak. Bu kararları vermenin aracı **uygulama izinleridir**.
+
+- **İzinlerin işlevle uyumu:** Navigasyon uygulamasının konuma ihtiyacı vardır; el feneri uygulamasının rehbere ihtiyacı yoktur. İşlevle ilgisi olmayan bir izin, veri toplama işaretidir.
+- **"Yalnızca kullanırken":** Konum izni çoğu uygulama için "her zaman" değil, "yalnızca kullanırken" olmalıdır.
+- **Göstergeler:** Telefonlarda kamera ya da mikrofon kullanıldığında ekranın köşesinde küçük renkli bir nokta yanar.
+- **Reklam kimliği:** Telefonlar, uygulamaların seni reklam için tanımasını sağlayan bir kimlik numarası taşır. Android'de bu kimlik silinebilir; iOS'ta Uygulama İzleme Şeffaflığı özelliği, uygulamaların seni başka şirketlerin uygulamalarında izlemeden önce izin istemesini zorunlu kılar.
+- **Güncelleme desteği:** Desteği biten bir cihaz yeni bulunan güvenlik açıkları için yama almaz. Güncelleme yalnızca yeni özellik değil, kilidi değiştirmektir.
+
+Bu konuyu Hafta 8'de, verinin neden bu kadar değerli olduğunu konuşurken derinleştireceğiz.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Telefonunda "konuma her zaman erişebilen" uygulamaları hiç kontrol ettin mi? Ücretsiz bir uygulama konumunu sürekli istiyorsa, bu bilgiyle ne yapıyor olabilir?
+:::
+
+## 6. Açık kaynak ve özgür yazılım (okuma)
+
+Bir yazılımın **kaynak kodu**, insanların okuyabildiği komutlardır. **Kapalı kaynak** yazılımda bu kod gizlidir; yalnızca çalışan program dağıtılır. **Açık kaynak** yazılımda kod herkese açıktır: okunabilir, incelenebilir ve lisansına göre değiştirilip yeniden dağıtılabilir. Özgür yazılım hareketi ise 1980'lerden beri kullanıcının yazılımı çalıştırma, inceleme, değiştirme ve paylaşma özgürlüğünü savunur.
+
+Açık kaynağın güvenlik savunusu, yazar Eric S. Raymond'ın "Linus yasası" dediği ilkeye dayanır: "Yeterince göz varsa, bütün hatalar sığdır." Kodu çok kişi okuyabildiğinde hatalar daha çabuk bulunabilir. Ama yalnızca açık olmak yetmez; kodu gerçekten okuyan ve bakımını yapan bir topluluk gerekir. Linus Torvalds'ın sık anılan sözü de bu kültürü özetler: "Laf ucuzdur, kodu göster." Yazılım lisanslarını (GPL, MIT gibi) Hafta 7'de telif hakkıyla birlikte göreceğiz.
+
+## 7. Dosyalar, klasörler ve adlandırma
+
+### Dosya adı ve uzantı
+
+Bir dosyanın adı iki parçadan oluşur: ad ve uzantı. `staj-raporu.docx` dosyasında `staj-raporu` ad, `docx` uzantıdır. Uzantı, işletim sistemine dosyayı hangi programla açacağını söyler.
+
+| Tür | Sık görülen uzantılar |
+|---|---|
+| Belge | .docx, .pdf, .odt, .txt |
+| Tablo | .xlsx, .csv, .ods |
+| Sunum | .pptx, .odp |
+| Görüntü | .jpg, .png, .webp, .heic |
+| Ses ve video | .mp3, .m4a, .mp4, .mov |
+| Sıkıştırılmış | .zip, .7z, .rar |
+| Çalıştırılabilir | .exe, .msi, .apk, .bat |
+
+Uzantının harf sayısı sabit değildir: `.docx` ve `.xlsx` dört, `.7z` iki harflidir.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Bir dosyanın uzantısını değiştirirsem dosyayı başka bir türe çevirmiş olurum." Yanlış. Uzantı yalnızca dosyanın adının bir parçasıdır; içeriği değişmez. `tablo.xlsx` dosyasının adını `tablo.pdf` yaparsan PDF elde etmezsin, açılamayan bir dosya elde edersin. Dönüştürmek için programın "Farklı kaydet" ya da "Dışa aktar" komutu kullanılır.
+:::
+
+### Gizlenen uzantıların riski
+
+Windows varsayılan olarak bilinen uzantıları gizler. Bu yüzden `fatura.pdf.exe` adlı bir dosya ekranda `fatura.pdf` olarak görünür; oysa bu bir belge değil, çalıştırılabilir bir programdır ve açıldığında bilgisayarında kod çalıştırabilir. Saldırganların en eski hilelerinden biri budur. Dosya Gezgini'nin Görünüm menüsünden "Dosya adı uzantılarını göster" seçeneğini açmak, birkaç saniyede alınabilecek en etkili güvenlik önlemlerinden biridir.
+
+### Yol ve klasör ağacı
+
+Dosyalar iç içe klasörlerde durur. Bir dosyanın tam adresine **yol** denir:
+
+```text
+C:\Users\Ali\Belgeler\Staj\2026-10-15_staj-raporu_v2.docx
+```
+
+Burada `C:` sürücüyü, aradaki adlar klasörleri, en sondaki ise dosyanın kendisini gösterir.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Diskin adı C: çünkü 'Computer' kelimesinden geliyor." Yanlış. İlk kişisel bilgisayarlarda sabit disk yoktu; programlar disketlerden çalışırdı ve A: ile B: disket sürücülerine ayrılmıştı. Sabit diskler geldiğinde sıradaki harfi, C:'yi aldılar. Disketler kalktı, ama gelenek kaldı.
+:::
+
+### Adlandırma ve sürüm kuralı
+
+"rapor_son.docx", "rapor_son_son.docx", "rapor_GERCEKSON_v3.docx": hangisi güncel? Tutarlı bir adlandırma kuralı bu karmaşayı bitirir.
+
+- **Tarih başta ve YYYY-AA-GG biçiminde:** `2026-10-15_staj-raporu.docx`. Bu biçim dosyalar ada göre sıralandığında kendiliğinden tarih sırasına da girer.
+- **Sürüm numarası:** `_v1`, `_v2`. "son", "yeni", "kesin" gibi kelimeler zamanla anlamını yitirir.
+- **Boşluk ve Türkçe karakter yerine tire:** Bazı sistemler, e-posta ekleri ve web adresleri boşluk ve ç, ğ, ş gibi harflerle sorun yaşayabilir.
+- **Anlamlı ad:** `IMG_2341.jpg` yerine `2026-10-15_hangar-gezisi_01.jpg`.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Hangi revizyon güncel?"}
+Bakımda yalnızca geçerli revizyondaki doküman kullanılır. Bakım el kitapları düzenli olarak revize edilir ve eski bir revizyonla yapılan iş, hatalı bir değer ya da kaldırılmış bir prosedür demek olabilir. Bu yüzden havacılıkta bir dokümanın güncel olup olmadığı dosya adına ya da "son" kelimesine bakılarak değil, onaylı sistemdeki revizyon listesinden kontrol edilir. Kendi dosyalarında tarih ve sürüm numarası kullanmayı alışkanlık haline getirmek, bu disiplinin küçük bir provasıdır.
+:::
+
+## 8. Kapanış: kaybetmemek ve vazgeçmemek
+
+### 3-2-1 yedekleme kuralı
+
+Bir dosyanın tek kopyası, hiç kopyası olmaması gibidir. Yedeklemenin en bilinen kuralı 3-2-1'dir:
+
+- **3** kopya: asıl dosya ve iki yedek
+- **2** farklı ortam: örneğin bilgisayarın diski ve harici bir disk
+- **1** kopya başka bir yerde: örneğin bulutta ya da evden farklı bir konumda
+
+Bilgisayara sürekli takılı duran bir harici disk tek başına yeterli değildir: hırsızlık, yangın ya da fidye yazılımında iki kopya birlikte kaybolabilir.
+
+**Senkronizasyon yedek değildir.** Bulutla eşitlenen bir klasörde bir dosyayı silersen ya da bir fidye yazılımı dosyayı şifrelerse, bu değişiklik birkaç saniye içinde buluta da yansır. Seni kurtaran, bulut hizmetinin **sürüm geçmişi** ya da bilgisayara bağlı olmayan bir kopyadır (bulutu Hafta 4'te ayrıntılı göreceğiz).
+
+### Windows 10 bilgisayarın çöp mü?
+
+Haftanın sorusuna dönelim. Desteği biten bir bilgisayar için seçenekler:
+
+| Seçenek | Maliyet | Güvenlik | Dikkat |
+|---|---|---|---|
+| Windows 11'e yükseltmek | Ücretsiz, donanım uygunsa | Yüksek | Donanım gereksinimlerine takılabilir |
+| Ek güvenlik güncellemeleri | Düşük | Süreli | Geçici bir çözümdür |
+| Linux kurmak | Ücretsiz | Yüksek | Bazı programlar çalışmayabilir; önce canlı USB ile denenmeli |
+| Yeni cihaz almak | Yüksek | Yüksek | Eski cihaz elektronik atığa dönüşmemeli; ikinci el ya da bağış düşünülmeli |
+
+Görüldüğü gibi bir bilgisayarın ömrünü çoğu zaman donanım değil, yazılım desteği belirler; ama bu kaderi değiştirmek için de bir alternatif hep vardır.
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: bugün telefonunun izinlerini düzenler, dosya uzantılarını görünür yapar ve ilk 3-2-1 planını kurarsın. Orta vadede: iş yerinde Windows, Linux ya da tablet tabanlı sistemlerle karşılaştığında yabancılık çekmez, dosyaları herkesin bulabileceği biçimde adlandırırsın. Uzun vadede: destek ömrü ve ekosistem seçiminin para, güvenlik ve mahremiyet kararı olduğunu bilerek cihaz alır, verilerini hiçbir platforma rehin bırakmazsın.
+:::
+
+## Akılda kalsın
+
+- **İşletim sistemi yöneticidir.** Süreç, bellek, dosya, giriş-çıkış ve güvenliği yönetir; çekirdek çökerse her şey durur.
+- **Bir sistemi seçmek bir ekosistemi seçmektir.** Windows, Linux, macOS, Android ve iOS açıklık, güncelleme süresi ve mahremiyet bakımından farklıdır; ekosistemler de ölebilir.
+- **Güncelleme kilidi değiştirmektir.** Desteği biten sistem yeni açıklara karşı korumasız kalır; izinler işlevle uyumlu olmalıdır.
+- **Uzantı yalnızca addır ve gizlenebilir.** Uzantıları görünür yap; dosyaları tarih, sürüm ve anlamlı adla kaydet.
+- **Tek kopya, kopya değildir.** 3-2-1 kuralını uygula; senkronizasyon yedek değildir.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: yazılım, sistem yazılımı, uygulama yazılımı, işletim sistemi, çekirdek, aygıt sürücüsü, UEFI, BIOS, TPM, mavi ekran, grafik arayüz (GUI), komut satırı (CLI), gerçek zamanlı işletim sistemi, DO-178C, Elektronik Uçuş Çantası (EFB), dağıtım, canlı USB, telemetri, destek ömrü, AOSP, yan yükleme, uygulama izni, reklam kimliği, Uygulama İzleme Şeffaflığı, kaynak kodu, açık kaynak, özgür yazılım, dosya uzantısı, yol, revizyon, 3-2-1 kuralı, senkronizasyon, sürüm geçmişi.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="D" data-explain="İşletim sistemi süreç, bellek, dosya, giriş-çıkış ve güvenliği yöneten yazılımdır."}
+**1.** Donanım ile kullanıcı ve uygulamalar arasında kaynakları yöneten yazılım hangisidir?
+
+- A\) Aygıt sürücüsü
+- B\) Uygulama yazılımı
+- C\) Tarayıcı
+- D\) İşletim sistemi
+- E\) Kelime işlemci
+:::
+
+::: {.quiz-q data-answer="A" data-explain="3-2-1'in 1'i, kopyalardan birinin farklı bir yerde, örneğin bulutta durmasıdır."}
+**2.** 3-2-1 yedekleme kuralındaki "1" neyi anlatır?
+
+- A\) Kopyalardan birinin başka bir konumda durmasını
+- B\) Günde bir kez yedek alınmasını
+- C\) Tek bir harici disk kullanılmasını
+- D\) Yalnızca bir dosyanın yedeklenmesini
+- E\) Yedeğin bir yıl saklanmasını
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Uzantılar gizliyken .exe görünmez; dosya belge değil programdır. Açmadan uzantıları görünür yapıp dosyayı silmek ya da bildirmek gerekir."}
+**3.** E-postadan gelen "fatura.pdf.exe" dosyası, uzantılar gizliyken nasıl görünür ve ne yapmalısın?
+
+- A\) "fatura.exe" görünür; açmak güvenlidir.
+- B\) "fatura.pdf.exe" görünür; PDF okuyucuyla açılmalıdır.
+- C\) Hiç görünmez; bir şey yapmaya gerek yoktur.
+- D\) "fatura" görünür; yeniden adlandırıp açmak yeterlidir.
+- E\) "fatura.pdf" görünür; açmadan uzantıları görünür yapmalı, dosyayı silmeli ya da bildirmelisin.
+:::
+
+::: {.quiz-q data-answer="B" data-explain="Navigasyon uygulamasının konuma ihtiyacı vardır, ama yalnızca kullanılırken."}
+**4.** Bir navigasyon uygulaması için en uygun konum izni hangisidir?
+
+- A\) Her zaman
+- B\) Yalnızca uygulamayı kullanırken
+- C\) Hiçbir zaman; navigasyon konumsuz çalışır
+- D\) Yalnızca gece
+- E\) Rehber izniyle birlikte her zaman
+:::
+
+::: {.quiz-q data-answer="C" data-explain="Daha az hedef alınmak, hiç hedef alınmamak demek değildir; güncelleme ve dikkat her sistemde gereklidir."}
+**5.** Bir arkadaşın "Mac kullanıyorum, virüs bulaşmaz, güncelleme yapmama da gerek yok" diyor. En isabetli değerlendirme hangisidir?
+
+- A\) Doğru; Mac'e zararlı yazılım yazılmaz.
+- B\) Doğru; güncellemeler yalnızca yeni özellik getirir.
+- C\) Yanlış; her işletim sistemi hedef olabilir, güncellemeler güvenlik açıklarını kapatır.
+- D\) Yanlış; ama yalnızca antivirüs kurması yeterlidir.
+- E\) Yalnızca Linux için doğrudur.
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-D, 2-A, 3-E, 4-B, 5-C.
+:::
