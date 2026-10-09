@@ -62,6 +62,8 @@ website:
             href: docs/07_dijital-vatandaslik-hukuk.qmd
           - text: "8 · Mahremiyet"
             href: docs/08_mahremiyet.qmd
+          - text: "9 · Siber güvenlik"
+            href: docs/09_siber-guvenlik.qmd
       - section: "Ekler"
         contents:
           - text: "Sözlük"
