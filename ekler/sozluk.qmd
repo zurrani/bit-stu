@@ -13,6 +13,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | ADS-B (4) | Uçağın konumunu, irtifasını ve hızını düzenli olarak yayınladığı gözetim sistemi |
 | Alan adı (4) | IP adresinin yerine kullanılan, akılda kalan ad (iuc.edu.tr gibi) |
 | Algoritma (1) | Bir sorunu çözmek için izlenen, sırası belli adımlar dizisi |
+| Alıntı (5) | Başkasının cümlesini aynen, tırnak içinde ve kaynağıyla kullanmak |
 | Amara yasası (1) | Teknolojinin kısa vadeli etkisini abartıp uzun vadeli etkisini küçümseme eğilimi |
 | Analog (2) | Kesintisiz değişen; arada atladığı değer olmayan (cıvalı termometre gibi) |
 | Analog-dijital dönüştürücü, ADC (2) | Analog bir sinyali örnekleyip sayıya çeviren devre; tersi dijital-analog dönüştürücüdür (DAC) |
@@ -20,7 +21,10 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | ARINC 429 (2) | Uçak sistemleri arasında veriyi 32 bitlik kelimelerle taşıyan veri yolu standardı |
 | ARM (2) | Telefonlarda başlayıp dizüstülere yayılan, az enerji harcayan işlemci mimarisi |
 | ARPANET (4) | 1969'da ABD'de kurulan, internetin öncüsü olan araştırma ağı |
+| Arama motoru (5) | Web'deki sayfaları tarayıp dizinleyen ve aramaya göre sıralayan hizmet |
+| Arama operatörü (5) | Aramayı daraltan özel ifade ("...", -, OR, site:, filetype:) |
 | ASCII (2) | 7 bitle 128 karakteri kodlayan karakter tablosu (1963); Türkçe harfleri içermez |
+| Atıf (5) | Bir bilginin, fikrin ya da cümlenin hangi kaynaktan alındığını belirtmek |
 | Aygıt sürücüsü (3) | İşletim sistemi ile belirli bir donanım arasında çevirmenlik yapan yazılım |
 | Bant genişliği (4) | Bir bağlantının saniyede taşıyabildiği veri miktarı; hız |
 | Barometrik altimetre (4) | Dış hava basıncını ölçerek irtifayı hesaplayan uçak aleti |
@@ -37,6 +41,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Bilgi (1) | Enformasyonun yorumlanıp anlam kazanmış hali |
 | Bilim (1) | Evreni ve doğayı anlamak için sistematik bilgi üretme çabası |
 | Bilişim (1) | Bilginin, özellikle elektronik makineler aracılığıyla düzenli biçimde işlenmesi; Fransızca "informatique" karşılığı (1971) |
+| Birincil kaynak (5) | Bilginin ilk ortaya çıktığı yer (yönetmeliğin metni, araştırmanın makalesi, resmî rapor) |
 | Bit hızı (2) | Bir ses ya da video dosyasının saniyede kullandığı veri miktarı; kbps ile ölçülür |
 | Bit (1) | İkili sayı sisteminde 0 ya da 1 değerini alan, bilginin en küçük birimi |
 | Bluetooth (4) | Birkaç metrelik mesafede cihazları kablosuz bağlayan teknoloji |
@@ -47,13 +52,17 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Çözünürlük (2) | Bir görüntünün kaç pikselden oluştuğu (örnek: 1920 × 1080) |
 | Dağıtım (3) | Linux çekirdeğinin üzerine masaüstü, uygulama ve araçlar eklenerek hazırlanmış işletim sistemi (Ubuntu, Pardus gibi) |
 | Darboğaz (2) | Bir sistemin hızını sınırlayan en yavaş halka |
+| Deepfake (5) | Yapay zekâyla üretilmiş ya da değiştirilmiş, gerçek gibi görünen video, ses ya da görüntü |
 | Depolama (2) | Dosyaların kalıcı olarak saklandığı birim (SSD ya da HDD) |
 | Destek ömrü (3) | Bir işletim sisteminin ya da cihazın güvenlik güncellemesi aldığı süre |
+| Dezenformasyon (5) | Bilerek uydurulup zarar vermek amacıyla yayılan yanlış bilgi |
 | DigComp (1) | Avrupa Komisyonu'nun dijital yetkinlik çerçevesi; güncel sürümü 3.0 (2025) |
 | Dijital ikiz (1) | Fiziksel bir nesnenin ya da sistemin, gerçek veriyle güncellenen sanal kopyası |
 | Dijital (2) | Kesikli; belirli adımlarla ve sayılarla ifade edilen |
+| Dizinleme (5) | Arama motorunun bulduğu sayfaların içeriğini bir katalog gibi düzenlemesi |
 | DNS (4) | Alan adlarını IP adreslerine çeviren sistem; internetin telefon rehberi |
 | DO-178C (3) | Havacılıkta uçak yazılımlarının geliştirilmesi ve onaylanması için kullanılan standart |
+| Doğrulama platformu (5) | Yaygın iddiaları inceleyip sonuçlarını yayımlayan kuruluş (Teyit, Doğruluk Payı gibi) |
 | Dosya uzantısı (3) | Dosya adının noktadan sonraki kısmı; dosyanın hangi programla açılacağını belirtir, içeriği değiştirmez |
 | Ekran kartı, GPU (2) | Binlerce basit işlemi aynı anda yapan işlem birimi; görüntü, video ve YZ hesaplarında kullanılır |
 | Elektronik Uçuş Çantası, EFB (3) | Pilotların harita, el kitabı ve performans hesapları için kullandığı tablet ya da cihaz |
@@ -63,6 +72,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Erişim noktası (4) | Kablosuz (Wi-Fi) yayın yaparak cihazları ağa bağlayan cihaz |
 | Eşzamanlı çalışma (4) | Birden fazla kişinin aynı belgede aynı anda çalışması |
 | Fiber optik kablo (4) | Veriyi ışık olarak taşıyan kablo; kıtalar arası internet trafiğinin büyük kısmı denizaltı fiber kablolarla taşınır |
+| Filtre balonu (5) | Algoritmaların kişiye yalnızca sevdiğine benzeyen içeriği göstermesiyle oluşan dar bilgi ortamı |
 | Gecikme (4) | Bir veri paketinin gidip gelme süresi; ping |
 | Gerçek zamanlı işletim sistemi (3) | Görevlerin her seferinde belirli bir süre içinde tamamlanacağını garanti eden işletim sistemi |
 | Geri besleme (2) | Çıkışta ölçülen sonucun yeniden girişe verilerek sistemin kendini düzeltmesi (termostat, otopilot) |
@@ -79,14 +89,18 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | IPv6 (4) | 128 bitlik adresler kullanan, neredeyse sınırsız adres sağlayan IP sürümü |
 | IP adresi (4) | Ağa bağlı bir cihazın sayısal adresi |
 | İkili sistem (1) | Yalnızca 0 ve 1 rakamlarını kullanan sayı sistemi; bilgisayarların temel dili |
+| İkincil kaynak (5) | Birincil kaynaktaki bilgiyi aktaran ya da yorumlayan kaynak (haber, özet) |
 | İnternet (4) | Dünyadaki bilgisayar ağlarının birbirine bağlanmasıyla oluşan ağlar ağı |
+| İntihal (5) | Başkasının emeğini kaynak göstermeden kendi emeği gibi sunmak |
 | İstemci (4) | Bir sunucudan hizmet isteyen bilgisayar ya da program (örneğin tarayıcı) |
 | İşlemci, CPU (2) | Komutları sırayla ve hızla işleyen birim; bilgisayarın genel beyni |
 | İşletim sistemi (3) | Donanım ile kullanıcı ve uygulamalar arasında kaynakları yöneten sistem yazılımı |
 | Karakter kodlaması (2) | Karakterlerin sayılara nasıl çevrileceğini belirleyen kural; uyuşmazlık bozuk karakterlere yol açar |
+| Kaynakça (5) | Bir çalışmada kullanılan kaynakların belirli bir biçimde listelenmesi |
 | Kaynak kodu (3) | Bir yazılımın insanların okuyabildiği komutlardan oluşan metni |
 | Kibibayt, KiB (2) | 1.024 bayt; ondalık kilobayttan (1.000 bayt) ayırmak için kullanılan ikili birim |
 | Komut satırı, CLI (3) | İşlemlerin komut yazılarak yapıldığı arayüz |
+| Kötü niyetli bilgi (5) | Doğru, ama bir kişiye ya da gruba zarar vermek amacıyla yayılan bilgi (malinformation) |
 | Kuram, teori (1) | Çok sayıda gözlem ve deneyle desteklenmiş, açıklama gücü yüksek bilimsel çerçeve |
 | LAN (4) | Yerel alan ağı; bir ev, okul ya da ofisteki ağ |
 | Makine (1) | Bir işi yapmak için kuvvet uygulayan ve hareketi kontrol eden fiziksel sistem |
@@ -114,15 +128,19 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | SaaS (4) | Hizmet olarak yazılım; tarayıcıdan kullanılan hazır uygulama (Gmail gibi) |
 | Sanayi devrimi (1) | 1760'larda İngiltere'de başlayan, makineleşme ve seri üretim dönemi |
 | Senkronizasyon (3) | Bir klasördeki değişikliklerin başka bir cihaza ya da buluta otomatik yansıtılması; yedek değildir |
+| SIFT (5) | Dur, kaynağı araştır, daha iyi kaynak bul, izini sür: dört adımlı doğrulama yöntemi |
 | Sıkıştırma (2) | Dosyayı küçültme; kayıplı (JPEG, MP3) ya da kayıpsız (PNG, ZIP) olabilir |
 | Sistem yazılımı (3) | Bilgisayarın çalışmasını ve donanımın yönetilmesini sağlayan yazılım |
+| Sponsorlu sonuç (5) | Arama sonuçlarında para ödendiği için üstte gösterilen reklam |
 | SSD (2) | Veriyi çiplerde tutan, hareketli parçası olmayan hızlı depolama birimi |
 | Sunucu (4) | Ağdaki diğer bilgisayarlara hizmet veren bilgisayar |
 | Sürüm geçmişi (3) | Bir dosyanın önceki sürümlerinin saklanması ve geri getirilebilmesi |
 | Tamir edilebilirlik (2) | Bir cihazın parçalarının değiştirilerek onarılabilme kolaylığı |
+| Tarama (5) | Arama motoru programlarının bağlantıları izleyerek sayfaları bulması |
 | TCP/IP (4) | İnternetin ortak iletişim protokolleri |
 | Teknoloji (1) | Bilimsel bilginin pratik sorunlara çözüm bulmak için kullanılması |
 | Telemetri (3) | İşletim sisteminin ya da uygulamanın üreticisine gönderdiği kullanım ve tanılama verisi |
+| Ters görsel arama (5) | Bir görseli yükleyerek internette ilk ne zaman ve nerede yayımlandığını bulma |
 | TPM (3) | Şifreleme anahtarlarını güvenle saklayan güvenlik çipi; Windows 11 için gereklidir |
 | Transistör (1) | Elektrik akımını açıp kapatan ya da yükselten yarı iletken bileşen; dijital elektroniğin temel taşı |
 | Uçtan uca şifreleme (4) | Verinin gönderenin cihazında şifrelenip yalnızca alıcıda çözülmesi; hizmet sağlayıcı içeriği okuyamaz |
@@ -136,6 +154,9 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Veri (1) | Bağlamı olmayan ham değer |
 | VOR (4) | Uçakların seyrüsefer için kullandığı, yerdeki VHF radyo istasyonu |
 | von Neumann mimarisi (2) | Program ve verinin aynı bellekte saklandığı, işlemcinin komutları sırayla aldığı bilgisayar düzeni (1945) |
+| Yanal okuma (5) | Bir kaynağı, başka kaynakların onun hakkında söylediklerine bakarak değerlendirmek |
+| Yankı odası (5) | Yalnızca aynı düşünenlerin bulunduğu, görüşlerin sürekli tekrarlanıp güçlendiği ortam |
+| Yanlış bilgi (5) | İyi niyetle, zarar verme amacı olmadan paylaşılan yanlış bilgi (misinformation) |
 | Yan yükleme (3) | Bir uygulamayı resmî mağaza dışındaki bir kaynaktan kurmak |
 | Yapay zekâ birimi, NPU (2) | Yapay zekâ hesaplarını az enerjiyle yapmak için tasarlanmış işlem birimi |
 | Yazılım (3) | Donanıma ne yapacağını söyleyen komutlar bütünü |
@@ -144,6 +165,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Yol (3) | Bir dosyanın sürücü ve klasörlerle birlikte tam adresi |
 | Yönlendirici (4) | Veri paketlerini doğru hedefe yönlendiren ağ cihazı (router) |
 | WAN (4) | Geniş alan ağı; ülkeler ve kıtalar arası ağ |
+| Wayback Machine (5) | Web sayfalarının geçmişteki hallerini saklayan arşiv |
 | Web (4) | Belgelerin birbirine bağlantılarla bağlandığı, internet üzerinde çalışan hizmet (World Wide Web) |
 | Wi-Fi (4) | Bir ev ya da binada cihazları kablosuz olarak ağa bağlayan teknoloji |
 | x86 (2) | Masaüstü ve dizüstü bilgisayarlarda uzun süre baskın olan işlemci mimarisi (Intel, AMD) |

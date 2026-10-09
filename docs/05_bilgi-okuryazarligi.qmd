@@ -1,0 +1,253 @@
+---
+title: "Bilgi okuryazarlığı: arama ve doğrulama"
+subtitle: "Hafta 5"
+description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal okuma ve SIFT; yanlış bilgi türleri; görselleri ve alıntıları doğrulamak; kaynak göstermek."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>5 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.1 Arama ve filtreleme, 1.2 Değerlendirme, 3.3 Telif</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> İnternette bulduğun bir bilginin doğru olduğundan nasıl emin olursun?</p>
+</div>
+```
+
+Aramak hiç bu kadar kolay olmamıştı; doğruyu bulmak ise hiç bu kadar zor olmamıştı. Bu hafta arama motorlarının nasıl çalıştığını ve onları nasıl daha iyi kullanacağını, sonra da asıl beceriyi öğreneceksin: bir bilginin, bir sitenin, bir fotoğrafın ya da bir alıntının güvenilir olup olmadığını birkaç dakikada sınamayı. Bu beceri gelecek hafta yapay zekâyla çalışırken de en büyük koruman olacak.
+
+**Okuma süresi:** yaklaşık 25 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. Arama operatörleriyle ve doğru kaynak türleriyle hedefli arama yapmak.
+2. Bir kaynağın güvenilirliğini yanal okuma ve SIFT yöntemiyle değerlendirmek.
+3. Yanlış bilgi, dezenformasyon ve kötü niyetli bilgiyi ayırt etmek; yayılma nedenlerini açıklamak.
+4. Bir görselin ya da alıntının kaynağını izleyerek doğrulamak.
+5. Kullandığın kaynakları doğru biçimde göstermek ve intihalden kaçınmak.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Arama motorları nasıl çalışır?
+
+Bir arama motoru, sen soruyu sormadan çok önce işe başlar. Üç adımda çalışır:
+
+1. **Tarama:** Otomatik programlar web'de bağlantıdan bağlantıya gezerek sayfaları bulur.
+2. **Dizinleme:** Bulunan sayfaların içeriği, dev bir kütüphane kataloğu gibi düzenlenir.
+3. **Sıralama:** Sen aradığında, katalogdaki milyonlarca sayfa içinden hangisinin önce gösterileceğine karar verilir.
+
+Sıralamayı belirleyen yüzlerce etken vardır: sayfanın aradığın kelimeleri içermesi, başka sitelerin ona ne kadar bağlantı verdiği, güncelliği, senin konumun ve geçmiş aramaların. Bu yüzden iki kişi aynı kelimeyi aradığında farklı sonuçlar görebilir. Ayrıca sonuçların en üstündeki bazı bağlantılar **reklamdır**; "Sponsorlu" etiketi taşırlar ve oraya ilgili oldukları için değil, para ödendiği için konmuşlardır.
+
+## 2. İyi arama
+
+### Kelime seçimi
+
+İyi bir arama, iyi bir soruyla başlar. "Uçak neden uçar" yerine "kaldırma kuvveti Bernoulli" gibi konunun kendi terimlerini kullanmak, aramayı daraltır. Sonuç çok fazlaysa terimi özelleştir ("güvenlik" yerine "ağ güvenliği"), çok azsa genişlet.
+
+### Arama operatörleri
+
+| Operatör | Ne yapar? | Örnek |
+|---|---|---|
+| `"..."` | Tam ifadeyi arar | `"bakım el kitabı"` |
+| `-` | Kelimeyi dışarıda bırakır | `uçak -oyuncak` |
+| `OR` | İki terimden birini içerenleri getirir | `İHA OR drone` |
+| `site:` | Yalnızca belirli bir sitede ya da alan adı türünde arar | `site:shgm.gov.tr`, `site:edu.tr` |
+| `filetype:` | Belirli dosya türünü arar | `filetype:pdf yönetmelik` |
+
+Operatörler birleştirilebilir: `site:shgm.gov.tr filetype:pdf İHA` sorgusu, yalnızca SHGM'nin sitesindeki ve İHA geçen PDF dosyalarını getirir. Eski sunumlarda ve sitelerde görebileceğin `+`, `~`, `related:` ve `info:` operatörleri ise artık çalışmıyor; arama motorları değiştikçe operatörler de değişir.
+
+### Arama motoru her şey değil
+
+| Ne arıyorsun? | Nereye bakmalı? |
+|---|---|
+| Bilimsel makale | Google Akademik, DergiPark |
+| Türkiye'deki tezler | YÖK Ulusal Tez Merkezi |
+| Yasa ve yönetmelik | Resmî Gazete, mevzuat.gov.tr |
+| Havacılık kuralları | SHGM, EASA, ICAO'nun kendi siteleri |
+| Bir sayfanın eski hali | Wayback Machine (web.archive.org) |
+
+### YZ ile arama
+
+Bugün birçok arama motoru sonuçların üstünde yapay zekâyla yazılmış bir özet gösteriyor; bazı sohbet asistanları da web'de arama yapıp kaynak gösteriyor. Bu özetler hızlıdır, ama yanılabilir: yanlış kaynağı özetleyebilir, kaynakları karıştırabilir, hatta var olmayan bir kaynak uydurabilir. YZ'nin gösterdiği kaynağa tıklayıp iddianın gerçekten orada yazdığını görmek, doğrulamanın en kısa yoludur. Bu konuyu gelecek hafta ayrıntılı göreceğiz.
+
+## 3. Kaynağı değerlendirmek
+
+### Dört soru
+
+Bir kaynağa güvenmeden önce dört soru sor:
+
+- **Kim yazdı?** Yazarın ya da kurumun bu konuda uzmanlığı var mı?
+- **Ne zaman?** Bilgi güncel mi? Teknoloji ve mevzuatta iki yıl çok uzun bir süre olabilir.
+- **Neden?** Amaç bilgilendirmek mi, satmak mı, ikna etmek mi, öfkelendirmek mi?
+- **Kanıt ne?** İddia bir kaynağa, veriye ya da belgeye dayanıyor mu?
+
+**Birincil kaynak**, bilginin ilk ortaya çıktığı yerdir: bir yönetmeliğin Resmî Gazete'deki metni, bir araştırmanın makalesi, bir kazanın resmî inceleme raporu. Haberler ve özetler **ikincil kaynaktır**; işe yararlar, ama bilgiyi aktarırken değiştirebilirler.
+
+### Yanal okuma
+
+Stanford Üniversitesi'nden araştırmacılar, profesyonel haber doğrulayıcılarla tarihçileri ve üniversite öğrencilerini karşılaştırdıkları çalışmalarında ilginç bir fark buldu. Öğrenciler ve hatta tarihçiler bir siteyi değerlendirirken o sitenin içinde kalıyor, "Hakkımızda" sayfasını okuyor, tasarımına bakıyordu. Doğrulayıcılar ise birkaç saniye içinde yeni sekmeler açıp **başkalarının o site hakkında ne dediğine** bakıyordu ve çok daha hızlı, çok daha doğru karar veriyordu. Bu yönteme **yanal okuma** denir.
+
+Bir analojiyle: Yeni bir lokantayı menüsünü okuyarak değil, mahalleliye sorarak tanırsın. Bir site kendisi hakkında her şeyi söyleyebilir; asıl bilgi, başkalarının onun hakkında söylediğidir.
+
+### SIFT: dört adımda doğrulama
+
+| Adım | Ne yaparsın? |
+|---|---|
+| **Dur** (Stop) | Bir bilgi seni çok kızdırıyor ya da çok sevindiriyorsa paylaşmadan önce dur. |
+| **Kaynağı araştır** (Investigate) | Bunu kim yayımladı? Yanal okumayla kaynağın kim olduğuna bak. |
+| **Daha iyi kaynak bul** (Find) | Aynı iddiayı güvenilir başka kaynaklar da söylüyor mu? |
+| **İzini sür** (Trace) | İddiayı, alıntıyı ya da görseli ilk ortaya çıktığı yere kadar takip et. |
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Vikipedi güvenilmez bir kaynaktır." Yarı gerçek. Vikipedi'yi herkes düzenleyebilir ve bir makale yanlış ya da eksik olabilir; bu yüzden ödevde doğrudan kaynak olarak gösterilmez. Ama iyi bir başlangıç noktasıdır: konunun kavramlarını öğrenmek ve makalenin altındaki kaynaklara ulaşmak için. Doğru kullanım, Vikipedi'den yola çıkıp onun gösterdiği birincil kaynaklara gitmektir.
+:::
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Kaynak hiyerarşisi yazılıdır"}
+Havacılıkta hangi kaynağa güvenileceği kişisel bir tercih değildir, kuralla belirlenir. Bir bakım işinde değerler ve adımlar, üreticinin onaylı ve güncel revizyondaki dokümanından alınır; kurallar ise otoritelerin (SHGM, EASA, ICAO) yayınlarından. Forumlar, videolar ve "tecrübeli bir arkadaşın söylediği" yol gösterebilir, ama kaynak olamaz. Bir kaza olduğunda da ilk saatlerde sosyal medyada pek çok iddia dolaşır; asıl bilgi aylar sonra yayımlanan resmî inceleme raporundadır. İyi bir teknisyen de iyi bir okuyucu gibi önce "Bunun kaynağı ne?" diye sorar.
+:::
+
+## 4. Yanlış bilginin türleri
+
+| Tür | Bilgi doğru mu? | Niyet zarar vermek mi? | Örnek |
+|---|---|---|---|
+| Yanlış bilgi (misinformation) | Hayır | Hayır | İyi niyetle paylaşılan yanlış bir sağlık önerisi |
+| Dezenformasyon | Hayır | Evet | Bilerek uydurulup yayılan sahte bir haber |
+| Kötü niyetli bilgi (malinformation) | Evet | Evet | Bir kişinin gerçek ama özel bilgisinin ona zarar vermek için yayılması |
+
+### Neden yayılıyor?
+
+2018'de yayımlanan geniş çaplı bir araştırma, bir sosyal medya platformunda yanlış haberlerin doğru haberlerden daha hızlı ve daha uzağa yayıldığını gösterdi. Nedeni botlardan çok insanlardı: yanlış haberler daha şaşırtıcı ve daha duygusaldı, insanlar da şaşırtıcı ve duygusal olanı paylaşıyordu.
+
+İki mekanizma bunu güçlendirir. **Filtre balonu**, algoritmaların sana yalnızca sevdiğine benzeyen içeriği göstermesiyle oluşur. **Yankı odası** ise yalnızca seninle aynı düşünenlerin olduğu bir ortamda görüşlerinin sürekli tekrar edilip güçlenmesidir. İkisi birleşince "herkes böyle düşünüyor" sanırsın.
+
+**Deepfake**, yapay zekâyla üretilmiş ya da değiştirilmiş, gerçek gibi görünen video, ses ya da görüntüdür. Artık "gözümle gördüm" demek de tek başına yeterli kanıt değildir.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+"Bir yalan, gerçek daha ayakkabılarını giyerken dünyanın yarısını dolaşır." Bu söz genellikle Mark Twain'e atfedilir; ama benzerleri Twain'den çok önce de yazılmıştı ve Twain'in söylediğine dair bir kanıt yok. Yani yanlış bilgiyi anlatan en ünlü söz, kendisi de yanlış atfedilmiş bir söz. Bu senin için ne anlama geliyor?
+:::
+
+## 5. Görselleri ve alıntıları doğrulamak
+
+### Görseller
+
+Eski bir fotoğraf yeni bir olay gibi paylaşılabilir; bir başka ülkede çekilmiş bir görüntü buradaymış gibi sunulabilir. **Ters görsel arama** (Google Görseller, Google Lens, TinEye), fotoğrafı yükleyip onun internette ilk ne zaman ve nerede yayımlandığını bulmanı sağlar. Fotoğraf "bugün" çekildiği söylenirken yıllar önce yayımlanmışsa iddia yanlıştır.
+
+Türkiye'de Teyit ve Doğruluk Payı gibi doğrulama platformları, yaygın iddiaları inceleyip sonuçlarını yayımlar. Bir sayfanın ya da açıklamanın geçmişteki halini görmek için **Wayback Machine** kullanılabilir.
+
+### Alıntılar
+
+Ünlü sözlerin önemli bir kısmı ya hiç söylenmemiştir ya da başka birine aittir. Teknoloji tarihindeki "gaflar" listeleri bunun iyi bir örneğidir:
+
+- "Patent bürosunun kapatılması gerek, icat edilecek her şey icat edildi" sözü 1899'da ABD Patent Bürosu başkanı Charles Duell'e atfedilir; ama Duell'in böyle bir şey söylediğine dair kanıt yoktur.
+- "640 KB bellek herkese yeter" sözü Bill Gates'e atfedilir; Gates bunu söylediğini defalarca reddetmiştir ve bir kaynak bulunamamıştır.
+- "Dünya pazarında belki beş bilgisayara yer var" sözü IBM'in başkanı Thomas Watson'a atfedilir; bunun da güvenilir bir kaynağı yoktur.
+
+Bir alıntı gerçek olsa bile bağlamından koparılınca yanıltıcı olabilir. 1949'da Popular Mechanics dergisi, gelecekte bilgisayarların "belki yalnızca 1,5 ton" ağırlığında olabileceğini yazmıştı. Bu cümle bugün bir gaf olarak paylaşılır. Oysa o yıllarda ENIAC 30 ton ağırlığındaydı; dergi aslında bilgisayarların yirmi kat hafifleyeceğini öngörüyordu ve bu, kendi zamanı için iyimser bir tahmindi.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Sayılabilen her şey önemli değildir, önemli olan her şey sayılamaz." Bu söz internette çoğu zaman Einstein'a atfedilir. Bilinen ilk kaynağı ise sosyolog William Bruce Cameron'ın 1963 tarihli bir kitabıdır. Einstein'ın adı, bir sözü daha "güçlü" göstermek için en sık kullanılan addır.
+:::
+
+## 6. Kaynak göstermek ve intihal
+
+Başkasının fikrini, cümlesini, verisini ya da görselini kullandığında bunu belirtmen gerekir. Bunun üç yolu vardır:
+
+- **Doğrudan alıntı:** Cümleyi aynen alırsın, tırnak içine koyar ve kaynağını gösterirsin.
+- **Kendi cümlelerinle aktarma:** Fikri kendi kelimelerinle yazar ve kaynağını gösterirsin.
+- **Özetleme:** Uzun bir metnin ana fikrini kısaca anlatır ve kaynağını gösterirsin.
+
+**İntihal**, başkasının emeğini kendi emeğin gibi sunmaktır: kaynak göstermeden kopyalamak, kelimeleri biraz değiştirip kendi yazınmış gibi sunmak ya da başkasına yazdırılmış bir metni kendi adınla teslim etmek. Yapay zekânın yazdığı bir metni beyan etmeden kendi metnin gibi sunmak da bu derste aynı kapsamdadır.
+
+Bir kaynağı göstermenin pek çok biçimi vardır; bu derste kısa bir APA biçimi yeterlidir:
+
+```text
+Kitap:      Soyad, A. (Yıl). Kitabın adı. Yayınevi.
+Web sayfası: Kurum ya da yazar. (Yıl, gün ay). Sayfanın başlığı. Site adı. Adres
+```
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: ödevlerin için güvenilir kaynak bulur, doğru biçimde gösterir ve intihal riskinden kurtulursun. Orta vadede: iş yerinde bir prosedürün, bir duyurunun ya da bir parça bilgisinin resmî ve güncel kaynağını bulursun; sahte bir e-postayı ya da haberi fark edersin. Uzun vadede: sağlık, para ve seçim gibi hayatını etkileyen konularda yanlış bilgiye karşı bağışıklık kazanırsın.
+:::
+
+## 7. Kapanış: paylaşmadan önce
+
+Bir bilgiyi paylaşmadan önce beş saniyelik bir kontrol:
+
+1. Bu bilgi bende güçlü bir duygu uyandırıyor mu? Uyandırıyorsa dur.
+2. Kaynağı kim? Adını aratınca ne çıkıyor?
+3. Başka güvenilir kaynaklar da aynı şeyi söylüyor mu?
+4. Tarihi ne? Eski bir şey yeniymiş gibi mi sunuluyor?
+5. Emin değilsem paylaşmamak, yanlışı yaymaktan iyidir.
+
+Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1982'de şöyle anlatmıştı: "Enformasyon içinde boğuluyoruz, ama bilgiye açız." Hafta 1'deki basamakları hatırla: veri ve enformasyon bol; bilgiye ve bilgeliğe çıkmak ise senin işin.
+
+## Akılda kalsın
+
+- **Arama motorları sıralar, karar vermez.** Sonuçlar kişiselleştirilir, en üsttekiler reklam olabilir; operatörler ve doğru kaynak türü aramayı keskinleştirir.
+- **Siteye değil, siteye dışarıdan bak.** Yanal okuma ve SIFT, bir kaynağı dakikalar içinde sınamanın yoludur.
+- **Yanlış bilginin niyeti ve türü vardır.** Duygusal ve şaşırtıcı olan daha hızlı yayılır; filtre balonu ve yankı odası bunu güçlendirir.
+- **Görselin ve alıntının izini sür.** Ters görsel arama tarihi, ilk kaynak da sözün sahibini gösterir; bağlamdan koparılan gerçek bir alıntı da yanıltabilir.
+- **Kaynak göster.** Alıntı, aktarma ve özet kaynakla meşrudur; kaynaksız kopya intihaldir.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: arama motoru, tarama, dizinleme, sıralama, sponsorlu sonuç, arama operatörü, birincil kaynak, ikincil kaynak, yanal okuma, SIFT, yanlış bilgi, dezenformasyon, kötü niyetli bilgi, filtre balonu, yankı odası, deepfake, ters görsel arama, doğrulama platformu, Wayback Machine, alıntı, atıf, kaynakça, intihal.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="B" data-explain="Eksi işareti, ardından gelen kelimeyi içeren sonuçları dışarıda bırakır."}
+**1.** `uçak -oyuncak` araması ne yapar?
+
+- A\) Yalnızca oyuncak uçakları getirir.
+- B\) "Oyuncak" kelimesini içeren sonuçları dışarıda bırakır.
+- C\) "Uçak" ve "oyuncak" kelimelerini aynı sırayla arar.
+- D\) Yalnızca resmî siteleri getirir.
+- E\) Sonuçları tarihe göre sıralar.
+:::
+
+::: {.quiz-q data-answer="D" data-explain="Yanal okuma, sitenin kendi söylediğine değil, başkalarının o site hakkında söylediğine bakmaktır."}
+**2.** Yanal okuma nedir?
+
+- A\) Bir sayfayı baştan sona dikkatle okumak
+- B\) Sitenin "Hakkımızda" sayfasını incelemek
+- C\) Sayfayı yatay ekranda okumak
+- D\) Yeni sekmelerde, başka kaynakların o site ya da yazar hakkında ne dediğine bakmak
+- E\) Sitenin tasarım kalitesini değerlendirmek
+:::
+
+::: {.quiz-q data-answer="A" data-explain="Yönetmeliğin kendisi, Resmî Gazete'de yayımlanan metindir; haberler ve yorumlar ikincil kaynaktır."}
+**3.** Yeni bir yönetmelik değişikliği hakkında en birincil kaynak hangisidir?
+
+- A\) Yönetmeliğin Resmî Gazete'de yayımlanan metni
+- B\) Değişikliği anlatan bir haber sitesi
+- C\) Konuyla ilgili bir sosyal medya paylaşımı
+- D\) Bir forumdaki yorum
+- E\) Değişikliği özetleyen bir video
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Bilerek uydurulmuş ve zarar vermek amacıyla yayılan yanlış içerik dezenformasyondur."}
+**4.** Seçimden birkaç gün önce, bir adayı bilerek uydurulmuş sözlerle gösteren bir video yayılıyor. Bu hangisine örnektir?
+
+- A\) Yanlış bilgi (misinformation)
+- B\) Kötü niyetli bilgi (malinformation)
+- C\) Hiciv
+- D\) Filtre balonu
+- E\) Dezenformasyon
+:::
+
+::: {.quiz-q data-answer="C" data-explain="Duygusal ve şaşırtıcı bir iddia: önce dur, resmî kaynaktan kontrol et; emin değilsen paylaşma."}
+**5.** Mesajlaşma grubunda "Bir havayolu şirketi bugün herkese ücretsiz bilet veriyor, bu bağlantıya tıkla ve on kişiye gönder" mesajı dolaşıyor. En isabetli davranış hangisidir?
+
+- A\) Fırsat kaçmasın diye hemen tıklayıp paylaşmak
+- B\) Yalnızca tıklamak, paylaşmamak
+- C\) Durup şirketin resmî sitesinden ve hesaplarından kontrol etmek; doğrulanmadıkça tıklamamak ve paylaşmamak
+- D\) Grupta en çok kişi paylaştıysa doğru kabul etmek
+- E\) Bağlantı HTTPS ise güvenmek
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-B, 2-D, 3-A, 4-E, 5-C.
+:::

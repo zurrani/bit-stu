@@ -54,6 +54,8 @@ website:
             href: docs/03_isletim-sistemleri.qmd
           - text: "4 · Ağ, internet ve bulut"
             href: docs/04_ag-internet-bulut.qmd
+          - text: "5 · Bilgi okuryazarlığı"
+            href: docs/05_bilgi-okuryazarligi.qmd
       - section: "Ekler"
         contents:
           - text: "Sözlük"
