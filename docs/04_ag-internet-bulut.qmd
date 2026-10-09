@@ -1,0 +1,285 @@
+---
+title: "Ağ, internet, bulut ve kablosuz iletişim"
+subtitle: "Hafta 4"
+description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (IP, DNS, URL, HTTPS); kablolar ve dalgalar; bulut; sensörler; uçak da ağın parçası."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>4 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.4 İş birliği, 5.1 Teknik sorunlar</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Tarayıcıya bir adres yazıp Enter'a bastığın o bir saniyede neler oluyor?</p>
+</div>
+```
+
+Her gün yüzlerce kez yapıyoruz: bir adres yazıyoruz, sayfa açılıyor. Bu hafta o bir saniyenin içine bakacağız: adresin sayıya çevrilmesini, verinin parçalara bölünüp dünyanın öbür ucuna gitmesini, denizin altından geçen kabloları ve havadaki dalgaları. Ardından "bulut" denen şeyin aslında nerede durduğunu ve bir uçağın da nasıl bu ağın parçası olduğunu göreceğiz.
+
+**Okuma süresi:** yaklaşık 25 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. İnternet ile web'i ayırt etmek.
+2. Bir adres yazıldığında gerçekleşen adımları (DNS, IP, HTTPS) sırayla açıklamak.
+3. Bulutta depolama ile eşzamanlı çalışmayı ayırt etmek, paylaşım izinlerini ayarlamak ve verinin nerede durduğunu sorgulamak.
+4. Wi-Fi, hücresel, Bluetooth, NFC ve uydu bağlantılarını kullanım durumuna göre karşılaştırmak.
+5. HTTPS kilit simgesinin neyi garanti edip neyi etmediğini açıklamak.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. İletişimin kısa tarihi (okuma)
+
+İnsanlar bilgiyi uzağa taşımanın yollarını hep aradı. Endonezya'daki Leang Bulu Sipong 4 mağarasının duvarlarındaki av sahnesi yaklaşık 44 bin yıl öncesine tarihleniyor; bilinen en eski "mesajlardan" biri. Ardından duman ve ateş işaretleri, ulaklar, posta geldi. 1844'te Samuel Morse ilk uzun mesafeli telgraf mesajını gönderdi; 1876'da telefon, 1890'ların sonunda radyo geldi. Her adımda mesaj hem daha hızlı hem daha uzağa gitti.
+
+Her yeni iletişim teknolojisi de korkuyla karşılandı. 1980'lerde e-postanın, 1990'larda web'in, 2000'lerde video akışının interneti "kilitleyeceği" tartışıldı. Bugün aynı tartışma yapay zekânın yarattığı trafik için yapılıyor. Amara yasasını hatırla: kısa vadede abartır, uzun vadede küçümseriz.
+
+## 2. İnternetin doğuşu
+
+### Ağlar ağı
+
+**İnternet**, dünyanın dört bir yanındaki bilgisayar ağlarının birbirine bağlanmasıyla oluşan bir ağlar ağıdır. Kökeni, ABD'de araştırma kurumlarının bilgisayarlarını birbirine bağlamak için kurulan ARPANET'e dayanır.
+
+29 Ekim 1969'da ARPANET üzerinden gönderilen ilk mesaj "LOGIN" kelimesi olacaktı. İlk iki harf, "LO", gitti; sonra sistem çöktü. İnternetin ilk sözü böylece, kazara, "Lo" oldu.
+
+ARPANET'in temel fikri **paket anahtarlamaydı**: veri küçük paketlere bölünür, her paket hedefe kendi yolunu bulur ve varışta yeniden birleştirilir. Bir hat koparsa paketler başka yollardan gider. Bu tasarım internete bugün de dayanıklılığını veriyor. 1983'te ağlar ortak bir dil olan **TCP/IP** protokolüne geçti; bu tarih internetin doğum günlerinden biri sayılır.
+
+Türkiye internete 12 Nisan 1993'te, ODTÜ üzerinden bağlandı. Bugün üniversiteler ULAKBİM'in kurduğu ağ üzerinden internete erişir.
+
+### Web, internetin yalnızca bir parçası
+
+1989'da CERN'de çalışan Tim Berners-Lee, belgelerin birbirine bağlantılarla bağlandığı bir sistem önerdi: **World Wide Web**. İlk web sayfası hâlâ yayında: info.cern.ch. Berners-Lee web'in patentini almadı ve herkese açık bıraktı; 2012 Londra Olimpiyatları'nın açılışında yazdığı mesaj bunu özetliyordu: "Bu herkes için."
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"İnternet ile web aynı şeydir." Yanlış. İnternet altyapıdır: kablolar, yönlendiriciler ve ortak dil. Web ise bu altyapı üzerinde çalışan hizmetlerden yalnızca biridir. E-posta, anlık mesajlaşma, çevrimiçi oyunlar, görüntülü görüşme ve dosya aktarımı da internet üzerinde çalışır, ama web değildir. Yol ile o yolda giden otobüs hattı gibi düşün.
+:::
+
+Web de değişti. Web 1.0'da (yaklaşık 1990–2004) sayfalar çoğunlukla okunurdu. Web 2.0 ile kullanıcılar içerik üretmeye başladı: bloglar, sosyal medya, videolar. "Web 3.0" adı ise farklı kişilerce farklı anlamlarda kullanılıyor: kimi anlamsal web'i, kimi merkeziyetsiz, blokzincir tabanlı bir web'i kastediyor.
+
+## 3. Ağlar nasıl kurulur?
+
+| Ağ türü | Kapsadığı alan | Örnek |
+|---|---|---|
+| Yerel alan ağı (LAN) | Bir ev, okul, ofis | Laboratuvardaki bilgisayarlar |
+| Şehir alan ağı (MAN) | Bir şehir ya da kampüs | Üniversitenin yerleşkeleri arası ağ |
+| Geniş alan ağı (WAN) | Ülkeler, kıtalar | İnternetin kendisi |
+
+Ağdaki bilgisayarların çoğu **istemci-sunucu** düzeniyle çalışır: senin tarayıcın (istemci) bir istek gönderir, uzaktaki bilgisayar (sunucu) cevap verir.
+
+Evindeki "modem" aslında birkaç cihazın tek kutuda birleşmiş halidir: **modem** evini servis sağlayıcının hattına bağlar; **yönlendirici** (router) paketleri doğru yere yönlendirir; **anahtar** (switch) kablolu cihazları birbirine bağlar; **erişim noktası** Wi-Fi yayını yapar.
+
+## 4. Bir adres yazınca ne olur?
+
+### IP adresi ve alan adı
+
+Ağa bağlı her cihazın bir **IP adresi** vardır; posta adresi gibi düşünebilirsin. Eski sürüm IPv4, 32 bitlik adresler kullanır (örneğin 172.217.16.14) ve yaklaşık 4,3 milyar adrese izin verir. Bu sayı çoktan yetmez oldu; yeni sürüm IPv6, 128 bitlik adreslerle neredeyse sınırsız adres sağlar. Evdeki cihazların çoğu dışarıya tek bir ortak adresle çıkar.
+
+Kimse sayıları ezberlemek istemez. Bu yüzden **alan adları** (iuc.edu.tr gibi) kullanılır. Alan adını IP adresine çeviren sisteme **DNS** denir; internetin telefon rehberidir.
+
+### URL'nin parçaları
+
+```text
+https://www.iuc.edu.tr/tr/duyurular?sayfa=2
+```
+
+| Parça | Anlamı |
+|---|---|
+| `https` | Protokol: tarayıcı ile sunucunun konuşma dili, burada şifreli |
+| `www` | Alt alan: aynı kurumun farklı sunucularını ayırır |
+| `iuc.edu.tr` | Alan adı: `iuc` kurumun adı, `edu` eğitim, `tr` Türkiye |
+| `/tr/duyurular` | Yol: sitedeki sayfa |
+| `?sayfa=2` | Parametre: sayfaya gönderilen ek bilgi |
+
+**Alan adını sağdan sola oku.** Bir adresin sahibi, ilk `/` işaretinden hemen önceki son iki ya da üç parçadır. `https://iuc.edu.tr.giris-dogrula.xyz/login` adresinin sahibi `iuc.edu.tr` değil, `giris-dogrula.xyz`'dir; baştaki `iuc.edu.tr` yalnızca bir alt alan adıdır. Oltalama sitelerinin en sevdiği hilelerden biri budur (Hafta 9).
+
+### O bir saniye
+
+1. Tarayıcı, alan adının IP adresini DNS'e sorar.
+2. O adresteki sunucuyla bağlantı kurulur; HTTPS ise bu bağlantı şifrelenir.
+3. Tarayıcı sayfayı ister (HTTP isteği).
+4. Sunucu sayfayı paketler halinde gönderir; paketler farklı yollardan gelip tarayıcıda birleştirilir.
+
+Bunu kendi bilgisayarında görebilirsin:
+
+```text
+nslookup iuc.edu.tr     alan adının IP adresini gösterir
+ping iuc.edu.tr         sunucuya ulaşılıp ulaşılmadığını ve yanıt süresini ölçer
+tracert iuc.edu.tr      paketlerin geçtiği durakları listeler (macOS ve Linux'ta: traceroute)
+```
+
+### HTTPS ve kilit simgesi
+
+**HTTP** web'in konuşma dilidir. **HTTPS** aynı dilin şifreli halidir: tarayıcı ile sunucu arasındaki trafik başkaları tarafından okunamaz ve değiştirilemez. Bir analojiyle: HTTPS mühürlü bir zarftır. İçindeki mektup okunmaz, ama zarfın üstündeki adres, yani hangi siteye gittiğin, görünür.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Adres çubuğunda kilit simgesi varsa site güvenilirdir." Yanlış. Kilit yalnızca bağlantının şifreli olduğunu ve tarayıcının o alan adının sahibiyle konuştuğunu söyler. Sahte bir site de kilit simgesi alabilir; bugün oltalama sitelerinin çoğu HTTPS kullanır. Asıl soru şudur: Bu alan adı gerçekten olması gereken adres mi? `iuc.edu.tr` ile `iuc-giris.xyz` aynı şey değildir.
+:::
+
+Bir analojiyle bütün zinciri özetleyelim: IP adresi posta adresi, DNS telefon rehberi, paketler ise parçalarına ayrılıp farklı kamyonlarla gönderilen ve varışta yeniden kurulan bir mobilyadır.
+
+## 5. Kablolar ve dalgalar
+
+### İnternetin bedeni
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"İnternet uydulardan geliyor." Büyük ölçüde yanlış. Kıtalar arası internet trafiğinin çok büyük kısmı okyanus tabanına döşenmiş fiber optik kablolarla taşınır. Uydular daha çok kablonun ulaşmadığı yerler için, yani gemiler, uçaklar, dağ köyleri ve afet bölgeleri için önemlidir. Bulut havada değil, denizin dibinden geçen kablolarla birbirine bağlı veri merkezlerinde durur.
+:::
+
+### Kablosuz bağlantılar
+
+| Bağlantı | Menzil | En uygun kullanım |
+|---|---|---|
+| Wi-Fi | Bir ev ya da bina | Evde ve okulda internet; 2,4 GHz daha uzağa ulaşır, 5 GHz daha hızlıdır ama menzili kısadır |
+| Hücresel (4.5G, 5G) | Baz istasyonunun kapsadığı alan | Hareket halinde internet ve arama |
+| Bluetooth | Birkaç metre | Kulaklık, saat, klavye |
+| NFC | Birkaç santimetre | Temassız ödeme, kart okuma |
+| Uydu | Neredeyse her yer | Kablo ve baz istasyonunun ulaşmadığı yerler |
+
+Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep telefonu aramasını 3 Nisan 1973'te, New York sokağında, bir tuğla büyüklüğündeki cihazla yaptı. 1980'lerin analog birinci nesil (1G) şebekeleri yalnızca ses taşıyordu; 2G kısa mesajı, 3G mobil interneti, 4G video akışını getirdi; 5G ise düşük gecikme ve çok sayıda cihazı aynı anda bağlamayı hedefliyor. İlk akıllı telefon sayılan IBM Simon 1994'te satışa çıktı; dokunmatik ekranı ve e-postası vardı.
+
+### Hız ile gecikme aynı şey değil
+
+İnternet bağlantısının iki ayrı ölçüsü vardır:
+
+- **Bant genişliği** (hız), bir saniyede ne kadar veri taşındığıdır: otoyolun şerit sayısı gibi. Büyük dosyaları indirirken önemlidir.
+- **Gecikme** (ping), bir paketin gidip gelme süresidir: otoyolun uzunluğu gibi. Görüntülü görüşmede ve çevrimiçi oyunda önemlidir.
+
+Bir bağlantı çok hızlı ama yüksek gecikmeli olabilir: filmi hızla indirirsin, ama görüntülü görüşmede sesler gecikir. Yerden 36 bin kilometre yüksekteki sabit uydularla kurulan bağlantılarda gecikme bu yüzden fark edilir; alçak yörüngeli uydu ağları gecikmeyi büyük ölçüde azalttı.
+
+## 6. Bulut
+
+**Bulut bilişim**, depolama, yazılım ya da işlem gücünü kendi bilgisayarında değil, internet üzerinden başka birinin bilgisayarında kullanmaktır. Bilişimcilerin sevdiği bir espri bunu özetler: "Bulut diye bir şey yok, yalnızca başkasının bilgisayarı var."
+
+| Model | Ne kiralanır? | Örnek |
+|---|---|---|
+| Hizmet olarak yazılım (SaaS) | Hazır bir uygulama | Gmail, Google Dokümanlar, Microsoft 365'in web sürümü |
+| Hizmet olarak platform (PaaS) | Uygulama geliştirme ortamı | Yazılımcıların kullandığı bulut platformları |
+| Hizmet olarak altyapı (IaaS) | Sanal sunucu, depolama, ağ | Büyük bulut sağlayıcılarının sanal makineleri |
+
+### Depolamak ile birlikte çalışmak
+
+Bir dosyayı **buluta yüklemek**, kopyasını başka bir yerde saklamaktır. **Bulutta eşzamanlı çalışmak** ise birden fazla kişinin aynı belgede aynı anda çalışmasıdır: değişiklikler anında herkese yansır, kimin neyi değiştirdiği görünür ve **sürüm geçmişi** sayesinde eski bir sürüme dönülebilir. Dosyayı e-postayla gidip gelen "rapor_v7_son" kopyalarının yerini tek bir paylaşılan belge alır.
+
+### Paylaşım izinleri
+
+Bir belgeyi paylaşırken iki soru sorulur: kimle ve hangi yetkiyle?
+
+- **Görüntüleyen:** okur, değiştiremez.
+- **Yorumcu:** okur ve yorum bırakır.
+- **Düzenleyen:** değiştirir.
+
+"Bağlantıya sahip herkes düzenleyebilir" ayarı kolaydır, ama bağlantı bir kez başkasına iletildiğinde belge kontrolünden çıkar. İş belgeleri için kişi bazlı paylaşım ve en düşük yeterli yetki tercih edilmelidir.
+
+### Veri nerede duruyor?
+
+Bulut havada değil, belirli bir ülkedeki belirli bir veri merkezinde durur. Verinin hangi ülkede, hangi şirketin sunucusunda tutulduğu hem hukuki (kişisel verilerin yurt dışına aktarımı, Hafta 8) hem güvenlik sorusudur. Bazı hizmetler **uçtan uca şifreleme** sunar: dosyalar senin cihazında şifrelenir, hizmet sağlayıcı bile içeriği okuyamaz. Bulut bir depo kiralamaya benzer: eşyan güvende olabilir, ama anahtarın bir kopyası depocudadır; uçtan uca şifrelemede ise anahtar yalnızca sendedir.
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: "internet yok" dendiğinde sorunun Wi-Fi'de mi, modemde mi, DNS'te mi olduğunu ayırt edersin; ödevlerini bulutta doğru izinlerle paylaşırsın. Orta vadede: iş yerinde belgeleri eşzamanlı ve kontrollü paylaşırsın, sahte bir adresi kilit simgesine aldanmadan fark edersin. Uzun vadede: verinin hangi ülkede, kimin sunucusunda durduğunun bir hukuk ve güvenlik meselesi olduğunu bilirsin.
+:::
+
+## 7. Telefon bir sensör kutusudur
+
+Akıllı telefonun içinde onlarca sensör vardır: konum için uydu alıcısı, hareket için ivmeölçer ve jiroskop, yön için pusula, ekran parlaklığı için ışık sensörü ve birçok modelde hava basıncı için **barometre**. Bu sensörler internete bağlandığında ortaya **Nesnelerin İnterneti** (IoT) çıkar: akıllı saatler, termostatlar, fabrika makineleri, tarlalardaki nem sensörleri. Hafta 2'deki gömülü sistemlerin internete bağlanmış halidir.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
+Hava basıncı yükseldikçe azalır. Uçaklardaki **barometrik altimetre** irtifayı tam olarak bu ilkeyle, dış hava basıncını ölçerek hesaplar. Telefonundaki barometreyle bunu kendin görebilirsin: deniz seviyesine yakın yerlerde yaklaşık 8 metrelik yükselme, basıncı 1 hektopaskal kadar düşürür. Birkaç kat merdiven çıkarken ölçtüğün küçük fark, kokpitteki altimetrenin minyatür bir provasıdır.
+:::
+
+## 8. Kapanış: uçak da ağın parçası
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Uçak konuşur"}
+Bir yolcu uçağı uçarken sürekli konuşur:
+
+- **ADS-B:** Uçak konumunu, irtifasını ve hızını saniyede birkaç kez yayınlar. Flightradar24 gibi siteler bu yayınları, dünyanın dört bir yanındaki gönüllülerin kurduğu alıcılarla toplar; ağ kavramının somut bir örneğidir.
+- **Telsiz:** Pilotlar hava trafik kontrolüyle VHF hava bandında konuşur. Seyrüsefer için yerdeki VOR istasyonlarından gelen radyo sinyallerini kullanır.
+- **ACARS:** Uçak ile yer arasında kısa veri mesajları taşıyan sistemdir. Arıza mesajları bu yolla uçak daha inmeden bakım ekibine ulaşabilir; Hafta 1'deki "bir teknisyenin günü" tablosundaki değişimin arkasında bu bağlantı vardır.
+- **Kabinde internet:** Yolcuların interneti ya yerdeki istasyonlar ya da uydular üzerinden gelir.
+
+Bakım teknisyeni için ağ bilgisi soyut değildir: arıza mesajını alan, dokümanı tabletten açan, kaydı elektronik sisteme giren kişi odur. Bağlantı koptuğunda ne yapılacağını bilmek de işin parçasıdır (Hafta 9).
+:::
+
+### "İnternet yok" dendiğinde
+
+İnternet sorunlarını katman katman düşünmek, çözümü çoğu zaman dakikalar içinde bulur:
+
+| Kontrol | Nasıl? | Sorun buradaysa |
+|---|---|---|
+| Cihaz ağa bağlı mı? | Wi-Fi simgesi, kablo | Wi-Fi'ye yeniden bağlan, kabloyu kontrol et |
+| Modemin internet ışığı yanıyor mu? | Modemdeki ışıklar | Modemi yeniden başlat, servis sağlayıcıyı ara |
+| Dış dünyaya ulaşılıyor mu? | `ping 8.8.8.8` | Yanıt yoksa sorun bağlantıdadır |
+| Ad çözümü çalışıyor mu? | `nslookup iuc.edu.tr` | IP'ye ping var ama ad çözülmüyorsa sorun DNS'tedir |
+| Yalnızca tek bir site mi açılmıyor? | Başka bir site dene | Sorun o sitededir, sende değil |
+
+Bu, Hafta 2'deki "belirtiden parçaya" düşüncesinin ağdaki karşılığıdır.
+
+## Akılda kalsın
+
+- **İnternet ağlar ağıdır; web onun hizmetlerinden yalnızca biridir.** Veri paketlere bölünür, farklı yollardan gider, varışta birleşir.
+- **Bir adres önce sayıya çevrilir.** DNS alan adını IP adresine çevirir; URL'nin her parçasının bir anlamı vardır.
+- **Kilit, güvenilirlik değil şifrelemedir.** HTTPS trafiği gizler, ama sahte bir siteyi gerçek yapmaz; asıl bakılacak şey alan adıdır.
+- **Bağlantılar işe göre seçilir.** Wi-Fi, hücresel, Bluetooth, NFC ve uydu farklı menzil ve amaçlar içindir; hız ile gecikme farklı şeylerdir.
+- **Bulut başkasının bilgisayarıdır.** Eşzamanlı çalışmak, doğru izinle paylaşmak ve verinin nerede durduğunu sormak birlikte gelir.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: internet, web, ARPANET, paket anahtarlama, TCP/IP, protokol, istemci, sunucu, LAN, WAN, modem, yönlendirici, erişim noktası, IP adresi, IPv6, alan adı, DNS, URL, HTTP, HTTPS, Wi-Fi, hücresel ağ, Bluetooth, NFC, bant genişliği, gecikme, fiber optik kablo, bulut bilişim, SaaS, PaaS, IaaS, eşzamanlı çalışma, paylaşım izni, veri merkezi, uçtan uca şifreleme, Nesnelerin İnterneti, barometrik altimetre, ADS-B, VOR, ACARS.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="C" data-explain="İnternet altyapıdır; web onun üzerinde çalışan hizmetlerden biridir."}
+**1.** İnternet ile web arasındaki ilişki hangisidir?
+
+- A\) İkisi aynı şeyin farklı adlarıdır.
+- B\) Web altyapıdır, internet onun üzerinde çalışır.
+- C\) İnternet altyapıdır; web onun üzerinde çalışan hizmetlerden biridir.
+- D\) Web yalnızca e-postadır.
+- E\) İnternet yalnızca telefonlarda kullanılır.
+:::
+
+::: {.quiz-q data-answer="A" data-explain="DNS, internetin telefon rehberidir: alan adını IP adresine çevirir."}
+**2.** DNS'in görevi hangisidir?
+
+- A\) Alan adını IP adresine çevirmek
+- B\) Trafiği şifrelemek
+- C\) Dosyaları buluta yedeklemek
+- D\) Wi-Fi yayını yapmak
+- E\) Sayfaları hızlandırmak için sıkıştırmak
+:::
+
+::: {.quiz-q data-answer="E" data-explain="www alt alan, /tr/duyurular yol, https protokoldür; alan adı iuc.edu.tr'dir."}
+**3.** `https://www.iuc.edu.tr/tr/duyurular` adresinde alan adı hangisidir?
+
+- A\) https
+- B\) www
+- C\) /tr/duyurular
+- D\) tr/duyurular
+- E\) iuc.edu.tr
+:::
+
+::: {.quiz-q data-answer="B" data-explain="2,4 GHz duvarları daha iyi geçer ve daha uzağa ulaşır; 5 GHz daha hızlıdır ama menzili kısadır."}
+**4.** Modemden uzaktaki odada Wi-Fi sinyali zayıf. Hangi bant daha uzağa ulaşır?
+
+- A\) 5 GHz; çünkü daha hızlıdır
+- B\) 2,4 GHz; menzili daha uzundur, 5 GHz ise daha hızlı ama kısa menzillidir
+- C\) İkisinin menzili aynıdır
+- D\) Hiçbiri; Wi-Fi menzili banda bağlı değildir
+- E\) Bluetooth'a geçmek gerekir
+:::
+
+::: {.quiz-q data-answer="D" data-explain="Kilit yalnızca şifreli bağlantıyı gösterir; alan adı kurumun adresi değildir, bilgi girilmemelidir."}
+**5.** Üniversite giriş sayfasına benzeyen bir sayfada kilit simgesi var, ama adres `iuc-giris.xyz`. En isabetli değerlendirme hangisidir?
+
+- A\) Kilit olduğu için güvenlidir, giriş yapılabilir.
+- B\) Sayfa tasarımı aynıysa sorun yoktur.
+- C\) Yalnızca parola girilmez, kullanıcı adı girilebilir.
+- D\) Kilit yalnızca bağlantının şifreli olduğunu gösterir; alan adı kurumun adresi olmadığı için bilgi girilmemelidir.
+- E\) Sayfa yenilenirse güvenli hale gelir.
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-C, 2-A, 3-E, 4-B, 5-D.
+:::

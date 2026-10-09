@@ -52,6 +52,8 @@ website:
             href: docs/02_bilgisayar-nasil-dusunur.qmd
           - text: "3 · İşletim sistemleri"
             href: docs/03_isletim-sistemleri.qmd
+          - text: "4 · Ağ, internet ve bulut"
+            href: docs/04_ag-internet-bulut.qmd
       - section: "Ekler"
         contents:
           - text: "Sözlük"
