@@ -9,33 +9,69 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 |---|---|
 | Algoritma (1) | Bir sorunu çözmek için izlenen, sırası belli adımlar dizisi |
 | Amara yasası (1) | Teknolojinin kısa vadeli etkisini abartıp uzun vadeli etkisini küçümseme eğilimi |
+| Analog (2) | Kesintisiz değişen; arada atladığı değer olmayan (cıvalı termometre gibi) |
+| Analog-dijital dönüştürücü, ADC (2) | Analog bir sinyali örnekleyip sayıya çeviren devre; tersi dijital-analog dönüştürücüdür (DAC) |
+| ARINC 429 (2) | Uçak sistemleri arasında veriyi 32 bitlik kelimelerle taşıyan veri yolu standardı |
+| ARM (2) | Telefonlarda başlayıp dizüstülere yayılan, az enerji harcayan işlemci mimarisi |
+| ASCII (2) | 7 bitle 128 karakteri kodlayan karakter tablosu (1963); Türkçe harfleri içermez |
+| Bayt (2) | Sekiz bitten oluşan veri birimi; 256 farklı değer gösterebilir |
 | Beceri (1) | Bir aracı ya da yöntemi kullanabilme |
 | Beygir gücü (1) | James Watt'ın tanımladığı güç birimi; yaklaşık 745,7 watt |
+| BITE (2) | Built-in test equipment; uçak sistemlerinin kendi kendini test etmesini sağlayan donanım |
 | Bilgelik (1) | Bilgiyi deneyim ve değerlendirmeyle birleştirip doğru kararı verebilme |
-| Bilgi (1) | Enformasyonun yorumlanıp anlam kazanmış hali |
+| Bilgisayar (1) | Aritmetik ve mantıksal işlem dizilerini otomatik yürütmek üzere programlanabilen makine |
 | Bilgi işçisi (1) | Elleriyle değil, bilgiyle çalışan kişi (Peter Drucker, 1959) |
 | Bilgi toplumu (1) | Bilginin ve verinin temel üretim gücü haline geldiği toplum |
 | Bilgi ve iletişim teknolojileri, BİT (1) | Bilginin üretilmesi, saklanması, işlenmesi ve iletilmesi için kullanılan donanım, yazılım ve ağların tümü |
-| Bilgisayar (1) | Aritmetik ve mantıksal işlem dizilerini otomatik yürütmek üzere programlanabilen makine |
+| Bilgi (1) | Enformasyonun yorumlanıp anlam kazanmış hali |
 | Bilim (1) | Evreni ve doğayı anlamak için sistematik bilgi üretme çabası |
 | Bilişim (1) | Bilginin, özellikle elektronik makineler aracılığıyla düzenli biçimde işlenmesi; Fransızca "informatique" karşılığı (1971) |
+| Bit hızı (2) | Bir ses ya da video dosyasının saniyede kullandığı veri miktarı; kbps ile ölçülür |
 | Bit (1) | İkili sayı sisteminde 0 ya da 1 değerini alan, bilginin en küçük birimi |
 | Çoklu buluş (1) | Aynı buluşun birbirinden habersiz kişilerce neredeyse aynı anda yapılması |
+| Çözünürlük (2) | Bir görüntünün kaç pikselden oluştuğu (örnek: 1920 × 1080) |
+| Darboğaz (2) | Bir sistemin hızını sınırlayan en yavaş halka |
+| Depolama (2) | Dosyaların kalıcı olarak saklandığı birim (SSD ya da HDD) |
 | DigComp (1) | Avrupa Komisyonu'nun dijital yetkinlik çerçevesi; güncel sürümü 3.0 (2025) |
 | Dijital ikiz (1) | Fiziksel bir nesnenin ya da sistemin, gerçek veriyle güncellenen sanal kopyası |
+| Dijital (2) | Kesikli; belirli adımlarla ve sayılarla ifade edilen |
+| Ekran kartı, GPU (2) | Binlerce basit işlemi aynı anda yapan işlem birimi; görüntü, video ve YZ hesaplarında kullanılır |
 | Endüstri 4.0 (1) | Siber-fiziksel sistemler, Nesnelerin İnterneti ve veriye dayalı akıllı üretim dönemi |
 | Enformasyon (1) | Bağlam kazanmış, ne olduğu belli veri |
 | Entegre devre (1) | Çok sayıda transistör ve elektronik bileşenin tek bir yarı iletken parça üzerinde birleştirilmesi |
+| Geri besleme (2) | Çıkışta ölçülen sonucun yeniden girişe verilerek sistemin kendini düzeltmesi (termostat, otopilot) |
+| Gömülü sistem (2) | Tek bir işe adanmış, kullanıcının yeni program kuramadığı bilgisayar (saat, otomobil, uçak sistemleri) |
+| Hat değiştirilebilir birim, LRU (2) | Uçakta arızalandığında bütünüyle çıkarılıp yenisi takılabilecek şekilde tasarlanmış birim |
+| Hava verisi bilgisayarı (2) | Air Data Computer; pitot ve statik basınçtan uçağın hızını ve irtifasını hesaplayan gömülü bilgisayar |
+| HDD (2) | Dönen manyetik plakalarla çalışan sabit disk; ucuz ama yavaş ve darbeye hassas |
 | Hipotez (1) | Bir olguyu açıklayan, test edilebilir öneri |
 | İkili sistem (1) | Yalnızca 0 ve 1 rakamlarını kullanan sayı sistemi; bilgisayarların temel dili |
+| İşlemci, CPU (2) | Komutları sırayla ve hızla işleyen birim; bilgisayarın genel beyni |
+| Karakter kodlaması (2) | Karakterlerin sayılara nasıl çevrileceğini belirleyen kural; uyuşmazlık bozuk karakterlere yol açar |
+| Kibibayt, KiB (2) | 1.024 bayt; ondalık kilobayttan (1.000 bayt) ayırmak için kullanılan ikili birim |
 | Kuram, teori (1) | Çok sayıda gözlem ve deneyle desteklenmiş, açıklama gücü yüksek bilimsel çerçeve |
 | Makine (1) | Bir işi yapmak için kuvvet uygulayan ve hareketi kontrol eden fiziksel sistem |
+| Mantık kapısı (2) | Transistörlerden oluşan, 0 ve 1 girişlerine göre 0 ya da 1 çıkış veren temel devre (VE, VEYA, DEĞİL) |
 | Mikroişlemci (1) | Bir bilgisayarın işlem biriminin tamamını tek bir çipte toplayan entegre devre |
 | Moore yasası (1) | Bir çipteki transistör sayısının düzenli aralıklarla ikiye katlanacağı öngörüsü (1965) |
+| Niceleme (2) | Her ölçümün, belirli sayıda bitle yazılabilecek en yakın değere yuvarlanması |
 | Öngörücü bakım (1) | Sensör verisinden yararlanarak arızayı oluşmadan tahmin etmeye dayanan bakım yaklaşımı |
+| Örnekleme (2) | Analog bir sinyalin değerinin belirli aralıklarla ölçülmesi |
+| Parite biti (2) | Bir veri kelimesinin iletimde bozulup bozulmadığını anlamaya yarayan ek bit |
+| Piksel (2) | Ekrandaki görüntüyü oluşturan en küçük nokta |
+| RAM (2) | Çalışan programların ve verilerin geçici olarak tutulduğu hızlı bellek; elektrik kesilince silinir |
+| RGB (2) | Kırmızı, yeşil ve mavi ışığın karışımıyla renk oluşturma yöntemi |
 | Sanayi devrimi (1) | 1760'larda İngiltere'de başlayan, makineleşme ve seri üretim dönemi |
+| Sıkıştırma (2) | Dosyayı küçültme; kayıplı (JPEG, MP3) ya da kayıpsız (PNG, ZIP) olabilir |
+| SSD (2) | Veriyi çiplerde tutan, hareketli parçası olmayan hızlı depolama birimi |
+| Tamir edilebilirlik (2) | Bir cihazın parçalarının değiştirilerek onarılabilme kolaylığı |
 | Teknoloji (1) | Bilimsel bilginin pratik sorunlara çözüm bulmak için kullanılması |
 | Transistör (1) | Elektrik akımını açıp kapatan ya da yükselten yarı iletken bileşen; dijital elektroniğin temel taşı |
+| Unicode (2) | Dünyadaki hemen bütün yazı sistemlerini ve emojileri kapsayan ortak karakter tablosu |
+| UTF-8 (2) | Unicode karakterlerini saklamak için en yaygın kodlama |
 | Veri (1) | Bağlamı olmayan ham değer |
+| von Neumann mimarisi (2) | Program ve verinin aynı bellekte saklandığı, işlemcinin komutları sırayla aldığı bilgisayar düzeni (1945) |
+| Yapay zekâ birimi, NPU (2) | Yapay zekâ hesaplarını az enerjiyle yapmak için tasarlanmış işlem birimi |
 | Yedeklilik (1) | Bir işlevin, ana sistem çökse de sürmesi için bağımsız bir yedekle güvenceye alınması |
 | Yetkinlik (1) | Bilgi, beceri ve tutumun bir görevi başarıyla yapacak şekilde birleşmesi |
+| x86 (2) | Masaüstü ve dizüstü bilgisayarlarda uzun süre baskın olan işlemci mimarisi (Intel, AMD) |

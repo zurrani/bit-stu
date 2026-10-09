@@ -48,6 +48,8 @@ website:
         contents:
           - text: "1 · Teknoloji neyi çözer, bedeli nedir?"
             href: docs/01_teknoloji-neyi-cozer.qmd
+          - text: "2 · Bilgisayar nasıl düşünür?"
+            href: docs/02_bilgisayar-nasil-dusunur.qmd
       - section: "Ekler"
         contents:
           - text: "Sözlük"

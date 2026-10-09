@@ -1,0 +1,288 @@
+---
+title: "Bilgisayar nasıl düşünür?"
+subtitle: "Hafta 2"
+description: "Analogdan dijitale; bit, bayt ve birimler; metnin, görüntünün ve sesin sayıya dönüşmesi; bilgisayarın döngüsü, bileşenler ve belirtileri; gömülü sistemler; doğru cihazı seçmek."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>2 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>5.1 Teknik sorunlar, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Yalnızca 0 ve 1 bilen bir makine nasıl oluyor da fotoğraf çekiyor, müzik çalıyor, mesaj yazıyor?</p>
+</div>
+```
+
+Geçen hafta transistörün akımı açıp kapatan bir anahtar olduğunu, bu iki durumun 1 ve 0 demek olduğunu gördük. Bu hafta o 1 ve 0'ların nasıl harfe, renge ve sese dönüştüğünü, bilgisayarın içinde bir işin hangi yolu izlediğini ve hangi parçanın neden önemli olduğunu öğreneceksin. Amaç parça adlarını ezberlemek değil: bilgisayarın mantığını kavrayıp bir cihaz alırken ya da bir sorunla karşılaştığında doğru soruyu sorabilmek.
+
+**Okuma süresi:** yaklaşık 25 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. İkili ve onlu sayılar arasında dönüşüm yapmak, veri birimlerini birbirine çevirmek.
+2. Metnin, görüntünün ve sesin nasıl sayıya dönüştüğünü açıklamak.
+3. Bilgisayarın giriş, işleme, bellek ve çıkış döngüsünü ve CPU, GPU, RAM ile depolamanın görevlerini ilişkilendirmek.
+4. Bir yavaşlık ya da arıza belirtisini olası bileşenle ilişkilendirmek.
+5. Bir bilgisayarın teknik özelliklerini okuyup bir ihtiyaçla eşleştirmek.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Analogdan dijitale: neden 0 ve 1?
+
+Dünya analogdur: sıcaklık, ses, ışık ve hız kesintisiz değişir. Cıvalı bir termometrede cıva, sıcaklıkla birlikte sürekli yükselir; arada atladığı bir değer yoktur. Dijital ise kesiklidir: dijital termometre sıcaklığı belirli adımlarla, örneğin 36,7 ve 36,8 diye gösterir. Bilgisayar dünyayı ancak bu kesikli sayılar olarak işleyebilir.
+
+### Dünyayı sayıya çevirmek
+
+Bir mikrofon sesi sürekli değişen bir elektrik sinyaline çevirir. Bu sinyali bilgisayara sokmak için iki şey yapılır:
+
+- **Örnekleme:** Sinyalin değeri saniyede belirli sayıda ölçülür. Ne kadar sık ölçülürse o kadar ayrıntı yakalanır.
+- **Niceleme:** Her ölçüm, belirli sayıda bitle yazılabilecek en yakın değere yuvarlanır. Bit sayısı arttıkça adımlar incelir.
+
+Bu işi yapan devreye **analog-dijital dönüştürücü** (ADC) denir. Tersini, yani sayıları yeniden sese ya da gerilime çeviren devreye **dijital-analog dönüştürücü** (DAC) denir; kulaklığından gelen ses bir DAC'tan geçmiştir.
+
+### Neden ikili?
+
+Bilgisayarın temel parçası olan transistör iki durumu çok güvenilir biçimde ayırt eder:
+
+| 1 | 0 |
+|---|---|
+| Yüksek gerilim | Alçak gerilim |
+| Açık | Kapalı |
+| Doğru | Yanlış |
+
+On farklı gerilim seviyesini her seferinde hatasız ayırt etmek zordur; elektriksel gürültü 4'ü 5'e çevirebilir. İki seviyeyi ayırt etmek ise çok kolaydır: "var" ile "yok" arasında karışıklık olmaz. İkili sistem bilgisayarın zayıflığı değil, güvenilirliğinin kaynağıdır.
+
+Transistörler bir araya gelerek mantık kapılarını oluşturur. Bir VE kapısı, ancak iki girişi de 1 ise 1 verir; bir VEYA kapısı, girişlerden biri 1 ise 1 verir. Bu basit kapılardan toplama yapan devreler, onlardan da işlemciler kurulur. Bir işlemcinin yaptığı her şey, sonunda milyarlarca küçük "evet ya da hayır" kararıdır.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Dijital her zaman analogdan daha kalitelidir." Yarı gerçek. Dijital bir kayıt sonsuz kez kopyalansa da bozulmaz; analog bir kaset her kopyada biraz kaybeder. Ama dijitalleştirme sırasında örnekleme seyrek ya da bit sayısı az olursa bilgi daha baştan kaybolur. Kalite, "dijital" olmaktan değil, ne kadar sık ve ne kadar ince ölçüldüğünden gelir.
+:::
+
+## 2. İkili sistem: bit, bayt ve birimler
+
+**Bit**, İngilizce "binary digit" yani ikili basamak kelimelerinden türetildi. Kelimeyi istatistikçi John Tukey önerdi; Claude Shannon 1948'de bilgi kuramını kurduğu makalede yaygınlaştırdı. Bir bit, 0 ya da 1 değerini alabilen en küçük bilgi birimidir. Sekiz bit bir **bayt** eder; bayt kelimesi 1950'lerde IBM'de kullanılmaya başlandı.
+
+### İkili sayılar nasıl okunur?
+
+Onlu sistemde her basamak sağdan sola 1, 10, 100 diye on katına çıkar. İkili sistemde ise her basamak iki katına çıkar: 1, 2, 4, 8, 16, 32, 64, 128.
+
+| Basamak değeri | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+|---|---|---|---|---|---|---|---|---|
+| İkili sayı | 1 | 0 | 0 | 1 | 1 | 0 | 1 | 1 |
+
+1 olan basamakların değerlerini topla: 128 + 16 + 8 + 2 + 1 = 155. Yani ikili 10011011, onlu 155'tir.
+
+Bit sayısı her arttığında gösterilebilecek değer sayısı iki katına çıkar: n bit ile 2ⁿ farklı değer gösterilir.
+
+| Bit sayısı | Farklı değer | Nerede karşına çıkar? |
+|---|---|---|
+| 1 | 2 | Açık ya da kapalı |
+| 8 | 256 | Bir bayt; eski oyunlardaki 256 renk |
+| 10 | 1.024 | Birçok sensörün ölçüm çözünürlüğü |
+| 16 | 65.536 | CD sesinin her örneği |
+| 24 | yaklaşık 16,7 milyon | Ekrandaki renk sayısı |
+
+### Birimler ve 1000 ile 1024 karmaşası
+
+| Birim | Ondalık tanım | Yaklaşık karşılığı |
+|---|---|---|
+| Kilobayt (KB) | 1.000 bayt | Kısa bir metin |
+| Megabayt (MB) | 1.000 KB | Bir fotoğraf, bir dakikalık müzik |
+| Gigabayt (GB) | 1.000 MB | Bir film |
+| Terabayt (TB) | 1.000 GB | Binlerce film |
+
+Bilgisayarlar ikili düşündüğü için yıllarca 1 KB 1.024 bayt olarak da kullanıldı. Karışıklığı gidermek için 1998'de ikili birimler ayrıca adlandırıldı: kibibayt (KiB, 1.024 bayt), mebibayt (MiB), gibibayt (GiB). Disk üreticileri ondalık birimi, bazı işletim sistemleri ise ikili birimi kullanır ama ikisine de "GB" der.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Kutusunda 500 GB yazan disk bilgisayarda 465 GB görünüyor; üretici bizi kandırıyor." Yanlış. Diskte gerçekten 500 milyar bayt var. Üretici bunu 1 GB = 1.000.000.000 bayt ile, işletim sistemi ise 1 GiB = 1.073.741.824 bayt ile bölüyor: 500.000.000.000 / 1.073.741.824 ≈ 465,7. Değişen kapasite değil, birim.
+:::
+
+## 3. Her şey sayıdır: metin, görüntü, ses
+
+### Metin
+
+Bilgisayar harfleri bilmez; her harfe bir sayı karşılık gelir. 1963'te standartlaşan **ASCII**, 7 bitle 128 karakteri kodlar: İngiliz alfabesinin büyük ve küçük harfleri, rakamlar, noktalama işaretleri. Örneğin "D" harfi 68'dir, ikili 1000100.
+
+ASCII'de ç, ğ, ı, İ, ö, ş, ü yoktur. Her ülke bu boşluğu kendi kod tablosuyla doldurdu ve bir ülkede yazılan metin başka bir bilgisayarda bozuk görünmeye başladı. Çözüm **Unicode** oldu: dünyadaki hemen bütün yazı sistemlerini ve emojileri kapsayan, 150 binden fazla karakterlik ortak bir tablo. Bugün web'in büyük kısmı Unicode'u **UTF-8** adlı kodlamayla kullanır.
+
+Bir dosya UTF-8 ile kaydedilip başka bir kodlamayla açılırsa "ışık" kelimesi "Ä±ÅŸÄ±k" gibi görünür. Bu bozulmanın adı karakter kodlaması uyumsuzluğudur; çözümü, dosyayı açarken doğru kodlamayı seçmektir.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Türkçenin noktalı ve noktasız i'si yazılım dünyasında ünlüdür. İngilizcede küçük "i"nin büyüğü "I"dır, Türkçede "İ". Büyük harfe çevirme kuralını İngilizceye göre yazan bir program "istanbul" kelimesini nasıl yazar? Bu küçük fark, bir arama ya da giriş ekranında hangi sorunlara yol açabilir?
+:::
+
+### Görüntü
+
+Ekrandaki her görüntü küçük noktalardan, yani **piksellerden** oluşur. Her piksel kırmızı, yeşil ve mavi (RGB) ışığın karışımıdır ve her renk genellikle 8 bitle, yani 0 ile 255 arasında bir sayıyla tutulur. Bir piksel için 24 bit, yaklaşık 16,7 milyon renk eder.
+
+Çözünürlük, görüntünün kaç pikselden oluştuğunu söyler. 1920 × 1080 pikselli bir görüntü yaklaşık 2 milyon pikseldir; sıkıştırılmadan saklansa her piksel 3 bayttan yaklaşık 6 MB tutar. Bu yüzden görüntüler **sıkıştırılır**: JPEG gözün fark etmeyeceği ayrıntıları atarak küçültür (kayıplı), PNG hiçbir ayrıntıyı atmaz (kayıpsız).
+
+### Ses
+
+Ses, örnekleme ve nicelemeyle sayıya döner. Müzik CD'leri saniyede 44.100 örnek alır ve her örneği 16 bitle yazar. Örnekleme hızının, duyabildiğimiz en yüksek sesin (yaklaşık 20.000 Hz) iki katından fazla olması, o sesin geri üretilebilmesi için gereklidir.
+
+Bir ses dosyasının saniyede kullandığı veri miktarına **bit hızı** denir ve kbps (saniyede kilobit) ile ölçülür. 128 kbps'lik bir dosya bir dakikada 128.000 × 60 = 7.680.000 bit, yani yaklaşık 0,96 MB tutar. Bit hızı düştükçe dosya küçülür, ama ayrıntı da kaybolur.
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: telefonunun deposunun neden dolduğunu anlar, fotoğraf ve video ayarlarını bilinçli seçersin; bozuk görünen bir dosyanın nedenini tahmin edersin. Orta vadede: işte veri alışverişi yaparken dosya boyutunu, biçimini ve karakter kodlamasını doğru seçersin. Uzun vadede: sensörlerden gelen her verinin bir örnekleme ve niceleme kararıyla başladığını bilir, ölçümün sınırlarını sorgularsın.
+:::
+
+## 4. Bilgisayarın döngüsü: giriş, işleme, bellek, çıkış
+
+Hangi bilgisayar olursa olsun, aynı döngü işler: veri **girer** (klavye, kamera, sensör), **işlenir** (işlemci), **bellekte** tutulur ve **çıkar** (ekran, hoparlör, yazıcı, motor). Bugünkü bilgisayarların temel düzeni 1945'te matematikçi John von Neumann'ın adıyla anılan bir raporda tarif edildi: program da veri de aynı bellekte saklanır, işlemci komutları bellekten sırayla alıp uygular. Bu fikir sayesinde bilgisayar, kabloları değiştirmeden yalnızca yeni bir program yüklenerek başka bir işe geçebildi.
+
+Bir analojiyle düşün: **işlemci aşçı, RAM tezgâh, depolama kiler, veri yolu ise garsondur.** Aşçı ne kadar hızlı olursa olsun, tezgâh küçükse sürekli kilere gidip gelir ve yemek gecikir. RAM yetersizliği tam olarak böyle hissedilir.
+
+Bazı sistemler bir de **geri besleme** kullanır: çıkıştaki sonuç ölçülüp yeniden girişe verilir. Odayı belirli bir sıcaklıkta tutan termostat böyle çalışır; sıcaklık düşerse ısıtıcıyı açar, yükselirse kapatır.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
+Otopilot geri beslemenin en bilinen örneğidir. Pilot bir irtifa seçer; otopilot gerçek irtifayı sürekli ölçer, aradaki farka göre kumanda yüzeylerine komut verir ve fark sıfırlanana kadar düzeltmeyi sürdürür. Girdi, işleme, çıktı ve geri besleme döngüsü saniyede defalarca döner.
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Telefonunla bir fotoğraf çekip galeriye kaydettiğinde ne olur? Giriş, işleme, bellek ve çıkış adımlarıyla dört cümlede anlat.
+:::
+
+## 5. Bileşenler ve belirtileri
+
+Parçaların adını bilmek, ancak hangi işi yaptıklarını ve yetersiz kaldıklarında nasıl bir belirti verdiklerini bildiğinde işe yarar.
+
+::: {.tablo-kaydir}
+| Bileşen | Görevi | Yetersizse ne olur? |
+|---|---|---|
+| İşlemci (CPU) | Komutları sırayla ve hızla işler; bilgisayarın genel beyni | Ağır işlerde uzun bekleme, sürekli %100 işlemci kullanımı |
+| Ekran kartı (GPU) | Binlerce basit işlemi aynı anda yapar: görüntü, video, YZ hesapları | Oyunda takılma, video dışa aktarmada uzun süre |
+| Yapay zekâ birimi (NPU) | Yeni cihazlarda YZ işlerini az enerjiyle yapar | Cihazdaki YZ özellikleri yavaş ya da hiç yok |
+| RAM | Çalışan programların ve verilerin geçici olarak tutulduğu hızlı bellek; elektrik kesilince silinir | Çok sekme ya da program açınca yavaşlama, disk ışığının sürekli yanması |
+| Depolama (SSD ya da HDD) | Dosyaların kalıcı olarak saklandığı yer | Yavaş açılış, "depolama dolu" uyarısı, güncellemelerin yapılamaması |
+| Anakart | Bütün parçaları birbirine bağlar | Yükseltme seçeneklerinin kısıtlı olması |
+| Güç kaynağı ya da batarya | Enerji sağlar | Ani kapanma, kısa pil ömrü |
+| Soğutma | Isıyı dışarı atar | Fan gürültüsü, ısınma ve işlemcinin kendini yavaşlatması |
+| Bağlantı noktaları | Çevre birimlerini bağlar; bugün en yaygını USB-C | Adaptör ihtiyacı, yavaş aktarım |
+:::
+
+**HDD ve SSD:** Sabit disk (HDD), dönen manyetik plakalar ve hareketli bir okuma kafasıyla çalışır; ucuzdur, ama yavaş ve darbeye hassastır. SSD'de hareketli parça yoktur; veri çiplerde tutulur. Bu yüzden SSD'li bir bilgisayar saniyeler içinde açılır. Eski bir bilgisayara SSD takmak, ona çoğu zaman en çok hız kazandıran yükseltmedir.
+
+**Darboğaz:** Bir sistemin hızını en yavaş halkası belirler. Görev yöneticisinde RAM %98 doluyken işlemci %15'te bekliyorsa, daha hızlı bir işlemci almak sorunu çözmez; sorun tezgâhtadır, aşçıda değil.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Belirtiden parçaya"}
+Belirtiden bileşene giden düşünce, bakım teknisyenliğinin özüdür. Uçaktaki elektronik sistemlerin çoğu kendi kendini test eden donanımlarla (BITE, built-in test equipment) donatılmıştır; arıza olduğunda bir arıza kodu kaydedilir. Teknisyen bu kodu ve belirtileri okuyarak arızalı birimi bulur ve onu bütünüyle çıkarıp yenisini takar. Pistte hızla değiştirilebilecek şekilde tasarlanan bu birimlere hat değiştirilebilir birim (LRU, line replaceable unit) denir. Bu hafta bir bilgisayar için yaptığın "hangi belirti hangi parçayı gösterir?" çalışması, hangarda her gün yapılan işin küçük bir provasıdır.
+:::
+
+## 6. Moore yasası ve küçülme (okuma)
+
+Intel'in kurucularından Gordon Moore 1965'te bir çipteki transistör sayısının düzenli olarak ikiye katlanacağını öngördü; bu öngörü sonradan "yaklaşık iki yılda bir" olarak yerleşti. 1971'deki ilk ticari mikroişlemci Intel 4004'te yaklaşık 2.300 transistör vardı; bugünün işlemcilerinde on milyarlarca transistör bulunuyor.
+
+Transistörler küçüldükçe hem hızlandı hem ucuzladı. Ama artık atom ölçüsüne yaklaşan boyutlarda fiziksel sınırlar zorlanıyor. Üreticiler bu yüzden tek bir çekirdeği hızlandırmak yerine çok çekirdekli işlemcilere ve belirli işler için özelleşmiş çiplere yöneldi: görüntü için GPU, yapay zekâ için NPU. Bilgisayar dünyasının öncülerinden Alan Kay 1982'de "Yazılım konusunda gerçekten ciddi olanlar kendi donanımlarını yapmalıdır" demişti; bugün telefon ve bilgisayar üreticilerinin kendi çiplerini tasarlaması bu sözün karşılığıdır.
+
+## 7. Bilgisayar türleri ve gömülü sistemler
+
+Bilgisayar deyince aklımıza masaüstü ve dizüstü gelir, ama bunlar bilgisayarların küçük bir bölümüdür.
+
+| Tür | Örnek | Özelliği |
+|---|---|---|
+| Genel amaçlı | Masaüstü, dizüstü, tablet, telefon | İstediğin uygulamayı kurabilirsin |
+| Sunucu ve veri merkezi | Bulut hizmetlerinin arkasındaki makineler | Binlerce kullanıcıya aynı anda hizmet verir |
+| Süper bilgisayar | Hava tahmini, iklim, fizik modelleri | Binlerce işlemciyi paralel çalıştırır |
+| Gömülü sistem | Saat, çamaşır makinesi, otomobil, uçak | Tek bir işe adanmıştır; kullanıcı yeni program kuramaz |
+
+Gömülü sistemler sayıca bütün diğerlerinden fazladır: evdeki kumandadan kombiye kadar her yerdedir ve çoğu zaman fark edilmez. Hafta 4'te göreceğimiz Nesnelerin İnterneti, bu gömülü sistemlerin internete bağlanmasıdır.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Basit bir dijital kol saati bilgisayar değildir." Yanlış sayılır. 1989'dan beri üretilen ucuz bir dijital saatin içinde de program çalıştıran küçük bir işlemci vardır; yalnızca tek bir işe adanmıştır. Bazı meraklılar bu saatlerin çipini söküp mikroskopla fotoğraflayarak nasıl çalıştığını inceler. Bir ürünü söküp nasıl çalıştığını anlamaya tersine mühendislik denir; güvenlik boyutunu Hafta 9'da göreceğiz.
+:::
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
+Bir yolcu uçağında onlarca gömülü bilgisayar vardır. Bunlardan biri ADC kısaltmasını taşır, ama bu kez analog-dijital dönüştürücü değil, **hava verisi bilgisayarı** (Air Data Computer) demektir: pitot ve statik basınç ölçümlerinden hız ve irtifayı hesaplar. Uçak sistemleri arasındaki veri, ARINC 429 gibi veri yollarında 32 bitlik kelimeler halinde taşınır; her kelimenin son biti, iletimde bir bitin bozulup bozulmadığını anlamaya yarayan parite bitidir.
+:::
+
+## 8. Kapanış: doğru cihazı seçmek ve onarmak
+
+Bir bilgisayar ilanı okurken soru "En güçlüsü hangisi?" değil, "Benim işim için hangisi yeterli ve dengeli?" olmalıdır.
+
+| İhtiyaç | Öncelik verilecek özellikler |
+|---|---|
+| Ödev, ofis, internet, görüntülü toplantı | En az 16 GB RAM ve SSD; orta düzey işlemci yeterli; pil ömrü ve ağırlık |
+| Fotoğraf, video, grafik | Güçlü GPU, bol RAM, geniş ve renkleri doğru gösteren ekran, büyük SSD |
+| YZ araçlarını cihazda denemek | NPU ya da güçlü GPU, bol RAM |
+| Taşınabilirlik | Ağırlık, pil, USB-C ile şarj |
+
+İşlemcilerin bugün iki büyük ailesi var: masaüstü ve dizüstülerde uzun süre baskın olan x86 (Intel, AMD) ve telefonlarda başlayıp dizüstülere de yayılan, az enerji harcayan ARM (Apple'ın M serisi, Qualcomm Snapdragon). Seçim, kullanacağın programların bu mimaride çalışıp çalışmadığına da bağlıdır.
+
+Bir cihazı almak kadar onu uzun süre kullanabilmek de önemlidir. Pili, ekranı ya da depolaması değiştirilebilen bir cihaz yıllarca kullanılabilir; her şeyi yapıştırılmış bir cihaz ise küçük bir arızada çöpe gider. Avrupa Birliği son yıllarda üreticileri tamire uygun tasarıma ve ortak USB-C şarj girişine yönlendiren düzenlemeler yaptı. Elektronik atık dünyanın en hızlı büyüyen atık türlerinden biri; tamir ettirmek, yükseltmek ya da ikinci el almak hem bütçe hem çevre için bir alternatiftir.
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: telefon ya da bilgisayar alırken ilanı okuyup ihtiyacına göre seçersin, gereksiz yere pahalı bir cihaza para vermezsin. Orta vadede: iş yerindeki bir cihaz sorununu doğru terimlerle tarif eder, belirtiden olası parçaya gidersin. Uzun vadede: YZ çağında GPU ve NPU gibi donanım yatırımlarının neden yapıldığını anlar, teknoloji kararlarını bilinçli verirsin.
+:::
+
+## Akılda kalsın
+
+- **Bilgisayar dünyayı sayıya çevirerek anlar.** Örnekleme ve niceleme analog dünyayı dijitale çevirir; kalite, ne kadar sık ve ne kadar ince ölçüldüğüne bağlıdır.
+- **İki durum güvenilirliktir.** n bit ile 2ⁿ değer gösterilir; harf, renk ve ses aynı 0 ve 1'lerle temsil edilir.
+- **Birimler karışabilir.** Ondalık GB ile ikili GiB farklıdır; bozuk karakterlerin nedeni çoğu zaman karakter kodlamasıdır.
+- **Hız en yavaş halkadadır.** İşlemci aşçı, RAM tezgâh, depolama kilerdir; belirtiden darboğaza gitmek, doğru çözümü bulmaktır.
+- **Bilgisayarların çoğu görünmez.** Saatten uçağa kadar gömülü sistemler her yerdedir; doğru cihaz en güçlüsü değil, ihtiyaca uygun ve onarılabilir olandır.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: analog, dijital, analog-dijital dönüştürücü (ADC), örnekleme, niceleme, mantık kapısı, bayt, kibibayt (KiB), ASCII, Unicode, UTF-8, karakter kodlaması, piksel, RGB, çözünürlük, sıkıştırma, bit hızı, von Neumann mimarisi, geri besleme, işlemci (CPU), ekran kartı (GPU), yapay zekâ birimi (NPU), RAM, SSD, HDD, darboğaz, BITE, hat değiştirilebilir birim (LRU), gömülü sistem, hava verisi bilgisayarı, ARINC 429, parite biti, x86, ARM, tamir edilebilirlik.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="C" data-explain="Bit, binary digit yani ikili basamak kelimelerinden türetildi."}
+**1.** "Bit" kelimesi hangi ifadenin kısaltmasıdır?
+
+- A\) Basic information technology
+- B\) Binary integer
+- C\) Binary digit (ikili basamak)
+- D\) Byte item
+- E\) Bilgisayar işlem tekniği
+:::
+
+::: {.quiz-q data-answer="A" data-explain="RAM geçici bellektir; elektrik kesilince içindekiler silinir. Kalıcı saklama depolamanın işidir."}
+**2.** Bilgisayar kapandığında içindeki bilgileri kaybeden bileşen hangisidir?
+
+- A\) RAM
+- B\) SSD
+- C\) HDD
+- D\) USB bellek
+- E\) Bulut depolama
+:::
+
+::: {.quiz-q data-answer="E" data-explain="8 + 4 + 0 + 1 = 13."}
+**3.** İkili 1101 sayısının onlu karşılığı hangisidir?
+
+- A\) 9
+- B\) 11
+- C\) 12
+- D\) 1101
+- E\) 13
+:::
+
+::: {.quiz-q data-answer="B" data-explain="Hem en hem boy iki katına çıkınca piksel sayısı 2 × 2 = 4 katına çıkar."}
+**4.** Bir fotoğrafın hem eni hem boyu piksel olarak iki katına çıkarılırsa piksel sayısı ne olur?
+
+- A\) Değişmez
+- B\) 4 katına çıkar
+- C\) 2 katına çıkar
+- D\) 8 katına çıkar
+- E\) Yarıya iner
+:::
+
+::: {.quiz-q data-answer="D" data-explain="Hız en yavaş halkaya bağlıdır; ihtiyaca göre RAM, depolama türü ve işlemci birlikte değerlendirilmelidir."}
+**5.** Bir arkadaşın yeni dizüstü alırken yalnızca işlemcinin GHz değerine bakıyor. En iyi tavsiye hangisidir?
+
+- A\) Doğru yapıyor; hızı yalnızca işlemci belirler.
+- B\) GHz yerine yalnızca ekran boyutuna bakmalı.
+- C\) En pahalı modeli almalı; fiyat her şeyi gösterir.
+- D\) Kullanım ihtiyacına göre RAM, depolama türü ve işlemciyi birlikte değerlendirmeli.
+- E\) Yalnızca markaya bakmalı.
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-C, 2-A, 3-E, 4-B, 5-D.
+:::
