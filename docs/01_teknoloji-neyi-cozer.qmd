@@ -330,11 +330,11 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 ::: {.quiz-q data-answer="D" data-explain="Kuram çok sayıda gözlem ve deneyle desteklenmiş bir çerçevedir; tahmin niteliğindeki öneri hipotezdir."}
 **1.** Bilimde "kuram" (teori) için hangisi doğrudur?
 
-- A\) Henüz test edilmemiş bir tahmindir.
-- B\) Tek bir deneyle kanıtlanmış bir iddiadır.
-- C\) Bilim insanlarının kişisel görüşüdür.
-- D\) Çok sayıda gözlem ve deneyle desteklenmiş, açıklama gücü yüksek bir çerçevedir.
-- E\) Gözlemden önce sorulan bir sorudur.
+- A\) Henüz hiç test edilmemiş, bilim insanının aklına gelen ilk tahmindir.
+- B\) Tek bir başarılı deneyle kesin olarak kanıtlanmış bir iddiadır.
+- C\) Bilim insanlarının kanıta dayanmayan kişisel görüşüdür.
+- D\) Çok sayıda gözlem ve deneyle desteklenmiş açıklayıcı bir çerçevedir.
+- E\) Gözlemden önce sorulan ve cevabı henüz bilinmeyen bir sorudur.
 :::
 
 ::: {.quiz-q data-answer="E" data-explain="Endüstri 3.0, elektronik ve bilgisayarlarla otomasyon dönemidir."}
@@ -370,11 +370,11 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 ::: {.quiz-q data-answer="C" data-explain="Çoklu buluş: bilgi birikimi olgunlaştığında aynı buluş birbirinden habersiz kişilerce yapılabilir."}
 **5.** Bir arkadaşın "Bell olmasaydı telefon hiç icat edilmezdi" diyor. Bu haftanın notuna göre bu iddiayı en iyi hangi değerlendirme çürütür?
 
-- A\) Bell telefonu tek başına icat ettiği için iddia doğrudur.
-- B\) Telefon antik çağdan beri biliniyordu.
-- C\) Elisha Gray'in aynı gün patent başvurusu yapması, bilgi birikimi olgunlaştığında aynı buluşun başkası tarafından da yapılabileceğini gösterir.
-- D\) Telefon sanayi devriminden önce icat edilmiştir.
-- E\) Telefon bir buluş değil, bir sanat eseridir.
+- A\) Bell telefonu tek başına ve kimseden habersiz icat ettiği için iddia doğrudur.
+- B\) Telefon antik çağdan beri bilindiği için Bell yalnızca ona adını vermiştir.
+- C\) Gray'in aynı gün başvurusu, birikim olgunlaşınca aynı buluşun başkasınca da yapılabileceğini gösterir.
+- D\) Telefon sanayi devriminden önce icat edildiği için Bell'in bu buluşta hiçbir rolü yoktur.
+- E\) Telefon bir buluş değil, bir sanat eseri olduğu için bu soru anlamsızdır.
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}

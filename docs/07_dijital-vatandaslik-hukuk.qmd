@@ -1,0 +1,306 @@
+---
+title: "Dijital vatandaşlık ve bilişim hukuku"
+subtitle: "Hafta 7"
+description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş; etik ile hukuk; Türkiye'de çevrimiçi eylemlerin hukuki sonuçları; siber zorbalık; telif, Creative Commons ve atıf; yapay zekâ ve hukuk; AB'nin dijital kuralları."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>7 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>2.2 Paylaşma, 2.3 Vatandaşlık, 2.5 Dijital davranış, 2.6 Dijital kimlik, 3.3 Telif ve lisanslar, 4.3 İyi oluş</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?</p>
+</div>
+```
+
+Bir mesajın ekran görüntüsünü gruba atmak, bir haberi okumadan paylaşmak, internette bulduğun bir görseli sunumuna koymak: hepsi birkaç saniyelik işler. Bu hafta bu saniyelerin arkasındaki uzun izi göreceksin. Önce kendi dijital izine ve dikkatini yöneten tasarımlara bakacağız. Sonra etik ile hukukun ayrıldığı yere, Türkiye'de çevrimiçi bir eylemin hangi durumda suç olabileceğine ve başına bir şey geldiğinde ne yapacağına geçeceğiz. Son olarak başkasının emeğini nasıl doğru kullanacağını ve yapay zekânın hukuku nasıl zorladığını öğreneceksin.
+
+**Okuma süresi:** yaklaşık 30 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. Aktif ve pasif dijital ayak izini ayırt etmek, kendi izini gözden geçirmek.
+2. Platform tasarımının dikkat ekonomisiyle ilişkisini açıklamak, kendi ekran kullanımını değerlendirmek.
+3. Etik ile hukuku ayırt etmek, yaygın bilişim boyutlu suçları vaka üzerinden tanımak ve siber zorbalığa karşı atılacak adımları sıralamak.
+4. Telif, Creative Commons, kamu malı ve açık kaynak lisanslarını ayırt etmek, doğru atıf yapmak.
+5. Türkiye'deki ve Avrupa Birliği'ndeki güncel düzenlemelerin bir öğrencinin günlük hayatına etkisini örneklemek.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+::: {.callout-important title="Bu not hukuki danışmanlık değildir"}
+Burada yasalar, öğrencinin günlük hayatına etkisini anlamak için sade bir dille anlatılır. Yasalar sık değişir; madde numaralarını ve yürürlük tarihlerini birincil kaynaktan kontrol et: Türkiye için [mevzuat.gov.tr](https://www.mevzuat.gov.tr) ve Resmî Gazete, Avrupa Birliği için [EUR-Lex](https://eur-lex.europa.eu). Hukuki bir sorunla karşılaşırsan bir avukattan ya da baronun adli yardım bürosundan destek al.
+:::
+
+## 1. Dijital vatandaşlık ve ayak izi
+
+İnternet, her ülke sınırında trafik kurallarının değiştiği bir otoyola benzer: araç aynı, kurallar farklı. **Dijital vatandaşlık**, bu otoyolda haklarını bilerek ve sorumluluklarını üstlenerek yol almaktır. Haklar tarafında ifade özgürlüğü, kişisel verilerin korunması, bilgiye erişim vardır. Sorumluluklar tarafında başkasının haklarına saygı, doğru bilgi paylaşma ve kendi güvenliğini sağlama.
+
+İnternette yaptığın her şey bir iz bırakır. Bu izlerin toplamına **dijital ayak izi** denir ve iki türü vardır:
+
+| | Aktif ayak izi | Pasif ayak izi |
+|---|---|---|
+| Nasıl oluşur? | Bilerek bıraktığın izler | Sen fark etmeden toplanan izler |
+| Örnek | Paylaşım, yorum, beğeni, profil fotoğrafı, bir forma yazdığın bilgiler | Ziyaret ettiğin sitelerin çerezlerle kaydı, konum geçmişi, IP adresin, bir uygulamanın kullanım verisi |
+| Kim görür? | Çoğu zaman paylaştığın kişiler ve onların paylaştıkları | Çoğu zaman şirketler; sen görmezsin |
+
+Dijital ayak izi karda yürümeye benzer; ama bu kar hiç erimez. Sildiğin bir paylaşımın ekran görüntüsü başkasının telefonunda, arşiv sitelerinde ya da bir veri tabanında kalabilir. Bu yüzden internette "geçici" diye bir şey neredeyse yoktur.
+
+İzinin bir de **dijital itibar** boyutu var: insanların seni internette arattığında gördüğü şey. Şirketlerin önemli bir kısmı iş başvurusundaki adayların herkese açık profillerine bakıyor. Staj başvurusundan önce kendi adını arama motorunda tırnak içinde aratmak, eski bir hesabın gizlilik ayarlarını gözden geçirmek ya da kullanmadığın hesapları kapatmak beş dakikalık işlerdir.
+
+Bazı durumlarda geçmişteki bir kaydın arama sonuçlarından kaldırılmasını isteyebilirsin. Buna **unutulma hakkı** denir. AB'de Genel Veri Koruma Tüzüğü (GDPR) ile tanımlanmıştır; Türkiye'de de yargı ve Kişisel Verileri Koruma Kurulu kararlarıyla tanınmaktadır. Ayrıntısını Hafta 8'de göreceğiz. Ama bu hak sınırlıdır; en iyi koruma hâlâ paylaşmadan önce düşünmektir.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bir işveren bu akşam adını aratsa ilk sayfada ne görürdü? Görmesini istemeyeceğin bir şey var mı? Varsa onu kaldırmak için ilk adımın ne olurdu?
+:::
+
+## 2. Dikkat ekonomisi ve dijital iyi oluş
+
+Kullandığın uygulamaların çoğu ücretsiz. Peki para nereden geliyor? Reklamdan; reklamın değeri de senin o uygulamada geçirdiğin süreden. Bu düzene **dikkat ekonomisi** denir: kıt olan bilgi değil, senin dikkatindir ve platformlar onun için yarışır. Sık söylenen bir söz bunu özetler: "Bir ürün için para ödemiyorsan, ürün sensin."
+
+Bu yüzden uygulamalar seni daha uzun tutacak biçimde tasarlanır:
+
+| Tasarım | Nasıl çalışır? |
+|---|---|
+| Sonsuz kaydırma | Sayfanın sonu yoktur; "durmak" için doğal bir an kalmaz |
+| Değişken ödül | Her yenilemede ne geleceği belli değildir; kumar makinesi gibi, belirsizlik merakı canlı tutar |
+| Bildirimler | Kırmızı nokta ve titreşim, dikkatini uygulamaya geri çağırır |
+| Otomatik oynatma | Bir video biter bitmez öbürü başlar; karar vermeden izlemeye devam edersin |
+| Seri ve rozetler | "Seriyi bozma" baskısı her gün geri gelmeni sağlar |
+
+Sonsuz kaydırmayı 2006'da tasarlayan Aza Raskin, sonraki yıllarda bu buluşun insanların zamanına neye mal olduğunu düşündükçe pişmanlık duyduğunu anlattı. Hafta 1'deki ilkeyi hatırla: teknoloji ne iyidir ne kötüdür; ama tarafsız da değildir.
+
+Peki bu tasarımlar bağımlılık yapar mı? Burada kanıt düzeyine dikkat etmek gerekir. Dünya Sağlık Örgütü **oyun bozukluğunu** 2019'da hastalık sınıflamasına ekledi; sınıflama 2022'de yürürlüğe girdi. Oyun bozukluğu, oyunun kontrol edilemediği, başka her şeyin önüne geçtiği ve bu durumun en az bir yıl sürdüğü bir tablodur; çok oyun oynamak tek başına tanı değildir. Buna karşılık "sosyal medya bağımlılığı", "nomofobi" (telefonsuz kalma korkusu) ya da "hayalet titreşim" gibi kavramlar araştırılan ama resmî tanı olmayan kavramlardır. Ekran süresiyle uyku, dikkat ve ruh hali arasındaki ilişki gerçek; ama "her ekran zararlıdır" demek de, "hiçbir etkisi yoktur" demek de kanıtı aşar.
+
+Düzenleyiciler de konuya eğiliyor. Avustralya 16 yaşın altındakilerin sosyal medya hesabı açmasını yasakladı; düzenleme 2025'in sonunda yürürlüğe girdi. Avrupa Komisyonu da büyük platformların gençler üzerinde bağımlılık yapıcı tasarımlar kullanıp kullanmadığını Dijital Hizmetler Yasası kapsamında soruşturuyor. Bu düzenlemelerin işe yarayıp yaramadığı da tartışılıyor: yaş doğrulamanın nasıl yapılacağı, gençlerin daha denetimsiz yerlere kayıp kaymayacağı gibi sorular henüz cevaplanmış değil.
+
+**Dijital iyi oluş**, teknolojiyi kendi amaçların için kullanmak, onun seni kullanmasına izin vermemektir. Birkaç somut adım:
+
+- Telefonundaki ekran süresi aracını aç (Android'de Dijital Denge, iOS'ta Ekran Süresi) ve bir haftalık verine bak.
+- Bildirimleri yalnızca insanlardan gelenlere indir; uygulamalardan gelen bildirimleri kapat.
+- Ekranı gri tonlamaya almak, renkli uyarıların çekiciliğini azaltır.
+- Yatmadan önceki yarım saati ekransız geçir; telefonu yatağın uzağında şarj et.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Ekranın mavi ışığı gözlere kalıcı hasar verir." Bugünkü kanıtlar bunu desteklemiyor. Ekranlardan gelen mavi ışık miktarı gözlere kalıcı zarar verecek düzeyde değildir. Uzun süre ekrana bakmanın asıl etkileri göz yorgunluğu ve kuruluktur; bunun nedeni de daha az göz kırpmaktır. Akşam ekran kullanımının uykuyu geciktirebildiği ise doğrudur; ama bunda ışık kadar içeriğin uyarıcılığı da rol oynar. Ara vermek, mavi ışık gözlüğünden daha etkilidir.
+:::
+
+## 3. Etik ile hukuk: "Kod yasadır"
+
+**Etik**, neyin doğru ve iyi olduğuna dair ilkelerdir; ihlalinin bedeli çoğu zaman güven ve itibar kaybıdır. **Hukuk**, devletin koyduğu ve yaptırımla desteklenen kurallardır. İkisi büyük ölçüde örtüşür, ama aynı şey değildir:
+
+| | Yasal | Yasa dışı |
+|---|---|---|
+| **Etik** | Kaynak göstererek alıntı yapmak | Bir yaralıyı hastaneye yetiştirmek için hız sınırını aşmak (çoğu kişiye göre) |
+| **Etik değil** | Bir arkadaşının utanç verici ama herkese açık eski fotoğrafını alay için yeniden paylaşmak | Birinin mesajlarını izinsiz ifşa etmek |
+
+Hukuk teknolojinin hep birkaç adım gerisinden gelir. Hukukçu Lawrence Lessig 1999'da bunu tersinden ifade etti: **"Kod yasadır."** Yazılımın tasarımı, neyi yapıp neyi yapamayacağımızı yasalar kadar belirler. Bir mesajlaşma uygulaması ekran görüntüsü almayı engelleyebilir, bir platform paylaşım tuşunu kaldırabilir, bir algoritma neyi göreceğini seçer. Bir önceki bölümdeki tasarımlar da birer "yasa" gibi davranışını yönlendirir; farkı, bunları bir meclisin değil, bir şirketin koymasıdır.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Adil kültür"}
+Havacılıkta etik ile hukukun en ince kesiştiği yer **adil kültürdür** (just culture). Hatasını ya da gördüğü bir tehlikeyi bildiren çalışan cezalandırılmaz; çünkü bildirilmeyen hata bir gün kazaya dönüşür. Ama bu bir dokunulmazlık değildir: kasıt ve ağır ihmal korunmaz. Avrupa Birliği'nde olay bildirimi kuralları bildirenin kimliğini ve bildirimini korur. Bakım teknisyeni için anlamı açıktır: Yanlış taktığın bir parçayı fark ettiğinde bildirmek hem etik hem de sistemin seni koruduğu davranıştır; saklamak ise hem etik değildir hem de ciddi hukuki sonuç doğurabilir.
+:::
+
+## 4. Çevrimiçi eylemin hukuki sonucu: Türkiye
+
+İnternetteki eylemler "sanal" olabilir, ama sonuçları gerçektir. Türk Ceza Kanunu'ndaki (TCK) suçların çoğu internette de işlenebilir; bazıları, sosyal medyada olduğu gibi herkesin görebileceği biçimde (alenen) işlendiğinde daha ağır cezalandırılır. Aşağıdaki tablo bir öğrencinin karşılaşabileceği durumları gösteriyor. Bir eylemin gerçekten suç olup olmadığına ve cezasına ancak mahkeme somut olayın koşullarına bakarak karar verir.
+
+::: {.tablo-kaydir}
+| Durum | Gündeme gelebilecek suç | Dikkat edilecek nokta |
+|---|---|---|
+| Bir yoruma küfürlü ya da aşağılayıcı cevap yazmak | Hakaret (TCK 125) | Sert eleştiri ile hakaret farklıdır: eleştiri eyleme, hakaret kişiliğe yöneliktir |
+| Bir arkadaşının sana özelden gönderdiği mesajın ekran görüntüsünü gruba atmak | Özel hayatın gizliliğini ihlal (TCK 134) | Özel bir yazışmayı ya da görüntüyü izinsiz yaymak suç olabilir |
+| Birinin telefon numarasını ve adresini izinsiz paylaşmak | Kişisel verileri hukuka aykırı olarak verme ya da yayma (TCK 136) | Yalnızca ilk paylaşan değil, yayan da sorumlu tutulabilir |
+| Bir gruba, bir dine ya da bir bölgeye karşı nefret içerikli paylaşım | Halkı kin ve düşmanlığa tahrik ya da aşağılama (TCK 216) | |
+| Bir şehirde "su zehirlendi" gibi doğrulanmamış bir haberi paylaşmak | Halkı yanıltıcı bilgiyi alenen yayma (TCK 217/A) | Aşağıdaki açıklamaya bak |
+| Telefonu açık unutulan bir arkadaşının hesabına girip mesajlarını okumak | Bilişim sistemine girme (TCK 243) | Şifreyi bilmen ya da "şaka" olması izin anlamına gelmez |
+| Bir sistemi çökertmek, verileri silmek ya da değiştirmek | Sistemi engelleme, bozma, verileri yok etme ya da değiştirme (TCK 244) | |
+:::
+
+**TCK 217/A** 2022'de yasaya eklendi. Halkın güvenliği, kamu düzeni ya da genel sağlıkla ilgili gerçeğe aykırı bir bilgiyi, halk arasında endişe, korku ya da panik yaratma amacıyla ve kamu barışını bozmaya elverişli biçimde alenen yaymayı suç sayar. Düzenlemeyi savunanlar, özellikle afet ve salgın dönemlerinde yanlış bilginin can kaybına yol açabildiğini vurguladı. Eleştirenler ise "gerçeğe aykırı bilgi" ve "kamu barışı" gibi kavramların belirsiz olduğunu ve düzenlemenin ifade ve basın özgürlüğü üzerinde caydırıcı bir etki yaratabileceğini savundu. Senin için pratik sonuç, Hafta 5'teki ilkedir: Doğrulamadığın bir haberi paylaşmadan önce dur. Bu hem yanlış bilginin yayılmasına katkıyı hem de olası hukuki riski azaltır.
+
+Ceza hukukunun yanında internetin kendine özgü kuralları da var:
+
+- **5651 sayılı kanun** (2007) internetteki yayınları düzenler: içerik sağlayıcının, yer sağlayıcının ve erişim sağlayıcının sorumluluğunu tanımlar. Kişilik hakların ihlal edildiğinde (örneğin hakkında hakaret içeren bir paylaşım varsa) içeriğin kaldırılması ya da erişimin engellenmesi için başvurabilirsin. Sonraki değişikliklerle Türkiye'den çok kullanıcısı olan sosyal ağ sağlayıcılarına Türkiye'de temsilci atama ve başvurulara belirli sürelerde cevap verme yükümlülüğü getirildi.
+- **Siber Güvenlik Kanunu** (2025), kamu kurumlarının ve kritik altyapıların (enerji, ulaşım, sağlık, iletişim gibi) siber güvenliğine ilişkin yükümlülükleri ve bunu denetleyecek kurumu düzenler; siber olaylarla ilgili yeni suç tanımları da içerir. Hafta 9'da yeniden değineceğiz.
+- **Tüketici hakları:** İnternetten aldığın bir ürünü, bazı istisnalar dışında, teslimden itibaren 14 gün içinde gerekçe göstermeden iade edebilirsin (cayma hakkı). İzin vermediğin halde gelen reklam SMS'lerini ve e-postalarını İleti Yönetim Sistemi (İYS) üzerinden durdurabilirsin.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Anonim hesap kullanırsam bulunamam." Çoğu zaman yanlış. Bağlandığın her ağ bir IP adresi kaydı bırakır ve internet hizmet sağlayıcıları bu kayıtları yasa gereği belirli bir süre saklar. Bir soruşturmada mahkeme kararıyla platformlardan ve hizmet sağlayıcılardan bilgi istenebilir. Aynı fotoğrafı, aynı yazım alışkanlıklarını ya da aynı telefonu kullanmak da kimliği ele verebilir.
+
+"Ben yazmadım, yalnızca paylaştım." Bu da seni korumaz. Başkasının hakaret içeren ya da özel bir içeriğini yeniden paylaşmak, onu daha çok kişiye ulaştırmak demektir; paylaşan da sorumlu tutulabilir.
+:::
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Drone uçurmanın kuralları"}
+Bir öğrencinin havacılık hukukuyla ilk teması büyük olasılıkla bir drone, yani insansız hava aracıdır (İHA). Türkiye'de İHA'lar Sivil Havacılık Genel Müdürlüğü'nün (SHGM) talimatlarıyla düzenlenir: Belirli bir ağırlığın üzerindeki İHA'ların kayıt edilmesi, pilotun eğitim almış olması ve havalimanları çevresi gibi yasak bölgelerde uçulmaması gerekir. Başkalarının evlerini ya da yüzlerini izinsiz görüntülemek, bu bölümde gördüğün özel hayatın gizliliği kurallarına da takılır. Uçurmadan önce SHGM'nin güncel İHA kurallarını ve uçuşa yasak bölgeleri kontrol et.
+:::
+
+## 5. Siber zorbalık: tanı, sakla, bildir
+
+**Siber zorbalık**, dijital araçlarla birine kasıtlı ve tekrarlanan biçimde zarar vermektir. Türleri: hakaret ve aşağılama, yalan yayma, gruptan dışlama, sahte hesapla taklit, sürekli taciz ve takip, birinin özel bilgilerini (adres, telefon, okul) izinsiz yayma, yani **doxing**. Siber zorbalığı yüz yüze zorbalıktan ağır yapan üç şey var: Ekran ona gece de ulaşır, içerik hızla yayılır ve kalıcıdır, zorba kendini yüzsüz hissettiği için daha acımasız olabilir.
+
+Hedef olursan ya da bir arkadaşının hedef olduğunu görürsen:
+
+1. **Cevap verme, karşılık verme.** Zorba tepki bekler; karşılık vermek çoğu zaman durumu büyütür.
+2. **Kanıtı sakla.** Ekran görüntüsü al; görüntüde gönderenin adı ya da hesap adı, tarih ve saat görünsün. Paylaşımın bağlantısını da kaydet. Silinmeden önce saklanan kanıt sonraki her adımda işine yarar.
+3. **Engelle ve platforma bildir.** Bütün büyük platformların taciz bildirme aracı vardır.
+4. **Destek al.** Güvendiğin bir yetişkine, okulunun psikolojik danışma birimine ya da Güvenli Web danışma hattına başvur. Yalnız olmadığını bilmek, ilk ve en önemli adımdır.
+5. **Gerekirse yasal yola git.** Emniyetin siber suçlarla mücadele birimine ya da doğrudan savcılığa şikâyette bulunabilirsin. Hakaret ve özel hayatın gizliliği gibi suçlarda şikâyet süresi sınırlıdır; beklemeden hareket et. Çocukların istismarı gibi yasa dışı içerikler İhbar Web üzerinden bildirilir.
+
+İzleyici olmak da bir roldür. Zorbalığı gören ama sessiz kalan, onu büyüten kalabalığın parçası olur. Paylaşmamak, hedefe özelden destek mesajı yazmak ve bildirmek, izleyicinin elindeki üç güçlü araçtır.
+
+Mesaj gruplarında da birkaç basit kural sorunların çoğunu önler: Başkasının mesajını, fotoğrafını ya da numarasını izinsiz başka gruba taşıma. Sınıf grubunu kişisel tartışmaya çevirme. Bir arkadaşını gruba eklemeden önce ona sor. Büyük harfle yazmanın bağırmak gibi okunduğunu unutma. Kurumsal e-posta yazımı Hafta 10'da ayrıca ele alınacak.
+
+## 6. Telif, Creative Commons ve atıf
+
+Bir fotoğraf, bir şarkı, bir metin ya da bir yazılım, onu yapan kişinin emeğidir. **Telif hakkı**, eser sahibine eserini kimin, nasıl kullanabileceğine karar verme hakkı tanır. Türkiye'de Fikir ve Sanat Eserleri Kanunu (FSEK) ile korunur ve iki özelliği çoğu öğrenciyi şaşırtır: Telif hakkı eser yaratıldığı anda kendiliğinden doğar; bir yere kayıt ya da © işareti gerekmez. Koruma da eser sahibinin ölümünden sonra 70 yıl sürer. Yani internette bir görselin yanında hiçbir uyarı yazmaması, onun serbest olduğu anlamına gelmez; varsayılan durum "tüm hakları saklıdır"dır.
+
+Eser sahibi, eserini başkalarının da kullanmasını isteyebilir. **Creative Commons** (CC) lisansları bunun için hazır kalıplar sunar: "Bazı hakları saklıdır." Dört öğeden oluşur:
+
+| Öğe | Anlamı |
+|---|---|
+| BY (Atıf) | Eser sahibinin adı belirtilmelidir. Bütün CC lisanslarında vardır |
+| SA (Aynı lisansla paylaş) | Eseri değiştirip paylaşırsan, yeni eseri de aynı lisansla paylaşmalısın |
+| NC (Ticari olmayan) | Ticari amaçla kullanılamaz |
+| ND (Türetilemez) | Değiştirilemez; yalnızca olduğu gibi kullanılabilir |
+
+Öğeler birleşerek altı lisans oluşturur. En serbesti CC BY, en kısıtlısı CC BY-NC-ND'dir. Bunlardan ayrı olarak **CC0**, eser sahibinin bütün haklarından vazgeçtiğini gösterir.
+
+**Kamu malı** (public domain), telif süresi dolmuş ya da hiç telif korumasına girmemiş eserlerdir: Yüz yıl önce ölmüş bir ressamın tabloları gibi. Bazı ülkelerde devlet kurumlarının ürettiği eserler de kamu malıdır; örneğin NASA'nın fotoğraflarının çoğu.
+
+Yazılımda da benzer lisanslar vardır. **MIT lisansı** kodu neredeyse hiçbir koşul olmadan kullanmana izin verir; yalnızca lisans metnini korumanı ister. **GPL lisansı** ise kodu değiştirip dağıtırsan senin kodunun da açık ve aynı lisansla olmasını ister. Bu yaklaşıma "copyleft" denir. Açık kaynak dünyasını Hafta 3'te ve [Ek C](../ekler/c_alternatifler.qmd) sayfasında görmüştün.
+
+Lisanslı bir eseri kullanırken doğru atıf dört parçadan oluşur: **eserin adı, yazarı, kaynağı ve lisansı.** Örnek:
+
+> "Kampüste sonbahar sabahı", Ayşe Yılmaz, Wikimedia Commons, CC BY 4.0. (Örnek kurgusaldır.)
+
+Lisanslı görsel bulmak için Wikimedia Commons ve Openverse iyi başlangıç noktalarıdır; ikisi de her görselin lisansını gösterir. Unsplash ve Pexels gibi siteler kendi lisanslarını kullanır: atıf istemeyebilirler, ama görseli olduğu gibi satmak gibi kısıtlamaları vardır. Her sitede lisans koşulunu okumak gerekir.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Kaynak gösterirsem telif sorunu olmaz." Yanlış. Bu haftanın en yaygın yanılgısı budur. Kaynak göstermek seni intihalden korur (Hafta 5), ama izin yerine geçmez. Bir fotoğrafçının "tüm hakları saklıdır" fotoğrafını adını yazarak bir broşürde kullanmak hâlâ telif ihlalidir. Eğitim amaçlı kullanımın da sınırları vardır: Derste göstermek ile herkese açık bir sitede yayımlamak aynı şey değildir. Güvenli yol, lisansı izin veren bir eser seçmek ya da eser sahibinden izin almaktır.
+:::
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Bakım dokümanı kimin?"}
+Uçak bakım el kitabı (AMM), servis bültenleri ve parça katalogları üreticinin mülküdür. Havayolları ve bakım kuruluşları bu dokümanları lisans ve gizlilik sözleşmeleriyle kullanır. Bir teknisyenin bir AMM sayfasını sosyal medyada, bir forumda ya da bir mesaj grubunda paylaşması hem telif hem sözleşme ihlali olabilir; işinden olmasına da yol açabilir. Aynı ilke iş yerinde çektiğin fotoğraflar için de geçerlidir. Hangarda bir uçağın fotoğrafını paylaşmadan önce kurumunun sosyal medya politikasına bak; tescil işaretleri, arızalı bir parça ya da güvenlik alanları paylaşılmaması gereken bilgiler olabilir.
+:::
+
+## 7. Yapay zekâ ve hukuk
+
+Hafta 6'da üretken YZ'nin nasıl çalıştığını gördün. Hukuk bu teknolojiye üç soruyla yetişmeye çalışıyor.
+
+**YZ'nin ürettiği içerik kimin?** Telif hakkı geleneksel olarak insanın yaratıcı emeğini korur. ABD'de telif ofisi ve mahkemeler, insan katkısı olmadan tamamen YZ'nin ürettiği bir görselin telifle korunmayacağına karar verdi; 2025'teki bir temyiz kararı da bu yaklaşımı doğruladı. Türkiye'de FSEK, eseri "sahibinin hususiyetini taşıyan" fikir ve sanat ürünü olarak tanımlar; bu tanımın insanı işaret ettiği yaygın bir görüştür. YZ'yi bir araç olarak kullanıp seçen, düzenleyen ve şekillendiren kişinin katkısının nasıl değerlendirileceği ise hâlâ tartışılıyor.
+
+**YZ'yi kimin eserleriyle eğitebilirsin?** Dil ve görsel modelleri milyonlarca metin ve görselle eğitiliyor; bunların çoğu telifli. Gazeteler, yazarlar ve görsel ajansları YZ şirketlerine dava açtı. 2025'te ABD'de bir YZ şirketi, eğitimde korsan sitelerden indirilmiş kitapları kullandığı gerekçesiyle açılan davada yazarlarla yaklaşık 1,5 milyar dolarlık bir uzlaşmaya vardı. Bu davalarda verilecek kararlar, telif hukukunun önümüzdeki on yılını şekillendirecek.
+
+**Rızası olmadan birinin yüzü ya da sesi kullanılabilir mi?** Birkaç yıl öncesine kadar bilim kurgu filmlerinin konusu olan deepfake teknolojisi (Hafta 5), bugün bir telefon uygulamasıyla birinin yüzünü ya da sesini, söylemediği bir şeyi söylüyormuş gibi gösterebiliyor. Birinin görüntüsünü rızası olmadan, hele mahrem bir içerikte kullanmak, Türkiye'de özel hayatın gizliliği ve kişilik hakları kapsamında suç ve tazminat konusu olabilir. ABD'de 2025'te rızasız mahrem deepfake görüntülerin yayılmasını suç sayan ve platformlara kaldırma yükümlülüğü getiren bir federal yasa çıktı. AB'nin Yapay Zekâ Yasası da deepfake içeriğin yapay olarak üretildiğinin açıkça belirtilmesini istiyor.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bir YZ aracıyla ürettiğin bir logo, tanınmış bir markanın logosuna çok benziyorsa kim sorumludur: sen mi, aracı yapan şirket mi? Bu soruyu cevaplamak için hangi bilgilere ihtiyacın olurdu?
+:::
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+The Social Dilemma (Sosyal İkilem, 2020): Eski teknoloji çalışanlarının dikkat ekonomisini anlattığı belgesel. Kurgu sahneleri ve bazı abartılı iddiaları nedeniyle eleştirildi; izlerken Hafta 5'teki soruları sor: Kim söylüyor, kanıtı ne?
+:::
+
+## 8. Avrupa Birliği'nin dijital kuralları (okuma)
+
+AB son on yılda dijital dünyayı düzenleyen bir dizi yasa çıkardı. Bunlar yalnızca AB vatandaşlarını değil, AB'deki kullanıcılara hizmet veren her şirketi bağlar. Şirketler çoğu zaman tek bir kural setiyle çalışmayı tercih ettiği için AB kuralları dünyanın geri kalanındaki ürünleri de değiştirir; buna **Brüksel etkisi** denir. AB'de getirilen bir gizlilik ayarı ya da tek tip şarj girişi, Türkiye'deki telefonuna da gelebilir.
+
+::: {.tablo-kaydir}
+| Düzenleme | Uygulanmaya başladığı tarih | Ne düzenler? | Senin için anlamı |
+|---|---|---|---|
+| Genel Veri Koruma Tüzüğü (GDPR) | 2018 | Kişisel verilerin işlenmesi | Verine erişme, düzelttirme, sildirme hakkı; çerez onay pencereleri (Hafta 8) |
+| Dijital Hizmetler Yasası (DSA) | 2024 | Platformların yasa dışı içerik, şeffaflık ve küçüklerin korunması konusundaki yükümlülükleri | Bir içeriğin neden kaldırıldığını öğrenme ve itiraz etme hakkı; reklamların neden gösterildiğini görme |
+| Dijital Piyasalar Yasası (DMA) | 2024 | Çok büyük platformların ("bekçiler") rekabeti engellemesi | Varsayılan tarayıcı ve arama motorunu seçme ekranları; mesajlaşma uygulamaları arasında birlikte çalışabilirlik |
+| Yapay Zekâ Yasası | Kademeli: 2025'ten 2027'ye | YZ sistemlerini risk düzeyine göre düzenler | Kabul edilemez uygulamalar (örneğin sosyal puanlama) 2025'ten beri yasak; YZ kullanan kuruluşlar çalışanlarının YZ okuryazarlığını sağlamalı; deepfake etiketlenmeli |
+:::
+
+Yapay Zekâ Yasası'nın takvimi kademelidir: Yasaklar ve YZ okuryazarlığı yükümlülüğü Şubat 2025'te, genel amaçlı YZ modellerine ilişkin kurallar Ağustos 2025'te uygulanmaya başladı. Yüksek riskli sistemlere (örneğin işe alım, eğitimde not verme ya da kredi değerlendirmesi için kullanılan YZ) ilişkin kuralların 2026 ve 2027'de uygulanması planlanıyordu. Avrupa Komisyonu 2025'in sonunda bu yükümlülüklerin bir kısmını ertelemeyi önerdi. Takvimin son halini EUR-Lex'ten ya da Komisyonun sitesinden kontrol et.
+
+## 9. Patent ve marka (okuma)
+
+Telif tek fikri mülkiyet türü değildir. Üç temel tür şöyle ayrılır:
+
+| | Telif | Patent | Marka |
+|---|---|---|---|
+| Neyi korur? | Bir eserin kendisini (metin, görsel, müzik, kod) | Bir buluşu, yani teknik bir çözümü | Bir ürünü ya da şirketi ayırt eden işareti (ad, logo) |
+| Nasıl doğar? | Kendiliğinden | Başvuru ve inceleme sonucunda | Tescil başvurusuyla |
+| Ne kadar sürer? | Eser sahibinin ölümünden sonra 70 yıl | Genellikle başvurudan itibaren 20 yıl | Yenilendikçe süresiz |
+| Örnek | Bir robot süpürgenin kullanım kılavuzu | Robot süpürgenin engel algılama yöntemi | Robot süpürgenin markası ve logosu |
+
+Türkiye'de patent ve marka başvuruları Türk Patent ve Marka Kurumu'na yapılır. Patent, buluşun nasıl çalıştığını kamuya açıklamak karşılığında sınırlı bir süre için tekel verir; süre dolunca buluş herkesin olur. Hafta 1'deki çoklu buluşu hatırla: Bell ile Gray'in aynı gün yaptığı başvurular, patent sisteminin "ilk kim?" sorusunu neden bu kadar önemsediğini gösterir.
+
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: Paylaşmadan önce düşünür, başına dert açacak bir paylaşımı fark edersin; ödevlerinde lisanslı görselleri doğru atıfla kullanırsın; bir arkadaşın siber zorbalığa uğradığında ne yapacağını bilirsin. Orta vadede: İş yerinde gizlilik sözleşmelerini, sosyal medya politikalarını ve üretici dokümanlarının kullanım kurallarını anlarsın. Uzun vadede: YZ ve platform düzenlemelerinin mesleğini ve haklarını nasıl etkilediğini takip edersin.
+:::
+
+## Akılda kalsın
+
+- **Ayak izi erimez.** Aktif izini sen bırakırsın, pasif izini başkaları toplar; ikisi birlikte dijital itibarını oluşturur.
+- **Dikkatin bir üründür.** Sonsuz kaydırma, bildirim ve değişken ödül seni tutmak için tasarlandı; ekran süresi araçlarıyla kontrolü geri al, ama kanıtı aşan korkulara da kapılma.
+- **Sanal eylem, gerçek sonuç.** Ekran görüntüsü yaymak, birinin hesabına girmek, doğrulamadan paylaşmak suç olabilir; anonimlik ve "yalnızca paylaştım" seni korumaz.
+- **Siber zorbalıkta üç adım: sakla, bildir, destek al.** Karşılık verme, kanıtı tarihiyle kaydet, yalnız kalma.
+- **Atıf izin değildir.** Telif kendiliğinden doğar; lisansa bak, dört parçalı atıf yaz (eser, yazar, kaynak, lisans).
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: dijital vatandaşlık, dijital ayak izi, aktif ayak izi, pasif ayak izi, dijital itibar, unutulma hakkı, dikkat ekonomisi, dijital iyi oluş, oyun bozukluğu, etik, adil kültür, aleniyet, dezenformasyon suçu (TCK 217/A), 5651 sayılı kanun, siber zorbalık, doxing, telif hakkı, FSEK, Creative Commons, CC0, kamu malı, copyleft, atıf, patent, marka, Brüksel etkisi, GDPR, Dijital Hizmetler Yasası (DSA), Dijital Piyasalar Yasası (DMA), Yapay Zekâ Yasası.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="B" data-explain="SA, değiştirilen eserin de aynı lisansla paylaşılmasını ister. Ticari kullanımı yasaklayan NC, değiştirmeyi yasaklayan ND'dir."}
+**1.** Creative Commons lisansındaki "SA" öğesi ne ister?
+
+- A\) Eserin hiçbir koşulda ticari amaçla kullanılmamasını
+- B\) Eseri değiştirip paylaşırsan, yeni eseri de aynı lisansla paylaşmanı
+- C\) Eserin yalnızca olduğu gibi, hiç değiştirilmeden kullanılmasını
+- D\) Eser sahibinin bütün haklarından vazgeçtiğini
+- E\) Eserin yalnızca eğitim kurumlarında gösterilebileceğini
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Dünya Sağlık Örgütü oyun bozukluğunu 2019'da sınıflamasına ekledi. Diğerleri araştırılan, ama resmî tanı olmayan kavramlardır."}
+**2.** Dünya Sağlık Örgütü'nün hastalık sınıflamasında tanı olarak yer alan durum hangisidir?
+
+- A\) Sosyal medya bağımlılığı
+- B\) Nomofobi (telefonsuz kalma korkusu)
+- C\) Hayalet titreşim
+- D\) Dijital göz yorgunluğu bağımlılığı
+- E\) Oyun bozukluğu
+:::
+
+::: {.quiz-q data-answer="A" data-explain="Doğru atıf dört parçalıdır: eserin adı, yazarı, kaynağı ve lisansı. Diğer şıklarda en az bir parça eksik."}
+**3.** Wikimedia Commons'tan CC BY 4.0 lisanslı bir kütüphane fotoğrafını sunumunda kullanacaksın. Hangisi eksiksiz bir atıftır?
+
+- A\) "Gece yarısı kütüphane", Mehmet Kaya, Wikimedia Commons, CC BY 4.0
+- B\) Fotoğraf: Wikimedia Commons, internetten alınmıştır, teşekkürler
+- C\) "Gece yarısı kütüphane", Wikimedia Commons'tan izin alınarak kullanılmıştır
+- D\) Mehmet Kaya'nın fotoğrafı, tüm hakları saklıdır, kaynak: internet ortamı
+- E\) Görsel temsilîdir; kaynağı ve lisansı sunumun sonunda belirtilecektir
+:::
+
+::: {.quiz-q data-answer="D" data-explain="Birinin adres, telefon gibi özel bilgilerini izinsiz yaymak doxing'dir ve kişisel verileri hukuka aykırı olarak yayma suçu da gündeme gelebilir."}
+**4.** Bir öğrenci, tartıştığı bir sınıf arkadaşının ev adresini ve telefon numarasını herkese açık bir hesapta paylaşıyor. Bu davranış hangi kavramla adlandırılır?
+
+- A\) Trollemek: tartışmayı bilerek kışkırtan mesajlar yazmak
+- B\) Oltalama: sahte bir mesajla birinin şifresini ele geçirmeye çalışmak
+- C\) Deepfake: birinin görüntüsünü yapay zekâyla değiştirmek
+- D\) Doxing: birinin özel bilgilerini izinsiz yaymak
+- E\) Spam: çok sayıda kişiye istenmeyen ileti göndermek
+:::
+
+::: {.quiz-q data-answer="C" data-explain="Atıf intihali önler, ama izin yerine geçmez. Telifli bir fotoğraf ancak lisansı izin veriyorsa ya da eser sahibinden izin alınmışsa kullanılabilir."}
+**5.** Bir arkadaşın kulüp broşüründe internette bulduğu bir fotoğrafı kullanmış ve "Fotoğrafçının adını yazdım, telif sorunu yok" diyor. En isabetli değerlendirme hangisidir?
+
+- A\) Doğrudur; ad yazıldığı sürece her görsel her amaçla kullanılabilir.
+- B\) Doğrudur; broşür ücretsiz dağıtılıyorsa telif kuralları hiç uygulanmaz.
+- C\) Yanlıştır; atıf izin değildir, fotoğrafın lisansına bakılmalı ya da izin alınmalıdır.
+- D\) Yanlıştır; internetteki fotoğraflar hiçbir koşulda broşürde kullanılamaz.
+- E\) Doğrudur; fotoğrafın yanında © işareti yoksa eser zaten kamu malıdır.
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-B, 2-E, 3-A, 4-D, 5-C.
+:::

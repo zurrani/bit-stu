@@ -56,6 +56,12 @@ website:
             href: docs/04_ag-internet-bulut.qmd
           - text: "5 · Bilgi okuryazarlığı"
             href: docs/05_bilgi-okuryazarligi.qmd
+          - text: "6 · Üretken yapay zekâ"
+            href: docs/06_uretken-yapay-zeka.qmd
+          - text: "7 · Dijital vatandaşlık ve hukuk"
+            href: docs/07_dijital-vatandaslik-hukuk.qmd
+          - text: "8 · Mahremiyet"
+            href: docs/08_mahremiyet.qmd
       - section: "Ekler"
         contents:
           - text: "Sözlük"

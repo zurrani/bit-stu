@@ -1,0 +1,393 @@
+---
+title: "Mahremiyet: veri, büyük veri ve algoritmalar"
+subtitle: "Hafta 8"
+description: "Mahremiyet ve gizlilik; veri ekonomisi ve profilleme; büyük veri ve üst veri; öneri, fiyat ve karar algoritmaları; izleme teknolojileri ve yapay zekâ; KVKK ve haklarımız; kişisel mahremiyet planı."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>8 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.2 Değerlendirme, 2.6 Dijital kimlik, 4.2 Mahremiyet</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Senin hakkında kim, ne biliyor ve bununla ne yapıyor?</p>
+</div>
+```
+
+Geçen hafta dikkatinin bir ürün olduğunu gördün. Bu hafta hikâyenin öbür yarısına bakıyoruz: Ekranda geçirdiğin her dakika veri bırakır. Bu veri nereye gidiyor, nasıl bir profile dönüşüyor, algoritmalar bu profille senin için neye karar veriyor? Sonra yasanın sana tanıdığı haklara ve beş dakikada yapabileceğin ayarlara geçeceğiz. Amaç seni korkutmak değil, verin üzerindeki kontrolü geri almanı sağlamak.
+
+**Okuma süresi:** yaklaşık 30 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. "Ücretsiz" hizmetlerin veri ekonomisi üzerinden nasıl para kazandığını açıklamak.
+2. Büyük verinin özelliklerini ve üst verinin neden içerik kadar şey söyleyebildiğini açıklamak.
+3. Öneri, fiyatlama ve karar algoritmalarının veriyle nasıl çalıştığını ve algoritmik önyargıyı örnekle açıklamak.
+4. Kendi tehdit modelini kurmak ve tarayıcı, hesap ve uygulama düzeyinde mahremiyet ayarlarını yapmak.
+5. KVKK'nın temel kavramlarını açıklamak, bir aydınlatma metnini okuyup değerlendirmek ve ilgili kişi haklarını kullanmak için bir başvuru hazırlamak.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Mahremiyet nedir?
+
+Günlük dilde iki kelime sık karışır. **Gizlilik**, bir bilginin yetkisiz kişilerden korunmasıdır: şifren, banka bilgilerin, kurumunun gizli belgeleri. Bunu sağlamak bir güvenlik işidir ve Hafta 9'un konusudur. **Mahremiyet** daha geniştir: Kendinle ilgili bilginin kimle, ne amaçla ve ne kadar süre paylaşılacağına karar verebilmektir. Telefonundaki "Gizlilik ayarları" aslında çoğu zaman mahremiyet ayarlarıdır; İngilizcedeki *privacy* kelimesi iki anlamda da kullanılır.
+
+Doktoruna sağlık bilgini isteyerek verirsin. Aynı bilgi senden habersiz işverenine giderse, hiçbir şifre çalınmamış olsa bile mahremiyetin ihlal edilmiştir. Mahremiyet bilgiyi saklamak değil, bilginin akışını kontrol etmektir.
+
+### "Saklayacak bir şeyim yok"
+
+En sık duyulan cevap budur: Suç işlemiyorsan neden endişelenesin? Kulağa makul gelir, ama dört noktada eksik kalır:
+
+- **Mesele saklamak değil.** Banyonun kapısını kapatırsın, ama içeride suç işlemiyorsun; bu insan olmaktır.
+- **Bugünün zararsız verisi yarın başka anlam taşır.** Bir sağlık uygulamasına girdiğin bilgi ya da bir arama geçmişi, başka bir bağlamda aleyhine kullanılabilir.
+- **Kararlar profilinle veriliyor ve sen görmüyorsun.** Gördüğün fiyat, sana gösterilen iş ilanı ya da kredi başvurunun sonucu, hakkındaki bir tahmine dayanabilir. Tahmin yanlışsa düzeltme şansın bile olmayabilir.
+- **Senin verin başkalarının da verisidir.** Rehberini bir uygulamayla paylaştığında arkadaşlarının numaralarını da verirsin. 2018'de ortaya çıkan Cambridge Analytica olayında bir kişilik testini birkaç yüz bin kişi çözdü; ama uygulama arkadaş listeleri üzerinden, Facebook'un açıklamasına göre 87 milyona kadar kişinin verisine ulaştı ve bu veriler siyasi reklam için kullanıldı.
+
+Edward Snowden'a atfedilen bir söz bu tartışmayı özetler: "Saklayacak bir şeyin olmadığı için mahremiyeti umursamamak, söyleyecek bir şeyin olmadığı için ifade özgürlüğünü umursamamaya benzer."
+
+Bu haftanın ana benzetmesi bir yapboz. Tek bir veri parçası zararsız görünür: doğum günün, oturduğun semt, spor salonuna gittiğin saatler. Parçalar birleşince resim çıkar: nerede yaşadığın, ne zaman evde olmadığın, neye ne kadar para vereceğin.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bugün hangi uygulamaya başkalarının verisini verdin? Rehberine erişen bir uygulamayı, bir grup fotoğrafını ya da bir ekran görüntüsünü düşün. O kişilere sordun mu?
+:::
+
+## 2. Ücretsiz hizmetin bedeli: veri ekonomisi
+
+Bir reklamın değeri yalnızca kaç kişinin gördüğüne değil, *kimin* gördüğüne bağlıdır: Koşu ayakkabısı reklamını koşuya yeni başlamış birine göstermek çok daha değerlidir. Bu yüzden asıl satılan şey, senin hakkında bilinenlerden hesaplanan bir tahmindir: Ne alacaksın, neye tıklayacaksın? Kişisel verinin toplanıp alınıp satıldığı, reklama ve kararlara dönüştürüldüğü bu düzene **veri ekonomisi** denir.
+
+### Saniyenin onda birinde bir açık artırma
+
+Reklam gösteren bir haber sitesini açtığında, sayfa yüklenirken arka planda bir açık artırma yapılır:
+
+1. Site, reklam alanının boş olduğunu bir reklam ağına bildirir. Bildirime senin hakkında bilinenler eklenir: konumun, cihazın, tarayıcın, ilgi alanların.
+2. Bu bilgiler aynı anda çok sayıda reklam verene ulaşır.
+3. Her biri "Bu kişiye reklam göstermek bana ne kadar değer?" hesabıyla teklif verir.
+4. En yüksek teklifi veren kazanır ve reklamı ekranına gelir.
+
+Hepsi yaklaşık saniyenin onda biri kadar sürer ve gün boyunca milyarlarca kez tekrarlanır. Önemli ayrıntı şu: Açık artırmayı kaybeden şirketler de bilgilerini görmüş olur.
+
+### Veri simsarları ve profiller
+
+**Veri simsarları** (data broker), uygulamalar, sadakat kartları ve herkese açık kayıtlar gibi farklı kaynaklardan veri toplayıp birleştiren ve başka şirketlere satan firmalardır. Seninle doğrudan ilişkileri olmadığı için adlarını çoğu zaman duymazsın. Toplanan veriden yaşın, gelir düzeyin, hatta borç sıkıntısı yaşayıp yaşamadığın gibi tahminler çıkarılır. Bir kişi hakkında bu tür tahminlerden profil oluşturmaya **profilleme** denir.
+
+Shoshana Zuboff 2019'da yayımlanan kitabında bu düzene **gözetim kapitalizmi** adını verdi: İnsan davranışının ham madde gibi toplanması, davranışı tahmin eden ürünlere dönüştürülmesi ve satılması. Zuboff'a göre amaç davranışı yalnızca tahmin etmek değil, yönlendirmektir. Eleştirenler bazı iddiaların abartılı olduğunu savundu; yine de kavram, "ücretsiz" hizmetin gerçek fiyatını konuşmanın yaygın dili oldu.
+
+Veri bilimci Clive Humby'ye 2006'da atfedilen "Veri yeni petroldür" sözünün doğru bir yanı var: Ham veri de işlenmeden pek değer taşımaz. Ama benzetme iki yerde aksar: Petrol kullanıldıkça biter, veri sınırsız kopyalanır. Petrol kimseyle ilgili değildir, kişisel veri ise bir insanın hayatıdır.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Telefonum beni dinliyor; arkadaşımla konuştuğum ürünün reklamı birkaç saat sonra karşıma çıktı." Araştırmalar, uygulamaların reklam için gizlice ses kaydettiğine dair güçlü bir kanıt bulmadı; ayrıca mikrofon kullanıldığında ekranın köşesinde bir gösterge yanar (Hafta 3). Gerçek daha rahatsız edici: Seni tanımak için dinlemeye gerek yok. Arkadaşınla aynı yerde ve aynı Wi-Fi ağında olduğunuzu, onun o ürünü aradığını ve senin ilgi alanlarını birleştiren bir sistem aynı tahmine ulaşır. Bir de beynin payı var: Bir şeyi konuştuktan sonra onunla ilgili reklamı fark etme olasılığın artar; buna frekans yanılsaması denir.
+:::
+
+## 3. Büyük veri ve üst veri
+
+Mesajlar, fotoğraflar, aramalar, kart ödemeleri ve sensör ölçümleri her gün dev bir veri yığını oluşturuyor. Bu ölçekteki veriye **büyük veri** denir ve özellikleri genellikle beş "V" ile anlatılır:
+
+| Özellik | Anlamı | Örnek |
+|---|---|---|
+| Hacim (volume) | Miktarın çok büyük olması | Video platformuna her dakika yüklenen saatlerce video |
+| Hız (velocity) | Verinin anlık akması | Harita uygulamasının trafiği telefonlardan anlık hesaplaması |
+| Çeşitlilik (variety) | Metin, görüntü, ses, konum gibi farklı türler | Ödeme kaydı, mağaza kamerası ve uygulama konumu |
+| Doğruluk (veracity) | Güvenilirliğin değişken olması | Sahte hesaplar, hatalı sensörler |
+| Değer (value) | Veriden anlamlı sonuç çıkarılabilmesi | Marketin satış verisinden stok tahmini |
+
+Büyük verinin gücü tek tek kayıtlarda değil, birleşmede ve örüntüde yatar; Hafta 1'deki veriden bilgeliğe basamaklarını hatırla.
+
+### Zarf da konuşur: üst veri
+
+**Üst veri** (metadata), verinin kendisi hakkındaki veridir. Bir mektubun içeriği zarfın içindedir; ama zarfın üstünde kimin kime, ne zaman ve nereden yazdığı görünür. Bir kişinin aylar boyunca bütün zarflarına bakabiliyorsan, zarfı açmadan da çok şey öğrenirsin.
+
+Dijital dünyada üst veri her yerdedir:
+
+- **Telefon görüşmesi:** Kim, kimi, ne zaman, ne kadar süreyle, hangi baz istasyonu üzerinden aradı.
+- **Mesaj:** Gönderen, alıcı, saat, mesajın boyutu, bazen konum.
+- **Fotoğraf:** Çekim tarihi ve saati, telefonun modeli ve konum izni açıksa çekildiği yerin koordinatları. Fotoğraf dosyasının içinde saklanan bu bilgilere **EXIF** verisi denir.
+
+İçerik şifreli olsa bile üst veri konuşur. Birinin gece ikide bir hastanenin onkoloji bölümünü üç kez aradığını bilmek için görüşmeyi dinlemek gerekmez. Hafta 4'teki uçtan uca şifreleme içeriği korur, ama kimin kiminle ne zaman konuştuğunu her zaman gizlemez.
+
+Birçok sosyal medya platformu fotoğraf yüklenirken konum bilgisini siler. Ama fotoğrafı e-postayla ya da "dosya olarak" gönderdiğinde bu bilgi çoğu zaman olduğu gibi gider; kamera ayarlarında konum etiketini kapatabilirsin.
+
+En çarpıcı örneklerden biri bir spor uygulamasından geldi. Strava, kullanıcılarının koşu rotalarından küresel bir ısı haritası yayımladı. 2018'in başında bir üniversite öğrencisi, haritada çölün ortasında parlayan çizgilerin askerî üslerdeki koşu yolları olduğunu fark etti. Koşucuların hiçbiri bir sır paylaşmamıştı; ama veriler birleşince üslerin yeri görünür oldu. Yapboz tamamlanmıştı.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Gökyüzü herkese açık mı?"}
+Hafta 4'te gördüğün ADS-B, uçağın konumunu, irtifasını ve hızını şifresiz yayınlar. Ucuz bir alıcısı olan herkes çevresindeki uçakları izleyebilir; uçuş takip siteleri de gönüllülerin kurduğu bu alıcılardan beslenir. Bu açıklık güvenlik için tasarlandı: Hava trafik kontrolü ve diğer uçaklar seni görmelidir. Ama bir mahremiyet sorusu da getirdi. 2022'de ünlülerin özel jetlerini anlık takip eden sosyal medya hesapları tartışma yarattı; bunlardan biri, sahibinin güvenliğini tehdit ettiği gerekçesiyle kapatıldı. Bir tarafa göre veri zaten kamusaldı; öbür tarafa göre bir kişinin anlık konumunu toplu halde yaymak başka bir şeydi. ABD'de havacılık otoritesi, özel uçak sahiplerine takip sitelerinde gizlenme ve geçici kimlikle yayın yapma imkânı tanıyan programlar sunuyor. Ders açık: Herkese açık her veri, birleştirildiğinde zararsız değildir.
+:::
+
+## 4. Algoritmalar senin yerine karar verince
+
+Bir video bitince gelen öneri, "Bunu alanlar şunları da aldı" satırı, sosyal medyadaki akış: Hepsi bir **öneri sisteminin** işidir. Öneri sistemleri ya beğendiklerine benzeyen içeriği bulur ya da seninle benzer davranan kişilerin beğendiklerini sana önerir. Veri arttıkça öneri isabetlenir; veri toplamanın en güçlü gerekçesi budur. Kişiselleştirme zaman kazandırır, ama bedeli Hafta 5'teki filtre balonudur: Algoritma seni en çok tutanı gösterir, en doğruyu değil.
+
+### Fiyatı da algoritma belirleyebilir
+
+**Dinamik fiyatlama**, fiyatın talebe, saate ve stoka göre değişmesidir: biletler, otel odaları, yoğun saatte pahalanan taksi uygulamaları. Bir adım ötesi kişiye özel fiyattır: Cihazın, konumun ya da geçmiş alışverişlerin, ne kadar ödemeye razı olduğuna dair bir tahmine dönüşebilir. Bunun ne kadar yaygın olduğu tartışmalıdır; fiyat değişimlerinin çoğu talep ve stokla açıklanır. Ama mümkün olduğunu bilmek, karşılaştırma yaparken dikkatli olmaya yeter.
+
+### Kararı veren algoritma
+
+Algoritmalar önemli kararları da etkiler. Türkiye'de bankalar kredi başvurusunda Kredi Kayıt Bürosu'nun ödeme geçmişinden hesapladığı kredi notunu kullanır; kendi notunu Findeks üzerinden görebilirsin. İş başvurularını ön elemeden geçiren yazılımlar ve sigortadaki risk puanları da aynı mantıkla çalışır: Geçmiş veriden öğrenilen bir örüntüyle bir kişi hakkında karar verilir.
+
+Bu kararlar hızlı ve tutarlı görünür, ama tarafsız olmayabilir. **Algoritmik önyargı**, bir algoritmanın belirli grupları sistematik olarak dezavantajlı duruma düşürmesidir. Hafta 6'daki özgeçmiş tarama örneğini hatırla. Sana daha yakın bir örnek 2020'de İngiltere'den geldi: Salgın nedeniyle sınavlar yapılamayınca lise bitirme notları, öğretmen tahminlerini okulun geçmiş sonuçlarına göre ayarlayan bir algoritmayla belirlendi. Tahmini notların yaklaşık yüzde 40'ı düşürüldü; en çok, geçmişte başarısı düşük okullardaki başarılı öğrenciler zarar gördü. Protestolardan birkaç gün sonra algoritmanın notları iptal edildi. Algoritma kötü niyetle yazılmamıştı; ama öğrenciyi kendi başarısıyla değil, okulunun geçmişiyle değerlendiriyordu.
+
+Önyargı çoğu zaman iki kaynaktan gelir:
+
+- **Geçmiş veri:** Geçmiş eşitsizse, ondan öğrenen sistem eşitsizliği sürdürür; üstelik bunu "nesnel" bir sayı gibi sunar.
+- **Vekil değişken:** Algoritmadan cinsiyet sütununu çıkarmak yetmeyebilir; posta kodu, okul ya da alışveriş alışkanlıkları onun yerine geçebilir. Bir bilginin yerine geçen bu tür değişkenlere **vekil değişken** (proxy) denir.
+
+Bu yüzden önemli kararlarda insan denetimi ve itiraz hakkı önemlidir. KVKK, yalnızca otomatik sistemlerle yapılan bir analizin aleyhine çıkan sonucuna itiraz hakkı tanır (Bölüm 6).
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bir seyahat sitesinde aynı bileti üç kez aradın ve fiyat her seferinde arttı. Arkadaşın "Çerezlerini sil, fiyat düşer" diyor. Fiyat seni tanıdığı için mi arttı, yoksa bilet mi azaldı? Bunu nasıl test ederdin?
+:::
+
+## 5. Seni nasıl izliyorlar? İzleme ve yapay zekâ
+
+Seni siteden siteye tanıyan birkaç teknoloji var. Hiçbiri tek başına kötü değildir; ama birlikte ayrıntılı bir profil çıkarabilirler.
+
+::: {.tablo-kaydir}
+| Teknoloji | Nasıl çalışır? | Ne yapabilirsin? |
+|---|---|---|
+| **Çerez** (cookie) | Sitenin tarayıcına bıraktığı küçük dosya. **Birinci taraf çerezi** girdiğin sitenindir, sepetini hatırlar. **Üçüncü taraf çerezi** sayfaya gömülü başka bir şirketindir ve seni siteler arasında tanır | Üçüncü taraf çerezleri engelle; çerez penceresinde "Tümünü reddet" |
+| **İzleme pikseli** | E-postaya gizlenmiş görünmez bir görsel; yüklenince göndericiye e-postayı ne zaman, hangi cihazla açtığını bildirir | Uzaktaki görsellerin otomatik yüklenmesini kapat |
+| **Tarayıcı parmak izi** | Ekran çözünürlüğü, yazı tipleri, saat dilimi gibi ayrıntıların neredeyse eşsiz birleşimi; çerezleri silsen de seni tanıyabilir | Parmak izine karşı korumalı bir tarayıcı kullan; az eklenti |
+| **SDK** | Uygulamalara gömülü, başka şirketlere ait reklam ve analiz yazılımları; uygulamayı yapan bile hangi verinin gittiğini tam bilmeyebilir | Kullanmadığın uygulamaları sil (Hafta 3) |
+| **Reklam kimliği** | Telefonun seni reklam için tanıtan numarası (Hafta 3) | Android'de sil; iOS'ta izleme isteğini reddet |
+:::
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Gizli sekme beni internette görünmez yapar." Yanlış. Gizli sekme yalnızca *kendi cihazında* iz bırakmamanı sağlar: Pencereyi kapatınca geçmiş ve çerezler silinir. Ama girdiğin siteler seni yine görür, bir hesaba giriş yaparsan tanır; okulun ağı ve internet hizmet sağlayıcın da hangi sitelere bağlandığını görebilir. 2024'te ABD'deki bir davanın sonunda Google, gizli modda toplanan milyarlarca kaydı silmeyi kabul etti. Gizli sekme ortak bir bilgisayarda işe yarar; seni internetten saklamaz.
+:::
+
+### Yapay zekâ ve mahremiyet
+
+Hafta 6'da sohbete yazdığın her şeyin hizmet sağlayıcının sunucularına gittiğini gördün. Bunun üç sonucu var:
+
+- **Eğitim verisi:** Bazı sohbet asistanları, ayarlarına bağlı olarak konuşmalarını modelleri geliştirmek için kullanabilir; ayarın adı ve varsayılan değeri ürüne göre değişir. Sosyal medyadaki herkese açık paylaşımların da YZ eğitiminde kullanılabiliyor; bazı platformlar itiraz yolu sunuyor.
+- **Kurumsal veri sızıntısı:** 2023'te büyük bir elektronik şirketinin çalışanları gizli kaynak kodunu bir sohbet asistanına yapıştırdı; şirket ardından üretken YZ kullanımını kısıtladı. Bir müşterinin ya da hastanın verisini bir YZ aracına yapıştırmak, o veriyi izinsiz bir üçüncü tarafa, çoğu zaman da yurt dışına aktarmaktır.
+- **Yüz tanıma:** Yüz, değiştiremeyeceğin bir şifredir. İnternetten milyarlarca fotoğraf toplayarak yüz tanıma veri tabanı kuran şirketler birçok Avrupa ülkesinde ceza aldı; AB'nin Yapay Zekâ Yasası bu tür hedefsiz toplamayı 2025'ten beri yasaklıyor.
+
+### Anonim veri ne kadar anonim?
+
+**Anonimleştirme**, verinin hiçbir şekilde bir kişiyle ilişkilendirilemeyecek hale getirilmesidir ve sanıldığından zordur. Bilgisayar bilimci Latanya Sweeney, ABD'de yalnızca posta kodu, doğum tarihi ve cinsiyetin nüfusun yaklaşık yüzde 87'sini tanımlamaya yettiğini gösterdi. "Anonim" bir veri seti başka bir veriyle birleşince kişiler yeniden tanınabilir.
+
+**Takma adlandırma** (pseudonymization) ise adın yerine bir kod koymaktır: "Ayşe Yılmaz" yerine "K-4821". Kodu çözen anahtar bir yerde durduğu için bu veri hâlâ kişiseldir. Gerçek anonimleştirmede geri dönüş yolu yoktur ve anonim veri artık kişisel veri sayılmaz.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Uçuş verisi izleme"}
+Bir yolcu uçağı her uçuşta binlerce parametre kaydeder. Havayolları **uçuş verisi izleme** (Flight Data Monitoring, FDM) programlarıyla bu verileri analiz ederek, bir olay yaşanmadan riskli eğilimleri görür: belirli bir pistte yaklaşmaların hep hızlı olması ya da bir motorda titreşimin yavaş yavaş artması gibi. Bu programlar mahremiyet ile güvenliğin birlikte kurulabileceğini gösterir: Veriler genellikle takma adlandırılır, uçuş ekibinin kimliğine yalnızca güvenilir bir aracı kurallara bağlı olarak ulaşabilir. Amaç cezalandırmak değil, öğrenmektir; Hafta 7'deki adil kültür burada veriyle buluşur. Bakımda da motor sağlığı verileri arızayı önceden görmeye yarar (Hafta 6, öngörücü bakım).
+:::
+
+## 6. KVKK: haklarını bil
+
+Türkiye'de kişisel verileri **6698 sayılı Kişisel Verilerin Korunması Kanunu** (KVKK, 2016) korur; uygulamayı Kişisel Verileri Koruma Kurumu denetler, kararları Kurumun karar organı olan Kurul verir. Hafta 7'deki uyarı burada da geçerli: Bu bölüm hukuki danışmanlık değildir; güncel metni [mevzuat.gov.tr](https://www.mevzuat.gov.tr) ve [kvkk.gov.tr](https://www.kvkk.gov.tr) adreslerinden kontrol et.
+
+### Temel kavramlar
+
+::: {.tablo-kaydir}
+| Kavram | Anlamı | Örnek |
+|---|---|---|
+| **Kişisel veri** | Kimliği belirli ya da belirlenebilir bir gerçek kişiye ilişkin her türlü bilgi | Ad, telefon, e-posta, IP adresi, fotoğraf, konum, öğrenci numarası |
+| **Özel nitelikli kişisel veri** | Açığa çıkması ayrımcılığa yol açabilecek, daha sıkı korunan veriler | Sağlık, biyometrik ve genetik veri, din, siyasi düşünce, ceza mahkûmiyeti, sendika üyeliği |
+| **İlgili kişi** | Verisi işlenen gerçek kişi | Sen |
+| **Veri sorumlusu** | Verinin neden ve nasıl işleneceğine karar veren kişi ya da kurum | Okulun, bankan, kullandığın uygulamanın şirketi |
+| **Veri işleyen** | Veriyi veri sorumlusu adına işleyen | Okulun e-posta hizmetini sağlayan bulut şirketi |
+:::
+
+Çoğu kişiyi şaşırtan ayrıntı: Parmak izi ve yüz görüntüsü biyometrik veridir, yani özel nitelikli.
+
+### Veri hangi durumlarda işlenebilir?
+
+Temel ilke kısadır: Veri hukuka ve dürüstlük kurallarına uygun, belirli ve meşru bir amaçla, gerektiği kadar ve gerektiği süre işlenmeli, doğru tutulmalıdır. "Gerektiği kadar" ilkesine **veri en azaltma** denir: Pizza siparişi için doğum tarihine gerek yoktur.
+
+Kişisel veri, kanunun saydığı şartlardan biri varsa işlenebilir. **Açık rıza** bunlardan yalnızca biridir:
+
+::: {.tablo-kaydir}
+| İşleme şartı | Örnek |
+|---|---|
+| Açık rıza | Bir mağazanın sana kampanya mesajları göndermesi |
+| Kanunlarda açıkça öngörülmesi | İşverenin çalışanını sosyal güvenlik kurumuna bildirmesi |
+| Sözleşmenin kurulması ya da ifası | Kargo şirketinin paketi teslim etmek için adresini kullanması |
+| Veri sorumlusunun hukuki yükümlülüğü | Bankanın işlem kayıtlarını yasal süre boyunca saklaması |
+| Kişinin bilgiyi kendisinin alenileştirmesi | İlana yazdığın numaranın o ilanla ilgili kullanılması |
+| Hayati tehlike | Bilinci kapalı bir kazazedenin kan grubunun öğrenilmesi |
+| Bir hakkın kurulması, kullanılması ya da korunması | Bir şirketin davada kayıtları mahkemeye sunması |
+| Meşru menfaat | Mağazanın hırsızlığa karşı kamera kaydı (temel haklarına zarar vermeden) |
+:::
+
+Özel nitelikli veriler için şartlar daha dardır; 2024'te yapılan bir değişiklikle bu şartlar yeniden düzenlendi.
+
+Hangi şarta dayanırsa dayansın, veri sorumlusu seni **aydınlatmak** zorundadır: kim olduğunu, verini hangi amaçla ve hangi hukuki sebeple işlediğini, kimlere aktarabileceğini, nasıl topladığını ve haklarını bildirmelidir. Bunun yazılı haline **aydınlatma metni** denir. Okurken beş soru sor:
+
+1. Hangi verim toplanıyor?
+2. Hangi amaçla ve hangi hukuki sebeple?
+3. Kimlere aktarılıyor; yurt dışına gidiyor mu?
+4. Ne kadar süre saklanıyor?
+5. Haklarımı nasıl kullanırım?
+
+İyi bir metin bu sorulara açık cevap verir. Cevap vermediği soru, senin soracağın sorudur.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"'Okudum, onaylıyorum' kutusunu işaretlediğimde her şeye rıza vermiş olurum." Yanlış. Aydınlatma seni bilgilendirir, rıza ise bir şeye izin vermektir; metni okuduğunu onaylamak rıza vermek değildir. Açık rıza belirli bir konuya ilişkin, bilgilendirilmeye dayanan ve özgür iradeyle verilmiş olmalıdır. Önceden işaretlenmiş kutular ya da hizmeti reklam iznine bağlayan tek bir "Kabul ediyorum" düğmesi bu koşulları karşılamaz. Öte yandan "Her işlem için açık rıza gerekir" düşüncesi de yanlıştır: Kargo şirketinin adresini kullanması sözleşmeye dayanır, rıza gerekmez. Verdiğin rızayı istediğin zaman geri alabilirsin.
+:::
+
+### Hakların ve başvuru yolu
+
+KVKK'nın 11. maddesi sana dört grup hak tanır:
+
+- **Öğrenme:** Verinin işlenip işlenmediğini, hangi amaçla işlendiğini ve yurt içinde ya da dışında kimlere aktarıldığını öğrenmek.
+- **Düzeltme ve silme:** Eksik ya da yanlış veriyi düzelttirmek; koşullar oluşmuşsa sildirmek ve bunun aktarılan kişilere de bildirilmesini istemek.
+- **İtiraz:** Yalnızca otomatik sistemlerle yapılan bir analizin aleyhine çıkan sonucuna itiraz etmek.
+- **Tazminat:** Kanuna aykırı işleme yüzünden zarara uğradıysan zararın giderilmesini istemek.
+
+Bu hakları kullanmak için önce **veri sorumlusuna**, yazılı olarak ya da aydınlatma metninde gösterilen elektronik yollarla başvurursun; başvuruda kimlik ve iletişim bilgilerin ile talebin açıkça yer alır. Veri sorumlusu başvuruyu en geç 30 gün içinde, kural olarak ücretsiz sonuçlandırır. Cevap gelmezse ya da yetersizse Kurul'a şikâyet edebilirsin. Hafta 7'deki unutulma hakkı da silme hakkının arama sonuçlarına uzanan bir uygulamasıdır.
+
+### Sınırı aşan veri ve veri ihlali
+
+Hafta 4'te bulutun belirli bir ülkedeki veri merkezinde durduğunu görmüştün. Kişisel verinin yurt dışına aktarılması ayrı kurallara bağlıdır; 2024'teki değişiklikle bu kurallar AB düzenine yaklaştırıldı: Aktarım, karşı ülkenin yeterli koruma sağladığına dair bir karara, yoksa standart sözleşme gibi güvencelere, o da yoksa sınırlı istisnalara dayanır. Sunucular yurt dışındaysa aydınlatma metninde yazmalıdır.
+
+Verilerin yetkisiz kişilerin eline geçmesine **veri ihlali** denir. Veri sorumlusu ihlali en kısa sürede Kurul'a ve etkilenen kişilere bildirmek zorundadır; Kurul bunun için 72 saat öngörüyor. Böyle bir bildirim alırsan o hesabın ve aynı şifreyi kullandığın hesapların şifresini değiştir; ayrıntısı Hafta 9'da.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: İmzan da kişisel veridir"}
+Bir iş kartını imzaladığında ya da uçağı bakım sonrasında hizmete bırakan belgeyi onayladığında adın, imzan ve yetki numaran kayda geçer. Bu kayıtlar kişisel verindir, ama işlenmeleri rızana bağlı değildir: Havacılık mevzuatı izlenebilirliği zorunlu tutar. Yıllar sonra bir arızanın kökü araştırılırken hangi işi kimin, ne zaman, hangi dokümanın hangi revizyonuna göre yaptığı bilinmelidir. Bu, KVKK'daki "hukuki yükümlülük" şartının gündelik örneğidir: Kaydın silinmesini isteyemezsin, ama doğru olmasını ve yalnızca bu amaçla kullanılmasını bekleyebilirsin.
+
+Teknisyen başkalarının verisine de dokunur. Kabin bakımında koltuk cebinde unutulmuş bir telefon bulursan içine bakmaz, kayıp eşya prosedürüyle teslim edersin. Bir arıza kaydını YZ aracına yapıştırmadan önce personel adlarını, sicil numaralarını ve yolcu bilgilerini çıkarırsın; daha iyisi, kurumunun onayladığı aracı kullanırsın.
+:::
+
+## 7. Kişisel mahremiyet planı
+
+Mahremiyetini korumak için teknolojiyi bırakman gerekmez. Güvenlik uzmanlarının yöntemi işini kolaylaştırır: **tehdit modeli**. Dört soruyla kurulur:
+
+1. **Neyi korumak istiyorum?** Konumum, mesajlarım, sağlık bilgim, fotoğraflarım.
+2. **Kimden?** Reklam şirketlerinden, dolandırıcılardan, eski bir arkadaştan, gelecekteki bir işverenden.
+3. **Ne kadar olası?** Her tehdit herkes için aynı değildir.
+4. **Olursa ne olur, ne kadar çaba göstermeye hazırım?**
+
+Bir öğrencinin tehdit modeli ile bir gazetecininki farklıdır; amaç her şeyden korkmak değil, çabanı en önemli yere harcamaktır. En etkili adım çoğu zaman en basitidir: gerekmeyen veriyi hiç vermemek. Formdaki zorunlu olmayan alanları boş bırakmak, kasada sorulan telefon numarasını vermemek, kullanmadığın uygulamaların hesabını da kapatmak. Bu, veri en azaltmanın sana düşen yarısıdır.
+
+### Beş dakikalık denetim
+
+::: {.tablo-kaydir}
+| Nerede? | Ne yaparsın? |
+|---|---|
+| Tarayıcı | Üçüncü taraf çerezleri engelle; izleme korumasını en sıkı düzeye al; gereksiz eklentileri kaldır |
+| Google ve diğer hesapların | Kişiselleştirilmiş reklamları kapat ya da ilgi alanlarını düzenle; etkinlik ve konum geçmişine otomatik silme koy |
+| Sosyal medya | Profilin kimlere açık? "Bu reklamı neden görüyorum?" bilgisine bak |
+| YZ asistanları | Konuşmaların model eğitiminde kullanılması ayarını kontrol et |
+| Telefon | İzinleri gözden geçir, reklam kimliğini sıfırla (Hafta 3); kamerada konum etiketini kapat |
+| E-posta | Uzaktaki görsellerin otomatik yüklenmesini kapat |
+:::
+
+Merak edersen büyük platformların hakkında tuttuğu veriyi indirebilirsin (Google Takeout ya da sosyal medyadaki "Bilgilerini indir" seçeneği). Dosyada beklemediğin ne var? Bu dosya senin kişisel verindir; kimseyle paylaşma.
+
+Daha az veri toplayan seçenekleri [Ek C](../ekler/c_alternatifler.qmd) sayfasında bulabilirsin; her şeyin bir alternatifi var. Ama alternatif seçmek de bir tehdit modeli kararıdır: Arkadaşlarının hiçbiri kullanmıyorsa, en mahremiyet dostu mesajlaşma uygulaması bile seni yalnız bırakır.
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+Coded Bias (Kodlanmış Önyargı, 2020): Joy Buolamwini'nin, yüz tanıma sistemlerinin koyu tenli kadınları çok daha sık yanlış tanıdığını fark etmesiyle başlayan belgesel. The Great Hack (Büyük Hack, 2019): Cambridge Analytica olayını anlatır. İzlerken Hafta 5'teki soruları sor: Kim söylüyor, kanıtı ne?
+:::
+
+## 8. Evdeki ve yoldaki sensörler (okuma)
+
+Hafta 4'te gördüğün Nesnelerin İnterneti, evdeki ve yoldaki birçok cihazı da veri kaynağına çevirdi.
+
+::: {.tablo-kaydir}
+| Cihaz | Ne toplayabilir? | Ne yapabilirsin? |
+|---|---|---|
+| Akıllı TV | Ekranda ne izlediğini, kaynağı ne olursa olsun tanıyan "otomatik içerik tanıma" ile izleme alışkanlıklarını | İçerik tanımayı ve reklam kişiselleştirmeyi kapat |
+| Sesli asistan, akıllı hoparlör | Uyandırma kelimesinden sonraki kayıtları; bazen yanlışlıkla kaydedilen konuşmaları | Kayıt geçmişini sil, otomatik silmeyi aç |
+| Bağlantılı otomobil | Rotaları, hız ve fren alışkanlıklarını; telefonla eşleşince rehberi | Veri paylaşım ayarlarına bak; satarken eşleşmeyi sil |
+| Akıllı saat, bileklik | Nabzı, uykuyu, adımları; çoğu sağlık verisidir | Hangi uygulamalarla paylaşıldığına bak |
+| Robot süpürge, akıllı ev | Evin planını, evde kimin ne zaman olduğunu | Varsayılan şifreleri değiştir |
+:::
+
+Bu riskler kuramsal değil. 2019'da birkaç büyük şirketin sesli asistan kayıtlarının bir kısmını çalışanlarına ya da taşeronlara dinlettiği ortaya çıktı; 2024'te ABD'de bazı otomobil üreticilerinin sürüş verilerini sürücülerin haberi olmadan sigorta şirketleriyle paylaştığı haberlere yansıdı. Pratik kural: İhtiyacın olmayan bağlantı, ihtiyacın olmayan veri demektir.
+
+## 9. KVKK ile GDPR (okuma)
+
+KVKK, AB'nin 1995 tarihli veri koruma direktifi örnek alınarak hazırlandı; AB ise 2018'de daha kapsamlı GDPR'ı uygulamaya koydu. Kavramlar ortak, ama bazı farklar var:
+
+::: {.tablo-kaydir}
+| | KVKK | GDPR |
+|---|---|---|
+| Yürürlük | 2016 | 2018 |
+| Kimi bağlar? | Türkiye'de veri işleyenleri | AB'deki kişilere hizmet veren her kuruluşu |
+| Denetleyen | Kişisel Verileri Koruma Kurulu | Her AB ülkesinin veri koruma otoritesi |
+| Unutulma hakkı | Silme hakkına ve Kurul ile yargı kararlarına dayanır | Tüzükte açıkça tanımlı |
+| Veri taşınabilirliği | Ayrı bir hak olarak yok | Verini başka bir hizmete taşınabilir biçimde alma hakkı |
+| Yurt dışına aktarım | 2024 değişikliğiyle AB düzenine yaklaştı | Yeterlilik kararı ve uygun güvenceler |
+| İhlal bildirimi | Kurul kararıyla 72 saat | Tüzükte 72 saat |
+:::
+
+GDPR'ın en görünür etkisi çerez onay pencereleridir. Zorunlu olmayan çerezler için izin istenmeli; Avrupa'daki veri koruma otoritelerine göre reddetmek, kabul etmek kadar kolay olmalıdır. Pratikte birçok site "Tümünü kabul et" düğmesini büyük ve renkli, reddetmeyi küçük ve gizli yapar. Kullanıcıyı farkında olmadan bir seçime yönlendiren bu tasarımlara **karanlık örüntü** (dark pattern) denir; Hafta 7'deki dikkat tasarımlarının akrabasıdır. Türkiye'de de Kurul çerezlere ilişkin bir rehber yayımladı.
+
+Tarayıcılar da kural koyuyor: Safari ve Firefox üçüncü taraf çerezlerle izlemeyi varsayılan olarak sınırlıyor; Chrome ise bu çerezleri kaldırma planından 2025'te vazgeçti. Tek bir varsayılan ayar milyonlarca insanın mahremiyetini değiştirir; Hafta 7'deki "Kod yasadır" ilkesi burada da geçerli.
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: Bugün reklam kimliğini sıfırlar, üçüncü taraf çerezleri kapatır, bir aydınlatma metnini beş soruyla okursun. Orta vadede: İş yerinde müşteri ya da yolcu verisiyle KVKK'ya uygun çalışır, kişisel veriyi YZ araçlarına yapıştırmadan önce durursun. Uzun vadede: Dijital profilinin kredi, sigorta ve iş kararlarını etkileyebileceğini bilerek ayak izini yönetir, haklarını kullanmaktan çekinmezsin.
+:::
+
+## Akılda kalsın
+
+- **Mahremiyet saklamak değil, kontrol etmektir.** "Saklayacak bir şeyim yok" demek, verinin akışına başkalarının karar vermesini kabul etmektir; üstelik senin verin başkalarının da verisidir.
+- **Ücretsizin bedeli veridir.** Dikkatin reklama, verin profile dönüşür; veri simsarları ve milisaniyelik açık artırmalar bu düzenin görünmeyen parçalarıdır.
+- **Zarf da konuşur, parçalar birleşir.** Üst veri içerik kadar çok şey söyler; "anonim" veri başka veriyle birleşince çoğu zaman yeniden kişiye döner.
+- **Algoritma geçmişten öğrenir.** Geçmiş eşitsizse karar da eşitsiz olur; vekil değişkenler önyargıyı gizler. Otomatik bir karara itiraz hakkın var.
+- **KVKK senin aracın.** Aydınlatma rıza değildir; her işlem rızaya dayanmaz. Verini öğrenmek, düzelttirmek ve sildirmek için veri sorumlusuna başvurabilirsin.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: gizlilik, mahremiyet, veri ekonomisi, veri simsarı, profilleme, gözetim kapitalizmi, büyük veri, üst veri, EXIF, öneri sistemi, dinamik fiyatlama, algoritmik önyargı, vekil değişken, çerez, birinci taraf çerezi, üçüncü taraf çerezi, izleme pikseli, tarayıcı parmak izi, SDK, anonimleştirme, takma adlandırma, yüz tanıma, uçuş verisi izleme (FDM), KVKK, kişisel veri, özel nitelikli kişisel veri, ilgili kişi, veri sorumlusu, veri işleyen, açık rıza, aydınlatma metni, veri en azaltma, veri ihlali, tehdit modeli, karanlık örüntü.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="C" data-explain="Üst veri, içeriğin kendisi değil, onun hakkındaki veridir: kim, kime, ne zaman, nereden. Diğer şıklar mesajın içeriğidir."}
+**1.** Hangisi bir mesajlaşmanın üst verisine örnektir?
+
+- A\) Mesajda yazan cümleler ve kelimeler
+- B\) Eklenen fotoğrafta görünen kişiler
+- C\) Gönderen, alıcı, saat ve konum
+- D\) Sesli mesajda söylenen sözler
+- E\) Mesajdaki emojilerin anlamları
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Parmak izi biyometrik veridir; KVKK'ya göre özel nitelikli kişisel veridir. Diğerleri kişisel veridir, ama özel nitelikli değildir."}
+**2.** Hangisi KVKK'ya göre özel nitelikli kişisel veridir?
+
+- A\) E-posta adresi
+- B\) Cep telefonu numarası
+- C\) Öğrenci numarası
+- D\) Ev adresi
+- E\) Parmak izi
+:::
+
+::: {.quiz-q data-answer="B" data-explain="Farklı sitelerde aynı reklamın seni takip etmesi, siteler arası izlemenin işaretidir; bunun başlıca aracı üçüncü taraf çerezlerdir. Konum izni, şifre ve ekran kilidi başka riskleri azaltır."}
+**3.** Gezdiğin farklı sitelerde, bir gün önce baktığın ayakkabının reklamı karşına çıkıyor. Bu siteler arası izlemeyi en doğrudan azaltacak adım hangisidir?
+
+- A\) Telefonda bütün uygulamaların konum iznini kapatmak
+- B\) Tarayıcıda üçüncü taraf çerezleri engellemek
+- C\) E-posta hesabının şifresini daha uzun yapmak
+- D\) Bilgisayara parmak izli bir ekran kilidi koymak
+- E\) Ev Wi-Fi'si yerine mobil veriyle internete girmek
+:::
+
+::: {.quiz-q data-answer="D" data-explain="Paketi teslim etmek, aradaki sözleşmenin ifasıdır; bunun için ayrıca açık rıza gerekmez. Açık rıza, örneğin kampanya mesajları için gerekir."}
+**4.** Bir kargo şirketi, sipariş ettiğin paketi teslim etmek için adresini kullanıyor. Bu işlem KVKK'daki hangi işleme şartına dayanır?
+
+- A\) Açık rıza
+- B\) Hayati tehlike
+- C\) Bilginin alenileştirilmesi
+- D\) Sözleşmenin ifası
+- E\) Bir hakkın korunması
+:::
+
+::: {.quiz-q data-answer="A" data-explain="Cinsiyet sütunu çıkarılsa da meslek, alışveriş ya da okul gibi vekil değişkenler cinsiyeti dolaylı olarak taşıyabilir. Önyargının olup olmadığını ancak sonuçları gruplara göre denetlemek gösterir."}
+**5.** Bir banka, kredi algoritmasından cinsiyet sütununu çıkardığını ve "Artık önyargı yok" dediğini açıklıyor. En isabetli değerlendirme hangisidir?
+
+- A\) Yetersiz; başka değişkenler cinsiyetin yerine geçebilir, sonuçlar gruplara göre denetlenmeli.
+- B\) Yeterli; algoritma cinsiyeti görmediği sürece gruplar arasında önyargılı bir karar üretemez.
+- C\) Yetersiz; kararlar algoritmaya değil, yalnızca banka çalışanlarının deneyimine bırakılmalıdır.
+- D\) Yeterli; kredi notu ödeme geçmişinden hesaplandığı için kişisel özelliklerden etkilenmez.
+- E\) Yetersiz; cinsiyet sütunu modelde tutulmalı, ama müşterilerden ve denetçilerden gizlenmelidir.
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-C, 2-E, 3-B, 4-D, 5-A.
+:::

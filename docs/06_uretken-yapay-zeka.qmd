@@ -1,0 +1,325 @@
+---
+title: "Üretken yapay zekâ: nasıl çalışır, hayatı nasıl dönüştürüyor?"
+subtitle: "Hafta 6"
+description: "Yapay zekâ, makine öğrenmesi ve derin öğrenme; dil modeli nasıl çalışır; istem yazmak; halüsinasyon ve doğrulama; yapay zekânın dönüştürdüğü alanlar; akademik dürüstlük ve kullanım beyanı."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>6 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.2 Değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Yapay zekâ bir soruyu cevapladığında cevabı biliyor mu, yoksa tahmin mi ediyor? Bu fark senin için neden önemli?</p>
+</div>
+```
+
+Geçen hafta bir bilginin, bir sitenin ya da bir alıntının güvenilir olup olmadığını sınamayı öğrendin. Bu hafta o beceriyi en çok ihtiyaç duyacağın yerde kullanacaksın: yapay zekâyla çalışırken. Önce yapay zekânın ne olduğunu ve bir dil modelinin içeride gerçekte ne yaptığını göreceksin. Sonra ondan iyi bir sonuç almayı, hatasını yakalamayı ve kullandığını dürüstçe beyan etmeyi öğreneceksin. Son olarak yapay zekânın bilimden sağlığa kadar neleri değiştirdiğine bakacağız.
+
+**Okuma süresi:** yaklaşık 30 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. Yapay zekâ, makine öğrenmesi, derin öğrenme ve üretken yapay zekâ arasındaki ilişkiyi açıklamak.
+2. Bir dil modelinin nasıl çalıştığını (eğitim verisi, token, olasılık, bilgi kesim tarihi) basitçe anlatmak.
+3. Rol, bağlam, görev ve biçim içeren bir istem yazmak ve yineleyerek iyileştirmek.
+4. Yapay zekâ çıktısındaki hataları tanımak, bağımsız bir kaynakla doğrulamak ve yapay zekâ kullanımını beyan etmek.
+5. Yapay zekânın bir alanı nasıl dönüştürdüğünü fırsatları ve tehditleriyle birlikte örneklemek.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Kurallardan veriye: yapay zekâ nedir?
+
+**Yapay zekâ** (YZ), insanların zekâ gerektiren işler saydığı görevleri yapabilen bilgisayar sistemlerinin genel adıdır: konuşmayı anlamak, bir görüntüdeki nesneyi tanımak, karar vermek, metin yazmak. Avrupa Birliği'nin Yapay Zekâ Yasası, YZ sistemini kendisine verilen girdiden tahmin, içerik, öneri ya da karar gibi çıktılar üretmeyi çıkarsayan makine tabanlı bir sistem olarak tanımlar. Tanım geniştir: bir satranç programındaki "rakip şunu yaparsa sen bunu yap" kuralları da, sohbet ettiğin asistan da bu şemsiyenin altındadır.
+
+Bir e-postanın istenmeyen posta (spam) olup olmadığına karar veren bir filtre düşün. İki yolla yapılabilir:
+
+| | Kural tabanlı sistem | Veriden öğrenen sistem |
+|---|---|---|
+| Nasıl kurulur? | Bir programcı kuralları tek tek yazar: "Konu satırında *bedava* geçiyorsa spam say." | Sisteme binlerce spam ve binlerce normal e-posta gösterilir; ayırt edici örüntüleri kendisi bulur. |
+| Güçlü yanı | Ne yaptığı açıktır, açıklaması kolaydır. | Yazılmamış kalıpları da yakalar, yeni örneklerle güncellenir. |
+| Zayıf yanı | Spamcılar kelimeyi "b-e-d-a-v-a" diye yazınca kural işe yaramaz. | Neden öyle karar verdiğini açıklamak zordur; verideki hatayı da öğrenir. |
+
+İkinci yol **makine öğrenmesidir**: sistem kurallarla programlanmaz, örneklerden öğrenir. Bugün film ve dizi önerileri, bankaların şüpheli işlem uyarıları ve telefonundaki yüz tanıma makine öğrenmesiyle çalışır.
+
+**Derin öğrenme**, makine öğrenmesinin çok katmanlı yapay sinir ağları kullanan bir alt alanıdır; büyük veriden çok karmaşık örüntüleri öğrenebilir. 2012'de bir derin öğrenme modelinin görüntü tanıma yarışmasını büyük farkla kazanması, bugünkü YZ dalgasının başlangıcı sayılır ([Ek A](../ekler/a_kirilimlar.qmd)).
+
+**Üretken yapay zekâ** ise derin öğrenmeyle eğitilmiş, yalnızca sınıflandırmakla kalmayıp yeni içerik üreten modellerdir: metin, görsel, ses, video, kod. Sohbet asistanlarının arkasındaki **büyük dil modelleri** bunun en bilinen örneğidir.
+
+Bu dört kavram iç içe halkalar gibidir: yapay zekâ en dıştaki halka, makine öğrenmesi onun içinde, derin öğrenme onun da içinde; üretken YZ ve büyük dil modelleri ise derin öğrenmenin içinde bir alandır. Her büyük dil modeli bir YZ'dir; ama her YZ bir dil modeli değildir.
+
+## 2. Bir dil modeli nasıl çalışır?
+
+Bilim kurgu yazarı Arthur C. Clarke'ın ünlü bir sözü var: "Yeterince gelişmiş her teknoloji sihirden ayırt edilemez." Bir sohbet asistanının birkaç saniyede düzgün bir metin yazması da sihir gibi görünür. Oysa içeride olan şey, çok büyük ölçekte yapılan bir tahmindir.
+
+### Token: metnin yapı taşları
+
+Dil modeli metni harf harf ya da kelime kelime değil, **token** denen parçalar halinde işler. Bir token bazen bütün bir kelime, bazen bir kelimenin parçası, bazen bir noktalama işaretidir. Türkçe gibi eklerle uzayan dillerde bir kelime çoğu zaman birkaç token'a bölünür: "uçaklarımızdan" kelimesi model için tek bir birim değil, birkaç parçadır. Hafta 2'de harflerin sayıya dönüştüğünü görmüştün; burada da her token bir sayıya karşılık gelir ve model yalnızca bu sayılarla çalışır.
+
+### Sonraki parçayı tahmin etmek
+
+Bir dil modelinin temel işi tek bir sorunun cevabını tekrar tekrar vermektir: **Bu metinden sonra hangi token gelmeli?** Model "Türkiye'nin başkenti" ifadesini gördüğünde, olası devamlar için olasılıklar hesaplar (değerler temsilîdir):
+
+| Olası devam | Olasılık |
+|---|---|
+| Ankara | %92 |
+| İstanbul | %4 |
+| olan | %2 |
+| neresidir | %1 |
+| Diğerleri | %1 |
+
+Model birini seçer, metne ekler, sonra aynı soruyu yeniden sorar. Uzun bir cevap, bu adımın yüzlerce kez tekrarlanmasıyla oluşur. Seçimde biraz rastlantı da vardır; bu yüzden aynı soruyu iki kez sorduğunda farklı cevaplar alabilirsin.
+
+Bu tahmin bilgiden değil, örüntüden gelir. "Türkiye'nin başkenti" ifadesinden sonra "Ankara" geldiği, model eğitilirken okuduğu metinlerde sayısız kez geçmiştir. Peki model hiç görmediği bir şeyle karşılaşırsa? Var olmayan bir parça numarası için bir değer sorduğunda da yaptığı iş aynıdır: o tür bir sorudan sonra en olası görünen devamı üretir. En olası devam da çoğu zaman düzgün, kendinden emin, ama uydurma bir sayıdır.
+
+### Eğitim ve bilgi kesim tarihi
+
+Bir dil modeli iki aşamada hazırlanır. Önce **eğitim verisi** denen çok büyük bir metin derlemi üzerinde, milyarlarca kez "sonraki parçayı tahmin et" alıştırması yapar; bu sırada modelin içindeki milyarlarca ayarlanabilir sayı, yani **parametre**, adım adım düzeltilir. Ardından insanların değerlendirmeleriyle ince ayar yapılır: model soruları cevaplayan, talimat izleyen, zararlı isteği reddeden bir asistan gibi davranmayı öğrenir.
+
+Eğitim belirli bir tarihte biter. O tarihe **bilgi kesim tarihi** denir. Model bu tarihten sonra olanları kendiliğinden bilmez: dün yayımlanan bir yönetmeliği, geçen ay çıkan bir telefonu ya da güncel bir maç sonucunu. Bazı asistanlar cevap vermeden önce internette arama yapabilir; o zaman güncel bilgiye ulaşır, ama bu kez de Hafta 5'te gördüğün sorular başlar: hangi kaynağı buldu, kaynağı doğru okudu mu?
+
+### Akıl yürüten modeller
+
+Son yıllarda bazı modeller cevap vermeden önce bir tür ara çalışma yapacak şekilde eğitildi: problemi adımlara böler, ara sonuçları kontrol eder, sonra cevabı yazar. Bunlara **akıl yürüten modeller** denir. Matematik, kodlama ve çok adımlı sorularda belirgin biçimde daha başarılıdırlar. Ama temel mekanizma değişmez: ara adımlar da tahmin edilmiş metinlerdir ve onlar da yanlış olabilir.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Yapay zekâ ne dediğini anlıyor, tıpkı bir insan gibi düşünüyor." Bu tartışmanın sonu henüz gelmedi; bilim insanları "anlamak" kelimesinin burada ne demek olduğu konusunda bile anlaşamıyor. Ama senin için önemli olan kısım açık: Dil modeli bir cevabı doğru olduğu için değil, olası göründüğü için üretir. İçinde, söylediğini dünyayla karşılaştıran bir denetim yoktur. Bu yüzden çok akıcı ve çok yanlış olabilir.
+:::
+
+## 3. Sinir ağları ve neden GPU? (okuma)
+
+Yapay sinir ağları, beyindeki sinir hücrelerinden esinlenmiştir, ama onları taklit etmez. Bir yapay nöron, birkaç sayıyı alır, her birini bir **ağırlıkla** çarpar, sonuçları toplar ve bir sonraki katmana iletir. Ağ katmanlardan oluşur: giriş katmanı veriyi alır, aradaki gizli katmanlar örüntüleri işler, çıkış katmanı sonucu verir. Eğitim, tahmin yanlış çıktıkça bu ağırlıkların küçük adımlarla düzeltilmesidir. "Derin" kelimesi, gizli katmanların çokluğundan gelir.
+
+Büyük bir dil modelinde milyarlarca ağırlık vardır ve her token için hepsiyle çarpma ve toplama yapılır. Bu işlemlerin çoğu birbirinden bağımsızdır; aynı anda yapılabilir. Hafta 2'de gördüğün gibi işlemci (CPU) işleri sırayla ve hızla yapan bir aşçıya benzer; ekran kartı (GPU) ise binlerce basit işi aynı anda yapan bir mutfak ekibine. YZ'nin eğitiminde ve çalışmasında GPU'ların ve YZ için tasarlanmış özel çiplerin kullanılması bu yüzdendir. Büyük modellerin eğitimi, binlerce GPU'nun haftalarca çalıştığı veri merkezlerinde yapılır; bu da büyük miktarda elektrik ve soğutma demektir.
+
+## 4. Araç manzarası (okuma)
+
+Üretken YZ araçları her ay değişiyor; ürün adları ve sürümler yerine türleri tanımak daha kalıcı bir bilgidir.
+
+::: {.tablo-kaydir}
+| Tür | Ne yapar? | Dikkat edilecek nokta |
+|---|---|---|
+| Sohbet asistanları | Metin yazar, özetler, çevirir, soruları cevaplar | En yaygın tür; kaynak gösterse de kaynağı kendin aç |
+| Görsel üreticiler | Yazılı tariften görsel üretir ya da görseli düzenler | Gerçek kişiler ve telifli karakterler; etiketlemeden paylaşmamak |
+| Ses ve konuşma | Konuşmayı yazıya, yazıyı konuşmaya çevirir; ses taklidi yapabilir | Bir kişinin sesi birkaç saniyelik kayıttan taklit edilebilir (Hafta 9) |
+| Video üreticiler | Kısa video üretir ya da düzenler | Gerçek gibi görünen sahte görüntüler (Hafta 5) |
+| Kod asistanları | Kod yazar, açıklar, hata ayıklar | Çalışıyor gibi görünen kod da hatalı ya da güvensiz olabilir |
+| Çok kipli modeller | Metni, görseli ve sesi birlikte işler: bir fotoğrafı yükleyip soru sorabilirsin | Görseldeki ayrıntıyı yanlış okuyabilir |
+| YZ ajanları | Yalnızca cevap vermez, iş yapar: tarayıcıda gezinir, dosya açar, form doldurur | Ona hangi yetkiyi verdiğini bil; her adımı denetleyebilmelisin |
+| Yerel modeller | Bilgisayarında, internete bağlanmadan çalışır | Verin cihazından çıkmaz; ama güçlü donanım ister, daha küçük modellerdir |
+:::
+
+Bugün yaygın sohbet asistanlarına örnek olarak (alfabetik sırayla) ChatGPT, Claude, Copilot, DeepSeek, Gemini ve Le Chat sayılabilir. Bu liste sen bu notu okurken bile değişmiş olabilir. YZ özellikleri artık ayrı uygulamalarda değil, kullandığın ofis programlarına, e-postana ve telefonuna da gömülü olarak geliyor. Her işlev için ücretsiz ve açık kaynak seçenekler [Ek C](../ekler/c_alternatifler.qmd) sayfasındadır.
+
+## 5. İstem yazmak
+
+YZ'ye verdiğin talimata **istem** (İngilizcede *prompt*) denir. Aynı model, kötü bir istemle sıradan, iyi bir istemle çok daha işe yarar bir sonuç verir. İyi bir istem çoğu zaman beş öğe taşır:
+
+| Öğe | Soru | Örnek |
+|---|---|---|
+| Rol | Model kim gibi davransın? | "Bir insan kaynakları uzmanı gibi değerlendir." |
+| Bağlam | Durum ne, sen kimsin, metin kime gidecek? | "Meslek yüksekokulu birinci sınıf öğrencisiyim, yaz stajı için başvuruyorum." |
+| Görev | Tam olarak ne isteniyor? | "Aşağıdaki ön yazımı düzelt ve iki zayıf noktasını söyle." |
+| Biçim | Çıktı nasıl görünsün? | "En fazla 150 kelime; resmî ama samimi bir dil." |
+| Örnek | Beğendiğin bir örnek var mı? | "Şu cümlenin üslubuna benzesin: …" |
+
+Bunlara bir talimat daha eklemek iyi bir alışkanlıktır: "Emin olmadığın bir şey varsa belirt; bilmiyorsan uydurma." Bu talimat hatayı tamamen önlemez, ama modelin belirsizliği saklamasını azaltabilir.
+
+İki istemi karşılaştır:
+
+| Kötü istem | İyi istem |
+|---|---|
+| "Staj başvurusu yaz." | "Meslek yüksekokulu birinci sınıf öğrencisiyim. Bir firmanın teknik biriminde yaz stajı için başvuracağım. İlgilendiğim alan bilgisayar donanımı; Hafta 2 ödevinde kendi bilgisayarımın teknik analizini yaptım. Bu bilgilerle 120 kelimeyi geçmeyen, resmî ama samimi bir başvuru e-postası yaz. Benim hakkımda bilmediğin bir şeyi uydurma; eksik bilgi varsa köşeli parantezle boş bırak." |
+
+Birinci istemle gelen metin, herkes için yazılabilecek genel bir metindir; büyük olasılıkla senin hakkında uydurulmuş ayrıntılar da içerir. İkincisi sana özgüdür.
+
+İstem yazmak tek atışlık bir iş değildir; bir konuşmadır. İlk cevabı oku, eksiğini söyle ("daha kısa olsun", "ikinci paragraf çok iddialı", "üç seçenek ver") ve yinele. İyi kullanıcı, ilk cevabı kabul eden değil, onu düzelterek istediği yere götürendir. Son sözü sen söylersin: metni kendi cümlelerinle son haline getirip altına imzanı atan sensin.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: İngilizce dokümanı anlamak"}
+Bakım dokümanlarının büyük çoğunluğu İngilizcedir ve YZ, uzun bir servis bültenini anlamak için iyi bir yardımcı olabilir. İstem şöyle kurulabilir: "Uçak teknolojisi öğrencisiyim. Aşağıdaki servis bülteninin amacını, hangi uçakları kapsadığını ve yapılacak işin ana adımlarını Türkçe olarak, maddeler halinde özetle. Belgedeki bütün sayısal değerleri (aralık, tork, ölçü) özetin sonunda, belgedeki sayfa numarasıyla birlikte ayrıca listele." Son cümle önemlidir: özetteki hiçbir sayı kullanılmaz; her değer, listelenen sayfadan, orijinal ve onaylı belgeden okunur.
+:::
+
+## 6. Sınırlar ve doğrulama
+
+### Halüsinasyon
+
+YZ'nin gerçek olmayan bir bilgiyi kendinden emin bir dille üretmesine **halüsinasyon** denir. Var olmayan bir kitap, yanlış bir tarih, uydurma bir yasa maddesi ya da bir belgede hiç geçmeyen bir sayı olabilir. Hafta 5'te YZ'nin var olmayan kaynaklar üretebildiğini görmüştün; bu da bir halüsinasyondur.
+
+2023'te ABD'de, bir yolcunun bir havayolu şirketine açtığı davada avukatlar mahkemeye sundukları dilekçede bir sohbet asistanının önerdiği dava kararlarına atıf yaptı. Kararların hiçbiri gerçek değildi; asistan hepsini, gerçek kararlara benzeyen ad ve numaralarla uydurmuştu. Avukatlar para cezası aldı. Hata yalnızca uydurmada değildi: avukatlar, kaynakları açıp okumadan kullanmıştı.
+
+Halüsinasyon bir arıza değil, 2. bölümde gördüğün çalışma biçiminin doğal sonucudur. Model, "bilmiyorum" demesi gereken yerde de en olası görünen devamı üretebilir. Analojiyle: Dil modeli her şeyi okumuş ama hiçbir şeyi yaşamamış, hiç "bilmiyorum" demeyen çok hevesli bir stajyerdir. Hızlıdır ve çok işe yarar; ama imzayı sen atıyorsan işini kontrol etmek zorundasın.
+
+### Diğer sınırlar
+
+- **Güncellik:** Bilgi kesim tarihinden sonrasını bilmez; internette arama yapsa bile eski ya da yanlış bir sayfayı özetleyebilir.
+- **Önyargı:** Model, eğitim verisindeki önyargıları da öğrenir. 2018'de haberlere yansıdığı üzere, büyük bir şirket geçmişteki işe alım verileriyle eğitilen özgeçmiş tarama sisteminin kadın adaylara sistematik olarak daha düşük puan verdiğini fark edince sistemi kullanmaktan vazgeçti. Geçmiş eşitsizse, ondan öğrenen sistem de eşitsizliği sürdürür.
+- **Kişisel ve kurumsal veri:** Sohbete yazdığın her şey hizmet sağlayıcının sunucularına gider; bazı hizmetlerde, ayarlarına bağlı olarak, modelleri geliştirmek için de kullanılabilir. Başkasının kişisel bilgisini, sağlık bilgini ya da kurumunun gizli belgesini sohbete yapıştırmadan önce düşün. Ayrıntısı Hafta 8'de.
+- **Kandırılabilirlik:** YZ'ye okuttuğun bir web sayfasına ya da belgeye gizlenmiş talimatlar, modelin davranışını değiştirebilir. YZ'ye yönelik bu tür saldırıları Hafta 9'da göreceğiz.
+
+### Nasıl doğrularsın?
+
+Hafta 5'teki araçların hepsi burada da geçerlidir; YZ çıktısı için şunları ekle:
+
+1. **Kaynağa git.** YZ bir kaynak gösterdiyse aç ve iddianın gerçekten orada yazdığını gör. "Emin misin?" diye sorman doğrulama değildir; modelin "evet" demesi de kanıt değildir.
+2. **Sayıları orijinalden oku.** Tarih, ölçü, tutar, madde numarası gibi her sayı birincil kaynaktan kontrol edilir.
+3. **Bağımsız bir kaynak bul.** Önemli bir iddiayı YZ dışında, güvenilir en az bir kaynakla karşılaştır. Başka bir YZ'ye aynı soruyu sormak bağımsız kaynak değildir.
+4. **Bildiğin bir şeyle sına.** Konusunu bildiğin bir soru sor; hatayı yakaladığın yerlerde, bilmediğin konulardaki cevaplara da daha dikkatli bakarsın.
+5. **Riski tart.** Bir şiir için yaptığın kontrol ile bir sağlık, hukuk ya da emniyet kararı için yaptığın kontrol aynı olamaz.
+
+İstatistikçi George Box'ın modeller için söylediği söz burada da geçerlidir: "Bütün modeller yanlıştır, bazıları yararlıdır." Bir modeli yararlı kılan, onun nerede yanılabileceğini bilen kullanıcıdır.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: YZ yardımcıdır, kaynak değildir"}
+Bir teknisyen hangarda, kurgusal bir parça numarası için bir sohbet asistanına tork değerini soruyor. Asistan birimiyle birlikte düzgün bir değer veriyor. Bu değer kullanılamaz; doğru olsa bile kullanılamaz. Bakımda her değer, üreticinin onaylı ve güncel revizyondaki dokümanından alınır ve kayda o referans yazılır. YZ'nin cevabı izlenebilir değildir: kimin onayladığı, hangi revizyona dayandığı belli değildir. YZ bir belgeyi anlamana, İngilizce bir paragrafı çevirmene ya da bir arıza kaydının taslağını yazmana yardım edebilir; kararın dayanağı olamaz. Hafta 5'teki kaynak hiyerarşisini hatırla: forum gibi, YZ de yol gösterebilir, ama kaynak olamaz.
+:::
+
+## 7. YZ hayatı nasıl dönüştürüyor?
+
+YZ'nin sınırları gerçek; dönüştürdüğü alanlar da öyle.
+
+- **Bilim:** Bir proteinin amino asit dizisinden üç boyutlu yapısını tahmin etmek, biyolojinin elli yıllık problemlerinden biriydi. Google DeepMind'ın geliştirdiği AlphaFold bu tahmini büyük ölçüde çözdü ve 200 milyondan fazla proteinin tahmini yapısı herkese açık bir veri tabanında yayımlandı. 2024 Nobel Kimya Ödülü'nün bir yarısı bu çalışmaya verildi. Aynı yıl Nobel Fizik Ödülü de yapay sinir ağlarının temellerini atan çalışmalara gitti.
+- **Sağlık:** Röntgen, tomografi ve göz dibi görüntülerinde YZ, hekime "ikinci bir göz" olarak şüpheli bölgeleri işaretler. Karar hâlâ hekimindir.
+- **Erişilebilirlik:** Görme engelli bir kullanıcı telefonunun kamerasını bir menüye, bir ilaç kutusuna ya da bir sokağa tutup ne gördüğünü sesli olarak dinleyebilir. Konuşmayı anında yazıya çeviren altyazılar, işitme engelliler için toplantıları ve dersleri erişilebilir kılar.
+- **Yazılım:** Kod asistanları, tekrarlayan kodu yazmayı ve hata ayıklamayı hızlandırır; programcının işi kod yazmaktan kodu denetlemeye ve tasarlamaya kayar.
+- **Eğitim:** YZ, sabırlı bir kişisel öğretmen gibi bir konuyu farklı biçimlerde tekrar tekrar anlatabilir. Ama ödevi senin yerine yaparsa öğrenen o olur, sen olmazsın.
+- **Çeviri ve iletişim:** Anlık çeviri ve altyazı, dil engelini her zamankinden alçak hale getirdi.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Öngörücü bakım"}
+Modern bir uçak, motorlarından ve sistemlerinden her uçuşta büyük miktarda sensör verisi toplar: sıcaklık, titreşim, basınç, yakıt akışı. Makine öğrenmesi bu verideki küçük eğilimleri izleyerek bir parçanın arızalanmadan önce bakıma alınması gerektiğini önceden tahmin etmeye çalışır; buna **öngörücü bakım** denir. Plansız arızalar azalır, uçak yerde daha az bekler. Gövde muayenesinde drone ve görüntü işleme kullanımı da denenmektedir. Avrupa Birliği Havacılık Emniyeti Ajansı (EASA), havacılıkta YZ kullanan sistemlerin nasıl onaylanacağını tanımlamak için bir yol haritası yayımladı. Ortak ilke şudur: Emniyetle ilgili bir kararda YZ'nin önerisi, insanın denetleyebileceği ve izleyebileceği bir süreçten geçmelidir.
+:::
+
+### Fırsatlar ve tehditler
+
+| Fırsat | Tehdit |
+|---|---|
+| Rutin işlerde zaman kazanmak, verimlilik | İşlerin dönüşmesi; bazı görevlerin ortadan kalkması |
+| YZ'yi kullanan ve denetleyen yeni meslekler | **Beceri körelmesi**: hep YZ'ye bırakılan becerinin zayıflaması |
+| Uzmana ve bilgiye erişimin kolaylaşması | Deepfake ve yanlış bilginin ucuzlaması |
+| Engellilere ve dil engeline çözümler | Eğitim verisindeki önyargının çoğalması |
+| Bilimde hızlanan keşifler | Veri merkezlerinin enerji ve su tüketimi |
+| Herkesin içerik üretebilmesi | Eğitim verisi ve çıktılar üzerindeki telif tartışmaları (Hafta 7) |
+
+Beceri körelmesini Hafta 1'deki çıkış kartından hatırla: navigasyon uygulaması bugün yolunu bulmanı sağlar, ama yıllar içinde yön duygunu zayıflatabilir. Her yazını YZ'ye yazdırırsan yazma becerin de aynı yolu izler. Bir beceriyi YZ'ye devretmeden önce "Bu beceriye kendim de sahip olmam gerekiyor mu?" diye sor. Hazırlıklı ol felsefesini de hatırla: Hizmet kesildiğinde ya da ücretsiz kullanım sınırın dolduğunda işini YZ olmadan da sürdürebilmelisin.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Yapay zekâ işimi elimden alacak." Yarı gerçek. YZ çoğu zaman bütün bir mesleği değil, o mesleğin içindeki bazı görevleri üstlenir: rapor taslağı yazmak, belge aramak, çizelge hazırlamak. Ekonomist Richard Baldwin'e atfedilen bir söz bunu şöyle özetler: "İşinizi YZ almayacak; YZ'yi iyi kullanan biri alacak." Yine de geçiş herkes için kolay olmayacak; bazı görevler gerçekten ortadan kalkacak. En güvenli konum, YZ'nin yaptığı işi denetleyebilecek kadar o işi bilen kişinin konumudur.
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Mezun olduğunda yapacağın işi düşün. YZ bu işin hangi görevlerini üstlenebilir? Hangi becerilerin değeri artar? Hangi görevde YZ'ye asla son sözü bırakmazsın, neden?
+:::
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+AlphaGo (2017): Bir YZ'nin, sezgi gerektirdiği düşünülen Go oyununda dünya şampiyonunu yenişini anlatan belgesel. Yapay zekâyla ilgili bilim kurgu eserleri ve bugünkü karşılıkları için [Ek B](../ekler/b_bilim-kurgu.qmd).
+:::
+
+## 8. Kapanış: akademik dürüstlük ve YZ beyanı
+
+Bu derste YZ yasak değildir. Ama iki kural vardır: Kullandığında **beyan edersin** ve çıktının doğruluğundan **sen sorumlusun**. Bunun nedeni basit: Bir ödev, öğrendiğini göstermenin yoludur. YZ'nin yaptığı bir işi kendi işin gibi sunmak, Hafta 5'te gördüğün intihalin bir türüdür.
+
+| Genellikle uygun (beyan ederek) | Uygun değil |
+|---|---|
+| Bir konuyu sana farklı biçimde açıklatmak | YZ'nin yazdığı metni kendi metnin gibi teslim etmek |
+| Fikir üretmek, taslak plan çıkarmak | Kapalı kitap bir sınavda YZ'ye soru sormak |
+| Kendi yazdığın metnin dilini ve imlasını düzelttirmek | YZ'nin önerdiği kaynakları kontrol etmeden kaynakçaya koymak |
+| Kendi metnine geri bildirim almak | Başkasının ödevini YZ ile yeniden yazdırıp teslim etmek |
+| İngilizce bir kaynağı anlamak için çeviri yaptırmak | Uydurulmuş veriyi gerçekmiş gibi kullanmak |
+
+Bu tablo bu dersin kuralıdır. Her ders ve her kurum farklı bir kural koyabilir; bir derste serbest olan bir kullanım başka bir derste yasak olabilir. Emin değilsen sor.
+
+Bu derste YZ kullandığın her ödevin sonuna kısa bir beyan eklersin:
+
+```text
+YZ kullanım beyanı
+Araç:              (kullandığın aracın adı)
+Ne için:           (açıklama, fikir üretme, dil düzeltme, özetleme, çeviri…)
+Hangi kısımlarda:  (bölüm ya da paragraf)
+Nasıl doğruladım:  (hangi kaynaklarla kontrol ettim, neyi değiştirdim)
+Metnin son halinden ve doğruluğundan ben sorumluyum.
+```
+
+Bu sitenin [Hakkında](../hakkinda.qmd) sayfasında da aynı türden bir beyan bulunur: notlar bir YZ asistanının yardımıyla hazırlandı ve doğruluğundan öğretim görevlisi sorumludur.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"YZ dedektörleri, bir metnin YZ ile yazılıp yazılmadığını kesin olarak tespit eder." Yanlış. Bu araçlar hem YZ metnini kaçırabilir hem de bir insanın yazdığı metni YZ ile yazılmış sanabilir; araştırmalar, ana dili İngilizce olmayan kişilerin metinlerinin daha sık yanlış işaretlendiğini gösterdi. Bu yüzden bu derste ölçüt bir dedektörün tahmini değil, senin beyanın ve çalışma sürecindir: taslakların, kaynakların, yaptığın düzeltmeler.
+:::
+
+Hafta 1'deki soruya dönelim. Platon'un aktardığına göre Sokrates yazının insan belleğini zayıflatacağından korkuyordu. Belki haklıydı: artık uzun destanları ezberlemiyoruz. Ama yazı, düşünceyi kuşaktan kuşağa taşıyarak insanlığın bilgisini büyüttü. YZ için de soru, onu kullanıp kullanmamak değil; neyi ona devredip neyi kendimizde tutacağımızdır.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bu dönem bir ödevinde YZ'yi hangi iş için kullanmayı düşünüyorsun? O iş için kendi becerine mi, YZ'ye mi güvenmek istersin? Beyanında ne yazardın?
+:::
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: ödevlerinde YZ'yi kurallara uygun ve beyanlı kullanırsın; iyi bir istemle daha iyi sonuç alır, hatasını yakalarsın. Orta vadede: iş başvurusunda, İngilizce teknik dokümanı anlamada ve rapor yazımında YZ'den yardım alırken sayıları ve iddiaları orijinal kaynaktan kontrol edersin. Uzun vadede: mesleğinin hangi kısımlarının otomatikleşeceğini ve hangi becerilerinin daha değerli hale geleceğini görür, kendini buna göre geliştirirsin.
+:::
+
+## Akılda kalsın
+
+- **YZ iç içe halkalardır.** Yapay zekâ en geniş kavramdır; makine öğrenmesi veriden öğrenir, derin öğrenme çok katmanlı sinir ağlarıyla öğrenir, üretken YZ yeni içerik üretir.
+- **Dil modeli tahmin eder.** Token token, en olası devamı üretir; bilgi kesim tarihinden sonrasını kendiliğinden bilmez. Akıcı olması doğru olduğunu göstermez.
+- **İyi istem bir konuşmadır.** Rol, bağlam, görev, biçim ve örnek ver; "uydurma" de; ilk cevabı yineleyerek düzelt.
+- **Halüsinasyon çalışma biçiminin sonucudur.** Kaynağı aç, sayıyı orijinalden oku, bağımsız kaynak bul; riskli kararda YZ yardımcıdır, kaynak değildir.
+- **Kullan, denetle, beyan et.** YZ bilimden sağlığa pek çok alanı dönüştürüyor; değerli olan, onun işini denetleyebilecek kadar işini bilmek ve kullandığını dürüstçe söylemektir.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: yapay zekâ, kural tabanlı sistem, makine öğrenmesi, derin öğrenme, yapay sinir ağı, üretken yapay zekâ, büyük dil modeli, token, parametre, eğitim verisi, bilgi kesim tarihi, akıl yürüten model, çok kipli model, YZ ajanı, yerel model, istem, halüsinasyon, önyargı, öngörücü bakım, beceri körelmesi, YZ beyanı.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="C" data-explain="Halkalar dıştan içe: yapay zekâ, makine öğrenmesi, derin öğrenme. Her derin öğrenme modeli bir makine öğrenmesi modelidir; tersi her zaman doğru değildir."}
+**1.** Yapay zekâ, makine öğrenmesi ve derin öğrenme arasındaki ilişki için hangisi doğrudur?
+
+- A\) Üçü aynı şeyin farklı adlarıdır.
+- B\) Makine öğrenmesi, derin öğrenmenin içinde yer alan daha küçük bir alt alanıdır.
+- C\) Derin öğrenme makine öğrenmesinin, makine öğrenmesi de yapay zekânın bir alt alanıdır.
+- D\) Yapay zekâ, hem derin öğrenmenin hem de makine öğrenmesinin içinde yer alan bir alt alanıdır.
+- E\) Derin öğrenme yapay zekâdan tamamen ayrı bir alandır.
+:::
+
+::: {.quiz-q data-answer="A" data-explain="Model, eğitiminin bittiği tarihten sonraki olayları kendiliğinden bilmez; internette arama yapabilen asistanlar bu açığı kısmen kapatır."}
+**2.** Bir dil modelinin "bilgi kesim tarihi" neyi anlatır?
+
+- A\) Modelin eğitim verisinin bittiği, sonrasını kendiliğinden bilmediği tarihi
+- B\) Modelin kullanımdan kaldırılacağı tarihi
+- C\) Kullanıcının sohbet geçmişinin silineceği tarihi
+- D\) Modelin lisans süresinin bittiği tarihi
+- E\) Modelin internet bağlantısının kesildiği ve güncel sayfalara artık ulaşamadığı tarihi
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Rol (sınav koçu), bağlam (birinci sınıf, ikili sayılar sınavı), görev (beş soru) ve biçim (cevaplar sonda, ayrı liste) birlikte verilmiş."}
+**3.** Hangisi rol, bağlam, görev ve biçim öğelerinin hepsini içeren bir istemdir?
+
+- A\) "Ödevimi yaz."
+- B\) "Sen bir uzmansın."
+- C\) "Yapay zekâ hakkında her şeyi anlat."
+- D\) "Kısa yaz."
+- E\) "Bir sınav koçu gibi davran. Birinci sınıf öğrencisiyim, haftaya ikili sayılardan sınavım var. Bana beş alıştırma sorusu hazırla; cevapları en sonda, ayrı bir listede ver ve emin olmadığın bir şey varsa belirt."
+:::
+
+::: {.quiz-q data-answer="B" data-explain="Madde numarası ve içerik birincil kaynaktan, yani yönetmeliğin yayımlandığı resmî metinden doğrulanmalıdır; YZ'ye ya da başka bir YZ'ye sormak doğrulama değildir."}
+**4.** Bir YZ asistanı bir yönetmeliğin belirli bir maddesini numarasıyla birlikte aktardı. Ödevinde bu maddeyi kullanmadan önce ne yapmalısın?
+
+- A\) Asistana "Emin misin?" diye sorup "evet" derse kullanmak
+- B\) Yönetmeliğin resmî metnini (mevzuat.gov.tr) açıp maddeyi kontrol etmek
+- C\) Başka bir YZ asistanına da aynı soruyu sorup iki cevap aynıysa kullanmak
+- D\) Cevap ayrıntılı ve kendinden emin olduğu için doğrudan kullanmak
+- E\) Madde numarasını silip yalnızca içeriği kullanmak
+:::
+
+::: {.quiz-q data-answer="D" data-explain="YZ yasak değildir; ne için ve nerede kullanıldığı açıkça beyan edilmelidir. Genel bir ifade ya da hiç beyan etmemek yetmez."}
+**5.** Bir öğrenci ödevinin planını YZ ile çıkarıyor, metni kendisi yazıyor, imla düzeltmesi için yine YZ kullanıyor ve kaynakları kendisi buluyor. En dürüst davranış hangisidir?
+
+- A\) YZ'yi az kullandığı için hiçbir şey belirtmemek
+- B\) YZ kullandığı için ödevi hiç teslim etmemek
+- C\) Beyanın yerine yalnızca "Bu ödevde YZ kullanılmıştır" cümlesini yazmak, ayrıntı vermemek
+- D\) Beyanda planlama ve imla düzeltmesi için YZ kullandığını, metni ve kaynakları kendisinin hazırladığını belirtmek
+- E\) Beyan yazmak yerine kullandığı YZ'nin adını kaynakçanın sonuna ekleyip geçmek
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-C, 2-A, 3-E, 4-B, 5-D.
+:::

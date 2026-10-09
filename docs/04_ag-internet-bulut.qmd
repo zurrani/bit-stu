@@ -263,8 +263,8 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 ::: {.quiz-q data-answer="B" data-explain="2,4 GHz duvarları daha iyi geçer ve daha uzağa ulaşır; 5 GHz daha hızlıdır ama menzili kısadır."}
 **4.** Modemden uzaktaki odada Wi-Fi sinyali zayıf. Hangi bant daha uzağa ulaşır?
 
-- A\) 5 GHz; çünkü daha hızlıdır
-- B\) 2,4 GHz; menzili daha uzundur, 5 GHz ise daha hızlı ama kısa menzillidir
+- A\) 5 GHz; çünkü daha yüksek frekanslı olduğu için duvarları daha kolay aşar
+- B\) 2,4 GHz; menzili daha uzundur, 5 GHz daha hızlı ama kısa menzillidir
 - C\) İkisinin menzili aynıdır
 - D\) Hiçbiri; Wi-Fi menzili banda bağlı değildir
 - E\) Bluetooth'a geçmek gerekir
@@ -273,10 +273,10 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 ::: {.quiz-q data-answer="D" data-explain="Kilit yalnızca şifreli bağlantıyı gösterir; alan adı kurumun adresi değildir, bilgi girilmemelidir."}
 **5.** Üniversite giriş sayfasına benzeyen bir sayfada kilit simgesi var, ama adres `iuc-giris.xyz`. En isabetli değerlendirme hangisidir?
 
-- A\) Kilit olduğu için güvenlidir, giriş yapılabilir.
+- A\) Kilit simgesi olduğu için sayfa güvenlidir; giriş bilgileri rahatça girilebilir.
 - B\) Sayfa tasarımı aynıysa sorun yoktur.
-- C\) Yalnızca parola girilmez, kullanıcı adı girilebilir.
-- D\) Kilit yalnızca bağlantının şifreli olduğunu gösterir; alan adı kurumun adresi olmadığı için bilgi girilmemelidir.
+- C\) Yalnızca parola girilmez; kullanıcı adı ve öğrenci numarası ise güvenle girilebilir.
+- D\) Kilit yalnızca şifreli bağlantıyı gösterir; alan adı kurumun değil, bilgi girilmemeli.
 - E\) Sayfa yenilenirse güvenli hale gelir.
 :::
 

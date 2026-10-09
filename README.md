@@ -82,12 +82,13 @@ Yalnızca öğrenmeyi destekleyen sorular buraya girer; sınav soruları hiçbir
 
 ## Yayın
 
-Depo özel olduğu için GitHub Pages ücretsiz planda kullanılamaz. Seçenekler:
+**Karar (9 Ekim 2026):** Bu depo herkese açık yapılacak ve site GitHub Pages ile yayımlanacak:
 
-- **Cloudflare Pages ya da Netlify:** Özel depoya bağlanır, her gönderimde siteyi derler ve `bit.zurrani.com` gibi bir alt alan adında ücretsiz yayımlar.
-- **Mevcut barındırma:** `quarto render` sonrası `_site/` klasörünün içeriği, zurrani.com alt alan adının klasörüne FTP ya da dosya yöneticisiyle yüklenir.
+```bash
+quarto publish gh-pages
+```
 
-Karar verildiğinde yayın ayarı bu bölüme eklenecek.
+`bit.zurrani.com` alt alan adı bir DNS (CNAME) kaydıyla bağlanır. Depo herkese açık olacağı için buraya yalnızca öğrenciye açık içerik girer: sınav soruları, lisansı belirsiz görseller ve kişisel veri hiçbir zaman konmaz. Kurulum adımları uygulandığında bu bölüm güncellenecek.
 
 ## İlk gönderim
 

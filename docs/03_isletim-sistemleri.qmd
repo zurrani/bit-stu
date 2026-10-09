@@ -272,10 +272,10 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 **3.** E-postadan gelen "fatura.pdf.exe" dosyası, uzantılar gizliyken nasıl görünür ve ne yapmalısın?
 
 - A\) "fatura.exe" görünür; açmak güvenlidir.
-- B\) "fatura.pdf.exe" görünür; PDF okuyucuyla açılmalıdır.
+- B\) "fatura.pdf.exe" görünür; güvenli olması için PDF okuyucuyla açılmalıdır.
 - C\) Hiç görünmez; bir şey yapmaya gerek yoktur.
-- D\) "fatura" görünür; yeniden adlandırıp açmak yeterlidir.
-- E\) "fatura.pdf" görünür; açmadan uzantıları görünür yapmalı, dosyayı silmeli ya da bildirmelisin.
+- D\) "fatura" görünür; dosyayı yeniden adlandırıp uzantısını .pdf olarak düzeltip açmak yeterlidir.
+- E\) "fatura.pdf" görünür; açmadan uzantıları görünür yapmalı, silmeli ya da bildirmelisin.
 :::
 
 ::: {.quiz-q data-answer="B" data-explain="Navigasyon uygulamasının konuma ihtiyacı vardır, ama yalnızca kullanılırken."}
@@ -293,8 +293,8 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 
 - A\) Doğru; Mac'e zararlı yazılım yazılmaz.
 - B\) Doğru; güncellemeler yalnızca yeni özellik getirir.
-- C\) Yanlış; her işletim sistemi hedef olabilir, güncellemeler güvenlik açıklarını kapatır.
-- D\) Yanlış; ama yalnızca antivirüs kurması yeterlidir.
+- C\) Yanlış; her işletim sistemi hedef olabilir ve güncellemeler açıkları kapatır.
+- D\) Yanlış; ama güncelleme yerine yalnızca bir antivirüs programı kurması yeterlidir.
 - E\) Yalnızca Linux için doğrudur.
 :::
 

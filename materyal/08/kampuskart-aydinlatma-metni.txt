@@ -1,0 +1,45 @@
+KAMPÜSKART MOBİL UYGULAMASI
+KİŞİSEL VERİLERİN İŞLENMESİNE İLİŞKİN AYDINLATMA METNİ VE AÇIK RIZA BEYANI
+
+[KURGUSAL METİN. Bu metin Temel Bilgi Teknolojileri dersinin Hafta 8 etkinliği için yazılmıştır. Şirket ve uygulama hayalîdir; metne bilerek eksikler ve sorunlar konmuştur. Gerçek bir aydınlatma metnine örnek olarak kullanma.]
+
+Son güncelleme: 1 Eylül
+
+1. Biz kimiz?
+
+KampüsKart Teknoloji A.Ş. ("KampüsKart", "biz") olarak kişisel verilerinizin güvenliğine büyük önem veriyoruz. KampüsKart; kampüs yemekhanesinde ödeme, kütüphane girişi ve kampüs çevresindeki işletmelerde öğrenci indirimleri sunan bir mobil uygulamadır. Adresimiz: Örnek Mahallesi, Kurgu Caddesi No: 8, İstanbul.
+
+2. Hangi verilerinizi topluyoruz?
+
+Uygulamayı kullandığınızda aşağıdaki verileriniz ve bunlarla sınırlı olmamak üzere diğer verileriniz toplanabilir:
+
+- Kimlik ve iletişim: ad, soyad, öğrenci numarası, e-posta, cep telefonu numarası, doğum tarihi
+- Ödeme: kart bilgileri, bakiye, yemekhane ve kantin harcamaları
+- Konum: uygulama kapalıyken de dahil olmak üzere sürekli konum bilgisi
+- Rehber: "Arkadaşını davet et" özelliği için telefon rehberinizdeki kişiler
+- Cihaz: cihaz modeli, reklam kimliği, IP adresi, uygulama kullanım süreleri
+- Fotoğraf: profil fotoğrafı ve kütüphane girişinde yüz doğrulama için yüz görüntünüz
+
+3. Verilerinizi hangi amaçlarla işliyoruz?
+
+Verileriniz; hizmetlerimizi sunmak, geliştirmek, size daha iyi ve kişiselleştirilmiş bir deneyim yaşatmak, kampanya ve fırsatlardan haberdar etmek, iş ortaklarımızın ürün ve hizmetlerini tanıtmak ve benzeri amaçlarla işlenmektedir.
+
+4. Verilerinizi kimlerle paylaşıyoruz?
+
+Verileriniz; iş ortaklarımız, tedarikçilerimiz, reklam ve pazarlama ortaklarımız, grup şirketlerimiz ve yetkili üçüncü taraflarla paylaşılabilir. Sunucularımız, güvenilir bir uluslararası bulut hizmet sağlayıcısında barındırılmaktadır.
+
+5. Verilerinizi ne kadar süre saklıyoruz?
+
+Verileriniz, KampüsKart tarafından gerekli görülen süre boyunca saklanır.
+
+6. Haklarınız
+
+KVKK'nın 11. maddesi kapsamındaki talepleriniz için müşteri hizmetlerimizi hafta içi 09.00–17.00 arasında telefonla arayabilirsiniz. Hizmetin devamlılığı için hesabınız açık olduğu sürece verilerinizin silinmesi talep edilemez.
+
+7. Onay
+
+[X] Bu aydınlatma metnini okudum, anladım. Kişisel verilerimin yukarıda belirtilen amaçlarla işlenmesine, iş ortaklarına aktarılmasına, yurt dışına aktarılmasına ve tarafıma ticari elektronik ileti gönderilmesine açık rıza veriyorum.
+
+[ Devam et ]
+
+Bu kutuyu işaretlemeden uygulamayı kullanamazsınız.

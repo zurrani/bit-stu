@@ -203,7 +203,7 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 
 - A\) Yalnızca oyuncak uçakları getirir.
 - B\) "Oyuncak" kelimesini içeren sonuçları dışarıda bırakır.
-- C\) "Uçak" ve "oyuncak" kelimelerini aynı sırayla arar.
+- C\) "Uçak" ve "oyuncak" kelimelerini aynı sırayla ve yan yana arar.
 - D\) Yalnızca resmî siteleri getirir.
 - E\) Sonuçları tarihe göre sıralar.
 :::
@@ -212,10 +212,10 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 **2.** Yanal okuma nedir?
 
 - A\) Bir sayfayı baştan sona dikkatle okumak
-- B\) Sitenin "Hakkımızda" sayfasını incelemek
+- B\) Sitenin "Hakkımızda" sayfasını ve iletişim bilgilerini ayrıntılı incelemek
 - C\) Sayfayı yatay ekranda okumak
-- D\) Yeni sekmelerde, başka kaynakların o site ya da yazar hakkında ne dediğine bakmak
-- E\) Sitenin tasarım kalitesini değerlendirmek
+- D\) Yeni sekmede başka kaynakların o site ya da yazar hakkında ne dediğine bakmak
+- E\) Sitenin tasarım kalitesini, reklam sayısını ve yazım hatalarını değerlendirmek
 :::
 
 ::: {.quiz-q data-answer="A" data-explain="Yönetmeliğin kendisi, Resmî Gazete'de yayımlanan metindir; haberler ve yorumlar ikincil kaynaktır."}
@@ -241,11 +241,11 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 ::: {.quiz-q data-answer="C" data-explain="Duygusal ve şaşırtıcı bir iddia: önce dur, resmî kaynaktan kontrol et; emin değilsen paylaşma."}
 **5.** Mesajlaşma grubunda "Bir havayolu şirketi bugün herkese ücretsiz bilet veriyor, bu bağlantıya tıkla ve on kişiye gönder" mesajı dolaşıyor. En isabetli davranış hangisidir?
 
-- A\) Fırsat kaçmasın diye hemen tıklayıp paylaşmak
+- A\) Fırsat kaçmasın diye hemen tıklayıp bilgileri girmek ve on kişiye paylaşmak
 - B\) Yalnızca tıklamak, paylaşmamak
-- C\) Durup şirketin resmî sitesinden ve hesaplarından kontrol etmek; doğrulanmadıkça tıklamamak ve paylaşmamak
-- D\) Grupta en çok kişi paylaştıysa doğru kabul etmek
-- E\) Bağlantı HTTPS ise güvenmek
+- C\) Durup şirketin resmî sitesinden kontrol etmek; doğrulanmadan tıklamamak ve paylaşmamak
+- D\) Grupta en çok kişi paylaştıysa ve tanıdıklar da gönderdiyse mesajı doğru kabul edip yaymak
+- E\) Bağlantı HTTPS ile başlıyorsa ve kilit simgesi varsa güvenip tıklamak
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}

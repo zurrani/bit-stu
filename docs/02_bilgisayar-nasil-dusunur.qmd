@@ -236,7 +236,7 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 ::: {.quiz-q data-answer="C" data-explain="Bit, binary digit yani ikili basamak kelimelerinden türetildi."}
 **1.** "Bit" kelimesi hangi ifadenin kısaltmasıdır?
 
-- A\) Basic information technology
+- A\) Basic information technology (temel bilgi teknolojisi)
 - B\) Binary integer
 - C\) Binary digit (ikili basamak)
 - D\) Byte item
@@ -276,11 +276,11 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 ::: {.quiz-q data-answer="D" data-explain="Hız en yavaş halkaya bağlıdır; ihtiyaca göre RAM, depolama türü ve işlemci birlikte değerlendirilmelidir."}
 **5.** Bir arkadaşın yeni dizüstü alırken yalnızca işlemcinin GHz değerine bakıyor. En iyi tavsiye hangisidir?
 
-- A\) Doğru yapıyor; hızı yalnızca işlemci belirler.
-- B\) GHz yerine yalnızca ekran boyutuna bakmalı.
-- C\) En pahalı modeli almalı; fiyat her şeyi gösterir.
-- D\) Kullanım ihtiyacına göre RAM, depolama türü ve işlemciyi birlikte değerlendirmeli.
-- E\) Yalnızca markaya bakmalı.
+- A\) Doğru yapıyor; dizüstünün hızını tek başına işlemcinin GHz değeri belirler.
+- B\) GHz yerine yalnızca ekran boyutuna ve çözünürlüğüne bakmalı.
+- C\) En pahalı modeli almalı; fiyat RAM'i, depolamayı ve işlemciyi zaten gösterir.
+- D\) İhtiyacına göre RAM, depolama türü ve işlemciyi birlikte değerlendirmeli.
+- E\) Yalnızca markaya bakmalı; iyi marka her parçayı dengeli seçer.
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
