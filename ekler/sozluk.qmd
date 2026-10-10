@@ -9,6 +9,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 |---|---|
 | 3-2-1 kuralı (3) | Üç kopya, iki farklı ortam, bir kopya başka bir konumda olacak şekilde yedekleme |
 | 5651 sayılı kanun (7) | İnternetteki yayınları ve içerik, yer ve erişim sağlayıcılarının sorumluluklarını düzenleyen kanun (2007) |
+| Abartı döngüsü (14) | Yeni bir teknolojinin önce büyük beklenti, sonra hayal kırıklığı, en sonunda gerçekçi kullanım dönemlerinden geçtiğini anlatan model (hype cycle) |
 | ACARS (4) | Uçak ile yer arasında kısa veri mesajları taşıyan sistem; arıza mesajları bakım ekibine bu yolla ulaşabilir |
 | Açık kaynak (3) | Kaynak kodu herkese açık, lisansına göre incelenip değiştirilebilen yazılım |
 | Açık rıza (8) | Belirli bir konuya ilişkin, bilgilendirilmeye dayanan ve özgür iradeyle verilen izin; KVKK'daki işleme şartlarından yalnızca biridir |
@@ -41,6 +42,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Arızalar arası ortalama süre, MTBF (12) | Bir parçanın toplam çalışma süresinin arıza sayısına bölünmesiyle bulunan güvenilirlik ölçüsü (mean time between failures) |
 | ARM (2) | Telefonlarda başlayıp dizüstülere yayılan, az enerji harcayan işlemci mimarisi |
 | ARPANET (4) | 1969'da ABD'de kurulan, internetin öncüsü olan araştırma ağı |
+| Artırılmış gerçeklik (14) | Gerçek dünyanın görüntüsünün üzerine dijital bilgi yansıtan teknoloji (augmented reality) |
 | Asansör konuşması (13) | Bir fikri yarım dakika ile bir dakika arasında anlatan çok kısa konuşma (elevator pitch) |
 | ASCII (2) | 7 bitle 128 karakteri kodlayan karakter tablosu (1963); Türkçe harfleri içermez |
 | ATA bölüm numarası (11) | Uçak sistemlerini dünya genelinde aynı numarayla gösteren standart kodlama (örneğin ATA 32 iniş takımı) |
@@ -59,6 +61,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Beceri körelmesi (6) | Sürekli bir araca bırakılan becerinin zamanla zayıflaması |
 | Belge denetimi (10) | Bir belgeyi paylaşmadan önce yorumları, izlenen değişiklikleri, gizli metni ve üst veriyi bulup temizlemek |
 | Beygir gücü (1) | James Watt'ın tanımladığı güç birimi; yaklaşık 745,7 watt |
+| Beyin-bilgisayar arayüzü (14) | Beyin sinyallerini okuyarak bir cihazı düşünceyle kontrol etmeyi amaçlayan teknoloji |
 | BIOS ve UEFI (3) | Bilgisayar açılırken donanımı kontrol edip işletim sistemini başlatan yazılım; UEFI, BIOS'un yeni nesil karşılığıdır |
 | BITE (2) | Built-in test equipment; uçak sistemlerinin kendi kendini test etmesini sağlayan donanım |
 | Bilgelik (1) | Bilgiyi deneyim ve değerlendirmeyle birleştirip doğru kararı verebilme |
@@ -128,7 +131,9 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Dijital itibar (7) | İnsanların bir kişiyi internette arattığında gördüklerinin oluşturduğu izlenim |
 | Dijital iyi oluş (7) | Teknolojiyi kendi amaçları için, sağlığını, uykusunu ve ilişkilerini koruyarak kullanmak |
 | Dijital Piyasalar Yasası, DMA (7) | AB'de çok büyük platformların ("bekçiler") rekabeti engellemesini önleyen yasa |
+| Dijital sürdürülebilirlik (14) | Dijital teknolojinin enerji, su ve e-atık gibi çevresel bedelini azaltacak biçimde üretilmesi ve kullanılması |
 | Dijital vatandaşlık (7) | Dijital dünyada haklarını bilerek ve sorumluluklarını üstlenerek davranmak |
+| Dijital yerli (14) | Teknolojiyle büyüyen kuşak için kullanılan deyim; dijital becerinin yaştan çok kullanıma ve öğrenmeye bağlı olduğu bilinir |
 | Dikkat ekonomisi (7) | Kullanıcının dikkatinin kıt bir kaynak olarak görüldüğü ve platformların onu reklama dönüştürmek için yarıştığı düzen |
 | Dinamik fiyatlama (8) | Fiyatın talebe, saate ve stoka göre değişmesi; bir adım ötesi kişiye özel fiyattır |
 | Dinleyici analizi (13) | Sunumdan önce dinleyicinin ne bildiğini, ne istediğini ve ondan ne yapmasının beklendiğini belirlemek |
@@ -145,6 +150,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Düşey ara, DÜŞEYARA (12) | Bir tablonun en soldaki sütununda arama yapıp istenen sütundaki değeri getiren eski arama işlevi (VLOOKUP); tam eşleşme için sonuna YANLIŞ yazılır |
 | Düzen (13) | Bir slaytın içindeki kutuların yerleşimi: başlık slaytı, başlık ve içerik, iki içerik gibi (layout) |
 | Düzenli veri (11) | Her satırın bir kayıt, her sütunun bir değişken, her hücrenin tek bir değer olduğu tablo düzeni (tidy data) |
+| E-atık (14) | Atılan elektronik cihazlar ve pillerden oluşan, değerli ve zehirli maddeler içeren atık |
 | E-posta imzası (10) | E-posta programında bir kez tanımlanan ve her mesajın altına kendiliğinden eklenen ad, program ya da unvan ve kurum bilgisi |
 | EĞER (12) | Bir koşul doğruysa bir, yanlışsa başka bir sonuç döndüren mantıksal işlev (IF) |
 | EĞERHATA (12) | Bir formül hata verirse onun yerine belirlenen değeri gösteren işlev (IFERROR); hatanın nedenini düzeltmez |
@@ -153,6 +159,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Ekran kartı, GPU (2) | Binlerce basit işlemi aynı anda yapan işlem birimi; görüntü, video ve YZ hesaplarında kullanılır |
 | Ekran paylaşımı (13) | Çevrim içi toplantıda kendi ekranını ya da bir pencereyi katılımcılara göstermek; yalnızca gerekli pencere paylaşılır |
 | Elektronik tablo (11) | Satır ve sütunlardan oluşan bir ızgarada veri saklamaya, düzenlemeye ve hesaplamaya yarayan program (spreadsheet) |
+| Elektronik teknik kayıt (14) | Uçağın arıza ve bakım kayıtlarının kâğıt defter yerine elektronik ortamda tutulduğu sistem (e-techlog) |
 | Elektronik Uçuş Çantası, EFB (3) | Pilotların harita, el kitabı ve performans hesapları için kullandığı tablet ya da cihaz |
 | En az yetki ilkesi (9) | Bir kişiye, programa ya da YZ ajanına yalnızca işi için gereken erişimi verme ilkesi |
 | Endüstri 4.0 (1) | Siber-fiziksel sistemler, Nesnelerin İnterneti ve veriye dayalı akıllı üretim dönemi |
@@ -175,6 +182,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Gecikme (4) | Bir veri paketinin gidip gelme süresi; ping |
 | Geçiş (13) | Bir slayttan ötekine geçerken görülen efekt (transition) |
 | Geçiş anahtarı (9) | Cihazın kilidi açılır gibi (parmak izi, yüz, PIN) giriş yapılan, yalnızca gerçek siteyle çalıştığı için oltalamaya dayanıklı yöntem (passkey) |
+| Genel yapay zekâ (14) | Her alanda insan düzeyinde ya da üstünde düşünebilen, henüz var olmayan YZ (artificial general intelligence) |
 | Gerçek zamanlı işletim sistemi (3) | Görevlerin her seferinde belirli bir süre içinde tamamlanacağını garanti eden işletim sistemi |
 | Geri besleme (2) | Çıkışta ölçülen sonucun yeniden girişe verilerek sistemin kendini düzeltmesi (termostat, otopilot) |
 | Geri okuma (10) | Telsizle alınan bir talimatın gönderene aynen tekrarlanarak doğrulanması (readback) |
@@ -216,12 +224,14 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | İstem enjeksiyonu (9) | YZ'nin okuduğu bir sayfa, e-posta ya da belgeye gizlenen talimatlarla modelin davranışının değiştirilmesi (prompt injection) |
 | İstemci (4) | Bir sunucudan hizmet isteyen bilgisayar ya da program (örneğin tarayıcı) |
 | İsviçre peyniri modeli (9) | Her savunma katmanının delikli bir dilim olduğu, kazanın delikler aynı hizaya gelince oluştuğu model (James Reason) |
+| İş birlikçi robot (14) | İnsanlarla aynı ortamda, onlarla yan yana güvenle çalışmak üzere tasarlanmış robot (cobot) |
 | İşlem önceliği (12) | Bir formülde işlemlerin yapılma sırası: parantez, üs, çarpma ve bölme, toplama ve çıkarma |
 | İşlemci, CPU (2) | Komutları sırayla ve hızla işleyen birim; bilgisayarın genel beyni |
 | İşletim sistemi (3) | Donanım ile kullanıcı ve uygulamalar arasında kaynakları yöneten sistem yazılımı |
 | İşlev (11) | Elektronik tabloda adı olan hazır hesap (TOPLA, ORTALAMA gibi; function) |
 | İzleme pikseli (8) | E-postaya ya da sayfaya gizlenmiş görünmez görsel; yüklendiğinde açılma zamanını ve cihazı göndericiye bildirir |
 | Jailbreak (9) | Bir YZ modelinin güvenlik kurallarını özel olarak hazırlanmış istemlerle aşma girişimi |
+| Kalibrasyon (14) | Bir kişinin öz tahmininin gerçek performansıyla ne kadar örtüştüğü |
 | Kamu malı (7) | Telif süresi dolmuş ya da telif korumasına hiç girmemiş, herkesin serbestçe kullanabildiği eser (public domain) |
 | Karakter kodlaması (2) | Karakterlerin sayılara nasıl çevrileceğini belirleyen kural; uyuşmazlık bozuk karakterlere yol açar |
 | Karanlık örüntü (8) | Kullanıcıyı farkında olmadan belirli bir seçime yönlendiren arayüz tasarımı (dark pattern); örneğin reddetmeyi gizleyen çerez penceresi |
@@ -231,6 +241,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Kaynakça (5) | Bir çalışmada kullanılan kaynakların belirli bir biçimde listelenmesi |
 | Kaynakça yöneticisi (10) | Kaynak bilgilerini bir kez kaydedip metin içi atıfları ve kaynakçayı seçilen biçimde kendiliğinden oluşturan araç |
 | Kelime işlemci (10) | Metin yazmak, düzenlemek, biçimlendirmek ve yazdırmak için kullanılan program (word processor) |
+| Kırılım (14) | Bir teknolojinin gündelik hayatı ve işi kalıcı biçimde değiştirdiği dönüm noktası |
 | KIRP (11) | Bir metnin başındaki ve sonundaki fazla boşlukları silen elektronik tablo işlevi (TRIM) |
 | Kırpılmış eksen (12) | Sıfırdan başlamayan ve küçük farkları büyük gösteren grafik ekseni |
 | Kibibayt, KiB (2) | 1.024 bayt; ondalık kilobayttan (1.000 bayt) ayırmak için kullanılan ikili birim |
@@ -259,19 +270,23 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Mesaj başlığı (12) | Grafiğin ya da slaytın konusunu değil, ne söylediğini tam bir cümleyle yazan başlık |
 | Metin olarak saklanan sayı (11) | Sayı gibi görünen ama program tarafından metin sayılan değer; sola yaslanır ve hesaplara girmez |
 | Metni sütunlara dönüştürme (11) | Tek sütundaki birleşik değerleri bir ayraca göre birden çok sütuna bölen araç |
+| Mikro yeterlik (14) | Belirli bir beceriyi kanıtlayan kısa bir eğitim ve sonunda verilen belge (micro-credential) |
 | Mikroişlemci (1) | Bir bilgisayarın işlem biriminin tamamını tek bir çipte toplayan entegre devre |
 | Modem (4) | Ev ya da iş yeri ağını servis sağlayıcının hattına bağlayan cihaz |
 | Moore yasası (1) | Bir çipteki transistör sayısının düzenli aralıklarla ikiye katlanacağı öngörüsü (1965) |
 | Mutlak başvuru (12) | Formül nereye kopyalanırsa kopyalansın aynı hücreyi gösteren başvuru ($B$7 gibi) |
+| Nesnelerin interneti (14) | İnternete bağlı sensörler ve gündelik cihazlardan oluşan ağ (Internet of Things, IoT) |
 | Nesnelerin İnterneti, IoT (4) | Sensörlü ve gömülü cihazların internete bağlanmasıyla oluşan ağ |
 | Netiket (10) | Çevrimiçi iletişimin görgü kuralları (İngilizce internet ve etiket kelimelerinden) |
 | NFC (4) | Birkaç santimetrelik mesafede çalışan kablosuz iletişim; temassız ödemede kullanılır |
 | Niceleme (2) | Her ölçümün, belirli sayıda bitle yazılabilecek en yakın değere yuvarlanması |
 | NotebookLM (13) | Google'ın, kullanıcının yüklediği kaynaklara dayanarak özet çıkaran, soru cevaplayan ve atıf gösteren YZ aracı |
 | Oltalama (9) | Güvenilir bir kurumu taklit eden sahte bir mesajla kişiyi sahte bir sayfaya çekip bilgilerini ele geçirme (phishing) |
+| Onarım hakkı (14) | Kullanıcıların cihazlarını onarabilmesi ya da onartabilmesi için parça, bilgi ve hizmete erişimini güvenceye almayı amaçlayan düzenlemeler |
 | Ortalama (12) | Değerlerin toplamının değer sayısına bölünmesi (aritmetik ortalama) |
 | Ortanca (12) | Değerler sıralandığında ortada kalan değer (medyan); aykırı değerlerden az etkilenir |
 | Otomatik içindekiler (10) | Başlık stillerinden ve sayfa numaralarından program tarafından üretilen ve güncellenebilen içindekiler listesi |
+| Otonom sistem (14) | İnsan müdahalesi olmadan çevresini algılayıp karar verebilen sistem: sürücüsüz araç, otonom drone |
 | Oyun bozukluğu (7) | Oyunun kontrol edilemediği, başka her şeyin önüne geçtiği ve en az bir yıl süren durum; Dünya Sağlık Örgütü'nün hastalık sınıflamasındadır |
 | Öneri sistemi (8) | Kullanıcının ya da ona benzeyen kişilerin davranışından yola çıkarak içerik ve ürün öneren algoritma |
 | Öngörücü bakım (1) | Sensör verisinden, çoğu zaman makine öğrenmesiyle, arızayı oluşmadan tahmin etmeye dayanan bakım yaklaşımı |
@@ -409,6 +424,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Yapay zekâ birimi, NPU (2) | Yapay zekâ hesaplarını az enerjiyle yapmak için tasarlanmış işlem birimi |
 | Yapay Zekâ Yasası (7) | AB'de YZ sistemlerini risk düzeyine göre düzenleyen ve 2025'ten itibaren kademeli olarak uygulanan yasa |
 | Yapay zekâ, YZ (6) | İnsanların zekâ gerektiren işler saydığı görevleri yapabilen bilgisayar sistemlerinin genel adı |
+| Yaşam boyu öğrenme (14) | Okul bittikten sonra da bilgi ve becerileri düzenli olarak yenileme |
 | Yazılım (3) | Donanıma ne yapacağını söyleyen komutlar bütünü |
 | Yedeklilik (1) | Bir işlevin, ana sistem çökse de sürmesi için bağımsız bir yedekle güvenceye alınması |
 | Yeniden üretilebilirlik (12) | Bir analizin verisi ve yöntemi paylaşıldığında başkası tarafından aynı sonuca ulaşılabilmesi |

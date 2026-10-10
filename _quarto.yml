@@ -72,6 +72,8 @@ website:
             href: docs/12_veriyle-calismak-2.qmd
           - text: "13 · Sunum ve görsel anlatım"
             href: docs/13_sunum.qmd
+          - text: "14 · Kapanış"
+            href: docs/14_kapanis.qmd
       - section: "Ekler"
         contents:
           - text: "Sözlük"

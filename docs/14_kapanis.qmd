@@ -1,0 +1,264 @@
+---
+title: "Kapanış: 25 yılda ne değişti, nereye gidiyoruz?"
+subtitle: "Hafta 14"
+description: "Dönemin haritası; son 25 yılın kırılımları; geçmişin bilim kurgusu; yakın geleceğin teknolojileri; dijital sürdürülebilirlik; ne kazandın; öğrenmeye devam; gelecek neden zor tahmin edilir; tahmin mi, icat mı."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>14 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>5.3 Dijital teknolojileri yaratıcı kullanma, 5.4 Dijital yetkinlik açıklarını belirleme, 4.4 Çevreyi koruma</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Bundan 25 yıl sonra bugünün hangi teknolojisi sana tuhaf, hangisi sıradan gelecek?</p>
+</div>
+```
+
+Yıl 2001. Bir öğrencinin çantasında şunlar var: yalnızca konuşmaya ve kısa mesaja yarayan bir cep telefonu, otuz kadar şarkı alan bir MP3 çalar, ayrı bir dijital fotoğraf makinesi, şehrin kâğıt haritası ve bir ödev için kütüphaneden alınmış bir ansiklopedi cildi. Evde internete telefon hattı üzerinden bağlanıyor; bağlanırken telefon meşgul çalıyor ve bir fotoğrafın inmesi dakikalar sürüyor. Bugün senin çantanda bunların hepsinin yerini tek bir cihaz alıyor; üstelik o cihaz sana yol tarif ediyor, metni çeviriyor ve sorularını bir yapay zekâ ile cevaplıyor. Bu dönem, bu değişimin ne kazandırdığını ve neye mal olduğunu konuştuk. Bu son hafta dönemi bir araya getiriyor, geleceğe bakıyor ve en önemli soruyu soruyor: Bundan sonra kendi başına nasıl öğrenmeye devam edeceksin?
+
+**Okuma süresi:** yaklaşık 25 dakika. Bu hafta ders saatinin büyük kısmı son teste ve proje sunumlarına ayrıldığı için bu notu kendi başına okursun.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. Son 25 yılın başlıca teknolojik kırılımlarını, çözdükleri sorun ve getirdikleri bedelle açıklamak.
+2. Yakın geleceğin teknolojilerini (YZ ajanları, robotlar, otonom sistemler, nesnelerin interneti) fırsat ve risk yönünden değerlendirmek.
+3. Dijital teknolojinin çevresel bedelini (enerji, su, e-atık) tanımak ve kişisel ölçekte azaltma yolları önermek.
+4. Ön ve son testi, öz tahminini ve yapabiliyorum listesini karşılaştırarak kendi dijital yetkinliğini değerlendirmek.
+5. Yaşam boyu öğrenme için kişisel bir öğrenme planı hazırlamak.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Dönemin haritası
+
+On üç haftayı üç blokta geçtik:
+
+| Blok | Haftalar | Ne öğrendin? |
+|---|---|---|
+| **Temeller** | 1–4 | Teknolojinin neyi çözdüğünü ve bedelini; bilgisayarın nasıl düşündüğünü; işletim sistemini ve dosyalarını yönetmeyi; ağın, internetin ve bulutun nasıl çalıştığını |
+| **Güvenle kullanmak** | 5–9 | Bilgiyi aramayı ve doğrulamayı; üretken YZ'yi sorumlu kullanmayı; dijital vatandaşlığı ve hukuku; mahremiyetini korumayı; tehditlere karşı hazırlıklı olmayı |
+| **Üretmek** | 10–13 | Belgeyi stillerle kurmayı ve kurumsal yazışmayı; veriyi temizlemeyi, analiz etmeyi ve dürüstçe göstermeyi; bir mesajı sunmayı |
+
+Ders boyunca dört fikir tekrar tekrar karşına çıktı:
+
+- **Yakından uzağa:** Her konuya kendi cebindeki telefondan, kendi dosyalarından başladık; sonra kuruma, mesleğe, topluma açıldık.
+- **Her şeyin bir alternatifi var:** Word'ün yanında Writer, Excel'in yanında Calc, PowerPoint'in yanında Impress ve kodla sunum vardı. Hafta 13'te bunun bir beceriye dönüştüğünü gördün: araç esnekliği.
+- **Geçmişin bilim kurgusu:** Bugün sıradan saydığımız birçok şey dün bir hayaldi. Bu hafta o hayallere bir kez daha bakacağız.
+- **Hazırlıklı ol:** Yedekler, çok faktörlü doğrulama, dayanıklılık planı. Teknoloji bir gün susacak; o gün ne yapacağını önceden bilmek gerekir (Hafta 9).
+
+## 2. 25 yılda ne değişti?
+
+Hafta 1'de her icadın bir sorunu çözdüğünü ve bir bedeli olduğunu söylemiştik. Son 25 yılın büyük kırılımlarına bu gözle bakalım ([Ek A](../ekler/a_kirilimlar.qmd)):
+
+::: {.tablo-kaydir}
+| Kırılım | Çözdüğü sorun | Getirdiği bedel |
+|---|---|---|
+| **Arama motorları** (2000'ler) | Bilgiye ulaşmak kütüphanede saatler sürüyordu | Bilginin doğruluğunu değerlendirme yükü sana geçti (Hafta 5) |
+| **Akıllı telefon** (2007 sonrası) | Telefon, kamera, harita, müzik ve internet ayrı cihazlardı | Sürekli bağlantı, ekran süresi, dikkat dağınıklığı (Hafta 7) |
+| **Sosyal medya** | İnsanlar uzaktaki yakınlarıyla kolayca iletişim kuramıyordu | Kişisel verinin ekonomisi, algoritmik akış, dezenformasyon (Hafta 5, 8) |
+| **Bulut** | Dosyalar tek bir cihaza bağlıydı; birlikte çalışmak zordu | Verinin başkasının bilgisayarında durması, hesap güvenliği (Hafta 4, 9) |
+| **Derin öğrenme** (2010'lar) | Bilgisayarlar görüntü ve konuşmayı anlayamıyordu | Önyargılı veriyle eğitilen sistemler, gözetim (Hafta 8) |
+| **Uzaktan çalışma ve eğitim** (2020) | Salgında okul ve iş durmak zorundaydı | Dijital eşitsizlik, ekran yorgunluğu, ev ile iş arasındaki sınırın silinmesi |
+| **Üretken YZ** (2022 sonrası) | Metin, görsel ve kod üretmek uzmanlık ve zaman istiyordu | Uydurma bilgi, telif, beyan ve emeğin değeri tartışması (Hafta 6) |
+:::
+
+Tablodaki her satırın bir ortak noktası var: Kırılım geldiğinde bedeli hemen görülmedi. Akıllı telefonun ilk yıllarında ekran süresi bir sorun olarak konuşulmuyordu; sosyal medyanın ilk yıllarında kişisel verinin bir ekonomiye dönüşeceği öngörülmüyordu. Bu dersin sana bıraktığı en kalıcı alışkanlık belki de şudur: Yeni bir teknoloji geldiğinde "ne çözüyor?" sorusunun yanına hemen "bedeli ne ve onu kim ödüyor?" sorusunu eklemek.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Teknolojiyle büyüyen gençler, yani dijital yerliler, teknolojiyi doğuştan bilir." Yanlış. "Dijital yerli" deyimi 2000'lerin başında yaygınlaştı; ama sonraki araştırmalar, gençlerin dijital becerilerinin yaşlarından çok neyi, ne kadar ve nasıl kullandıklarına bağlı olduğunu gösterdi. Bir uygulamada hızlı olmak, bir raporu stillerle kurmayı, bir tabloyu temizlemeyi ya da bir oltalama mesajını tanımayı kendiliğinden getirmez. Bu yüzden bu ders "biliyorum" diye değil, "yapabiliyorum" diye ölçtü. Ön testteki öz tahminine ve sonucuna bir kez daha bak: Hangi görevlerde kendini olduğundan iyi, hangilerinde olduğundan kötü görmüştün?
+:::
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Kâğıttan elektronik teknik kayda"}
+Uzun yıllar boyunca bir uçağın arızaları ve yapılan bakım, kokpitteki kâğıt bir teknik kayıt defterine (tech log) elle yazıldı. Bugün birçok havayolu **elektronik teknik kayıt** sistemlerine geçiyor: Pilot arızayı bir tablette kaydediyor, kayıt anında bakım kontrol merkezine ulaşıyor, teknisyen yedek parçayı uçak inmeden hazırlayabiliyor. Kazanç hız ve izlenebilirlik; bedel ise yeni riskler: veri bütünlüğü, siber güvenlik, sistem çökerse kaydın nasıl tutulacağı. Bu yüzden elektronik sistemlerin de onaylı prosedürleri ve bir yedek (çoğu zaman yine kâğıt) yöntemi vardır. Hafta 9'daki "teknoloji susarsa" sorusu, havacılıkta bir mevzuat gereğidir.
+:::
+
+## 3. Geçmişin bilim kurgusu
+
+*2001: Bir Uzay Macerası* (1968) filminde astronotlar ince, düz ekranlı tabletlerle haber izler, Dünya'daki aileleriyle görüntülü konuşur ve gemiyi konuşarak yöneten bir bilgisayarla sohbet eder. Film çekildiğinde bunların hepsi bilim kurguydu. Bugün üçü de senin cebinde: tablet, görüntülü arama ve sesli asistan ([Ek B](../ekler/b_bilim-kurgu.qmd)).
+
+Ama dikkatli bak: Bilim kurgu çoğu zaman cihazı doğru tahmin etti, toplumsal bedelini değil. Görüntülü konuşmanın uzaktaki aileleri yaklaştıracağını kimse şaşırtıcı bulmadı; ama aynı teknolojinin sahte görüntülü aramalarla dolandırıcılığa (Hafta 9) dönüşeceğini çok az kişi öngördü. Filmdeki bilgisayarın asıl korkutucu yanı konuşabilmesi değil, insanlara söylemediği bir hedefinin olmasıydı; bu da bugün YZ güvenliği tartışmalarının merkezinde duruyor.
+
+Bugünün bilim kurgusu ne? **Genel yapay zekâ** (her işte insan düzeyinde ya da üstünde düşünebilen bir sistem), **beyin-bilgisayar arayüzleri** (düşünceyle cihaz kontrolü; felçli hastalar için ilk denemeler yapılıyor), **tam otonom araçlar** (hiçbir koşulda sürücü gerektirmeyen). Bunlardan hangisinin ne zaman sıradan olacağını kimse bilmiyor. Bölüm 8'de gelecekle ilgili tahminlerin neden bu kadar sık yanıldığını göreceksin.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Çocukluğunda izlediğin bir film ya da çizgi filmdeki bir teknolojiyi hatırla. Bugün gerçek oldu mu? Olduysa, filmde gösterilmeyen hangi bedeli ya da sorunu getirdi?
+:::
+
+## 4. Nereye gidiyoruz?
+
+Önümüzdeki on yılda hayatına en çok dokunması beklenen dört alan şunlar:
+
+::: {.tablo-kaydir}
+| Alan | Ne? | Çözebileceği sorun | Olası bedeli | Senin için soru |
+|---|---|---|---|---|
+| **YZ ajanları** | Yalnızca cevap vermeyen, senin adına adım adım iş yapan YZ: bir yolculuğu planlayıp bileti almak, bir tabloyu analiz edip raporu yazmak | Tekrarlayan işlerin yükü | Yanlış ya da izinsiz eylem; sorumluluğun belirsizliği; hesap güvenliği | Bir YZ'ye hangi işi, hangi izinle devredersin? |
+| **Robotlar** | Fabrikadan depoya, hastaneden eve; insanlarla yan yana çalışan iş birlikçi robotlar ve insansı robotlar | Ağır, tehlikeli, tekrarlayan işler; iş gücü açığı | İş kaybı ve dönüşümü; güvenlik; bakım bağımlılığı | Senin mesleğinde hangi iş robota, hangisi sana kalır? |
+| **Otonom sistemler** | Sürücüsüz araçlar, otonom drone'lar, kendini yöneten makineler | Kaza riski, erişim, verimlilik | Kaza olunca sorumluluk; siber saldırı; etik kararlar | Bir makinenin kararına ne zaman güvenirsin? |
+| **Nesnelerin interneti** (IoT) | İnternete bağlı sensörler ve cihazlar: akıllı ev, akıllı şehir, akıllı fabrika | Kaynakların verimli kullanılması, uzaktan izleme | Mahremiyet; güvenliği zayıf cihazlar (Hafta 9); her şeyin bağlı olmasının kırılganlığı | Evindeki hangi cihaz seni dinliyor ya da izliyor? |
+:::
+
+Bu dört alanın ortak noktası, karar vermenin bir kısmının insandan makineye geçmesidir. Bu yüzden bu dersin "güvenle kullanmak" bloğunda öğrendiklerin (doğrulamak, beyan etmek, izin vermeden önce düşünmek, yedekli olmak) gelecekte daha da değerli olacak.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Yapay zekâ yakında bütün meslekleri yok edecek." Abartılı. Geçmişteki büyük teknolojik değişimler (buhar makinesi, elektrik, bilgisayar) bazı işleri ortadan kaldırdı, birçoğunu dönüştürdü ve yeni meslekler yarattı; bu dönüşüm hiçbir zaman acısız da olmadı. YZ'nin de çoğu meslekte görevlerin bir kısmını üstlenmesi, bir kısmını değiştirmesi bekleniyor. Bu süreçte en korunaklı olan, işini YZ'yle birlikte yapmayı öğrenen ve YZ'nin yapamadığı şeyleri (yargı, sorumluluk, insan ilişkisi, fiziksel beceri, değişen koşullara uyum) güçlendiren kişidir. Hazırlıklı olmanın meslekteki karşılığı budur.
+:::
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Dijital ikiz ve öngörücü bakım"}
+Bakımın geleneksel mantığı "belli bir süre ya da çevrimden sonra kontrol et" ya da "arızalanınca onar"dır. **Öngörücü bakım** ise uçaktaki sensörlerden gelen veriyi (titreşim, sıcaklık, basınç) sürekli analiz ederek bir parçanın ne zaman arızalanacağını tahmin etmeye çalışır; Hafta 12'deki trend izlemenin YZ destekli halidir. Bir adım ötesi **dijital ikizdir**: Bir motorun ya da uçağın, gerçek verisiyle sürekli güncellenen sanal bir kopyası. Mühendisler bakım kararlarını önce ikiz üzerinde dener. Bu teknolojiler arızaları azaltabilir ve uçağın yerde kalma süresini kısaltabilir; ama teknisyenin işini de değiştirir: Veriyi okumak, bir algoritmanın uyarısını sorgulamak ve sonuçta onaylı prosedüre göre karar vermek yeni temel beceriler haline geliyor.
+:::
+
+## 5. Dijital sürdürülebilirlik
+
+Dijital dünya "bulutta" yaşıyor gibi görünür; ama bulut, gerçek binalardaki gerçek bilgisayarlardır (Hafta 4). Her arama, her video, her YZ cevabı bir yerde elektrik harcar ve ısı üretir. Bu bedelin üç yüzü vardır:
+
+- **Enerji:** Veri merkezleri dünyanın elektrik tüketiminde küçük ama hızla büyüyen bir paya sahip. Büyük YZ modellerini eğitmek ve milyonlarca kişiye cevap vermek, bu tüketimi belirgin biçimde artırıyor. Elektriğin nereden geldiği (kömür mü, güneş mi) bedeli değiştirir.
+- **Su:** Birçok veri merkezi sunucularını soğutmak için su kullanır; kuraklık yaşanan bölgelerde bu bir yerel sorun haline gelebilir.
+- **E-atık:** Telefonlar, bilgisayarlar ve piller atıldığında içlerindeki değerli ve zehirli maddelerle birlikte dünyanın en hızlı büyüyen atık türlerinden birini oluşturur. Bunların yalnızca bir kısmı düzgün biçimde toplanıp geri dönüştürülüyor.
+
+Bu sorunların büyük kısmı kurumların ve devletlerin işidir; ama senin de etkileyebileceğin bir pay var:
+
+- **Cihazını daha uzun kullan.** Bir telefonun çevresel bedelinin önemli bir kısmı üretilirken ödenir. Bir cihazı bir-iki yıl daha uzun kullanmak, en etkili kişisel adımlardan biridir. Pil değişimi ve onarım çoğu zaman yeni cihazdan ucuzdur; birçok ülkede "onarım hakkı" düzenlemeleri bunu kolaylaştırmayı amaçlıyor.
+- **Doğru yere at.** Eski cihazı ve pili çöpe değil, e-atık toplama noktasına ver. Vermeden önce verilerini sil ve hesaplarından çıkış yap (Hafta 8).
+- **Gereksiz veriyi temizle.** Kullanmadığın bulut yedekleri, aynı fotoğrafın onlarca kopyası, abonesi olduğun ama okumadığın e-posta listeleri. Tek tek küçüktür, ama milyonlarca kullanıcıda büyür.
+- **Aracı işe göre seç.** Basit bir hesap için bir hesap makinesi, bir yazım düzeltmesi için yazım denetimi yeter; her işi büyük bir YZ modeline yaptırmak gerekmez. Bu da araç esnekliğinin bir yüzüdür.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Dijital her zaman kâğıttan daha çevrecidir." Her zaman değil. Bir belgeyi bir kez okumak için yazdırmamak kâğıt tasarrufu sağlar; ama yıllarca saklanan, hiç açılmayan dosyalar, sürekli çalışan sunucular ve iki yılda bir değiştirilen cihazlar da bir bedel öder. Hangisinin daha çevreci olduğu kullanıma bağlıdır: ne kadar süre, ne sıklıkla, hangi cihazla, hangi enerjiyle. Doğru soru "dijital mi kâğıt mı?" değil, "bu iş için en az kaynakla en iyi sonucu veren yol hangisi?" sorusudur.
+:::
+
+## 6. Ne kazandın?
+
+Hafta 1'de iki ölçüm yaptın: Europass Dijital Beceri Testi'yle kendini değerlendirdin ve performans testinde gerçek görevleri yaptın. Görevlerden önce her biri için "yapabilir miyim?" diye bir tahmin de yazdın. Bu hafta aynı yapıdaki ikinci testi yapıyorsun. Şimdi üç karşılaştırma yapabilirsin:
+
+1. **Ön test ve son test:** Hangi görevlerde puanın arttı? Hangilerinde aynı kaldı? Artışın en çok olduğu görev, büyük olasılıkla en çok pratik yaptığın haftaya karşılık geliyor.
+2. **Öz tahmin ve sonuç:** Kendini doğru tahmin etmeye **kalibrasyon** denir. İyi kalibre olmuş biri neyi yapabildiğini ve neyi yapamadığını bilir; bu da ne öğrenmesi gerektiğini bilmek demektir. Son testte tahminlerin ön teste göre daha mı isabetli oldu?
+3. **Yapabiliyorum listesi:** Dönemin başında "bir adım öne çık" oyununda gördüğün yirmi maddeye şimdi kaç kez "evet" diyorsun? Tam listedeki yetmiş maddeye de bir göz at: Bazıları bu derste hiç işlenmedi; onları kendi başına öğrenebileceğin beceriler olarak düşün.
+
+Europass testini evde bir kez daha yap ve sonucunu, kendi öz değerlendirmene alan alan yaz. Sonucun bir not değil, bir haritadır: Nerede olduğunu ve nereye gidebileceğini gösterir.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bu dönem öğrendiğin hangi beceri, dönem başında "bunu hiç yapamam" dediğin bir şeydi? Onu öğrenmeni ne sağladı: bir açıklama mı, bir örnek mi, yoksa deneyip yanılmak mı?
+:::
+
+## 7. Öğrenmeye devam
+
+Bu dersin içeriğinin bir kısmı birkaç yıl içinde eskiyecek. Programların menüleri değişecek, bugün adını bildiğin YZ araçlarının yerine başkaları gelecek, belki bugün hiç duymadığın bir teknoloji mesleğinin merkezine oturacak. Eskimeyecek olan, öğrenmenin kendisidir. **Yaşam boyu öğrenme**, okul bittikten sonra da bilgi ve becerilerini düzenli olarak yenilemek demektir.
+
+Bunun için birkaç yol var:
+
+- **Açık dersler ve ücretsiz platformlar:** Üniversitelerin açık dersleri, kamu kurumlarının çevrim içi eğitim platformları ve yazılımların kendi eğitim sayfaları ücretsiz ve düzenli olarak güncellenir.
+- **Mikro yeterlikler:** Bir konuda belirli bir beceriyi kanıtlayan kısa eğitimler ve onların sonunda verilen dijital belgeler (micro-credential). Bir ofis programının sertifikası, bir siber güvenlik temel eğitimi gibi. Seçerken Hafta 5'teki soruyu sor: Bu belgeyi kim veriyor, neyi ölçüyor, işverenler tanıyor mu?
+- **Kurcalama merakı:** Hafta 13'te gördüğün gibi, yeni bir aracı öğrenmenin en hızlı yolu çoğu zaman bir kopya dosyada onu kurcalamaktır. Geri alma tuşu ve bir yedek varken denemek hiçbir şeyi bozmaz.
+- **Birlikte öğrenmek:** Bir arkadaşına gösterdiğinde, bir şeyi gerçekten anlayıp anlamadığını görürsün. İş yerinde de öğrenme çoğu zaman bir meslektaşın yanında olur.
+
+Ve son kez: **Hazırlıklı ol.** Hafta 9'daki dayanıklılık planına dön: yedeklerin, kurtarma kodların, çok faktörlü doğrulaman yerinde mi? Bu dersin bitmesi, hesaplarının ve verilerinin bakımının bitmesi değildir.
+
+### Kişisel öğrenme planı
+
+Bu haftanın ödevinde kendine bir sayfalık bir öğrenme planı yazacaksın. Basit bir yapı yeterlidir:
+
+| Ne öğreneceğim? | Neden? | Hangi kaynakla? | Ne zamana kadar? | Öğrendiğimi nasıl anlayacağım? |
+|---|---|---|---|---|
+| Yapabiliyorum listesinde "hayır" dediğim bir madde | Mesleğim, bir projem ya da merakım için | Bir açık ders, bir video, bir arkadaş, kurcalamak | Somut bir tarih | Onu gerçekten yaptığım bir görev |
+
+Final sınavı bütün dönemi kapsar. Hazırlanırken her haftanın *Akılda kalsın* bölümünü ve *Kendini sına* sorularını yeniden gözden geçir; sözlükteki kavramları kendi cümlelerinle açıklamayı dene.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Teknisyenin yeni araçları"}
+Bakımda öğrenme hiç bitmez: Lisanslı teknisyenler belirli aralıklarla tekrar eğitimleri alır, yeni uçak tipleri için tip eğitimine girer (Hafta 13). Son yıllarda bu eğitimlere yeni araçlar da eklendi. Bazı kuruluşlar **drone'larla** gövde muayenesi yapıyor: Teknisyenin iskeleye çıkmadan saatler sürdürdüğü bir dış kontrol, kameralı bir drone ve görüntü analiziyle kısalabiliyor. **Artırılmış gerçeklik** gözlükleri ise teknisyenin önündeki parçanın üzerine bakım el kitabının adımlarını ya da bir uzmanın uzaktan yönlendirmesini yansıtabiliyor. Bu araçlar teknisyenin yerini almıyor; ama ondan yeni bir şey istiyor: yeni bir aracı öğrenmeye açık olmak ve onu yine onaylı prosedürün içinde kullanmak.
+:::
+
+## 8. Gelecek neden zor tahmin edilir? (okuma)
+
+Teknolojiyle ilgili tahminler şaşırtıcı sıklıkla yanılır, üstelik iki yönde birden. Hafta 1'de karşılaştığın, Amerikalı bilim insanı Roy Amara'ya atfedilen bir ilke bunu şöyle özetler: "Bir teknolojinin etkisini kısa vadede abartır, uzun vadede küçümseriz." Buna **Amara yasası** denir. İnternetin ilk yıllarında birçok şirket büyük beklentilerle kuruldu ve 2000'lerin başında bu beklentilerin çoğu çöktü; ama yirmi yıl sonra internet, o dönemde hayal edilenden çok daha derin bir değişim yarattı.
+
+Bir danışmanlık şirketi bu döngüyü bir grafikle anlatır: **abartı döngüsü** (hype cycle). Yeni bir teknoloji önce büyük bir heyecan yaratır, beklentiler zirve yapar; sonra sorunlar ortaya çıkınca hayal kırıklığı dönemi gelir; en sonunda teknoloji gerçekçi kullanım alanlarını bulur ve yavaşça olgunlaşır. Döngünün her teknolojide aynı biçimde işlediği tartışmalıdır, ama bir uyarı olarak değerlidir: Bir teknoloji hakkında en çok konuşulan dönem, onun gerçek değerinin en iyi anlaşıldığı dönem değildir.
+
+Ünlü kişilere atfedilen tahminlere de dikkatli yaklaş. "Dünyada belki beş bilgisayarlık pazar var" ya da "Kimsenin evinde bilgisayara ihtiyacı olmayacak" gibi sözler sık sık alıntılanır; ama bunların bir kısmının kim tarafından, hangi bağlamda söylendiği belirsizdir ya da hiç söylenmemiştir. Hafta 5'teki kural burada da geçerli: Bir alıntıyı kullanmadan önce kaynağını ara; bulamazsan "atfedilir" de.
+
+Bütün bunlar tahmin yapmamamız gerektiği anlamına gelmez. Ama iyi bir tahmin tek bir sonuç değil, olasılıklar sunar ve "yanılırsam ne olur?" sorusunu da sorar. Hafta 9'daki dayanıklılık düşüncesi, geleceği bilmeden ona hazırlanmanın yoludur.
+
+## 9. Tahmin mi, icat mı? (okuma)
+
+Bilgisayar bilimci Alan Kay'e atfedilen bir söz, geleceğe bakmanın başka bir yolunu gösterir: "Geleceği tahmin etmenin en iyi yolu onu icat etmektir." Kay ve meslektaşları 1970'lerde, kişisel bilgisayarların ve grafik arayüzlerin henüz sıradan olmadığı bir dönemde, bugün kullandığımız pencereli arayüzlerin ve dizüstü bilgisayar fikrinin öncülerini geliştirdi. Gelecek, onu bekleyenlerin değil, onu kuranların elinde şekillendi.
+
+Bilim kurgu yazarı William Gibson'a atfedilen bir başka söz ise bugüne bakmayı öğretir: "Gelecek zaten burada; yalnızca eşit dağılmamış." Bir ülkede ya da bir kurumda sıradan olan bir teknoloji, başka bir yerde hâlâ bir hayaldir. Bu dersin sana dijital eşitsizlik konusunda (Hafta 7) gösterdiği de buydu: Teknolojiye erişim, onu kullanabilme becerisi ve ondan korunabilme bilgisi herkese eşit dağılmıyor. Bu dönem öğrendiklerin, o eşitsizliğin doğru tarafında durmana yardım ediyor; ama aynı zamanda onu azaltmak için bir sorumluluk da veriyor: Bir aile büyüğüne oltalama mesajını tanımayı, bir arkadaşına yedek almayı göstermek gibi.
+
+Dönemi bilim kurgunun ustalarından Isaac Asimov'a atfedilen bir sözle kapatalım: "Bugün hayatın en üzücü yanı, bilimin bilgiyi toplumun bilgeliği toplayabildiğinden daha hızlı toplamasıdır." Bu ders sana bilgi verdi; bilgeliği, o bilgiyi nasıl kullanacağına karar verirken sen kuracaksın.
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+*2001: Bir Uzay Macerası* (2001: A Space Odyssey, 1968): Tabletleri, görüntülü konuşmayı ve konuşan bilgisayarı yarım yüzyıl önce gösteren film. İzlerken iki listeyi yan yana tut: Hangi teknolojiler gerçekleşti, hangileri hâlâ bilim kurgu? Gerçekleşenlerin filmde gösterilmeyen bedeli ne oldu?
+:::
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: Final sınavına neyi bildiğini ve neyi tekrar etmen gerektiğini bilerek hazırlanırsın; dönem projeni tamamlanmış bir bütün olarak teslim edersin. Orta vadede: İş hayatına yalnızca birkaç programı bilen biri olarak değil, yeni araçları kurcalayarak öğrenen, sonucu doğrulayan ve verisini koruyan biri olarak girersin. Uzun vadede: Teknoloji değiştikçe paniğe kapılmadan "ne çözüyor, bedeli ne, ben nasıl öğrenirim?" diye sorabilen biri olursun. Bu soruyu sormayı bilen, hangi geleceğe gidersek gidelim yolunu bulur.
+:::
+
+## Akılda kalsın
+
+- **Her kırılımın bir bedeli var ve bedel geç görünür.** Yeni bir teknolojiye "ne çözüyor?" sorusunun yanında "bedeli ne, kim ödüyor?" diye sor.
+- **Gelecek, kararın bir kısmını makineye devrediyor.** YZ ajanları, robotlar, otonom sistemler ve nesnelerin interneti çağında doğrulamak, beyan etmek ve izni bilerek vermek daha da değerli.
+- **Dijitalin de bir ayak izi var.** Enerji, su ve e-atık; cihazını uzun kullan, doğru yere at, gereksiz veriyi temizle, aracı işe göre seç.
+- **Biliyorum değil, yapabiliyorum.** Ön ve son testini, öz tahminini ve yapabiliyorum listeni karşılaştır; kalibrasyon, ne öğrenmen gerektiğini gösterir.
+- **Öğrenme bitmez.** Bir öğrenme planı yaz, kurcalamaktan çekinme, hazırlıklı ol.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: kırılım, dijital yerli, elektronik teknik kayıt, genel yapay zekâ, beyin-bilgisayar arayüzü, iş birlikçi robot, otonom sistem, nesnelerin interneti, dijital sürdürülebilirlik, e-atık, onarım hakkı, kalibrasyon, yaşam boyu öğrenme, mikro yeterlik, artırılmış gerçeklik, abartı döngüsü. Önceki haftalardan yeniden karşına çıkanlar: YZ ajanı (Hafta 6), veri merkezi (Hafta 4), dijital ikiz, öngörücü bakım ve Amara yasası (Hafta 1).
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="D" data-explain="Hafta 1'deki yaklaşım her icadı iki soruyla değerlendirir: Hangi sorunu çözüyor ve bedeli ne? Tablodaki örneklerin ortak noktası, bedelin kırılım geldiğinde hemen görülmemesidir."}
+**1.** Notta son 25 yılın kırılımları hangi iki soruyla değerlendirildi?
+
+- A\) Ne kadar sattı ve hangi şirket üretti?
+- B\) Hangi ülkede icat edildi ve kaç yılında?
+- C\) Ne kadar hızlı ve ne kadar ucuz?
+- D\) Hangi sorunu çözdü ve bedeli ne oldu?
+- E\) Kimler kullandı ve ne kadar sevildi?
+:::
+
+::: {.quiz-q data-answer="B" data-explain="YZ ajanı yalnızca cevap vermez, kullanıcı adına adım adım eylem yapar. Bu yüzden hangi işin, hangi izinle devredileceği ve yanlış bir eylemin sorumluluğu önemli bir sorudur."}
+**2.** Bir YZ ajanını sıradan bir sohbet asistanından ayıran temel özellik hangisidir?
+
+- A\) Yalnızca sesli komutla çalışması
+- B\) Kullanıcı adına adım adım eylem yapabilmesi
+- C\) İnternete bağlanmadan çalışabilmesi
+- D\) Hiçbir zaman yanlış cevap vermemesi
+- E\) Yalnızca kod yazmak için kullanılması
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Bir cihazın çevresel bedelinin önemli bir kısmı üretimde ödenir; onu daha uzun kullanmak en etkili kişisel adımlardan biridir. Çöpe atmak e-atık sorununu büyütür; dijital her zaman daha çevreci değildir."}
+**3.** Dijital teknolojinin çevresel bedelini azaltmak için kişisel ölçekte en etkili adımlardan biri hangisidir?
+
+- A\) Eski telefonu verilerini silmeden ve hesaplardan çıkmadan evdeki çöpe atmak
+- B\) Her yıl en yeni modele geçip eskisini çekmecede saklamak
+- C\) Bütün belgeleri yazdırıp dijital kopyaları tamamen silmek
+- D\) Her basit işi büyük bir YZ modeline yaptırmak
+- E\) Cihazı onarıp daha uzun kullanmak, sonunda e-atık noktasına vermek
+:::
+
+::: {.quiz-q data-answer="A" data-explain="Kalibrasyon, öz tahminin gerçek performansla ne kadar örtüştüğüdür. 'Evet' deyip yapamamak aşırı güven, 'hayır' deyip yapabilmek kendini küçümsemedir; ikisi de öğrenme planını yanlış yöne çeker."}
+**4.** Ön testte "içindekiler ekleyebilirim" diye işaretleyen ama görevde ekleyemeyen bir öğrenci için hangisi doğrudur?
+
+- A\) Öz tahmini performansından yüksek; bu bir kalibrasyon sorunudur
+- B\) Testte bir hata olmuştur; öz tahmin her zaman daha güvenilirdir
+- C\) Öğrenci kendini küçümsemiştir; aslında daha iyi yapabilir
+- D\) Öz tahmin ile performans arasında hiçbir ilişki yoktur
+- E\) Öğrenci bu beceriyi zaten bildiği için tekrar çalışmasına gerek yoktur
+:::
+
+::: {.quiz-q data-answer="C" data-explain="İyi bir öğrenme planı somut bir hedef, bir kaynak, bir tarih ve öğrenildiğinin nasıl anlaşılacağını içerir. Belirsiz bir niyet ('daha çok çalışacağım') izlenemez."}
+**5.** Hangisi iyi kurulmuş bir öğrenme planı maddesidir?
+
+- A\) "Bilgisayarı daha iyi ve daha verimli kullanmayı bir gün mutlaka öğreneceğim."
+- B\) "Excel'in bütün özelliklerini bu yaz tatilinde tek seferde bitireceğim."
+- C\) "Bir ay içinde açık bir dersle özet tablo öğrenip kendi harcama tablomda kuracağım."
+- D\) "YZ her şeyi yapacağı için hiçbir şey öğrenmeme gerek kalmayacak."
+- E\) "Fırsat buldukça internette birkaç eğitim videosu izlemeye çalışacağım."
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-D, 2-B, 3-E, 4-A, 5-C.
+:::
