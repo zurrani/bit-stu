@@ -64,6 +64,14 @@ website:
             href: docs/08_mahremiyet.qmd
           - text: "9 · Siber güvenlik"
             href: docs/09_siber-guvenlik.qmd
+          - text: "10 · Belge tasarımı ve yazışma"
+            href: docs/10_belge-ve-yazisma.qmd
+          - text: "11 · Veriyle çalışmak I"
+            href: docs/11_veriyle-calismak-1.qmd
+          - text: "12 · Veriyle çalışmak II"
+            href: docs/12_veriyle-calismak-2.qmd
+          - text: "13 · Sunum ve görsel anlatım"
+            href: docs/13_sunum.qmd
       - section: "Ekler"
         contents:
           - text: "Sözlük"

@@ -1,0 +1,266 @@
+---
+title: "Veriyle çalışmak I: tablo mantığı ve veri temizleme"
+subtitle: "Hafta 11"
+description: "Elektronik tablo bir veri tabanıdır; düzenli veri; sayı, metin ve tarih türleri, yerel ayar; ilk formüller; sıralama, filtre ve tablo nesnesi; veri temizleme; veri doğrulama, koşullu biçimlendirme ve CSV."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>11 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.3 Veriyi yönetme, 3.1 İçerik geliştirme, 5.1 Teknik sorunlar</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Bir tablodaki sayılara güvenmeden önce neye bakmalısın?</p>
+</div>
+```
+
+Bir tablonun aynı sütununda üç tarih var: "03.04.2026", "4/3/2026" ve "3 Nisan 26". Hepsi aynı günü mü gösteriyor? Türkiye'de ilki 3 Nisan'dır. İkincisi ABD'de 3 Nisan, Türkiye'de 4 Mart diye okunur. Üçüncüsü bir insan için açıktır, ama elektronik tablo onu tarih değil düz metin sayar ve hiçbir hesaba katmaz. Bu küçük karışıklık, bir arıza kaydını yanlış aya, bir ödemeyi yanlış güne, bir sonucu yanlış karara taşıyabilir. Sorun yalnızca öğrencilerin başına gelmez: 2020'de genetik bilimciler, Excel bazı gen adlarını kendiliğinden tarihe çevirdiği için bu genlerin resmî adlarını değiştirdi. Bu hafta bir elektronik tablonun veriyi nasıl gördüğünü, düzenli bir tablonun nasıl kurulduğunu ve dağınık bir tablonun nasıl temizlendiğini öğreneceksin. Gelecek hafta bu temiz veriden formüllerle, özet tablolarla ve grafiklerle sonuç çıkaracağız. İki hafta birlikte bir bütündür: Önce veriyi düzenli hale getir, sonra ondan bir şey öğren.
+
+**Okuma süresi:** yaklaşık 25 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. Elektronik tablonun yapı taşlarını (çalışma kitabı, sayfa, hücre, aralık, başvuru) kullanmak ve veriyi düzenli veri ilkesine göre kurmak.
+2. Sayı, metin ve tarih türlerini ayırt etmek; bir hücrenin değerini görünüşünden ayırmak ve yerel ayardan doğan hataları düzeltmek.
+3. Sıralama, filtre ve tablo nesnesiyle veriyi incelemek.
+4. Yinelenenleri kaldırma, KIRP, metni sütunlara dönüştürme, bul ve değiştir ve hızlı doldurma ile veriyi temizlemek; orijinali koruyup temizliği kaydetmek.
+5. Veri doğrulama ve koşullu biçimlendirmeyle hatayı girişte önleyen bir kayıt tablosu kurmak; veriyi CSV olarak doğru içe ve dışa aktarmak.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Hesap makinesi değil, küçük bir veri tabanı
+
+Bir **elektronik tablo** (spreadsheet), satır ve sütunlardan oluşan bir ızgarada veri saklamaya, düzenlemeye ve hesaplamaya yarayan programdır: Microsoft Excel, Google E-Tablolar, LibreOffice Calc, Apple Numbers. Çoğu insan onu büyük bir hesap makinesi gibi kullanır. Oysa asıl gücü, veriyi düzenli tutup ona soru sorabilmektir: "En çok hangi cihaz arızalandı?", "Hangi ay ne kadar harcadım?"
+
+Temel yapı taşları şunlardır:
+
+| Kavram | Anlamı | Örnek |
+|---|---|---|
+| **Çalışma kitabı** (workbook) | Elektronik tablo dosyasının kendisi | `ariza-kayitlari.xlsx` |
+| **Çalışma sayfası** (worksheet) | Kitabın içindeki her bir sekme | "Kayıtlar", "Cihazlar" |
+| **Hücre** (cell) | Bir satır ile bir sütunun kesiştiği kutu | B3 |
+| **Hücre başvurusu** | Hücrenin sütun harfi ve satır numarasından oluşan adresi | B3: B sütunu, 3. satır |
+| **Aralık** (range) | Yan yana hücrelerden oluşan dikdörtgen bir blok | B2:B121 |
+
+Seçtiğin hücrenin içeriği, tablonun üstündeki **formül çubuğunda** görünür. Bu küçük çubuk bu haftanın en önemli dedektifidir: Hücrede "%45" görünür, formül çubuğunda 0,45 yazar; hücrede "03.04.2026" görünür, formül çubuğunda bir tarih ya da düz bir metin durur. Elektronik tabloda her hücrenin iki yüzü vardır: **değeri** (programın sakladığı ve hesapladığı şey) ve **görünüşü** (sana nasıl gösterildiği). Hataların çoğu bu ikisini karıştırmaktan doğar.
+
+## 2. Düzenli veri: bir satır, bir kayıt
+
+Aynı bilgi bir tabloya iki biçimde yazılabilir. Birincisi göze hoş görünür; ikincisi programın anlayacağı biçimdir.
+
+| Göze göre kurulmuş tablo | Programa göre kurulmuş tablo |
+|---|---|
+| En üstte birleştirilmiş hücrelerde süslü bir başlık | Birinci satırda yalnızca sütun adları |
+| "Laboratuvar / Cihaz" tek sütunda | Laboratuvar ve cihaz türü ayrı sütunlarda |
+| Çözülen işler yeşil boyalı, sütunda yazı yok | "Durum" sütununda "Çözüldü" yazıyor |
+| "12 saat" yazan hücreler | "Çözüm süresi (saat)" başlıklı sütunda yalnızca 12 |
+| Ay sonlarında "Eylül toplamı" satırları | Toplamlar ayrı bir yerde, formülle |
+| Boş satırlarla ayrılmış bloklar | Kesintisiz tek blok |
+
+İkinci biçime **düzenli veri** (tidy data) denir ve üç kuralı vardır:
+
+1. **Her satır bir kayıttır:** bir arıza, bir öğrenci, bir gün.
+2. **Her sütun bir değişkendir:** tarih, laboratuvar, süre. Sütunun bir adı vardır ve o sütunda yalnızca o türden bilgi durur.
+3. **Her hücrede tek bir değer vardır:** "LAB-2 / Bilgisayar" iki değerdir; "12 saat" bir sayı ile bir birimdir.
+
+Bir benzetme: Düzenli tablo, her aletin yerinin çizildiği bir alet duvarıdır. Bir alet eksikse boşluk hemen görünür. Birleştirilmiş hücreler ve renkle tutulan bilgi, bütün aletleri tek bir kutuya atmak gibidir: Hepsi oradadır ama hiçbiri bulunmaz.
+
+Neden bu kadar önemli? Çünkü sıralama, filtre, formül, özet tablo ve grafik, düzenli veri varsayar. Birleştirilmiş bir başlık hücresi sıralamayı bozar. Renkle tutulan bilgi formülle sayılamaz; ekran okuyucu onu okuyamaz, renk körlüğü olan biri onu göremez (Hafta 10). "12 saat" metni toplanamaz. Ara toplam satırları her toplamı iki kez saydırır.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Gölge pano"}
+Hangarlarda aletler gelişigüzel bir dolapta değil, **gölge panoda** (shadow board) durur: Her aletin yeri çizilmiştir, eksik olan hemen görülür. Bunun nedeni düzenden de önemlidir: Uçakta unutulan bir alet, motora ya da kumanda sistemine zarar verebilir (yabancı cisim hasarı). İş bitince pano kontrol edilir; boş bir gölge, "bir alet kayıp, uçak serbest bırakılmaz" demektir. Düzenli veri de veri için bir gölge panodur: Her bilginin yeri bellidir ve boş bir hücre görünür bir uyarıdır.
+:::
+
+## 3. Veri türleri: programın gözünden
+
+Elektronik tablo her hücreyi bir türe koyar ve hesaplarını bu türe göre yapar. Üç temel tür vardır:
+
+- **Sayı:** Hesaba girer. Varsayılan olarak hücrenin sağına yaslanır.
+- **Metin:** Hesaba girmez. Varsayılan olarak sola yaslanır.
+- **Tarih ve saat:** Aslında birer sayıdır. Excel'de 1 Ocak 1900 günü 1 sayısıdır ve her gün bir artar; saat, günün kesirli kısmıdır. Bu yüzden iki tarihi birbirinden çıkarıp aradaki gün sayısını bulabilirsin.
+
+En sık tuzak **metin olarak saklanan sayıdır**. Bir web sayfasından ya da başka bir programdan kopyalanan "12", görünüşte sayıdır ama programın gözünde metindir. İşaretleri: Hücrede sola yaslanır, köşesinde küçük yeşil bir üçgen belirir, TOPLA işlevi onu atlar. Tarihlerde de aynısı olur: "3 Nisan 26" ya da "2026-04-03" yazdığın hücre tarih olarak tanınmayabilir ve sıralamada yanlış yere düşer.
+
+Sorunun önemli bir kaynağı **yerel ayardır** (locale): bilgisayarın ve programın hangi ülke kurallarına göre çalıştığı. Türkçe ayarda ondalık ayırıcı virgüldür (2,5), tarih gün.ay.yıl sırasıyla yazılır (03.04.2026) ve formüllerde bağımsız değişkenler noktalı virgülle ayrılır. ABD ayarında ondalık ayırıcı noktadır (2.5) ve tarih ay/gün/yıl sırasıyla yazılır (4/3/2026). Bu yüzden Türkçe Excel'e yapıştırılan "2.5" bir sayı değil, metin ya da bambaşka bir tarih olabilir. Gün ve ay sırası belirsiz tarihlerde (4/3/2026 gibi) çevredeki kayıtlara bakarak karar ver: Önceki ve sonraki satırlar Mart'taysa bu büyük olasılıkla 4 Mart'tır.
+
+**Değer ile görünüşü ayırmak** için **Hücreleri Biçimlendir** (Ctrl + 1) penceresini kullanırsın. Biçim, değeri değiştirmez; yalnızca gösterir. 0,456 değerini yüzde biçiminde "%46" gösterebilirsin, ama hesapta yine 0,456 kullanılır. Bir tarihi "3 Nisan 2026, Cuma" diye gösterebilirsin, ama değeri yine aynı gündür. Tersine, bir hücreyi "sayı" biçimine çevirmek içindeki metni kendiliğinden sayıya dönüştürmez; çoğu zaman hücrenin yanındaki uyarı simgesinden **Sayıya Dönüştür** demek ya da değeri yeniden girmek gerekir.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Ondalık basamakları gizledim, sayı yuvarlandı." Yanlış. Biçimle iki ondalığa indirdiğin 2,456 ekranda 2,46 görünür, ama hesaplarda 2,456 olarak kalır. Yüz tane böyle sayıyı topladığında ekrandaki rakamlarla yaptığın elle toplam ile tablonun toplamı farklı çıkabilir. Bir sayıyı gerçekten yuvarlamak istiyorsan bunu bir işlevle yaparsın (YUVARLA; Hafta 12). Görünüş bir vitrindir, değer ise depodaki maldır.
+:::
+
+## 4. İlk formüller
+
+Bir **formül**, hücreye yazılan ve eşittir işaretiyle (=) başlayan hesap talimatıdır. En basit formül iki hücreyi toplar: `=B2+B3`. Bir **işlev** (function) ise hazır bir hesaptır: `=TOPLA(B2:B121)` bir aralığın toplamını, `=ORTALAMA(B2:B121)` ortalamasını verir. Formül sayıyı değil başvuruyu kullandığı için, B sütunundaki bir değer değişince sonuç kendiliğinden güncellenir.
+
+Bir formülü yazdığın hücrenin sağ alt köşesindeki küçük kareyi (**doldurma tutamacı**) aşağı sürüklediğinde formül alt satırlara kopyalanır ve başvurular her satıra göre kayar. Hızlı bir kontrol için formül bile gerekmez: Bir aralığı seçtiğinde pencerenin altındaki **durum çubuğu** seçimin toplamını, ortalamasını ve kaç hücre olduğunu gösterir. "Toplam" görünmüyor ve yalnızca "Sayı" yazıyorsa, seçtiğin hücrelerin bir kısmı muhtemelen metin olarak saklanmıştır.
+
+Bu hafta formülleri yalnızca kontrol ve temizlik için kullanacağız. Başvuruların nasıl kaydığını, $ işaretini, koşullu ve arama işlevlerini Hafta 12'de göreceksin.
+
+## 5. Veriyi incelemek: sıralama, filtre, tablo
+
+Temizliğe başlamadan önce veriyi tanı. Bunun üç aracı vardır.
+
+**Sıralama** (Veri > Sırala), satırları bir sütuna göre dizer: tarihe göre eskiden yeniye, süreye göre büyükten küçüğe. Birden çok ölçüt de verebilirsin: önce laboratuvara, sonra tarihe göre. En tehlikeli hata, **yalnızca bir sütunu seçip sıralamaktır**: O sütun sıralanır, diğerleri yerinde kalır ve her satırın bilgisi başka bir kayda karışır. Program bunu sorar ("Seçimi genişlet?"); cevap neredeyse her zaman "evet"tir. Dizilim bir kez bozulduktan sonra fark etmek zordur. Bu yüzden sıralamadan önce bir kayıt numarası sütunu olması iyi bir sigortadır: Her şey karışsa bile kayıt numarasına göre yeniden sıralayıp başa dönebilirsin.
+
+**Filtre** (Veri > Filtre), sütun başlıklarına küçük açılır oklar ekler. "Yalnızca Bilgisayar arızaları" ya da "süresi 48 saatten uzun olanlar" diyerek diğer satırları geçici olarak gizlersin. Filtre aynı zamanda iyi bir hata dedektifidir: Bir sütunun okunu açtığında o sütundaki bütün farklı değerlerin listesini görürsün. "Bilgisayar", "bilgisayar", "BİLGİSAYAR" ve "PC" aynı listede alt alta duruyorsa temizlik işin var demektir.
+
+**Bölmeleri dondurmak** (Görünüm > Bölmeleri Dondur > Üst Satırı Dondur), yüzlerce satır aşağı indiğinde başlık satırının ekranda kalmasını sağlar.
+
+**Tablo nesnesi** (Giriş > Tablo Olarak Biçimlendir ya da Ctrl + T), düz bir aralığı programın tanıdığı bir tabloya çevirir. Kazancı biçimden fazladır: Başlıklara filtre okları kendiliğinden eklenir, tablonun altına yeni bir satır yazdığında tablo büyür, bir sütuna yazdığın formül bütün sütuna uygulanır ve tablonun bir adı olur. Hafta 12'de özet tablo ve grafik kurarken tablo nesnesinin yeni satırları kendiliğinden kapsaması çok işine yarayacak.
+
+## 6. Veriyi temizlemek
+
+**Veri temizleme**, hatalı, eksik, tutarsız ya da yinelenen kayıtları bulup düzeltmektir. Analizden önce gelir, çünkü kirli veriden çıkan sonuç da kirli olur. Bilişimin eski bir ilkesi bunu şöyle söyler: "Çöp girerse çöp çıkar" (garbage in, garbage out).
+
+İlk kural temizliğin kendisinden önce gelir: **Orijinali koru.** Ham veriyi bir sayfada bırak, temizliği bir kopyada yap. Hafta 3'teki adlandırma kuralıyla bir dosya ya da sayfa adı ver (`2026-11-23_ariza-kayitlari_temiz.xlsx`). Bir yanlış adımı geri alabilmek ve sonucu sorgulayan birine ham veriyi gösterebilmek için bu şarttır.
+
+Sık karşılaşılan sorunlar ve araçları:
+
+::: {.tablo-kaydir}
+| Sorun | Araç | Not |
+|---|---|---|
+| Aynı kayıt iki kez girilmiş | **Yinelenenleri Kaldır** (Veri sekmesi) | Hangi sütunların aynı olması gerektiğini sen seçersin; kayıt numarası varsa yalnızca ona bakmak çoğu zaman yeter |
+| Baştaki ve sondaki fazla boşluklar ("Orta ") | **KIRP** işlevi: `=KIRP(F2)` | Boşluk gözle görünmez ama "Orta" ile "Orta " farklı iki değer sayılır |
+| Büyük-küçük harf tutarsızlığı | **YAZIM.DÜZENİ**, **BÜYÜKHARF**, **KÜÇÜKHARF** | Türkçe i ve ı harflerine dikkat: Sonucu kontrol et |
+| İki bilgi tek hücrede ("LAB-2 / Bilgisayar") | **Metni Sütunlara Dönüştür** (Veri sekmesi) | Ayraç olarak "/" seçilir; sonra iki sütunu da KIRP'la |
+| Aynı şeyin farklı yazımları ("PC", "Bilgisayar") | **Bul ve Değiştir** (Ctrl + H) ya da filtreyle seçip düzeltme | Önce filtreyle bütün yazımları listele |
+| Bir örüntüyle yeniden yazılacak değerler | **Hızlı Doldurma** (Ctrl + E) | Birkaç örnek yazarsın, program örüntüyü tahmin edip sütunu doldurur; tahmini mutlaka kontrol et |
+| Birimle yazılmış sayı ("12 saat") | Bul ve Değiştir ile " saat" kısmını sil, sonra sayıya dönüştür | Birimi sütun başlığına taşı |
+| Boş hücreler | Filtrede "(Boş)" seçeneği | Boş her zaman sıfır değildir: "çözülmedi" de olabilir, "girilmedi" de |
+:::
+
+İşlevlerle temizlik yaparken sonuç yeni bir sütunda çıkar. Temizlenmiş sütunu kopyalayıp **Özel Yapıştır > Değerler** ile asıl sütunun yerine yapıştırır, yardımcı sütunu silersin. Bunu yapmazsan yardımcı sütunu sildiğin anda formül bozulur.
+
+Bazı sorunlar araçla çözülmez, karar ister. 31.09.2026 diye bir tarih var (Eylül 30 gündür); doğru tarih nedir? Bunu tahmin etme. Kaydı silme, yanına "kontrol edilecek" notu düş ve kaydı girene sor. Yaptığın her önemli işlemi birkaç satırlık bir **temizlik günlüğüne** yaz: "6 yinelenen kayıt silindi (K-002, K-014…)", "Cihaz türleri beş standart ada indirildi", "K-033'ün tarihi geçersiz, sorulmak üzere işaretlendi." Böylece başkası ya da gelecekteki sen, verinin neden değiştiğini anlayabilir.
+
+Temizlik için bir YZ asistanından yardım almak mümkündür: "Bu sütundaki farklı yazımları nasıl standartlaştırırım?" diye sorabilir, bir formülü açıklatabilirsin. Excel'de Copilot, E-Tablolar'da Gemini gibi yardımcılar bunu tablonun içinde yapar. İki kural değişmez: Kişisel ya da kurumuna ait veriyi izin verilmeyen bir araca yükleme (Hafta 8 ve 9) ve YZ'nin yaptığı her değişikliği kontrol et. YZ, "PC" ile "Projeksiyon"u aynı şey sanabilir.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Bakım kaydı silinmez, düzeltilir"}
+Bakım kayıtlarında bir hata fark edildiğinde yanlış bilgi silinip üstüne yazılmaz. Kurallara göre üstü okunabilir biçimde çizilir, doğrusu yanına yazılır, düzeltmeyi yapan imzalar ve tarih atar. Amaç, kaydın geçmişinin izlenebilir kalmasıdır: Bir denetçi ya da kaza incelemesi, neyin ne zaman ve kim tarafından değiştirildiğini görebilmelidir. Elektronik tabloda "orijinali koru" ve "temizlik günlüğü tut" ilkeleri aynı disiplinin karşılığıdır. Kurgusal bir örnek: Bir arıza tablosunda "TC-ABC", "tc abc" ve "TC ABC" yazımları aynı uçağı gösterir; temizlerken üçünü standart yazıma indirir, kaç kaydı değiştirdiğini günlüğe yazarsın.
+:::
+
+## 7. Hatayı girişte durdur
+
+Temizlik pahalıdır; en iyisi kirin hiç girmemesidir. Bunun iki aracı vardır.
+
+**Veri doğrulama** (Veri > Veri Doğrulama), bir hücreye neyin girilebileceğini sınırlar. En kullanışlı biçimi **açılır listedir**: "Öncelik" sütununa yalnızca "Yüksek", "Orta" ve "Düşük" girilebilir; kullanıcı yazmaz, listeden seçer. Böylece "Y", "yüksek" ve "Yüksek " gibi yazımlar hiç oluşmaz. Aynı araçla bir sütuna yalnızca tarih, yalnızca 0 ile 200 arasında bir sayı ya da yalnızca belirli uzunlukta bir kod girilmesini sağlayabilir, kurala uymayan girişte bir uyarı mesajı gösterebilirsin.
+
+**Koşullu biçimlendirme** (Giriş > Koşullu Biçimlendirme), bir hücrenin görünüşünü değerine göre değiştirir: Süresi 48 saati aşan arızalar kırmızı, yinelenen değerler sarı görünür. Bölüm 2'deki "renkle veri tutma" sorunuyla karıştırma. Orada bilgi yalnızca renkteydi; burada bilgi hücrede durur, renk yalnızca dikkat çeker ve değer değişince kendiliğinden güncellenir. Koşullu biçimlendirme, bir temizlik sonrası "kaçırdığım bir şey var mı?" kontrolü için de iyi bir araçtır.
+
+### CSV: tablolar arasında ortak dil
+
+**CSV** (comma-separated values, virgülle ayrılmış değerler), tabloyu her satırı bir metin satırı, her hücresi bir ayraçla ayrılmış olarak saklayan düz metin biçimidir. Neredeyse her program onu açar; bu yüzden sistemler arasında veri taşımanın en yaygın yoludur. Ama CSV yalnızca değerleri taşır: formüller, biçimler, renkler, birden çok sayfa kaybolur.
+
+İki tuzağı vardır. Birincisi **ayraçtır**: Ondalık ayırıcısı virgül olan Türkçe ayarda CSV dosyaları çoğu zaman noktalı virgülle ayrılır. Virgülle ayrılmış bir dosyayı çift tıklayıp açtığında bütün satır tek sütuna yığılabilir. İkincisi **karakter kodlamasıdır** (Hafta 2): Dosya UTF-8 dışında bir kodlamayla açılırsa "ğ", "ş" ve "ı" bozuk karakterlere döner. İkisinin de çözümü dosyayı çift tıklamak yerine **Veri > Metinden/CSV'den** ile içe aktarmak ve ayracı ile kodlamayı kendin seçmektir. Dışa aktarırken de **CSV UTF-8** seçeneğini kullan.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Standart kod, standart veri"}
+Havacılıkta bir arızanın hangi sisteme ait olduğu serbest metinle değil, standart bir numarayla yazılır: **ATA bölüm numarası**. Örneğin ATA 21 klima, ATA 32 iniş takımı, ATA 34 seyrüsefer sistemleridir. Dünyanın her yerinde aynı numaralar aynı sistemi gösterdiği için bir arıza kaydı başka bir ülkedeki bir teknisyen, bir üretici ya da bir yazılım tarafından doğru okunur. Bu, veri doğrulamanın havacılıktaki karşılığıdır: Kurgusal bir arıza tablosunda "Sistem" sütununa serbest metin değil, ATA bölümlerinden oluşan bir açılır liste koymak, "iniş takımı", "İniş Tk." ve "gear" gibi yazımları baştan önler.
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Telefonundaki ya da bir uygulamadaki bir listeyi (harcamalar, ders programı, okuma listesi) düşün. Düzenli verinin üç kuralına uyuyor mu? Bir yıl sonra ona "en çok neye para harcadım?" diye sorsan cevap verebilir miydi?
+:::
+
+## 8. Satır sınırı ve dosya biçimi (okuma)
+
+Elektronik tabloların bir sınırı vardır. Bugünkü Excel'de bir sayfa 1.048.576 satır ve 16.384 sütun alır. Eski `.xls` biçiminde ise sınır yalnızca 65.536 satırdı. Ekim 2020'de İngiltere'de, test sonuçlarını birleştiren bir süreçte eski `.xls` biçimi kullanıldığı için bu sınırı aşan yaklaşık 16 bin pozitif test sonucu sessizce kayboldu ve temaslıların bir kısmına günlerce ulaşılamadı. Program bir hata mesajı vermemişti; fazla satırlar yalnızca dosyaya girmemişti.
+
+Bu olaydan çıkacak dersler bu haftanın özetidir: Dosya biçimini bilerek seç (`.xlsx` güncel biçimdir, `.csv` taşımak içindir, `.xls` eskidir); veriyi aktardıktan sonra kayıt sayısını kontrol et (kaynakta kaç satır vardı, hedefte kaç satır var?); çok büyük veri için elektronik tablo yerine veri tabanı gibi başka araçlar kullan. Excel'in **Power Query** (Veri Al ve Dönüştür) aracı da temizlik adımlarını kaydedip her yeni veride yeniden uygulayabilir; aynı temizliği her ay elle yapıyorsan öğrenmeye değer.
+
+## 9. Kâğıt tablodan elektronik tabloya (okuma)
+
+Muhasebeciler yüzyıllardır büyük kâğıt tablolarda (İngilizcede *spreadsheet* adı buradan gelir) hesap yaptı. Bir hücreyi değiştirmek, ona bağlı bütün hücreleri elle yeniden hesaplamak demekti. 1979'da Dan Bricklin ve Bob Frankston'ın geliştirdiği **VisiCalc**, bu işi bilgisayara devretti: Bir değeri değiştirdiğinde bağlı bütün sonuçlar anında yenileniyordu. VisiCalc o kadar işe yaradı ki birçok kişi yalnızca onu kullanmak için kişisel bilgisayar satın aldı; bir programın bir donanımı sattırmasına "öldürücü uygulama" (killer app) denmeye başlandı. Ardından Lotus 1-2-3 (1983) ve Microsoft Excel (1985) geldi. Bugün bulutta aynı tabloya aynı anda yazmak (Hafta 4) ve tabloya YZ'yle soru sormak mümkün.
+
+Her şeyin bir alternatifi var:
+
+::: {.tablo-kaydir}
+| Seçenek | Ücret | Not |
+|---|---|---|
+| Microsoft Excel | Microsoft 365 aboneliğiyle; web sürümü Microsoft hesabıyla ücretsiz ama sınırlı | İş dünyasında en yaygın olanı; üniversite hesabınla erişimin olabilir |
+| Google E-Tablolar | Ücretsiz (Google hesabıyla) | Tarayıcıda çalışır; eşzamanlı çalışmada güçlü |
+| LibreOffice Calc | Ücretsiz, açık kaynak | Bilgisayara kurulur; internetsiz çalışır |
+| ONLYOFFICE | Ücretsiz sürümü var, açık kaynak | Excel dosyalarıyla uyumu iyi |
+| Apple Numbers | Apple cihazlarda ücretsiz | Başkasına gönderirken XLSX'e çevrilmesi gerekir |
+:::
+
+Programlar arasında işlev adları ve menüler farklıdır. Türkçe Excel'de TOPLA olan işlev, İngilizce arayüzde SUM'dır; başka programlarda işlev adları dil ayarına göre değişebilir. Bir formül çalışmıyorsa önce programın dilini ve ayraç olarak virgül mü noktalı virgül mü beklediğini kontrol et. Güncel karşılaştırma için [Ek C](../ekler/c_alternatifler.qmd).
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+Hidden Figures (Gizli Sayılar, 2016): NASA'da elle hesap yapan "insan bilgisayarlar"ın, makinelerin gelişiyle işlerini nasıl dönüştürdüğünü anlatan film. İzlerken Hafta 5'teki soruyu sor: Hangi sahneler belgelenmiş gerçek, hangileri dramatik kurgu?
+:::
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: Kendi harcamalarını, ders programını ya da ekran süreni düzenli bir tabloda tutar, internetten indirdiğin bir CSV'yi bozmadan açarsın. Orta vadede: İş yerinde envanter, arıza ve kayıt tablolarını herkesin aynı biçimde doldurduğu düzenli tablolar olarak kurar, başkasından gelen dağınık bir tabloyu analizden önce temizlersin. Uzun vadede: Veriyle karar veren her kurumda en çok aranan alışkanlığa sahip olursun: sayılara güvenmeden önce onların nereden geldiğine ve nasıl tutulduğuna bakmak.
+:::
+
+## Akılda kalsın
+
+- **Elektronik tablo küçük bir veri tabanıdır.** Her satır bir kayıt, her sütun bir değişken, her hücrede tek değer. Birleştirilmiş hücre, renkle tutulan bilgi, birimli sayı ve ara toplam satırı analizi bozar.
+- **Değer ile görünüş farklıdır.** Formül çubuğuna bak. Sola yaslı sayı muhtemelen metindir; biçim yuvarlamaz; tarih aslında bir sayıdır ve yerel ayar onu farklı okuyabilir.
+- **Sıralamadan önce bütün tabloyu seç.** Filtre bir hata dedektifidir; tablo nesnesi yeni satırları kendiliğinden kapsar.
+- **Orijinali koru, temizliği kaydet.** Yinelenenler, boşluklar, yazım farkları, birleşik sütunlar araçla; geçersiz bir değer ise kararla düzeltilir.
+- **Hatayı girişte durdur.** Açılır listeli veri doğrulama, değer temelli koşullu biçimlendirme; CSV'yi çift tıklayarak değil, içe aktararak aç.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: elektronik tablo, çalışma kitabı, çalışma sayfası, hücre, hücre başvurusu, aralık, formül çubuğu, düzenli veri, birleştirilmiş hücre, gölge pano, veri türü, metin olarak saklanan sayı, tarih seri numarası, yerel ayar, hücre biçimi, formül, işlev, doldurma tutamacı, sıralama, filtre, bölmeleri dondurma, tablo nesnesi, veri temizleme, yinelenen kayıt, KIRP, metni sütunlara dönüştürme, hızlı doldurma, temizlik günlüğü, ATA bölüm numarası, veri doğrulama, açılır liste, koşullu biçimlendirme, CSV, ayraç, Power Query, VisiCalc.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="D" data-explain="Her hücrede tek bir değer olmalı. 'LAB-2 / Bilgisayar' hücresi laboratuvar ve cihaz türü olmak üzere iki değişkeni bir arada tutar; ikisi ayrı sütunlara bölünmelidir."}
+**1.** Bir arıza tablosundaki "LAB-2 / Bilgisayar" hücresi düzenli verinin hangi kuralını bozar?
+
+- A\) Her satır bir kayıt olmalıdır.
+- B\) Tablonun ilk satırı boş bırakılmalıdır.
+- C\) Her sütunun adı büyük harfle yazılmalıdır.
+- D\) Her hücrede tek bir değer olmalıdır.
+- E\) Sayılar hücrenin sağına yaslanmalıdır.
+:::
+
+::: {.quiz-q data-answer="B" data-explain="Sola yaslanma ve köşedeki yeşil üçgen, değerin metin olarak saklandığını gösterir; TOPLA metni atlar. Biçim değiştirmek tek başına yetmez, değer sayıya dönüştürülmelidir."}
+**2.** Bir sütundaki sayıların bir kısmı hücrenin soluna yaslanmış ve köşelerinde yeşil bir üçgen var; TOPLA işlevi bunları toplamıyor. En olası neden nedir?
+
+- A\) O hücrelere koşullu biçimlendirme uygulanmıştır.
+- B\) O değerler sayı değil, metin olarak saklanmıştır.
+- C\) Sütun genişliği sayıları göstermeye yetmemektedir.
+- D\) O hücrelerin ondalık basamakları gizlenmiştir.
+- E\) Sayfanın bölmeleri dondurulmuş durumdadır.
+:::
+
+::: {.quiz-q data-answer="A" data-explain="Yalnızca bir sütun sıralanırsa diğer sütunlar yerinde kalır ve her satırın bilgisi başka bir kayda karışır. Bütün tablo seçilmeli ya da program 'seçimi genişlet' diye sorduğunda kabul edilmelidir."}
+**3.** Bir öğrenci 120 satırlık tabloda yalnızca "Tarih" sütununu seçip eskiden yeniye sıralıyor ve "Seçimi genişlet" sorusuna "hayır" diyor. Ne olur?
+
+- A\) Tarihler sıralanır ama diğer sütunlar yerinde kalır; kayıtlar birbirine karışır.
+- B\) Bütün satırlar tarihe göre doğru biçimde sıralanır; başka bir şey değişmez.
+- C\) Program sıralamayı reddeder ve tabloyu hiç değiştirmeden bırakır.
+- D\) Tarih sütunu metne dönüşür ve bütün tarihler sola yaslanır.
+- E\) Tablodaki yinelenen kayıtlar kendiliğinden silinir.
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Açılır listeli veri doğrulama, yazım farklarını kaynağında önler. Diğer seçenekler hatayı girişte durdurmaz; yalnızca sonradan bulmaya ya da gizlemeye yarar."}
+**4.** Bir kayıt tablosunu on kişi dolduracak ve "Öncelik" sütununda "Y", "yüksek", "Yüksek " gibi farklı yazımlar oluşmasını istemiyorsun. Bunu en iyi hangisi önler?
+
+- A\) Her ay sonunda sütunu filtreleyip farklı yazımları elle düzeltmek
+- B\) Yüksek öncelikli hücreleri kırmızıya, düşükleri yeşile boyamak
+- C\) Sütunu gizleyip yalnızca senin görebileceğin bir yere taşımak
+- D\) Sütun başlığına "Lütfen düzgün yazın" notu eklemekle yetinmek
+- E\) Sütuna yalnızca üç seçenekten oluşan açılır listeli veri doğrulaması koymak
+:::
+
+::: {.quiz-q data-answer="C" data-explain="Geçersiz bir değer tahminle düzeltilmez ve kayıt sessizce silinmez. Kayıt işaretlenir, kaynağına sorulur ve karar temizlik günlüğüne yazılır; böylece değişiklik izlenebilir kalır."}
+**5.** Temizlediğin tabloda bir kaydın tarihi "31.09.2026". Eylül 30 gündür. Hangisi en doğru yaklaşımdır?
+
+- A\) Tarihi 30.09.2026 yapıp devam etmek; bir gün fark sonucu pek değiştirmez
+- B\) Kaydı tablodan silmek; hatalı kayıt analizden çıkarılmalıdır
+- C\) Kaydı işaretleyip kaynağına sormak, kararı temizlik günlüğüne yazmak
+- D\) Tarihi metin olarak bırakıp sıralamada en sona düşmesini beklemek
+- E\) Tarihi 01.10.2026 yapmak; çünkü 31 Eylül aslında 1 Ekim demektir
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-D, 2-B, 3-A, 4-E, 5-C.
+:::

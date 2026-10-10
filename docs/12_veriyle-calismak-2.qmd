@@ -1,0 +1,308 @@
+---
+title: "Veriyle çalışmak II: formül, grafik, yorum"
+subtitle: "Hafta 12"
+description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; temel, mantıksal, koşullu ve arama işlevleri; hata değerleri; özet tablo; doğru grafiği seçmek ve yanıltıcı grafiği tanımak; bulguyu yorumlamak ve YZ'nin formülünü sınamak."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>12 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.2 Değerlendirme, 1.3 Veriyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?</p>
+</div>
+```
+
+Ekranda aynı veriyle çizilmiş iki grafik var. İkisi de bir laboratuvarın üç aylık arıza sayısını gösteriyor: 40, 49 ve 31. Birincisinde çubuklar birbirine yakın; ikincisinde Ekim çubuğu Eylül'ün neredeyse iki katı, Kasım ise yerle bir. Hangisi doğru? İkisi de. Aradaki tek fark, ikinci grafiğin dikey ekseninin sıfırdan değil 30'dan başlaması. Üstelik bir tuzak daha var: Kasım verisi ayın yalnızca ilk üç haftasını kapsıyor; Kasım'da arızalar azalmadı, ay henüz bitmedi. Geçen hafta veriyi düzenli hale getirdin. Bu hafta o veriden sonuç çıkaracaksın: Formül veriyi bir soruya, özet tablo soruyu bir cevaba, grafik cevabı bir karara çevirir. Ama her adımda yanılma ihtimali var; bu yüzden sonucu sınamayı da öğreneceksin.
+
+**Okuma süresi:** yaklaşık 25 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. İşlem önceliğine uygun formül yazmak; göreli, mutlak ve karma başvuruyu doğru kullanmak.
+2. Temel, mantıksal, koşullu özet ve arama işlevleriyle veriden sonuç çıkarmak; hata değerlerini okumak.
+3. Özet tabloyla veriyi farklı ölçütlere göre özetlemek.
+4. Soruya uygun grafiği seçmek; yanıltıcı bir grafiği tanıyıp düzeltmek.
+5. Bulguyu sayıyla desteklenen kısa bir yorumla yazmak; YZ'nin önerdiği bir formülü test durumlarıyla sınamak.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Sorudan karara
+
+Veri analizi formülle değil, soruyla başlar. "Bu tabloda ne var?" iyi bir soru değildir; "Hangi cihaz türü en sık arızalanıyor ve en uzun sürede onarılıyor?" iyi bir sorudur, çünkü cevabı bir karara götürür: hangi cihaza yedek alınacağı, bakım sözleşmesinin hangisi için yapılacağı.
+
+Bu haftanın yolu dört adımdır:
+
+| Adım | Ne yaparsın? | Araç |
+|---|---|---|
+| Soru | Kararı etkileyecek, cevaplanabilir bir soru yazarsın | Kâğıt, kalem |
+| Hesap | Soruyu formüle ya da özet tabloya çevirirsin | Formül, işlev, özet tablo |
+| Görsel | Cevabı en açık gösteren grafiği seçersin | Grafik |
+| Yorum | Bulguyu sayıyla ve anlamıyla bir iki cümlede yazarsın | Kendi cümlelerin |
+
+Geçen haftaki düzenli veri bu yolun zeminidir. Birleştirilmiş hücreler, metin olarak saklanan sayılar ve yazım farkları burada sessiz hatalara dönüşür: "Bilgisayar" ile "bilgisayar" iki ayrı tür sayılır, "12 saat" ortalamaya girmez.
+
+## 2. Formülün yapısı
+
+Bir formül eşittir işaretiyle başlar (Hafta 11) ve matematikteki **işlem önceliğine** uyar: önce parantez, sonra üs, sonra çarpma ve bölme, en son toplama ve çıkarma. `=2+3*4` sonucu 20 değil 14'tür. Bu kural en çok ortalama hesaplarken unutulur: `=B2+B3/2` iki sayının ortalaması değildir; doğrusu `=(B2+B3)/2` ya da daha iyisi `=ORTALAMA(B2:B3)`.
+
+### Göreli ve mutlak başvuru
+
+Bir formülü doldurma tutamacıyla aşağı kopyaladığında başvurular satırla birlikte kayar: C2'deki `=B2*2`, C3'te `=B3*2` olur. Buna **göreli başvuru** denir ve çoğu zaman istediğin budur. Ama bazen formülün hep aynı hücreye bakması gerekir. Örneğin her cihaz türünün arıza sayısını toplam arıza sayısına bölerek payını bulacaksın; toplam B7 hücresinde duruyor:
+
+| | A | B | C |
+|---|---|---|---|
+| 1 | Cihaz türü | Arıza sayısı | Pay |
+| 2 | Bilgisayar | 46 | `=B2/$B$7` |
+| 3 | Projeksiyon | 26 | `=B3/$B$7` |
+| … | … | … | … |
+| 7 | Toplam | 120 | |
+
+`$B$7` bir **mutlak başvurudur**: Dolar işareti "bu sütunu ve bu satırı kaydırma" der. Dolar işareti olmasaydı C3'teki formül `=B3/B8` olurdu ve boş bir hücreye bölmeye çalışırdı. Dolar işaretini elle yazabilir ya da başvurunun üstündeyken F4 tuşuna basabilirsin. Yalnızca satırı (`B$7`) ya da yalnızca sütunu (`$B7`) sabitleyen başvurulara **karma başvuru** denir; iki yönlü tablolarda işe yarar.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Arızalar arası ortalama süre"}
+Bakım mühendisliğinde bir parçanın güvenilirliği çoğu zaman **arızalar arası ortalama süreyle** (MTBF, mean time between failures) ölçülür: toplam çalışma süresi bölü arıza sayısı. Kurgusal bir örnek: Bir filodaki aynı tip pompalar bir yılda toplam 48.000 saat çalışmış ve 12 kez arızalanmışsa MTBF 4.000 saattir. Birkaç parça tipini bir tabloda karşılaştırırken her satırdaki formül kendi çalışma süresini ve arıza sayısını kullanır (göreli başvuru); bütün satırların karşılaştırıldığı hedef değer ise tek bir hücrede durur ve mutlak başvuruyla çağrılır. MTBF'si hedefin altına düşen parça, bakım programında daha sık kontrol ya da üreticiyle görüşme demektir.
+:::
+
+## 3. Temel ve mantıksal işlevler
+
+Türkçe Excel'de işlev adları Türkçedir ve bağımsız değişkenler noktalı virgülle ayrılır. En sık kullanılanlar:
+
+::: {.tablo-kaydir}
+| İşlev | Ne yapar? | Örnek |
+|---|---|---|
+| TOPLA | Aralığın toplamı | `=TOPLA(J2:J121)` |
+| ORTALAMA | Aritmetik ortalama | `=ORTALAMA(J2:J121)` |
+| ORTANCA | Sıralanınca ortada kalan değer (medyan) | `=ORTANCA(J2:J121)` |
+| MAK, MİN | En büyük ve en küçük değer | `=MAK(J2:J121)` |
+| BAĞ_DEĞ_SAY | Sayı içeren hücrelerin sayısı | `=BAĞ_DEĞ_SAY(J2:J121)` |
+| BAĞ_DEĞ_DOLU_SAY | Boş olmayan hücrelerin sayısı | `=BAĞ_DEĞ_DOLU_SAY(A2:A121)` |
+| YUVARLA | Değeri gerçekten yuvarlar (biçim yalnızca gösterir) | `=YUVARLA(J2;1)` |
+:::
+
+**Ortalama ile ortanca** farklı şeyler söyler. Bir arıza tablosunda çözüm sürelerinin ortalaması 22,6 saat, ortancası 8 saat çıkabilir. Fark, birkaç çok uzun süren arızadan gelir: Parçası yurt dışından gelen bir cihazın 96 saatlik arızası ortalamayı yukarı çeker ama ortancayı pek etkilemez. Böyle bir veride "bir arıza tipik olarak ne kadar sürede çözülür?" sorusunun dürüst cevabı ortancadır; "toplam ne kadar zaman kaybettik?" sorusunun cevabı ise toplamdır. Diğerlerinden çok uzak duran bu tür değerlere **aykırı değer** denir; silinmez, ama varlığı yoruma yazılır.
+
+Boş hücrelere de dikkat et: ORTALAMA boş hücreleri atlar, ama 0 yazılmış hücreleri hesaba katar. Henüz çözülmemiş bir arızanın süresine 0 yazmak, ortalamayı yanlış biçimde düşürür. Boş hücre "bilmiyorum", sıfır "hiç sürmedi" demektir.
+
+**Mantıksal işlevler** bir koşula göre farklı sonuç üretir. EĞER üç parça alır: koşul, koşul doğruysa sonuç, yanlışsa sonuç.
+
+```text
+=EĞER(J2>48; "Gecikti"; "Zamanında")
+=EĞER(VE(H2="Yüksek"; J2>24); "İncele"; "")
+=EĞER(YADA(I2="Açık"; I2="Parça bekliyor"); "Bekliyor"; "Kapandı")
+```
+
+VE, bütün koşullar doğruysa; YADA, koşullardan en az biri doğruysa "doğru" döndürür. Metinler tırnak içinde yazılır ve hücredeki yazımla birebir aynı olmalıdır: Bu da geçen haftaki temizliğin neden gerekli olduğunun bir başka kanıtıdır.
+
+## 4. Koşullu özet ve arama
+
+Çoğu soru "kaç tane?" ya da "toplam ne kadar?" diye başlar ve bir koşul içerir. Bunlar için **koşullu özet işlevleri** vardır:
+
+::: {.tablo-kaydir}
+| İşlev | Soru | Örnek |
+|---|---|---|
+| EĞERSAY | Koşula uyan kaç kayıt var? | `=EĞERSAY(E2:E121; "Bilgisayar")` |
+| ETOPLA | Koşula uyan kayıtların toplamı | `=ETOPLA(E2:E121; "Bilgisayar"; J2:J121)` |
+| EĞERORTALAMA | Koşula uyan kayıtların ortalaması | `=EĞERORTALAMA(E2:E121; "Bilgisayar"; J2:J121)` |
+| ÇOKEĞERSAY | Birden çok koşula uyan kaç kayıt var? | `=ÇOKEĞERSAY(D2:D121; "LAB-2"; H2:H121; "Yüksek")` |
+| ÇOKETOPLA | Birden çok koşula uyan kayıtların toplamı | `=ÇOKETOPLA(J2:J121; D2:D121; "LAB-2"; C2:C121; "Ekim")` |
+:::
+
+Koşul bir hücreden de gelebilir: `=EĞERSAY($E$2:$E$121; A2)`. Bu formülü bir cihaz türleri listesinin yanında aşağı kopyaladığında her satır kendi türünü sayar. Aralık mutlak başvuruyla sabitlendiği için kaymaz; aranan değer ise göreli olduğu için kayar. Bölüm 2'deki iki başvuru türü burada birlikte çalışır.
+
+**Arama işlevleri** bir tablodaki bilgiyi başka bir tablodan getirir. Arıza kayıtlarında yalnızca cihaz kodu var; cihazın alım yılı ise "Cihazlar" sayfasında. **ÇAPRAZARA** bu iki tabloyu bağlar:
+
+```text
+=ÇAPRAZARA(F2; Cihazlar!A:A; Cihazlar!D:D)
+```
+
+"F2'deki kodu Cihazlar sayfasının A sütununda ara, bulduğun satırdaki D sütununun değerini getir." Eski sürümlerde ve birçok kaynakta aynı iş **DÜŞEYARA** ile yapılır: `=DÜŞEYARA(F2; Cihazlar!A:D; 4; YANLIŞ)`. DÜŞEYARA'da aranan sütunun en solda olması ve sonuna YANLIŞ yazılması gerekir; YANLIŞ unutulursa en yakın değeri getirir ve sessizce yanlış sonuç verebilir. Elindeki programda ÇAPRAZARA varsa onu kullan.
+
+### Hata değerleri
+
+Formül bir şeyi hesaplayamadığında hücreye bir **hata değeri** yazar. Hata bir düşman değil, bir ipucudur:
+
+::: {.tablo-kaydir}
+| Hata | Anlamı | Sık nedeni |
+|---|---|---|
+| `#SAYI/0!` | Sıfıra bölme | Bölen hücre boş ya da sıfır; çoğu zaman kaymış bir göreli başvuru |
+| `#YOK` | Aranan değer bulunamadı | Arama tablosunda o kod yok ya da yazımı farklı ("PC-0214 " gibi sonda boşluk) |
+| `#DEĞER!` | Yanlış türde değer | Metin olarak saklanmış bir sayıyla işlem |
+| `#BAŞV!` | Geçersiz başvuru | Formülün baktığı satır ya da sütun silinmiş |
+| `#AD?` | Tanınmayan ad | İşlev adı yanlış yazılmış ya da programın dili farklı (TOPLA yerine SUM) |
+| `#####` | Hata değil | Sütun, sayıyı göstermeye yetecek genişlikte değil |
+:::
+
+**EĞERHATA** bir hatayı başka bir değerle değiştirir: `=EĞERHATA(ÇAPRAZARA(…); "Kayıtta yok")`. Dikkatli kullan: Hatanın nedenini anlamadan onu gizlemek, bir uyarı lambasının ampulünü sökmeye benzer.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Tekrarlayan arızayı yakalamak"}
+Bakım planlamasında önemli sorulardan biri şudur: Aynı uçakta aynı sistem kısa sürede yeniden arızalanıyor mu? **Tekrarlayan arıza**, ilk onarımın sorunu gerçekten çözmediğinin işaretidir ve özel bir inceleme gerektirir. Kurgusal bir arıza tablosunda ÇOKEĞERSAY ile "aynı tescil, aynı ATA bölümü, son 10 gün" koşullarını birlikte sayarak tekrarlayan arızaları işaretleyebilirsin. ATA bölümlerine göre bir özet tablo da filonun en çok hangi sistemle uğraştığını gösterir. Bu basit güvenilirlik analizinin sonucu, bakım planlayıcısına yazılan tek bir cümledir: "Son üç ayda ATA 32'de beş tekrarlayan arıza var; iniş takımı sensörlerinin tedarikçisiyle görüşülmeli."
+:::
+
+## 5. Özet tablo
+
+Her soru için ayrı ayrı EĞERSAY yazmak zahmetlidir. **Özet tablo** (pivot table), formül yazmadan veriyi istediğin ölçütlere göre gruplar, sayar, toplar ya da ortalamasını alır. Tablonun içine tıklayıp **Ekle > Özet Tablo** dersin; sağda bir alan listesi açılır ve sütun adlarını dört kutuya sürüklersin:
+
+- **Satırlar:** Neye göre gruplayacağın (cihaz türü).
+- **Sütunlar:** İkinci bir gruplama (ay).
+- **Değerler:** Ne hesaplayacağın (kayıt sayısı ya da süre toplamı).
+- **Filtreler:** Tabloyu bir koşulla daraltmak (yalnızca LAB-2).
+
+Böylece "Hangi laboratuvarda hangi ay kaç arıza oldu?" sorusunun cevabını birkaç saniyede bir çapraz tablo olarak görürsün. Değerler kutusundaki bir alana tıklayıp **Değer Alanı Ayarları**'ndan sayma, toplama ya da ortalama arasında geçiş yapabilirsin. Satırları sürükleyip yer değiştirdiğinde aynı veriye başka bir açıdan bakarsın; bu yüzden özet tablo, veriyi tanımanın en hızlı yoludur.
+
+İki şeyi unutma. Özet tablo kaynak veri değişince kendiliğinden güncellenmez; **Yenile** demen gerekir. Kaynak bir tablo nesnesiyse (Hafta 11) yeni eklenen satırlar da kapsanır; düz bir aralıksa yeni satırlar dışarıda kalabilir. Ve özet tablo, verideki yazım farklarını düzeltmez: "Bilgisayar" ve "bilgisayar" iki ayrı satır olarak görünür.
+
+## 6. Doğru grafiği seçmek
+
+Grafik, sayıların söylediğini bir bakışta göstermek içindir. Doğru grafik soruya göre seçilir:
+
+::: {.tablo-kaydir}
+| Soru | Grafik | Dikkat |
+|---|---|---|
+| Zamanla nasıl değişti? | **Çizgi grafik** | Zaman yatay eksende, eşit aralıklarla |
+| Hangisi daha çok? | **Çubuk grafik** | Çubukları büyükten küçüğe sırala; eksen sıfırdan başlasın |
+| Bütünün içinde payı ne? | **Pasta grafik**, dikkatle | Az sayıda dilim (en fazla beş-altı); dilimlerin toplamı bütünü oluşturmalı. Dilimleri karşılaştırmak zordur, çoğu zaman çubuk daha iyidir |
+| İki değişken birlikte değişiyor mu? | **Dağılım grafiği** | İlişki neden-sonuç demek değildir |
+:::
+
+Grafiği seçmek kadar onu dürüst çizmek de önemlidir. Sık görülen yanıltma biçimleri:
+
+- **Kırpılmış eksen:** Çubuk grafiğin dikey ekseni sıfırdan başlamazsa küçük farklar devasa görünür. Çizgi grafikte eksenin sıfırdan başlaması her zaman gerekmez, ama ölçek açıkça yazılmalıdır.
+- **Eksik dönem:** Ayın yarısını bitmiş aylarla aynı çubukta göstermek, düşüş varmış izlenimi verir. Eksik dönemi işaretle ya da dışarıda bırak.
+- **Üç boyut ve süs:** Üç boyutlu pasta, öndeki dilimi büyük gösterir. Gölge, doku ve gereksiz renk bilgiyi değil gürültüyü artırır.
+- **Etiketsiz eksen:** Birimi olmayan bir eksen (saat mi, gün mü, adet mi?) okura tahmin ettirir.
+- **Yalnızca renkle ayrım:** Hafta 10'daki erişilebilirlik ilkesi grafikler için de geçerlidir; seriler etiketle ya da desenle de ayrılmalıdır.
+
+Grafiğin başlığı da bir yorumdur. "Cihaz türüne göre arıza sayısı" bir konu başlığıdır; "Arızaların yarıya yakını bilgisayarlarda" ise bir **mesaj başlığıdır** ve okura ne görmesi gerektiğini söyler. Gelecek hafta sunumlarda bu fikre geri döneceğiz.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Grafik sayıları gösteriyor; sayılar yalan söylemez." Yanlış. Bütün sayılar doğru olduğu halde grafik yanıltabilir: kırpılmış bir eksen, seçilmiş bir zaman aralığı, eksik bir ay, üç boyutlu bir pasta. Hafta 5'teki soruyu grafiklere de sor: Bu grafiği kim, hangi mesajı vermek için çizdi? Eksen nereden başlıyor? Hangi dönem gösterilmemiş?
+:::
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Trend izleme"}
+Motor bakımında tek bir ölçümden çok, ölçümlerin zamanla nasıl değiştiği önemlidir. Havayolları, her uçuşta kaydedilen egzoz gazı sıcaklığı gibi parametreleri çizgi grafiklerle izler: **trend izleme** (trend monitoring). Değerlerin yavaş yavaş kayması aşınmayı, ani bir sıçrama ise bir arızayı gösterebilir ve motor, bir arıza ortaya çıkmadan incelemeye alınır. Bu grafiklerde eksen ölçeği ve sınır çizgileri standarttır; bir grafiği "daha dramatik" göstermek için ekseni oynatmak, burada bir emniyet sorunu olur.
+:::
+
+## 7. Kapanış: yorumlamak ve sınamak
+
+Bir analiz, okurun anlayacağı bir cümleyle biter. İyi bir yorumun üç parçası vardır: **bulgu**, onu destekleyen **sayı** ve **anlamı**.
+
+> Arızaların %38'i (120 kayıttan 46'sı) bilgisayarlarda; bilgisayar arızaları da ortalama 30 saatle en uzun sürede çözülen grup. Bilgisayarlar için yedek parça stoku ve bir bakım sözleşmesi önceliklendirilmelidir.
+
+Yorum yazarken dört tuzağa dikkat et. **Eksik dönem:** Kasım'ın yalnızca üç haftası varsa "Kasım'da arızalar azaldı" diyemezsin. **Ortalama mı ortanca mı:** Aykırı değerler varsa hangisini kullandığını yaz. **İlişki neden değildir:** Eski cihazlarda daha çok arıza görmek, arızanın nedeninin yaş olduğunu tek başına kanıtlamaz; eski cihazlar daha çok kullanılan laboratuvarlarda olabilir. **Küçük sayılar:** Üç kayıttan çıkan bir oran ("yüzde 67") güçlü bir sonuç değildir; kaç kayda dayandığını yaz.
+
+### YZ'nin formülünü sınamak
+
+Bir YZ asistanına "D sütununda LAB-2, H sütununda Yüksek olan kayıtları sayan formülü yaz" demek hızlıdır ve çoğu zaman doğru sonuç verir. Ama Hafta 6'daki ilke burada da geçerlidir: YZ doğru olanı değil, olası görüneni üretir. Yanlış sütuna bakan, İngilizce işlev adı kullanan ya da virgül yerine noktalı virgül beklenen yerde virgül koyan bir formül önerebilir. Daha kötüsü, hata vermeyen ama yanlış sonuç üreten bir formül de önerebilir.
+
+Bir formülü **test durumlarıyla** sınarsın: Sonucunu elle bildiğin küçük örnekler.
+
+1. **Elle kontrol:** Filtreyle LAB-2 ve Yüksek'i seç, satırları say; formülün sonucu aynı mı?
+2. **Sınır durumu:** Koşul "48 saatten uzun" ise tam 48 saatlik bir kayıt nereye düşüyor? Formül `>` mı kullanıyor, `>=` mi?
+3. **Boş ve hatalı hücre:** Süresi boş olan bir kayıt sonucu nasıl etkiliyor?
+
+Formülü YZ'ye açıklattırmak da iyi bir sınamadır: "Bu formül adım adım ne yapıyor?" Açıklama, istediğin şeyle uyuşmuyorsa formül de uyuşmuyordur. Kullandığın formülü YZ'ye yazdırdıysan bunu beyan edersin.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Formül hata vermiyorsa doğrudur." Yanlış. `#YOK` ya da `#SAYI/0!` gibi hatalar seni uyarır; asıl tehlikeli olan sessiz hatalardır: bir satır eksik kalmış bir aralık, kaymış bir göreli başvuru, YANLIŞ'ı unutulmuş bir DÜŞEYARA, 0 yazılmış boş hücreler. Hata vermeyen bir formül yalnızca hesaplanabilir olduğunu kanıtlar, doğru olduğunu değil.
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Son gördüğün bir haber grafiğini ya da sosyal medyada paylaşılan bir istatistiği düşün. Ekseni nereden başlıyordu? Hangi dönemi kapsıyordu? Aynı veriyle tam tersi izlenimi veren bir grafik çizilebilir miydi?
+:::
+
+## 8. Bir hücre aralığı bir ekonomiyi tartışmaya açınca (okuma)
+
+İki tanınmış iktisatçı, Carmen Reinhart ve Kenneth Rogoff, 2010'da kamu borcunun milli gelirin yüzde 90'ını aştığı ülkelerde ekonomik büyümenin belirgin biçimde düştüğünü öne süren bir çalışma yayımladı. Çalışma, birçok ülkede kemer sıkma politikalarının savunulmasında sık sık anıldı. 2013'te bir yüksek lisans öğrencisi, Thomas Herndon, ödevi için bu sonuçları yeniden hesaplamaya çalıştı ve yapamadı. Yazarlardan aldığı elektronik tabloda bir ortalama formülünün aralığının birkaç ülkeyi dışarıda bıraktığını ve bazı veri tercihlerinin sonucu etkilediğini buldu. Düzeltilmiş hesapta etki çok daha zayıftı. Yazarlar hatayı kabul etti, ama ana sonuçlarının değişmediğini savundu; tartışma bugün de sürüyor.
+
+Bu hikâyenin dersi Excel'e güvenmemek değil, hesabı **yeniden üretilebilir** kılmaktır: Verini ve formüllerini paylaş, başkasının aynı sonuca ulaşabilmesini sağla. Herndon'ın hatayı bulabilmesinin tek nedeni tablonun ona verilmiş olmasıydı. Araştırmalar da gerçek hayatta kullanılan elektronik tabloların önemli bir kısmında en az bir hata bulunduğunu gösteriyor. Bu yüzden önemli bir tabloyu bir başkasına kontrol ettirmek, Hafta 10'daki akran incelemesinin sayılardaki karşılığıdır.
+
+## 9. Tablonun ötesi (okuma)
+
+Elektronik tablo çok şey yapar, ama her şeyi yapmaz. Veri büyüdükçe, sık güncellendikçe ya da birçok kişiye sunulacağı zaman başka araçlar devreye girer:
+
+- **Pano** (dashboard): Birkaç grafiği ve göstergeyi tek ekranda toplayan, veri değiştikçe kendiliğinden güncellenen görünüm. Microsoft Power BI Desktop ve Google Looker Studio ücretsiz olarak kullanılabilir.
+- **Programlama:** Python gibi diller milyonlarca satırı işleyebilir ve her adımı bir betikte kaydettiği için analiz baştan sona yeniden üretilebilir. Google Colab, Python'u tarayıcıda kurulum olmadan çalıştırmanı sağlar.
+- **Veri tabanı:** Çok kullanıcılı, büyük ve sürekli güncellenen kayıtlar için elektronik tablo değil veri tabanı kullanılır (Hafta 11'deki satır sınırı hikâyesini hatırla).
+
+DigComp çerçevesi ileri düzeyde tam da bunu tarif eder: işe uygun aracı seçmek ve gerektiğinde araç değiştirmek. Bu ders seni bir panocu ya da programcı yapmaz; ama bir gün tablon yetmediğinde nereye bakacağını bilirsin.
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+The Joy of Stats (İstatistiğin Neşesi, BBC, 2010): Hans Rosling'in iki yüz ülkenin iki yüz yıllık verisini dört dakikalık hareketli bir grafikle anlattığı ünlü bölümüyle tanınan belgesel. İzlerken grafiğin hangi eksenleri ve hangi ölçeği kullandığına dikkat et.
+:::
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: Harcamalarını ya da ekran süreni birkaç formül ve bir grafikle analiz eder, bir haberdeki yanıltıcı grafiği fark edersin. Orta vadede: Yöneticine ya da bakım planlayıcısına "bence" diye değil, sayıyla desteklenmiş bir öneriyle gidersin; YZ'nin yazdığı bir formülü körü körüne değil, sınayarak kullanırsın. Uzun vadede: Veri okuryazarlığı her meslekte ortak karar dili haline geliyor; soruyu doğru sormayı ve cevabı dürüst göstermeyi bilen biri olursun.
+:::
+
+## Akılda kalsın
+
+- **Soru önce gelir.** Soru, hesap, görsel, yorum. Düzenli veri olmadan bu yol sessiz hatalarla dolar.
+- **$ işareti bir sabitleyicidir.** Göreli başvuru kopyalanınca kayar, mutlak başvuru (`$B$7`) kaymaz; işlem önceliği için parantez kullan.
+- **Doğru işlev, doğru soru.** EĞERSAY sayar, ETOPLA toplar, ÇAPRAZARA getirir, özet tablo hepsini formülsüz yapar. Aykırı değer varsa ortanca da bak; boş hücre sıfır değildir.
+- **Grafik soruya göre seçilir ve dürüst çizilir.** Zaman için çizgi, karşılaştırma için sıfırdan başlayan çubuk, pasta yalnızca az dilimle; eksik dönem ve kırpılmış eksen yanıltır.
+- **Sonuç bir cümledir ve sınanır.** Bulgu, sayı, anlam. YZ'nin formülünü elle kontrol, sınır durumu ve boş hücreyle test et; hata vermemesi doğru olduğunu kanıtlamaz.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: işlem önceliği, göreli başvuru, mutlak başvuru, karma başvuru, bağımsız değişken, ortalama, ortanca, aykırı değer, EĞER, EĞERSAY, ETOPLA, ÇOKEĞERSAY, ÇAPRAZARA, DÜŞEYARA, hata değeri, EĞERHATA, özet tablo, çizgi grafik, çubuk grafik, pasta grafik, dağılım grafiği, kırpılmış eksen, mesaj başlığı, test durumu, yeniden üretilebilirlik, arızalar arası ortalama süre, tekrarlayan arıza, trend izleme, pano.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="C" data-explain="Dolar işareti sütunu ve satırı sabitler; formül nereye kopyalanırsa kopyalansın B7'ye bakar. Yalnızca satırı ya da yalnızca sütunu sabitleyen başvuru karma başvurudur."}
+**1.** Bir formüldeki `$B$7` başvurusu ne anlama gelir?
+
+- A\) B7 hücresinin değeri para birimi biçiminde gösterilir.
+- B\) Formül kopyalanınca yalnızca satır numarası sabit kalır.
+- C\) Formül nereye kopyalanırsa kopyalansın B7'ye bakmaya devam eder.
+- D\) B7 hücresi kilitlenir ve içeriği bir daha değiştirilemez.
+- E\) B7'deki değer formülde yuvarlanarak kullanılır.
+:::
+
+::: {.quiz-q data-answer="A" data-explain="#SAYI/0! sıfıra bölme hatasıdır; bölen hücre boş ya da sıfırdır. Sık nedeni, mutlak olması gereken bir başvurunun kopyalanınca boş bir hücreye kaymasıdır."}
+**2.** Bir hücrede `#SAYI/0!` görüyorsun. Bu hata neyi gösterir?
+
+- A\) Formül bir sayıyı sıfıra ya da boş bir hücreye bölmeye çalışıyor.
+- B\) Aranan değer arama tablosunda bulunamıyor.
+- C\) Sütun, sayıyı göstermeye yetecek kadar geniş değil.
+- D\) Formüldeki işlevin adı yanlış yazılmış.
+- E\) Formülün baktığı satır ya da sütun silinmiş.
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Zamanla değişimi göstermek için çizgi grafik kullanılır. Pasta grafik parça-bütün ilişkisi, dağılım grafiği iki değişken arasındaki ilişki içindir."}
+**3.** Son on iki ayda aylık telefon faturanın nasıl değiştiğini göstermek istiyorsun. En uygun grafik hangisidir?
+
+- A\) On iki dilimli bir pasta grafik
+- B\) Üç boyutlu bir pasta grafik
+- C\) Faturayı kişi sayısıyla karşılaştıran bir dağılım grafiği
+- D\) Ayları rastgele sıralayan bir çubuk grafik
+- E\) Ayların yatay eksende sırayla durduğu bir çizgi grafik
+:::
+
+::: {.quiz-q data-answer="B" data-explain="Birkaç çok uzun arıza ortalamayı yukarı çeker; 'tipik' süre için ortanca daha dürüst bir ölçüdür. Aykırı değerler silinmez, yorumda belirtilir."}
+**4.** Yirmi arızanın on dokuzu 2 ile 10 saat arasında çözülmüş, biri ise 300 saat sürmüş. "Bir arıza tipik olarak ne kadar sürede çözülüyor?" sorusu için hangisi daha uygundur?
+
+- A\) Ortalama; çünkü bütün değerleri hesaba katan tek ölçü odur
+- B\) Ortanca; çünkü tek bir çok uzun arızadan pek etkilenmez
+- C\) En büyük değer; çünkü en kötü durumu gösterir
+- D\) Toplam süre; çünkü kaybedilen bütün zamanı gösterir
+- E\) 300 saatlik kaydı silip kalanların ortalaması
+:::
+
+::: {.quiz-q data-answer="D" data-explain="Sonucu elle bilinen bir kontrol, bir sınır durumu (tam 48 saat) ve boş hücre, formülün hem doğru koşulu hem doğru aralığı kullandığını sınar. Hata vermemesi ya da YZ'nin emin konuşması doğruluğun kanıtı değildir."}
+**5.** Bir YZ asistanı, çözüm süresi 48 saatten uzun olan kayıtları sayan bir formül önerdi. Formülü raporunda kullanmadan önce hangi sınama en güvenilirdir?
+
+- A\) Formülün hata vermediğini görmek ve doğrudan kullanmak
+- B\) Aynı soruyu YZ'ye ikinci kez sorup aynı formülü verip vermediğine bakmak
+- C\) Formülü daha uzun ve karmaşık bir formülle değiştirmesini istemek
+- D\) Filtreyle elle saymak, tam 48 saatlik ve boş süreli kayıtları denemek
+- E\) Formülü bir arkadaşına gönderip yalnızca görünüşünü onaylatmak
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-C, 2-A, 3-E, 4-B, 5-D.
+:::

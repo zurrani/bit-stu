@@ -1,0 +1,333 @@
+---
+title: "Belge tasarımı ve kurumsal yazışma"
+subtitle: "Hafta 10"
+description: "Biçimlendirilmiş değil, yapılandırılmış belge; stiller, başlık düzeyleri ve otomatik içindekiler; sayfa düzeni, tablo, resim ve resim yazısı; kaynakça ve dipnot; değişiklikleri izle, yorum ve yapay zekâyla yazma; PDF, yazım ve erişilebilirlik denetimi; kurumsal e-posta."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>10 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.4 İş birliği, 2.5 Dijital davranış, 3.1 İçerik geliştirme, 3.2 Bütünleştirme ve yeniden düzenleme</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> İyi görünen bir belge ile iyi kurulmuş bir belge arasındaki fark nedir?</p>
+</div>
+```
+
+Gece 23.40. Yarın teslim edeceğin 30 sayfalık raporun hazır. Son anda bir mesaj geliyor: "Başa bir özet sayfası ekle." Eklediğin anda her şey kayıyor. Başlıklar sayfanın en altında kalıyor, elle yazdığın içindekilerdeki sayfa numaralarının hepsi yanlış, "Tablo 4" diye andığın tablo artık beşinci. Bir saat boyunca sayfa sayfa düzeltiyorsun. Aynı rapor doğru kurulsaydı bu iş üç dakika sürerdi. Bu hafta o "doğru kurmanın" ne olduğunu öğreneceksin. Sonra belgeni başkalarına göndermenin kurallarına geçeceğiz: kurumsal e-posta. "Üretmek" bloğunun ilk haftasındayız; burada öğreneceğin her şeyi dönem projenin teknik raporunda kullanacaksın.
+
+**Okuma süresi:** yaklaşık 30 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. Stillerle başlık hiyerarşisi kurmak; otomatik içindekiler, sayfa numarası, üst ve alt bilgi eklemek.
+2. Tabloyu ve resmi resim yazısıyla yerleştirmek; kaynakça ve dipnot eklemek.
+3. Değişiklikleri izle ve yorumlarla birlikte çalışmak; yapay zekânın önerdiği değişiklikleri izlenebilir biçimde değerlendirmek.
+4. Belgeyi PDF olarak dışa aktarmak; yazım ve erişilebilirlik denetimi yapmak.
+5. Kurumsal kurallara uygun bir e-posta yazmak: konu satırı, alıcı alanları, hitap, gövde, ek ve imza.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Biçimlendirilmiş değil, yapılandırılmış belge
+
+Bir **kelime işlemci** (word processor), metin yazmak, düzenlemek, biçimlendirmek ve yazdırmak için kullanılan programdır: Microsoft Word, Google Dokümanlar, LibreOffice Writer, Apple Pages. Çoğumuz bu programları bir daktilo gibi kullanırız: Yazarız, bir başlığı seçip büyütür ve kalın yaparız, yeni sayfaya geçmek için Enter'a art arda basarız. Ekranda sonuç iyi görünür. Ama program o büyük ve kalın satırın bir başlık olduğunu bilmez; onun gözünde yalnızca büyük ve kalın bir metindir.
+
+İki tür belge düşün:
+
+| Biçimlendirilmiş belge | Yapılandırılmış belge |
+|---|---|
+| Başlıklar elle büyütülüp kalın yapılmış | Başlıklara "Başlık 1", "Başlık 2" stili verilmiş |
+| İçindekiler ve sayfa numaraları elle yazılmış | İçindekiler ve numaralar program tarafından üretiliyor |
+| Yeni sayfa için art arda Enter | Yeni sayfa için sayfa sonu ya da bölüm sonu |
+| "Tablo 4" elle yazılmış | Tablo numaraları kendiliğinden güncelleniyor |
+| Bir değişiklik her şeyi kaydırır | Bir değişiklik birkaç tıklamayla düzelir |
+
+Bir benzetme: Stiller, bir binanın taşıyıcı sistemidir. Elle biçimlendirme ise her duvarı ayrı ayrı boyamaktır. Duvarlar güzel görünebilir, ama bina yeni bir kata dayanamaz. Taşıyıcı sistem sağlamsa kat eklemek kolaydır.
+
+Bu notta menü adları Word'ün Türkçe arayüzüne göre verildi. Öğrendiğin mantık ise programdan bağımsızdır: Stil, bölüm, resim yazısı ve değişiklikleri izle bütün kelime işlemcilerde vardır, yalnızca menüdeki yerleri farklıdır. Bir özelliği bulamazsan programın arama kutusuna işlevin adını yaz; menü adları sürümden sürüme biraz değişebilir.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Son yazdığın ödevi aç. Başa bir sayfa eklesen neler kayardı? Başlıklarını program "başlık" olarak tanıyor mu, yoksa yalnızca büyük harflerle mi yazdın?
+:::
+
+## 2. Stiller ve otomatik içindekiler
+
+**Stil**, bir metne tek tıklamayla uygulanan, adı olan biçim paketidir: yazı tipi, boyut, renk, satır aralığı, paragraftan önceki ve sonraki boşluk. Word'de stiller **Giriş** sekmesinin ortasındadır. Normal metin "Normal" stilindedir; başlıklar ise "Başlık 1", "Başlık 2", "Başlık 3" stilleriyle işaretlenir.
+
+Stil yalnızca görünüşü değil, **anlamı** da taşır. "Başlık 1" diyen bir satır, programa "Burası bir ana bölümün başı" der. Bu bilgi üç şeyi mümkün kılar:
+
+- **Tutarlılık:** Bütün ana başlıkların görünüşünü değiştirmek istersen tek tek seçmezsin. Stile sağ tıklayıp **Değiştir** dersin; belgedeki bütün "Başlık 1"ler aynı anda değişir.
+- **Gezinti:** **Görünüm > Gezinti Bölmesi** açıldığında başlıklar solda bir ağaç gibi listelenir. Uzun bir belgede bir başlığa tıklayıp oraya atlar, bölümleri sürükleyip yerini değiştirebilirsin.
+- **Otomatik içindekiler:** **Başvurular > İçindekiler** ile program başlıkları ve sayfa numaralarını kendisi toplar. Belge değişince içindekilere sağ tıklayıp **Alanı Güncelleştir** dersin (ya da F9). İçindekilerde görünmeyen bir başlık varsa sorun neredeyse her zaman aynıdır: O başlığa stil uygulanmamıştır.
+
+**Başlık düzeyleri** bir ağaç gibi iç içedir. "Başlık 2", bir "Başlık 1"in altındaki alt bölümdür; "Başlık 3" de bir "Başlık 2"nin. Düzey atlamak (bir "Başlık 1"in hemen altına "Başlık 3" koymak) hem okuru hem programı şaşırtır. Bu düzeni bozmamak için bir başlığı daha küçük görünsün diye bir alt düzeye taşıma; görünüş istemiyorsan stili değiştir.
+
+Aynı işlevlerin üç programdaki karşılıkları:
+
+::: {.tablo-kaydir}
+| İşlev | Word | Google Dokümanlar | LibreOffice Writer |
+|---|---|---|---|
+| Başlık stili uygula | Giriş > Stiller | Araç çubuğundaki "Normal metin" kutusu | Stiller kenar çubuğu (F11); Writer'da stile "biçem" de denir |
+| Başlıklar arasında gezin | Görünüm > Gezinti Bölmesi | Soldaki belge ana hattı | Gezgin (F5) |
+| Otomatik içindekiler | Başvurular > İçindekiler | Ekle > İçindekiler | Ekle > İçindekiler ve Dizin |
+| Sayfa sonu | Ctrl + Enter | Ctrl + Enter | Ctrl + Enter |
+:::
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Stil ve başlık düzeyi Word'e özgü bir ayrıntıdır; başka yerde işime yaramaz." Yanlış. Aynı mantık web sayfalarında (HTML'deki başlık etiketleri), sunumlarda ve not uygulamalarında da vardır. Okuduğun bu sayfa da böyle yazıldı: Her bölüm başlığı bir "Başlık 2"dir; "Bu sayfada" listesi onlardan kendiliğinden üretilir. Ekran okuyucular da görme engelli kullanıcılara bir sayfanın yapısını bu başlıklardan okur. Stil, programın değil, belgenin dilidir.
+:::
+
+## 3. Sayfa düzeni, tablo ve resim
+
+### Sayfa sonu ve bölüm sonu
+
+Yeni bir sayfaya geçmek için Enter'a art arda basarsan, üstüne bir satır eklediğinde boş satırlar da aşağı kayar ve başlık yanlış yere düşer. Doğrusu **sayfa sonu**dur (Ctrl + Enter): "Bundan sonrası yeni sayfada başlasın" diyen görünmez bir işaret.
+
+**Bölüm sonu** daha güçlü bir işarettir. Belgeyi sayfa yapısı farklı olabilen parçalara böler: **Düzen > Kesmeler > Sonraki Sayfa**. Kapakta sayfa numarası olmasın, giriş sayfaları Roma rakamıyla (i, ii, iii), ana metin 1'den başlasın istiyorsan; ya da tek bir sayfa yatay olsun istiyorsan bölüm sonu gerekir. Düzenleme işaretlerini görmek için **Giriş > Tümünü Göster** (¶) düğmesini kullan. Bir belgenin neden garip davrandığını çoğu zaman bu işaretler gösterir.
+
+### Üst bilgi, alt bilgi ve sayfa numarası
+
+**Üst bilgi** (header) her sayfanın en üstünde, **alt bilgi** (footer) en altında tekrarlanan alandır: belge adı, kurum adı, sayfa numarası, gizlilik notu. **Ekle > Üst Bilgi** ya da **Alt Bilgi** ile açılır. Sayfa numarası da **Ekle > Sayfa Numarası** ile bir alan olarak eklenir; elle yazılmış "Sayfa 7" değil, kendiliğinden artan bir sayıdır. Kapak sayfasında numara istemiyorsan **Farklı İlk Sayfa** seçeneğini işaretlersin. Bölümlere ayrılmış bir belgede her bölüm varsayılan olarak bir öncekine bağlıdır; bir bölümün alt bilgisini ayrı tutmak için **Öncekine Bağla** düğmesini kapatırsın.
+
+### Tablo, resim ve resim yazısı
+
+Tablo, karşılaştırılan bilgiyi satır ve sütunlarla düzenler. Tabloları boşluk tuşuyla hizalanmış metinle taklit etme; **Ekle > Tablo** kullan. Tablonun ilk satırı başlık satırıdır; tablo bir sonraki sayfaya taşarsa başlık satırının orada da tekrarlanmasını sağlayabilirsin. Resimleri de metnin arasına sürükleyip bırakmak yerine **Ekle > Resimler** ile ekle, sonra metinle nasıl yerleşeceğini seç (satır içinde ya da metin kaydırmalı).
+
+**Resim yazısı** (caption), bir tablonun ya da şeklin numarasını ve kısa açıklamasını taşıyan satırdır: "Tablo 2. Atölyedeki cihazların bakım aralıkları." **Başvurular > Resim Yazısı Ekle** ile eklenen yazının numarası bir alandır: Araya yeni bir tablo eklersen sonrakiler kendiliğinden yeniden numaralanır. Birçok kurumun yazım kılavuzunda tablo yazısı tablonun üstüne, şekil yazısı şeklin altına konur; kurumunun kılavuzu ne diyorsa ona uy. Resim yazıları stillerden üretildiği için tıpkı içindekiler gibi bir **şekiller tablosu** da kendiliğinden oluşturulabilir.
+
+Resim yazısı, görselin kaynağını göstermek için de doğru yerdir. Hafta 7'de lisanslı görsellerin atfının dört parçasını görmüştün: eser, yazar, kaynak, lisans. Raporuna eklediğin açık lisanslı bir fotoğrafın atfı resim yazısının sonunda durabilir: "Şekil 3. Bir laboratuvar tezgâhı (Fotoğraf: yazarın adı, Wikimedia Commons, CC BY 4.0)."
+
+## 4. Kaynakça ve dipnot
+
+Hafta 5'te başkasının fikrini ya da verisini kullandığında kaynağını göstermen gerektiğini ve bu derste kısa bir APA biçiminin yeterli olduğunu görmüştün. Kelime işlemciler bu işi kolaylaştırır.
+
+**Kaynakça yöneticisi**, kaynakların bilgilerini (yazar, yıl, başlık, yayıncı, adres) bir kez kaydedip metinde atıf yapmanı ve sonunda kaynakçayı seçtiğin biçimde kendiliğinden oluşturmanı sağlayan araçtır. Word'de **Başvurular > Alıntı Ekle** ile bir kaynağı tanımlar ve metne "(Soyad, Yıl)" biçiminde bir atıf koyarsın; **Başvurular > Kaynakça** ile listeyi eklersin. Biçim kutusundan APA'yı seçtiğinde bütün atıflar ve kaynakça o biçime uyar. Zotero gibi ücretsiz ve açık kaynak kaynakça yöneticileri, bir web sayfasının ya da makalenin bilgilerini tarayıcıdan tek tıklamayla kaydedip farklı kelime işlemcilerle birlikte çalışabilir.
+
+Araç ne kadar akıllı olursa olsun, kaynak bilgisini sen girersin; yanlış girilen bir yıl ya da başlık kaynakçada da yanlış çıkar. Hafta 6'daki kuralı da hatırla: Bir YZ'nin önerdiği kaynağı, gerçekten var olduğunu ve söylediğini söylediğini kontrol etmeden kaynakçaya koyamazsın.
+
+**Dipnot** (footnote), metindeki küçük bir numaraya bağlı olarak sayfanın altında yer alan ek açıklamadır. **Başvurular > Dipnot Ekle** ile eklenir; numaralar kendiliğinden sıralanır. Açıklama sayfanın değil belgenin sonunda toplanıyorsa buna **son not** denir. Dipnot, ana akışı bozmadan bir terimi açıklamak ya da bir ayrıntıyı vermek için kullanılır. APA biçiminde kaynak gösterimi dipnotla değil, metin içi atıfla ve kaynakçayla yapılır; dipnotu açıklama için sakla.
+
+## 5. Birlikte yazmak ve yapay zekâ
+
+Bir rapor nadiren tek kişinin elinden çıkar. Arkadaşın okur, öğretim görevlisi düzeltir, amirin onaylar. Herkes belgeyi doğrudan değiştirip geri gönderirse kimin neyi değiştirdiği kaybolur. Bunu önleyen iki araç vardır.
+
+**Değişiklikleri izle** (track changes) açıkken yapılan her ekleme, silme ve biçim değişikliği renkli olarak işaretlenir ve kimin, ne zaman yaptığı kaydedilir. Word'de **Gözden Geçir > Değişiklikleri İzle** ile açılır. Belgenin sahibi her değişikliği tek tek **Kabul Et** ya da **Reddet** der. Böylece son karar yazarda kalır. Google Dokümanlar'da bunun karşılığı **öneri modudur**; Writer'da **Düzen > Değişiklikleri İzle**.
+
+**Yorum** ise metni değiştirmeden kenara not düşmektir: "Bu sayı nereden geldi?", "Bu paragraf 2. bölüme daha uygun olabilir." Word'de **Gözden Geçir** sekmesinden eklenir; Türkçe arayüzün bazı sürümlerinde "açıklama" adını taşır. Bir yorumu yanıtlayabilir, sorun çözülünce kapatabilirsin. İyi bir inceleme ikisini birlikte kullanır: Kesin düzeltmeler değişiklik olarak, tartışmaya açık noktalar yorum olarak.
+
+Belge bulutta duruyorsa Hafta 4'te gördüğün **eşzamanlı çalışma** devreye girer: Birden fazla kişi aynı anda yazar, kimin nerede yazdığını imleçlerinden görürsün. Hafta 3'te gördüğün **sürüm geçmişi** de burada işe yarar: Bir gün önceki hali görmek ya da yanlışlıkla silinen bir bölümü geri getirmek için dosyanın sürümlerine dönebilirsin. Bulutta ortak çalışılan bir belgede `rapor_son_son_v3.docx` gibi kopyalara gerek kalmaz; tek bir dosya ve onun geçmişi vardır.
+
+### Yapay zekâyla yazmak
+
+Bugün kelime işlemcilerin çoğunda bir yapay zekâ yardımcısı var: Word'de Copilot, Google Dokümanlar'da Gemini; bunlar çoğu zaman ücretli planlarda yer alıyor. Ayrı bir sohbet asistanı da aynı işleri yapabilir. Bu araçlar bir taslak çıkarabilir, uzun bir metni özetleyebilir, dilini düzeltebilir ya da tonunu değiştirebilir ("bunu daha resmî yaz").
+
+Hafta 6'daki politikayı hatırla: Kendi metninin dilini düzelttirmek uygundur, YZ'nin yazdığı metni kendi metnin gibi teslim etmek uygun değildir; kullandığında beyan edersin ve doğruluğundan sen sorumlusun. Burada değişiklikleri izle sana bir doğrulama aracı da verir. Bir paragrafını YZ'ye düzelttirdiğinde düzeltilmiş metni olduğu gibi yapıştırma. Değişiklikleri izle açıkken uygula ya da **Gözden Geçir > Karşılaştır** ile iki sürümü yan yana koy. Böylece YZ'nin neyi değiştirdiğini kelime kelime görürsün: Bir sayıyı mı değiştirmiş, bir iddiayı mı yumuşatmış, senin söylemediğin bir şey mi eklemiş? Her değişikliği sen kabul edersin. Bir şartı da unutma: Hafta 8 ve 9'da gördüğün gibi kişisel veri ya da kurumuna ait bilgi içeren bir belgeyi, kurumunun izin vermediği bir YZ aracına yükleme.
+
+## 6. Belgeyi teslime hazırlamak
+
+### Şablonlar
+
+**Şablon** (template), yapısı, stilleri ve sabit alanları önceden hazırlanmış, her kullanımda yeni bir belgenin başlangıcı olan dosyadır. Word'de uzantısı `.dotx`'tir; **Dosya > Yeni** ile hazır şablonlar da açılabilir. Sık yazılan belgeler için şablon zaman kazandırır ve kurum içinde herkesin aynı düzende yazmasını sağlar:
+
+- **Dilekçe:** Tarih, kuruma hitap, konu, kısa ve tek amaçlı metin, "Gereğini arz ederim" gibi bir kapanış, ad soyad ve imza, iletişim bilgisi ve varsa ekler.
+- **Özgeçmiş:** Hafta 1'de gördüğün Europass, özgeçmiş için de ücretsiz bir şablon ve düzenleyici sunar. Kısa, tarih sırası tersine dizilmiş (en yenisi başta) ve yazım hatasız bir özgeçmiş, uzun bir özgeçmişten daha çok okunur.
+- **Teknik rapor:** Kapak, özet, içindekiler, giriş, yöntem, bulgular, sonuç ve öneriler, kaynakça, ekler. Dönem projenin teknik raporu bu iskeleti kullanır.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Görev kartı bir şablondur"}
+Bakımda iş, serbest metinle değil şablonlarla yürür: görev kartı (task card), iş emri, uygunsuzluk raporu. Kurgusal bir görev kartında şu alanlar bulunur: kart numarası, uçak tescili, ATA bölümü (örneğin ATA 32, iniş takımı), görev tanımı, başvurulan bakım el kitabının bölümü ve **revizyonu**, adım adım işlemler, kullanılan parça ve malzeme, işi yapanın ve kontrol edenin imza alanları, tarih. Şablon unutulan alanı görünür kılar: Boş kalan bir imza kutusu "bu adım kontrol edilmedi" demektir. Bakım el kitaplarında da değişiklikler gizlenmez. Revize edilen satırların yanına kenar boşluğunda bir **revizyon çubuğu** konur ve belgenin başındaki revizyon kaydı hangi sayfanın hangi revizyonda değiştiğini gösterir. Değişiklikleri izle, aynı ilkenin bilgisayardaki karşılığıdır: Değişiklik izlenebilir olmalıdır.
+:::
+
+### PDF mi DOCX mi?
+
+**DOCX**, Word'ün düzenlenebilir dosya biçimidir; Google Dokümanlar ve Writer da açıp kaydedebilir. **PDF** (Portable Document Format) ise belgeyi her cihazda aynı görünecek şekilde "dondurur": Yazı tipi, sayfa düzeni ve resimler yerinde kalır. Kural basittir: Karşı taraf belgeyi okuyacak, yazdıracak ya da arşivleyecekse **PDF**; seninle birlikte üzerinde çalışacaksa **DOCX** gönder. Word'de **Dosya > Farklı Kaydet** ile türü PDF seçersin. Başlık stillerini kullandıysan PDF'te de yer işaretleri ve tıklanabilir içindekiler oluşur.
+
+Teslimden önce üç kontrol yap:
+
+1. **Yazım denetimi:** **Gözden Geçir > Yazım ve Dilbilgisi** (F7). Metnin dilinin Türkçe seçili olduğundan emin ol; yoksa doğru kelimeleri de hatalı sayar. Denetim "türü"yle "turu"yu ayırmaz; sonunda bir kez de sesli oku.
+2. **Erişilebilirlik denetimi:** **Gözden Geçir > Erişilebilirliği Denetle**. **Dijital erişilebilirlik**, bir belgenin ya da sitenin görme, işitme ya da hareket engeli olanlar dahil herkes tarafından kullanılabilmesidir. (Hafta 9'daki "erişilebilirlik" ise başka bir şeydi: sisteme gerektiğinde ulaşılabilmesi.) Ekran okuyucu kullanan biri resmi göremez; bu yüzden her resme, ne gösterdiğini bir iki cümleyle anlatan **alternatif metin** (alt metin) eklenir. Başlık stilleri, tablolarda başlık satırı, yeterli renk kontrastı ve "buraya tıklayın" yerine ne açacağını söyleyen bağlantı metni de erişilebilirliğin parçalarıdır. Bilgiyi yalnızca renkle verme ("kırmızılar gecikenler"); renk körlüğü olan biri o farkı göremeyebilir.
+3. **Belge denetimi:** Belgende yorumlar, kabul edilmemiş değişiklikler, gizli metin ve üst veri kalmış olabilir. Hafta 8'deki "zarf da konuşur" ilkesi belgeler için de geçerlidir: Bir dosya, yazarın adını, kurumunu ve kaç saat düzenlendiğini içinde taşıyabilir. Kurum dışına göndermeden önce bütün değişiklikleri kabul ya da reddet, yorumları sil ve **Dosya > Bilgi > Sorunları Denetle > Belgeyi İncele** ile gizli bilgileri temizle.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"PDF'e çevirdim; artık kimse değiştiremez, içinde de gördüğümden başka bir şey yok." Yanlış. PDF düzenleyicileriyle değiştirilebilir, metni kopyalanabilir. Asıl tehlike ikinci kısımdadır: Gizli kalması gereken bir satırın üstüne siyah bir kutu çizip PDF'e çevirmek o metni silmez; kutunun altındaki metin seçilip kopyalanabilir. Mahkeme ve kurum belgelerinde bu hata birçok kez yaşandı. Gizli bilgiyi kaldırmanın yolu onu kaynak belgeden gerçekten silmek ya da karartma (redaction) için yapılmış bir araç kullanmaktır.
+:::
+
+## 7. Kurumsal e-posta: dijital antetli kâğıt
+
+Hafta 7'de mesaj gruplarındaki birkaç basit kuralı görmüştük. Çevrimiçi iletişimin görgü kurallarına **netiket** denir (İngilizce internet ve etiket kelimelerinden). Kurumsal e-posta bunun resmî halidir. Bir kurumun antetli kâğıdına yazılan mektup nasıl o kurumu temsil ederse, kurumsal adresinden gönderdiğin bir e-posta da seni ve kurumunu temsil eder. Kurumsal e-posta da bir belgedir: Konusu, alıcıları, eki ve imzası onun yapısıdır.
+
+### Alıcı alanları
+
+| Alan | Kime yazılır? | Görünürlük |
+|---|---|---|
+| **Kime** (To) | Mesajın asıl muhatabı; bir şey yapması ya da yanıt vermesi beklenen kişi | Bütün alıcılar görür |
+| **Bilgi** (CC, carbon copy) | Bilgisi olması gereken, ama eylem beklenmeyen kişi | Bütün alıcılar görür |
+| **Gizli** (BCC, blind carbon copy) | Adresleri birbirine görünmemesi gereken alıcılar, örneğin kalabalık bir duyuru listesi | Yalnızca gönderen görür |
+
+Kime alanındaki kişi "Bu benden bir şey bekliyor" diye okur; Bilgi alanındaki kişi "Haberim olsun diye gönderilmiş" diye. Bir talebi Bilgi alanındaki birine yöneltirsen büyük olasılıkla yapılmaz. Tanımadığı insanların e-posta adreslerini kalabalık bir listede herkese göstermek ise Hafta 8'de gördüğün kişisel veri sorunudur; böyle duyurularda alıcılar Gizli alana yazılır.
+
+### Bir e-postanın parçaları
+
+- **Konu satırı:** Alıcının e-postayı açmadan ne olduğunu ve ondan ne beklendiğini anlayacağı kısa bir başlık. "Ödev" değil, "BIT dönem projesi: teknik rapor taslağı, Ece Yıldız (2. şube)". Konu satırı boş bir e-posta, gelen kutusunda kaybolur.
+- **Hitap:** İlk yazışmada unvan ve soyadla: "Sayın Öğr. Gör. Arslan", "Sayın Dr. Kaya". Daha az resmî ama saygılı bir seçenek: "Merhaba Deniz Hanım." "Selam hocam" ya da hiç hitap etmemek uygun değildir.
+- **Gövde:** Önce kendini tanıt (ad, program, şube), sonra tek bir amaç yaz. İstediğin şeyi ve tarihi açıkça söyle: "Görüşünüzü 20 Ekim'e kadar alabilirsem sevinirim." Kısa paragraflar kullan; büyük harfle yazma, emoji ve kısaltma kullanma.
+- **Ek:** Dosyayı Hafta 3'teki kuralla adlandır (`2026-10-15_ece-yildiz_teknik-rapor_v2.pdf`) ve gövdede ekten söz et. Okunacak belgeyi PDF olarak gönder. Birden çok dosyayı tek ekte toplamak gerekirse işletim sistemlerinin kendi araçlarıyla açılabilen **ZIP** biçimini kullan. Çok büyük dosyalar için bulut bağlantısı gönder; bağlantının paylaşım ayarını "bağlantıya sahip herkes" değil, yalnızca alıcıyla sınırla (Hafta 8).
+- **Kapanış ve imza:** "İyi çalışmalar dilerim", "Saygılarımla". Ardından ad soyad, program, kurum. E-posta programında bir **imza** tanımlarsan her mesajın altına kendiliğinden eklenir.
+
+Bütün parçalar bir arada (adlar kurgusal):
+
+```text
+Kime:  (öğretim görevlisinin kurumsal adresi)
+Konu:  BIT dönem projesi: teknik rapor taslağı, Ece Yıldız (2. şube)
+
+Sayın Öğr. Gör. Arslan,
+
+Temel Bilgi Teknolojileri dersinin 2. şubesinden Ece Yıldız'ım.
+Dönem projemin teknik rapor taslağını ekte gönderiyorum.
+
+Bulgular bölümündeki tabloyu doğru yorumlayıp yorumlamadığımdan
+emin değilim. Bu bölüm hakkında görüşünüzü 20 Ekim'e kadar
+alabilirsem sevinirim.
+
+Ek: 2026-10-15_ece-yildiz_teknik-rapor_v2.pdf
+
+İyi çalışmalar dilerim.
+
+Ece Yıldız
+(program adı), 1. sınıf
+İstanbul Üniversitesi-Cerrahpaşa
+```
+
+### Yanıtla, tümünü yanıtla, ilet
+
+**Yanıtla** yalnızca gönderene, **Tümünü yanıtla** bütün alıcılara gider. Kırk kişilik bir duyuruya "Teşekkürler" diye tümünü yanıtlamak kırk gelen kutusunu doldurur; tümünü yanıtla yalnızca herkesin bilmesi gereken bir şey yazıyorsan kullanılır. **İlet** (forward) bir e-postayı başka birine gönderir. İletmeden önce içinde başkasının kişisel bilgisi ya da kendisine yazılmış özel bir not olup olmadığına bak. İlettiğin mesajın başına bir iki cümleyle neden ilettiğini yaz; "Bilginize" (İngilizce kısaltması FYI, for your information) "yalnızca haberin olsun" demektir, "gereğini yap" değil.
+
+E-posta kalıcıdır. Silsen bile alıcının kutusunda, sunucularda ve ekran görüntülerinde kalabilir; iletilebilir. Öfkeyle yazdığın bir e-postayı hemen gönderme; taslaklara kaydet ve bir süre sonra yeniden oku. Birçok program gönderimi birkaç saniye geri almana ya da bir e-postayı sonra gönderilmek üzere zamanlamana izin verir.
+
+Son bir bağ: Hafta 9'da oltalama mesajlarının işaretlerini gördün. Kendi e-postan o işaretleri taşımamalı. Kurumsal adresinden yaz, açık bir konu satırı kullan, beklenmedik ya da açıklamasız bir ek ya da bağlantı gönderme. İyi yazılmış bir e-posta alıcısına güven verir; aceleyle yazılmış bir e-posta ise sahtesinden ayırt edilemeyebilir.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Gizli (BCC) alanındaki kişi her durumda gizli kalır." Yarı gerçek. Diğer alıcılar onun adresini görmez. Ama Gizli alandaki kişi "Tümünü yanıtla"ya basarsa yanıtı Kime ve Bilgi alanlarındaki herkese gider ve o e-postayı aldığı ortaya çıkar. Gizli alana yazdığın kişilere bunu bilmeleri gerekiyorsa ayrıca söyle; Gizli alanda olduğun bir e-postaya da tümünü yanıtla deme.
+:::
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Geri okuma"}
+Havacılıkta yanlış anlaşılan bir mesajın bedeli yüksek olduğu için telsiz iletişimi kurallıdır. Pilot, kuleden aldığı bir talimatı (pist, irtifa, frekans) aynen geri okur (readback); kule de geri okunanı dinleyip doğru olduğunu kontrol eder (hearback). Standart ifadeler kullanılır, her mesaj tek bir işe odaklanır. Bakımda vardiya devir teslimi de aynı mantıkla yürür: yarım kalan iş, açık kalan kart, dikkat edilecek nokta açıkça söylenir ve yazılır. Kurumsal e-postadaki karşılıkları açık bir konu satırı, tek amaçlı bir gövde, açıkça yazılmış bir talep ve tarihtir. Önemli bir talimatta "Aldığınızı teyit eder misiniz?" demek de e-postanın geri okumasıdır.
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bir öğretim görevlisine ya da bir kuruma en son yazdığın mesajı bul. Konu satırı, hitap, kendini tanıtma, açık talep ve imza ölçütlerinden kaçını karşılıyor? Alıcı onu oltalama sanabilir miydi?
+:::
+
+## 8. Okunur yazmak: düzen ve dil (okuma)
+
+Bir belgenin ilk okuru gözdür; göz metni okumadan önce sayfanın düzenini görür. **Tipografi**, yazının okunur ve anlaşılır olması için yazı tiplerinin ve sayfa düzeninin seçilmesidir. Birkaç ilke çoğu belgeyi iyileştirir:
+
+- **Az yazı tipi:** Bir belgede bir, en fazla iki yazı tipi yeter: biri metin, biri başlıklar için. Her başlıkta farklı bir yazı tipi, düzen değil gürültü üretir.
+- **Okunur boyut ve satır aralığı:** Ekranda ve kâğıtta metin için 11–12 punto ve yaklaşık 1,15–1,5 satır aralığı çoğu belgede rahat okunur. Kurumunun yazım kılavuzu farklı bir değer istiyorsa ona uy.
+- **Beyaz alan:** Boşluk israf değildir. Kenar boşlukları ve paragraflar arasındaki boşluk, gözün dinlenmesini ve bölümlerin ayrılmasını sağlar. Paragraf arasını boş satırla değil, stilin "paragraftan sonra" boşluğuyla ver.
+- **Hizalama:** Metni sola yaslamak çoğu zaman en kolay okunan seçenektir. İki yana yaslamak düzgün görünür, ama kelimeler arasında açılan büyük boşluklar okumayı zorlaştırabilir.
+- **Vurgu az olursa işe yarar:** Her şey kalın ve altı çizili olursa hiçbir şey öne çıkmaz.
+
+Düzen kadar dil de okunurluk demektir. Kısa cümleler, bilinen kelimeler, etken çatı ("Teknisyen vidayı sıktı", "Vida sıkıldı" değil) ve paragraf başına tek bir fikir, bir metni daha hızlı ve daha az hatayla anlaşılır kılar. Fransız pilot ve yazar Antoine de Saint-Exupéry 1939'da şöyle yazmıştı: "Mükemmelliğe, eklenecek bir şey kalmadığında değil, çıkarılacak bir şey kalmadığında ulaşılır." İyi bir rapor da iyi bir e-posta da böyledir.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Basitleştirilmiş Teknik İngilizce"}
+Havacılık bakım dokümanları dünyanın her yerinde, ana dili İngilizce olmayan teknisyenler tarafından da okunur; bir cümlenin iki anlama gelmesi hatalı bir bakım demek olabilir. Bu yüzden birçok üretici teknik dokümanlarını **Basitleştirilmiş Teknik İngilizce** (ASD-STE100) ile yazar. Bu kontrollü dilde her kelimenin onaylı tek bir anlamı vardır; işlem cümleleri kısa tutulur (en fazla yaklaşık 20 kelime), etken çatı kullanılır ve her cümlede tek bir talimat verilir. Bir görev kartındaki "Remove the panel" talimatı, "Panelin çıkarılmasının ardından gerekli kontroller yapılabilir" gibi bir cümleden çok daha az yanlış anlaşılır. Türkçe bir rapor yazarken de aynı ilkeleri kullanabilirsin.
+:::
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+Helvetica (2007): Tek bir yazı tipinin hikâyesi üzerinden, her gün gördüğümüz tabelaların, logoların ve belgelerin nasıl tasarlandığını anlatan belgesel. İzledikten sonra kampüsteki tabelalara ve duyurulara bir de bu gözle bak.
+:::
+
+## 9. Daktilodan yapay zekâlı editöre (okuma)
+
+Bugün sıradan saydığımız bir şey, bir zamanlar bilim kurguydu: Yazdığın metni yazdırmadan önce ekranda düzeltebilmek. Daktiloda bir sayfanın ortasındaki hatayı düzeltmek için sayfayı baştan yazmak gerekebilirdi. 1970'lerde ilk kelime işlemciler metni ekranda düzeltip sonra yazdırmayı mümkün kıldı. 1974'te Xerox'un araştırma merkezinde geliştirilen Bravo adlı program, ekranda gördüğünü kâğıtta da almayı (WYSIWYG, "what you see is what you get") sağlayan ilk programlardandı. Bravo'yu geliştirenlerden Charles Simonyi daha sonra Microsoft'a geçti ve Word'ün ilk sürümünün (1983) geliştirilmesine öncülük etti. Kişisel bilgisayarlarda WordStar ve WordPerfect gibi programlar yaygınlaştı; 2000'lerde belgeler buluta taşındı ve aynı belgeye aynı anda birden çok kişi yazmaya başladı. 2020'lerde ise kelime işlemciye bir yapay zekâ yardımcısı eklendi.
+
+Bu tarihin bir dersi de dosya biçimleridir. Uzun yıllar Word'ün `.doc` biçimi kapalıydı; başka programlar onu ancak tahminle açabiliyordu. Bugün Word'ün `.docx` biçimi de LibreOffice'in `.odt` (OpenDocument) biçimi de belgelenmiş, açık standartlardır. Bir belgenin yirmi yıl sonra da açılabilmesini istiyorsan açık bir biçimde ya da arşiv için tasarlanmış PDF/A biçiminde saklamak iyi bir alışkanlıktır.
+
+Her şeyin bir alternatifi var:
+
+::: {.tablo-kaydir}
+| Seçenek | Ücret | Not |
+|---|---|---|
+| Microsoft Word | Microsoft 365 aboneliğiyle; web sürümü Microsoft hesabıyla ücretsiz ama sınırlı | Kurumlarda en yaygın olanı; üniversite hesabınla erişimin olabilir |
+| Google Dokümanlar | Ücretsiz (Google hesabıyla) | Tarayıcıda çalışır; eşzamanlı çalışmada güçlü |
+| LibreOffice Writer | Ücretsiz, açık kaynak | Bilgisayara kurulur; internetsiz çalışır |
+| ONLYOFFICE | Ücretsiz sürümü var, açık kaynak | Word dosyalarıyla uyumu iyi |
+| Apple Pages | Apple cihazlarda ücretsiz | Başkasına gönderirken PDF ya da DOCX'e çevrilmesi gerekir |
+:::
+
+Programlar ve planları sık değişir; güncel karşılaştırma için [Ek C](../ekler/c_alternatifler.qmd). Hangi programı seçersen seç, bu haftanın asıl kazanımı programdan bağımsızdır: Belgeyi stillerle kur, değişikliği izlenebilir tut, teslimden önce denetle.
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: Ödevlerini, dönem projenin teknik raporunu ve özgeçmişini daha kısa sürede ve düzgün hazırlarsın; öğretim görevlisine ve staj yerine doğru bir e-postayla yazarsın. Orta vadede: İş yerinde rapor, dilekçe ve form şablonlarıyla çalışır, başkalarının belgelerini izlenebilir biçimde düzeltirsin. Uzun vadede: Yazılı iletişimin, kim olduğunu tanımayan birinin seni tanıdığı ilk yer olur; YZ'yi yazının yerine değil yanına koyan biri olursun.
+:::
+
+## Akılda kalsın
+
+- **Biçimlendirme değil, yapı.** Başlıklara stil ver; içindekiler, sayfa numaraları ve resim yazıları programdan gelsin. İçindekilerde görünmeyen başlık, stili olmayan başlıktır.
+- **Yeni sayfa Enter'la açılmaz.** Sayfa sonu yeni sayfayı, bölüm sonu farklı bir sayfa düzenini başlatır; numaralar elle yazılmaz, alan olarak eklenir.
+- **Değişiklik izlenebilir olmalı.** Başkasının belgesinde değişiklikleri izle ve yorum kullan; YZ'nin düzelttiği metni de karşılaştırıp tek tek kabul et ve beyan et.
+- **Teslimden önce üç denetim:** yazım, erişilebilirlik (alternatif metin, başlıklar, kontrast) ve belge denetimi (yorumlar, değişiklikler, üst veri). Okunacak belge PDF, birlikte çalışılacak belge DOCX.
+- **E-posta dijital antetli kâğıttır.** Açık konu satırı, doğru alıcı alanları, saygılı hitap, tek amaçlı gövde, anlamlı adlı ek ve imza.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: kelime işlemci, stil, başlık düzeyi, gezinti bölmesi, otomatik içindekiler, sayfa sonu, bölüm sonu, üst bilgi, alt bilgi, resim yazısı, kaynakça yöneticisi, dipnot, son not, değişiklikleri izle, yorum, şablon, revizyon çubuğu, DOCX, PDF, dijital erişilebilirlik, alternatif metin, belge denetimi, karartma, netiket, konu satırı, Kime alanı, Bilgi alanı (CC), Gizli alan (BCC), tümünü yanıtla, e-posta imzası, geri okuma, tipografi, Basitleştirilmiş Teknik İngilizce, WYSIWYG, açık standart.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="C" data-explain="Alternatif metin, resmin ne gösterdiğini anlatır ve ekran okuyucu tarafından seslendirilir. Resim yazısı herkesin gördüğü numaralı açıklamadır; resmi göremeyen biri için resmin içeriğini anlatmaz."}
+**1.** Ekran okuyucu kullanan bir okurun, rapordaki bir grafiğin ne gösterdiğini öğrenebilmesi için resme ne eklenir?
+
+- A\) Numaralı resim yazısı
+- B\) Dipnot
+- C\) Alternatif metin
+- D\) Üst bilgi
+- E\) Kaynakça kaydı
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Bir stil değiştirildiğinde o stili kullanan bütün metinler aynı anda değişir. Belgenin tamamını seçmek normal metni de değiştirir; içindekileri güncellemek görünüşü değiştirmez."}
+**2.** Raporundaki bütün ana başlıklara "Başlık 1" stili uygulanmış. Hepsinin yazı tipini ve rengini tek seferde değiştirmenin yolu hangisidir?
+
+- A\) Başlıkları tek tek seçip yazı tipini elle değiştirmek
+- B\) Belgenin tamamını seçip yazı tipini değiştirmek
+- C\) Başlıkları silip yeni yazı tipiyle yeniden yazmak
+- D\) İçindekiler tablosunu güncellemek
+- E\) "Başlık 1" stilini değiştirmek
+:::
+
+::: {.quiz-q data-answer="B" data-explain="İyi bir konu satırı dersi, işin ne olduğunu ve göndereni açmadan söyler. Diğerleri ya boş ya genel ya da ne istendiğini göstermiyor."}
+**3.** Dönem projenin rapor taslağını öğretim görevlisine göndereceksin. En uygun konu satırı hangisidir?
+
+- A\) Merhaba hocam, ödevim hakkında
+- B\) BIT dönem projesi: rapor taslağı, Ece Yıldız (2. şube)
+- C\) ÖNEMLİ!!! Ödev hakkında acil bilgi
+- D\) (konu satırı boş bırakılır, açıklama gövdededir)
+- E\) Hocam merhaba, rapor_son_son.docx dosyası ektedir, bakar mısınız
+:::
+
+::: {.quiz-q data-answer="A" data-explain="Resim yazısının numarası bir alandır; araya yeni bir tablo eklenince sonrakiler kendiliğinden yeniden numaralanır. Elle yazılan numaraları ise tek tek düzeltmek gerekir."}
+**4.** Raporunda "Tablo 1"den "Tablo 6"ya kadar numaralanmış tablolar var. Araya yeni bir tablo ekleyeceksin ve sonraki numaraların kendiliğinden kaymasını istiyorsun. Tablo numaraları baştan nasıl eklenmiş olmalıydı?
+
+- A\) Resim yazısı olarak, numarası programın ürettiği bir alanla
+- B\) Tablonun ilk hücresine elle yazılmış bir numarayla
+- C\) Tablonun üstüne kalın ve büyük yazılmış bir başlıkla
+- D\) Her tablonun altına eklenmiş bir dipnot numarasıyla
+- E\) Üst bilgiye yazılmış ve her sayfada tekrarlanan bir numarayla
+:::
+
+::: {.quiz-q data-answer="D" data-explain="PDF'e çevirmek yorumları, izlenen değişiklikleri ve üst veriyi kendiliğinden temizlemez. Önce değişiklikler kabul ya da reddedilir, yorumlar silinir, belge denetimiyle gizli bilgiler temizlenir; sonra PDF alınır."}
+**5.** Ekip arkadaşlarınla değişiklikleri izle ve yorumlarla hazırladığınız raporu bir müşteri kuruma göndereceksin. Belgede hâlâ yorumlar ve kabul edilmemiş değişiklikler var. Hangisi en doğru yaklaşımdır?
+
+- A\) Belgeyi olduğu gibi PDF'e çevirmek; PDF yorumları ve üst veriyi kendiliğinden siler
+- B\) Belgeyi DOCX olarak göndermek; müşteri değişiklikleri görürse ekibin çalışma sürecini daha iyi anlar
+- C\) Yorumları beyaz renge boyayıp görünmez yapmak ve ardından belgeyi kaydetmek
+- D\) Değişiklikleri kabul ya da reddetmek, yorumları silmek, belge denetimi yapıp PDF almak
+- E\) Yalnızca dosya adını değiştirip sürüm numarasını kaldırmak ve öyle göndermek
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-C, 2-E, 3-B, 4-A, 5-D.
+:::

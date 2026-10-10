@@ -12,6 +12,8 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | ACARS (4) | Uçak ile yer arasında kısa veri mesajları taşıyan sistem; arıza mesajları bakım ekibine bu yolla ulaşabilir |
 | Açık kaynak (3) | Kaynak kodu herkese açık, lisansına göre incelenip değiştirilebilen yazılım |
 | Açık rıza (8) | Belirli bir konuya ilişkin, bilgilendirilmeye dayanan ve özgür iradeyle verilen izin; KVKK'daki işleme şartlarından yalnızca biridir |
+| Açık standart (10) | Herkesin inceleyip kullanabileceği biçimde belgelenmiş dosya ya da iletişim biçimi; DOCX ve ODT belge biçimleri buna örnektir |
+| Açılır liste (11) | Veri doğrulamayla bir hücreye yalnızca listeden seçilen değerlerin girilmesini sağlayan kural |
 | Adil kültür (7) | Hatayı ve tehlikeyi bildireni cezalandırmayan, ama kasıt ve ağır ihmali korumayan güvenlik kültürü (just culture) |
 | ADS-B (4) | Uçağın konumunu, irtifasını ve hızını düzenli olarak yayınladığı gözetim sistemi |
 | Aile parolası (9) | Ailece önceden belirlenen ve yalnızca aile bireylerinin bildiği kelime; sesi ya da görüntüsü taklit edilen birini doğrulamaya yarar |
@@ -22,44 +24,65 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Algoritma (1) | Bir sorunu çözmek için izlenen, sırası belli adımlar dizisi |
 | Algoritmik önyargı (8) | Bir algoritmanın belirli grupları sistematik olarak dezavantajlı duruma düşürmesi; çoğu zaman geçmiş veriden ya da vekil değişkenlerden kaynaklanır |
 | Alıntı (5) | Başkasının cümlesini aynen, tırnak içinde ve kaynağıyla kullanmak |
+| Alt bilgi (10) | Bir belgede her sayfanın en altında tekrarlanan alan (footer); sayfa numarası çoğu zaman buradadır |
+| Alternatif metin (10) | Bir resmin ne gösterdiğini bir iki cümleyle anlatan, ekran okuyucunun seslendirdiği metin (alt text) |
 | Amara yasası (1) | Teknolojinin kısa vadeli etkisini abartıp uzun vadeli etkisini küçümseme eğilimi |
+| Ana mesaj (13) | Dinleyicinin sunumdan çıkarken aklında kalması istenen tek cümle |
 | Analog (2) | Kesintisiz değişen; arada atladığı değer olmayan (cıvalı termometre gibi) |
 | Analog-dijital dönüştürücü, ADC (2) | Analog bir sinyali örnekleyip sayıya çeviren devre; tersi dijital-analog dönüştürücüdür (DAC) |
+| Animasyon (13) | Bir slaytın içindeki öğenin ekrana geliş ya da hareket efekti; yalnızca bir amaca hizmet ettiğinde kullanılır |
 | Anonimleştirme (8) | Verinin hiçbir şekilde bir kişiyle ilişkilendirilemeyecek hale getirilmesi; gerçekten anonim veri kişisel veri sayılmaz |
 | AOSP (3) | Android'in açık kaynak çekirdek projesi (Android Open Source Project) |
+| Araç esnekliği (13) | Alışılmış bir programa bağlı kalmadan, kavramlardan yola çıkarak yeni bir araç ya da arayüzde hızla yol bulabilme becerisi |
+| Aralık (11) | Elektronik tabloda yan yana hücrelerden oluşan dikdörtgen blok (B2:B121 gibi) |
 | Arama motoru (5) | Web'deki sayfaları tarayıp dizinleyen ve aramaya göre sıralayan hizmet |
 | Arama operatörü (5) | Aramayı daraltan özel ifade ("...", -, OR, site:, filetype:) |
 | ARINC 429 (2) | Uçak sistemleri arasında veriyi 32 bitlik kelimelerle taşıyan veri yolu standardı |
+| Arızalar arası ortalama süre, MTBF (12) | Bir parçanın toplam çalışma süresinin arıza sayısına bölünmesiyle bulunan güvenilirlik ölçüsü (mean time between failures) |
 | ARM (2) | Telefonlarda başlayıp dizüstülere yayılan, az enerji harcayan işlemci mimarisi |
 | ARPANET (4) | 1969'da ABD'de kurulan, internetin öncüsü olan araştırma ağı |
+| Asansör konuşması (13) | Bir fikri yarım dakika ile bir dakika arasında anlatan çok kısa konuşma (elevator pitch) |
 | ASCII (2) | 7 bitle 128 karakteri kodlayan karakter tablosu (1963); Türkçe harfleri içermez |
+| ATA bölüm numarası (11) | Uçak sistemlerini dünya genelinde aynı numarayla gösteren standart kodlama (örneğin ATA 32 iniş takımı) |
 | Atıf (5) | Bir bilginin, fikrin, cümlenin ya da eserin hangi kaynaktan alındığını belirtmek; lisanslı bir eserde dört parçalıdır: eser, yazar, kaynak, lisans |
 | Aydınlatma metni (8) | Veri sorumlusunun kim olduğunu, verinin hangi amaç ve hukuki sebeple işlendiğini, kimlere aktarıldığını ve ilgili kişinin haklarını bildiren metin; rıza yerine geçmez |
 | Aygıt sürücüsü (3) | İşletim sistemi ile belirli bir donanım arasında çevirmenlik yapan yazılım |
+| Aykırı değer (12) | Diğer değerlerden çok uzak duran değer; ortalamayı etkiler, silinmez ama yorumda belirtilir |
+| Ayraç (11) | Düz metin dosyalarında değerleri birbirinden ayıran karakter: virgül, noktalı virgül, sekme (delimiter) |
+| Bağımsız değişken (12) | Bir işleve verilen girdi; Türkçe Excel'de noktalı virgülle ayrılır (argument) |
 | Bant genişliği (4) | Bir bağlantının saniyede taşıyabildiği veri miktarı; hız |
 | Barometrik altimetre (4) | Dış hava basıncını ölçerek irtifayı hesaplayan uçak aleti |
+| Basitleştirilmiş Teknik İngilizce, STE (10) | Havacılık teknik dokümanlarında kullanılan, kelimeleri tek anlamlı ve cümleleri kısa olan kontrollü dil (ASD-STE100) |
+| Başlık düzeyi (10) | Başlıkların iç içe ağaç yapısındaki yeri: Başlık 1 ana bölüm, Başlık 2 onun alt bölümüdür |
 | Bayt (2) | Sekiz bitten oluşan veri birimi; 256 farklı değer gösterebilir |
 | Beceri (1) | Bir aracı ya da yöntemi kullanabilme |
 | Beceri körelmesi (6) | Sürekli bir araca bırakılan becerinin zamanla zayıflaması |
+| Belge denetimi (10) | Bir belgeyi paylaşmadan önce yorumları, izlenen değişiklikleri, gizli metni ve üst veriyi bulup temizlemek |
 | Beygir gücü (1) | James Watt'ın tanımladığı güç birimi; yaklaşık 745,7 watt |
 | BIOS ve UEFI (3) | Bilgisayar açılırken donanımı kontrol edip işletim sistemini başlatan yazılım; UEFI, BIOS'un yeni nesil karşılığıdır |
 | BITE (2) | Built-in test equipment; uçak sistemlerinin kendi kendini test etmesini sağlayan donanım |
 | Bilgelik (1) | Bilgiyi deneyim ve değerlendirmeyle birleştirip doğru kararı verebilme |
 | Bilgi (1) | Enformasyonun yorumlanıp anlam kazanmış hali |
+| Bilgi alanı, CC (10) | E-postada bilgisi olması gereken ama kendisinden eylem beklenmeyen alıcıların yazıldığı alan (carbon copy) |
 | Bilgi güvenliği (9) | Bilgiyi ve onu taşıyan sistemleri korumak için alınan önlemlerin bütünü; gizlilik, bütünlük ve erişilebilirlik ilkelerine dayanır |
 | Bilgi işçisi (1) | Elleriyle değil, bilgiyle çalışan kişi (Peter Drucker, 1959) |
 | Bilgi kesim tarihi (6) | Bir dil modelinin eğitim verisinin bittiği tarih; model bu tarihten sonrasını kendiliğinden bilmez |
 | Bilgi toplumu (1) | Bilginin ve verinin temel üretim gücü haline geldiği toplum |
 | Bilgi ve iletişim teknolojileri, BİT (1) | Bilginin üretilmesi, saklanması, işlenmesi ve iletilmesi için kullanılan donanım, yazılım ve ağların tümü |
 | Bilgisayar (1) | Aritmetik ve mantıksal işlem dizilerini otomatik yürütmek üzere programlanabilen makine |
+| Bilgisayarsız sunum (13) | Slayt ya da projeksiyon kullanmadan; tahta, kâğıt tahta, poster, nesnenin kendisi ya da yalnızca konuşmayla yapılan sunum |
 | Bilim (1) | Evreni ve doğayı anlamak için sistematik bilgi üretme çabası |
 | Bilişim (1) | Bilginin, özellikle elektronik makineler aracılığıyla düzenli biçimde işlenmesi; Fransızca "informatique" karşılığı (1971) |
 | Birinci taraf çerezi (8) | Ziyaret edilen sitenin kendi çerezi; oturumu ve sepeti hatırlamak gibi işlere yarar |
 | Birincil kaynak (5) | Bilginin ilk ortaya çıktığı yer (yönetmeliğin metni, araştırmanın makalesi, resmî rapor) |
+| Birleştirilmiş hücre (11) | Birkaç hücrenin tek hücre gibi gösterilmesi; görüntüyü güzelleştirir ama sıralamayı ve analizi bozar |
 | Bit (1) | İkili sayı sisteminde 0 ya da 1 değerini alan, bilginin en küçük birimi |
 | Bit hızı (2) | Bir ses ya da video dosyasının saniyede kullandığı veri miktarı; kbps ile ölçülür |
 | Bluetooth (4) | Birkaç metrelik mesafede cihazları kablosuz bağlayan teknoloji |
 | Botnet (9) | Ele geçirilmiş çok sayıda cihazdan oluşan, uzaktan yönetilen ağ; toplu istenmeyen e-posta göndermek ya da siteleri çökertmek için kullanılır |
+| Bölmeleri dondurma (11) | Kaydırırken başlık satırının ya da sütunun ekranda sabit kalmasını sağlayan ayar |
+| Bölüm sonu (10) | Belgeyi sayfa yapısı, numaralandırması ya da üst ve alt bilgisi farklı olabilen parçalara bölen işaret |
+| Brifing (13) | Bir işten önce ekibi aynı bilgiyle donatan kısa, kalıplı ve tek mesajlı sunum |
 | Brüksel etkisi (7) | AB kurallarının, şirketlerin tek bir kural setiyle çalışmayı tercih etmesi yüzünden dünyanın geri kalanını da etkilemesi |
 | Bulut bilişim (4) | Depolama, yazılım ya da işlem gücünü internet üzerinden başka birinin bilgisayarında kullanmak |
 | Bütünlük (9) | Bilginin yetkisiz biçimde değiştirilmemesi (integrity); CIA üçlüsünün ikinci ilkesi |
@@ -71,15 +94,25 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | CIA üçlüsü (9) | Bilgi güvenliğinin üç temel ilkesi: gizlilik (confidentiality), bütünlük (integrity), erişilebilirlik (availability) |
 | Copyleft (7) | Değiştirilen yazılımın da aynı açık lisansla dağıtılmasını şart koşan yaklaşım; GPL bunun örneğidir |
 | Creative Commons, CC (7) | Eser sahibinin hangi kullanımlara izin verdiğini gösteren hazır lisanslar; BY, SA, NC ve ND öğelerinden oluşur |
+| CSV (11) | Tabloyu, değerleri bir ayraçla ayrılmış düz metin satırları olarak saklayan dosya biçimi (comma-separated values); formül ve biçim taşımaz |
+| Çalışma kitabı (11) | Elektronik tablo dosyasının kendisi; bir ya da birden çok çalışma sayfası içerir (workbook) |
+| Çalışma sayfası (11) | Çalışma kitabının içindeki her bir sekme (worksheet) |
+| Çapraz ara, ÇAPRAZARA (12) | Bir değeri bir sütunda arayıp bulduğu satırdaki başka bir sütunun değerini getiren işlev (XLOOKUP) |
 | Çekirdek (3) | İşletim sisteminin donanımla doğrudan konuşan, en ayrıcalıklı katmanı |
 | Çerez (8) | Bir sitenin tarayıcıya bıraktığı, kullanıcıyı ya da tercihlerini hatırlamaya yarayan küçük metin dosyası (cookie) |
+| Çizgi grafik (12) | Bir değerin zamanla nasıl değiştiğini gösteren grafik |
+| Çok eğer say, ÇOKEĞERSAY (12) | Birden çok koşula birlikte uyan kayıtları sayan işlev (COUNTIFS) |
 | Çok faktörlü doğrulama, MFA (9) | Parolaya sahip olunan bir şeyi (telefon, güvenlik anahtarı) ya da biyometrik bir özelliği ekleyen giriş yöntemi |
 | Çok kipli model (6) | Metin, görsel ve ses gibi farklı türdeki veriyi birlikte işleyebilen model |
 | Çoklu buluş (1) | Aynı buluşun birbirinden habersiz kişilerce neredeyse aynı anda yapılması |
+| Çoklu ortamla öğrenme (13) | Kelime ve görselin birlikte kullanıldığı öğrenme; Mayer'in ilkeleri slayt tasarımına yol gösterir |
 | Çözünürlük (2) | Bir görüntünün kaç pikselden oluştuğu (örnek: 1920 × 1080) |
+| Çubuk grafik (12) | Kategorileri karşılaştırmak için kullanılan, değerleri çubuk uzunluğuyla gösteren grafik |
+| Dağılım grafiği (12) | İki sayısal değişkenin birlikte nasıl değiştiğini noktalarla gösteren grafik |
 | Dağıtım (3) | Linux çekirdeğinin üzerine masaüstü, uygulama ve araçlar eklenerek hazırlanmış işletim sistemi (Ubuntu, Pardus gibi) |
 | Darboğaz (2) | Bir sistemin hızını sınırlayan en yavaş halka |
 | Deepfake (5) | Yapay zekâyla üretilmiş ya da değiştirilmiş, gerçek gibi görünen video, ses ya da görüntü |
+| Değişiklikleri izle (10) | Bir belgedeki ekleme, silme ve biçim değişikliklerini yapanıyla birlikte işaretleyen ve tek tek kabul ya da reddetmeyi sağlayan özellik (track changes) |
 | Depolama (2) | Dosyaların kalıcı olarak saklandığı birim (SSD ya da HDD) |
 | Derin öğrenme (6) | Makine öğrenmesinin çok katmanlı yapay sinir ağları kullanan alt alanı |
 | Destek ömrü (3) | Bir işletim sisteminin ya da cihazın güvenlik güncellemesi aldığı süre |
@@ -89,6 +122,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Dijital (2) | Kesikli; belirli adımlarla ve sayılarla ifade edilen |
 | Dijital ayak izi (7) | İnternette yapılan her şeyin bıraktığı izlerin toplamı; aktif ve pasif olmak üzere ikiye ayrılır |
 | Dijital dayanıklılık (9) | Bir saldırı ya da kesinti olduğunda az etkilenme ve çabuk toparlanma yeteneği; yedek, plan ve alternatiflerle kurulur |
+| Dijital erişilebilirlik (10) | Bir belgenin ya da sitenin engelli bireyler dahil herkes tarafından kullanılabilmesi; bilgi güvenliğindeki erişilebilirlik ilkesinden farklıdır |
 | Dijital Hizmetler Yasası, DSA (7) | AB'de platformların yasa dışı içerik, şeffaflık ve küçüklerin korunmasıyla ilgili yükümlülüklerini düzenleyen yasa |
 | Dijital ikiz (1) | Fiziksel bir nesnenin ya da sistemin, gerçek veriyle güncellenen sanal kopyası |
 | Dijital itibar (7) | İnsanların bir kişiyi internette arattığında gördüklerinin oluşturduğu izlenim |
@@ -97,14 +131,28 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Dijital vatandaşlık (7) | Dijital dünyada haklarını bilerek ve sorumluluklarını üstlenerek davranmak |
 | Dikkat ekonomisi (7) | Kullanıcının dikkatinin kıt bir kaynak olarak görüldüğü ve platformların onu reklama dönüştürmek için yarıştığı düzen |
 | Dinamik fiyatlama (8) | Fiyatın talebe, saate ve stoka göre değişmesi; bir adım ötesi kişiye özel fiyattır |
+| Dinleyici analizi (13) | Sunumdan önce dinleyicinin ne bildiğini, ne istediğini ve ondan ne yapmasının beklendiğini belirlemek |
+| Dipnot (10) | Metindeki bir numaraya bağlı olarak sayfanın altında yer alan ek açıklama (footnote) |
 | Dizinleme (5) | Arama motorunun bulduğu sayfaların içeriğini bir katalog gibi düzenlemesi |
 | DNS (4) | Alan adlarını IP adreslerine çeviren sistem; internetin telefon rehberi |
 | DO-178C (3) | Havacılıkta uçak yazılımlarının geliştirilmesi ve onaylanması için kullanılan standart |
+| DOCX (10) | Word'ün düzenlenebilir belge biçimi; birlikte çalışılacak belgeler için uygundur |
 | Doğrulama platformu (5) | Yaygın iddiaları inceleyip sonuçlarını yayımlayan kuruluş (Teyit, Doğruluk Payı gibi) |
+| Doldurma tutamacı (11) | Seçili hücrenin sağ alt köşesindeki, sürüklenince formülü ya da diziyi komşu hücrelere kopyalayan küçük kare |
+| Dolgu sözcüğü (13) | Konuşmada boşluğu doldurmak için söylenen anlamsız sözcük: "ııı", "yani", "şey" |
 | Dosya uzantısı (3) | Dosya adının noktadan sonraki kısmı; dosyanın hangi programla açılacağını belirtir, içeriği değiştirmez |
 | Doxing (7) | Birinin adres, telefon, okul gibi özel bilgilerini izinsiz yaymak |
+| Düşey ara, DÜŞEYARA (12) | Bir tablonun en soldaki sütununda arama yapıp istenen sütundaki değeri getiren eski arama işlevi (VLOOKUP); tam eşleşme için sonuna YANLIŞ yazılır |
+| Düzen (13) | Bir slaytın içindeki kutuların yerleşimi: başlık slaytı, başlık ve içerik, iki içerik gibi (layout) |
+| Düzenli veri (11) | Her satırın bir kayıt, her sütunun bir değişken, her hücrenin tek bir değer olduğu tablo düzeni (tidy data) |
+| E-posta imzası (10) | E-posta programında bir kez tanımlanan ve her mesajın altına kendiliğinden eklenen ad, program ya da unvan ve kurum bilgisi |
+| EĞER (12) | Bir koşul doğruysa bir, yanlışsa başka bir sonuç döndüren mantıksal işlev (IF) |
+| EĞERHATA (12) | Bir formül hata verirse onun yerine belirlenen değeri gösteren işlev (IFERROR); hatanın nedenini düzeltmez |
+| EĞERSAY (12) | Bir aralıkta koşula uyan hücreleri sayan işlev (COUNTIF) |
 | Eğitim verisi (6) | Bir modelin örüntüleri öğrenmesi için kullanılan büyük veri derlemi |
 | Ekran kartı, GPU (2) | Binlerce basit işlemi aynı anda yapan işlem birimi; görüntü, video ve YZ hesaplarında kullanılır |
+| Ekran paylaşımı (13) | Çevrim içi toplantıda kendi ekranını ya da bir pencereyi katılımcılara göstermek; yalnızca gerekli pencere paylaşılır |
+| Elektronik tablo (11) | Satır ve sütunlardan oluşan bir ızgarada veri saklamaya, düzenlemeye ve hesaplamaya yarayan program (spreadsheet) |
 | Elektronik Uçuş Çantası, EFB (3) | Pilotların harita, el kitabı ve performans hesapları için kullandığı tablet ya da cihaz |
 | En az yetki ilkesi (9) | Bir kişiye, programa ya da YZ ajanına yalnızca işi için gereken erişimi verme ilkesi |
 | Endüstri 4.0 (1) | Siber-fiziksel sistemler, Nesnelerin İnterneti ve veriye dayalı akıllı üretim dönemi |
@@ -114,33 +162,51 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Erişim noktası (4) | Kablosuz (Wi-Fi) yayın yaparak cihazları ağa bağlayan cihaz |
 | Eşzamanlı çalışma (4) | Birden fazla kişinin aynı belgede aynı anda çalışması |
 | Etik (7) | Neyin doğru ve iyi olduğuna dair ilkeler; hukuktan farklı olarak yaptırımı çoğu zaman güven ve itibar kaybıdır |
+| ETOPLA (12) | Koşula uyan kayıtların bir sütundaki değerlerini toplayan işlev (SUMIF) |
 | EXIF (8) | Fotoğraf dosyasının içinde saklanan üst veri: çekim tarihi, cihaz modeli ve konum izni açıksa koordinatlar |
 | Fiber optik kablo (4) | Veriyi ışık olarak taşıyan kablo; kıtalar arası internet trafiğinin büyük kısmı denizaltı fiber kablolarla taşınır |
 | Fidye yazılımı (9) | Dosyaları şifreleyip kilitleyen ve açmak için fidye isteyen kötü amaçlı yazılım (ransomware) |
+| Filtre (11) | Koşula uymayan satırları silmeden geçici olarak gizleyen araç |
 | Filtre balonu (5) | Algoritmaların kişiye yalnızca sevdiğine benzeyen içeriği göstermesiyle oluşan dar bilgi ortamı |
+| Formül (11) | Elektronik tabloda eşittir işaretiyle başlayan hesap talimatı |
+| Formül çubuğu (11) | Seçili hücrenin gerçek içeriğini (değerini ya da formülünü) gösteren alan |
 | FSEK (7) | Fikir ve Sanat Eserleri Kanunu; Türkiye'de telif hakkını düzenler |
 | GDPR (7) | AB'nin Genel Veri Koruma Tüzüğü (2018); kişisel verilerin işlenmesini düzenler |
 | Gecikme (4) | Bir veri paketinin gidip gelme süresi; ping |
+| Geçiş (13) | Bir slayttan ötekine geçerken görülen efekt (transition) |
 | Geçiş anahtarı (9) | Cihazın kilidi açılır gibi (parmak izi, yüz, PIN) giriş yapılan, yalnızca gerçek siteyle çalıştığı için oltalamaya dayanıklı yöntem (passkey) |
 | Gerçek zamanlı işletim sistemi (3) | Görevlerin her seferinde belirli bir süre içinde tamamlanacağını garanti eden işletim sistemi |
 | Geri besleme (2) | Çıkışta ölçülen sonucun yeniden girişe verilerek sistemin kendini düzeltmesi (termostat, otopilot) |
+| Geri okuma (10) | Telsizle alınan bir talimatın gönderene aynen tekrarlanarak doğrulanması (readback) |
+| Gezinti bölmesi (10) | Belgedeki başlıkları bir ağaç gibi listeleyen ve başlığa tıklayınca oraya atlamayı sağlayan bölme |
+| Gizli alan, BCC (10) | E-postada adresleri diğer alıcılara görünmeyen alıcıların yazıldığı alan (blind carbon copy) |
 | Gizlilik (8) | Bilginin yetkisiz kişilerden korunması (confidentiality); bir güvenlik ilkesidir. Günlük dilde ve uygulama ayarlarında mahremiyet anlamında da kullanılır |
+| Gölge pano (11) | Hangarlarda her aletin yerinin çizildiği, eksik aletin hemen görüldüğü alet panosu (shadow board) |
 | Gölge YZ (9) | Kurumun onaylamadığı YZ araçlarının iş verisiyle kullanılması (shadow AI) |
 | Gömülü sistem (2) | Tek bir işe adanmış, kullanıcının yeni program kuramadığı bilgisayar (saat, otomobil, uçak sistemleri) |
+| Göreli başvuru (12) | Formül kopyalanınca satır ve sütunu birlikte kayan hücre başvurusu (B2 gibi) |
 | Gözetim kapitalizmi (8) | İnsan davranışının veri olarak toplanıp davranışı tahmin eden ve yönlendiren ürünlere dönüştürüldüğü ekonomik düzen (Zuboff, 2019) |
 | Grafik arayüz, GUI (3) | Pencere, simge ve fareyle kullanılan arayüz |
 | Halüsinasyon (6) | Yapay zekânın gerçek olmayan bir bilgiyi kendinden emin bir dille üretmesi |
 | Hat değiştirilebilir birim, LRU (2) | Uçakta arızalandığında bütünüyle çıkarılıp yenisi takılabilecek şekilde tasarlanmış birim |
+| Hata değeri (12) | Bir formül hesaplanamadığında hücreye yazılan işaret: #SAYI/0!, #YOK, #DEĞER!, #BAŞV!, #AD? |
 | Hata ödül programı (9) | Şirketlerin, ürünlerindeki güvenlik açıklarını sorumlu biçimde bildirenleri ödüllendirdiği program (bug bounty) |
 | Hava verisi bilgisayarı (2) | Air Data Computer; pitot ve statik basınçtan uçağın hızını ve irtifasını hesaplayan gömülü bilgisayar |
 | HDD (2) | Dönen manyetik plakalarla çalışan sabit disk; ucuz ama yavaş ve darbeye hassas |
+| Hızlı doldurma (11) | Birkaç örnekten örüntüyü tahmin edip sütunun geri kalanını dolduran araç (Flash Fill) |
+| Hikâye akışı (13) | Sunumun sorun, kanıt, öneri ve kapanış gibi bir sırayla kurulması |
 | Hipotez (1) | Bir olguyu açıklayan, test edilebilir öneri |
+| Hizalama (13) | Tasarımda öğelerin ortak çizgilere oturtulması |
 | HTTP (4) | Web'in konuşma dili; tarayıcı ile sunucu arasındaki iletişim kuralı |
 | HTTPS (4) | HTTP'nin şifreli hali; trafiği gizler, ama sitenin güvenilir olduğunu kanıtlamaz |
+| Hücre (11) | Elektronik tabloda bir satır ile bir sütunun kesiştiği kutu |
+| Hücre başvurusu (11) | Hücrenin sütun harfi ve satır numarasından oluşan adresi (B3 gibi) |
+| Hücre biçimi (11) | Bir hücrenin değerini değiştirmeden nasıl gösterileceğini belirleyen ayar: sayı, yüzde, tarih, para birimi |
 | Hücresel ağ (4) | Baz istasyonları üzerinden çalışan mobil iletişim ağı (4.5G, 5G) |
 | IaaS (4) | Hizmet olarak altyapı; sanal sunucu, depolama ve ağın kiralanması |
 | IP adresi (4) | Ağa bağlı bir cihazın sayısal adresi |
 | IPv6 (4) | 128 bitlik adresler kullanan, neredeyse sınırsız adres sağlayan IP sürümü |
+| İddia ve kanıt slaytı (13) | Üstte iddiayı söyleyen tam bir cümle, altında onu destekleyen görsel kanıt bulunan slayt (assertion-evidence) |
 | İkili sistem (1) | Yalnızca 0 ve 1 rakamlarını kullanan sayı sistemi; bilgisayarların temel dili |
 | İkincil kaynak (5) | Birincil kaynaktaki bilgiyi aktaran ya da yorumlayan kaynak (haber, özet) |
 | İlgili kişi (8) | KVKK'da kişisel verisi işlenen gerçek kişi |
@@ -150,24 +216,39 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | İstem enjeksiyonu (9) | YZ'nin okuduğu bir sayfa, e-posta ya da belgeye gizlenen talimatlarla modelin davranışının değiştirilmesi (prompt injection) |
 | İstemci (4) | Bir sunucudan hizmet isteyen bilgisayar ya da program (örneğin tarayıcı) |
 | İsviçre peyniri modeli (9) | Her savunma katmanının delikli bir dilim olduğu, kazanın delikler aynı hizaya gelince oluştuğu model (James Reason) |
+| İşlem önceliği (12) | Bir formülde işlemlerin yapılma sırası: parantez, üs, çarpma ve bölme, toplama ve çıkarma |
 | İşlemci, CPU (2) | Komutları sırayla ve hızla işleyen birim; bilgisayarın genel beyni |
 | İşletim sistemi (3) | Donanım ile kullanıcı ve uygulamalar arasında kaynakları yöneten sistem yazılımı |
+| İşlev (11) | Elektronik tabloda adı olan hazır hesap (TOPLA, ORTALAMA gibi; function) |
 | İzleme pikseli (8) | E-postaya ya da sayfaya gizlenmiş görünmez görsel; yüklendiğinde açılma zamanını ve cihazı göndericiye bildirir |
 | Jailbreak (9) | Bir YZ modelinin güvenlik kurallarını özel olarak hazırlanmış istemlerle aşma girişimi |
 | Kamu malı (7) | Telif süresi dolmuş ya da telif korumasına hiç girmemiş, herkesin serbestçe kullanabildiği eser (public domain) |
 | Karakter kodlaması (2) | Karakterlerin sayılara nasıl çevrileceğini belirleyen kural; uyuşmazlık bozuk karakterlere yol açar |
 | Karanlık örüntü (8) | Kullanıcıyı farkında olmadan belirli bir seçime yönlendiren arayüz tasarımı (dark pattern); örneğin reddetmeyi gizleyen çerez penceresi |
+| Karartma (10) | Bir belgedeki gizli bilginin üstünü kapatmakla kalmayıp onu gerçekten silmek (redaction) |
+| Karma başvuru (12) | Yalnızca satırı ya da yalnızca sütunu sabitleyen hücre başvurusu ($B2 ya da B$2) |
 | Kaynak kodu (3) | Bir yazılımın insanların okuyabildiği komutlardan oluşan metni |
 | Kaynakça (5) | Bir çalışmada kullanılan kaynakların belirli bir biçimde listelenmesi |
+| Kaynakça yöneticisi (10) | Kaynak bilgilerini bir kez kaydedip metin içi atıfları ve kaynakçayı seçilen biçimde kendiliğinden oluşturan araç |
+| Kelime işlemci (10) | Metin yazmak, düzenlemek, biçimlendirmek ve yazdırmak için kullanılan program (word processor) |
+| KIRP (11) | Bir metnin başındaki ve sonundaki fazla boşlukları silen elektronik tablo işlevi (TRIM) |
+| Kırpılmış eksen (12) | Sıfırdan başlamayan ve küçük farkları büyük gösteren grafik ekseni |
 | Kibibayt, KiB (2) | 1.024 bayt; ondalık kilobayttan (1.000 bayt) ayırmak için kullanılan ikili birim |
+| Kime alanı (10) | E-postada asıl muhatabın, yani kendisinden eylem ya da yanıt beklenen kişinin yazıldığı alan (To) |
+| Kirli Düzine (13) | Bakım hatalarına en sık yol açan on iki insan faktörünü hatırlatan liste ve posterler (Dirty Dozen) |
 | Kişisel veri (8) | Kimliği belirli ya da belirlenebilir bir gerçek kişiye ilişkin her türlü bilgi |
 | Komut satırı, CLI (3) | İşlemlerin komut yazılarak yapıldığı arayüz |
+| Kontrast (13) | Tasarımda farklı olanın gerçekten farklı görünmesi; okunurluk için yazı ile zemin arasındaki açıklık-koyuluk farkı |
+| Konu satırı (10) | E-postanın, alıcının açmadan ne olduğunu ve kendisinden ne beklendiğini anlayacağı kısa başlığı |
+| Konuşmacı notları (13) | Slaytın altında yalnızca konuşmacının gördüğü not alanı |
+| Koşullu biçimlendirme (11) | Bir hücrenin görünüşünü değerine göre kendiliğinden değiştiren kural |
 | Kötü amaçlı yazılım (9) | Kullanıcının bilgisi ya da izni olmadan sisteme girip zarar vermek, bilgi çalmak ya da sistemi kontrol etmek için yazılmış program (malware) |
 | Kötü niyetli bilgi (5) | Doğru, ama bir kişiye ya da gruba zarar vermek amacıyla yayılan bilgi (malinformation) |
 | Kural tabanlı sistem (6) | Kararları bir programcının tek tek yazdığı kurallara göre veren sistem |
 | Kuram, teori (1) | Çok sayıda gözlem ve deneyle desteklenmiş, açıklama gücü yüksek bilimsel çerçeve |
 | Kurtarma kodu (9) | Çok faktörlü doğrulamada telefon kaybolursa hesaba girmeyi sağlayan, kâğıtta saklanması önerilen tek kullanımlık kod |
 | KVKK (8) | 6698 sayılı Kişisel Verilerin Korunması Kanunu (2016); Türkiye'de kişisel verilerin işlenmesini düzenler |
+| Kâğıt tahta (13) | Sayfaları çevrilerek üzerine yazılan büyük kâğıt blok (flipchart) |
 | LAN (4) | Yerel alan ağı; bir ev, okul ya da ofisteki ağ |
 | Mahremiyet (8) | Kişinin kendisiyle ilgili bilginin kimle, ne amaçla ve ne kadar süre paylaşılacağına karar verebilmesi (privacy) |
 | Makine (1) | Bir işi yapmak için kuvvet uygulayan ve hareketi kontrol eden fiziksel sistem |
@@ -175,43 +256,62 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Mantık kapısı (2) | Transistörlerden oluşan, 0 ve 1 girişlerine göre 0 ya da 1 çıkış veren temel devre (VE, VEYA, DEĞİL) |
 | Marka (7) | Bir ürünü ya da şirketi ayırt eden ad, logo gibi tescilli işaret |
 | Mavi ekran (3) | Windows'ta çekirdek düzeyinde kurtarılamaz bir hata olduğunda sistemin kendini durdurduğunu gösteren ekran |
+| Mesaj başlığı (12) | Grafiğin ya da slaytın konusunu değil, ne söylediğini tam bir cümleyle yazan başlık |
+| Metin olarak saklanan sayı (11) | Sayı gibi görünen ama program tarafından metin sayılan değer; sola yaslanır ve hesaplara girmez |
+| Metni sütunlara dönüştürme (11) | Tek sütundaki birleşik değerleri bir ayraca göre birden çok sütuna bölen araç |
 | Mikroişlemci (1) | Bir bilgisayarın işlem biriminin tamamını tek bir çipte toplayan entegre devre |
 | Modem (4) | Ev ya da iş yeri ağını servis sağlayıcının hattına bağlayan cihaz |
 | Moore yasası (1) | Bir çipteki transistör sayısının düzenli aralıklarla ikiye katlanacağı öngörüsü (1965) |
+| Mutlak başvuru (12) | Formül nereye kopyalanırsa kopyalansın aynı hücreyi gösteren başvuru ($B$7 gibi) |
 | Nesnelerin İnterneti, IoT (4) | Sensörlü ve gömülü cihazların internete bağlanmasıyla oluşan ağ |
+| Netiket (10) | Çevrimiçi iletişimin görgü kuralları (İngilizce internet ve etiket kelimelerinden) |
 | NFC (4) | Birkaç santimetrelik mesafede çalışan kablosuz iletişim; temassız ödemede kullanılır |
 | Niceleme (2) | Her ölçümün, belirli sayıda bitle yazılabilecek en yakın değere yuvarlanması |
+| NotebookLM (13) | Google'ın, kullanıcının yüklediği kaynaklara dayanarak özet çıkaran, soru cevaplayan ve atıf gösteren YZ aracı |
 | Oltalama (9) | Güvenilir bir kurumu taklit eden sahte bir mesajla kişiyi sahte bir sayfaya çekip bilgilerini ele geçirme (phishing) |
+| Ortalama (12) | Değerlerin toplamının değer sayısına bölünmesi (aritmetik ortalama) |
+| Ortanca (12) | Değerler sıralandığında ortada kalan değer (medyan); aykırı değerlerden az etkilenir |
+| Otomatik içindekiler (10) | Başlık stillerinden ve sayfa numaralarından program tarafından üretilen ve güncellenebilen içindekiler listesi |
 | Oyun bozukluğu (7) | Oyunun kontrol edilemediği, başka her şeyin önüne geçtiği ve en az bir yıl süren durum; Dünya Sağlık Örgütü'nün hastalık sınıflamasındadır |
 | Öneri sistemi (8) | Kullanıcının ya da ona benzeyen kişilerin davranışından yola çıkarak içerik ve ürün öneren algoritma |
 | Öngörücü bakım (1) | Sensör verisinden, çoğu zaman makine öğrenmesiyle, arızayı oluşmadan tahmin etmeye dayanan bakım yaklaşımı |
 | Önyargı (6) | Bir modelin eğitim verisindeki dengesizlikleri öğrenip bazı grupları sistematik olarak farklı değerlendirmesi |
 | Örnekleme (2) | Analog bir sinyalin değerinin belirli aralıklarla ölçülmesi |
 | Özel nitelikli kişisel veri (8) | Açığa çıkması ayrımcılığa yol açabilecek, daha sıkı korunan veri: sağlık, biyometrik ve genetik veri, din, siyasi düşünce, ceza mahkûmiyeti gibi |
+| Özet tablo (12) | Formül yazmadan veriyi seçilen ölçütlere göre gruplayan, sayan, toplayan ya da ortalamasını alan tablo (pivot table) |
 | Özgür yazılım (3) | Kullanıcının yazılımı çalıştırma, inceleme, değiştirme ve paylaşma özgürlüğünü savunan yaklaşım |
 | PaaS (4) | Hizmet olarak platform; uygulama geliştirme ortamının kiralanması |
 | Paket anahtarlama (4) | Verinin küçük paketlere bölünüp farklı yollardan gönderilmesi ve varışta birleştirilmesi |
+| Pano (12) | Birkaç grafik ve göstergeyi tek ekranda toplayan, veri değiştikçe güncellenen görünüm (dashboard) |
 | Parametre (6) | Bir modelin içinde eğitim sırasında ayarlanan sayılar; büyük modellerde milyarlarcadır |
 | Parite biti (2) | Bir veri kelimesinin iletimde bozulup bozulmadığını anlamaya yarayan ek bit |
 | Parola cümlesi (9) | Birbiriyle ilgisiz birkaç kelimeden oluşan, uzun olduğu için güçlü ve akılda kalan parola |
 | Parola yöneticisi (9) | Her hesap için ayrı ve güçlü parolalar üretip şifreli bir kasada saklayan program |
 | Part-IS (9) | EASA'nın, havacılık kuruluşlarının bilgi güvenliği risklerini yönetmesini ve olayları bildirmesini zorunlu tutan kuralları |
 | Pasif ayak izi (7) | Kişi fark etmeden toplanan iz: çerez kayıtları, konum geçmişi, IP adresi, kullanım verisi |
+| Pasta grafik (12) | Bir bütünün parçalara nasıl bölündüğünü gösteren grafik; az sayıda dilimde kullanılır |
 | Patent (7) | Teknik bir buluşa, nasıl çalıştığının açıklanması karşılığında sınırlı bir süre için verilen koruma |
 | Paylaşım izni (4) | Paylaşılan bir dosyada kimin görüntüleyebileceğini, yorum yapabileceğini ya da düzenleyebileceğini belirleyen ayar |
+| PDF (10) | Belgeyi her cihazda aynı görünecek şekilde saklayan dosya biçimi (Portable Document Format); okunacak ve arşivlenecek belgeler için uygundur |
+| Pecha Kucha (13) | Her biri 20 saniye kendiliğinden geçen 20 slaytla yapılan, toplam 6 dakika 40 saniyelik sunum biçimi |
 | Piksel (2) | Ekrandaki görüntüyü oluşturan en küçük nokta |
+| Power Query (11) | Excel'de veri alma ve temizleme adımlarını kaydedip yeni veride yeniden uygulayan araç (Veri Al ve Dönüştür) |
+| PPSX (13) | Açıldığında doğrudan gösteri olarak başlayan PowerPoint dosya biçimi; düzenlemeyi engellemez |
 | Profilleme (8) | Bir kişi hakkındaki verilerden ilgi, davranış ya da özellik tahminleri çıkararak profil oluşturma |
 | Protokol (4) | İki cihaz arasındaki iletişimin kuralları |
 | QR oltalaması (9) | Gerçek bir QR kodun üstüne yapıştırılan sahte kodla kişiyi sahte bir sayfaya yönlendirme |
 | RAM (2) | Çalışan programların ve verilerin geçici olarak tutulduğu hızlı bellek; elektrik kesilince silinir |
 | Reklam kimliği (3) | Telefonun uygulamalara reklam amacıyla verdiği, kullanıcıyı tanımaya yarayan kimlik numarası |
 | Reklam yazılımı (9) | İstenmeyen reklamlar gösteren, tarayıcı ayarlarını değiştiren yazılım (adware) |
+| Resim yazısı (10) | Bir tablonun ya da şeklin numarasını ve kısa açıklamasını taşıyan, numarası kendiliğinden güncellenen satır (caption) |
 | Revizyon (3) | Bir dokümanın onaylı güncel sürümü; havacılıkta yalnızca geçerli revizyon kullanılır |
+| Revizyon çubuğu (10) | Bakım el kitaplarında revize edilen satırların yanına kenar boşluğunda konan dikey çizgi |
 | RGB (2) | Kırmızı, yeşil ve mavi ışığın karışımıyla renk oluşturma yöntemi |
 | QRH (9) | Hızlı başvuru kontrol listesi (Quick Reference Handbook); kokpitte acil ve anormal durumlarda izlenen adımlar |
 | Rootkit (9) | Kendini işletim sisteminin derinlerine gizleyerek varlığını saklayan kötü amaçlı yazılım |
 | SaaS (4) | Hizmet olarak yazılım; tarayıcıdan kullanılan hazır uygulama (Gmail gibi) |
 | Sanayi devrimi (1) | 1760'larda İngiltere'de başlayan, makineleşme ve seri üretim dönemi |
+| Sayfa sonu (10) | Sonraki metnin yeni bir sayfada başlamasını sağlayan görünmez işaret (Ctrl + Enter) |
 | SDK (8) | Uygulamalara gömülen, başka şirketlere ait hazır yazılım parçası (yazılım geliştirme kiti); reklam ve analiz için veri gönderebilir |
 | Senkronizasyon (3) | Bir klasördeki değişikliklerin başka bir cihaza ya da buluta otomatik yansıtılması; yedek değildir |
 | Ses klonlama (9) | Birinin sesini kısa bir kayıttan öğrenip onun ağzından istenen cümleyi söyleten YZ tekniği |
@@ -219,33 +319,52 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | SIFT (5) | Dur, kaynağı araştır, daha iyi kaynak bul, izini sür: dört adımlı doğrulama yöntemi |
 | Sıkıştırma (2) | Dosyayı küçültme; kayıplı (JPEG, MP3) ya da kayıpsız (PNG, ZIP) olabilir |
 | SIM kart değiştirme dolandırıcılığı (9) | Kişinin telefon numarasının saldırganın SIM kartına taşınması; SMS ile gelen doğrulama kodları ele geçirilir |
+| Sıralama (11) | Satırları bir ya da birden çok sütuna göre dizen işlem; bütün tablo birlikte sıralanmalıdır |
 | Siber zorbalık (7) | Dijital araçlarla birine kasıtlı ve tekrarlanan biçimde zarar vermek |
 | Sistem yazılımı (3) | Bilgisayarın çalışmasını ve donanımın yönetilmesini sağlayan yazılım |
+| Slayt ana şablonu (13) | Bir sunumdaki bütün düzenlerin ve slaytların ortak görünümünü belirleyen en üst slayt (slide master; PowerPoint'te Asıl Slayt) |
 | SMS oltalaması (9) | Kısa mesajla yapılan oltalama (smishing); sahte kargo ya da banka mesajları gibi |
 | Solucan (9) | Taşıyıcı dosyaya ve kullanıcı eylemine ihtiyaç duymadan ağ üzerinden kendini çoğaltan kötü amaçlı yazılım (worm) |
+| Son not (10) | Dipnotun sayfanın değil belgenin sonunda toplanan türü (endnote) |
 | Sorumlu bildirim (9) | Bulunan bir güvenlik açığını önce üreticiye bildirip düzeltme için süre tanıdıktan sonra kamuya açıklama |
 | Sosyal mühendislik (9) | İnsanları kandırarak şifre söyletmeyi, bağlantıya tıklatmayı ya da para gönderttirmeyi amaçlayan yöntemlerin bütünü |
 | Sponsorlu sonuç (5) | Arama sonuçlarında para ödendiği için üstte gösterilen reklam |
 | SSD (2) | Veriyi çiplerde tutan, hareketli parçası olmayan hızlı depolama birimi |
+| Stil (10) | Bir metne tek tıklamayla uygulanan, adı olan biçim paketi; başlık stilleri biçimin yanında anlamı da taşır |
 | Sunucu (4) | Ağdaki diğer bilgisayarlara hizmet veren bilgisayar |
+| Sunucu görünümü (13) | Dinleyici yalnızca slaytı görürken konuşmacının notları, sıradaki slaytı ve süreyi gördüğü görünüm (presenter view) |
+| Sunum (13) | Bir kişinin ya da ekibin belirli bir dinleyiciye, sınırlı sürede, belirli bir amaçla bilgi, fikir ya da öneri aktarması |
+| Sunum kaygısı (13) | Topluluk önünde konuşmadan önce ve sırasında yaşanan heyecan ve gerginlik; yaygın ve normaldir, prova ile yönetilir |
 | Sürüm geçmişi (3) | Bir dosyanın önceki sürümlerinin saklanması ve geri getirilebilmesi |
+| Şablon (10) | Yapısı, stilleri ve sabit alanları önceden hazırlanmış, yeni belgelerin başlangıcı olan dosya (template) |
+| Tablo nesnesi (11) | Programın tanıdığı, adı olan, yeni satırları ve formül sütunlarını kendiliğinden kapsayan tablo (Tablo Olarak Biçimlendir) |
 | Takma adlandırma (8) | Kimlik bilgisinin yerine bir kod koymak (pseudonymization); anahtarla geri çözülebildiği için veri hâlâ kişiseldir |
 | Tamir edilebilirlik (2) | Bir cihazın parçalarının değiştirilerek onarılabilme kolaylığı |
 | Tarama (5) | Arama motoru programlarının bağlantıları izleyerek sayfaları bulması |
 | Tarayıcı parmak izi (8) | Tarayıcı ve cihaz ayrıntılarının (çözünürlük, yazı tipleri, saat dilimi) birleşiminden oluşan, kullanıcıyı çerez olmadan tanımaya yarayan iz |
+| Tarih seri numarası (11) | Elektronik tablonun tarihi sakladığı sayı; Excel'de 1 Ocak 1900 günü 1'dir ve her gün bir artar |
 | TCP/IP (4) | İnternetin ortak iletişim protokolleri |
 | Tedarik zinciri saldırısı (9) | Hedefin güvendiği bir tedarikçiyi ya da yazılımı ele geçirip zararlı kodu gerçek bir güncellemenin içinde ulaştırma |
 | Tehdit modeli (8) | Neyi, kimden koruduğunu, tehlikenin olasılığını ve sonucunu düşünerek korunma çabasını önceliklendirme yöntemi |
 | Teknoloji (1) | Bilimsel bilginin pratik sorunlara çözüm bulmak için kullanılması |
+| Tekrarlayan arıza (12) | Aynı uçakta aynı sistemin kısa süre içinde yeniden arızalanması; ilk onarımın sorunu çözmediğinin işareti |
 | Telemetri (3) | İşletim sisteminin ya da uygulamanın üreticisine gönderdiği kullanım ve tanılama verisi |
 | Telif hakkı (7) | Eser sahibinin, eserinin nasıl kullanılacağına karar verme hakkı; eser yaratıldığı anda kendiliğinden doğar |
+| Tema (13) | Renk, yazı tipi ve efektlerden oluşan, bütün sunuma birlikte uygulanan görünüm paketi |
+| Temizlik günlüğü (11) | Veri temizlerken yapılan işlemlerin ve etkilenen kayıt sayılarının yazıldığı kısa kayıt |
+| Tepegöz (13) | Saydam asetat kâğıdına yazılanı perdeye yansıtan projektör (overhead projector) |
 | Ters görsel arama (5) | Bir görseli yükleyerek internette ilk ne zaman ve nerede yayımlandığını bulma |
 | Tersine mühendislik (9) | Bir ürünü ya da yazılımı söküp nasıl çalıştığını anlama; amacına göre meşru ya da kötüye kullanım olabilir |
+| Test durumu (12) | Sonucu önceden bilinen ve bir formülün ya da programın doğru çalışıp çalışmadığını sınamak için kullanılan örnek |
+| Tip eğitimi (13) | Bir bakım teknisyeninin ya da pilotun belirli bir uçak tipine yetkilendirilmek için aldığı eğitim |
+| Tipografi (10) | Yazının okunur ve anlaşılır olması için yazı tiplerinin ve sayfa düzeninin seçilmesi |
 | Token (6) | Dil modelinin metni işlediği parça; bir kelime, kelimenin bir parçası ya da noktalama işareti olabilir |
 | TPM (3) | Şifreleme anahtarlarını güvenle saklayan güvenlik çipi; Windows 11 için gereklidir |
 | Transistör (1) | Elektrik akımını açıp kapatan ya da yükselten yarı iletken bileşen; dijital elektroniğin temel taşı |
+| Trend izleme (12) | Bir parametrenin zamanla değişimini grafikle izleyerek aşınmayı ya da arızayı önceden fark etme yöntemi |
 | Truva atı (9) | Yararlı bir program gibi görünüp kurulunca saldırgana kapı açan kötü amaçlı yazılım (trojan) |
 | Tuş kaydedici (9) | Klavyede basılan her tuşu kaydedip saldırgana gönderen casus yazılım (keylogger) |
+| Tümünü yanıtla (10) | Bir e-postanın yanıtını gönderene ve Kime ile Bilgi alanlarındaki bütün alıcılara gönderen komut |
 | Uçtan uca şifreleme (4) | Verinin gönderenin cihazında şifrelenip yalnızca alıcıda çözülmesi; hizmet sağlayıcı içeriği okuyamaz |
 | Uçuş verisi izleme, FDM (8) | Havayollarının uçuş kayıtlarını düzenli analiz ederek riskli eğilimleri olaydan önce gördüğü program; veriler genellikle takma adlandırılır |
 | Unicode (2) | Dünyadaki hemen bütün yazı sistemlerini ve emojileri kapsayan ortak karakter tablosu |
@@ -257,9 +376,11 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Uygulama yazılımı (3) | Kullanıcının bir işini görmesini sağlayan yazılım (tarayıcı, kelime işlemci, oyun) |
 | Üçüncü taraf çerezi (8) | Ziyaret edilen sayfaya gömülü başka bir şirketin (reklam ağı gibi) çerezi; kullanıcıyı siteler arasında tanır |
 | Üretken yapay zekâ (6) | Metin, görsel, ses, video ya da kod gibi yeni içerik üreten yapay zekâ modelleri |
+| Üst bilgi (10) | Bir belgede her sayfanın en üstünde tekrarlanan alan (header) |
 | Üst veri (8) | Verinin kendisi hakkındaki veri (metadata): kim, kime, ne zaman, nereden |
 | Vekil değişken (8) | Algoritmadan çıkarılan bir bilginin yerine geçebilen değişken (proxy); posta kodunun gelir düzeyini ya da kökeni dolaylı olarak taşıması gibi |
 | Veri (1) | Bağlamı olmayan ham değer |
+| Veri doğrulama (11) | Bir hücreye girilebilecek değerleri sınırlayan ve kurala uymayan girişte uyarı veren araç |
 | Veri ekonomisi (8) | Kişisel verinin toplandığı, alınıp satıldığı, reklama ve kararlara dönüştürüldüğü ekonomik düzen |
 | Veri en azaltma (8) | Yalnızca amaç için gereken veriyi, gerektiği süre işleme ilkesi |
 | Veri ihlali (8) | Kişisel verilerin yetkisiz kişilerin eline geçmesi; veri sorumlusu Kurul'a ve etkilenen kişilere bildirmek zorundadır |
@@ -267,7 +388,10 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Veri merkezi (4) | Bulut hizmetlerinin çalıştığı, binlerce sunucunun bulunduğu tesis |
 | Veri simsarı (8) | Farklı kaynaklardan kişisel veri toplayıp birleştiren ve başka şirketlere satan firma (data broker) |
 | Veri sorumlusu (8) | Kişisel verinin neden ve nasıl işleneceğine karar veren kişi ya da kurum |
+| Veri temizleme (11) | Hatalı, eksik, tutarsız ya da yinelenen kayıtları bulup düzeltme işi |
+| Veri türü (11) | Bir değerin programın gözündeki türü: sayı, metin, tarih ya da mantıksal değer |
 | Virüs (9) | Kendini bir dosyaya ya da programa ekleyen, o dosya çalıştırılınca etkinleşip başka dosyalara bulaşan kötü amaçlı yazılım |
+| VisiCalc (11) | İlk elektronik tablo programı (1979); kişisel bilgisayarların yayılmasında etkili olan ilk "öldürücü uygulama" |
 | von Neumann mimarisi (2) | Program ve verinin aynı bellekte saklandığı, işlemcinin komutları sırayla aldığı bilgisayar düzeni (1945) |
 | VOR (4) | Uçakların seyrüsefer için kullandığı, yerdeki VHF radyo istasyonu |
 | VPN (9) | Trafiği şifreli bir tünelle bir sunucuya taşıyan hizmet; bulunulan ağdan gizler, ama oltalamaya karşı korumaz ve anonim yapmaz |
@@ -275,6 +399,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Wayback Machine (5) | Web sayfalarının geçmişteki hallerini saklayan arşiv |
 | Web (4) | Belgelerin birbirine bağlantılarla bağlandığı, internet üzerinde çalışan hizmet (World Wide Web) |
 | Wi-Fi (4) | Bir ev ya da binada cihazları kablosuz olarak ağa bağlayan teknoloji |
+| WYSIWYG (10) | "Ne görüyorsan onu alırsın" (what you see is what you get); ekranda görülen düzenin çıktıda da aynı olması |
 | x86 (2) | Masaüstü ve dizüstü bilgisayarlarda uzun süre baskın olan işlemci mimarisi (Intel, AMD) |
 | Yan yükleme (3) | Bir uygulamayı resmî mağaza dışındaki bir kaynaktan kurmak |
 | Yanal okuma (5) | Bir kaynağı, başka kaynakların onun hakkında söylediklerine bakarak değerlendirmek |
@@ -286,10 +411,15 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Yapay zekâ, YZ (6) | İnsanların zekâ gerektiren işler saydığı görevleri yapabilen bilgisayar sistemlerinin genel adı |
 | Yazılım (3) | Donanıma ne yapacağını söyleyen komutlar bütünü |
 | Yedeklilik (1) | Bir işlevin, ana sistem çökse de sürmesi için bağımsız bir yedekle güvenceye alınması |
+| Yeniden üretilebilirlik (12) | Bir analizin verisi ve yöntemi paylaşıldığında başkası tarafından aynı sonuca ulaşılabilmesi |
+| Yer tutucu (13) | Bir slayt düzenindeki, metin ya da görsel eklemek için ayrılmış kutu (placeholder) |
+| Yerel ayar (11) | Programın ondalık ayırıcı, tarih sırası ve formül ayracı gibi ülke kurallarını belirleyen ayarı (locale) |
 | Yerel model (6) | Kullanıcının kendi cihazında, internete bağlanmadan çalışan yapay zekâ modeli |
 | Yetkinlik (1) | Bilgi, beceri ve tutumun bir görevi başarıyla yapacak şekilde birleşmesi |
+| Yinelenen kayıt (11) | Bir tabloya birden çok kez girilmiş aynı kayıt |
 | Yol (3) | Bir dosyanın sürücü ve klasörlerle birlikte tam adresi |
 | Yorgunluk saldırısı (9) | Parolayı ele geçiren saldırganın art arda onay bildirimi göndererek kullanıcıya "Onayla" dedirtmeye çalışması |
+| Yorum (10) | Bir belgede metni değiştirmeden kenara düşülen not; yanıtlanabilir ve sorun çözülünce kapatılabilir |
 | Yönlendirici (4) | Veri paketlerini doğru hedefe yönlendiren ağ cihazı (router) |
 | Yüz tanıma (8) | Bir kişiyi yüz görüntüsünden tanıyan teknoloji; yüz görüntüsü biyometrik veridir |
 | YZ ajanı (6) | Yalnızca cevap vermekle kalmayıp tarayıcıda gezinmek, dosya açmak gibi işleri kendisi yapan yapay zekâ sistemi |

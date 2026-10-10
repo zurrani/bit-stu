@@ -33,10 +33,10 @@ Bu ders bilgisayar kullanmayı değil, dijital dünyada güvenle düşünmeyi ve
   <li class="hazir"><span class="no">7</span><a href="docs/07_dijital-vatandaslik-hukuk.html">Dijital vatandaşlık ve bilişim hukuku</a><span class="durum">Yayında</span></li>
   <li class="hazir"><span class="no">8</span><a href="docs/08_mahremiyet.html">Mahremiyet: veri, büyük veri ve algoritmalar</a><span class="durum">Yayında</span></li>
   <li class="hazir"><span class="no">9</span><a href="docs/09_siber-guvenlik.html">Siber güvenlik: yapay zekâ çağında tehditler ve dayanıklılık</a><span class="durum">Yayında</span></li>
-  <li><span class="no">10</span><span>Belge tasarımı ve kurumsal yazışma</span><span class="durum">Yakında</span></li>
-  <li><span class="no">11</span><span>Veriyle çalışmak I: tablo mantığı ve veri temizleme</span><span class="durum">Yakında</span></li>
-  <li><span class="no">12</span><span>Veriyle çalışmak II: formül, grafik, yorum</span><span class="durum">Yakında</span></li>
-  <li><span class="no">13</span><span>Sunum ve görsel anlatım</span><span class="durum">Yakında</span></li>
+  <li class="hazir"><span class="no">10</span><a href="docs/10_belge-ve-yazisma.html">Belge tasarımı ve kurumsal yazışma</a><span class="durum">Yayında</span></li>
+  <li class="hazir"><span class="no">11</span><a href="docs/11_veriyle-calismak-1.html">Veriyle çalışmak I: tablo mantığı ve veri temizleme</a><span class="durum">Yayında</span></li>
+  <li class="hazir"><span class="no">12</span><a href="docs/12_veriyle-calismak-2.html">Veriyle çalışmak II: formül, grafik, yorum</a><span class="durum">Yayında</span></li>
+  <li class="hazir"><span class="no">13</span><a href="docs/13_sunum.html">Sunum ve görsel anlatım</a><span class="durum">Yayında</span></li>
   <li><span class="no">14</span><span>Kapanış: 25 yılda ne değişti, nereye gidiyoruz?</span><span class="durum">Yakında</span></li>
 </ol>
 ```

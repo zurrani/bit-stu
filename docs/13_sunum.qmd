@@ -1,0 +1,398 @@
+---
+title: "Sunum ve görsel anlatım"
+subtitle: "Hafta 13"
+description: "Sunum nedir; sunum türleri, bilgisayarlı ve bilgisayarsız sunum; dinleyici ve plan; slayt tasarımı; PowerPoint ve karşılıkları; yapay zekâyla sunum; topluluk önünde ve çevrim içi konuşma; PowerPoint tartışması; programlar ve alternatifler."
+---
+
+```{=html}
+<div class="gorev-karti" role="note" aria-label="Haftanın özeti">
+  <dl>
+    <div><dt>Hafta</dt><dd>13 / 14</dd></div>
+    <div><dt>Okuma süresi</dt><dd>35 dakika</dd></div>
+    <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.2 Paylaşma, 3.1 İçerik geliştirme, 3.3 Telif ve lisanslar, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
+  </dl>
+  <p class="gk-soru"><b>Haftanın sorusu:</b> Dinleyicin sunumundan çıkarken aklında tek bir cümle kalacaksa, o cümle ne olmalı?</p>
+</div>
+```
+
+Uzay mekiği Columbia 16 Ocak 2003'te fırlatılırken, yakıt tankından kopan bir köpük parçası sol kanada çarptı. Görev sürerken mühendisler çarpmanın tehlikeli olup olmadığını inceledi ve sonuçlarını yöneticilere slaytlarla sundu. Slaytlardan birinin başlığı, test verilerinin "temkinli" olduğunu, yani ısı kalkanının dayanacağını söylüyordu. Asıl önemli bilgi ise aynı slaytın en altındaki küçük bir alt maddedeydi: Testlerde kullanılan parçalar, gerçekte çarpan köpükten çok daha küçüktü. 1 Şubat'ta Columbia atmosfere dönerken parçalandı ve yedi astronot hayatını kaybetti. Kaza inceleme kurulu, kurumdaki teknik iletişimin slayt biçimine fazla dayandığını da raporuna yazdı. Bir slayt bir kazaya tek başına neden olmaz. Ama yanlış kurulmuş bir slayt, doğru bilginin doğru kişiye ulaşmasını engelleyebilir. Bu hafta sunumun bir slayt yığını değil, bir mesaj olduğunu göreceksin. Sonra o mesajı hangi araçla, nasıl tasarlayacağını ve bir topluluğun karşısında nasıl anlatacağını öğreneceksin.
+
+**Okuma süresi:** yaklaşık 35 dakika.
+
+**Bu haftanın sonunda şunları yapabileceksin:**
+
+1. Amacı, türü, dinleyiciyi ve ortamı göz önüne alarak tek ana mesajlı bir sunum planlamak; bilgisayarlı ya da bilgisayarsız sunum arasında seçim yapmak.
+2. Mesaj başlığı, kanıt ve temel tasarım ilkeleriyle okunur ve erişilebilir slaytlar hazırlamak.
+3. PowerPoint'te ve karşılığı olan programlarda slayt ana şablonu, düzen, konuşmacı notları ve sunucu görünümüyle tutarlı bir sunum kurmak ve sunumu uygun biçimde paylaşmak.
+4. Yapay zekâ araçlarını sunum hazırlarken sorumlu biçimde kullanmak: kaynağı doğrulamak, mesajı sahiplenmek, beyan etmek.
+5. Topluluk önünde ve çevrim içi ortamda süreye uygun konuşmak, kaygıyı yönetmek ve soruları karşılamak.
+
+Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
+
+## 1. Sunum nedir?
+
+**Sunum** (presentation), bir kişinin ya da ekibin, belirli bir dinleyici topluluğuna, sınırlı bir sürede, belirli bir amaçla bilgi, fikir ya da öneri aktarmasıdır. Tanımdaki her parça önemlidir: Dinleyici yoksa sunum değil, prova; amaç yoksa sohbet; süre sınırı yoksa ders olur. Slayt tanımda yoktur. Sunum slaytsız da yapılabilir; slayt, sunumun aracıdır, kendisi değildir.
+
+Sunumları amaçlarına göre ayırmak, nasıl kuracağını belirler:
+
+::: {.tablo-kaydir}
+| Tür | Amacı | Örnek |
+|---|---|---|
+| **Bilgilendirici** | Dinleyiciye yeni bir bilgi vermek | Yeni yazılımın tanıtımı |
+| **İkna edici** | Bir karar ya da davranış değişikliği istemek | Bütçe önerisi, proje önerisi |
+| **Öğretici** | Bir beceri kazandırmak | Bir cihazın kullanım eğitimi |
+| **Durum raporu** | Bir işin nerede olduğunu ve ne gerektiğini bildirmek | Haftalık proje toplantısı |
+| **Tanıtım** (pitch) | Kısa sürede ilgi uyandırmak | Girişim fikri, iş görüşmesinde kendini tanıtma |
+| **Brifing** | Bir işten önce ekibi aynı bilgiyle donatmak | Vardiya başı, saha çalışması öncesi |
+:::
+
+Bir sunum birden çok türün özelliğini taşıyabilir, ama ana amacını bilmek önemlidir: Bilgilendirici bir sunumun sonunda "anladım", ikna edici bir sunumun sonunda "kabul ediyorum" dedirtmek istersin. Bu ikisi farklı kurgular ister.
+
+### Bilgisayarlı ve bilgisayarsız sunum
+
+Bilgisayarlı sunum (slayt, video, canlı gösterim) görsel ve veri göstermekte güçlüdür; aynı dosya paylaşılabilir, kaydedilebilir ve yeniden kullanılabilir. Ama her ortamda en iyi seçenek değildir. **Bilgisayarsız sunum** araçları hâlâ yaygındır ve bazı durumlarda daha etkilidir:
+
+- **Yazı tahtası ve kâğıt tahta** (flipchart): Düşünceyi dinleyicinin gözü önünde adım adım kurar; bir formülü, bir akışı ya da bir beyin fırtınasını göstermek için idealdir. Elektrik ya da projeksiyon istemez.
+- **Poster:** Bilimsel kongrelerde ve fuarlarda birçok kişiye aynı anda, kendi hızlarında anlatır. İyi bir poster birkaç metreden okunur ve tek bakışta ana bulguyu söyler.
+- **Maket, örnek parça, gerçek cihaz:** Bir şeyin nasıl çalıştığını en iyi o şeyin kendisi gösterir.
+- **Hiçbir araç olmadan konuşmak:** Bir toplantıda söz aldığında, bir iş görüşmesinde ya da bir sahada çoğu zaman yalnızca sesin ve elinde bir kâğıt vardır.
+
+Hangisini seçeceğin üç soruya bağlıdır: **Ortam ne izin veriyor?** (projeksiyon, ışık, gürültü, süre) **Ne göstermem gerekiyor?** (veri ve görsel mi, süreç mi, nesne mi?) **Dinleyici ne yapacak?** (izleyecek mi, katılacak mı, sonra dosyayı okuyacak mı?) İyi bir konuşmacı, projeksiyon çalışmadığında da sunumunu yapabilendir.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Duvardaki on iki tuzak"}
+Birçok bakım hangarının duvarında aynı posterleri görürsün: "Kirli Düzine" (Dirty Dozen). Bunlar bakım hatalarına en sık yol açan on iki insan faktörünü (iletişim eksikliği, dikkat dağınıklığı, yorgunluk, baskı, normlar gibi) tek bakışta hatırlatan posterlerdir. Kanada'da 1990'ların başında bakım personelinin insan faktörleri eğitimi için geliştirildi ve bugün dünyanın birçok yerinde kullanılıyor. Bir projeksiyon perdesinden farklı olarak poster, teknisyenin önünden her geçişinde mesajını yeniden verir. Bu, bilgisayarsız sunumun gücüdür: doğru yerde, sürekli ve tek mesajlı.
+:::
+
+## 2. Dinleyici ve plan
+
+Sunum, dinleyicinin kafasında gerçekleşir. Bu yüzden ilk soru "ne anlatacağım?" değil, **"kime anlatacağım?"** olmalıdır. Topluluklar farklı beklentilerle gelir:
+
+::: {.tablo-kaydir}
+| Topluluk | Beklentisi | Sana düşen |
+|---|---|---|
+| **Küçük grup** (ekip toplantısı) | Etkileşim, hızlı karar | Kısa tut, soruya açık ol, tahtayı kullan |
+| **Büyük salon** | Takip edilebilir, net bir anlatım | Büyük yazı, az ayrıntı, güçlü bir yapı |
+| **Uzman** (teknik ekip) | Yöntem, veri, doğruluk | Kanıtı göster, terimi doğru kullan |
+| **Yönetici** | Sonuç, maliyet, karar | Sonucu en başta söyle, ayrıntıyı ekte tut |
+| **Karma** | Herkesin bir şey alması | Terimi açıkla, örneği somut seç |
+| **Çevrim içi** | Dikkat dağılmadan izlemek | Daha kısa bölümler, daha sık etkileşim |
+:::
+
+**Dinleyici analizi**, sunumu hazırlamadan önce üç soruyu cevaplamaktır: Dinleyici bu konuda **ne biliyor?** (Terimi açıklamalı mıyım?) **Ne istiyor?** (Bir karar mı, bir beceri mi, bir güvence mi?) **Ne yapmasını istiyorum?** (Onaylamasını mı, uygulamasını mı, hatırlamasını mı?) Aynı arıza analizini teknik ekibe yöntemiyle, bütçeyi onaylayacak yöneticiye ise sonucuyla ve maliyetiyle anlatırsın.
+
+### Tek ana mesaj
+
+Haftanın sorusunu sunumun her aşamasında kendine sor: Dinleyici çıkarken aklında tek bir cümle kalacaksa, o ne olmalı? Bu cümleye **ana mesaj** denir: "Laboratuvar bütçesinin önceliği bilgisayar yedek parçası olmalı." Ana mesajı yazamıyorsan henüz sunuma hazır değilsin; slayt hazırlamaya başlamak bu sorunu çözmez, yalnızca gizler.
+
+Ana mesajı taşıyan basit bir **hikâye akışı** şöyledir:
+
+1. **Sorun:** Neden buradayız? ("Arızalar ders saatlerini yiyor.")
+2. **Kanıt:** Nereden biliyoruz? ("Üç ayda 120 arıza; yarıya yakını bilgisayarlarda.")
+3. **Çözüm ya da öneri:** Ne yapalım? ("Yedek parça stoku ve bir cihazın incelenmesi.")
+4. **Kapanış:** Ana mesaj bir kez daha, tek cümleyle.
+
+Yönetici ve karar odaklı topluluklarda sonucu başa almak (önce öneri, sonra kanıt) çoğu zaman daha etkilidir; dinleyici neyi neden dinlediğini baştan bilir.
+
+**Süre** planın bir parçasıdır. Üç dakikalık bir sunuma beş slayttan fazlası sığmaz; on beş dakikalık bir sunumda dinleyicinin dikkatini birkaç kez yeniden toplaman gerekir (bir soru, bir örnek, bir gösterim). Süre kısaldıkça hazırlık uzar: Kısa ve net konuşmak, uzun konuşmaktan daha çok emek ister.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Brifing bir kalıptır"}
+Havacılıkta brifingler serbest konuşma değil, kalıptır. Kurgusal bir vardiya başı bakım brifinginde sıra hep aynıdır: bugünkü işler ve öncelik sırası, açık kalan kartlar, dikkat edilecek emniyet konuları (örneğin yakıt sistemi üzerinde çalışma, yüksekte çalışma), kimin hangi işte olduğu ve sorular. Kalıbın amacı, kimsenin "bunu duymamıştım" diyememesidir. Sunumda da aynı ilke geçerlidir: Dinleyicinin neyi, hangi sırayla duyacağını önceden bilmesi, dikkatini içeriğe vermesini sağlar.
+:::
+
+## 3. Slayt tasarımı
+
+Slayt bir yol tabelasına benzer. Tabela hızla okunur ve tek bir şey söyler; ayrıntı haritadadır. Sunumda harita sensin, dağıttığın rapor ya da ders notudur; slayt yalnızca yön gösterir.
+
+### Mesaj başlığı ve kanıt
+
+Hafta 12'de grafiğin başlığının bir cümle olabileceğini görmüştün. Slaytta da aynı ilke geçerlidir. "Arıza sayıları" bir **konu başlığıdır**; "Arızaların yarıya yakını bilgisayarlarda" ise bir **mesaj başlığıdır** ve slaytın ne söylediğini okura baştan söyler. Bu yaklaşımın adı **iddia ve kanıt** (assertion-evidence) slaytıdır: Üstte iddiayı söyleyen tam bir cümle, altında onu destekleyen kanıt (bir grafik, bir fotoğraf, bir şema). Madde imleriyle dolu bir slayt yerine iddia ve kanıt slaytları kullanan konuşmacıların sunumlarının daha iyi anlaşıldığını gösteren çalışmalar vardır.
+
+Columbia'daki slaytı bir de bu gözle düşün: Başlık bir iddiaydı ("veriler temkinli"), ama kanıt bu iddiayı desteklemiyordu ve çürüten bilgi en alttaki küçük bir satırdaydı. Mesaj başlığı tek başına yetmez; başlığın iddiası doğru olmalı ve kanıt onu gerçekten göstermelidir.
+
+### İnsan nasıl öğrenir: birkaç ilke
+
+Eğitim psikologu Richard Mayer'in **çoklu ortamla öğrenme** üzerine çalışmaları, slaytları da etkileyen birkaç ilke ortaya koydu:
+
+- **Gereksizi çıkar** (tutarlılık ilkesi): Konuyla ilgisi olmayan süs görseller, efektler ve arka plan müziği öğrenmeyi azaltır.
+- **Önemli olanı işaretle** (işaretleme ilkesi): Bir oku, bir rengi ya da bir vurguyu dinleyicinin bakmasını istediğin yere koy.
+- **Görsel ve söz birlikte** (çoklu ortam ilkesi): İnsanlar kelime ve görseli birlikte, yalnızca kelimeden daha iyi öğrenir.
+- **Söyleneni slayta yazma** (fazlalık ilkesi): Konuşurken aynı uzun metni ekranda da göstermek dinleyiciyi yorar; ya okur ya dinler.
+
+### Görsel tasarımın dört ilkesi
+
+Tasarımcı olmadan da düzgün slayt yapabilirsin. Dört temel ilke yeterlidir:
+
+- **Kontrast:** Farklı olan, gerçekten farklı görünsün. Açık zemin üzerinde koyu yazı; başlık metinden belirgin biçimde büyük.
+- **Hizalama:** Her öğe bir çizgiye otursun. Gelişigüzel yerleştirilmiş kutular dağınıklık hissi verir.
+- **Tekrar:** Aynı tür öğe her slaytta aynı yerde, aynı biçimde dursun (başlık, logo, sayfa numarası). Bunu elle değil, slayt ana şablonuyla yaparsın (Bölüm 4).
+- **Yakınlık:** Birbiriyle ilgili öğeler yakın, ilgisizler uzak dursun.
+
+Birkaç pratik ölçü: Salonun arkasından okunabilmesi için gövde metni çoğu zaman en az 24 punto, hiçbir yazı 18 puntonun altında olmasın. Bir slaytta bir fikir. Altı satırdan fazla metin varsa slaytı bölmeyi düşün; ama bu bir yasa değil, bir uyarı işaretidir. Yazı tipi olarak okunaklı, sade bir yazı tipi seç ve bütün sunumda aynısını kullan.
+
+**Erişilebilirlik** Hafta 10'da belgeler için gördüğün ilkelerle aynıdır: yeterli renk kontrastı, bilgiyi yalnızca renkle vermemek (kırmızı ve yeşil ayrımı renk körlüğü olan biri için görünmez), her görsele alternatif metin, her slayta bir başlık (ekran okuyucu slaytları başlıklarıyla dolaşır). Görsellerde Hafta 7'deki kuralı unutma: Lisansı uygun görsel kullan ve atfını slaytın köşesinde ya da sondaki kaynaklar slaytında göster. Veri gösteriyorsan Hafta 12'deki grafik ilkeleri burada da geçerlidir: sıfırdan başlayan eksen, sıralı çubuk, mesaj başlığı.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Slayta ne kadar çok yazarsam dinleyici o kadar çok öğrenir; unutursam da okurum." Yanlış. Dinleyici kalabalık bir slaytı okumaya başladığında seni dinlemeyi bırakır; aynı anda iki dil akışını izlemek zordur. Yazının hepsi slayttaysa bir sunuma da ihtiyaç yoktur, bir belge yeter. Unutmaktan korkuyorsan çözüm slayt değil, konuşmacı notları ve provadır (Bölüm 4 ve 6). Ayrıntılı bilgiyi dağıtılacak bir belgeye, kaynakları son slayta koy.
+:::
+
+## 4. PowerPoint ve karşılıkları
+
+Microsoft PowerPoint, kurumlarda en yaygın sunum programıdır ve bir iş yerinde karşına çıkma olasılığı çok yüksektir. Bu yüzden onu iyi tanımak önemlidir. Ama burada öğrendiğin mantık, Google Slaytlar'da, LibreOffice Impress'te, Apple Keynote'ta ya da Canva'da da aynıdır: Düğmelerin yeri değişir, kavramlar değişmez.
+
+### Arayüz ve temel kavramlar
+
+PowerPoint'i açtığında solda slayt küçük resimleri, ortada üzerinde çalıştığın slayt, altta konuşmacı notları alanı, üstte sekmeler (Giriş, Ekle, Tasarım, Geçişler, Animasyonlar, Slayt Gösterisi, Gözden Geçir, Görünüm) bulunur.
+
+- **Tema:** Renk, yazı tipi ve efektlerden oluşan hazır bir görünüm paketi (**Tasarım** sekmesi). Temayı değiştirdiğinde bütün sunumun görünümü birlikte değişir.
+- **Düzen** (layout): Bir slaytın içindeki kutuların yerleşimi: "Başlık Slaytı", "Başlık ve İçerik", "İki İçerik", "Yalnızca Başlık". **Giriş > Düzen** ile seçilir.
+- **Yer tutucu** (placeholder): Düzenin içindeki, "Başlık eklemek için tıklayın" yazan kutular. Metni ve görseli boş metin kutularına değil, yer tutuculara koyarsan sunum tutarlı kalır, ana hat görünümünde ve erişilebilirlik denetiminde doğru görünür.
+- **Slayt ana şablonu** (slide master): Bütün düzenlerin ve bütün slaytların ortak görünümünü belirleyen en üst slayt. **Görünüm > Asıl Slayt** ile açılır. Logoyu, yazı tipini, başlığın yerini ve rengini burada bir kez değiştirirsin; sunumdaki bütün slaytlar birlikte değişir. Hafta 10'daki stiller belgede neyse, slayt ana şablonu sunumda odur.
+
+### Hazırlarken
+
+- **Tasarımcı** (Designer): Bir slayta görsel eklediğinde PowerPoint sağda birkaç tasarım önerisi gösterir. Hızlı bir başlangıçtır; ama önerinin ana mesajına uyup uymadığına sen karar verirsin.
+- **Bölümler:** Uzun sunumlarda slaytları "Giriş", "Bulgular", "Öneri" gibi bölümlere ayırırsın (sol panelde sağ tık > **Bölüm Ekle**). Hikâye akışını görmek ve slaytları blok halinde taşımak kolaylaşır.
+- **Geçiş ve animasyon:** Geçiş, slayttan slayta geçerken; animasyon, slaytın içindeki bir öğede görülen harekettir. Ölçü basittir: Bir amaca hizmet ediyorsa kullan. Bir süreci adım adım göstermek ya da dinleyicinin dikkatini sırayla yönlendirmek için animasyon değerlidir; her madde için dönen ve uçan yazılar ise dikkat dağıtır.
+- **Konuşmacı notları:** Slaytın altındaki not alanı. Ne söyleyeceğini, rakamları ve geçiş cümlelerini buraya yazarsın; dinleyici görmez.
+
+### Sunarken
+
+- **Slayt gösterisi:** F5 baştan, Shift + F5 bulunduğun slayttan başlatır. Gösteri sırasında B tuşu ekranı karartır (dikkati sana çekmek için), tekrar basınca geri döner; bir slayt numarası yazıp Enter'a basarak o slayta atlarsın.
+- **Sunucu görünümü** (presenter view): İkinci bir ekran ya da projeksiyon bağlıyken, dinleyici yalnızca slaytı görürken sen kendi ekranında konuşmacı notlarını, sıradaki slaytı ve geçen süreyi görürsün. Notlarını yüksek sesle okumak için değil, bir göz atıp yolunu bulmak için kullanırsın.
+- **Prova araçları:** **Slayt Gösterisi > Zamanlamaları Prova Et** her slayta harcadığın süreyi ölçer. Güncel sürümlerde bir prova koçu konuşma hızını, dolgu sözcüklerini ("ııı", "yani") ve slayttan okumayı fark edip geri bildirim verebilir.
+- **Altyazı:** Bazı sürümler konuşmanı canlı altyazıya dönüştürebilir; işitme engelli dinleyiciler ve gürültülü salonlar için değerlidir.
+
+### Paylaşmak
+
+::: {.tablo-kaydir}
+| Biçim | Ne zaman? |
+|---|---|
+| **PPTX** | Sunumu biri düzenleyecek ya da sen başka bir bilgisayarda sunacaksan |
+| **PDF** | Dinleyiciye sonradan okuması için göndereceksen; her cihazda aynı görünür, notlar istenirse sayfaya eklenebilir |
+| **PPSX** | Dosya açılınca doğrudan gösteri olarak başlasın istiyorsan; düzenlemeyi engellemez, PowerPoint'te açılıp değiştirilebilir |
+| **Video** (Dosya > Dışarı Aktar) | Seslendirmeli bir sunumu, PowerPoint'i olmayan birine göndereceksen |
+| **Bağlantı** (bulut) | Birlikte çalışacaksanız; Hafta 4 ve 8'deki paylaşım izni kuralları geçerli |
+:::
+
+Başka bir bilgisayarda sunacaksan yazı tiplerinin o bilgisayarda olmayabileceğini, videoların dosyaya gömülmek yerine bağlantılı olabileceğini unutma. Sunumu bir de PDF olarak yanında taşı ve salonu önceden dene.
+
+### Üç program, aynı mantık
+
+::: {.tablo-kaydir}
+| İşlev | PowerPoint | Google Slaytlar | LibreOffice Impress |
+|---|---|---|---|
+| Ortak görünüm | Görünüm > Asıl Slayt | Slayt > Temayı düzenle | Görünüm > Asıl Slayt |
+| Düzen seçmek | Giriş > Düzen | Slayt > Düzeni uygula | Slayt > Slayt Düzeni (kenar çubuğu) |
+| Konuşmacı notları | Görünüm > Notlar | Slaytın altındaki not alanı | Görünüm > Notlar |
+| Sunucu görünümü | Slayt Gösterisi > Sunucu Görünümü | Slayt gösterisi > Sunucu görünümü | Slayt gösterisi ayarlarında Sunucu Konsolu |
+| PDF olarak kaydetmek | Dosya > Farklı Kaydet > PDF | Dosya > İndir > PDF | Dosya > PDF olarak Dışa Aktar |
+:::
+
+Menü adları sürümden sürüme değişir. Bulamadığın bir özellik olursa programın arama kutusuna ne yapmak istediğini yaz.
+
+### Yabancı arayüzden korkma
+
+Bir programa alışmak rahatlatıcıdır; ama iş hayatında araç sen seçmeden değişir. Yeni işyerin Google Slaytlar kullanır, bir müşteri Keynote dosyası gönderir, bir eğitim kurumu kendi platformunu ister. Bu derste sık sık söylediğimiz ilke ("her şeyin bir alternatifi var") burada bir beceriye dönüşür: **araç esnekliği**. Yeni bir arayüzle karşılaştığında şu soruları sor: Tema ya da ana şablon nerede? Düzenler nerede? Notlar ve sunucu görünümü var mı? Nasıl dışa aktarılır? Kavramları biliyorsan her programda birkaç dakika içinde yolunu bulursun.
+
+Bunun için gereken asıl şey bir tutumdur: **kurcalama merakı**. Boş bir dosya aç ve menüleri dolaş; bir düğmenin ne yaptığını görmek için ona bas; beğenmezsen Ctrl + Z ile geri al. Programlar deneyerek öğrenilir ve geri alma tuşu varken çoğu deneme hiçbir şeyi bozmaz. Yalnızca başkasına ait bir dosyada ya da paylaşılan bir belgede denemeden önce bir kopya al (Hafta 3 ve 11). Başta yabancı gelen bir arayüz, çoğu zaman yalnızca henüz kurcalanmamış bir arayüzdür.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Tip değişikliği"}
+Bir uçak bakım teknisyeni kariyeri boyunca birden çok uçak tipiyle çalışır. Bir tipten ötekine geçmek için **tip eğitimi** alır: Hidrolik, elektrik ve yakıt sistemlerinin mantığı aynıdır, ama düğmelerin, panellerin ve ekranların yeri, adı ve sırası farklıdır. İyi bir teknisyen yeni tipe "bizimkinde böyle değildi" diye direnmez; temel bilgisinin üstüne yeni arayüzü öğrenir. Ama bir farkla: Uçakta kurcalamak serbest değildir; her işlem onaylı bakım el kitabına göre yapılır ve deneme, eğitim ortamında ya da simülatörde yapılır. Bilgisayarda ise geri alma tuşu ve bir yedek kopya, sana o eğitim ortamını kendi masanda sağlar.
+:::
+
+## 5. Yapay zekâyla sunum
+
+Sunum hazırlamak, YZ araçlarının en hızlı geliştiği alanlardan biridir. Başlıca seçenekler:
+
+- **Sunum programlarının içindeki yardımcılar:** PowerPoint'te Copilot, Google Slaytlar'da Gemini. Bir belgeden ya da kısa bir istemden taslak sunum oluşturur, slaytları özetler, görsel önerir. Çoğu zaman ücretli planlarda yer alır.
+- **YZ tabanlı sunum araçları:** Gamma gibi araçlar ve Canva'nın YZ özellikleri, birkaç cümlelik bir istemden tasarlanmış bir sunum çıkarır.
+- **Kaynağa dayalı araçlar:** Google'ın **NotebookLM** aracı gibi uygulamalar, senin yüklediğin kaynaklara (makaleler, notlar, raporlar) dayanarak özet çıkarır, soru cevaplar ve kaynağa atıf gösterir. Bu kaynaklardan iki kişinin konuştuğu sesli bir özet de üretebilir. Genel bir sohbet asistanından farkı, cevabını senin verdiğin belgelere dayandırması ve hangi kaynağa dayandığını göstermesidir.
+
+Bu araçlar gerçekten zaman kazandırır: boş sayfa korkusunu kırar, bir taslağı birkaç dakikada görsel bir yapıya döker, uzun bir raporu dinlenebilir bir özete çevirir. Ama Hafta 6'daki ilkeler burada da geçerlidir ve sunumda birkaç riskin altını çizmek gerekir:
+
+- **Uydurma içerik:** YZ, ikna edici görünen ama var olmayan bir istatistik, bir kaynak ya da bir alıntı ekleyebilir. Sunumdaki her sayının ve her kaynağın nereden geldiğini bilmelisin. Kaynağa dayalı araçlar bu riski azaltır, ama ortadan kaldırmaz; atfı açıp kaynağın gerçekten o şeyi söylediğine bak.
+- **Görsel ve telif:** YZ'nin ürettiği ya da önerdiği görsellerin kullanım koşulları araçtan araca değişir (Hafta 7). Gerçek bir kişiyi, kurumu ya da olayı gösteriyormuş gibi duran üretilmiş görselleri gerçek gibi sunma.
+- **Tekdüzelik:** Aynı araçla hazırlanmış sunumlar birbirine benzer. Dinleyici şablonu tanır, mesajı hatırlamaz.
+- **Mahremiyet:** Kişisel ya da kurumuna ait bir belgeyi, izin verilmeyen bir araca yükleme (Hafta 8 ve 9).
+- **Sahiplenme:** Bir sunumun en önemli kısmı, onu senin anlatmandır. YZ'nin yazdığı ama senin anlamadığın bir slaytı açıklayamazsın; ilk soruda bu ortaya çıkar.
+
+Sorumlu bir iş akışı şöyle kurulabilir: Ana mesajı ve hikâye akışını **sen** yazarsın. YZ'den bir taslak ya da tasarım önerisi alırsın. Her slaytı kendi mesajına göre düzeltir, her sayıyı kaynağından doğrularsın. Son olarak sunumu kendi sözlerinle prova eder ve YZ kullanımını Hafta 6'daki şablonla beyan edersin (çoğu zaman son slaytta bir satır yeter).
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"YZ sunumu hazırladı; benim işim bitti." Yanlış. YZ biçimi hızlandırır, ama ana mesajı senin yerine bulamaz ve sahnede senin yerine duramaz. Dinleyici slaytları değil, seni değerlendirir: Bir soruya cevap veremediğin slayt, sunumun en zayıf yeridir. YZ'yi bir asistan gibi kullan; sunumun yazarı ve sahibi sen ol.
+:::
+
+## 6. Topluluk önünde konuşmak
+
+Topluluk önünde konuşmak birçok insan için en kaygı verici durumlardan biridir. Kalp hızlanır, eller terler, ses titrer. Bunun önce şunu bil: **Bu tepki normaldir** ve vücudunun seni bir göreve hazırlamasıdır. Deneyimli konuşmacıların çoğu da heyecanlanır; farkı, heyecanı yönetmeyi öğrenmiş olmalarıdır. Amaç kaygıyı sıfıra indirmek değil, onunla birlikte konuşabilmektir.
+
+**Kaygıyı yönetmenin yolları:**
+
+- **Hazırlık ve prova:** Kaygının en güçlü ilacıdır. Sunumu en az iki kez yüksek sesle, süre tutarak prova et; bir kez de bir arkadaşının ya da bir aynanın önünde.
+- **Açılışı ezberle:** İlk otuz saniye en zor kısımdır. İlk iki cümleni ezbere bilmek, yola çıkmanı kolaylaştırır. Gerisini ezberleme; ezber bir yerde koparsa toparlamak zorlaşır.
+- **Nefes:** Başlamadan önce birkaç kez yavaş ve derin nefes al; nefes vermeyi uzun tut.
+- **Dikkatini dinleyiciye çevir:** "Nasıl görünüyorum?" yerine "Onlara ne vereceğim?" diye düşün.
+- **Dost yüzler bul:** Salonda başını sallayan birkaç kişiye bak.
+- **Ortamı tanı:** Salona erken git, bilgisayarı, kumandayı, mikrofonu dene.
+
+Kaygı günlük hayatını ciddi biçimde kısıtlıyorsa (sunum yüzünden dersten kaçmak gibi) bunu bir hastalık ya da bir zayıflık değil, destek alınabilecek bir durum olarak gör; üniversitenin psikolojik danışma birimi bu konuda yardımcı olabilir.
+
+### Ses, beden, göz
+
+- **Ses:** Salonun arkasındaki kişi seni duyabilmeli. Heyecanlanınca hızlanırız; bilerek biraz yavaş konuş. Önemli bir cümleden önce ve sonra kısa bir sessizlik, vurgunun en güçlü biçimidir.
+- **Göz teması:** Salonun farklı bölgelerine sırayla bak. Perdeye ya da notlarına bakarak konuşma; slaytı arkanı dönüp okuma.
+- **Beden:** Ayakların sabit, ellerin serbest olsun. Ellerini anlattığın şeyi göstermek için kullan; cebe sokmak ya da kalemle oynamak dikkati dağıtır.
+- **Dolgu sözcükleri:** "Iıı", "yani", "şey" herkeste olur. Fark ettiğinde kısa bir sessizlik, dolgu sözcüğünden daha iyidir.
+
+### Süre ve soru-cevap
+
+Süreye uymak dinleyiciye saygıdır. Sana verilen süreyi aşmak, senden sonra konuşacak kişinin ve dinleyicinin zamanını almaktır. Provada süren uzun çıkıyorsa slaytı değil, içeriği kısalt: Bir örneği çıkar, ayrıntıyı ekte bırak.
+
+Sorular sunumun bir parçasıdır, tehdidi değil. Birkaç alışkanlık işe yarar: Soruyu sonuna kadar dinle ve gerekirse salon için tekrarla. Kısa cevap ver. Bilmediğin bir soruysa uydurma; "Bunu bilmiyorum, kontrol edip size dönerim" demek güven verir. Konu dışı ya da uzun bir tartışmaya dönüşen soruyu sunum sonrasına bırakmayı nazikçe öner. Olası soruları önceden tahmin edip cevaplarını hazırlamak da provanın bir parçasıdır.
+
+### Çevrim içi sunum
+
+Çevrim içi sunumda dinleyiciyi göremezsin ve dinleyicinin dikkati bir sekme uzaklıktadır. Bu yüzden ek bir hazırlık gerekir:
+
+- **Teknik prova:** Kamera, mikrofon ve ekran paylaşımını önceden dene. Kulaklık ve mikrofon kullanmak yankıyı önler.
+- **Ekran paylaşımı:** Bütün ekranı değil, yalnızca sunum penceresini paylaş. Paylaşmadan önce bildirimleri kapat ve masaüstündeki ilgisiz pencereleri kapat: Ekrana düşen bir mesaj, Hafta 8'deki mahremiyet sorunlarının en hızlı yoludur.
+- **Kamera ve ortam:** Kamera göz hizasında olsun, ışık önden gelsin, arka planda kişisel bilgi görünmesin.
+- **Etkileşim:** Birkaç dakikada bir bir soru sor, sohbet alanını kullan ya da kısa bir oylama yap.
+- **Toplantı görgüsü:** Konuşmuyorken mikrofonunu kapat; sözü el kaldırma simgesiyle iste; sohbet alanında da Hafta 10'daki e-posta kurallarıyla yaz. Toplantıyı kaydedeceksen herkese önceden söyle (Hafta 7 ve 8).
+
+Kayıtlı (video) sunum ise ayrı bir türdür: Dinleyici seni durdurabilir, geri sarabilir, hızlandırabilir. Daha kısa ve daha sıkı kurgulanmış olmalıdır; birkaç dakikalık bölümlere ayırmak izlemeyi kolaylaştırır.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"İletişimin yüzde 93'ü sözsüzdür; ne söylediğin değil, nasıl söylediğin önemlidir." Yanlış. Bu oran, psikolog Albert Mehrabian'ın 1960'lardaki iki deneyinden gelir ve yalnızca çok dar bir durumu anlatır: Bir kişinin tek bir sözcükle duygusunu ifade ettiği ve sesiyle sözcüğünün çeliştiği durumlar. Mehrabian bu sonucun bütün iletişime genellenemeyeceğini kendisi de vurgulamıştır. Ses ve beden dili elbette önemlidir; ama bir sunumda dinleyici en çok ne söylediğini hatırlar. İçerik zayıfsa iyi bir beden dili onu kurtarmaz.
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Seni etkileyen bir konuşmacıyı (bir öğretmen, bir video, bir konuşma) düşün. Onu etkili kılan neydi: slaytları mı, sesi mi, hikâyesi mi, sana bir şey kazandırması mı? Bunlardan hangisini kendi sunumuna taşıyabilirsin?
+:::
+
+## 7. Kapanış: üç dakikalık sunum
+
+Dönem projenin son adımı, bulgularını üç dakikada sunmaktır. Kısa bir süre, bütün bu haftayı uygulamak için iyi bir ölçektir. Hazırlarken şu kontrol listesini kullanabilirsin:
+
+1. **Ana mesaj:** Tek cümle; kâğıda yazılmış.
+2. **Dinleyici:** Sınıf arkadaşların ve öğretim görevlisi; terimleri açıklanmış.
+3. **Akış:** Sorun, kanıt, öneri, kapanış. En fazla beş slayt.
+4. **Slaytlar:** Mesaj başlıkları; her slaytta bir fikir; Hafta 12'deki grafiğin bir veri slaytı olarak; lisanslı görseller ve atıfları; kaynaklar son slaytta.
+5. **Tutarlılık:** Slayt ana şablonu ya da tema; tek yazı tipi; okunur boyut; erişilebilirlik denetimi.
+6. **Notlar ve prova:** Konuşmacı notları; en az iki prova; süre üç dakikayı aşmıyor.
+7. **YZ:** Kullandıysan son slaytta beyan.
+8. **Yedek:** Sunumun PDF'i bir bellekte ya da bulutta; projeksiyon çalışmazsa elinde basılı bir sayfa.
+
+Kısa sunumu sevmenin bir yolu da onu bir oyun gibi görmektir. **Pecha Kucha** biçiminde konuşmacı 20 slaytı, her biri 20 saniye kendiliğinden geçecek şekilde sunar; konuşma toplam 6 dakika 40 saniye sürer. **Asansör konuşması** (elevator pitch) ise bir fikri bir asansör yolculuğu kadar, yani yarım dakika ile bir dakika arasında anlatmaktır. İkisi de aynı şeyi öğretir: Süre sınırı, neyin gerçekten önemli olduğuna karar vermeye zorlar.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Dönem projenin ana mesajını şimdi, tek cümleyle yaz. Yazmak kolay mı oldu? Değilse, eksik olan şey slaytlar mı, yoksa ne söylemek istediğin mi?
+:::
+
+## 8. PowerPoint tartışması (okuma)
+
+Sunumlarda görsel kullanmak yeni değildir. Yüzyıllarca kara tahta, sonra elle çizilmiş büyük şemalar kullanıldı. 20. yüzyılda üç araç toplantı salonlarına girdi: 35 milimetrelik saydam **slaytları** sırayla gösteren projektörler (bugünkü "slayt" sözcüğü buradan gelir), saydam asetat kâğıdına yazılanı perdeye yansıtan **tepegöz** ve elle yazılıp çevrilen kâğıt tahtalar. Slayt hazırlamak pahalıydı ve günler sürerdi; çoğu zaman bir grafik birimi ya da bir fotoğrafçı gerekirdi.
+
+Bunu 1987'de Robert Gaskins ve Dennis Austin'in geliştirdiği bir program değiştirdi. Önce "Presenter" adıyla tasarlanan program, PowerPoint adıyla Macintosh için piyasaya çıktı ve aynı yıl Microsoft tarafından satın alındı. Artık herkes masasında, saatler içinde slayt hazırlayabiliyordu. Bu bir özgürlüktü; ama yeni bir sorunu da beraberinde getirdi: Her şeyi madde imleriyle anlatma alışkanlığı.
+
+İstatistikçi ve bilgi tasarımcısı Edward Tufte 2003'te, "PowerPoint'in bilişsel üslubu" adlı denemesinde bu alışkanlığı sert biçimde eleştirdi. Tufte'ye göre madde imleri ve iç içe alt maddeler, düşünceyi parçalara bölüp aralarındaki ilişkiyi (neden, sonuç, karşılaştırma) gizliyordu. Örneklerinden biri, girişte okuduğun Columbia slaytıydı. Kaza inceleme kurulu da kurumda önemli teknik kararların ayrıntılı raporlar yerine slaytlara dayanmasını eleştirdi. Bazı şirketler daha da ileri gitti: Örneğin Amazon'un üst düzey toplantılarında slayt yerine birkaç sayfalık yazılı bir metnin toplantı başında sessizce okunduğu, şirket yöneticilerince sık anlatılan bir uygulamadır.
+
+Bu tartışmanın sonucu "PowerPoint kötüdür" değildir. Sonuç, aracın bir düşünme biçimini teşvik edebileceğidir: Madde imi şablonuyla başlayan biri, farkında olmadan düşüncesini madde imlerine böler. Bu yüzden sunum hazırlamaya slayttan değil, ana mesajdan ve hikâye akışından başlarsın. Ayrıntılı ve karmaşık teknik bilgi bir sunumun değil, bir raporun işidir; sunum o raporu okutmanın ve tartışmanın aracıdır. Hafta 10'da yazdığın teknik rapor ile Hafta 13'te yapacağın sunum bu yüzden birbirinin tamamlayıcısıdır.
+
+## 9. Programlar ve alternatifler (okuma)
+
+Sunum programları arasında seçim, çoğu zaman sen seçmeden yapılır: Kurumun kullandığı program neyse onu kullanırsın. Ama seçeneklerini bilmek, hem kendi işlerinde doğru aracı seçmeni hem de yeni bir araçla karşılaştığında hızla uyum sağlamanı kolaylaştırır.
+
+::: {.tablo-kaydir}
+| Program | Ücret | Not |
+|---|---|---|
+| Microsoft PowerPoint | Microsoft 365 aboneliğiyle; web sürümü Microsoft hesabıyla ücretsiz ama sınırlı | Kurumlarda en yaygın olanı; üniversite hesabınla erişimin olabilir |
+| Google Slaytlar | Ücretsiz (Google hesabıyla) | Tarayıcıda çalışır; eşzamanlı çalışmada güçlü |
+| LibreOffice Impress | Ücretsiz, açık kaynak | Bilgisayara kurulur; PPTX dosyalarını açar ve kaydeder |
+| Apple Keynote | Apple cihazlarda ücretsiz | Güçlü animasyonlar; başkasına gönderirken PPTX ya da PDF'e çevrilmesi gerekebilir |
+| Canva | Ücretsiz sürümü var; bazı özellikler ücretli | Hazır tasarım şablonları; sunumun yanında poster ve sosyal medya görseli |
+| Prezi | Ücretsiz sürümü sınırlı | Slayt yerine tek bir büyük tuval üzerinde yakınlaşıp uzaklaşarak anlatır |
+| Gamma ve benzerleri | Ücretsiz sürümü sınırlı | İstemden YZ ile sunum üretir |
+:::
+
+Bir de pek bilinmeyen bir yol var: **sunumu kodla yazmak.** Bu dersin sınıf sunumları bir sunum programıyla değil, düz metin olarak yazılıp bir araçla (Quarto) web sayfası biçiminde bir sunuma dönüştürülüyor. Avantajı, içeriğin ve tasarımın birbirinden ayrı durması, bütün sunumların tek bir tasarım dosyasıyla aynı görünmesi ve her değişikliğin sürüm geçmişinde izlenebilmesidir (Hafta 3). Dezavantajı, başta öğrenmesinin daha zor olmasıdır. Bu da "her şeyin bir alternatifi var" ilkesinin bir örneği: Kelime işlemcide stil neyse, sunum programında ana şablon neyse, burada da tasarım dosyası odur.
+
+Programlar ve planları sık değişir; güncel karşılaştırma için [Ek C](../ekler/c_alternatifler.qmd). Hangi programı kullanırsan kullan, bu haftanın kazanımı programdan bağımsızdır: ana mesaj, dinleyici, mesaj başlığı, tutarlı tasarım, prova.
+
+::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
+Susan Cain, "İçe dönüklerin gücü" (The Power of Introverts, TED, 2012): Kendini topluluk önünde rahat hissetmeyen birinin, bunu nasıl bir güce dönüştürebileceğini anlatan bir konuşma. Konuşmacının sahneye nasıl çıktığına, slayt kullanıp kullanmadığına ve hikâyesine dikkat et. Türkçe altyazı seçeneği var.
+:::
+
+::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
+Kısa vadede: Dönem projeni üç dakikada, ana mesajı net ve süreye uygun bir sunumla anlatırsın; derslerdeki sunumlarda heyecanını yönetirsin. Orta vadede: İş görüşmesinde kendini, toplantıda bir öneriyi, vardiya devrinde bir işi kısa ve anlaşılır biçimde aktarırsın; hangi programla karşılaşırsan karşılaş yolunu bulursun. Uzun vadede: Bir fikri sınırlı sürede, doğru dinleyiciye, dürüst kanıtla anlatabilmek, kariyerinde en çok fark yaratan becerilerden biri olur. YZ slaytları hazırlamayı kolaylaştırdıkça, iyi anlatmak daha da değerli hale gelir.
+:::
+
+## Akılda kalsın
+
+- **Sunum bir mesajdır, slayt onun aracıdır.** Önce amaç ve tür, sonra dinleyici, sonra tek cümlelik ana mesaj ve hikâye akışı. Ortam uygun değilse slaytsız sunum da bir seçenektir.
+- **Slayt bir yol tabelasıdır.** Mesaj başlığı ve kanıt; bir slaytta bir fikir; okunur boyut, kontrast, hizalama, tekrar, yakınlık; erişilebilirlik ve lisanslı görsel.
+- **Kavramlar her programda aynıdır.** Tema, düzen, yer tutucu, slayt ana şablonu, notlar, sunucu görünümü. Yabancı arayüzden korkma; kurcala, geri al, kopyada dene.
+- **YZ biçimi hızlandırır, mesajı bulmaz.** Taslağı al, mesajını sen yaz, her sayıyı ve kaynağı doğrula, beyan et.
+- **Kaygı normaldir, prova ilacıdır.** Açılışı bil, yavaş konuş, dinleyiciye bak, süreye uy; bilmediğin soruya "bilmiyorum, dönerim" de. Çevrim içinde yalnızca pencereyi paylaş, bildirimleri kapat.
+
+## Bu haftanın kavramları
+
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: sunum, bilgisayarsız sunum, kâğıt tahta, brifing, dinleyici analizi, ana mesaj, hikâye akışı, iddia ve kanıt slaytı, çoklu ortamla öğrenme, kontrast, hizalama, tema, düzen, yer tutucu, slayt ana şablonu, geçiş, animasyon, konuşmacı notları, sunucu görünümü, PPSX, araç esnekliği, tip eğitimi, Kirli Düzine, NotebookLM, sunum kaygısı, dolgu sözcüğü, ekran paylaşımı, Pecha Kucha, asansör konuşması, tepegöz.
+
+## Kendini sına
+
+Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
+
+::: {.quiz-q data-answer="B" data-explain="Sunucu görünümünde dinleyici yalnızca slaytı görür; konuşmacı kendi ekranında notlarını, sıradaki slaytı ve süreyi görür. Notları okumak için değil, yolu bulmak için kullanılır."}
+**1.** Sunucu görünümü (presenter view) ne sağlar?
+
+- A\) Dinleyicilerin slaytları kendi telefonlarından eşzamanlı izlemesini
+- B\) Dinleyici slaytı görürken konuşmacının notları ve süreyi görmesini
+- C\) Sunumun kendiliğinden bir video dosyasına dönüştürülüp kaydedilmesini
+- D\) Bütün slaytların notlarıyla birlikte tek seferde yazdırılmasını
+- E\) Slaytlardaki yazım hatalarının kendiliğinden düzeltilmesini
+:::
+
+::: {.quiz-q data-answer="E" data-explain="Slayt ana şablonu bütün düzenlerin ve slaytların ortak görünümünü belirler; logoyu orada bir kez değiştirmek bütün slaytlara yansır. Slayt slayt değiştirmek hem zaman alır hem tutarsızlık yaratır."}
+**2.** 40 slaytlık bir sunumdaki eski logoyu her slaytta yenisiyle değiştirmek istiyorsun. En doğru yol hangisidir?
+
+- A\) Her slaytı açıp logoyu tek tek silmek ve yenisini eklemek
+- B\) Sunumu PDF'e çevirip logoyu PDF düzenleyicisinde değiştirmek
+- C\) Yeni logoyu yalnızca ilk slayta koyup diğerlerini bırakmak
+- D\) Bütün slaytları silip yeni bir temayla baştan hazırlamak
+- E\) Logoyu slayt ana şablonunda bir kez değiştirmek
+:::
+
+::: {.quiz-q data-answer="A" data-explain="Yönetici ve karar odaklı dinleyici sonucu ve gerekeni ister; öneriyi başa almak, dinleyicinin neyi neden dinlediğini baştan bilmesini sağlar. Ayrıntı ve yöntem sorulursa ek slayttadır."}
+**3.** Bütçeyi onaylayacak üç yöneticiye beş dakikalık bir sunum yapacaksın. Sunumun açılışı için en uygun seçenek hangisidir?
+
+- A\) Önerini ve maliyetini ilk slaytta söylemek, kanıtı ardından göstermek
+- B\) Analiz yöntemini ayrıntılı anlatarak başlamak, öneriyi sona saklamak
+- C\) Konunun tarihçesini anlatan birkaç slaytla girişi uzun tutmak
+- D\) Ham veri tablosunun tamamını ilk slayta koyup yorumlamalarını istemek
+- E\) Dinleyicinin ilgisini çekmek için konuyla ilgisiz bir video göstermek
+:::
+
+::: {.quiz-q data-answer="C" data-explain="Yalnızca sunum penceresini paylaşmak ve bildirimleri kapatmak, ekrana düşebilecek kişisel mesajları ve ilgisiz pencereleri dinleyiciden korur. Bütün ekranı paylaşmak mahremiyet riskidir."}
+**4.** Çevrim içi bir toplantıda sunum yapacaksın. Ekranını paylaşmadan önce en önemli adım hangisidir?
+
+- A\) Kamerayı kapatıp yalnızca sesle konuşmaya karar vermek
+- B\) Bütün ekranı paylaşıp masaüstündeki dosyaları da göstermek
+- C\) Bildirimleri kapatıp yalnızca sunum penceresini paylaşmak
+- D\) Toplantıdaki herkesin mikrofonunu açık tutmasını istemek
+- E\) Sunumu paylaşmak yerine slaytları tek tek fotoğraflayıp göndermek
+:::
+
+::: {.quiz-q data-answer="D" data-explain="YZ'nin eklediği bir istatistiğin kaynağı bulunamıyorsa uydurma olabilir. Sayı doğrulanamadıysa sunumdan çıkarılır ya da gerçek bir kaynaktan bulunan doğru sayıyla değiştirilir; YZ kullanımı beyan edilir."}
+**5.** Bir YZ aracıyla hazırladığın sunumda, aracın eklediği "Öğrencilerin %72'si sunum kaygısı yaşıyor" cümlesi var; kaynak gösterilmemiş ve aradığında bu sayıyı hiçbir yerde bulamıyorsun. Ne yapmalısın?
+
+- A\) Sayıyı bırakmak; YZ'nin bilgisi geniş olduğu için büyük olasılıkla doğrudur
+- B\) Sayıyı yuvarlayıp "Öğrencilerin çoğu" diye yazmak ve kaynak eklememek
+- C\) Sayının yanına "kaynak: yapay zekâ" yazarak sunumda tutmak
+- D\) Doğrulanamayan sayıyı çıkarmak ya da gerçek bir kaynaktaki sayıyla değiştirmek
+- E\) Sunumu baştan sona silip YZ kullanmadan yeniden hazırlamak
+:::
+
+::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
+1-B, 2-E, 3-A, 4-C, 5-D.
+:::
