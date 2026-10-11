@@ -17,7 +17,11 @@ Notlarda bir hata görürsen ya da bir öneride bulunmak istersen [zurrani@gmail
 
 ## Gizlilik
 
-Bu site çerez kullanmaz, ziyaretçi izlemez ve reklam göstermez. Yazı tipleri sitenin kendi sunucusundan yüklenir; sayfayı açtığında üçüncü taraf bir sunucuya istek gönderilmez. "Kendini sına" sorularına verdiğin yanıtlar yalnızca senin tarayıcında işlenir, hiçbir yere kaydedilmez.
+Bu site çerez kullanmaz ve reklam göstermez. Yazı tipleri sitenin kendi sunucusundan yüklenir. "Kendini sına" sorularına verdiğin yanıtlar yalnızca senin tarayıcında işlenir, hiçbir yere kaydedilmez; açık ya da karanlık tema tercihin de yalnızca tarayıcında saklanır.
+
+**Ziyaret ölçümü.** Sitenin hangi sayfalarının ne kadar okunduğunu görmek için Cloudflare Web Analytics kullanılır. Bir sayfayı açtığında tarayıcın Cloudflare'in sunucusundan küçük bir ölçüm betiği yükler ve şu bilgileri gönderir: açılan sayfa, siteye nereden gelindiği (örneğin bir arama motoru ya da bir sosyal medya paylaşımı), tarayıcı ve cihaz türü, yaklaşık ülke ve sayfanın ne kadar hızlı yüklendiği. Cloudflare'in açıklamasına göre bu araç çerez kullanmaz, seni siteler arasında izlemez ve IP adresini saklamaz. Öğretim görevlisi yalnızca toplu sayıları görür (örneğin "Hafta 7 bu hafta 120 kez açıldı"); kimin hangi sayfayı okuduğunu göremez ve bu bilgi not vermede kullanılmaz.
+
+Ölçüme katılmak istemiyorsan tarayıcının izleme koruması ya da bir içerik engelleyici bu betiği durdurur; site yine sorunsuz çalışır. Ayrıntı için [Cloudflare'in gizlilik politikasına](https://www.cloudflare.com/privacypolicy/) bakabilirsin. Bu ölçümü Hafta 8'de gördüğün izleme yöntemleriyle karşılaştırmak da iyi bir alıştırmadır: Ne toplanıyor, kim görüyor, neyle birleştirilebilir?
 
 ## Yapay zekâ kullanım beyanı
 
