@@ -10,7 +10,7 @@ toc: false
   <p class="madde">bit</p>
   <p class="madde-tur">isim · <span class="ikili">0 | 1</span></p>
   <p class="madde-tanim">İkili sayı sisteminde 0 ya da 1 değerini alan, bilginin en küçük birimi.</p>
-  <p class="madde-ders">Bu site, İstanbul Üniversitesi-Cerrahpaşa Teknik Bilimler Meslek Yüksekokulu'nda okutulan Temel Bilgi Teknolojileri (Basic Information Technologies) dersinin notlarını, eklerini ve sunumlarını içerir. Dersin kısa adı BIT; ilk haftada neden olduğunu göreceksin.</p>
+  <p class="madde-ders">Bu site, üniversitelerin müfredatlarında farklı isimler altında ortak ders olarak okutulan Temel Bilgi Teknolojileri (Basic Information Technologies) dersinin notlarını, eklerini ve sunumlarını içerir. Dersin kısa adı BIT; ilk haftada neden olduğunu göreceksin.</p>
 </section>
 ```
 
