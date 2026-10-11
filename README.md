@@ -15,7 +15,7 @@ bit-stu/
 ├─ index.qmd              ana sayfa
 ├─ hakkinda.qmd           ders, yazar, gizlilik, YZ beyanı, lisans
 ├─ docs/                  ders notları: 00_cerceve.qmd, 01_…, 02_… 14_…
-├─ ekler/                 sözlük ve ekler (A, B, C, D)
+├─ ekler/                 sözlük ve ekler (A, B, C, D, E: ders izlencesi)
 ├─ slides/                web sunumları (sıradaki aşama)
 ├─ materyal/              öğrencinin indireceği dosyalar, haftaya göre alt klasörler
 └─ assets/

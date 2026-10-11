@@ -72,6 +72,8 @@ website:
             href: ekler/c_alternatifler.qmd
           - text: "D · Netiket"
             href: ekler/d_netiket.qmd
+          - text: "E · Ders izlencesi"
+            href: ekler/e_izlence.qmd
       - text: "Hakkında"
         href: hakkinda.qmd
     right:
@@ -127,6 +129,8 @@ website:
             href: ekler/c_alternatifler.qmd
           - text: "D · Netiket"
             href: ekler/d_netiket.qmd
+          - text: "E · Ders izlencesi"
+            href: ekler/e_izlence.qmd
       - text: "Hakkında"
         href: hakkinda.qmd
   page-footer:

@@ -16,7 +16,7 @@ toc: false
 
 ## Nereden başlamalı?
 
-İlk kez geliyorsan önce [Bu ders nasıl işler?](docs/00_cerceve.qmd) sayfasını oku, sonra [Hafta 1](docs/01_teknoloji-neyi-cozer.qmd) ile başla. Her haftanın notu 25–35 dakikada okunur; derse gelmeden önce okursan dersten çok daha fazla şey alırsın.
+İlk kez geliyorsan önce [Bu ders nasıl işler?](docs/00_cerceve.qmd) sayfasını oku, sonra [Hafta 1](docs/01_teknoloji-neyi-cozer.qmd) ile başla. Dönemin tamamını, ödevleri ve değerlendirmeyi [Ders izlencesi](ekler/e_izlence.qmd) sayfasında bulursun. Her haftanın notu 25–35 dakikada okunur; derse gelmeden önce okursan dersten çok daha fazla şey alırsın.
 
 ## On dört hafta
 

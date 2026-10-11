@@ -1,0 +1,399 @@
+---
+title: "Ek E · Ders izlencesi"
+description: "Dersin dönem planı: ders bilgileri, öğrenme çıktıları, değerlendirme, dönem projesi, haftalık plan ve iş yükü."
+---
+
+Ne öğreneceğin, her hafta ne yapacağın ve nasıl değerlendirileceğin bu sayfada. Üç noktayla (…) gösterilen bilgiler dersin verildiği kuruma ve döneme göre değişir; öğretim görevlisi dönem başında duyurur.
+
+## 1. Ders bilgileri
+
+::: {.tablo-kaydir}
+| | |
+|---|---|
+| **Dersin adı** | Temel Bilgi Teknolojileri (Basic Information Technologies, kısaca BIT) |
+| **Kodu** | … |
+| **Program** | … |
+| **Yarıyıl** | … |
+| **Haftalık saat (teori + uygulama)** | … |
+| **Kredi ve AKTS** | … (iş yükü örneği 9. bölümde) |
+| **Dili** | Türkçe |
+| **Türü** | … |
+| **Önkoşul** | Yok |
+| **Öğretim görevlisi** | … |
+| **İletişim** | … (kurumsal e-posta) |
+| **Görüşme saatleri** | … |
+| **Ders günü, saati ve yeri** | … |
+| **Ders sitesi** | Bu site: ders notları, ekler, sözlük ve materyaller |
+:::
+
+Ders bilgisayar laboratuvarında işlenecek biçimde tasarlanmıştır: Her öğrencinin önünde bir bilgisayar olduğu varsayılır.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
+Bu sitedeki notlar Uçak Teknolojisi Programı için havacılık örnekleriyle zenginleştirilmiştir. Havacılık kutuları konuyu mesleğe bağlar; programa özgüdür ve içlerindeki bilgi sınavda sorulmaz.
+:::
+
+## 2. Dersin amacı
+
+Bu ders bilgisayar kullanmayı değil, dijital dünyada güvenle düşünmeyi ve üretmeyi öğretir. Bilgiye ulaşmayı ve onu doğrulamayı, kendini ve verini korumayı, yapay zekâyı sorumlu biçimde kullanmayı, belge, veri ve sunumla iş çıkarmayı öğrenirsin. Ürünü değil işlevi öğreniyoruz: Aynı işi Microsoft 365'te, Google'ın araçlarında ya da LibreOffice'te yapabilirsin. Dersin hedefi, Avrupa Birliği'nin dijital yetkinlik çerçevesi DigComp 3.0'ın çoğu yetkinliğinde orta düzeye ulaşman ve bazılarında ileri düzeye adım atmandır.
+
+## 3. Dersin öğrenme çıktıları
+
+Bu dersi başarıyla tamamladığında şunları yapabileceksin:
+
+1. Bilgisayarın, işletim sisteminin, ağın ve bulutun temel çalışma ilkelerini açıklamak; bir teknik sorunu olası nedeniyle ilişkilendirmek (Hafta 2–4).
+2. Kendi verileri için tutarlı bir dosya düzeni, yedekleme planı ve güvenli paylaşım ayarları kurmak (Hafta 3, 4, 9).
+3. Hedefli arama yapmak, bir kaynağın güvenilirliğini değerlendirmek ve kullandığı kaynakları doğru biçimde göstermek (Hafta 5, 7).
+4. Üretken yapay zekâyı istemle yönlendirmek, çıktısını bağımsız kaynakla doğrulamak ve kullanımını beyan etmek (Hafta 6).
+5. Dijital ortamda telif ve lisansları, kişisel verileri, bilişim hukukunu ve netiketi gözeterek iletişim kurmak ve paylaşım yapmak (Hafta 7, 8).
+6. Mahremiyetini ve hesaplarını korumak, yaygın tehditleri tanımak ve bir kesintiye karşı kişisel dayanıklılık planı hazırlamak (Hafta 8, 9).
+7. Yapılandırılmış bir belge, kurumsal bir e-posta, temizlenip analiz edilmiş bir veri tablosu ve tek ana mesajlı bir sunum üretmek (Hafta 10–13).
+8. Bir teknolojinin çözdüğü sorunu ve getirdiği bedeli değerlendirmek; kendi dijital yetkinliğini ölçüp bir öğrenme planı hazırlamak (Hafta 1, 14).
+
+## 4. Ders nasıl işlenir?
+
+- **Dersten önce:** O haftanın notunu oku (25–35 dakika). Notun nasıl okunacağı [Bu ders nasıl işler?](../docs/00_cerceve.qmd) sayfasında.
+- **Derste:** Kısa bir açılış sorusu, kavramlar ve bilgisayar başında uygulama. Anlatım bir seferde 15 dakikayı aşmaz; zamanın önemli bir kısmı senin yaptığın etkinliklerdir.
+- **Dersten sonra:** Haftanın ödevi, bir sonraki haftanın başına kadar. Notun sonundaki *Kendini sına* sorularıyla konuyu anlayıp anlamadığını kontrol edebilirsin; bunlar nota girmez.
+- **Laboratuvar yoksa:** Föyler evde yapılır; okulun bilgisayar salonu ya da programların ücretsiz web sürümleri kullanılabilir. Ön ve son test için bir ders saati bilgisayar başında ayarlanır.
+
+## 5. Değerlendirme
+
+::: {.tablo-kaydir}
+| Bileşen | Kapsam | Ağırlık |
+|---|---|---|
+| Vize sınavı | Hafta 1–8 | Vize notunun %50'si |
+| Uygulama dosyası | Hafta 1–9 ödevleri, tek klasörde | Vize notunun %50'si |
+| Final sınavı | Bütün dönem | Final notunun %40'ı |
+| Üretim föyleri | Hafta 10, 11 ve 12 föyleri (eşit ağırlıklı) | Final notunun %20'si |
+| Dönem projesi | Altı adım ve sunum (6. bölüm) | Final notunun %40'ı |
+:::
+
+Dönem notu: **vize %40, final %60.** Oranlar kurumun yönetmeliğine göre uyarlanabilir; geçerli oranlar dönem başında duyurulur.
+
+- **Sınavlar:** Biçimi ve süresi dönem başında duyurulur. Sınavlar ders notlarındaki çekirdek bölümlerden gelir; *(okuma)* bölümlerinden tarih ya da sayı değil, kavram sorulur.
+- **Ödevler ve föyler:** Her biri 15 puanlık bir ölçüt tablosuyla (rubrik) değerlendirilir. Ölçütler ödevin yönergesinde ya da derste duyurulur.
+- **Ön ve son test:** Hafta 1 ve 14'te Europass Dijital Beceri Testi ve sınıfta kısa bir performans testi. Nota girmez; kendi gelişimini görmen içindir.
+- **Bütünleme ve mazeret sınavları:** … yönetmeliğine göre.
+
+## 6. Dönem projesi
+
+Dönem boyunca kendi seçtiğin bir konuda adım adım bir çalışma dosyası hazırlarsın. Konuyu öğretim görevlisinin listesinden seçersin ya da kendi önerini onaylatırsın. Proje **bireyseldir**; yalnızca sunum, öğretim görevlisi uygun görürse eşli yapılabilir.
+
+::: {.tablo-kaydir}
+| Adım | Hafta | Ne teslim edilir? |
+|---|---|---|
+| 1 | 5 | Konu ve doğrulanmış beş kaynak |
+| 2 | 6 | Yapay zekâyla hazırlanıp doğrulanmış özet ve YZ kullanım beyanı |
+| 3 | 7 | Lisansı uygun üç görsel ve atıfları |
+| 4 | 10 | Teknik rapor taslağı (ve onu gönderen kurumsal e-posta) |
+| 5 | 12 | Veri analizi, iki grafik ve yorum (raporun Bulgular bölümüne) |
+| 6 | 13–14 | Üç dakikalık sunum (Hafta 13'te hazırlık ve prova, Hafta 14'te sunum) ve bütün adımların son teslimi |
+:::
+
+Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlarının sana verdiği geri bildirim seni geliştirmek içindir; nota girmez.
+
+## 7. Kurallar
+
+- **Yapay zekâ yasak değildir.** Kullandığında nasıl kullandığını beyan edersin ve çıktının doğruluğundan sen sorumlusun ([Hafta 6](../docs/06_uretken-yapay-zeka.qmd)).
+- **Kaynak gösterme:** Başkasının metnini, görselini ya da fikrini kullandığında kaynağını belirtirsin ([Hafta 5](../docs/05_bilgi-okuryazarligi.qmd) ve [7](../docs/07_dijital-vatandaslik-hukuk.qmd)).
+- **Kişisel veri teslim edilmez.** Ödevlerde kendi ya da başkasının kişisel verisini (hesap adı, telefon, ekran görüntüsü, ekran süresi kaydı, kişisel planlar) teslim etmezsin; yönerge ne isterse yalnızca onu teslim edersin ([Hafta 8](../docs/08_mahremiyet.qmd)).
+- **Teslim:** Ödevler bir sonraki haftanın başına kadar, … üzerinden. Dosyaları [Hafta 3](../docs/03_isletim-sistemleri.qmd)'teki adlandırma kuralıyla adlandır. Geç teslim: …
+- **İletişim:** Derse ilişkin yazışmalar kurumsal e-posta adresinden, konu satırında ders adı ve öğrenci numarasıyla yapılır ([Hafta 10](../docs/10_belge-ve-yazisma.qmd)). Sınıf grubunda ve bütün çevrimiçi ortamlarda netiket geçerlidir ([Ek D](d_netiket.qmd)).
+- **Laboratuvarda:** Anlatım sırasında ekranını kapat ya da monitörünü indir; uygulama zamanı gelince açarsın.
+- **Devam:** … yönetmeliğine göre.
+
+## 8. Haftalık plan
+
+### Bir bakışta
+
+::: {.tablo-kaydir}
+| Hafta | Konu | Ödev ve föy | Dönem projesi |
+|---|---|---|---|
+| 1 | [Teknoloji neyi çözer, bedeli nedir?](../docs/01_teknoloji-neyi-cozer.qmd) | Europass ve ön test; "Bir icat, bir bedel" | — |
+| 2 | [Bilgisayar nasıl düşünür?](../docs/02_bilgisayar-nasil-dusunur.qmd) | Cihazımın kimlik kartı | — |
+| 3 | [İşletim sistemleri: masaüstü, mobil ve dosya yönetimi](../docs/03_isletim-sistemleri.qmd) | Dijital düzen planı | — |
+| 4 | [Ağ, internet, bulut ve kablosuz iletişim](../docs/04_ag-internet-bulut.qmd) | Bir sayfanın yolculuğu | — |
+| 5 | [Bilgi okuryazarlığı: arama ve doğrulama](../docs/05_bilgi-okuryazarligi.qmd) | Proje adımı | 1. Konu ve beş kaynak |
+| 6 | [Üretken yapay zekâ: nasıl çalışır, hayatı nasıl dönüştürüyor?](../docs/06_uretken-yapay-zeka.qmd) | Proje adımı | 2. YZ ile özet ve beyan |
+| 7 | [Dijital vatandaşlık ve bilişim hukuku](../docs/07_dijital-vatandaslik-hukuk.qmd) | Ekran süresi kaydı | 3. Görseller ve atıflar |
+| 8 | [Mahremiyet: veri, büyük veri ve algoritmalar](../docs/08_mahremiyet.qmd) | Mahremiyet denetimi, KVKK başvuru taslağı | — |
+| 9 | [Siber güvenlik: yapay zekâ çağında tehditler ve dayanıklılık](../docs/09_siber-guvenlik.qmd) | Dayanıklılık planı; uygulama dosyası teslimi | — |
+| 10 | [Belge tasarımı ve kurumsal yazışma](../docs/10_belge-ve-yazisma.qmd) | Föy 10; kurumsal e-posta | 4. Teknik rapor taslağı |
+| 11 | [Veriyle çalışmak I: tablo mantığı ve veri temizleme](../docs/11_veriyle-calismak-1.qmd) | Föy 11; ekran süresi tablosu | — |
+| 12 | [Veriyle çalışmak II: formül, grafik, yorum](../docs/12_veriyle-calismak-2.qmd) | Föy 12 | 5. Veri analizi ve grafikler |
+| 13 | [Sunum ve görsel anlatım](../docs/13_sunum.qmd) | Kötü sunumu yeniden tasarla | 6. Sunum hazırlığı ve prova |
+| 14 | [Kapanış: 25 yılda ne değişti, nereye gidiyoruz?](../docs/14_kapanis.qmd) | Son test; öğrenme planı | 6. Sunum ve son teslim |
+:::
+
+**Vize:** Hafta 1–8 konuları; tarihi … **Final:** bütün dönem; tarihi … Sınavların biçimi ve süresi dönem başında duyurulur.
+
+### Hafta 1 · Teknoloji neyi çözer, bedeli nedir?
+
+*Teknoloji hayatımızı kolaylaştırıyorsa, neden her seferinde bir bedeli de oluyor?*
+
+**Okuma:** [ders notu](../docs/01_teknoloji-neyi-cozer.qmd), yaklaşık 25 dakika. **DigComp:** 5.4 Dijital yetkinlik ihtiyaçları.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Bilim, teknoloji ve bilişim kavramlarını birbirinden ayırt etmek.
+- Bir teknolojinin çözdüğü sorunu ve getirdiği bedeli bir örnekle açıklamak.
+- Veriden bilgeliğe uzanan basamakları bir örnekle açıklamak.
+- Dersin dört felsefesini kendi hayatından bir örnekle ilişkilendirmek.
+- Kendi dijital yetkinliğini ön testle belirlemek.
+
+**Ödev (Hafta 2'nin başına kadar):** Sınıfta performans ön testi. Evde Europass Dijital Beceri Testi'ni çöz ve sonuç raporunu PDF olarak sakla; Hafta 14'teki son testle karşılaştıracaksın. Kısa yazı, "Bir icat, bir bedel": Bir icadın çözdüğü sorunu, getirdiği bedeli ve o bedeli azaltacak bir önlemi yarım sayfada yaz.
+
+### Hafta 2 · Bilgisayar nasıl düşünür?
+
+*Yalnızca 0 ve 1 bilen bir makine nasıl oluyor da fotoğraf çekiyor, müzik çalıyor, mesaj yazıyor?*
+
+**Okuma:** [ders notu](../docs/02_bilgisayar-nasil-dusunur.qmd), yaklaşık 25 dakika. **DigComp:** 5.1 Teknik sorunlar, 5.2 İhtiyaçlar ve teknolojik çözümler.
+
+**Bu hafta şunları yapabileceksin:**
+
+- İkili ve onlu sayılar arasında dönüşüm yapmak, veri birimlerini birbirine çevirmek.
+- Metnin, görüntünün ve sesin nasıl sayıya dönüştüğünü açıklamak.
+- Bilgisayarın giriş, işleme, bellek ve çıkış döngüsünü ve CPU, GPU, RAM ile depolamanın görevlerini ilişkilendirmek.
+- Bir yavaşlık ya da arıza belirtisini olası bileşenle ilişkilendirmek.
+- Bir bilgisayarın teknik özelliklerini okuyup bir ihtiyaçla eşleştirmek.
+
+**Ödev (Hafta 3'ün başına kadar):** "Cihazımın kimlik kartı": Telefonunun ya da bilgisayarının işlemcisini, belleğini, depolamasını, işletim sistemini ve pil bilgisini bir tabloya yaz. Cihazın en zayıf halkasını ve bir öneriyi (yükseltme, tamir, ikinci el ya da yeni cihaz) yarım sayfada gerekçelendir.
+
+### Hafta 3 · İşletim sistemleri: masaüstü, mobil ve dosya yönetimi
+
+*Bir bilgisayarın ne zaman "çöp" olacağına donanım mı karar verir, yazılım mı?*
+
+**Okuma:** [ders notu](../docs/03_isletim-sistemleri.qmd), yaklaşık 25 dakika. **DigComp:** 1.3 Veriyi yönetme, 4.1 Cihazları koruma, 4.2 Mahremiyet.
+
+**Bu hafta şunları yapabileceksin:**
+
+- İşletim sisteminin temel görevlerini açıklamak.
+- Windows, Linux, macOS, Android ve iOS'u açıklık, güncelleme desteği, güvenlik ve mahremiyet açısından karşılaştırmak.
+- Kendi telefonundaki uygulama izinlerini ve bilgisayarındaki gizlilik ayarlarını denetlemek.
+- Dosya adı, uzantı, yol ve klasör yapısını kullanmak; tutarlı bir adlandırma ve sürüm kuralı uygulamak.
+- Kendi verileri için 3-2-1 yedekleme planı kurmak.
+
+**Ödev (Hafta 4'ün başına kadar):** "Dijital düzen planı": Bir klasörünü nottaki adlandırma kuralıyla yeniden düzenle (önce ve sonra ekran görüntüsü), kişisel 3-2-1 yedekleme planını yaz, telefonundaki üç uygulamanın izinlerini denetleyip bir tabloya işle.
+
+### Hafta 4 · Ağ, internet, bulut ve kablosuz iletişim
+
+*Tarayıcıya bir adres yazıp Enter'a bastığın o bir saniyede neler oluyor?*
+
+**Okuma:** [ders notu](../docs/04_ag-internet-bulut.qmd), yaklaşık 25 dakika. **DigComp:** 2.1 Etkileşim, 2.4 İş birliği, 5.1 Teknik sorunlar.
+
+**Bu hafta şunları yapabileceksin:**
+
+- İnternet ile web'i ayırt etmek.
+- Bir adres yazıldığında gerçekleşen adımları (DNS, IP, HTTPS) sırayla açıklamak.
+- Bulutta depolama ile eşzamanlı çalışmayı ayırt etmek, paylaşım izinlerini ayarlamak ve verinin nerede durduğunu sorgulamak.
+- Wi-Fi, hücresel, Bluetooth, NFC ve uydu bağlantılarını kullanım durumuna göre karşılaştırmak.
+- HTTPS kilit simgesinin neyi garanti edip neyi etmediğini açıklamak.
+
+**Ödev (Hafta 5'in başına kadar):** "Bir sayfanın yolculuğu": `nslookup` ve `tracert` komutlarının çıktısını yorumla; canlı bir takip sitesindeki verinin (örneğin uçuş takibi) nasıl toplandığını kısaca açıkla.
+
+### Hafta 5 · Bilgi okuryazarlığı: arama ve doğrulama
+
+*İnternette bulduğun bir bilginin doğru olduğundan nasıl emin olursun?*
+
+**Okuma:** [ders notu](../docs/05_bilgi-okuryazarligi.qmd), yaklaşık 25 dakika. **DigComp:** 1.1 Arama ve filtreleme, 1.2 Değerlendirme, 3.3 Telif.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Arama operatörleriyle ve doğru kaynak türleriyle hedefli arama yapmak.
+- Bir kaynağın güvenilirliğini yanal okuma ve SIFT yöntemiyle değerlendirmek.
+- Yanlış bilgi, dezenformasyon ve kötü niyetli bilgiyi ayırt etmek; yayılma nedenlerini açıklamak.
+- Bir görselin ya da alıntının kaynağını izleyerek doğrulamak.
+- Kullandığın kaynakları doğru biçimde göstermek ve intihalden kaçınmak.
+
+**Ödev (Hafta 6'nın başına kadar), dönem projesinin 1. adımı:** Proje konunu seç ve beş kaynak bul (en az biri birincil, en az biri akademik). Her kaynak için türünü, neden güvenilir olduğuna dair kısa bir SIFT notunu ve APA biçiminde kaynakça satırını yaz.
+
+### Hafta 6 · Üretken yapay zekâ: nasıl çalışır, hayatı nasıl dönüştürüyor?
+
+*Yapay zekâ bir soruyu cevapladığında cevabı biliyor mu, yoksa tahmin mi ediyor? Bu fark senin için neden önemli?*
+
+**Okuma:** [ders notu](../docs/06_uretken-yapay-zeka.qmd), yaklaşık 30 dakika. **DigComp:** 1.2 Değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Yapay zekâ, makine öğrenmesi, derin öğrenme ve üretken yapay zekâ arasındaki ilişkiyi açıklamak.
+- Bir dil modelinin nasıl çalıştığını (eğitim verisi, token, olasılık, bilgi kesim tarihi) basitçe anlatmak.
+- Rol, bağlam, görev ve biçim içeren bir istem yazmak ve yineleyerek iyileştirmek.
+- Yapay zekâ çıktısındaki hataları tanımak, bağımsız bir kaynakla doğrulamak ve yapay zekâ kullanımını beyan etmek.
+- Yapay zekânın bir alanı nasıl dönüştürdüğünü fırsatları ve tehditleriyle birlikte örneklemek.
+
+**Ödev (Hafta 7'nin başına kadar), dönem projesinin 2. adımı:** Bir yapay zekâ asistanına konunu özetlet ve istemini en az bir kez yinele. Özetteki en az beş iddiayı kaynakla doğrula; özeti yanlışları düzeltilmiş ve kendi cümlelerinle yeniden yaz; YZ kullanım beyanını ekle.
+
+### Hafta 7 · Dijital vatandaşlık ve bilişim hukuku
+
+*Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?*
+
+**Okuma:** [ders notu](../docs/07_dijital-vatandaslik-hukuk.qmd), yaklaşık 30 dakika. **DigComp:** 2.2 Paylaşma, 2.3 Vatandaşlık, 2.5 Dijital davranış, 2.6 Dijital kimlik, 3.3 Telif ve lisanslar, 4.3 İyi oluş.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Aktif ve pasif dijital ayak izini ayırt etmek, kendi izini gözden geçirmek.
+- Platform tasarımının dikkat ekonomisiyle ilişkisini açıklamak, kendi ekran kullanımını değerlendirmek.
+- Etik ile hukuku ayırt etmek, yaygın bilişim boyutlu suçları vaka üzerinden tanımak, netikete uygun iletişim kurmak ve siber zorbalığa karşı atılacak adımları sıralamak.
+- Telif, Creative Commons, kamu malı ve açık kaynak lisanslarını ayırt etmek, doğru atıf yapmak.
+- Türkiye'deki ve Avrupa Birliği'ndeki güncel düzenlemelerin bir öğrencinin günlük hayatına etkisini örneklemek.
+
+**Ödev (Hafta 8'in başına kadar):** Bir haftalık ekran süresi kaydı tut. Tablo sende kalır ve Hafta 11'de kullanılır; teslim ettiğin yalnızca kaydın tamamlandığı beyanı ve üç cümlelik bir yorumdur.
+
+**Dönem projesi, 3. adım:** Proje konun için lisansı uygun üç görsel bul (en az ikisinin lisansı farklı olsun) ve her biri için dört parçalı atıf yaz.
+
+### Hafta 8 · Mahremiyet: veri, büyük veri ve algoritmalar
+
+*Senin hakkında kim, ne biliyor ve bununla ne yapıyor?*
+
+**Okuma:** [ders notu](../docs/08_mahremiyet.qmd), yaklaşık 30 dakika. **DigComp:** 1.2 Değerlendirme, 2.6 Dijital kimlik, 4.2 Mahremiyet.
+
+**Bu hafta şunları yapabileceksin:**
+
+- "Ücretsiz" hizmetlerin veri ekonomisi üzerinden nasıl para kazandığını açıklamak.
+- Büyük verinin özelliklerini ve üst verinin neden içerik kadar şey söyleyebildiğini açıklamak.
+- Öneri, fiyatlama ve karar algoritmalarının veriyle nasıl çalıştığını ve algoritmik önyargıyı örnekle açıklamak.
+- Kendi tehdit modelini kurmak ve tarayıcı, hesap ve uygulama düzeyinde mahremiyet ayarlarını yapmak.
+- KVKK'nın temel kavramlarını açıklamak, bir aydınlatma metnini okuyup değerlendirmek ve ilgili kişi haklarını kullanmak için bir başvuru hazırlamak.
+
+**Ödev (Hafta 9'un başına kadar):** Mahremiyet denetimi (kendi tehdit modelin ve hesap ayarların; kişisel bilgi, ekran görüntüsü ya da hesap adı teslim etmezsin). Kurgusal KampüsKart aydınlatma metninin analizi ve bu şirkete, kurgusal bir adla, KVKK başvuru taslağı.
+
+**Materyal:** [KampüsKart aydınlatma metni](../materyal/08/kampuskart-aydinlatma-metni.txt) · [açıklama](../materyal/08/README.md)
+
+### Hafta 9 · Siber güvenlik: yapay zekâ çağında tehditler ve dayanıklılık
+
+*Bir saldırı ya da kesinti olduğunda ne kadar etkilenirsin, ne kadar çabuk toparlanırsın?*
+
+**Okuma:** [ders notu](../docs/09_siber-guvenlik.qmd), yaklaşık 30 dakika. **DigComp:** 4.1 Cihazları koruma, 4.2 Mahremiyet, 5.1 Teknik sorunlar, 5.3 Yaratıcı çözümler.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Gizlilik, bütünlük ve erişilebilirlik ilkelerini açıklamak ve bir olayda hangisinin zarar gördüğünü belirlemek.
+- Kötü amaçlı yazılım türlerini ve sosyal mühendislik yöntemlerini, YZ destekli olanlar dahil, ayırt etmek; bir oltalama mesajının işaretlerini bulmak.
+- YZ asistanlarına özgü riskleri (istem enjeksiyonu, gölge YZ, ajanlara verilen yetkiler) örnekle açıklamak.
+- Kendi hesaplarında parola yöneticisi, çok faktörlü doğrulama ve kurtarma kodlarıyla bir kimlik doğrulama düzeni kurmak.
+- Büyük bir kesintiye karşı kişisel bir dijital dayanıklılık planı hazırlamak.
+
+**Ödev (Hafta 10'un başına kadar):** Kişisel dijital dayanıklılık planı (plan sende kalır; bir kontrol listesi ve fark ettiğin en önemli eksik teslim edilir) ve kimlik doğrulama beyanı. Hafta 1–9 uygulama çıktılarını tek bir klasörde, içindekiler dosyasıyla teslime hazırla: Bu klasör vize notunun yarısıdır.
+
+### Hafta 10 · Belge tasarımı ve kurumsal yazışma
+
+*İyi görünen bir belge ile iyi kurulmuş bir belge arasındaki fark nedir?*
+
+**Okuma:** [ders notu](../docs/10_belge-ve-yazisma.qmd), yaklaşık 30 dakika. **DigComp:** 2.1 Etkileşim, 2.4 İş birliği, 2.5 Dijital davranış, 3.1 İçerik geliştirme, 3.2 Bütünleştirme ve yeniden düzenleme.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Stillerle başlık hiyerarşisi kurmak; otomatik içindekiler, sayfa numarası, üst ve alt bilgi eklemek.
+- Tabloyu ve resmi resim yazısıyla yerleştirmek; kaynakça ve dipnot eklemek.
+- Değişiklikleri izle ve yorumlarla birlikte çalışmak; yapay zekânın önerdiği değişiklikleri izlenebilir biçimde değerlendirmek.
+- Belgeyi PDF olarak dışa aktarmak; yazım ve erişilebilirlik denetimi yapmak.
+- Kurumsal kurallara uygun bir e-posta yazmak: konu satırı, alıcı alanları, hitap, gövde, ek ve imza.
+
+**Ödev (Hafta 11'in başına kadar):** **Föy 10, bozuk raporu onar:** sınıfta başlar, bir hafta içinde teslim edilir. Raporunu öğretim görevlisine kurumsal e-postayla gönder; e-postanın kendisi de değerlendirilir.
+
+**Dönem projesi, 4. adım:** Konunla ilgili 3–5 sayfalık bir teknik rapor taslağı: stiller, otomatik içindekiler, sayfa numarası, kaynakça, resim yazılı bir görsel ve YZ beyanı.
+
+**Materyal:** [Föy 10](../materyal/10/foy-10.md) · [bozuk-rapor.docx](../materyal/10/bozuk-rapor.docx)
+
+### Hafta 11 · Veriyle çalışmak I: tablo mantığı ve veri temizleme
+
+*Bir tablodaki sayılara güvenmeden önce neye bakmalısın?*
+
+**Okuma:** [ders notu](../docs/11_veriyle-calismak-1.qmd), yaklaşık 25 dakika. **DigComp:** 1.3 Veriyi yönetme, 3.1 İçerik geliştirme, 5.1 Teknik sorunlar.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Elektronik tablonun yapı taşlarını (çalışma kitabı, sayfa, hücre, aralık, başvuru) kullanmak ve veriyi düzenli veri ilkesine göre kurmak.
+- Sayı, metin ve tarih türlerini ayırt etmek; bir hücrenin değerini görünüşünden ayırmak ve yerel ayardan doğan hataları düzeltmek.
+- Sıralama, filtre ve tablo nesnesiyle veriyi incelemek.
+- Yinelenenleri kaldırma, KIRP, metni sütunlara dönüştürme, bul ve değiştir ve hızlı doldurma ile veriyi temizlemek; orijinali koruyup temizliği kaydetmek.
+- Veri doğrulama ve koşullu biçimlendirmeyle hatayı girişte önleyen bir kayıt tablosu kurmak; veriyi CSV olarak doğru içe ve dışa aktarmak.
+
+**Ödev (Hafta 12'nin başına kadar):** **Föy 11, kirli veriyi temizle:** sınıfta başlar, bir hafta içinde teslim edilir. Ödev: Kurgusal ekran süresi verisini içe aktar; tablo nesnesi, kontrol sütunu, koşullu biçimlendirme ve veri doğrulamayla düzenle.
+
+**Materyal:** [Föy 11](../materyal/11/foy-11.md) · [cihaz-arizalari.xlsx](../materyal/11/cihaz-arizalari.xlsx) · [ekran-suresi-kurgusal.csv](../materyal/11/ekran-suresi-kurgusal.csv)
+
+### Hafta 12 · Veriyle çalışmak II: formül, grafik, yorum
+
+*Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?*
+
+**Okuma:** [ders notu](../docs/12_veriyle-calismak-2.qmd), yaklaşık 25 dakika. **DigComp:** 1.2 Değerlendirme, 1.3 Veriyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler.
+
+**Bu hafta şunları yapabileceksin:**
+
+- İşlem önceliğine uygun formül yazmak; göreli, mutlak ve karma başvuruyu doğru kullanmak.
+- Temel, mantıksal, koşullu özet ve arama işlevleriyle veriden sonuç çıkarmak; hata değerlerini okumak.
+- Özet tabloyla veriyi farklı ölçütlere göre özetlemek.
+- Soruya uygun grafiği seçmek; yanıltıcı bir grafiği tanıyıp düzeltmek.
+- Bulguyu sayıyla desteklenen kısa bir yorumla yazmak; YZ'nin önerdiği bir formülü test durumlarıyla sınamak.
+
+**Ödev (Hafta 13'ün başına kadar):** **Föy 12, formül, özet tablo ve grafik:** sınıfta başlar, bir hafta içinde teslim edilir.
+
+**Dönem projesi, 5. adım:** Konunla ilgili açık bir veri setini temizle ve analiz et; iki grafik ve kısa yorumlarıyla raporunun Bulgular bölümüne ekle.
+
+**Materyal:** [Föy 12](../materyal/12/foy-12.md) · [cihaz-arizalari-temiz.xlsx](../materyal/12/cihaz-arizalari-temiz.xlsx)
+
+### Hafta 13 · Sunum ve görsel anlatım
+
+*Dinleyicin sunumundan çıkarken aklında tek bir cümle kalacaksa, o cümle ne olmalı?*
+
+**Okuma:** [ders notu](../docs/13_sunum.qmd), yaklaşık 35 dakika. **DigComp:** 2.1 Etkileşim, 2.2 Paylaşma, 3.1 İçerik geliştirme, 3.3 Telif ve lisanslar, 5.2 İhtiyaçlar ve teknolojik çözümler.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Amacı, türü, dinleyiciyi ve ortamı göz önüne alarak tek ana mesajlı bir sunum planlamak; bilgisayarlı ya da bilgisayarsız sunum arasında seçim yapmak.
+- Mesaj başlığı, kanıt ve temel tasarım ilkeleriyle okunur ve erişilebilir slaytlar hazırlamak.
+- PowerPoint'te ve karşılığı olan programlarda slayt ana şablonu, düzen, konuşmacı notları ve sunucu görünümüyle tutarlı bir sunum kurmak ve sunumu uygun biçimde paylaşmak.
+- Yapay zekâ araçlarını sunum hazırlarken sorumlu biçimde kullanmak: kaynağı doğrulamak, mesajı sahiplenmek, beyan etmek.
+- Topluluk önünde ve çevrim içi ortamda süreye uygun konuşmak, kaygıyı yönetmek ve soruları karşılamak.
+
+**Ödev (Hafta 14'ün başına kadar):** Bilerek kötü kurulmuş bir sunumu en fazla beş slaytla yeniden tasarla.
+
+**Dönem projesi, 6. adım (hazırlık):** Üç dakikalık proje sunumunu hazırla ve en az iki kez prova et.
+
+**Materyal:** [Uygulama yönergesi](../materyal/13/uygulama-13.md) · [kotu-sunum.pptx](../materyal/13/kotu-sunum.pptx)
+
+### Hafta 14 · Kapanış: 25 yılda ne değişti, nereye gidiyoruz?
+
+*Bundan 25 yıl sonra bugünün hangi teknolojisi sana tuhaf, hangisi sıradan gelecek?*
+
+**Okuma:** [ders notu](../docs/14_kapanis.qmd), yaklaşık 25 dakika. **DigComp:** 5.3 Dijital teknolojileri yaratıcı kullanma, 5.4 Dijital yetkinlik açıklarını belirleme, 4.4 Çevreyi koruma.
+
+**Bu hafta şunları yapabileceksin:**
+
+- Son 25 yılın başlıca teknolojik kırılımlarını, çözdükleri sorun ve getirdikleri bedelle açıklamak.
+- Yakın geleceğin teknolojilerini (YZ ajanları, robotlar, otonom sistemler, nesnelerin interneti) fırsat ve risk yönünden değerlendirmek.
+- Dijital teknolojinin çevresel bedelini (enerji, su, e-atık) tanımak ve kişisel ölçekte azaltma yolları önermek.
+- Ön ve son testi, öz tahminini ve yapabiliyorum listesini karşılaştırarak kendi dijital yetkinliğini değerlendirmek.
+- Yaşam boyu öğrenme için kişisel bir öğrenme planı hazırlamak.
+
+**Ödev (final haftasına kadar):** Sınıfta performans son testi; Europass testini yeniden çöz ve iki raporu karşılaştır. Ödev: kişisel öğrenme planı.
+
+**Dönem projesi, 6. adım:** Üç dakikalık sunum (sınıfta) ve dönem projesinin son teslimi: bütün adımlar tek klasörde, adlandırma kuralıyla.
+
+**Materyal:** [Ödev yönergesi](../materyal/14/odev-14.md) · [Yapabiliyorum listesi](../materyal/14/yapabilirim-listesi.md)
+
+## 9. İş yükü
+
+Bir AKTS kredisi yaklaşık 25–30 saatlik öğrenci emeğine karşılık gelir. Aşağıdaki tablo, dersin **bilgisayar laboratuvarında haftada 2 saat (2 + 0) ve 3 AKTS** olarak verildiği durum için bir örnektir; ders başka türlü kurgulanırsa öğretim görevlisi uyarlar.
+
+::: {.tablo-kaydir}
+| Etkinlik | Hesap | Saat |
+|---|---|---|
+| Ders | 14 hafta × 2 saat | 28 |
+| Notu önceden okuma | 14 hafta × yaklaşık 30 dakika | 7 |
+| Haftalık ödevler (Hafta 1–9) | 9 × yaklaşık 1,5 saat | 13,5 |
+| Föylerin evde tamamlanması (Hafta 10–12) | 3 × yaklaşık 1,5 saat | 4,5 |
+| Hafta 10–14 ödevleri ve proje adımları | Rapor, veri analizi, sunum hazırlığı, son teslim | 12,5 |
+| Europass testi | Ön ve son test | 1 |
+| Vize ve final hazırlığı | 5 + 8 saat | 13 |
+| Sınavlar | | 2 |
+| **Toplam** | | **yaklaşık 82 saat** (3 AKTS × 25–30 saat = 75–90) |
+:::
+
+## 10. Kaynaklar ve araçlar
+
+- **Ders notları ve ekler:** Bu sitedeki haftalık notlar dersin ana kaynağıdır. Ekler: [Sözlük](sozluk.qmd), [A · 2000–2025 kırılımları](a_kirilimlar.qmd), [B · Bilim kurgudan gerçeğe](b_bilim-kurgu.qmd), [C · Her şeyin bir alternatifi var](c_alternatifler.qmd), [D · Netiket](d_netiket.qmd).
+- **Programlar:** Kelime işlemci, elektronik tablo ve sunum programı. Microsoft 365 (kurumun sağladığı hesapla erişilebiliyorsa), Google'ın ücretsiz araçları ya da ücretsiz ve açık kaynaklı LibreOffice; hangisini kullandığın önemli değil ([Ek C](c_alternatifler.qmd)).
+- **Dijital yetkinlik:** DigComp 3.0 (Avrupa Komisyonu Ortak Araştırma Merkezi, 2025) ve Europass Dijital Beceri Testi (ücretsiz).
+- **Sınıf sunumları** derste gösterilir.
