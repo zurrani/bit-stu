@@ -6,7 +6,7 @@ toc: false
 
 ## Ders
 
-Temel Bilgi Teknolojileri (Basic Information Technologies, kısaca BIT), İstanbul Üniversitesi-Cerrahpaşa Teknik Bilimler Meslek Yüksekokulu'nda okutulan ortak bir derstir. Bu sitedeki notlar Uçak Teknolojisi Programı için havacılık örnekleriyle zenginleştirilmiştir; çekirdek içerik diğer programlar için de geçerlidir.
+Temel Bilgi Teknolojileri (Basic Information Technologies, kısaca BIT), üniversitelerin müfredatlarının ortak dersleri altında okutulan ortak bir derstir. Bu sitedeki notlar Uçak Teknolojisi Programı için havacılık örnekleriyle zenginleştirilmiştir; çekirdek içerik diğer programlar için de geçerlidir.
 
 ## Yazar
 
