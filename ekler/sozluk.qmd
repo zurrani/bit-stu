@@ -236,7 +236,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Karakter kodlaması (2) | Karakterlerin sayılara nasıl çevrileceğini belirleyen kural; uyuşmazlık bozuk karakterlere yol açar |
 | Karanlık örüntü (8) | Kullanıcıyı farkında olmadan belirli bir seçime yönlendiren arayüz tasarımı (dark pattern); örneğin reddetmeyi gizleyen çerez penceresi |
 | Karartma (10) | Bir belgedeki gizli bilginin üstünü kapatmakla kalmayıp onu gerçekten silmek (redaction) |
-| Karma başvuru (12) | Yalnızca satırı ya da yalnızca sütunu sabitleyen hücre başvurusu ($B2 ya da B$2) |
+| Karma başvuru (12) | Yalnızca satırı ya da yalnızca sütunu sabitleyen hücre başvurusu (`$B2` ya da `B$2`) |
 | Kaynak kodu (3) | Bir yazılımın insanların okuyabildiği komutlardan oluşan metni |
 | Kaynakça (5) | Bir çalışmada kullanılan kaynakların belirli bir biçimde listelenmesi |
 | Kaynakça yöneticisi (10) | Kaynak bilgilerini bir kez kaydedip metin içi atıfları ve kaynakçayı seçilen biçimde kendiliğinden oluşturan araç |
@@ -274,7 +274,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Mikroişlemci (1) | Bir bilgisayarın işlem biriminin tamamını tek bir çipte toplayan entegre devre |
 | Modem (4) | Ev ya da iş yeri ağını servis sağlayıcının hattına bağlayan cihaz |
 | Moore yasası (1) | Bir çipteki transistör sayısının düzenli aralıklarla ikiye katlanacağı öngörüsü (1965) |
-| Mutlak başvuru (12) | Formül nereye kopyalanırsa kopyalansın aynı hücreyi gösteren başvuru ($B$7 gibi) |
+| Mutlak başvuru (12) | Formül nereye kopyalanırsa kopyalansın aynı hücreyi gösteren başvuru (`$B$7` gibi) |
 | Nesnelerin interneti (14) | İnternete bağlı sensörler ve gündelik cihazlardan oluşan ağ (Internet of Things, IoT) |
 | Nesnelerin İnterneti, IoT (4) | Sensörlü ve gömülü cihazların internete bağlanmasıyla oluşan ağ |
 | Netiket (10) | Çevrimiçi iletişimin görgü kuralları (İngilizce internet ve etiket kelimelerinden) |

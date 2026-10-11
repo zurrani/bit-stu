@@ -11,9 +11,9 @@ Temel Bilgi Teknolojileri (Basic Information Technologies, kısaca BIT), İstanb
 ## Yazar
 
 Öğr. Gör. Emre Akar, İÜC Teknik Bilimler MYO, Uçak Teknolojisi Programı.
-Diğer projeler: [zurrani.com](https://zurrani.com)
+Siteyi geliştiren: zurrani · [zurrani.com](https://zurrani.com)
 
-Notlarda bir hata görürsen ya da bir öneride bulunmak istersen kurumsal e-posta üzerinden bildirebilirsin. Konu satırına "BIT, Hafta numarası, hata" yazman yeterli.
+Notlarda bir hata görürsen ya da bir öneride bulunmak istersen [zurrani@gmail.com](mailto:zurrani@gmail.com) adresine yazabilirsin. Konu satırına "BIT, Hafta numarası, hata" yazman yeterli.
 
 ## Gizlilik
 
