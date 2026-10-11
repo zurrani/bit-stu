@@ -4,7 +4,7 @@ Temel Bilgi Teknolojileri (Basic Information Technologies) dersinin öğrenciye 
 
 Öğretim görevlisi materyalleri (ders akışları, soru bankası, performans testi) bu depoda **yoktur**; özel `bit-ins` deposundadır.
 
-Planlanan yayın adresi: `https://bit.zurrani.com` (`_quarto.yml` içindeki `site-url` ile değiştirilebilir).
+Yayın adresi: **https://bit.zurrani.com** (Cloudflare Pages; `main` dalına her push siteyi kendiliğinden günceller).
 
 ## Klasör yapısı
 
@@ -15,11 +15,11 @@ bit-stu/
 ├─ index.qmd              ana sayfa
 ├─ hakkinda.qmd           ders, yazar, gizlilik, YZ beyanı, lisans
 ├─ docs/                  ders notları: 00_cerceve.qmd, 01_…, 02_… 14_…
-├─ ekler/                 sözlük ve ekler (A, B, C)
+├─ ekler/                 sözlük ve ekler (A, B, C, D)
 ├─ slides/                web sunumları (sıradaki aşama)
 ├─ materyal/              öğrencinin indireceği dosyalar, haftaya göre alt klasörler
 └─ assets/
-   ├─ css/                bit.scss (açık tema), bit-dark.scss, fonts.css, genel.css
+   ├─ css/                bit.scss (açık tema), bit-dark.scss, fonts.css, mobil.css, genel.css
    ├─ js/quiz.html        "Kendini sına" bileşeni
    ├─ fonts/              yerel yazı tipleri (OFL lisanslı)
    └─ img/                görseller, haftaya göre alt klasörler
@@ -76,30 +76,42 @@ Yalnızca öğrenmeyi destekleyen sorular buraya girer; sınav soruları hiçbir
 
 - [ ] `docs/NN_….qmd` dosyası Hafta 1 standardına uygun (görev kartı, çıktılar, kutular, Akılda kalsın, Kendini sına)
 - [ ] Yeni kavramlar `ekler/sozluk.qmd` dosyasına eklendi
-- [ ] `_quarto.yml` içinde kenar çubuğuna hafta eklendi
+- [ ] `_quarto.yml` içinde kenar çubuğuna ve üst menüdeki "Ders notları" açılır listesine hafta eklendi
 - [ ] `index.qmd` içindeki listede hafta "Yayında" yapıldı ve bağlantı eklendi
 - [ ] `quarto preview` ile açık ve karanlık temada, telefonda kontrol edildi
 
 ## Yayın
 
-**Karar (9 Ekim 2026):** Bu depo herkese açık yapılacak ve site GitHub Pages ile yayımlanacak:
+Site **Cloudflare Pages** ile yayımlanır; depo özel kalır, yalnızca derlenmiş site (`_site/`) açılır. Adres `https://bit.zurrani.com` (yedek adres `https://bit-stu.pages.dev`). Karar ve gerekçe: `bit-ins/planlama/00_proje-rehberi.md`, 4.8.
+
+**Güncelleme:** Bir notu değiştir, yerelde `quarto preview` ile kontrol et, sonra:
 
 ```bash
-quarto publish gh-pages
-```
-
-`bit.zurrani.com` alt alan adı bir DNS (CNAME) kaydıyla bağlanır. Depo herkese açık olacağı için buraya yalnızca öğrenciye açık içerik girer: sınav soruları, lisansı belirsiz görseller ve kişisel veri hiçbir zaman konmaz. Kurulum adımları uygulandığında bu bölüm güncellenecek.
-
-## İlk gönderim
-
-```bash
-git init
 git add .
-git commit -m "BIT öğrenci sitesi: iskelet ve Hafta 1"
-git branch -M main
-git remote add origin https://github.com/zurrani/bit-stu.git
-git push -u origin main
+git commit -m "..."
+git push
 ```
+
+Cloudflare `main` dalındaki her push'ta siteyi kendisi derler (yaklaşık bir dakika). Durumu Cloudflare panelinde bit-stu → Deployments sekmesinde görürsün. Bir derleme başarısız olursa yayındaki site değişmez; günlüğe "Details"ten bakılır.
+
+Cloudflare'deki ayarlar (bit-stu projesi):
+
+| Ayar | Değer |
+|---|---|
+| Production branch | `main` |
+| Framework preset | None |
+| Build command | aşağıdaki satır |
+| Build output directory | `_site` |
+| Özel alan adı | `bit.zurrani.com` (WordPress.com DNS'inde CNAME `bit` → `bit-stu.pages.dev`) |
+| Web Analytics | Açık (çerezsiz; Hakkında'da açıklanır) |
+
+```text
+mkdir -p /tmp/q && curl -sL https://github.com/quarto-dev/quarto-cli/releases/download/v1.7.32/quarto-1.7.32-linux-amd64.tar.gz | tar xz -C /tmp/q && /tmp/q/quarto-1.7.32/bin/quarto render
+```
+
+Quarto sürümü yerelde güncellenirse derleme komutundaki sürüm de güncellenir. Yayımlanan profil öntanımlı (havacılık katmanlı) profildir; genel profil yalnızca yerelde derlenir.
+
+Depo özel olsa da site herkese açıktır: buraya yalnızca öğrenciye açık içerik girer. Sınav soruları, lisansı belirsiz görseller ve kişisel veri hiçbir zaman konmaz. `$` işaretini (örneğin `$B$7`) ters tırnak içinde yaz; yoksa Quarto onu matematik formülü sanar ve sayfa dışarıdan MathJax yükler.
 
 ## Lisans
 

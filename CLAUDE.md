@@ -11,5 +11,5 @@ Temel Bilgi Teknolojileri (BIT) dersinin öğrenci sitesi (Quarto). Planlama bel
 Temel kurallar:
 
 - Dil Türkçe. Hafta 1 notu (`docs/01_teknoloji-neyi-cozer.qmd`) kalıptır.
-- Bu depo herkese açık yayımlanacak bir siteyi besler: sınav soruları, cevap anahtarları ve lisansı belirsiz görseller buraya konmaz.
+- Bu depo herkese açık bir siteyi besler (https://bit.zurrani.com; Cloudflare Pages, `main`'e her push yayını günceller): sınav soruları, cevap anahtarları ve lisansı belirsiz görseller buraya konmaz.
 - Önizleme `quarto preview`, derleme `quarto render`; `_site/` depoya girmez.
