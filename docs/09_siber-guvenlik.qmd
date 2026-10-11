@@ -245,6 +245,14 @@ Kısa vadede: Bugün e-posta hesabında çok faktörlü doğrulamayı açar, kur
 - **Uzun parola, ayrı parola, çok faktör.** Parola yöneticisi kullan; mümkünse geçiş anahtarına geç; kurtarma kodları kâğıtta; istemediğin onay isteğine asla "Onayla" deme.
 - **İki, birdir; bir, hiçtir.** 3-2-1 yedek, kâğıtta numaralar ve kurtarma kodları, teknoloji susarsa ne yapacağını bildiğin bir plan.
 
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Olaylarla ilgili sayılar, olayın sorumlusu ya da ilgili kurumun açıkladığı tahminlerdir.
+
+- **Kurallar ve yönergeler:** EASA Part-IS (2022/1645 ve 2023/203 sayılı AB tüzükleri; uygulama Ekim 2025 ve Şubat 2026); NIST SP 800-63B (Rev. 4, 2025); Siber Güvenlik Kanunu (7545, 2025). Kaynak: [easa.europa.eu](https://www.easa.europa.eu), [nist.gov](https://www.nist.gov), [mevzuat.gov.tr](https://www.mevzuat.gov.tr). Oltalama bildirimi: [usom.gov.tr](https://www.usom.gov.tr).
+- **Olaylar:** CrowdStrike kesintisi (19 Temmuz 2024; Microsoft'un tahmini yaklaşık 8,5 milyon cihaz), WannaCry (2017), Stuxnet (2010), SolarWinds (2020), XZ Utils (2024), sahte belgeli motor parçaları (2023), Hong Kong'daki deepfake toplantısı (2024), İspanya ve Portekiz elektrik kesintisi (28 Nisan 2025).
+- **Kavramlar:** James Reason, İsviçre peyniri modeli (1990); Bruce Schneier'e atfedilen sözler (2000).
+
 ## Bu haftanın kavramları
 
 Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: bilgi güvenliği, CIA üçlüsü, bütünlük, erişilebilirlik, İsviçre peyniri modeli, Part-IS, kötü amaçlı yazılım, virüs, solucan, truva atı, fidye yazılımı, casus yazılım, tuş kaydedici, botnet, rootkit, reklam yazılımı, sosyal mühendislik, oltalama, SMS oltalaması, sesli oltalama, QR oltalaması, ses klonlama, aile parolası, istem enjeksiyonu, en az yetki ilkesi, gölge YZ, jailbreak, parola cümlesi, parola yöneticisi, çok faktörlü doğrulama, geçiş anahtarı, kurtarma kodu, yorgunluk saldırısı, SIM kart değiştirme dolandırıcılığı, VPN, dijital dayanıklılık, QRH, tedarik zinciri saldırısı, tersine mühendislik, sorumlu bildirim, hata ödül programı.

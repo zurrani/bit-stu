@@ -74,7 +74,7 @@ Uzun yıllar boyunca bir uçağın arızaları ve yapılan bakım, kokpitteki k�
 
 ## 3. Geçmişin bilim kurgusu
 
-*2001: Bir Uzay Macerası* (1968) filminde astronotlar ince, düz ekranlı tabletlerle haber izler, Dünya'daki aileleriyle görüntülü konuşur ve gemiyi konuşarak yöneten bir bilgisayarla sohbet eder. Film çekildiğinde bunların hepsi bilim kurguydu. Bugün üçü de senin cebinde: tablet, görüntülü arama ve sesli asistan ([Ek B](../ekler/b_bilim-kurgu.qmd)).
+*2001: Bir Uzay Destanı* (1968) filminde astronotlar ince, düz ekranlı tabletlerle haber izler, Dünya'daki aileleriyle görüntülü konuşur ve gemiyi konuşarak yöneten bir bilgisayarla sohbet eder. Film çekildiğinde bunların hepsi bilim kurguydu. Bugün üçü de senin cebinde: tablet, görüntülü arama ve sesli asistan ([Ek B](../ekler/b_bilim-kurgu.qmd)).
 
 Ama dikkatli bak: Bilim kurgu çoğu zaman cihazı doğru tahmin etti, toplumsal bedelini değil. Görüntülü konuşmanın uzaktaki aileleri yaklaştıracağını kimse şaşırtıcı bulmadı; ama aynı teknolojinin sahte görüntülü aramalarla dolandırıcılığa (Hafta 9) dönüşeceğini çok az kişi öngördü. Filmdeki bilgisayarın asıl korkutucu yanı konuşabilmesi değil, insanlara söylemediği bir hedefinin olmasıydı; bu da bugün YZ güvenliği tartışmalarının merkezinde duruyor.
 
@@ -186,7 +186,7 @@ Bilim kurgu yazarı William Gibson'a atfedilen bir başka söz ise bugüne bakma
 Dönemi bilim kurgunun ustalarından Isaac Asimov'a atfedilen bir sözle kapatalım: "Bugün hayatın en üzücü yanı, bilimin bilgiyi toplumun bilgeliği toplayabildiğinden daha hızlı toplamasıdır." Bu ders sana bilgi verdi; bilgeliği, o bilgiyi nasıl kullanacağına karar verirken sen kuracaksın.
 
 ::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
-*2001: Bir Uzay Macerası* (2001: A Space Odyssey, 1968): Tabletleri, görüntülü konuşmayı ve konuşan bilgisayarı yarım yüzyıl önce gösteren film. İzlerken iki listeyi yan yana tut: Hangi teknolojiler gerçekleşti, hangileri hâlâ bilim kurgu? Gerçekleşenlerin filmde gösterilmeyen bedeli ne oldu?
+*2001: Bir Uzay Destanı* (2001: A Space Odyssey, 1968): Tabletleri, görüntülü konuşmayı ve konuşan bilgisayarı yarım yüzyıl önce gösteren film. İzlerken iki listeyi yan yana tut: Hangi teknolojiler gerçekleşti, hangileri hâlâ bilim kurgu? Gerçekleşenlerin filmde gösterilmeyen bedeli ne oldu?
 :::
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
@@ -200,6 +200,14 @@ Kısa vadede: Final sınavına neyi bildiğini ve neyi tekrar etmen gerektiğini
 - **Dijitalin de bir ayak izi var.** Enerji, su ve e-atık; cihazını uzun kullan, doğru yere at, gereksiz veriyi temizle, aracı işe göre seç.
 - **Biliyorum değil, yapabiliyorum.** Ön ve son testini, öz tahminini ve yapabiliyorum listeni karşılaştır; kalibrasyon, ne öğrenmen gerektiğini gösterir.
 - **Öğrenme bitmez.** Bir öğrenme planı yaz, kurcalamaktan çekinme, hazırlıklı ol.
+
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Enerji, su ve e-atık üzerine sayılar her yıl güncellenir; güncel değerler için aşağıdaki kurumların raporlarına bak.
+
+- **Kavramlar ve atıflar:** Marc Prensky, "Digital Natives, Digital Immigrants" (2001); Roy Amara'ya atfedilen yasa; Gartner'ın abartı döngüsü; Alan Kay'e ve William Gibson'a atfedilen sözler; Isaac Asimov ve Jason A. Shulman (1988).
+- **Raporlar:** Uluslararası Enerji Ajansı (IEA), veri merkezleri ve YZ'nin enerji kullanımı; BM Küresel E-Atık İzleme raporları; AB'nin mikro yeterlikler tavsiyesi (2022).
+- **Diğer:** *2001: Bir Uzay Destanı* (1968).
 
 ## Bu haftanın kavramları
 

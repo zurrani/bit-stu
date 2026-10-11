@@ -225,6 +225,14 @@ Kısa vadede: telefon ya da bilgisayar alırken ilanı okuyup ihtiyacına göre 
 - **Hız en yavaş halkadadır.** İşlemci aşçı, RAM tezgâh, depolama kilerdir; belirtiden darboğaza gitmek, doğru çözümü bulmaktır.
 - **Bilgisayarların çoğu görünmez.** Saatten uçağa kadar gömülü sistemler her yerdedir; doğru cihaz en güçlüsü değil, ihtiyaca uygun ve onarılabilir olandır.
 
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı.
+
+- **Standartlar:** ASCII (1963); Unicode; IEC ikili önekleri (1998); ARINC 429 veri yolu standardı.
+- **Tarih:** Claude Shannon, "A Mathematical Theory of Communication" (1948); John von Neumann, EDVAC raporu (1945); Gordon Moore (1965); Intel 4004 (1971).
+- **Avrupa Birliği ve çevre:** Ortak şarj girişi direktifi (2022/2380; uygulama Aralık 2024); onarım hakkı direktifi (2024/1799); BM Küresel E-Atık İzleme raporları. Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
+
 ## Bu haftanın kavramları
 
 Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: analog, dijital, analog-dijital dönüştürücü (ADC), örnekleme, niceleme, mantık kapısı, bayt, kibibayt (KiB), ASCII, Unicode, UTF-8, karakter kodlaması, piksel, RGB, çözünürlük, sıkıştırma, bit hızı, von Neumann mimarisi, geri besleme, işlemci (CPU), ekran kartı (GPU), yapay zekâ birimi (NPU), RAM, SSD, HDD, darboğaz, BITE, hat değiştirilebilir birim (LRU), gömülü sistem, hava verisi bilgisayarı, ARINC 429, parite biti, x86, ARM, tamir edilebilirlik.

@@ -12,7 +12,7 @@ Bilim kurgu bir teknolojiyi öngördüğünde çoğu zaman getireceği sorunu da
 | E. M. Forster, *Makine Duruyor* (1909) | Herkesin odasından ekranla konuştuğu, makineye tamamen bağımlı bir toplum; makine durunca çöküş | Görüntülü görüşme, uzaktan yaşam, büyük kesintiler | Teknoloji susarsa ne yaparız? |
 | Dick Tracy çizgi romanı (1946) | Kol saati telsiz | Akıllı saat | Giyilebilir cihazlar ne kadar veri topluyor? |
 | *Star Trek* (1966) | Kapaklı iletişim cihazı, evrensel çevirmen | Cep telefonu, anlık çeviri | Çeviri yapay zekâsı dil öğrenmeyi gereksiz kılar mı? |
-| *2001: Uzay Macerası* (1968) | Tablet ve konuşan yapay zekâ (HAL 9000) | Tabletler, sesli asistanlar | Yapay zekâya ne kadar yetki verilmeli? |
+| *2001: Bir Uzay Destanı* (1968) | Tablet ve konuşan yapay zekâ (HAL 9000) | Tabletler, sesli asistanlar | Yapay zekâya ne kadar yetki verilmeli? |
 | William Gibson, *Neuromancer* (1984) | "Siberuzay" | İnternet kültürü | Sanal ile gerçek arasındaki sınır nerede? |
 | Neal Stephenson, *Snow Crash* (1992) | "Metaverse" ve avatarlar | Sanal dünyalar | Sanal dünyalarda kim kural koyar? |
 | *Geleceğe Dönüş II* (1989) | Görüntülü görüşme, parmak iziyle ödeme, drone | Hepsi gerçek oldu (uçan kaykay hariç) | Biyometrik veri çalınırsa şifre gibi değiştirilebilir mi? |

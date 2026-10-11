@@ -335,6 +335,14 @@ Kısa vadede: Dönem projeni üç dakikada, ana mesajı net ve süreye uygun bir
 - **YZ biçimi hızlandırır, mesajı bulmaz.** Taslağı al, mesajını sen yaz, her sayıyı ve kaynağı doğrula, beyan et.
 - **Kaygı normaldir, prova ilacıdır.** Açılışı bil, yavaş konuş, dinleyiciye bak, süreye uy; bilmediğin soruya "bilmiyorum, dönerim" de. Çevrim içinde yalnızca pencereyi paylaş, bildirimleri kapat.
 
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. YZ araçlarının özellikleri ve ücretsiz sürüm sınırları sık değişir.
+
+- **Olaylar ve eleştiriler:** Columbia Kaza İnceleme Kurulu raporu (CAIB, 2003); Edward Tufte, *The Cognitive Style of PowerPoint* (2003).
+- **Araştırmalar:** Richard Mayer'in çoklu ortamla öğrenme ilkeleri; Michael Alley'in iddia ve kanıt yaklaşımı; Albert Mehrabian'ın deneyleri (1967); Gordon Dupont, Kirli Düzine (Transport Canada, 1990'lar).
+- **Tarih ve diğer:** PowerPoint (Robert Gaskins ve Dennis Austin, 1987); Pecha Kucha (Tokyo, 2003); Susan Cain, "The Power of Introverts" (TED, 2012).
+
 ## Bu haftanın kavramları
 
 Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: sunum, bilgisayarsız sunum, kâğıt tahta, brifing, dinleyici analizi, ana mesaj, hikâye akışı, iddia ve kanıt slaytı, çoklu ortamla öğrenme, kontrast, hizalama, tema, düzen, yer tutucu, slayt ana şablonu, geçiş, animasyon, konuşmacı notları, sunucu görünümü, PPSX, araç esnekliği, tip eğitimi, Kirli Düzine, NotebookLM, sunum kaygısı, dolgu sözcüğü, ekran paylaşımı, Pecha Kucha, asansör konuşması, tepegöz.

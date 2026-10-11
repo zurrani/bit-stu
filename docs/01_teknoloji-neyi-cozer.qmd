@@ -154,7 +154,7 @@ Bilgisayarlar ilk iki basamakta çok güçlüdür: milyonlarca veriyi saniyede d
 Her toplumu kendi temel üretim gücüyle tanımlayabiliriz. Tarım toplumunda bu güç topraktı, sanayi toplumunda makine ve sermaye. Bilgi toplumunda ise bilgi ve veri en değerli kaynak haline geldi. İktisatçı Peter Drucker, 1959'da elleriyle değil bilgiyle çalışan bu yeni çalışan tipine "bilgi işçisi" adını verdi. Bugün bir bakım teknisyeni de tork anahtarının yanında veriyle, dokümanla ve yazılımla çalışan bir bilgi işçisidir.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
-Isaac Asimov'a atfedilen bir söz der ki: "Hayatın en üzücü yanı, bilimin bilgi toplama hızının toplumun bilgelik kazanma hızından yüksek olmasıdır." Veriden bilgeliğe dört basamağı düşündüğünde, bugün en çok hangi basamakta zorlanıyoruz?
+Isaac Asimov'a atfedilen bir söz der ki: "Bugün hayatın en üzücü yanı, bilimin bilgiyi toplumun bilgeliği toplayabildiğinden daha hızlı toplamasıdır." Veriden bilgeliğe dört basamağı düşündüğünde, bugün en çok hangi basamakta zorlanıyoruz?
 :::
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
@@ -278,7 +278,7 @@ Bu dersin hedefi, çoğu yetkinlikte orta düzeye ulaşman ve bazılarında iler
 
 ### Kendini ölç: ön test
 
-Bu hafta iki ölçüm yapacaksın. Avrupa Birliği'nin ücretsiz Europass Dijital Beceri Testi, DigComp'a dayanan ve yaklaşık 15 dakika süren bir öz değerlendirmedir. Sınıf içi performans testinde ise kısa görevleri gerçekten yaparsın, çünkü insanlar "biliyorum" dediklerinde kendilerini çoğu zaman olduğundan iyi değerlendirir. Dönemin son haftasında aynı iki ölçümü tekrarlayacaksın.
+Bu hafta iki ölçüm yapacaksın. Avrupa Birliği'nin ücretsiz Europass Dijital Beceri Testi, DigComp'a dayanan ve kısa süren bir öz değerlendirmedir. Sınıf içi performans testinde ise kısa görevleri gerçekten yaparsın, çünkü insanlar "biliyorum" dediklerinde kendilerini çoğu zaman olduğundan iyi değerlendirir. Dönemin son haftasında aynı iki ölçümü tekrarlayacaksın.
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
 Kısa vadede: hangi alanda güçlü, hangisinde zayıf olduğunu görür, dönem boyunca neye odaklanacağını bilirsin. Orta vadede: özgeçmişine "bilgisayar kullanımı: iyi" yerine ölçülmüş, somut yetkinlikler yazarsın. Uzun vadede: yeni bir teknolojiyle karşılaştığında onu öğrenmenin yöntemini bilirsin.
@@ -318,6 +318,14 @@ Bugün birçok şirket birbirine çok benzeyen yapay zekâ modellerini neredeyse
 - **Veri tek başına değer değildir.** Veriden enformasyona, bilgiye ve bilgeliğe çıkmak gerekir; son basamak hâlâ insanın işidir.
 - **Araçlar değişir, yetkinlik kalır.** Bu ders menü ezberletmez; bilgi, beceri ve tutumu birleştirmeyi öğretir.
 - **Dört felsefe dönem boyunca yanında:** yakından uzağa bak, her şeyin bir alternatifini bil, bilim kurguyu ciddiye al, hazırlıklı ol.
+
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı.
+
+- **Çerçeve:** Avrupa Komisyonu Ortak Araştırma Merkezi, DigComp 3.0 (2025); Europass Dijital Beceri Testi. Kaynak: [europass.europa.eu](https://europa.eu/europass).
+- **Atıflar:** Melvin Kranzberg (1986); Peter Drucker, "bilgi işçisi" (1959); Aydın Köksal, "bilişim" (1971); William Ogburn ve Dorothy Thomas, "Are Inventions Inevitable?" (1922); Isaac Asimov'a atfedilen söz: Asimov ve Jason A. Shulman, *Isaac Asimov's Book of Science and Nature Quotations* (1988).
+- **Keşifler ve olaylar:** Neptün'ün gözlenmesi (1846); ilk kara delik görüntüsü (Event Horizon Telescope, 2019); kütleçekim dalgalarının tespiti (LIGO, 2015); Göbeklitepe (UNESCO Dünya Mirası, 2018).
 
 ## Bu haftanın kavramları
 

@@ -160,7 +160,7 @@ Seni siteden siteye tanıyan birkaç teknoloji var. Hiçbiri tek başına kötü
 
 Hafta 6'da sohbete yazdığın her şeyin hizmet sağlayıcının sunucularına gittiğini gördün. Bunun üç sonucu var:
 
-- **Eğitim verisi:** Bazı sohbet asistanları, ayarlarına bağlı olarak konuşmalarını modelleri geliştirmek için kullanabilir; ayarın adı ve varsayılan değeri ürüne göre değişir. Sosyal medyadaki herkese açık paylaşımların da YZ eğitiminde kullanılabiliyor; bazı platformlar itiraz yolu sunuyor.
+- **Eğitim verisi:** Bazı sohbet asistanları, ayarlarına bağlı olarak konuşmalarını modelleri geliştirmek için kullanabilir; ayarın adı ve varsayılan değeri ürüne göre değişir. Sosyal medyadaki herkese açık paylaşımlar da YZ eğitiminde kullanılabiliyor; bazı platformlar itiraz yolu sunuyor.
 - **Kurumsal veri sızıntısı:** 2023'te büyük bir elektronik şirketinin çalışanları gizli kaynak kodunu bir sohbet asistanına yapıştırdı; şirket ardından üretken YZ kullanımını kısıtladı. Bir müşterinin ya da hastanın verisini bir YZ aracına yapıştırmak, o veriyi izinsiz bir üçüncü tarafa, çoğu zaman da yurt dışına aktarmaktır.
 - **Yüz tanıma:** Yüz, değiştiremeyeceğin bir şifredir. İnternetten milyarlarca fotoğraf toplayarak yüz tanıma veri tabanı kuran şirketler birçok Avrupa ülkesinde ceza aldı; AB'nin Yapay Zekâ Yasası bu tür hedefsiz toplamayı 2025'ten beri yasaklıyor.
 
@@ -279,7 +279,7 @@ Merak edersen büyük platformların hakkında tuttuğu veriyi indirebilirsin (G
 Daha az veri toplayan seçenekleri [Ek C](../ekler/c_alternatifler.qmd) sayfasında bulabilirsin; her şeyin bir alternatifi var. Ama alternatif seçmek de bir tehdit modeli kararıdır: Arkadaşlarının hiçbiri kullanmıyorsa, en mahremiyet dostu mesajlaşma uygulaması bile seni yalnız bırakır.
 
 ::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
-Coded Bias (Kodlanmış Önyargı, 2020): Joy Buolamwini'nin, yüz tanıma sistemlerinin koyu tenli kadınları çok daha sık yanlış tanıdığını fark etmesiyle başlayan belgesel. The Great Hack (Büyük Hack, 2019): Cambridge Analytica olayını anlatır. İzlerken Hafta 5'teki soruları sor: Kim söylüyor, kanıtı ne?
+Coded Bias (Kodlanmış Önyargı, 2020): Joy Buolamwini'nin, yüz tanıma sistemlerinin koyu tenli kadınları çok daha sık yanlış tanıdığını fark etmesiyle başlayan belgesel. The Great Hack (Büyük Veri Soygunu, 2019): Cambridge Analytica olayını anlatır. İzlerken Hafta 5'teki soruları sor: Kim söylüyor, kanıtı ne?
 :::
 
 ## 8. Evdeki ve yoldaki sensörler (okuma)
@@ -329,6 +329,14 @@ Kısa vadede: Bugün reklam kimliğini sıfırlar, üçüncü taraf çerezleri k
 - **Zarf da konuşur, parçalar birleşir.** Üst veri içerik kadar çok şey söyler; "anonim" veri başka veriyle birleşince çoğu zaman yeniden kişiye döner.
 - **Algoritma geçmişten öğrenir.** Geçmiş eşitsizse karar da eşitsiz olur; vekil değişkenler önyargıyı gizler. Otomatik bir karara itiraz hakkın var.
 - **KVKK senin aracın.** Aydınlatma rıza değildir; her işlem rızaya dayanmaz. Verini öğrenmek, düzelttirmek ve sildirmek için veri sorumlusuna başvurabilirsin.
+
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar ve kurul kararları sık değişir; bir hakkını kullanmadan önce güncel metni kaynağından kontrol et.
+
+- **Türkiye:** Kişisel Verilerin Korunması Kanunu (6698, 2016; 7499 sayılı kanunla yapılan değişiklik, yürürlük Haziran 2024); Kişisel Verileri Koruma Kurulu'nun veri ihlali bildirimine ilişkin kararı (72 saat, 2019) ve çerez uygulamaları rehberi (2022). Kaynak: [mevzuat.gov.tr](https://www.mevzuat.gov.tr), [kvkk.gov.tr](https://www.kvkk.gov.tr).
+- **Avrupa Birliği:** Veri koruma direktifi (95/46/EC), Genel Veri Koruma Tüzüğü (2016/679), Yapay Zekâ Yasası (2024/1689; yasaklı uygulamalar Şubat 2025'ten beri). Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
+- **Araştırma ve olaylar:** Latanya Sweeney'nin yeniden tanımlama çalışması (2000); Shoshana Zuboff, *The Age of Surveillance Capitalism* (2019); Cambridge Analytica (2018), Strava ısı haritası (2018), İngiltere'deki sınav notu algoritması (2020), ABD'de gizli mod davası (2024).
 
 ## Bu haftanın kavramları
 

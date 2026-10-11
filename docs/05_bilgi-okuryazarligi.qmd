@@ -190,6 +190,14 @@ Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1
 - **Görselin ve alıntının izini sür.** Ters görsel arama tarihi, ilk kaynak da sözün sahibini gösterir; bağlamdan koparılan gerçek bir alıntı da yanıltabilir.
 - **Kaynak göster.** Alıntı, aktarma ve özet kaynakla meşrudur; kaynaksız kopya intihaldir.
 
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Arama operatörleri arama motoru değiştikçe değişir.
+
+- **Araştırmalar:** Sam Wineburg ve Sarah McGrew, yanal okuma (Stanford Tarih Eğitimi Grubu, 2017); Mike Caulfield, SIFT (2019); Soroush Vosoughi, Deb Roy ve Sinan Aral, *Science* (2018); Claire Wardle ve Hossein Derakhshan, Avrupa Konseyi raporu (2017).
+- **Alıntılar:** John Naisbitt, *Megatrends* (1982); William Bruce Cameron, *Informal Sociology* (1963); *Popular Mechanics*, Mart 1949.
+- **Araçlar:** Google'ın arama operatörleri (Haziran 2026'daki durum); Teyit ve Doğruluk Payı.
+
 ## Bu haftanın kavramları
 
 Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: arama motoru, tarama, dizinleme, sıralama, sponsorlu sonuç, arama operatörü, birincil kaynak, ikincil kaynak, yanal okuma, SIFT, yanlış bilgi, dezenformasyon, kötü niyetli bilgi, filtre balonu, yankı odası, deepfake, ters görsel arama, doğrulama platformu, Wayback Machine, alıntı, atıf, kaynakça, intihal.

@@ -203,6 +203,14 @@ Kısa vadede: Kendi harcamalarını, ders programını ya da ekran süreni düze
 - **Orijinali koru, temizliği kaydet.** Yinelenenler, boşluklar, yazım farkları, birleşik sütunlar araçla; geçersiz bir değer ise kararla düzeltilir.
 - **Hatayı girişte durdur.** Açılır listeli veri doğrulama, değer temelli koşullu biçimlendirme; CSV'yi çift tıklayarak değil, içe aktararak aç.
 
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Menü ve işlev adları programın sürümüne ve diline göre değişebilir.
+
+- **Olaylar:** HUGO Gen Adlandırma Komitesi'nin (HGNC) gen adı değişiklikleri (2020); İngiltere'de `.xls` sınırı yüzünden kaybolan test sonuçları (Ekim 2020).
+- **Tarih:** VisiCalc (1979), Lotus 1-2-3 (1983), Microsoft Excel (1985).
+- **Programlar:** Microsoft Excel'in sınırları ve tarih sistemi (Microsoft belgeleri); Google E-Tablolar ve LibreOffice Calc'ın Haziran 2026'daki sürümleri; ATA iSpec 2200 bölüm numaraları.
+
 ## Bu haftanın kavramları
 
 Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: elektronik tablo, çalışma kitabı, çalışma sayfası, hücre, hücre başvurusu, aralık, formül çubuğu, düzenli veri, birleştirilmiş hücre, gölge pano, veri türü, metin olarak saklanan sayı, tarih seri numarası, yerel ayar, hücre biçimi, formül, işlev, doldurma tutamacı, sıralama, filtre, bölmeleri dondurma, tablo nesnesi, veri temizleme, yinelenen kayıt, KIRP, metni sütunlara dönüştürme, hızlı doldurma, temizlik günlüğü, ATA bölüm numarası, veri doğrulama, açılır liste, koşullu biçimlendirme, CSV, ayraç, Power Query, VisiCalc.

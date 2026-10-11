@@ -210,7 +210,7 @@ Mezun olduğunda yapacağın işi düşün. YZ bu işin hangi görevlerini üstl
 :::
 
 ::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
-AlphaGo (2017): Bir YZ'nin, sezgi gerektirdiği düşünülen Go oyununda dünya şampiyonunu yenişini anlatan belgesel. Yapay zekâyla ilgili bilim kurgu eserleri ve bugünkü karşılıkları için [Ek B](../ekler/b_bilim-kurgu.qmd).
+AlphaGo (2017): Bir YZ'nin, sezgi gerektirdiği düşünülen Go oyununda dünyanın en iyi oyuncularından birini yenişini anlatan belgesel. Yapay zekâyla ilgili bilim kurgu eserleri ve bugünkü karşılıkları için [Ek B](../ekler/b_bilim-kurgu.qmd).
 :::
 
 ## 8. Kapanış: akademik dürüstlük ve YZ beyanı
@@ -261,6 +261,14 @@ Kısa vadede: ödevlerinde YZ'yi kurallara uygun ve beyanlı kullanırsın; iyi 
 - **İyi istem bir konuşmadır.** Rol, bağlam, görev, biçim ve örnek ver; "uydurma" de; ilk cevabı yineleyerek düzelt.
 - **Halüsinasyon çalışma biçiminin sonucudur.** Kaynağı aç, sayıyı orijinalden oku, bağımsız kaynak bul; riskli kararda YZ yardımcıdır, kaynak değildir.
 - **Kullan, denetle, beyan et.** YZ bilimden sağlığa pek çok alanı dönüştürüyor; değerli olan, onun işini denetleyebilecek kadar işini bilmek ve kullandığını dürüstçe söylemektir.
+
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. YZ ürünleri ve ayarları çok hızlı değişir; adı geçen asistanların özelliklerini kendi sitelerinden kontrol et.
+
+- **Düzenleme:** AB Yapay Zekâ Yasası (2024/1689), madde 3 (tanımlar); EASA'nın YZ yol haritası. Kaynak: [EUR-Lex](https://eur-lex.europa.eu), [easa.europa.eu](https://www.easa.europa.eu).
+- **Olaylar ve araştırmalar:** ImageNet yarışması (AlexNet, 2012); Mata ile Avianca davası (ABD, 2023); özgeçmiş tarama sistemi haberi (Reuters, 2018); AlphaFold veri tabanı ve 2024 Nobel Kimya ile Fizik ödülleri; YZ dedektörleri üzerine Liang ve diğerleri (2023).
+- **Alıntılar:** Arthur C. Clarke, *Profiles of the Future* (1973 baskısı); George Box (1976); Richard Baldwin'e atfedilen söz (2023).
 
 ## Bu haftanın kavramları
 

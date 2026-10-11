@@ -215,7 +215,7 @@ Son gördüğün bir haber grafiğini ya da sosyal medyada paylaşılan bir ista
 
 ## 8. Bir hücre aralığı bir ekonomiyi tartışmaya açınca (okuma)
 
-İki tanınmış iktisatçı, Carmen Reinhart ve Kenneth Rogoff, 2010'da kamu borcunun milli gelirin yüzde 90'ını aştığı ülkelerde ekonomik büyümenin belirgin biçimde düştüğünü öne süren bir çalışma yayımladı. Çalışma, birçok ülkede kemer sıkma politikalarının savunulmasında sık sık anıldı. 2013'te bir yüksek lisans öğrencisi, Thomas Herndon, ödevi için bu sonuçları yeniden hesaplamaya çalıştı ve yapamadı. Yazarlardan aldığı elektronik tabloda bir ortalama formülünün aralığının birkaç ülkeyi dışarıda bıraktığını ve bazı veri tercihlerinin sonucu etkilediğini buldu. Düzeltilmiş hesapta etki çok daha zayıftı. Yazarlar hatayı kabul etti, ama ana sonuçlarının değişmediğini savundu; tartışma bugün de sürüyor.
+İki tanınmış iktisatçı, Carmen Reinhart ve Kenneth Rogoff, 2010'da kamu borcunun milli gelirin yüzde 90'ını aştığı ülkelerde ekonomik büyümenin belirgin biçimde düştüğünü öne süren bir çalışma yayımladı. Çalışma, birçok ülkede kemer sıkma politikalarının savunulmasında sık sık anıldı. 2013'te bir lisansüstü öğrencisi, Thomas Herndon, ödevi için bu sonuçları yeniden hesaplamaya çalıştı ve yapamadı. Yazarlardan aldığı elektronik tabloda bir ortalama formülünün aralığının birkaç ülkeyi dışarıda bıraktığını ve bazı veri tercihlerinin sonucu etkilediğini buldu. Düzeltilmiş hesapta etki çok daha zayıftı. Yazarlar hatayı kabul etti, ama ana sonuçlarının değişmediğini savundu; tartışma bugün de sürüyor.
 
 Bu hikâyenin dersi Excel'e güvenmemek değil, hesabı **yeniden üretilebilir** kılmaktır: Verini ve formüllerini paylaş, başkasının aynı sonuca ulaşabilmesini sağla. Herndon'ın hatayı bulabilmesinin tek nedeni tablonun ona verilmiş olmasıydı. Araştırmalar da gerçek hayatta kullanılan elektronik tabloların önemli bir kısmında en az bir hata bulunduğunu gösteriyor. Bu yüzden önemli bir tabloyu bir başkasına kontrol ettirmek, Hafta 10'daki akran incelemesinin sayılardaki karşılığıdır.
 
@@ -244,6 +244,14 @@ Kısa vadede: Harcamalarını ya da ekran süreni birkaç formül ve bir grafikl
 - **Doğru işlev, doğru soru.** EĞERSAY sayar, ETOPLA toplar, ÇAPRAZARA getirir, özet tablo hepsini formülsüz yapar. Aykırı değer varsa ortanca da bak; boş hücre sıfır değildir.
 - **Grafik soruya göre seçilir ve dürüst çizilir.** Zaman için çizgi, karşılaştırma için sıfırdan başlayan çubuk, pasta yalnızca az dilimle; eksik dönem ve kırpılmış eksen yanıltır.
 - **Sonuç bir cümledir ve sınanır.** Bulgu, sayı, anlam. YZ'nin formülünü elle kontrol, sınır durumu ve boş hücreyle test et; hata vermemesi doğru olduğunu kanıtlamaz.
+
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. İşlev adları programın sürümüne ve diline göre değişebilir.
+
+- **Araştırmalar:** Carmen Reinhart ve Kenneth Rogoff (2010); Thomas Herndon, Michael Ash ve Robert Pollin (2013); Raymond Panko'nun elektronik tablo hataları üzerine derlemeleri.
+- **Programlar:** Microsoft Excel (ÇAPRAZARA dahil), Google E-Tablolar ve LibreOffice Calc'ın Haziran 2026'daki sürümleri.
+- **Diğer:** *The Joy of Stats* (BBC, 2010).
 
 ## Bu haftanın kavramları
 

@@ -222,6 +222,14 @@ Bu, Hafta 2'deki "belirtiden parçaya" düşüncesinin ağdaki karşılığıdı
 - **Bağlantılar işe göre seçilir.** Wi-Fi, hücresel, Bluetooth, NFC ve uydu farklı menzil ve amaçlar içindir; hız ile gecikme farklı şeylerdir.
 - **Bulut başkasının bilgisayarıdır.** Eşzamanlı çalışmak, doğru izinle paylaşmak ve verinin nerede durduğunu sormak birlikte gelir.
 
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı.
+
+- **İnternetin tarihi:** ARPANET'in ilk mesajı (29 Ekim 1969); TCP/IP'ye geçiş (1 Ocak 1983); Türkiye'nin internet bağlantısı (ODTÜ, 12 Nisan 1993); Tim Berners-Lee'nin önerisi (CERN, 1989).
+- **Teknik:** IPv4 adresleme (32 bit); sabit yörünge yüksekliği (yaklaşık 36 bin km); standart atmosferde basınç ile yükseklik ilişkisi.
+- **Diğer:** Leang Bulu Sipong 4 mağara resminin tarihlendirilmesi (*Nature*, 2019); Martin Cooper'ın ilk cep telefonu araması (1973).
+
 ## Bu haftanın kavramları
 
 Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: internet, web, ARPANET, paket anahtarlama, TCP/IP, protokol, istemci, sunucu, LAN, WAN, modem, yönlendirici, erişim noktası, IP adresi, IPv6, alan adı, DNS, URL, HTTP, HTTPS, Wi-Fi, hücresel ağ, Bluetooth, NFC, bant genişliği, gecikme, fiber optik kablo, bulut bilişim, SaaS, PaaS, IaaS, eşzamanlı çalışma, paylaşım izni, veri merkezi, uçtan uca şifreleme, Nesnelerin İnterneti, barometrik altimetre, ADS-B, VOR, ACARS.

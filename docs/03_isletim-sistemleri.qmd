@@ -122,7 +122,7 @@ Bugün telefonların neredeyse tamamı iki işletim sisteminden birini kullanır
 
 Android'in ilk sürümleri tatlı adlarıyla anılırdı: Cupcake, Donut, KitKat, Lollipop. Bu alışkanlık 2019'da bırakıldı.
 
-**Ekosistemler de ölebilir.** 2009'da akıllı telefon pazarını Nokia'nın Symbian'ı ve BlackBerry yönetiyordu; Microsoft'un Windows Phone'u da önemli bir aday sayılıyordu. Birkaç yıl içinde üçü de neredeyse ortadan kalktı ve onlara bağlı uygulamalar, aksesuarlar ve alışkanlıklar da onlarla birlikte gitti. Bir platform seçmek, o platformun geleceğine de bahse girmektir; bu yüzden verilerini taşınabilir biçimlerde tutmak önemlidir.
+**Ekosistemler de ölebilir.** 2009'da akıllı telefon pazarını Nokia'nın Symbian'ı ve BlackBerry yönetiyordu; Microsoft da Windows Mobile ve ardından Windows Phone ile önemli bir aday sayılıyordu. Birkaç yıl içinde üçü de neredeyse ortadan kalktı ve onlara bağlı uygulamalar, aksesuarlar ve alışkanlıklar da onlarla birlikte gitti. Bir platform seçmek, o platformun geleceğine de bahse girmektir; bu yüzden verilerini taşınabilir biçimlerde tutmak önemlidir.
 
 **Yan yükleme**, uygulamayı resmî mağaza dışından kurmaktır. Özgürlük sağlar, ama "modlu", yani değiştirilmiş uygulamalar zararlı yazılım taşımanın en yaygın yollarından biridir.
 
@@ -239,6 +239,13 @@ Kısa vadede: bugün telefonunun izinlerini düzenler, dosya uzantılarını gö
 - **Güncelleme kilidi değiştirmektir.** Desteği biten sistem yeni açıklara karşı korumasız kalır; izinler işlevle uyumlu olmalıdır.
 - **Uzantı yalnızca addır ve gizlenebilir.** Uzantıları görünür yap; dosyaları tarih, sürüm ve anlamlı adla kaydet.
 - **Tek kopya, kopya değildir.** 3-2-1 kuralını uygula; senkronizasyon yedek değildir.
+
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Sürüm ve destek tarihleri sık değişir; güncel durumu üreticinin sitesinden kontrol et.
+
+- **Üreticiler:** Microsoft'un Windows 10 destek sonu (14 Ekim 2025) ve Windows 11 donanım gereksinimleri; Google ve Apple'ın güncelleme ve gizlilik duyuruları; TÜBİTAK ULAKBİM, Pardus. Kaynak: [microsoft.com](https://www.microsoft.com), [pardus.org.tr](https://www.pardus.org.tr).
+- **Diğer:** TOP500 süper bilgisayar listesi; *Revolution OS* (2001).
 
 ## Bu haftanın kavramları
 

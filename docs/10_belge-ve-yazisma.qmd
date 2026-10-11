@@ -270,6 +270,14 @@ Kısa vadede: Ödevlerini, dönem projenin teknik raporunu ve özgeçmişini dah
 - **Teslimden önce üç denetim:** yazım, erişilebilirlik (alternatif metin, başlıklar, kontrast) ve belge denetimi (yorumlar, değişiklikler, üst veri). Okunacak belge PDF, birlikte çalışılacak belge DOCX.
 - **E-posta dijital antetli kâğıttır.** Açık konu satırı, doğru alıcı alanları, saygılı hitap, tek amaçlı gövde, anlamlı adlı ek ve imza.
 
+## Kaynaklar ve güncellik
+
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Menü adları programın sürümüne ve diline göre değişebilir.
+
+- **Standartlar:** DOCX (ECMA-376, ISO/IEC 29500), ODF (ISO/IEC 26300), PDF/A; ASD-STE100 Basitleştirilmiş Teknik İngilizce; APA yazım kuralları (7. baskı).
+- **Tarih ve atıflar:** Xerox PARC, Bravo (1974); Microsoft Word'ün ilk sürümü (1983); Antoine de Saint-Exupéry, *Terre des hommes* (1939); *Helvetica* (Gary Hustwit, 2007).
+- **Programlar:** Microsoft Word, Google Dokümanlar ve LibreOffice Writer'ın Haziran 2026'daki sürümleri; Zotero.
+
 ## Bu haftanın kavramları
 
 Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: kelime işlemci, stil, başlık düzeyi, gezinti bölmesi, otomatik içindekiler, sayfa sonu, bölüm sonu, üst bilgi, alt bilgi, resim yazısı, kaynakça yöneticisi, dipnot, son not, değişiklikleri izle, yorum, şablon, revizyon çubuğu, DOCX, PDF, dijital erişilebilirlik, alternatif metin, belge denetimi, karartma, netiket, konu satırı, Kime alanı, Bilgi alanı (CC), Gizli alan (BCC), tümünü yanıtla, e-posta imzası, geri okuma, tipografi, Basitleştirilmiş Teknik İngilizce, WYSIWYG, açık standart.

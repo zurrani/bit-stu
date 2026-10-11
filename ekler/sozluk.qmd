@@ -120,7 +120,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Derin öğrenme (6) | Makine öğrenmesinin çok katmanlı yapay sinir ağları kullanan alt alanı |
 | Destek ömrü (3) | Bir işletim sisteminin ya da cihazın güvenlik güncellemesi aldığı süre |
 | Dezenformasyon (5) | Bilerek uydurulup zarar vermek amacıyla yayılan yanlış bilgi |
-| Dezenformasyon suçu, TCK 217/A (7) | Kamu güvenliği, kamu düzeni ya da genel sağlıkla ilgili gerçeğe aykırı bir bilgiyi panik yaratma amacıyla ve kamu barışını bozmaya elverişli biçimde alenen yaymayı suç sayan, 2022'de eklenen madde |
+| Dezenformasyon suçu, TCK 217/A (7) | Ülkenin iç ve dış güvenliği, kamu düzeni ya da genel sağlıkla ilgili gerçeğe aykırı bir bilgiyi yalnızca panik yaratma amacıyla ve kamu barışını bozmaya elverişli biçimde alenen yaymayı suç sayan, 2022'de eklenen madde |
 | DigComp (1) | Avrupa Komisyonu'nun dijital yetkinlik çerçevesi; güncel sürümü 3.0 (2025) |
 | Dijital (2) | Kesikli; belirli adımlarla ve sayılarla ifade edilen |
 | Dijital ayak izi (7) | İnternette yapılan her şeyin bıraktığı izlerin toplamı; aktif ve pasif olmak üzere ikiye ayrılır |
@@ -287,7 +287,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Ortanca (12) | Değerler sıralandığında ortada kalan değer (medyan); aykırı değerlerden az etkilenir |
 | Otomatik içindekiler (10) | Başlık stillerinden ve sayfa numaralarından program tarafından üretilen ve güncellenebilen içindekiler listesi |
 | Otonom sistem (14) | İnsan müdahalesi olmadan çevresini algılayıp karar verebilen sistem: sürücüsüz araç, otonom drone |
-| Oyun bozukluğu (7) | Oyunun kontrol edilemediği, başka her şeyin önüne geçtiği ve en az bir yıl süren durum; Dünya Sağlık Örgütü'nün hastalık sınıflamasındadır |
+| Oyun bozukluğu (7) | Oyunun kontrol edilemediği, başka her şeyin önüne geçtiği ve genellikle en az bir yıl süren durum; Dünya Sağlık Örgütü'nün hastalık sınıflamasındadır |
 | Öneri sistemi (8) | Kullanıcının ya da ona benzeyen kişilerin davranışından yola çıkarak içerik ve ürün öneren algoritma |
 | Öngörücü bakım (1) | Sensör verisinden, çoğu zaman makine öğrenmesiyle, arızayı oluşmadan tahmin etmeye dayanan bakım yaklaşımı |
 | Önyargı (6) | Bir modelin eğitim verisindeki dengesizlikleri öğrenip bazı grupları sistematik olarak farklı değerlendirmesi |
