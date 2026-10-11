@@ -90,6 +90,8 @@ Dönem boyunca kendi seçtiğin bir konuda adım adım bir çalışma dosyası h
 | 6 | 13–14 | Üç dakikalık sunum (Hafta 13'te hazırlık ve prova, Hafta 14'te sunum) ve bütün adımların son teslimi |
 :::
 
+İlk üç adım vize döneminde ödev olarak da değerlendirilir ve geri bildirim alır. Son teslimde notlanan, aynı adımların ikinci kez kendisi değil; projenin bütünlüğü ve geri bildirimle yaptığın düzeltmelerdir (değişiklik notların). İlk adımlarda zayıf kalan bir bölümü son teslime kadar düzeltebilirsin.
+
 Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlarının sana verdiği geri bildirim seni geliştirmek içindir; nota girmez.
 
 ## 7. Kurallar
