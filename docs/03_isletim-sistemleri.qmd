@@ -31,7 +31,7 @@ Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00
 
 ## 1. Yazılım nedir?
 
-Yazılım, donanıma ne yapacağını söyleyen komutlar bütünüdür. 1990'ların el konsollarındaki Tetris oyunu, cihazın çipine gömülü küçük bir programdı; o cihaz başka bir şey yapamazdı. Bugün aynı oyunun birkaç yüz satırlık bir JavaScript sürümü herhangi bir tarayıcıda çalışabilir. Oyun aynı, ama birincisi tek işe adanmış bir gömülü sistemdeydi, ikincisi genel amaçlı bir bilgisayarda bir uygulama olarak çalışıyor.
+**Yazılım**, donanıma ne yapacağını söyleyen komutlar bütünüdür. 1990'ların el konsollarındaki Tetris oyunu, cihazın çipine gömülü küçük bir programdı; o cihaz başka bir şey yapamazdı. Bugün aynı oyunun birkaç yüz satırlık bir JavaScript sürümü herhangi bir tarayıcıda çalışabilir. Oyun aynı, ama birincisi tek işe adanmış bir gömülü sistemdeydi, ikincisi genel amaçlı bir bilgisayarda bir uygulama olarak çalışıyor.
 
 Yazılımlar iki büyük gruba ayrılır:
 
@@ -40,14 +40,38 @@ Yazılımlar iki büyük gruba ayrılır:
 | Sistem yazılımı | Bilgisayarın çalışmasını ve donanımın yönetilmesini sağlar | İşletim sistemi, aygıt sürücüleri, BIOS ve UEFI |
 | Uygulama yazılımı | Kullanıcının işini görür | Tarayıcı, kelime işlemci, oyun, mesajlaşma uygulaması |
 
-Bilgisayar açıldığında ilk çalışan yazılım anakarttaki **UEFI**'dir (eski bilgisayarlarda BIOS): donanımı kontrol eder ve işletim sistemini başlatır. **Aygıt sürücüleri** ise işletim sistemi ile belirli bir donanım (yazıcı, ekran kartı, kamera) arasında çevirmenlik yapar; sürücüsü olmayan bir yazıcıyı işletim sistemi tanımaz.
+Bilgisayar açıldığında ilk çalışan yazılım anakarttaki **UEFI**'dir (Unified Extensible Firmware Interface; eski bilgisayarlarda BIOS, Basic Input/Output System): donanımı kontrol eder ve işletim sistemini başlatır. **Aygıt sürücüleri** ise işletim sistemi ile belirli bir donanım (yazıcı, ekran kartı, kamera) arasında çevirmenlik yapar; sürücüsü olmayan bir yazıcıyı işletim sistemi tanımaz.
+
+### Yazılımı nasıl edinirsin?
+
+Bir programı "satın aldığında" çoğu zaman programın kendisini değil, onu belirli koşullarla kullanma iznini, yani bir **yazılım lisansını** alırsın. Koşullar kurulum sırasında onayladığın sözleşmede yazar. Bugün yazılım birkaç yolla edinilir:
+
+::: {.tablo-kaydir}
+| Model | Nasıl işler? | Örnek durum |
+|---|---|---|
+| Tek seferlik satın alma | Bir kez ödersin, o sürümü süresiz kullanırsın | Bir oyun, eski tip ofis paketi |
+| **Abonelik** | Aylık ya da yıllık ödersin; ödeme bitince kullanım da biter ya da kısıtlanır | Ofis paketleri, tasarım programları, bulut depolama |
+| **Freemium** | Temel sürüm ücretsiz, gelişmiş özellikler ücretli (free ve premium kelimelerinden) | Not alma, fotoğraf düzenleme, YZ sohbet uygulamaları |
+| Reklamla ücretsiz | Para ödemezsin; reklam izler, verini paylaşırsın | Birçok mobil uygulama ve oyun |
+| Açık kaynak ve özgür yazılım | Ücretsizdir; kodu açıktır (Bölüm 6) | LibreOffice, Firefox, Linux |
+:::
+
+Aboneliğin toplam maliyetini hesaplamak iyi bir alışkanlıktır: Ayda 100 liralık bir abonelik beş yılda 6.000 lira eder. Birçok üniversite, öğrencilerine ofis yazılımlarını ve bulut depolamayı kurumsal hesapla ücretsiz sunar; kendi okulunun bilgi işlem sayfasına bakmadan para ödeme. Her işlev için ücretsiz ve açık kaynak seçenekler [Ek C](../ekler/c_alternatifler.qmd) sayfasında.
+
+"Kırılmış" (crack) ya da lisans anahtarı üretilmiş **korsan yazılım** ücretsiz görünür, ama bedeli ağırdır: Bu dosyalar zararlı yazılım taşımanın en yaygın yollarındandır, güncelleme almaz ve telif hakkını ihlal eder (Hafta 7).
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bir yazılım için aboneliğin bittiğinde, yıllardır o yazılımla hazırladığın belgelere ne olur?
+
+Biraz ek bilgi: Bazı ofis aboneliklerinde süre dolunca belgelerin açılır ama düzenlenemez; bazı bulut hizmetlerinde ise yeni dosya yükleyemez hale gelirsin. Bir platform kapandığında ya da fiyatını ikiye katladığında, verilerini başka bir yere taşıyabilmek senin elindedir: Belgelerini ara sıra açık bir biçimde (ODT, PDF) de kaydetmek, verini hiçbir şirkete rehin bırakmamanın en kolay yoludur. Senin kullandığın uygulamalardan hangisi kapansa en çok zorlanırdın?
+:::
 
 ## 2. İşletim sistemi ne yapar?
 
 İşletim sistemi, donanım ile kullanıcı ve uygulamalar arasındaki yöneticidir. Beş temel görevi vardır:
 
 - **Süreç yönetimi:** Aynı anda açık onlarca programa sırayla işlemci zamanı verir.
-- **Bellek yönetimi:** Hangi programın RAM'in neresini kullanacağına karar verir; RAM yetmezse diski yedek bellek gibi kullanır (Hafta 2'deki sürekli yanan disk ışığı).
+- **Bellek yönetimi:** Hangi programın RAM'in neresini kullanacağına karar verir; RAM (random access memory) yetmezse diskin bir bölümünü yedek bellek gibi kullanır; buna **sanal bellek** denir. Disk RAM'den çok daha yavaş olduğu için her şey ağırlaşır (Hafta 2'deki sürekli yanan disk ışığı).
 - **Dosya yönetimi:** Dosyaların diskte nerede ve nasıl tutulacağını düzenler.
 - **Giriş-çıkış yönetimi:** Klavyeden, kameradan, ağdan gelen ve ekrana, yazıcıya giden veriyi yönetir.
 - **Güvenlik:** Kullanıcı hesaplarını, izinleri ve programların birbirine karışmamasını sağlar.
@@ -56,9 +80,11 @@ Bilgisayar açıldığında ilk çalışan yazılım anakarttaki **UEFI**'dir (e
 
 İşletim sisteminin kalbine **çekirdek** denir; donanımla doğrudan konuşan, en ayrıcalıklı katman odur.
 
+Bu görevleri iş başında görmek için Windows'ta **Ctrl + Shift + Esc** tuşlarıyla **Görev Yöneticisi**'ni açabilirsin. "İşlemler" bölümünde hangi programın işlemciyi, belleği, diski ve ağı ne kadar kullandığını görürsün; yanıt vermeyen bir programı buradan "Görevi sonlandır" ile kapatabilirsin. "Performans" bölümü işlemcinin, belleğin ve diskin anlık doluluğunu gösterir; Hafta 2'deki belirtiden parçaya giden düşünce burada sayıya döner. "Başlangıç uygulamaları" bölümü ise bilgisayar açılırken kendiliğinden başlayan programları listeler; gereksiz olanları kapatmak açılışı hızlandırır. macOS'te aynı işi Etkinlik Monitörü, Linux'ta Sistem İzleyicisi görür.
+
 ### Grafik arayüz ve komut satırı
 
-Çoğumuz işletim sistemini **grafik arayüzle** (GUI) kullanırız: pencereler, simgeler, fare. Ama hâlâ çok güçlü bir ikinci yol var: **komut satırı** (CLI). Komut satırında işlemleri yazarak yaparsın. İlk bakışta eski görünür, ama yüzlerce dosyaya aynı işlemi tek satırla uygulamak, uzaktaki bir sunucuyu yönetmek ya da bir işi otomatikleştirmek için vazgeçilmezdir.
+Çoğumuz işletim sistemini **grafik arayüzle** (GUI, graphical user interface) kullanırız: pencereler, simgeler, fare. Ama hâlâ çok güçlü bir ikinci yol var: **komut satırı** (CLI, command-line interface). Komut satırında işlemleri yazarak yaparsın. İlk bakışta eski görünür, ama yüzlerce dosyaya aynı işlemi tek satırla uygulamak, uzaktaki bir sunucuyu yönetmek ya da bir işi otomatikleştirmek için vazgeçilmezdir.
 
 ```text
 dir              klasördeki dosyaları listeler (macOS ve Linux'ta: ls)
@@ -67,9 +93,30 @@ mkdir Deneme     Deneme adında yeni bir klasör oluşturur
 cd ..            bir üst klasöre çıkar
 ```
 
+Grafik arayüzde de klavye zaman kazandırır. Birkaç **klavye kısayolu** her gün işine yarar:
+
+| Kısayol (Windows) | İşlevi |
+|---|---|
+| Ctrl + C, Ctrl + X, Ctrl + V | Kopyala, kes, yapıştır |
+| Ctrl + Z | Son işlemi geri al |
+| Ctrl + S | Kaydet; uzun bir işte sık sık bas |
+| Ctrl + F | Sayfada ya da belgede ara |
+| Alt + Tab | Açık pencereler arasında geç |
+| Windows + E | Dosya Gezgini'ni aç |
+| Windows + Shift + S | Ekranın bir bölümünün görüntüsünü al |
+| Windows + V | Pano geçmişi: daha önce kopyaladıklarını gör |
+| F2 | Seçili dosyayı yeniden adlandır |
+| Windows + L | Bilgisayarı kilitle; masadan kalkarken her seferinde |
+
+macOS'te Ctrl'nin yerini çoğunlukla Command (⌘) tuşu alır.
+
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
-Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistemiyle değil, **gerçek zamanlı işletim sistemleriyle** çalışır. Bunlarda önemli olan hız değil, öngörülebilirliktir: bir görevin her seferinde belirli bir süre içinde tamamlanacağı garanti edilmelidir. Bu yazılımlar DO-178C gibi standartlara göre, her satırı izlenebilir biçimde geliştirilir ve onaylanır. Kokpitte ise pilotlar haritalar, el kitapları ve performans hesapları için Elektronik Uçuş Çantası (EFB) olarak tabletler kullanır.
+Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistemiyle değil, **gerçek zamanlı işletim sistemleriyle** çalışır. Bunlarda önemli olan hız değil, öngörülebilirliktir: bir görevin her seferinde belirli bir süre içinde tamamlanacağı garanti edilmelidir. Bu yazılımlar DO-178C gibi standartlara göre, her satırı izlenebilir biçimde geliştirilir ve onaylanır. Kokpitte ise pilotlar haritalar, el kitapları ve performans hesapları için Elektronik Uçuş Çantası (EFB, electronic flight bag) olarak tabletler kullanır.
 :::
+
+### Herkes için bir arayüz: erişilebilirlik özellikleri
+
+İşletim sistemleri, görme, işitme ya da hareket güçlüğü olan kullanıcılar için yerleşik araçlarla gelir: ekranın bir bölümünü büyüten **büyüteç**, ekrandaki metni sesli okuyan **ekran okuyucu** (Windows'ta Ekran Okuyucusu, macOS ve iOS'ta VoiceOver, Android'de TalkBack), konuşmayı anında yazıya çeviren canlı altyazı, sesle yazma, yüksek karşıtlık ve renk filtreleri. Bu araçlar yalnızca engelli kullanıcılar için değildir: Gürültülü bir ortamda altyazı, yorgun gözler için büyük yazı, eli dolu bir teknisyen için sesle komut herkesin işine yarar. Belgeleri ve sunumları bu araçlarla okunabilir hazırlamayı Hafta 10 ve 13'te göreceğiz.
 
 ## 3. Masaüstü işletim sistemleri
 
@@ -78,7 +125,7 @@ Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistem
 | Yıl | İşletim sistemi | Önemi |
 |---|---|---|
 | 1969–1973 | Unix (Bell Laboratuvarları) | Çok kullanıcılı tasarım; bugünkü Linux, macOS, Android ve iOS'un düşünsel atası |
-| 1981 | MS-DOS | IBM PC ile yaygınlaşan, komut satırlı işletim sistemi |
+| 1981 | MS-DOS (Microsoft Disk Operating System) | IBM PC ile yaygınlaşan, komut satırlı işletim sistemi |
 | 1984 | Macintosh | Grafik arayüzü ve fareyi geniş kitlelere taşıdı |
 | 1985 | Windows 1.0 | Microsoft'un grafik arayüzü; DOS'un üzerinde çalışıyordu |
 | 1991 | Linux | Linus Torvalds'ın başlattığı açık kaynak çekirdek |
@@ -86,15 +133,15 @@ Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistem
 
 ### Windows
 
-Dünyadaki masaüstü bilgisayarların çoğu Windows kullanır. Windows 10'un desteği 14 Ekim 2025'te sona erdi; bu tarihten sonra Microsoft, bireysel kullanıcılara yalnızca ek ve süreli bir güvenlik güncellemesi programı sundu. Windows 11 ise daha sıkı donanım gereksinimleri getirdi: TPM 2.0 adlı güvenlik çipi, güvenli önyükleme ve belirli bir yaştan yeni işlemciler. Bu yüzden teknik olarak sağlam olan pek çok bilgisayar resmî olarak Windows 11'e geçemiyor.
+Dünyadaki masaüstü bilgisayarların çoğu Windows kullanır. Bir sürümün güvenlik güncellemesi aldığı süreye **destek ömrü** denir. Windows 10'un desteği 14 Ekim 2025'te sona erdi; bu tarihten sonra Microsoft, bireysel kullanıcılara yalnızca ek ve süreli bir güvenlik güncellemesi programı sundu. Windows 11 ise daha sıkı donanım gereksinimleri getirdi: TPM 2.0 (Trusted Platform Module) adlı güvenlik çipi, güvenli önyükleme ve belirli bir yaştan yeni işlemciler. Bu yüzden teknik olarak sağlam olan pek çok bilgisayar resmî olarak Windows 11'e geçemiyor.
 
 Yeni Windows sürümleri yapay zekâ özellikleriyle de geliyor. Bunlardan Recall, ekranda yapılanların düzenli görüntülerini kaydedip aranabilir hale getirmek için tasarlandı; mahremiyet eleştirileri üzerine isteğe bağlı hale getirildi. Windows ayrıca Microsoft'a **tanılama verisi** (telemetri) gönderir; gönderilen verinin kapsamı Ayarlar'daki Gizlilik bölümünden sınırlanabilir.
 
 ### Linux
 
-Linux aslında bir **çekirdektir**. Bu çekirdeğin üzerine masaüstü, uygulamalar ve araçlar eklenerek **dağıtımlar** oluşturulur: Ubuntu, Linux Mint, Fedora, Debian ve TÜBİTAK'ın geliştirdiği yerli dağıtım Pardus bunlardan bazılarıdır. Linux ücretsizdir ve açık kaynaklıdır.
+Linux aslında bir **çekirdektir**. Bu çekirdeğin üzerine masaüstü, uygulamalar ve araçlar eklenerek **dağıtımlar** oluşturulur: Ubuntu, Linux Mint, Fedora, Debian ve TÜBİTAK'ın (Türkiye Bilimsel ve Teknolojik Araştırma Kurumu) geliştirdiği yerli dağıtım Pardus bunlardan bazılarıdır. Linux ücretsizdir ve açık kaynaklıdır.
 
-Masaüstünde payı küçük olsa da Linux dünyayı görünmeden yönetir: internet sunucularının ve bulut hizmetlerinin büyük çoğunluğu, dünyanın en güçlü süper bilgisayarlarının tamamı ve Android telefonlar Linux çekirdeğiyle çalışır. Desteği bitmiş eski bir bilgisayara hafif bir Linux dağıtımı kurmak, ona yıllarca güvenli kullanım kazandırabilir. Bir Linux dağıtımını USB belleğe yazıp bilgisayara hiçbir şey kurmadan denemek mümkündür (canlı USB).
+Masaüstünde payı küçük olsa da Linux dünyayı görünmeden yönetir: internet sunucularının ve bulut hizmetlerinin büyük çoğunluğu, dünyanın en güçlü süper bilgisayarlarının tamamı ve Android telefonlar Linux çekirdeğiyle çalışır. Desteği bitmiş eski bir bilgisayara hafif bir Linux dağıtımı kurmak, ona yıllarca güvenli kullanım kazandırabilir. Bir Linux dağıtımını USB (Universal Serial Bus) belleğe yazıp bilgisayara hiçbir şey kurmadan denemek mümkündür; buna **canlı USB** denir.
 
 ### macOS
 
@@ -115,10 +162,10 @@ Bugün telefonların neredeyse tamamı iki işletim sisteminden birini kullanır
 | | Android | iOS |
 |---|---|---|
 | Geliştiren | Google ve açık kaynak topluluğu | Apple |
-| Temel | Linux çekirdeği; açık kaynak çekirdeği AOSP | Kapalı kaynak; Unix kökenli |
+| Temel | Linux çekirdeği; açık kaynak çekirdeği AOSP (Android Open Source Project) | Kapalı kaynak; Unix kökenli |
 | Cihazlar | Pek çok üreticinin telefonu | Yalnızca iPhone |
 | Güncelleme süresi | Üreticiye ve modele göre değişir; bazı modellerde birkaç yıl, bazı üst modellerde yedi yıla kadar | Apple tarafından, genellikle uzun süre |
-| Uygulama kurma | Mağazanın yanında başka kaynaklardan da kurulabilir (yan yükleme) | Esas olarak App Store; AB'de düzenlemeyle alternatif mağazalara açıldı |
+| Uygulama kurma | Mağazanın yanında başka kaynaklardan da kurulabilir (yan yükleme) | Esas olarak App Store; Avrupa Birliği'nde (AB) düzenlemeyle alternatif mağazalara açıldı |
 
 Android'in ilk sürümleri tatlı adlarıyla anılırdı: Cupcake, Donut, KitKat, Lollipop. Bu alışkanlık 2019'da bırakıldı.
 
@@ -140,24 +187,30 @@ Bu konuyu Hafta 8'de, verinin neden bu kadar değerli olduğunu konuşurken deri
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Telefonunda "konuma her zaman erişebilen" uygulamaları hiç kontrol ettin mi? Ücretsiz bir uygulama konumunu sürekli istiyorsa, bu bilgiyle ne yapıyor olabilir?
+
+Biraz ek bilgi: Bir gün boyunca toplanan konum noktaları, evinin ve okulunun adresini, ne zaman uyuyup ne zaman çıktığını kolayca ele verir. 2013'te yayımlanan bir araştırma, 1,5 milyon kişinin telefon kayıtlarında yalnızca dört konum ve zaman noktasının kişilerin yüzde 95'ini ayırt etmeye yettiğini gösterdi. Bu tür veriler, adını hiç duymadığın şirketlere satılabilir (Hafta 8). Senin için "her zaman" izni gerçekten gerekli olan kaç uygulama var?
 :::
+
+### Hesaplar ve yetkiler
+
+Bir bilgisayarda iki tür hesap vardır: Sistem ayarlarını değiştirebilen ve program kurabilen **yönetici hesabı** ile günlük işler için **standart hesap**. Güvenlik uzmanları günlük işlerin standart hesapla yapılmasını önerir: Yanlışlıkla açtığın zararlı bir dosya, yönetici yetkisi olmadan sisteme çok daha az zarar verebilir. Windows bir program bilgisayarda değişiklik yapmak istediğinde ekranı karartıp izin sorar; bu pencereyi okumadan "Evet" demek, kapıyı açık bırakmaktır. Bu, Hafta 9'da göreceğimiz en az yetki ilkesinin gündelik halidir. Bilgisayarı başkalarıyla paylaşıyorsan herkesin kendi hesabı olması, hem dosyaları hem tarayıcıdaki oturumları birbirinden ayırır.
 
 ## 6. Açık kaynak ve özgür yazılım (okuma)
 
 Bir yazılımın **kaynak kodu**, insanların okuyabildiği komutlardır. **Kapalı kaynak** yazılımda bu kod gizlidir; yalnızca çalışan program dağıtılır. **Açık kaynak** yazılımda kod herkese açıktır: okunabilir, incelenebilir ve lisansına göre değiştirilip yeniden dağıtılabilir. Özgür yazılım hareketi ise 1980'lerden beri kullanıcının yazılımı çalıştırma, inceleme, değiştirme ve paylaşma özgürlüğünü savunur.
 
-Açık kaynağın güvenlik savunusu, yazar Eric S. Raymond'ın "Linus yasası" dediği ilkeye dayanır: "Yeterince göz varsa, bütün hatalar sığdır." Kodu çok kişi okuyabildiğinde hatalar daha çabuk bulunabilir. Ama yalnızca açık olmak yetmez; kodu gerçekten okuyan ve bakımını yapan bir topluluk gerekir. Linus Torvalds'ın sık anılan sözü de bu kültürü özetler: "Laf ucuzdur, kodu göster." Yazılım lisanslarını (GPL, MIT gibi) Hafta 7'de telif hakkıyla birlikte göreceğiz.
+Açık kaynağın güvenlik savunusu, yazar Eric S. Raymond'ın "Linus yasası" dediği ilkeye dayanır: "Yeterince göz varsa, bütün hatalar sığdır." Kodu çok kişi okuyabildiğinde hatalar daha çabuk bulunabilir. Ama yalnızca açık olmak yetmez; kodu gerçekten okuyan ve bakımını yapan bir topluluk gerekir. Linus Torvalds'ın sık anılan sözü de bu kültürü özetler: "Laf ucuzdur, kodu göster." Açık kaynak lisanslarını (GPL, GNU General Public License; MIT lisansı gibi) Hafta 7'de telif hakkıyla birlikte göreceğiz.
 
 ## 7. Dosyalar, klasörler ve adlandırma
 
 ### Dosya adı ve uzantı
 
-Bir dosyanın adı iki parçadan oluşur: ad ve uzantı. `staj-raporu.docx` dosyasında `staj-raporu` ad, `docx` uzantıdır. Uzantı, işletim sistemine dosyayı hangi programla açacağını söyler.
+Bir dosyanın adı iki parçadan oluşur: ad ve uzantı. `staj-raporu.docx` dosyasında `staj-raporu` ad, `docx` uzantıdır. Uzantı, işletim sistemine dosyayı hangi programla açacağını söyler. Örneğin PDF (Portable Document Format), her cihazda aynı görünmesi için tasarlanmış bir belge biçimidir.
 
 | Tür | Sık görülen uzantılar |
 |---|---|
 | Belge | .docx, .pdf, .odt, .txt |
-| Tablo | .xlsx, .csv, .ods |
+| Tablo | .xlsx, .csv (comma-separated values), .ods |
 | Sunum | .pptx, .odp |
 | Görüntü | .jpg, .png, .webp, .heic |
 | Ses ve video | .mp3, .m4a, .mp4, .mov |
@@ -187,6 +240,16 @@ Burada `C:` sürücüyü, aradaki adlar klasörleri, en sondaki ise dosyanın ke
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Diskin adı C: çünkü 'Computer' kelimesinden geliyor." Yanlış. İlk kişisel bilgisayarlarda sabit disk yoktu; programlar disketlerden çalışırdı ve A: ile B: disket sürücülerine ayrılmıştı. Sabit diskler geldiğinde sıradaki harfi, C:'yi aldılar. Disketler kalktı, ama gelenek kaldı.
 :::
+
+### Dosya sistemi: diskin düzeni
+
+İşletim sistemi dosyaları diske gelişigüzel değil, bir **dosya sistemi** düzeniyle yazar: hangi dosyanın diskin neresinde durduğunu, adını, boyutunu ve izinlerini bu düzen tutar. Windows NTFS (New Technology File System), macOS APFS (Apple File System), Linux çoğunlukla ext4 kullanır. USB bellekler ve hafıza kartları ise çoğu zaman **FAT32** (File Allocation Table, 32 bit) ya da **exFAT** (extended FAT) ile gelir, çünkü bunları neredeyse her cihaz okuyabilir.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"USB belleğimde 30 GB boş yer var ama 5 GB'lık bir video kopyalanmıyor; bellek bozuk." Büyük olasılıkla yanlış. FAT32 dosya sistemi tek bir dosyayı en fazla 4 GB'a kadar saklayabilir; boş yer ne kadar olursa olsun daha büyük bir dosya kopyalanmaz. Çözüm, belleği exFAT ile biçimlendirmektir. Biçimlendirme içindekileri sildiği için önce dosyaları başka bir yere kopyala. exFAT Windows'ta, macOS'te ve çoğu yeni cihazda okunur; NTFS biçimli bir belleğe ise Mac varsayılan olarak yazamaz, yalnızca okur.
+:::
+
+Taşınabilir belleği çıkarmadan önce "güvenle kaldır" komutunu kullanmak iyi bir alışkanlıktır: Yazma işlemi arka planda sürerken çekilen bir bellekte dosya, hatta bütün dosya sistemi bozulabilir.
 
 ### Adlandırma ve sürüm kuralı
 
@@ -234,22 +297,22 @@ Kısa vadede: bugün telefonunun izinlerini düzenler, dosya uzantılarını gö
 
 ## Akılda kalsın
 
-- **İşletim sistemi yöneticidir.** Süreç, bellek, dosya, giriş-çıkış ve güvenliği yönetir; çekirdek çökerse her şey durur.
-- **Bir sistemi seçmek bir ekosistemi seçmektir.** Windows, Linux, macOS, Android ve iOS açıklık, güncelleme süresi ve mahremiyet bakımından farklıdır; ekosistemler de ölebilir.
+- **İşletim sistemi yöneticidir.** Süreç, bellek, dosya, giriş-çıkış ve güvenliği yönetir; Görev Yöneticisi bu işi sana gösterir. Günlük işi standart hesapla yap.
+- **Bir sistemi seçmek bir ekosistemi seçmektir.** Windows, Linux, macOS, Android ve iOS açıklık, güncelleme süresi ve mahremiyet bakımından farklıdır; ekosistemler de ölebilir. Lisans bir kullanım iznidir; aboneliğin toplam maliyetini hesapla.
 - **Güncelleme kilidi değiştirmektir.** Desteği biten sistem yeni açıklara karşı korumasız kalır; izinler işlevle uyumlu olmalıdır.
-- **Uzantı yalnızca addır ve gizlenebilir.** Uzantıları görünür yap; dosyaları tarih, sürüm ve anlamlı adla kaydet.
+- **Uzantı yalnızca addır ve gizlenebilir.** Uzantıları görünür yap; dosyaları tarih, sürüm ve anlamlı adla kaydet. Büyük dosya taşıyacaksan belleğin dosya sistemine bak.
 - **Tek kopya, kopya değildir.** 3-2-1 kuralını uygula; senkronizasyon yedek değildir.
 
 ## Kaynaklar ve güncellik
 
 Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Sürüm ve destek tarihleri sık değişir; güncel durumu üreticinin sitesinden kontrol et.
 
-- **Üreticiler:** Microsoft'un Windows 10 destek sonu (14 Ekim 2025) ve Windows 11 donanım gereksinimleri; Google ve Apple'ın güncelleme ve gizlilik duyuruları; TÜBİTAK ULAKBİM, Pardus. Kaynak: [microsoft.com](https://www.microsoft.com), [pardus.org.tr](https://www.pardus.org.tr).
-- **Diğer:** TOP500 süper bilgisayar listesi; *Revolution OS* (2001).
+- **Üreticiler:** Microsoft'un Windows 10 destek sonu (14 Ekim 2025) ve Windows 11 donanım gereksinimleri; Google ve Apple'ın güncelleme ve gizlilik duyuruları; TÜBİTAK ULAKBİM (Ulusal Akademik Ağ ve Bilgi Merkezi), Pardus. Kaynak: [microsoft.com](https://www.microsoft.com), [pardus.org.tr](https://www.pardus.org.tr).
+- **Diğer:** TOP500 süper bilgisayar listesi; *Revolution OS* (2001); Y.-A. de Montjoye ve arkadaşları, "Unique in the Crowd", *Scientific Reports* (2013).
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: yazılım, sistem yazılımı, uygulama yazılımı, işletim sistemi, çekirdek, aygıt sürücüsü, UEFI, BIOS, TPM, mavi ekran, grafik arayüz (GUI), komut satırı (CLI), gerçek zamanlı işletim sistemi, DO-178C, Elektronik Uçuş Çantası (EFB), dağıtım, canlı USB, telemetri, destek ömrü, AOSP, yan yükleme, uygulama izni, reklam kimliği, Uygulama İzleme Şeffaflığı, kaynak kodu, açık kaynak, özgür yazılım, dosya uzantısı, yol, revizyon, 3-2-1 kuralı, senkronizasyon, sürüm geçmişi.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: yazılım, sistem yazılımı, uygulama yazılımı, yazılım lisansı, abonelik, freemium, korsan yazılım, işletim sistemi, çekirdek, sanal bellek, Görev Yöneticisi, aygıt sürücüsü, UEFI, BIOS, TPM, mavi ekran, grafik arayüz (GUI), komut satırı (CLI), klavye kısayolu, ekran okuyucu, gerçek zamanlı işletim sistemi, DO-178C, Elektronik Uçuş Çantası (EFB), dağıtım, canlı USB, telemetri, destek ömrü, AOSP, yan yükleme, uygulama izni, reklam kimliği, Uygulama İzleme Şeffaflığı, yönetici hesabı, standart hesap, kaynak kodu, açık kaynak, özgür yazılım, dosya uzantısı, yol, dosya sistemi, FAT32, exFAT, NTFS, revizyon, 3-2-1 kuralı, senkronizasyon, sürüm geçmişi.
 
 ## Kendini sına
 

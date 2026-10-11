@@ -28,3 +28,19 @@
     overflow-wrap: anywhere;
   }
 }
+
+/* Geniş tablolar dar ekranda sayfayı yana kaydırmasın; tablo kendi içinde kaysın.
+   (.tablo-kaydir sarmalı olmayan eski tablolar için de geçerli; masaüstünü etkilemez.) */
+@media (max-width: 767.98px) {
+  main table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  /* Metin içindeki uzun dosya adları ve adresler (`kod` biçimi) satırı taşırmasın. */
+  main p code,
+  main li code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+}

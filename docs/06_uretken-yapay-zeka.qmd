@@ -35,7 +35,7 @@ Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00
 
 Bir e-postanın istenmeyen posta (spam) olup olmadığına karar veren bir filtre düşün. İki yolla yapılabilir:
 
-| | Kural tabanlı sistem | Veriden öğrenen sistem |
+| | **Kural tabanlı sistem** | Veriden öğrenen sistem |
 |---|---|---|
 | Nasıl kurulur? | Bir programcı kuralları tek tek yazar: "Konu satırında *bedava* geçiyorsa spam say." | Sisteme binlerce spam ve binlerce normal e-posta gösterilir; ayırt edici örüntüleri kendisi bulur. |
 | Güçlü yanı | Ne yaptığı açıktır, açıklaması kolaydır. | Yazılmamış kalıpları da yakalar, yeni örneklerle güncellenir. |
@@ -43,7 +43,7 @@ Bir e-postanın istenmeyen posta (spam) olup olmadığına karar veren bir filtr
 
 İkinci yol **makine öğrenmesidir**: sistem kurallarla programlanmaz, örneklerden öğrenir. Bugün film ve dizi önerileri, bankaların şüpheli işlem uyarıları ve telefonundaki yüz tanıma makine öğrenmesiyle çalışır.
 
-**Derin öğrenme**, makine öğrenmesinin çok katmanlı yapay sinir ağları kullanan bir alt alanıdır; büyük veriden çok karmaşık örüntüleri öğrenebilir. 2012'de bir derin öğrenme modelinin görüntü tanıma yarışmasını büyük farkla kazanması, bugünkü YZ dalgasının başlangıcı sayılır ([Ek A](../ekler/a_kirilimlar.qmd)).
+**Derin öğrenme**, makine öğrenmesinin çok katmanlı **yapay sinir ağları** kullanan bir alt alanıdır; büyük veriden çok karmaşık örüntüleri öğrenebilir. 2012'de bir derin öğrenme modelinin görüntü tanıma yarışmasını büyük farkla kazanması, bugünkü YZ dalgasının başlangıcı sayılır ([Ek A](../ekler/a_kirilimlar.qmd)).
 
 **Üretken yapay zekâ** ise derin öğrenmeyle eğitilmiş, yalnızca sınıflandırmakla kalmayıp yeni içerik üreten modellerdir: metin, görsel, ses, video, kod. Sohbet asistanlarının arkasındaki **büyük dil modelleri** bunun en bilinen örneğidir.
 
@@ -91,7 +91,7 @@ Son yıllarda bazı modeller cevap vermeden önce bir tür ara çalışma yapaca
 
 Yapay sinir ağları, beyindeki sinir hücrelerinden esinlenmiştir, ama onları taklit etmez. Bir yapay nöron, birkaç sayıyı alır, her birini bir **ağırlıkla** çarpar, sonuçları toplar ve bir sonraki katmana iletir. Ağ katmanlardan oluşur: giriş katmanı veriyi alır, aradaki gizli katmanlar örüntüleri işler, çıkış katmanı sonucu verir. Eğitim, tahmin yanlış çıktıkça bu ağırlıkların küçük adımlarla düzeltilmesidir. "Derin" kelimesi, gizli katmanların çokluğundan gelir.
 
-Büyük bir dil modelinde milyarlarca ağırlık vardır ve her token için hepsiyle çarpma ve toplama yapılır. Bu işlemlerin çoğu birbirinden bağımsızdır; aynı anda yapılabilir. Hafta 2'de gördüğün gibi işlemci (CPU) işleri sırayla ve hızla yapan bir aşçıya benzer; ekran kartı (GPU) ise binlerce basit işi aynı anda yapan bir mutfak ekibine. YZ'nin eğitiminde ve çalışmasında GPU'ların ve YZ için tasarlanmış özel çiplerin kullanılması bu yüzdendir. Büyük modellerin eğitimi, binlerce GPU'nun haftalarca çalıştığı veri merkezlerinde yapılır; bu da büyük miktarda elektrik ve soğutma demektir.
+Büyük bir dil modelinde milyarlarca ağırlık vardır ve her token için hepsiyle çarpma ve toplama yapılır. Bu işlemlerin çoğu birbirinden bağımsızdır; aynı anda yapılabilir. Hafta 2'de gördüğün gibi işlemci (CPU, central processing unit) işleri sırayla ve hızla yapan bir aşçıya benzer; ekran kartı (GPU, graphics processing unit) ise binlerce basit işi aynı anda yapan bir mutfak ekibine. YZ'nin eğitiminde ve çalışmasında GPU'ların ve YZ için tasarlanmış özel çiplerin kullanılması bu yüzdendir. Büyük modellerin eğitimi, binlerce GPU'nun haftalarca çalıştığı veri merkezlerinde yapılır; bu da büyük miktarda elektrik ve soğutma demektir.
 
 ## 4. Araç manzarası (okuma)
 
@@ -107,7 +107,7 @@ Büyük bir dil modelinde milyarlarca ağırlık vardır ve her token için heps
 | Kod asistanları | Kod yazar, açıklar, hata ayıklar | Çalışıyor gibi görünen kod da hatalı ya da güvensiz olabilir |
 | Çok kipli modeller | Metni, görseli ve sesi birlikte işler: bir fotoğrafı yükleyip soru sorabilirsin | Görseldeki ayrıntıyı yanlış okuyabilir |
 | YZ ajanları | Yalnızca cevap vermez, iş yapar: tarayıcıda gezinir, dosya açar, form doldurur | Ona hangi yetkiyi verdiğini bil; her adımı denetleyebilmelisin |
-| Yerel modeller | Bilgisayarında, internete bağlanmadan çalışır | Verin cihazından çıkmaz; ama güçlü donanım ister, daha küçük modellerdir |
+| **Yerel modeller** | Bilgisayarında, internete bağlanmadan çalışır | Verin cihazından çıkmaz; ama güçlü donanım ister, daha küçük modellerdir |
 :::
 
 Bugün yaygın sohbet asistanlarına örnek olarak (alfabetik sırayla) ChatGPT, Claude, Copilot, DeepSeek, Gemini ve Le Chat sayılabilir. Bu liste sen bu notu okurken bile değişmiş olabilir. YZ özellikleri artık ayrı uygulamalarda değil, kullandığın ofis programlarına, e-postana ve telefonuna da gömülü olarak geliyor. Her işlev için ücretsiz ve açık kaynak seçenekler [Ek C](../ekler/c_alternatifler.qmd) sayfasındadır.
@@ -213,6 +213,27 @@ Mezun olduğunda yapacağın işi düşün. YZ bu işin hangi görevlerini üstl
 AlphaGo (2017): Bir YZ'nin, sezgi gerektirdiği düşünülen Go oyununda dünyanın en iyi oyuncularından birini yenişini anlatan belgesel. Yapay zekâyla ilgili bilim kurgu eserleri ve bugünkü karşılıkları için [Ek B](../ekler/b_bilim-kurgu.qmd).
 :::
 
+### Ülkeler de yarışıyor: yapay zekâ stratejileri
+
+Yapay zekâ yalnızca şirketlerin değil, devletlerin de gündeminde. Son on yılda birçok ülke bir **ulusal yapay zekâ stratejisi** yayımladı: YZ'de nereye varmak istediğini ve bunun için ne yapacağını anlatan bir yol haritası. Kanada 2017'de ilk ulusal YZ stratejilerinden birini açıkladı; Birleşik Arap Emirlikleri aynı yıl bir yapay zekâ bakanlığı kurdu.
+
+| Ülke ya da birlik | Belge | Öne çıkan vurgu |
+|---|---|---|
+| Çin | Yeni Nesil Yapay Zekâ Gelişim Planı (2017) | 2030'a kadar YZ'de dünyanın önde gelen merkezi olmak; devletin yönlendirdiği yatırım |
+| Avrupa Birliği | Koordineli YZ Planı (2018, güncelleme 2021); Yapay Zekâ Yasası (2024); YZ Kıtası Eylem Planı (2025) | Güvenilir YZ için risk temelli kurallar (Hafta 7); hesaplama altyapısı ve yetenek |
+| ABD | Amerikan YZ Girişimi (2019); Amerika'nın YZ Eylem Planı (2025) | Özel sektör yeniliği, veri merkezleri ve enerji altyapısı, YZ teknolojisinin ihracatı |
+| Türkiye | Ulusal Yapay Zekâ Stratejisi 2021–2025 ve 2024–2025 Eylem Planı; Türkiye Yapay Zekâ Eylem Planı 2026–2030 (Ekim 2026) | Yetenek ve YZ okuryazarlığı, veri ve hesaplama altyapısı, Türkçe dil modelleri, düzenleme ve güven |
+
+Belgeler farklı dillerde yazılsa da benzer başlıklar taşır: insan kaynağı ve okuryazarlık, veri, hesaplama gücü (çip, veri merkezi, enerji), düzenleme ve güven, uluslararası iş birliği. Farklılık, vurgunun nereye konduğundadır: kimi ülke önce kural koymayı, kimi önce yatırımı, kimi devletin yönlendirmesini öne çıkarır. Hafta 2'de gördüğün çip yarışı ve Hafta 4'teki veri merkezlerinin enerji ihtiyacı, bu belgelerin ortak gündemidir.
+
+Bir stratejinin değeri, yazıldığı gün değil, yıllar sonra ölçülen sonuçlarıyla anlaşılır. Bu belgelerin çoğu hedeflerini ve ilerlemesini kamuya açık raporlarla izlemeyi öngörür. Hedeflerin gerçekleşip gerçekleşmediğini bu raporlardan izlemek, Hafta 5'teki birincil kaynağa gitme alışkanlığının vatandaşlıktaki karşılığıdır.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bir ülke kendi büyük dil modelini geliştirmeli mi, yoksa dünyadaki en iyi modelleri kullanmakla mı yetinmeli?
+
+Biraz ek bilgi: Büyük dil modellerinin eğitim verisinin büyük kısmı İngilizcedir; Türkçe gibi dillerde modeller görece az veriyle eğitilir ve bu, cevapların kalitesine yansıyabilir. Kendi modelini geliştirmek; veri, uzman, hesaplama gücü ve enerji için büyük yatırım ister. Hazır bir modeli kullanmak ucuz ve hızlıdır, ama verinin nereye gittiği, hizmetin kesilmesi ve fiyatın değişmesi gibi soruları beraberinde getirir (Hafta 2'deki dijital egemenlik). Sence hangi alanlarda kendi modelimiz olmalı, hangilerinde gerek yok? Neden?
+:::
+
 ## 8. Kapanış: akademik dürüstlük ve YZ beyanı
 
 Bu derste YZ yasak değildir. Ama iki kural vardır: Kullandığında **beyan edersin** ve çıktının doğruluğundan **sen sorumlusun**. Bunun nedeni basit: Bir ödev, öğrendiğini göstermenin yoludur. YZ'nin yaptığı bir işi kendi işin gibi sunmak, Hafta 5'te gördüğün intihalin bir türüdür.
@@ -266,13 +287,14 @@ Kısa vadede: ödevlerinde YZ'yi kurallara uygun ve beyanlı kullanırsın; iyi 
 
 Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. YZ ürünleri ve ayarları çok hızlı değişir; adı geçen asistanların özelliklerini kendi sitelerinden kontrol et.
 
-- **Düzenleme:** AB Yapay Zekâ Yasası (2024/1689), madde 3 (tanımlar); EASA'nın YZ yol haritası. Kaynak: [EUR-Lex](https://eur-lex.europa.eu), [easa.europa.eu](https://www.easa.europa.eu).
+- **Düzenleme:** AB Yapay Zekâ Yasası (2024/1689), madde 3 (tanımlar); EASA'nın YZ yol haritası.
+- **Strateji belgeleri:** Ulusal Yapay Zekâ Stratejisi 2021–2025 ve 2024–2025 Eylem Planı (Cumhurbaşkanlığı Dijital Dönüşüm Ofisi ve Sanayi ve Teknoloji Bakanlığı); Türkiye Yapay Zekâ Eylem Planı 2026–2030 (Sanayi ve Teknoloji Bakanlığı, Ekim 2026; Haziran 2026 sonrasında yayımlandığı için belgenin kendisinden eklendi); Çin Devlet Konseyi, Yeni Nesil Yapay Zekâ Gelişim Planı (2017); Avrupa Komisyonu, Koordineli YZ Planı (2018, 2021) ve YZ Kıtası Eylem Planı (2025); ABD, Amerika'nın YZ Eylem Planı (2025). Kaynak: [sanayi.gov.tr](https://www.sanayi.gov.tr), [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu). Kaynak: [EUR-Lex](https://eur-lex.europa.eu), [easa.europa.eu](https://www.easa.europa.eu).
 - **Olaylar ve araştırmalar:** ImageNet yarışması (AlexNet, 2012); Mata ile Avianca davası (ABD, 2023); özgeçmiş tarama sistemi haberi (Reuters, 2018); AlphaFold veri tabanı ve 2024 Nobel Kimya ile Fizik ödülleri; YZ dedektörleri üzerine Liang ve diğerleri (2023).
 - **Alıntılar:** Arthur C. Clarke, *Profiles of the Future* (1973 baskısı); George Box (1976); Richard Baldwin'e atfedilen söz (2023).
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: yapay zekâ, kural tabanlı sistem, makine öğrenmesi, derin öğrenme, yapay sinir ağı, üretken yapay zekâ, büyük dil modeli, token, parametre, eğitim verisi, bilgi kesim tarihi, akıl yürüten model, çok kipli model, YZ ajanı, yerel model, istem, halüsinasyon, önyargı, öngörücü bakım, beceri körelmesi, YZ beyanı.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: yapay zekâ, kural tabanlı sistem, makine öğrenmesi, derin öğrenme, yapay sinir ağı, üretken yapay zekâ, büyük dil modeli, token, parametre, eğitim verisi, bilgi kesim tarihi, akıl yürüten model, çok kipli model, YZ ajanı, yerel model, istem, halüsinasyon, önyargı, öngörücü bakım, beceri körelmesi, ulusal yapay zekâ stratejisi, YZ beyanı.
 
 ## Kendini sına
 

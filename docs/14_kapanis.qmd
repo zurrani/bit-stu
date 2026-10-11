@@ -15,7 +15,7 @@ description: "Dönemin haritası; son 25 yılın kırılımları; geçmişin bil
 </div>
 ```
 
-Yıl 2001. Bir öğrencinin çantasında şunlar var: yalnızca konuşmaya ve kısa mesaja yarayan bir cep telefonu, otuz kadar şarkı alan bir MP3 çalar, ayrı bir dijital fotoğraf makinesi, şehrin kâğıt haritası ve bir ödev için kütüphaneden alınmış bir ansiklopedi cildi. Evde internete telefon hattı üzerinden bağlanıyor; bağlanırken telefon meşgul çalıyor ve bir fotoğrafın inmesi dakikalar sürüyor. Bugün senin çantanda bunların hepsinin yerini tek bir cihaz alıyor; üstelik o cihaz sana yol tarif ediyor, metni çeviriyor ve sorularını bir yapay zekâ ile cevaplıyor. Bu dönem, bu değişimin ne kazandırdığını ve neye mal olduğunu konuştuk. Bu son hafta dönemi bir araya getiriyor, geleceğe bakıyor ve en önemli soruyu soruyor: Bundan sonra kendi başına nasıl öğrenmeye devam edeceksin?
+Yıl 2001. Bir öğrencinin çantasında şunlar var: yalnızca konuşmaya ve kısa mesaja yarayan bir cep telefonu, otuz kadar şarkı alan bir MP3 (MPEG-1 Audio Layer III) çalar, ayrı bir dijital fotoğraf makinesi, şehrin kâğıt haritası ve bir ödev için kütüphaneden alınmış bir ansiklopedi cildi. Evde internete telefon hattı üzerinden bağlanıyor; bağlanırken telefon meşgul çalıyor ve bir fotoğrafın inmesi dakikalar sürüyor. Bugün senin çantanda bunların hepsinin yerini tek bir cihaz alıyor; üstelik o cihaz sana yol tarif ediyor, metni çeviriyor ve sorularını bir yapay zekâ ile cevaplıyor. Bu dönem, bu değişimin ne kazandırdığını ve neye mal olduğunu konuştuk. Bu son hafta dönemi bir araya getiriyor, geleceğe bakıyor ve en önemli soruyu soruyor: Bundan sonra kendi başına nasıl öğrenmeye devam edeceksin?
 
 **Okuma süresi:** yaklaşık 25 dakika. Bu hafta ders saatinin büyük kısmı son teste ve proje sunumlarına ayrıldığı için bu notu kendi başına okursun.
 
@@ -48,7 +48,7 @@ Ders boyunca dört fikir tekrar tekrar karşına çıktı:
 
 ## 2. 25 yılda ne değişti?
 
-Hafta 1'de her icadın bir sorunu çözdüğünü ve bir bedeli olduğunu söylemiştik. Son 25 yılın büyük kırılımlarına bu gözle bakalım ([Ek A](../ekler/a_kirilimlar.qmd)):
+Hafta 1'de her icadın bir sorunu çözdüğünü ve bir bedeli olduğunu söylemiştik. Son 25 yılın büyük **kırılım**larına bu gözle bakalım ([Ek A](../ekler/a_kirilimlar.qmd)):
 
 ::: {.tablo-kaydir}
 | Kırılım | Çözdüğü sorun | Getirdiği bedel |
@@ -65,7 +65,7 @@ Hafta 1'de her icadın bir sorunu çözdüğünü ve bir bedeli olduğunu söyle
 Tablodaki her satırın bir ortak noktası var: Kırılım geldiğinde bedeli hemen görülmedi. Akıllı telefonun ilk yıllarında ekran süresi bir sorun olarak konuşulmuyordu; sosyal medyanın ilk yıllarında kişisel verinin bir ekonomiye dönüşeceği öngörülmüyordu. Bu dersin sana bıraktığı en kalıcı alışkanlık belki de şudur: Yeni bir teknoloji geldiğinde "ne çözüyor?" sorusunun yanına hemen "bedeli ne ve onu kim ödüyor?" sorusunu eklemek.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
-"Teknolojiyle büyüyen gençler, yani dijital yerliler, teknolojiyi doğuştan bilir." Yanlış. "Dijital yerli" deyimi 2000'lerin başında yaygınlaştı; ama sonraki araştırmalar, gençlerin dijital becerilerinin yaşlarından çok neyi, ne kadar ve nasıl kullandıklarına bağlı olduğunu gösterdi. Bir uygulamada hızlı olmak, bir raporu stillerle kurmayı, bir tabloyu temizlemeyi ya da bir oltalama mesajını tanımayı kendiliğinden getirmez. Bu yüzden bu ders "biliyorum" diye değil, "yapabiliyorum" diye ölçtü. Ön testteki öz tahminine ve sonucuna bir kez daha bak: Hangi görevlerde kendini olduğundan iyi, hangilerinde olduğundan kötü görmüştün?
+"Teknolojiyle büyüyen gençler, yani dijital yerliler, teknolojiyi doğuştan bilir." Yanlış. "**Dijital yerli**" deyimi 2000'lerin başında yaygınlaştı; ama sonraki araştırmalar, gençlerin dijital becerilerinin yaşlarından çok neyi, ne kadar ve nasıl kullandıklarına bağlı olduğunu gösterdi. Bir uygulamada hızlı olmak, bir raporu stillerle kurmayı, bir tabloyu temizlemeyi ya da bir oltalama mesajını tanımayı kendiliğinden getirmez. Bu yüzden bu ders "biliyorum" diye değil, "yapabiliyorum" diye ölçtü. Ön testteki öz tahminine ve sonucuna bir kez daha bak: Hangi görevlerde kendini olduğundan iyi, hangilerinde olduğundan kötü görmüştün?
 :::
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Kâğıttan elektronik teknik kayda"}
@@ -117,7 +117,7 @@ Dijital dünya "bulutta" yaşıyor gibi görünür; ama bulut, gerçek binalarda
 
 Bu sorunların büyük kısmı kurumların ve devletlerin işidir; ama senin de etkileyebileceğin bir pay var:
 
-- **Cihazını daha uzun kullan.** Bir telefonun çevresel bedelinin önemli bir kısmı üretilirken ödenir. Bir cihazı bir-iki yıl daha uzun kullanmak, en etkili kişisel adımlardan biridir. Pil değişimi ve onarım çoğu zaman yeni cihazdan ucuzdur; birçok ülkede "onarım hakkı" düzenlemeleri bunu kolaylaştırmayı amaçlıyor.
+- **Cihazını daha uzun kullan.** Bir telefonun çevresel bedelinin önemli bir kısmı üretilirken ödenir. Bir cihazı bir-iki yıl daha uzun kullanmak, en etkili kişisel adımlardan biridir. Pil değişimi ve onarım çoğu zaman yeni cihazdan ucuzdur; birçok ülkede **onarım hakkı** düzenlemeleri bunu kolaylaştırmayı amaçlıyor.
 - **Doğru yere at.** Eski cihazı ve pili çöpe değil, e-atık toplama noktasına ver. Vermeden önce verilerini sil ve hesaplarından çıkış yap (Hafta 8).
 - **Gereksiz veriyi temizle.** Kullanmadığın bulut yedekleri, aynı fotoğrafın onlarca kopyası, abonesi olduğun ama okumadığın e-posta listeleri. Tek tek küçüktür, ama milyonlarca kullanıcıda büyür.
 - **Aracı işe göre seç.** Basit bir hesap için bir hesap makinesi, bir yazım düzeltmesi için yazım denetimi yeter; her işi büyük bir YZ modeline yaptırmak gerekmez. Bu da araç esnekliğinin bir yüzüdür.

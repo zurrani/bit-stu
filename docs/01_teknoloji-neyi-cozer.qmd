@@ -33,13 +33,13 @@ Bu ders sana bilgisayar kullanmayı değil, dijital dünyada güvenle düşünme
 
 Dönem boyunca her konuya şu dört bakış açısıyla yaklaşacağız.
 
-**Yakından uzağa.** Her konunun sonunda soracağız: Bu bilgi bugün, birkaç yıl sonra ve meslek hayatımda ne işime yarar? Bu sorunun dayanağı Amara yasasıdır: "Bir teknolojinin kısa vadedeki etkisini abartır, uzun vadedeki etkisini küçümseriz." 1990'ların sonunda internetin abartıldığı söyleniyordu; bugün hayatımızın her alanında.
+**Yakından uzağa.** Her konunun sonunda soracağız: Bu bilgi bugün, birkaç yıl sonra ve meslek hayatımda ne işime yarar? Bu sorunun dayanağı **Amara yasası**dır: "Bir teknolojinin kısa vadedeki etkisini abartır, uzun vadedeki etkisini küçümseriz." 1990'ların sonunda internetin abartıldığı söyleniyordu; bugün hayatımızın her alanında.
 
 **Her şeyin bir alternatifi var.** Ürünü değil, işlevi öğreneceğiz. Word yoksa Google Dokümanlar ya da LibreOffice Writer aynı işi görür. Bir mesajlaşma uygulaması çökerse başka bir kanal vardır. Tek bir araca bağımlı kalan kişi, o araç değiştiğinde ya da ortadan kalktığında zor durumda kalır.
 
 **Geçmişin bilim kurgusu, şimdinin teknolojisi.** 1946'da bir çizgi romanda dedektif Dick Tracy kol saatiyle konuşuyordu; bugün akıllı saatlerimiz var. Bugünün bilim kurgusundan hangisinin yarın sıradan olacağını düşünmek, değişime hazırlanmanın bir yoludur.
 
-**Hazırlıklı ol.** Teknoloji bir gün susabilir. Ekim 2021'de dünyanın en yaygın mesajlaşma ve sosyal medya uygulamaları yaklaşık altı saat boyunca aynı anda çalışmadı. Havacılığın temel ilkesi olan yedeklilik, kişisel dijital hayatımıza da uygulanabilir: "İki, birdir; bir, hiçtir."
+**Hazırlıklı ol.** Teknoloji bir gün susabilir. Ekim 2021'de dünyanın en yaygın mesajlaşma ve sosyal medya uygulamaları yaklaşık altı saat boyunca aynı anda çalışmadı. Havacılığın temel ilkesi olan **yedeklilik**, kişisel dijital hayatımıza da uygulanabilir: "İki, birdir; bir, hiçtir."
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
 Kısa vadede: dersin nasıl ilerleyeceğini ve nasıl değerlendirileceğini bilirsin. Orta vadede: staj ve iş ilanlarında istenen dijital yetkinlikleri tanırsın. Uzun vadede: kariyerin boyunca değişecek teknolojilere uyum sağlamanın yöntemini öğrenirsin.
@@ -55,7 +55,7 @@ Bilim, evreni ve doğayı anlamak için sistematik bilgi üretme çabasıdır. A
 2. **Soru ve hipotez:** Olguyu açıklayan, test edilebilir bir öneri ortaya koymak.
 3. **Tahmin:** Hipotez doğruysa neyin gözlenmesi gerektiğini önceden söylemek.
 4. **Test:** Deney ya da yeni gözlemle tahmini sınamak.
-5. **Sonuç:** Tahmin tutarsa hipotez güçlenir; tutmazsa hipotez değiştirilir ya da terk edilir ve döngü yeniden başlar. Pek çok testten geçen ve geniş bir olgu kümesini açıklayan çerçeveye kuram (teori) denir.
+5. **Sonuç:** Tahmin tutarsa hipotez güçlenir; tutmazsa hipotez değiştirilir ya da terk edilir ve döngü yeniden başlar. Pek çok testten geçen ve geniş bir olgu kümesini açıklayan çerçeveye **kuram** (teori) denir.
 
 ### Aynı yöntem, iki farklı son: Neptün ve Vulcan
 
@@ -79,11 +79,11 @@ Bir iddiayı bilimsel yapan nedir? "Yarın hava ya yağmurlu olacak ya da olmaya
 
 ## 3. Teknoloji: çözüm ve bedel
 
-Teknoloji, bilimsel bilginin pratik sorunlara çözüm bulmak için kullanılmasıdır. Bilim "neden?" diye sorar, teknoloji "nasıl yaparız?" diye. Makine ise bir işi yapmak için kuvvet uygulayan ve hareketi kontrol eden fiziksel bir sistemdir; bilgisayar, işi kuvvet değil bilgi olan bir makinedir.
+Teknoloji, bilimsel bilginin pratik sorunlara çözüm bulmak için kullanılmasıdır. Bilim "neden?" diye sorar, teknoloji "nasıl yaparız?" diye. **Makine** ise bir işi yapmak için kuvvet uygulayan ve hareketi kontrol eden fiziksel bir sistemdir; **bilgisayar**, işi kuvvet değil bilgi olan bir makinedir.
 
 ### Beygir gücü: bir pazarlama buluşu
 
-On sekizinci yüzyılın sonunda James Watt, geliştirdiği buhar makinesini maden ve değirmen sahiplerine satmaya çalışıyordu. Müşterileri işlerini atlarla yapıyordu. Watt, makinesinin gücünü onların anlayacağı bir dille anlatmak için bir atın yapabileceği işi ölçü aldı: beygir gücü. Bugün 1 beygir gücü yaklaşık 745,7 watt'tır. İronik olan, güç biriminin bugün Watt'ın kendi adını taşımasıdır.
+On sekizinci yüzyılın sonunda James Watt, geliştirdiği buhar makinesini maden ve değirmen sahiplerine satmaya çalışıyordu. Müşterileri işlerini atlarla yapıyordu. Watt, makinesinin gücünü onların anlayacağı bir dille anlatmak için bir atın yapabileceği işi ölçü aldı: **beygir gücü**. Bugün 1 beygir gücü yaklaşık 745,7 watt'tır. İronik olan, güç biriminin bugün Watt'ın kendi adını taşımasıdır.
 
 Bir teknolojinin başarısı yalnızca teknik üstünlüğüne değil, insanların onu anlayıp benimsemesine de bağlıdır. Watt makineyi icat etmekle kalmamış, onu anlatmanın yolunu da icat etmişti.
 
@@ -93,7 +93,7 @@ Pistonlu ve pervaneli uçak motorlarının gücü bugün hâlâ beygir gücüyle
 
 ### Sanayi devrimi: büyük çözüm, büyük bedel
 
-Sanayi devrimi 1760'larda İngiltere'de başladı. Nüfus artışı, sömürgelerden gelen hammadde ve sermaye, buhar makinesi, ticaret hukukunun ve özel mülkiyet güvencesinin gelişmesi bu dönüşümü mümkün kıldı. Sonuçları insan hayatının her alanına dokundu: üretim katlandı, şehirler büyüdü, genel refah ve ortalama ömür zamanla arttı.
+**Sanayi devrimi** 1760'larda İngiltere'de başladı. Nüfus artışı, sömürgelerden gelen hammadde ve sermaye, buhar makinesi, ticaret hukukunun ve özel mülkiyet güvencesinin gelişmesi bu dönüşümü mümkün kıldı. Sonuçları insan hayatının her alanına dokundu: üretim katlandı, şehirler büyüdü, genel refah ve ortalama ömür zamanla arttı.
 
 Ama ilk on yıllarda bedel ağırdı. Fabrikalarda uzun ve tehlikeli çalışma saatleri, çocuk işçiliği, sağlıksız şehirler ve çevre kirliliği bu dönemin gerçekleriydi. Teknoloji aynı anda hem refahın hem de yeni sorunların kaynağı oldu.
 
@@ -111,7 +111,7 @@ Ama ilk on yıllarda bedel ağırdı. Fabrikalarda uzun ve tehlikeli çalışma 
 Tarih teknolojinin kendiliğinden iyi ya da kötü olmadığını gösteriyor. Tarihçi Melvin Kranzberg bunu 1986'da şöyle özetledi: "Teknoloji ne iyidir ne kötüdür; tarafsız da değildir." Teknoloji bir kaldıraç gibidir: gücü artırır, ama yönünü onu tutan el belirler.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
-Sokrates yazının belleği zayıflatacağından korkuyordu. Bugün aynı kaygı yapay zekâ için dile getiriliyor: "Her şeyi YZ'ye sorarsak düşünmeyi unutur muyuz?" Sokrates haklı mıydı? Bu kaygı YZ için daha mı geçerli?
+Sokrates yazının belleği zayıflatacağından korkuyordu. Bugün aynı kaygı yapay zekâ (YZ) için dile getiriliyor: "Her şeyi YZ'ye sorarsak düşünmeyi unutur muyuz?" Sokrates haklı mıydı? Bu kaygı YZ için daha mı geçerli?
 :::
 
 ::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
@@ -134,7 +134,7 @@ Bugünün teknisyeni anahtar ve tork ölçer kadar tablet, veri ve bilgi güvenl
 
 ## 4. Bilişim nedir? Veriden bilgeliğe
 
-Bilim anlamaya, teknoloji yapmaya çalışır. Bilişim ise bilginin, özellikle elektronik makineler aracılığıyla düzenli biçimde işlenmesidir. Kelimenin kendisi Türkçede yenidir: Fransızca "informatique" karşılığı olarak 1971'de bilgisayar bilimci Aydın Köksal tarafından önerildi. Bilgi ve iletişim teknolojileri (BİT) ise bilginin üretilmesi, saklanması, işlenmesi ve iletilmesi için kullanılan donanım, yazılım ve ağların tümüdür.
+Bilim anlamaya, teknoloji yapmaya çalışır. **Bilişim** ise bilginin, özellikle elektronik makineler aracılığıyla düzenli biçimde işlenmesidir. Kelimenin kendisi Türkçede yenidir: Fransızca "informatique" karşılığı olarak 1971'de bilgisayar bilimci Aydın Köksal tarafından önerildi. **Bilgi ve iletişim teknolojileri** (BİT) ise bilginin üretilmesi, saklanması, işlenmesi ve iletilmesi için kullanılan donanım, yazılım ve ağların tümüdür.
 
 ### Veriden bilgeliğe dört basamak
 
@@ -142,16 +142,16 @@ Bilişimin işlediği ham madde veridir; ama veri, değer yaratana kadar birkaç
 
 | Basamak | Ne demek? | Örnek (kurgusal) |
 |---|---|---|
-| Veri | Bağlamı olmayan ham değer | 180 |
-| Enformasyon | Bağlam kazanmış, ne olduğu belli veri | Sol ana teker lastik basıncı: 180 psi |
-| Bilgi | Enformasyonun yorumlanıp anlam kazanması | Bu değer üreticinin belirttiği aralığın altında; lastik şişirilmeli |
-| Bilgelik | Deneyim ve değerlendirmeyle doğru kararı vermek | Bu lastik üç haftadır hep düşük çıkıyor; sorun sızıntı olabilir, kök nedeni araştırmalıyız |
+| **Veri** | Bağlamı olmayan ham değer | 180 |
+| **Enformasyon** | Bağlam kazanmış, ne olduğu belli veri | Sol ana teker lastik basıncı: 180 psi |
+| **Bilgi** | Enformasyonun yorumlanıp anlam kazanması | Bu değer üreticinin belirttiği aralığın altında; lastik şişirilmeli |
+| **Bilgelik** | Deneyim ve değerlendirmeyle doğru kararı vermek | Bu lastik üç haftadır hep düşük çıkıyor; sorun sızıntı olabilir, kök nedeni araştırmalıyız |
 
 Bilgisayarlar ilk iki basamakta çok güçlüdür: milyonlarca veriyi saniyede düzenler. Üçüncü basamağa giderek daha fazla yardım ediyorlar. Dördüncü basamak, yani doğru soruyu sormak ve sorumluluğu almak, hâlâ büyük ölçüde insanın işidir.
 
 ### Bilgi toplumu
 
-Her toplumu kendi temel üretim gücüyle tanımlayabiliriz. Tarım toplumunda bu güç topraktı, sanayi toplumunda makine ve sermaye. Bilgi toplumunda ise bilgi ve veri en değerli kaynak haline geldi. İktisatçı Peter Drucker, 1959'da elleriyle değil bilgiyle çalışan bu yeni çalışan tipine "bilgi işçisi" adını verdi. Bugün bir bakım teknisyeni de tork anahtarının yanında veriyle, dokümanla ve yazılımla çalışan bir bilgi işçisidir.
+Her toplumu kendi temel üretim gücüyle tanımlayabiliriz. Tarım toplumunda bu güç topraktı, sanayi toplumunda makine ve sermaye. **Bilgi toplumu**nda ise bilgi ve veri en değerli kaynak haline geldi. İktisatçı Peter Drucker, 1959'da elleriyle değil bilgiyle çalışan bu yeni çalışan tipine **bilgi işçisi** adını verdi. Bugün bir bakım teknisyeni de tork anahtarının yanında veriyle, dokümanla ve yazılımla çalışan bir bilgi işçisidir.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Isaac Asimov'a atfedilen bir söz der ki: "Bugün hayatın en üzücü yanı, bilimin bilgiyi toplumun bilgeliği toplayabildiğinden daha hızlı toplamasıdır." Veriden bilgeliğe dört basamağı düşündüğünde, bugün en çok hangi basamakta zorlanıyoruz?
@@ -187,10 +187,10 @@ Kısa vadede: internette karşılaştığın bir sayının veri mi, yorumlanmı�
 | Endüstri 3.0 | 1970'lerden itibaren | Elektronik, bilgisayar, programlanabilir denetleyiciler | Otomasyon |
 | Endüstri 4.0 | 2010'lardan itibaren | Siber-fiziksel sistemler, Nesnelerin İnterneti, bulut, büyük veri, yapay zekâ | Birbirine bağlı, veriyle kendini ayarlayan akıllı üretim |
 
-Endüstri 4.0 kavramı 2011'de Almanya'da bir sanayi politikası olarak gündeme geldi. Avrupa Birliği son yıllarda teknolojinin insan, toplum ve çevre ihtiyaçlarına göre şekillenmesini vurgulayan Endüstri 5.0 kavramını tartışıyor.
+**Endüstri 4.0** kavramı 2011'de Almanya'da bir sanayi politikası olarak gündeme geldi. Avrupa Birliği son yıllarda teknolojinin insan, toplum ve çevre ihtiyaçlarına göre şekillenmesini vurgulayan Endüstri 5.0 kavramını tartışıyor.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
-Wright kardeşlerin 1903'teki ilk motorlu uçuşu 12 saniye sürdü. 66 yıl sonra, 1969'da insanlar Ay'a indi. Bugün havacılıkta Endüstri 4.0 en çok bakımda görülür: uçaktaki sensörlerden gelen veriyle arızayı oluşmadan tahmin etmek (öngörücü bakım) ve bir uçağın ya da motorun sanal kopyası üzerinde çalışmak (dijital ikiz).
+Wright kardeşlerin 1903'teki ilk motorlu uçuşu 12 saniye sürdü. 66 yıl sonra, 1969'da insanlar Ay'a indi. Bugün havacılıkta Endüstri 4.0 en çok bakımda görülür: uçaktaki sensörlerden gelen veriyle arızayı oluşmadan tahmin etmek (**öngörücü bakım**) ve bir uçağın ya da motorun sanal kopyası üzerinde çalışmak (**dijital ikiz**).
 :::
 
 ## 6. Hesaplamadan bilgisayara (okuma)
@@ -211,17 +211,17 @@ Makineli hesaplamanın her adımı somut bir ihtiyaçtan doğdu: vergi hesabı, 
 | 1843 | Ada Lovelace'ın notları: bir makine için yazılmış ilk algoritma | Makinenin sayılardan fazlasını işleyebileceği öngörüsü |
 | 1890 | Hollerith'in delikli kartlı sayım makinesi | ABD nüfus sayımı |
 | 1936 | Alan Turing'in kuramsal hesaplama makinesi | "Hesaplanabilir" olanın matematiksel tanımı |
-| 1945 | ENIAC: ilk genel amaçlı elektronik bilgisayarlardan biri | Savaş dönemi top atış hesapları |
+| 1945 | ENIAC (Electronic Numerical Integrator and Computer): ilk genel amaçlı elektronik bilgisayarlardan biri | Savaş dönemi top atış hesapları |
 | 1947 | Transistör (Bell Laboratuvarları) | Vakum tüplerinin yerine küçük, dayanıklı anahtar |
-| 1951 | UNIVAC I: ilk ticari bilgisayarlardan biri | Nüfus sayımı ve iş dünyası |
-| 1958–1959 | Entegre devre | Çok sayıda transistörü tek parçada birleştirmek |
-| 1971 | Intel 4004: ilk ticari mikroişlemci | Hesap makinesi üretimi |
-| 1975–1981 | Altair 8800, Apple I ve II, IBM PC | Bilgisayarın eve ve masaya girmesi |
+| 1951 | UNIVAC I (Universal Automatic Computer): ilk ticari bilgisayarlardan biri | Nüfus sayımı ve iş dünyası |
+| 1958–1959 | **Entegre devre** | Çok sayıda transistörü tek parçada birleştirmek |
+| 1971 | Intel 4004: ilk ticari **mikroişlemci** | Hesap makinesi üretimi |
+| 1975–1981 | Altair 8800, Apple I ve II, IBM PC (personal computer, kişisel bilgisayar) | Bilgisayarın eve ve masaya girmesi |
 :::
 
 ENIAC yaklaşık 30 ton ağırlığındaydı, büyük bir salonu dolduruyordu ve saniyede 5.000 toplama yapabiliyordu. Programlanması kabloların ve anahtarların elle değiştirilmesiyle yapılıyordu; bu işi yapan ilk programcıların altısı kadındı. Bugün cebimizdeki bir telefon, ENIAC'tan milyonlarca kat hızlıdır.
 
-Bu hızın sırrı transistördür. Transistör, elektrik akımını açıp kapatan küçük bir anahtardır; açık ve kapalı, yani 1 ve 0. Bu iki değerden birini taşıyan en küçük bilgi birimine bit denir; dersin kısa adı BIT de (Basic Information Technologies) bu yüzden iki anlam taşır. Transistörler küçüldükçe aynı alana daha fazlası sığdı. Intel'in kurucularından Gordon Moore, 1965'te bir çipteki transistör sayısının düzenli olarak ikiye katlanacağını öngördü; Moore yasası olarak bilinen bu eğilim onlarca yıl sürdü (Hafta 2).
+Bu hızın sırrı transistördür. **Transistör**, elektrik akımını açıp kapatan küçük bir anahtardır; açık ve kapalı, yani 1 ve 0. Bu iki değerden birini taşıyan en küçük bilgi birimine **bit** denir; dersin kısa adı BIT de (Basic Information Technologies) bu yüzden iki anlam taşır. Transistörler küçüldükçe aynı alana daha fazlası sığdı. Intel'in kurucularından Gordon Moore, 1965'te bir çipteki transistör sayısının düzenli olarak ikiye katlanacağını öngördü; **Moore yasası** olarak bilinen bu eğilim onlarca yıl sürdü (Hafta 2).
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Bilgisayar hatasına 'bug' denmesinin sebebi, ilk bilgisayarda bulunan bir böcektir." Yarı gerçek. 1947'de Harvard Mark II bilgisayarında, Grace Hopper'ın ekibi bir rölenin arasına sıkışmış bir güve buldu ve kayıt defterine "gerçek bir böcek vakası" notuyla yapıştırdı. Ama mühendisler "bug" kelimesini arıza anlamında Edison'un zamanından beri kullanıyordu; espri tam da bu yüzden komikti.

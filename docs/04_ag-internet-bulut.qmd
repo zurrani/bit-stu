@@ -15,7 +15,7 @@ description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (
 </div>
 ```
 
-Her gün yüzlerce kez yapıyoruz: bir adres yazıyoruz, sayfa açılıyor. Bu hafta o bir saniyenin içine bakacağız: adresin sayıya çevrilmesini, verinin parçalara bölünüp dünyanın öbür ucuna gitmesini, denizin altından geçen kabloları ve havadaki dalgaları. Ardından "bulut" denen şeyin aslında nerede durduğunu ve bir uçağın da nasıl bu ağın parçası olduğunu göreceğiz.
+Her gün yüzlerce kez yapıyoruz: bir adres yazıyoruz, sayfa açılıyor. Bu hafta o bir saniyenin içine bakacağız: adresin sayıya çevrilmesini, verinin parçalara bölünüp dünyanın öbür ucuna gitmesini, denizin altından geçen kabloları ve havadaki dalgaları. Ardından devletin bu ağa nasıl taşındığını, "bulut" denen şeyin aslında nerede durduğunu ve neye mal olduğunu, bir uçağın da nasıl bu ağın parçası olduğunu göreceğiz.
 
 **Okuma süresi:** yaklaşık 25 dakika.
 
@@ -39,17 +39,17 @@ Her yeni iletişim teknolojisi de korkuyla karşılandı. 1980'lerde e-postanın
 
 ### Ağlar ağı
 
-**İnternet**, dünyanın dört bir yanındaki bilgisayar ağlarının birbirine bağlanmasıyla oluşan bir ağlar ağıdır. Kökeni, ABD'de araştırma kurumlarının bilgisayarlarını birbirine bağlamak için kurulan ARPANET'e dayanır.
+**İnternet**, dünyanın dört bir yanındaki bilgisayar ağlarının birbirine bağlanmasıyla oluşan bir ağlar ağıdır. Kökeni, ABD'de araştırma kurumlarının bilgisayarlarını birbirine bağlamak için kurulan ARPANET'e (Advanced Research Projects Agency Network) dayanır.
 
 29 Ekim 1969'da ARPANET üzerinden gönderilen ilk mesaj "LOGIN" kelimesi olacaktı. İlk iki harf, "LO", gitti; sonra sistem çöktü. İnternetin ilk sözü böylece, kazara, "Lo" oldu.
 
-ARPANET'in temel fikri **paket anahtarlamaydı**: veri küçük paketlere bölünür, her paket hedefe kendi yolunu bulur ve varışta yeniden birleştirilir. Bir hat koparsa paketler başka yollardan gider. Bu tasarım internete bugün de dayanıklılığını veriyor. 1983'te ağlar ortak bir dil olan **TCP/IP** protokolüne geçti; bu tarih internetin doğum günlerinden biri sayılır.
+ARPANET'in temel fikri **paket anahtarlamaydı**: veri küçük paketlere bölünür, her paket hedefe kendi yolunu bulur ve varışta yeniden birleştirilir. Bir hat koparsa paketler başka yollardan gider. Bu tasarım internete bugün de dayanıklılığını veriyor. Ağdaki cihazların nasıl konuşacağını belirleyen kurallar dizisine **protokol** denir. 1983'te ağlar ortak bir dil olan **TCP/IP** (Transmission Control Protocol / Internet Protocol) protokolüne geçti; bu tarih internetin doğum günlerinden biri sayılır.
 
-Türkiye internete 12 Nisan 1993'te, ODTÜ üzerinden bağlandı. Bugün üniversiteler ULAKBİM'in kurduğu ağ üzerinden internete erişir.
+Türkiye internete 12 Nisan 1993'te, ODTÜ (Orta Doğu Teknik Üniversitesi) üzerinden bağlandı. Bugün üniversiteler ULAKBİM'in (Ulusal Akademik Ağ ve Bilgi Merkezi) kurduğu ağ üzerinden internete erişir.
 
 ### Web, internetin yalnızca bir parçası
 
-1989'da CERN'de çalışan Tim Berners-Lee, belgelerin birbirine bağlantılarla bağlandığı bir sistem önerdi: **World Wide Web**. İlk web sayfası hâlâ yayında: info.cern.ch. Berners-Lee web'in patentini almadı ve herkese açık bıraktı; 2012 Londra Olimpiyatları'nın açılışında yazdığı mesaj bunu özetliyordu: "Bu herkes için."
+1989'da CERN'de (Avrupa Nükleer Araştırma Merkezi) çalışan Tim Berners-Lee, belgelerin birbirine bağlantılarla bağlandığı bir sistem önerdi: **World Wide Web**. İlk web sayfası hâlâ yayında: info.cern.ch. Berners-Lee web'in patentini almadı ve herkese açık bıraktı; 2012 Londra Olimpiyatları'nın açılışında yazdığı mesaj bunu özetliyordu: "Bu herkes için."
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "İnternet ile web aynı şeydir." Yanlış. İnternet altyapıdır: kablolar, yönlendiriciler ve ortak dil. Web ise bu altyapı üzerinde çalışan hizmetlerden yalnızca biridir. E-posta, anlık mesajlaşma, çevrimiçi oyunlar, görüntülü görüşme ve dosya aktarımı da internet üzerinde çalışır, ama web değildir. Yol ile o yolda giden otobüs hattı gibi düşün.
@@ -59,25 +59,40 @@ Web de değişti. Web 1.0'da (yaklaşık 1990–2004) sayfalar çoğunlukla okun
 
 ## 3. Ağlar nasıl kurulur?
 
+::: {.tablo-kaydir}
 | Ağ türü | Kapsadığı alan | Örnek |
 |---|---|---|
-| Yerel alan ağı (LAN) | Bir ev, okul, ofis | Laboratuvardaki bilgisayarlar |
-| Şehir alan ağı (MAN) | Bir şehir ya da kampüs | Üniversitenin yerleşkeleri arası ağ |
-| Geniş alan ağı (WAN) | Ülkeler, kıtalar | İnternetin kendisi |
+| Yerel alan ağı (LAN, local area network) | Bir ev, okul, ofis | Laboratuvardaki bilgisayarlar |
+| Şehir alan ağı (MAN, metropolitan area network) | Bir şehir ya da kampüs | Üniversitenin yerleşkeleri arası ağ |
+| Geniş alan ağı (WAN, wide area network) | Ülkeler, kıtalar | İnternetin kendisi |
+:::
 
 Ağdaki bilgisayarların çoğu **istemci-sunucu** düzeniyle çalışır: senin tarayıcın (istemci) bir istek gönderir, uzaktaki bilgisayar (sunucu) cevap verir.
 
 Evindeki "modem" aslında birkaç cihazın tek kutuda birleşmiş halidir: **modem** evini servis sağlayıcının hattına bağlar; **yönlendirici** (router) paketleri doğru yere yönlendirir; **anahtar** (switch) kablolu cihazları birbirine bağlar; **erişim noktası** Wi-Fi yayını yapar.
 
+### Evdeki ağı korumak
+
+Evindeki modem, internetle cihazların arasındaki kapıdır; kapının kilidini kurulumdaki gibi bırakmak risklidir. Birkaç adım çoğu riski kapatır:
+
+- **Yönetici şifresini değiştir.** Modemin ayar sayfasına giriş şifresi çoğu zaman cihazın altındaki etikette yazar ya da herkesin bildiği bir varsayılan şifredir.
+- **Güçlü şifreleme seç.** Wi-Fi ayarlarında WPA2 ya da tercihen WPA3 (WPA: Wi-Fi Protected Access) kullan; eski WEP ve şifresiz ağ kolayca kırılır. Wi-Fi parolası da uzun olmalıdır.
+- **Misafir ağı aç.** Misafirlerin ve akıllı ampul, kamera gibi cihazların ayrı bir **misafir ağında** durması, birinde açık çıkarsa öbür cihazlarını korur.
+- **Modemin yazılımını güncel tut.** Modemler de bir bilgisayardır; onların yazılımı da açık verir ve güncelleme alır.
+
+Evin dışındaki halka açık Wi-Fi ağlarında nasıl davranacağını Hafta 9'da göreceğiz.
+
 ## 4. Bir adres yazınca ne olur?
 
 ### IP adresi ve alan adı
 
-Ağa bağlı her cihazın bir **IP adresi** vardır; posta adresi gibi düşünebilirsin. Eski sürüm IPv4, 32 bitlik adresler kullanır (örneğin 172.217.16.14) ve yaklaşık 4,3 milyar adrese izin verir. Bu sayı çoktan yetmez oldu; yeni sürüm IPv6, 128 bitlik adreslerle neredeyse sınırsız adres sağlar. Evdeki cihazların çoğu dışarıya tek bir ortak adresle çıkar.
+Ağa bağlı her cihazın bir **IP adresi** (Internet Protocol) vardır; posta adresi gibi düşünebilirsin. Eski sürüm IPv4 (sürüm 4), 32 bitlik adresler kullanır (örneğin 172.217.16.14) ve yaklaşık 4,3 milyar adrese izin verir. Bu sayı çoktan yetmez oldu; yeni sürüm IPv6, 128 bitlik adreslerle neredeyse sınırsız adres sağlar. Evdeki cihazların çoğu dışarıya tek bir ortak adresle çıkar.
 
-Kimse sayıları ezberlemek istemez. Bu yüzden **alan adları** (iuc.edu.tr gibi) kullanılır. Alan adını IP adresine çeviren sisteme **DNS** denir; internetin telefon rehberidir.
+Kimse sayıları ezberlemek istemez. Bu yüzden **alan adları** (iuc.edu.tr gibi) kullanılır. Alan adını IP adresine çeviren sisteme **DNS** (Domain Name System, alan adı sistemi) denir; internetin telefon rehberidir.
 
 ### URL'nin parçaları
+
+Tarayıcıya yazdığın tam adrese **URL** (Uniform Resource Locator) denir.
 
 ```text
 https://www.iuc.edu.tr/tr/duyurular?sayfa=2
@@ -110,7 +125,7 @@ tracert iuc.edu.tr      paketlerin geçtiği durakları listeler (macOS ve Linux
 
 ### HTTPS ve kilit simgesi
 
-**HTTP** web'in konuşma dilidir. **HTTPS** aynı dilin şifreli halidir: tarayıcı ile sunucu arasındaki trafik başkaları tarafından okunamaz ve değiştirilemez. Bir analojiyle: HTTPS mühürlü bir zarftır. İçindeki mektup okunmaz, ama zarfın üstündeki adres, yani hangi siteye gittiğin, görünür.
+**HTTP** (Hypertext Transfer Protocol) web'in konuşma dilidir. **HTTPS** (HTTP Secure) aynı dilin şifreli halidir; şifrelemeyi TLS (Transport Layer Security) adlı protokol yapar: tarayıcı ile sunucu arasındaki trafik başkaları tarafından okunamaz ve değiştirilemez. Bir analojiyle: HTTPS mühürlü bir zarftır. İçindeki mektup okunmaz, ama zarfın üstündeki adres, yani hangi siteye gittiğin, görünür.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Adres çubuğunda kilit simgesi varsa site güvenilirdir." Yanlış. Kilit yalnızca bağlantının şifreli olduğunu ve tarayıcının o alan adının sahibiyle konuştuğunu söyler. Sahte bir site de kilit simgesi alabilir; bugün oltalama sitelerinin çoğu HTTPS kullanır. Asıl soru şudur: Bu alan adı gerçekten olması gereken adres mi? `iuc.edu.tr` ile `iuc-giris.xyz` aynı şey değildir.
@@ -118,23 +133,56 @@ tracert iuc.edu.tr      paketlerin geçtiği durakları listeler (macOS ve Linux
 
 Bir analojiyle bütün zinciri özetleyelim: IP adresi posta adresi, DNS telefon rehberi, paketler ise parçalarına ayrılıp farklı kamyonlarla gönderilen ve varışta yeniden kurulan bir mobilyadır.
 
+### Her işin bir protokolü
+
+Bir saniyelik bu yolculukta birçok protokol birlikte çalışır:
+
+::: {.tablo-kaydir}
+| Protokol | Ne işe yarar? | Ne zaman karşına çıkar? |
+|---|---|---|
+| DHCP (Dynamic Host Configuration Protocol) | Ağa katılan cihaza kendiliğinden bir IP adresi verir | Wi-Fi'ye bağlandığın an |
+| DNS | Alan adını IP adresine çevirir | Her adres yazdığında |
+| TCP/IP | Veriyi paketlere böler, adresler, eksik paketi yeniden ister | Her bağlantıda |
+| HTTP ve HTTPS | Tarayıcı ile web sunucusu arasındaki istek ve cevap | Her web sayfasında |
+| SMTP ve IMAP | E-posta göndermek (Simple Mail Transfer Protocol) ve sunucudaki postayı okumak (Internet Message Access Protocol) | E-posta uygulamanı kurarken (Hafta 10) |
+:::
+
+### Ağ üzerindeki devlet: e-Devlet
+
+Türkiye'de kamu hizmetlerinin büyük kısmı bugün **e-Devlet Kapısı** (turkiye.gov.tr) üzerinden sunulur: öğrenci belgesi ve transkript, adres ve nüfus kayıtları, vergi ve sigorta bilgileri, sağlık randevuları ve daha binlercesi. Kapı 2008'de açıldı. Kendisi bir veri deposu değildir; seni yüzlerce kurumun sistemine bağlayan, tek girişli bir ön kapıdır.
+
+Kapıya birkaç yolla girilir: PTT'den (Posta ve Telgraf Teşkilatı) kimlikle alınan e-Devlet şifresi, mobil imza, elektronik imza, çipli kimlik kartı ya da bazı bankaların internet şubesi. Tek bir şifrenin bu kadar çok kapıyı açtığını düşününce, e-Devlet şifren de en güçlü ve kimseyle paylaşılmayan şifrelerinden biri olmalıdır; sunuluyorsa iki aşamalı doğrulamayı da aç.
+
+İki pratik bilgi:
+
+- **Adresi sağdan oku.** Gerçek adres `turkiye.gov.tr`'dir. "e-Devlet'te bekleyen iadeniz var" diyen bir mesajdaki bağlantı başka bir alan adına gidiyorsa, kilit simgesi olsa bile sahtedir (Hafta 9).
+- **Belgeler doğrulanabilir.** e-Devlet'ten alınan belgelerin üzerinde bir barkod numarası bulunur. Belgeyi alan kurum ya da işveren, bu numarayla belgenin gerçek ve değiştirilmemiş olduğunu e-Devlet'teki belge doğrulama hizmetinden kontrol edebilir. Bir bilginin kaynağına giderek doğrulanmasını Hafta 5'te ayrıntılı göreceğiz.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bütün kamu hizmetlerinin tek bir kapıdan verilmesi bir kolaylık mı, bir risk mi?
+
+Biraz ek bilgi: Tek kapı, kuyrukları ve kâğıt belgeleri azaltır; bir kurumun başka bir kurumdan belge istemesi yerine sistemler birbirine sorar. Öte yandan tek bir şifre çalındığında saldırgan da tek kapıdan girer; kapı bir süre çalışmazsa onlarca hizmet aynı anda durur. Dersin "hazırlıklı ol" felsefesi burada ne der? Bir gün e-Devlet'e ulaşamazsan, acil bir belgeyi başka nasıl alırdın?
+:::
+
 ## 5. Kablolar ve dalgalar
 
 ### İnternetin bedeni
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
-"İnternet uydulardan geliyor." Büyük ölçüde yanlış. Kıtalar arası internet trafiğinin çok büyük kısmı okyanus tabanına döşenmiş fiber optik kablolarla taşınır. Uydular daha çok kablonun ulaşmadığı yerler için, yani gemiler, uçaklar, dağ köyleri ve afet bölgeleri için önemlidir. Bulut havada değil, denizin dibinden geçen kablolarla birbirine bağlı veri merkezlerinde durur.
+"İnternet uydulardan geliyor." Büyük ölçüde yanlış. Kıtalar arası internet trafiğinin çok büyük kısmı okyanus tabanına döşenmiş **fiber optik kablolarla** taşınır. Uydular daha çok kablonun ulaşmadığı yerler için, yani gemiler, uçaklar, dağ köyleri ve afet bölgeleri için önemlidir. Bulut havada değil, denizin dibinden geçen kablolarla birbirine bağlı veri merkezlerinde durur.
 :::
 
 ### Kablosuz bağlantılar
 
+::: {.tablo-kaydir}
 | Bağlantı | Menzil | En uygun kullanım |
 |---|---|---|
 | Wi-Fi | Bir ev ya da bina | Evde ve okulda internet; 2,4 GHz daha uzağa ulaşır, 5 GHz daha hızlıdır ama menzili kısadır |
-| Hücresel (4.5G, 5G) | Baz istasyonunun kapsadığı alan | Hareket halinde internet ve arama |
+| Hücresel (4.5G, 5G; G: generation, nesil) | Baz istasyonunun kapsadığı alan | Hareket halinde internet ve arama |
 | Bluetooth | Birkaç metre | Kulaklık, saat, klavye |
-| NFC | Birkaç santimetre | Temassız ödeme, kart okuma |
+| NFC (near field communication) | Birkaç santimetre | Temassız ödeme, kart okuma |
 | Uydu | Neredeyse her yer | Kablo ve baz istasyonunun ulaşmadığı yerler |
+:::
 
 Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep telefonu aramasını 3 Nisan 1973'te, New York sokağında, bir tuğla büyüklüğündeki cihazla yaptı. 1980'lerin analog birinci nesil (1G) şebekeleri yalnızca ses taşıyordu; 2G kısa mesajı, 3G mobil interneti, 4G video akışını getirdi; 5G ise düşük gecikme ve çok sayıda cihazı aynı anda bağlamayı hedefliyor. İlk akıllı telefon sayılan IBM Simon 1994'te satışa çıktı; dokunmatik ekranı ve e-postası vardı.
 
@@ -151,11 +199,13 @@ Bir bağlantı çok hızlı ama yüksek gecikmeli olabilir: filmi hızla indirir
 
 **Bulut bilişim**, depolama, yazılım ya da işlem gücünü kendi bilgisayarında değil, internet üzerinden başka birinin bilgisayarında kullanmaktır. Bilişimcilerin sevdiği bir espri bunu özetler: "Bulut diye bir şey yok, yalnızca başkasının bilgisayarı var."
 
+::: {.tablo-kaydir}
 | Model | Ne kiralanır? | Örnek |
 |---|---|---|
-| Hizmet olarak yazılım (SaaS) | Hazır bir uygulama | Gmail, Google Dokümanlar, Microsoft 365'in web sürümü |
-| Hizmet olarak platform (PaaS) | Uygulama geliştirme ortamı | Yazılımcıların kullandığı bulut platformları |
-| Hizmet olarak altyapı (IaaS) | Sanal sunucu, depolama, ağ | Büyük bulut sağlayıcılarının sanal makineleri |
+| Hizmet olarak yazılım (SaaS, software as a service) | Hazır bir uygulama | Gmail, Google Dokümanlar, Microsoft 365'in web sürümü |
+| Hizmet olarak platform (PaaS, platform as a service) | Uygulama geliştirme ortamı | Yazılımcıların kullandığı bulut platformları |
+| Hizmet olarak altyapı (IaaS, infrastructure as a service) | Sanal sunucu, depolama, ağ | Büyük bulut sağlayıcılarının sanal makineleri |
+:::
 
 ### Depolamak ile birlikte çalışmak
 
@@ -173,28 +223,50 @@ Bir belgeyi paylaşırken iki soru sorulur: kimle ve hangi yetkiyle?
 
 ### Veri nerede duruyor?
 
-Bulut havada değil, belirli bir ülkedeki belirli bir veri merkezinde durur. Verinin hangi ülkede, hangi şirketin sunucusunda tutulduğu hem hukuki (kişisel verilerin yurt dışına aktarımı, Hafta 8) hem güvenlik sorusudur. Bazı hizmetler **uçtan uca şifreleme** sunar: dosyalar senin cihazında şifrelenir, hizmet sağlayıcı bile içeriği okuyamaz. Bulut bir depo kiralamaya benzer: eşyan güvende olabilir, ama anahtarın bir kopyası depocudadır; uçtan uca şifrelemede ise anahtar yalnızca sendedir.
+Bulut havada değil, belirli bir ülkedeki belirli bir **veri merkezinde** durur. Verinin hangi ülkede, hangi şirketin sunucusunda tutulduğu hem hukuki (kişisel verilerin yurt dışına aktarımı, Hafta 8) hem güvenlik sorusudur. Bazı hizmetler **uçtan uca şifreleme** sunar: dosyalar senin cihazında şifrelenir, hizmet sağlayıcı bile içeriği okuyamaz. Bulut bir depo kiralamaya benzer: eşyan güvende olabilir, ama anahtarın bir kopyası depocudadır; uçtan uca şifrelemede ise anahtar yalnızca sendedir.
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
 Kısa vadede: "internet yok" dendiğinde sorunun Wi-Fi'de mi, modemde mi, DNS'te mi olduğunu ayırt edersin; ödevlerini bulutta doğru izinlerle paylaşırsın. Orta vadede: iş yerinde belgeleri eşzamanlı ve kontrollü paylaşırsın, sahte bir adresi kilit simgesine aldanmadan fark edersin. Uzun vadede: verinin hangi ülkede, kimin sunucusunda durduğunun bir hukuk ve güvenlik meselesi olduğunu bilirsin.
 :::
 
-## 7. Telefon bir sensör kutusudur
+## 7. Bulutun bedeli (okuma)
 
-Akıllı telefonun içinde onlarca sensör vardır: konum için uydu alıcısı, hareket için ivmeölçer ve jiroskop, yön için pusula, ekran parlaklığı için ışık sensörü ve birçok modelde hava basıncı için **barometre**. Bu sensörler internete bağlandığında ortaya **Nesnelerin İnterneti** (IoT) çıkar: akıllı saatler, termostatlar, fabrika makineleri, tarlalardaki nem sensörleri. Hafta 2'deki gömülü sistemlerin internete bağlanmış halidir.
+### Genel, özel, hibrit
+
+Bulut hizmetleri kimin için kurulduğuna göre de ayrılır. **Genel bulut** (public cloud), hizmetini herkese kiralayan büyük sağlayıcıların bulutudur. **Özel bulut** (private cloud), bir kurumun yalnızca kendi kullanımı için kurduğu buluttur; bankalar, hastaneler ve kamu kurumları hassas verileri için bunu tercih edebilir. **Hibrit bulut** ikisini birleştirir: hassas veri kurumun içinde, geri kalan iş genel bulutta yürür. Seçimi maliyet kadar verinin hassasiyeti ve yasal yükümlülükler belirler (Hafta 8).
+
+### Bağımlılık
+
+Bütün verini ve iş akışını tek bir sağlayıcıya bağlamak kolaydır, çıkmak zordur. Veriyi taşımak zaman ve para ister; bazı sağlayıcılar veriyi dışarı çıkarmak için ayrıca ücret alır; uygulamalar o sağlayıcının araçlarına göre yazılmıştır. Buna **sağlayıcıya bağımlılık** (vendor lock-in) denir. Tek bir sağlayıcının arızası da dünyanın dört bir yanında uygulamaları aynı anda durdurabilir: 2025'te büyük bir bulut sağlayıcısının ABD'deki tek bir bölgesinde yaşanan arıza, saatlerce bankacılık, oyun ve iletişim uygulamalarını etkiledi. Hafta 3'teki "verini hiçbir platforma rehin bırakma" ilkesi kurumlar için de geçerlidir.
+
+### Bulutun bedeni: elektrik ve su
+
+Veri merkezleri, binlerce sunucunun gece gündüz çalıştığı, çok elektrik tüketen ve sürekli soğutulması gereken binalardır. Bir veri merkezinin verimliliği **PUE** (power usage effectiveness, güç kullanım etkinliği) ile ölçülür: binanın toplam enerji tüketimi, bilişim ekipmanının tükettiği enerjiye bölünür. 1,0 ideal değerdir; 1,5, her birim hesaplama için yarım birim enerjinin de soğutmaya ve diğer işlere gittiği anlamına gelir. Soğutmada su da kullanılır; kuraklık yaşanan bölgelerde bu yerel bir tartışma konusudur (Hafta 14). Yapay zekâ modellerinin eğitimi ve kullanımı veri merkezlerinin enerji talebini hızla artırıyor; birçok ülke yeni veri merkezleri için enerji planı yapıyor (Hafta 6).
+
+Bir çözüm yolu her işi buluta göndermemektir. Veriyi kaynağına yakın, cihazın kendisinde ya da yakındaki küçük bir sunucuda işlemeye **uç hesaplama** (edge computing) denir. Telefonundaki yüz tanıma, bir fabrika makinesindeki titreşim sensörü ya da uçaktaki sistemler veriyi önce yerinde işler; buluta yalnızca özet gider. Gecikme azalır, bağlantı kopsa da iş sürer, veri cihazdan daha az çıkar.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Telefonundaki bütün fotoğraflar kendiliğinden buluta yedekleniyor. Bu kolaylığın bedelini kim, nerede ödüyor?
+
+Biraz ek bilgi: Bulut hizmetleri bir dosyayı kaybetmemek için çoğu zaman birden fazla kopya tutar, bazen farklı veri merkezlerinde. Hiç açmadığın bulanık fotoğraflar ve aynı videonun on kopyası da bu disklerde, elektrikle çalışan ve soğutulan makinelerde yıllarca durur. Yedeklemeyi bırakmak bir çözüm değildir (Hafta 3); ama neyi sakladığını seçmek bir çözüm olabilir. Senin bulutunda gerçekten saklamak istemediğin ne kadar dosya var?
+:::
+
+## 8. Telefon bir sensör kutusudur
+
+Akıllı telefonun içinde onlarca sensör vardır: konum için uydu alıcısı, hareket için ivmeölçer ve jiroskop, yön için pusula, ekran parlaklığı için ışık sensörü ve birçok modelde hava basıncı için **barometre**. Bu sensörler internete bağlandığında ortaya **Nesnelerin İnterneti** (IoT, Internet of Things) çıkar: akıllı saatler, termostatlar, fabrika makineleri, tarlalardaki nem sensörleri. Hafta 2'deki gömülü sistemlerin internete bağlanmış halidir.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
 Hava basıncı yükseldikçe azalır. Uçaklardaki **barometrik altimetre** irtifayı tam olarak bu ilkeyle, dış hava basıncını ölçerek hesaplar. Telefonundaki barometreyle bunu kendin görebilirsin: deniz seviyesine yakın yerlerde yaklaşık 8 metrelik yükselme, basıncı 1 hektopaskal kadar düşürür. Birkaç kat merdiven çıkarken ölçtüğün küçük fark, kokpitteki altimetrenin minyatür bir provasıdır.
 :::
 
-## 8. Kapanış: uçak da ağın parçası
+## 9. Kapanış: uçak da ağın parçası
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Uçak konuşur"}
 Bir yolcu uçağı uçarken sürekli konuşur:
 
-- **ADS-B:** Uçak konumunu, irtifasını ve hızını saniyede birkaç kez yayınlar. Flightradar24 gibi siteler bu yayınları, dünyanın dört bir yanındaki gönüllülerin kurduğu alıcılarla toplar; ağ kavramının somut bir örneğidir.
-- **Telsiz:** Pilotlar hava trafik kontrolüyle VHF hava bandında konuşur. Seyrüsefer için yerdeki VOR istasyonlarından gelen radyo sinyallerini kullanır.
-- **ACARS:** Uçak ile yer arasında kısa veri mesajları taşıyan sistemdir. Arıza mesajları bu yolla uçak daha inmeden bakım ekibine ulaşabilir; Hafta 1'deki "bir teknisyenin günü" tablosundaki değişimin arkasında bu bağlantı vardır.
+- **ADS-B** (Automatic Dependent Surveillance–Broadcast): Uçak konumunu, irtifasını ve hızını saniyede birkaç kez yayınlar. Flightradar24 gibi siteler bu yayınları, dünyanın dört bir yanındaki gönüllülerin kurduğu alıcılarla toplar; ağ kavramının somut bir örneğidir.
+- **Telsiz:** Pilotlar hava trafik kontrolüyle VHF (very high frequency, çok yüksek frekans) hava bandında konuşur. Seyrüsefer için yerdeki VOR (VHF omnidirectional range, çok yönlü radyo işareti) istasyonlarından gelen radyo sinyallerini kullanır.
+- **ACARS** (Aircraft Communications Addressing and Reporting System): Uçak ile yer arasında kısa veri mesajları taşıyan sistemdir. Arıza mesajları bu yolla uçak daha inmeden bakım ekibine ulaşabilir; Hafta 1'deki "bir teknisyenin günü" tablosundaki değişimin arkasında bu bağlantı vardır.
 - **Kabinde internet:** Yolcuların interneti ya yerdeki istasyonlar ya da uydular üzerinden gelir.
 
 Bakım teknisyeni için ağ bilgisi soyut değildir: arıza mesajını alan, dokümanı tabletten açan, kaydı elektronik sisteme giren kişi odur. Bağlantı koptuğunda ne yapılacağını bilmek de işin parçasıdır (Hafta 9).
@@ -218,21 +290,22 @@ Bu, Hafta 2'deki "belirtiden parçaya" düşüncesinin ağdaki karşılığıdı
 
 - **İnternet ağlar ağıdır; web onun hizmetlerinden yalnızca biridir.** Veri paketlere bölünür, farklı yollardan gider, varışta birleşir.
 - **Bir adres önce sayıya çevrilir.** DNS alan adını IP adresine çevirir; URL'nin her parçasının bir anlamı vardır.
-- **Kilit, güvenilirlik değil şifrelemedir.** HTTPS trafiği gizler, ama sahte bir siteyi gerçek yapmaz; asıl bakılacak şey alan adıdır.
+- **Kilit, güvenilirlik değil şifrelemedir.** HTTPS trafiği gizler, ama sahte bir siteyi gerçek yapmaz; asıl bakılacak şey alan adıdır. e-Devlet'in adresi `turkiye.gov.tr`'dir ve belgeleri barkodla doğrulanır.
 - **Bağlantılar işe göre seçilir.** Wi-Fi, hücresel, Bluetooth, NFC ve uydu farklı menzil ve amaçlar içindir; hız ile gecikme farklı şeylerdir.
-- **Bulut başkasının bilgisayarıdır.** Eşzamanlı çalışmak, doğru izinle paylaşmak ve verinin nerede durduğunu sormak birlikte gelir.
+- **Bulut başkasının bilgisayarıdır.** Eşzamanlı çalışmak, doğru izinle paylaşmak ve verinin nerede durduğunu sormak birlikte gelir. Bulutun da bir bedeli vardır: bağımlılık, elektrik ve su.
 
 ## Kaynaklar ve güncellik
 
 Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı.
 
 - **İnternetin tarihi:** ARPANET'in ilk mesajı (29 Ekim 1969); TCP/IP'ye geçiş (1 Ocak 1983); Türkiye'nin internet bağlantısı (ODTÜ, 12 Nisan 1993); Tim Berners-Lee'nin önerisi (CERN, 1989).
-- **Teknik:** IPv4 adresleme (32 bit); sabit yörünge yüksekliği (yaklaşık 36 bin km); standart atmosferde basınç ile yükseklik ilişkisi.
+- **Teknik:** IPv4 adresleme (32 bit); Wi-Fi Alliance'ın WPA3 duyurusu (2018); The Green Grid'in PUE tanımı; sabit yörünge yüksekliği (yaklaşık 36 bin km); standart atmosferde basınç ile yükseklik ilişkisi.
+- **Kamu hizmetleri:** e-Devlet Kapısı (turkiye.gov.tr), 2008'den beri; belge doğrulama hizmeti. Kaynak: [turkiye.gov.tr](https://www.turkiye.gov.tr).
 - **Diğer:** Leang Bulu Sipong 4 mağara resminin tarihlendirilmesi (*Nature*, 2019); Martin Cooper'ın ilk cep telefonu araması (1973).
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: internet, web, ARPANET, paket anahtarlama, TCP/IP, protokol, istemci, sunucu, LAN, WAN, modem, yönlendirici, erişim noktası, IP adresi, IPv6, alan adı, DNS, URL, HTTP, HTTPS, Wi-Fi, hücresel ağ, Bluetooth, NFC, bant genişliği, gecikme, fiber optik kablo, bulut bilişim, SaaS, PaaS, IaaS, eşzamanlı çalışma, paylaşım izni, veri merkezi, uçtan uca şifreleme, Nesnelerin İnterneti, barometrik altimetre, ADS-B, VOR, ACARS.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: internet, web, ARPANET, paket anahtarlama, TCP/IP, protokol, istemci, sunucu, LAN, WAN, modem, yönlendirici, erişim noktası, WPA3, misafir ağı, IP adresi, IPv6, alan adı, DNS, URL, HTTP, HTTPS, DHCP, e-Devlet Kapısı, barkodlu belge doğrulama, Wi-Fi, hücresel ağ, Bluetooth, NFC, bant genişliği, gecikme, fiber optik kablo, bulut bilişim, SaaS, PaaS, IaaS, eşzamanlı çalışma, paylaşım izni, veri merkezi, uçtan uca şifreleme, genel bulut, özel bulut, hibrit bulut, sağlayıcıya bağımlılık, PUE, uç hesaplama, Nesnelerin İnterneti, barometrik altimetre, ADS-B, VOR, ACARS.
 
 ## Kendini sına
 

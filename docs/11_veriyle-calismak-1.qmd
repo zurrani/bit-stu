@@ -25,7 +25,7 @@ Bir tablonun aynı sütununda üç tarih var: "03.04.2026", "4/3/2026" ve "3 Nis
 2. Sayı, metin ve tarih türlerini ayırt etmek; bir hücrenin değerini görünüşünden ayırmak ve yerel ayardan doğan hataları düzeltmek.
 3. Sıralama, filtre ve tablo nesnesiyle veriyi incelemek.
 4. Yinelenenleri kaldırma, KIRP, metni sütunlara dönüştürme, bul ve değiştir ve hızlı doldurma ile veriyi temizlemek; orijinali koruyup temizliği kaydetmek.
-5. Veri doğrulama ve koşullu biçimlendirmeyle hatayı girişte önleyen bir kayıt tablosu kurmak; veriyi CSV olarak doğru içe ve dışa aktarmak.
+5. Veri doğrulama ve koşullu biçimlendirmeyle hatayı girişte önleyen bir kayıt tablosu kurmak; veriyi CSV (comma-separated values, virgülle ayrılmış değerler) olarak doğru içe ve dışa aktarmak.
 
 Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
 
@@ -64,7 +64,7 @@ Aynı bilgi bir tabloya iki biçimde yazılabilir. Birincisi göze hoş görün�
 2. **Her sütun bir değişkendir:** tarih, laboratuvar, süre. Sütunun bir adı vardır ve o sütunda yalnızca o türden bilgi durur.
 3. **Her hücrede tek bir değer vardır:** "LAB-2 / Bilgisayar" iki değerdir; "12 saat" bir sayı ile bir birimdir.
 
-Bir benzetme: Düzenli tablo, her aletin yerinin çizildiği bir alet duvarıdır. Bir alet eksikse boşluk hemen görünür. Birleştirilmiş hücreler ve renkle tutulan bilgi, bütün aletleri tek bir kutuya atmak gibidir: Hepsi oradadır ama hiçbiri bulunmaz.
+Bir benzetme: Düzenli tablo, her aletin yerinin çizildiği bir alet duvarıdır. Bir alet eksikse boşluk hemen görünür. **Birleştirilmiş hücreler** ve renkle tutulan bilgi, bütün aletleri tek bir kutuya atmak gibidir: Hepsi oradadır ama hiçbiri bulunmaz.
 
 Neden bu kadar önemli? Çünkü sıralama, filtre, formül, özet tablo ve grafik, düzenli veri varsayar. Birleştirilmiş bir başlık hücresi sıralamayı bozar. Renkle tutulan bilgi formülle sayılamaz; ekran okuyucu onu okuyamaz, renk körlüğü olan biri onu göremez (Hafta 10). "12 saat" metni toplanamaz. Ara toplam satırları her toplamı iki kez saydırır.
 
@@ -112,7 +112,7 @@ Temizliğe başlamadan önce veriyi tanı. Bunun üç aracı vardır.
 
 ## 6. Veriyi temizlemek
 
-**Veri temizleme**, hatalı, eksik, tutarsız ya da yinelenen kayıtları bulup düzeltmektir. Analizden önce gelir, çünkü kirli veriden çıkan sonuç da kirli olur. Bilişimin eski bir ilkesi bunu şöyle söyler: "Çöp girerse çöp çıkar" (garbage in, garbage out).
+**Veri temizleme**, hatalı, eksik, tutarsız ya da **yinelenen kayıt**ları bulup düzeltmektir. Analizden önce gelir, çünkü kirli veriden çıkan sonuç da kirli olur. Bilişimin eski bir ilkesi bunu şöyle söyler: "Çöp girerse çöp çıkar" (garbage in, garbage out).
 
 İlk kural temizliğin kendisinden önce gelir: **Orijinali koru.** Ham veriyi bir sayfada bırak, temizliği bir kopyada yap. Hafta 3'teki adlandırma kuralıyla bir dosya ya da sayfa adı ver (`2026-11-23_ariza-kayitlari_temiz.xlsx`). Bir yanlış adımı geri alabilmek ve sonucu sorgulayan birine ham veriyi gösterebilmek için bu şarttır.
 
@@ -135,7 +135,7 @@ Sık karşılaşılan sorunlar ve araçları:
 
 Bazı sorunlar araçla çözülmez, karar ister. 31.09.2026 diye bir tarih var (Eylül 30 gündür); doğru tarih nedir? Bunu tahmin etme. Kaydı silme, yanına "kontrol edilecek" notu düş ve kaydı girene sor. Yaptığın her önemli işlemi birkaç satırlık bir **temizlik günlüğüne** yaz: "6 yinelenen kayıt silindi (K-002, K-014…)", "Cihaz türleri beş standart ada indirildi", "K-033'ün tarihi geçersiz, sorulmak üzere işaretlendi." Böylece başkası ya da gelecekteki sen, verinin neden değiştiğini anlayabilir.
 
-Temizlik için bir YZ asistanından yardım almak mümkündür: "Bu sütundaki farklı yazımları nasıl standartlaştırırım?" diye sorabilir, bir formülü açıklatabilirsin. Excel'de Copilot, E-Tablolar'da Gemini gibi yardımcılar bunu tablonun içinde yapar. İki kural değişmez: Kişisel ya da kurumuna ait veriyi izin verilmeyen bir araca yükleme (Hafta 8 ve 9) ve YZ'nin yaptığı her değişikliği kontrol et. YZ, "PC" ile "Projeksiyon"u aynı şey sanabilir.
+Temizlik için bir yapay zekâ (YZ) asistanından yardım almak mümkündür: "Bu sütundaki farklı yazımları nasıl standartlaştırırım?" diye sorabilir, bir formülü açıklatabilirsin. Excel'de Copilot, E-Tablolar'da Gemini gibi yardımcılar bunu tablonun içinde yapar. İki kural değişmez: Kişisel ya da kurumuna ait veriyi izin verilmeyen bir araca yükleme (Hafta 8 ve 9) ve YZ'nin yaptığı her değişikliği kontrol et. YZ, "PC" ile "Projeksiyon"u aynı şey sanabilir.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Bakım kaydı silinmez, düzeltilir"}
 Bakım kayıtlarında bir hata fark edildiğinde yanlış bilgi silinip üstüne yazılmaz. Kurallara göre üstü okunabilir biçimde çizilir, doğrusu yanına yazılır, düzeltmeyi yapan imzalar ve tarih atar. Amaç, kaydın geçmişinin izlenebilir kalmasıdır: Bir denetçi ya da kaza incelemesi, neyin ne zaman ve kim tarafından değiştirildiğini görebilmelidir. Elektronik tabloda "orijinali koru" ve "temizlik günlüğü tut" ilkeleri aynı disiplinin karşılığıdır. Kurgusal bir örnek: Bir arıza tablosunda "TC-ABC", "tc abc" ve "TC ABC" yazımları aynı uçağı gösterir; temizlerken üçünü standart yazıma indirir, kaç kaydı değiştirdiğini günlüğe yazarsın.
@@ -153,10 +153,10 @@ Temizlik pahalıdır; en iyisi kirin hiç girmemesidir. Bunun iki aracı vardır
 
 **CSV** (comma-separated values, virgülle ayrılmış değerler), tabloyu her satırı bir metin satırı, her hücresi bir ayraçla ayrılmış olarak saklayan düz metin biçimidir. Neredeyse her program onu açar; bu yüzden sistemler arasında veri taşımanın en yaygın yoludur. Ama CSV yalnızca değerleri taşır: formüller, biçimler, renkler, birden çok sayfa kaybolur.
 
-İki tuzağı vardır. Birincisi **ayraçtır**: Ondalık ayırıcısı virgül olan Türkçe ayarda CSV dosyaları çoğu zaman noktalı virgülle ayrılır. Virgülle ayrılmış bir dosyayı çift tıklayıp açtığında bütün satır tek sütuna yığılabilir. İkincisi **karakter kodlamasıdır** (Hafta 2): Dosya UTF-8 dışında bir kodlamayla açılırsa "ğ", "ş" ve "ı" bozuk karakterlere döner. İkisinin de çözümü dosyayı çift tıklamak yerine **Veri > Metinden/CSV'den** ile içe aktarmak ve ayracı ile kodlamayı kendin seçmektir. Dışa aktarırken de **CSV UTF-8** seçeneğini kullan.
+İki tuzağı vardır. Birincisi **ayraçtır**: Ondalık ayırıcısı virgül olan Türkçe ayarda CSV dosyaları çoğu zaman noktalı virgülle ayrılır. Virgülle ayrılmış bir dosyayı çift tıklayıp açtığında bütün satır tek sütuna yığılabilir. İkincisi **karakter kodlamasıdır** (Hafta 2): Dosya UTF-8 (Unicode Transformation Format, 8 bit) dışında bir kodlamayla açılırsa "ğ", "ş" ve "ı" bozuk karakterlere döner. İkisinin de çözümü dosyayı çift tıklamak yerine **Veri > Metinden/CSV'den** ile içe aktarmak ve ayracı ile kodlamayı kendin seçmektir. Dışa aktarırken de **CSV UTF-8** seçeneğini kullan.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Standart kod, standart veri"}
-Havacılıkta bir arızanın hangi sisteme ait olduğu serbest metinle değil, standart bir numarayla yazılır: **ATA bölüm numarası**. Örneğin ATA 21 klima, ATA 32 iniş takımı, ATA 34 seyrüsefer sistemleridir. Dünyanın her yerinde aynı numaralar aynı sistemi gösterdiği için bir arıza kaydı başka bir ülkedeki bir teknisyen, bir üretici ya da bir yazılım tarafından doğru okunur. Bu, veri doğrulamanın havacılıktaki karşılığıdır: Kurgusal bir arıza tablosunda "Sistem" sütununa serbest metin değil, ATA bölümlerinden oluşan bir açılır liste koymak, "iniş takımı", "İniş Tk." ve "gear" gibi yazımları baştan önler.
+Havacılıkta bir arızanın hangi sisteme ait olduğu serbest metinle değil, standart bir numarayla yazılır: **ATA bölüm numarası** (ATA: Air Transport Association). Örneğin ATA 21 klima, ATA 32 iniş takımı, ATA 34 seyrüsefer sistemleridir. Dünyanın her yerinde aynı numaralar aynı sistemi gösterdiği için bir arıza kaydı başka bir ülkedeki bir teknisyen, bir üretici ya da bir yazılım tarafından doğru okunur. Bu, veri doğrulamanın havacılıktaki karşılığıdır: Kurgusal bir arıza tablosunda "Sistem" sütununa serbest metin değil, ATA bölümlerinden oluşan bir açılır liste koymak, "iniş takımı", "İniş Tk." ve "gear" gibi yazımları baştan önler.
 :::
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}

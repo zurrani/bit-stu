@@ -60,7 +60,7 @@ Bilgisayarlı sunum (slayt, video, canlı gösterim) görsel ve veri göstermekt
 Hangisini seçeceğin üç soruya bağlıdır: **Ortam ne izin veriyor?** (projeksiyon, ışık, gürültü, süre) **Ne göstermem gerekiyor?** (veri ve görsel mi, süreç mi, nesne mi?) **Dinleyici ne yapacak?** (izleyecek mi, katılacak mı, sonra dosyayı okuyacak mı?) İyi bir konuşmacı, projeksiyon çalışmadığında da sunumunu yapabilendir.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Duvardaki on iki tuzak"}
-Birçok bakım hangarının duvarında aynı posterleri görürsün: "Kirli Düzine" (Dirty Dozen). Bunlar bakım hatalarına en sık yol açan on iki insan faktörünü (iletişim eksikliği, dikkat dağınıklığı, yorgunluk, baskı, normlar gibi) tek bakışta hatırlatan posterlerdir. Kanada'da 1990'ların başında bakım personelinin insan faktörleri eğitimi için geliştirildi ve bugün dünyanın birçok yerinde kullanılıyor. Bir projeksiyon perdesinden farklı olarak poster, teknisyenin önünden her geçişinde mesajını yeniden verir. Bu, bilgisayarsız sunumun gücüdür: doğru yerde, sürekli ve tek mesajlı.
+Birçok bakım hangarının duvarında aynı posterleri görürsün: **Kirli Düzine** (Dirty Dozen). Bunlar bakım hatalarına en sık yol açan on iki insan faktörünü (iletişim eksikliği, dikkat dağınıklığı, yorgunluk, baskı, normlar gibi) tek bakışta hatırlatan posterlerdir. Kanada'da 1990'ların başında bakım personelinin insan faktörleri eğitimi için geliştirildi ve bugün dünyanın birçok yerinde kullanılıyor. Bir projeksiyon perdesinden farklı olarak poster, teknisyenin önünden her geçişinde mesajını yeniden verir. Bu, bilgisayarsız sunumun gücüdür: doğru yerde, sürekli ve tek mesajlı.
 :::
 
 ## 2. Dinleyici ve plan
@@ -167,9 +167,9 @@ PowerPoint'i açtığında solda slayt küçük resimleri, ortada üzerinde çal
 ::: {.tablo-kaydir}
 | Biçim | Ne zaman? |
 |---|---|
-| **PPTX** | Sunumu biri düzenleyecek ya da sen başka bir bilgisayarda sunacaksan |
-| **PDF** | Dinleyiciye sonradan okuması için göndereceksen; her cihazda aynı görünür, notlar istenirse sayfaya eklenebilir |
-| **PPSX** | Dosya açılınca doğrudan gösteri olarak başlasın istiyorsan; düzenlemeyi engellemez, PowerPoint'te açılıp değiştirilebilir |
+| **PPTX** (PowerPoint sunusu) | Sunumu biri düzenleyecek ya da sen başka bir bilgisayarda sunacaksan |
+| **PDF** (Portable Document Format) | Dinleyiciye sonradan okuması için göndereceksen; her cihazda aynı görünür, notlar istenirse sayfaya eklenebilir |
+| **PPSX** (PowerPoint gösterisi) | Dosya açılınca doğrudan gösteri olarak başlasın istiyorsan; düzenlemeyi engellemez, PowerPoint'te açılıp değiştirilebilir |
 | **Video** (Dosya > Dışarı Aktar) | Seslendirmeli bir sunumu, PowerPoint'i olmayan birine göndereceksen |
 | **Bağlantı** (bulut) | Birlikte çalışacaksanız; Hafta 4 ve 8'deki paylaşım izni kuralları geçerli |
 :::
@@ -202,7 +202,7 @@ Bir uçak bakım teknisyeni kariyeri boyunca birden çok uçak tipiyle çalış�
 
 ## 5. Yapay zekâyla sunum
 
-Sunum hazırlamak, YZ araçlarının en hızlı geliştiği alanlardan biridir. Başlıca seçenekler:
+Sunum hazırlamak, yapay zekâ (YZ) araçlarının en hızlı geliştiği alanlardan biridir. Başlıca seçenekler:
 
 - **Sunum programlarının içindeki yardımcılar:** PowerPoint'te Copilot, Google Slaytlar'da Gemini. Bir belgeden ya da kısa bir istemden taslak sunum oluşturur, slaytları özetler, görsel önerir. Çoğu zaman ücretli planlarda yer alır.
 - **YZ tabanlı sunum araçları:** Gamma gibi araçlar ve Canva'nın YZ özellikleri, birkaç cümlelik bir istemden tasarlanmış bir sunum çıkarır.
@@ -320,7 +320,7 @@ Bir de pek bilinmeyen bir yol var: **sunumu kodla yazmak.** Bu dersin sınıf su
 Programlar ve planları sık değişir; güncel karşılaştırma için [Ek C](../ekler/c_alternatifler.qmd). Hangi programı kullanırsan kullan, bu haftanın kazanımı programdan bağımsızdır: ana mesaj, dinleyici, mesaj başlığı, tutarlı tasarım, prova.
 
 ::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
-Susan Cain, "İçe dönüklerin gücü" (The Power of Introverts, TED, 2012): Kendini topluluk önünde rahat hissetmeyen birinin, bunu nasıl bir güce dönüştürebileceğini anlatan bir konuşma. Konuşmacının sahneye nasıl çıktığına, slayt kullanıp kullanmadığına ve hikâyesine dikkat et. Türkçe altyazı seçeneği var.
+Susan Cain, "İçe dönüklerin gücü" (The Power of Introverts, TED: Technology, Entertainment, Design; 2012): Kendini topluluk önünde rahat hissetmeyen birinin, bunu nasıl bir güce dönüştürebileceğini anlatan bir konuşma. Konuşmacının sahneye nasıl çıktığına, slayt kullanıp kullanmadığına ve hikâyesine dikkat et. Türkçe altyazı seçeneği var.
 :::
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}

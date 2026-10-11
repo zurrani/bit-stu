@@ -24,7 +24,7 @@ Gece 23.40. Yarın teslim edeceğin 30 sayfalık raporun hazır. Son anda bir me
 1. Stillerle başlık hiyerarşisi kurmak; otomatik içindekiler, sayfa numarası, üst ve alt bilgi eklemek.
 2. Tabloyu ve resmi resim yazısıyla yerleştirmek; kaynakça ve dipnot eklemek.
 3. Değişiklikleri izle ve yorumlarla birlikte çalışmak; yapay zekânın önerdiği değişiklikleri izlenebilir biçimde değerlendirmek.
-4. Belgeyi PDF olarak dışa aktarmak; yazım ve erişilebilirlik denetimi yapmak.
+4. Belgeyi PDF (Portable Document Format) olarak dışa aktarmak; yazım ve erişilebilirlik denetimi yapmak.
 5. Kurumsal kurallara uygun bir e-posta yazmak: konu satırı, alıcı alanları, hitap, gövde, ek ve imza.
 
 Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
@@ -100,11 +100,11 @@ Resim yazısı, görselin kaynağını göstermek için de doğru yerdir. Hafta 
 
 ## 4. Kaynakça ve dipnot
 
-Hafta 5'te başkasının fikrini ya da verisini kullandığında kaynağını göstermen gerektiğini ve bu derste kısa bir APA biçiminin yeterli olduğunu görmüştün. Kelime işlemciler bu işi kolaylaştırır.
+Hafta 5'te başkasının fikrini ya da verisini kullandığında kaynağını göstermen gerektiğini ve bu derste kısa bir APA (American Psychological Association) biçiminin yeterli olduğunu görmüştün. Kelime işlemciler bu işi kolaylaştırır.
 
 **Kaynakça yöneticisi**, kaynakların bilgilerini (yazar, yıl, başlık, yayıncı, adres) bir kez kaydedip metinde atıf yapmanı ve sonunda kaynakçayı seçtiğin biçimde kendiliğinden oluşturmanı sağlayan araçtır. Word'de **Başvurular > Alıntı Ekle** ile bir kaynağı tanımlar ve metne "(Soyad, Yıl)" biçiminde bir atıf koyarsın; **Başvurular > Kaynakça** ile listeyi eklersin. Biçim kutusundan APA'yı seçtiğinde bütün atıflar ve kaynakça o biçime uyar. Zotero gibi ücretsiz ve açık kaynak kaynakça yöneticileri, bir web sayfasının ya da makalenin bilgilerini tarayıcıdan tek tıklamayla kaydedip farklı kelime işlemcilerle birlikte çalışabilir.
 
-Araç ne kadar akıllı olursa olsun, kaynak bilgisini sen girersin; yanlış girilen bir yıl ya da başlık kaynakçada da yanlış çıkar. Hafta 6'daki kuralı da hatırla: Bir YZ'nin önerdiği kaynağı, gerçekten var olduğunu ve söylediğini söylediğini kontrol etmeden kaynakçaya koyamazsın.
+Araç ne kadar akıllı olursa olsun, kaynak bilgisini sen girersin; yanlış girilen bir yıl ya da başlık kaynakçada da yanlış çıkar. Hafta 6'daki kuralı da hatırla: Bir yapay zekâ (YZ) aracının önerdiği kaynağı, gerçekten var olduğunu ve söylediğini söylediğini kontrol etmeden kaynakçaya koyamazsın.
 
 **Dipnot** (footnote), metindeki küçük bir numaraya bağlı olarak sayfanın altında yer alan ek açıklamadır. **Başvurular > Dipnot Ekle** ile eklenir; numaralar kendiliğinden sıralanır. Açıklama sayfanın değil belgenin sonunda toplanıyorsa buna **son not** denir. Dipnot, ana akışı bozmadan bir terimi açıklamak ya da bir ayrıntıyı vermek için kullanılır. APA biçiminde kaynak gösterimi dipnotla değil, metin içi atıfla ve kaynakçayla yapılır; dipnotu açıklama için sakla.
 
@@ -135,12 +135,12 @@ Hafta 6'daki politikayı hatırla: Kendi metninin dilini düzelttirmek uygundur,
 - **Teknik rapor:** Kapak, özet, içindekiler, giriş, yöntem, bulgular, sonuç ve öneriler, kaynakça, ekler. Dönem projenin teknik raporu bu iskeleti kullanır.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Görev kartı bir şablondur"}
-Bakımda iş, serbest metinle değil şablonlarla yürür: görev kartı (task card), iş emri, uygunsuzluk raporu. Kurgusal bir görev kartında şu alanlar bulunur: kart numarası, uçak tescili, ATA bölümü (örneğin ATA 32, iniş takımı), görev tanımı, başvurulan bakım el kitabının bölümü ve **revizyonu**, adım adım işlemler, kullanılan parça ve malzeme, işi yapanın ve kontrol edenin imza alanları, tarih. Şablon unutulan alanı görünür kılar: Boş kalan bir imza kutusu "bu adım kontrol edilmedi" demektir. Bakım el kitaplarında da değişiklikler gizlenmez. Revize edilen satırların yanına kenar boşluğunda bir **revizyon çubuğu** konur ve belgenin başındaki revizyon kaydı hangi sayfanın hangi revizyonda değiştiğini gösterir. Değişiklikleri izle, aynı ilkenin bilgisayardaki karşılığıdır: Değişiklik izlenebilir olmalıdır.
+Bakımda iş, serbest metinle değil şablonlarla yürür: görev kartı (task card), iş emri, uygunsuzluk raporu. Kurgusal bir görev kartında şu alanlar bulunur: kart numarası, uçak tescili, ATA (Air Transport Association) bölümü (örneğin ATA 32, iniş takımı), görev tanımı, başvurulan bakım el kitabının bölümü ve **revizyonu**, adım adım işlemler, kullanılan parça ve malzeme, işi yapanın ve kontrol edenin imza alanları, tarih. Şablon unutulan alanı görünür kılar: Boş kalan bir imza kutusu "bu adım kontrol edilmedi" demektir. Bakım el kitaplarında da değişiklikler gizlenmez. Revize edilen satırların yanına kenar boşluğunda bir **revizyon çubuğu** konur ve belgenin başındaki revizyon kaydı hangi sayfanın hangi revizyonda değiştiğini gösterir. Değişiklikleri izle, aynı ilkenin bilgisayardaki karşılığıdır: Değişiklik izlenebilir olmalıdır.
 :::
 
 ### PDF mi DOCX mi?
 
-**DOCX**, Word'ün düzenlenebilir dosya biçimidir; Google Dokümanlar ve Writer da açıp kaydedebilir. **PDF** (Portable Document Format) ise belgeyi her cihazda aynı görünecek şekilde "dondurur": Yazı tipi, sayfa düzeni ve resimler yerinde kalır. Kural basittir: Karşı taraf belgeyi okuyacak, yazdıracak ya da arşivleyecekse **PDF**; seninle birlikte üzerinde çalışacaksa **DOCX** gönder. Word'de **Dosya > Farklı Kaydet** ile türü PDF seçersin. Başlık stillerini kullandıysan PDF'te de yer işaretleri ve tıklanabilir içindekiler oluşur.
+**DOCX** (Office Open XML belgesi; uzantısı `.docx`), Word'ün düzenlenebilir dosya biçimidir; Google Dokümanlar ve Writer da açıp kaydedebilir. **PDF** (Portable Document Format) ise belgeyi her cihazda aynı görünecek şekilde "dondurur": Yazı tipi, sayfa düzeni ve resimler yerinde kalır. Kural basittir: Karşı taraf belgeyi okuyacak, yazdıracak ya da arşivleyecekse **PDF**; seninle birlikte üzerinde çalışacaksa **DOCX** gönder. Word'de **Dosya > Farklı Kaydet** ile türü PDF seçersin. Başlık stillerini kullandıysan PDF'te de yer işaretleri ve tıklanabilir içindekiler oluşur.
 
 Teslimden önce üç kontrol yap:
 
@@ -149,7 +149,7 @@ Teslimden önce üç kontrol yap:
 3. **Belge denetimi:** Belgende yorumlar, kabul edilmemiş değişiklikler, gizli metin ve üst veri kalmış olabilir. Hafta 8'deki "zarf da konuşur" ilkesi belgeler için de geçerlidir: Bir dosya, yazarın adını, kurumunu ve kaç saat düzenlendiğini içinde taşıyabilir. Kurum dışına göndermeden önce bütün değişiklikleri kabul ya da reddet, yorumları sil ve **Dosya > Bilgi > Sorunları Denetle > Belgeyi İncele** ile gizli bilgileri temizle.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
-"PDF'e çevirdim; artık kimse değiştiremez, içinde de gördüğümden başka bir şey yok." Yanlış. PDF düzenleyicileriyle değiştirilebilir, metni kopyalanabilir. Asıl tehlike ikinci kısımdadır: Gizli kalması gereken bir satırın üstüne siyah bir kutu çizip PDF'e çevirmek o metni silmez; kutunun altındaki metin seçilip kopyalanabilir. Mahkeme ve kurum belgelerinde bu hata birçok kez yaşandı. Gizli bilgiyi kaldırmanın yolu onu kaynak belgeden gerçekten silmek ya da karartma (redaction) için yapılmış bir araç kullanmaktır.
+"PDF'e çevirdim; artık kimse değiştiremez, içinde de gördüğümden başka bir şey yok." Yanlış. PDF düzenleyicileriyle değiştirilebilir, metni kopyalanabilir. Asıl tehlike ikinci kısımdadır: Gizli kalması gereken bir satırın üstüne siyah bir kutu çizip PDF'e çevirmek o metni silmez; kutunun altındaki metin seçilip kopyalanabilir. Mahkeme ve kurum belgelerinde bu hata birçok kez yaşandı. Gizli bilgiyi kaldırmanın yolu onu kaynak belgeden gerçekten silmek ya da **karartma** (redaction) için yapılmış bir araç kullanmaktır.
 :::
 
 ## 7. Kurumsal e-posta: dijital antetli kâğıt
@@ -211,7 +211,7 @@ Son bir bağ: Hafta 9'da oltalama mesajlarının işaretlerini gördün. Kendi e
 :::
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Geri okuma"}
-Havacılıkta yanlış anlaşılan bir mesajın bedeli yüksek olduğu için telsiz iletişimi kurallıdır. Pilot, kuleden aldığı bir talimatı (pist, irtifa, frekans) aynen geri okur (readback); kule de geri okunanı dinleyip doğru olduğunu kontrol eder (hearback). Standart ifadeler kullanılır, her mesaj tek bir işe odaklanır. Bakımda vardiya devir teslimi de aynı mantıkla yürür: yarım kalan iş, açık kalan kart, dikkat edilecek nokta açıkça söylenir ve yazılır. Kurumsal e-postadaki karşılıkları açık bir konu satırı, tek amaçlı bir gövde, açıkça yazılmış bir talep ve tarihtir. Önemli bir talimatta "Aldığınızı teyit eder misiniz?" demek de e-postanın geri okumasıdır.
+Havacılıkta yanlış anlaşılan bir mesajın bedeli yüksek olduğu için telsiz iletişimi kurallıdır. Pilot, kuleden aldığı bir talimatı (pist, irtifa, frekans) aynen geri okur (readback); kule de geri okunanı dinleyip doğru olduğunu kontrol eder (hearback). Standart ifadeler kullanılır, her mesaj tek bir işe odaklanır. Bakımda vardiya devir teslimi de aynı mantıkla yürür: yarım kalan iş, açık kalan kart, dikkat edilecek nokta açıkça söylenir ve yazılır. Kurumsal e-postadaki karşılıkları açık bir konu satırı, tek amaçlı bir gövde, açıkça yazılmış bir talep ve tarihtir. Önemli bir talimatta "Aldığınızı teyit eder misiniz?" demek de e-postanın **geri okuması**dır.
 :::
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
@@ -240,9 +240,9 @@ Helvetica (2007): Tek bir yazı tipinin hikâyesi üzerinden, her gün gördüğ
 
 ## 9. Daktilodan yapay zekâlı editöre (okuma)
 
-Bugün sıradan saydığımız bir şey, bir zamanlar bilim kurguydu: Yazdığın metni yazdırmadan önce ekranda düzeltebilmek. Daktiloda bir sayfanın ortasındaki hatayı düzeltmek için sayfayı baştan yazmak gerekebilirdi. 1970'lerde ilk kelime işlemciler metni ekranda düzeltip sonra yazdırmayı mümkün kıldı. 1974'te Xerox'un araştırma merkezinde geliştirilen Bravo adlı program, ekranda gördüğünü kâğıtta da almayı (WYSIWYG, "what you see is what you get") sağlayan ilk programlardandı. Bravo'yu geliştirenlerden Charles Simonyi daha sonra Microsoft'a geçti ve Word'ün ilk sürümünün (1983) geliştirilmesine öncülük etti. Kişisel bilgisayarlarda WordStar ve WordPerfect gibi programlar yaygınlaştı; 2000'lerde belgeler buluta taşındı ve aynı belgeye aynı anda birden çok kişi yazmaya başladı. 2020'lerde ise kelime işlemciye bir yapay zekâ yardımcısı eklendi.
+Bugün sıradan saydığımız bir şey, bir zamanlar bilim kurguydu: Yazdığın metni yazdırmadan önce ekranda düzeltebilmek. Daktiloda bir sayfanın ortasındaki hatayı düzeltmek için sayfayı baştan yazmak gerekebilirdi. 1970'lerde ilk kelime işlemciler metni ekranda düzeltip sonra yazdırmayı mümkün kıldı. 1974'te Xerox'un araştırma merkezinde geliştirilen Bravo adlı program, ekranda gördüğünü kâğıtta da almayı (**WYSIWYG**, "what you see is what you get") sağlayan ilk programlardandı. Bravo'yu geliştirenlerden Charles Simonyi daha sonra Microsoft'a geçti ve Word'ün ilk sürümünün (1983) geliştirilmesine öncülük etti. Kişisel bilgisayarlarda WordStar ve WordPerfect gibi programlar yaygınlaştı; 2000'lerde belgeler buluta taşındı ve aynı belgeye aynı anda birden çok kişi yazmaya başladı. 2020'lerde ise kelime işlemciye bir yapay zekâ yardımcısı eklendi.
 
-Bu tarihin bir dersi de dosya biçimleridir. Uzun yıllar Word'ün `.doc` biçimi kapalıydı; başka programlar onu ancak tahminle açabiliyordu. Bugün Word'ün `.docx` biçimi de LibreOffice'in `.odt` (OpenDocument) biçimi de belgelenmiş, açık standartlardır. Bir belgenin yirmi yıl sonra da açılabilmesini istiyorsan açık bir biçimde ya da arşiv için tasarlanmış PDF/A biçiminde saklamak iyi bir alışkanlıktır.
+Bu tarihin bir dersi de dosya biçimleridir. Uzun yıllar Word'ün `.doc` biçimi kapalıydı; başka programlar onu ancak tahminle açabiliyordu. Bugün Word'ün `.docx` biçimi de LibreOffice'in `.odt` (OpenDocument) biçimi de belgelenmiş, **açık standart**lardır. Bir belgenin yirmi yıl sonra da açılabilmesini istiyorsan açık bir biçimde ya da arşiv için tasarlanmış PDF/A (A: archive, arşiv) biçiminde saklamak iyi bir alışkanlıktır.
 
 Her şeyin bir alternatifi var:
 

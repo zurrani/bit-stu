@@ -25,7 +25,7 @@ Geçen hafta dikkatinin bir ürün olduğunu gördün. Bu hafta hikâyenin öbü
 2. Büyük verinin özelliklerini ve üst verinin neden içerik kadar şey söyleyebildiğini açıklamak.
 3. Öneri, fiyatlama ve karar algoritmalarının veriyle nasıl çalıştığını ve algoritmik önyargıyı örnekle açıklamak.
 4. Kendi tehdit modelini kurmak ve tarayıcı, hesap ve uygulama düzeyinde mahremiyet ayarlarını yapmak.
-5. KVKK'nın temel kavramlarını açıklamak, bir aydınlatma metnini okuyup değerlendirmek ve ilgili kişi haklarını kullanmak için bir başvuru hazırlamak.
+5. Kişisel Verilerin Korunması Kanunu'nun (KVKK) temel kavramlarını açıklamak, bir aydınlatma metnini okuyup değerlendirmek ve ilgili kişi haklarını kullanmak için bir başvuru hazırlamak.
 
 Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
 
@@ -101,7 +101,7 @@ Dijital dünyada üst veri her yerdedir:
 
 - **Telefon görüşmesi:** Kim, kimi, ne zaman, ne kadar süreyle, hangi baz istasyonu üzerinden aradı.
 - **Mesaj:** Gönderen, alıcı, saat, mesajın boyutu, bazen konum.
-- **Fotoğraf:** Çekim tarihi ve saati, telefonun modeli ve konum izni açıksa çekildiği yerin koordinatları. Fotoğraf dosyasının içinde saklanan bu bilgilere **EXIF** verisi denir.
+- **Fotoğraf:** Çekim tarihi ve saati, telefonun modeli ve konum izni açıksa çekildiği yerin koordinatları. Fotoğraf dosyasının içinde saklanan bu bilgilere **EXIF** (Exchangeable Image File Format) verisi denir.
 
 İçerik şifreli olsa bile üst veri konuşur. Birinin gece ikide bir hastanenin onkoloji bölümünü üç kez aradığını bilmek için görüşmeyi dinlemek gerekmez. Hafta 4'teki uçtan uca şifreleme içeriği korur, ama kimin kiminle ne zaman konuştuğunu her zaman gizlemez.
 
@@ -110,7 +110,7 @@ Birçok sosyal medya platformu fotoğraf yüklenirken konum bilgisini siler. Ama
 En çarpıcı örneklerden biri bir spor uygulamasından geldi. Strava, kullanıcılarının koşu rotalarından küresel bir ısı haritası yayımladı. 2018'in başında bir üniversite öğrencisi, haritada çölün ortasında parlayan çizgilerin askerî üslerdeki koşu yolları olduğunu fark etti. Koşucuların hiçbiri bir sır paylaşmamıştı; ama veriler birleşince üslerin yeri görünür oldu. Yapboz tamamlanmıştı.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Gökyüzü herkese açık mı?"}
-Hafta 4'te gördüğün ADS-B, uçağın konumunu, irtifasını ve hızını şifresiz yayınlar. Ucuz bir alıcısı olan herkes çevresindeki uçakları izleyebilir; uçuş takip siteleri de gönüllülerin kurduğu bu alıcılardan beslenir. Bu açıklık güvenlik için tasarlandı: Hava trafik kontrolü ve diğer uçaklar seni görmelidir. Ama bir mahremiyet sorusu da getirdi. 2022'de ünlülerin özel jetlerini anlık takip eden sosyal medya hesapları tartışma yarattı; bunlardan biri, sahibinin güvenliğini tehdit ettiği gerekçesiyle kapatıldı. Bir tarafa göre veri zaten kamusaldı; öbür tarafa göre bir kişinin anlık konumunu toplu halde yaymak başka bir şeydi. ABD'de havacılık otoritesi, özel uçak sahiplerine takip sitelerinde gizlenme ve geçici kimlikle yayın yapma imkânı tanıyan programlar sunuyor. Ders açık: Herkese açık her veri, birleştirildiğinde zararsız değildir.
+Hafta 4'te gördüğün ADS-B (Automatic Dependent Surveillance–Broadcast), uçağın konumunu, irtifasını ve hızını şifresiz yayınlar. Ucuz bir alıcısı olan herkes çevresindeki uçakları izleyebilir; uçuş takip siteleri de gönüllülerin kurduğu bu alıcılardan beslenir. Bu açıklık güvenlik için tasarlandı: Hava trafik kontrolü ve diğer uçaklar seni görmelidir. Ama bir mahremiyet sorusu da getirdi. 2022'de ünlülerin özel jetlerini anlık takip eden sosyal medya hesapları tartışma yarattı; bunlardan biri, sahibinin güvenliğini tehdit ettiği gerekçesiyle kapatıldı. Bir tarafa göre veri zaten kamusaldı; öbür tarafa göre bir kişinin anlık konumunu toplu halde yaymak başka bir şeydi. ABD'de havacılık otoritesi, özel uçak sahiplerine takip sitelerinde gizlenme ve geçici kimlikle yayın yapma imkânı tanıyan programlar sunuyor. Ders açık: Herkese açık her veri, birleştirildiğinde zararsız değildir.
 :::
 
 ## 4. Algoritmalar senin yerine karar verince
@@ -148,7 +148,7 @@ Seni siteden siteye tanıyan birkaç teknoloji var. Hiçbiri tek başına kötü
 | **Çerez** (cookie) | Sitenin tarayıcına bıraktığı küçük dosya. **Birinci taraf çerezi** girdiğin sitenindir, sepetini hatırlar. **Üçüncü taraf çerezi** sayfaya gömülü başka bir şirketindir ve seni siteler arasında tanır | Üçüncü taraf çerezleri engelle; çerez penceresinde "Tümünü reddet" |
 | **İzleme pikseli** | E-postaya gizlenmiş görünmez bir görsel; yüklenince göndericiye e-postayı ne zaman, hangi cihazla açtığını bildirir | Uzaktaki görsellerin otomatik yüklenmesini kapat |
 | **Tarayıcı parmak izi** | Ekran çözünürlüğü, yazı tipleri, saat dilimi gibi ayrıntıların neredeyse eşsiz birleşimi; çerezleri silsen de seni tanıyabilir | Parmak izine karşı korumalı bir tarayıcı kullan; az eklenti |
-| **SDK** | Uygulamalara gömülü, başka şirketlere ait reklam ve analiz yazılımları; uygulamayı yapan bile hangi verinin gittiğini tam bilmeyebilir | Kullanmadığın uygulamaları sil (Hafta 3) |
+| **SDK** (software development kit, yazılım geliştirme kiti) | Uygulamalara gömülü, başka şirketlere ait reklam ve analiz yazılımları; uygulamayı yapan bile hangi verinin gittiğini tam bilmeyebilir | Kullanmadığın uygulamaları sil (Hafta 3) |
 | **Reklam kimliği** | Telefonun seni reklam için tanıtan numarası (Hafta 3) | Android'de sil; iOS'ta izleme isteğini reddet |
 :::
 
@@ -160,7 +160,7 @@ Seni siteden siteye tanıyan birkaç teknoloji var. Hiçbiri tek başına kötü
 
 Hafta 6'da sohbete yazdığın her şeyin hizmet sağlayıcının sunucularına gittiğini gördün. Bunun üç sonucu var:
 
-- **Eğitim verisi:** Bazı sohbet asistanları, ayarlarına bağlı olarak konuşmalarını modelleri geliştirmek için kullanabilir; ayarın adı ve varsayılan değeri ürüne göre değişir. Sosyal medyadaki herkese açık paylaşımlar da YZ eğitiminde kullanılabiliyor; bazı platformlar itiraz yolu sunuyor.
+- **Eğitim verisi:** Bazı sohbet asistanları, ayarlarına bağlı olarak konuşmalarını modelleri geliştirmek için kullanabilir; ayarın adı ve varsayılan değeri ürüne göre değişir. Sosyal medyadaki herkese açık paylaşımlar da yapay zekâ (YZ) eğitiminde kullanılabiliyor; bazı platformlar itiraz yolu sunuyor.
 - **Kurumsal veri sızıntısı:** 2023'te büyük bir elektronik şirketinin çalışanları gizli kaynak kodunu bir sohbet asistanına yapıştırdı; şirket ardından üretken YZ kullanımını kısıtladı. Bir müşterinin ya da hastanın verisini bir YZ aracına yapıştırmak, o veriyi izinsiz bir üçüncü tarafa, çoğu zaman da yurt dışına aktarmaktır.
 - **Yüz tanıma:** Yüz, değiştiremeyeceğin bir şifredir. İnternetten milyarlarca fotoğraf toplayarak yüz tanıma veri tabanı kuran şirketler birçok Avrupa ülkesinde ceza aldı; AB'nin Yapay Zekâ Yasası bu tür hedefsiz toplamayı 2025'ten beri yasaklıyor.
 
@@ -183,7 +183,7 @@ Türkiye'de kişisel verileri **6698 sayılı Kişisel Verilerin Korunması Kanu
 ::: {.tablo-kaydir}
 | Kavram | Anlamı | Örnek |
 |---|---|---|
-| **Kişisel veri** | Kimliği belirli ya da belirlenebilir bir gerçek kişiye ilişkin her türlü bilgi | Ad, telefon, e-posta, IP adresi, fotoğraf, konum, öğrenci numarası |
+| **Kişisel veri** | Kimliği belirli ya da belirlenebilir bir gerçek kişiye ilişkin her türlü bilgi | Ad, telefon, e-posta, IP (Internet Protocol) adresi, fotoğraf, konum, öğrenci numarası |
 | **Özel nitelikli kişisel veri** | Açığa çıkması ayrımcılığa yol açabilecek, daha sıkı korunan veriler | Sağlık, biyometrik ve genetik veri, din, siyasi düşünce, ceza mahkûmiyeti, sendika üyeliği |
 | **İlgili kişi** | Verisi işlenen gerçek kişi | Sen |
 | **Veri sorumlusu** | Verinin neden ve nasıl işleneceğine karar veren kişi ya da kurum | Okulun, bankan, kullandığın uygulamanın şirketi |

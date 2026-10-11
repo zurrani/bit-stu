@@ -15,7 +15,7 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
 </div>
 ```
 
-Aramak hiç bu kadar kolay olmamıştı; doğruyu bulmak ise hiç bu kadar zor olmamıştı. Bu hafta arama motorlarının nasıl çalıştığını ve onları nasıl daha iyi kullanacağını, sonra da asıl beceriyi öğreneceksin: bir bilginin, bir sitenin, bir fotoğrafın ya da bir alıntının güvenilir olup olmadığını birkaç dakikada sınamayı. Bu beceri gelecek hafta yapay zekâyla çalışırken de en büyük koruman olacak.
+Aramak hiç bu kadar kolay olmamıştı; doğruyu bulmak ise hiç bu kadar zor olmamıştı. Bu hafta arama motorlarının nasıl çalıştığını ve onları nasıl daha iyi kullanacağını, sonra da asıl beceriyi öğreneceksin: bir bilginin, bir sitenin, bir fotoğrafın ya da bir alıntının güvenilir olup olmadığını birkaç dakikada sınamayı. Bu beceri gelecek hafta yapay zekâyla (YZ) çalışırken de en büyük koruman olacak.
 
 **Okuma süresi:** yaklaşık 25 dakika.
 
@@ -39,6 +39,8 @@ Bir arama motoru, sen soruyu sormadan çok önce işe başlar. Üç adımda çal
 
 Sıralamayı belirleyen yüzlerce etken vardır: sayfanın aradığın kelimeleri içermesi, başka sitelerin ona ne kadar bağlantı verdiği, güncelliği, senin konumun ve geçmiş aramaların. Bu yüzden iki kişi aynı kelimeyi aradığında farklı sonuçlar görebilir. Ayrıca sonuçların en üstündeki bazı bağlantılar **reklamdır**; "Sponsorlu" etiketi taşırlar ve oraya ilgili oldukları için değil, para ödendiği için konmuşlardır.
 
+Dünyada ve Türkiye'de aramaların büyük çoğunluğu tek bir arama motorundan, Google'dan geçer; ama tek seçenek o değildir. Bing, Yandex ve DuckDuckGo gibi motorlar farklı dizinler ve farklı sıralama kuralları kullanır; bazıları aramalarını kaydetmemeyi ve seni profillememeyi öne çıkarır. Aynı soruyu iki farklı motorda aramak, birinin gözden kaçırdığını ötekinde bulmanın ve sıralamanın tarafsız olmadığını görmenin kolay bir yoludur. Arama pazarındaki bu yoğunlaşma hukukun da konusu oldu: Bir ABD mahkemesi 2024'te Google'ın genel arama pazarında yasa dışı biçimde tekel konumunu koruduğuna karar verdi; Avrupa Birliği de telefonlarda varsayılan arama motorunu seçme ekranlarını zorunlu tuttu (Hafta 7). Alternatifler [Ek C](../ekler/c_alternatifler.qmd) sayfasında.
+
 ## 2. İyi arama
 
 ### Kelime seçimi
@@ -55,21 +57,29 @@ Sıralamayı belirleyen yüzlerce etken vardır: sayfanın aradığın kelimeler
 | `site:` | Yalnızca belirli bir sitede ya da alan adı türünde arar | `site:shgm.gov.tr`, `site:edu.tr` |
 | `filetype:` | Belirli dosya türünü arar | `filetype:pdf yönetmelik` |
 
-Operatörler birleştirilebilir: `site:shgm.gov.tr filetype:pdf İHA` sorgusu, yalnızca SHGM'nin sitesindeki ve İHA geçen PDF dosyalarını getirir. Eski sunumlarda ve sitelerde görebileceğin `+`, `~`, `related:` ve `info:` operatörleri ise artık çalışmıyor; arama motorları değiştikçe operatörler de değişir.
+Operatörler birleştirilebilir: `site:shgm.gov.tr filetype:pdf İHA` sorgusu, yalnızca SHGM'nin (Sivil Havacılık Genel Müdürlüğü) sitesindeki ve İHA (insansız hava aracı) geçen PDF (Portable Document Format) dosyalarını getirir. Eski sunumlarda ve sitelerde görebileceğin `+`, `~`, `related:` ve `info:` operatörleri ise artık çalışmıyor; arama motorları değiştikçe operatörler de değişir.
 
 ### Arama motoru her şey değil
 
 | Ne arıyorsun? | Nereye bakmalı? |
 |---|---|
 | Bilimsel makale | Google Akademik, DergiPark |
-| Türkiye'deki tezler | YÖK Ulusal Tez Merkezi |
+| Türkiye'deki tezler | YÖK (Yükseköğretim Kurulu) Ulusal Tez Merkezi |
 | Yasa ve yönetmelik | Resmî Gazete, mevzuat.gov.tr |
-| Havacılık kuralları | SHGM, EASA, ICAO'nun kendi siteleri |
+| Resmî istatistik | TÜİK (Türkiye İstatistik Kurumu), ilgili bakanlıkların veri sayfaları |
+| Havacılık kuralları | SHGM, EASA (European Union Aviation Safety Agency, Avrupa Birliği Havacılık Emniyeti Ajansı), ICAO'nun (International Civil Aviation Organization, Uluslararası Sivil Havacılık Örgütü) kendi siteleri |
 | Bir sayfanın eski hali | Wayback Machine (web.archive.org) |
 
 ### YZ ile arama
 
-Bugün birçok arama motoru sonuçların üstünde yapay zekâyla yazılmış bir özet gösteriyor; bazı sohbet asistanları da web'de arama yapıp kaynak gösteriyor. Bu özetler hızlıdır, ama yanılabilir: yanlış kaynağı özetleyebilir, kaynakları karıştırabilir, hatta var olmayan bir kaynak uydurabilir. YZ'nin gösterdiği kaynağa tıklayıp iddianın gerçekten orada yazdığını görmek, doğrulamanın en kısa yoludur. Bu konuyu gelecek hafta ayrıntılı göreceğiz.
+Bugün birçok arama motoru sonuçların üstünde yapay zekâyla yazılmış bir özet gösteriyor; bazı sohbet asistanları da web'de arama yapıp kaynak gösteriyor. Bu özetler hızlıdır, ama yanılabilir: yanlış kaynağı özetleyebilir, kaynakları karıştırabilir, hatta var olmayan bir kaynak uydurabilir. YZ'nin gösterdiği kaynağa tıklayıp iddianın gerçekten orada yazdığını görmek, doğrulamanın en kısa yoludur. Bir YZ cevabındaki kaynağı sınamanın dört adımı vardır:
+
+1. **Kaynağı iste.** Cevap kaynak göstermiyorsa sor: "Bunu hangi kaynağa dayandırıyorsun?"
+2. **Bağlantıyı aç.** Gösterilen sayfa gerçekten var mı ve açılıyor mu?
+3. **İddiayı orada bul.** Sayfa var diye iddianın da orada olduğunu varsayma; ilgili cümleyi sayfada ara (Ctrl + F).
+4. **Künyeyi kontrol et.** Bir makale gösterildiyse başlığını Google Akademik'te ya da DergiPark'ta ara. Bilimsel makalelerin çoğunun **DOI** (Digital Object Identifier) adı verilen kalıcı bir kimlik numarası vardır; `doi.org/` adresinin sonuna eklenen numara seni makalenin kendisine götürür. Var olmayan bir makalenin DOI'si de yoktur.
+
+YZ'nin uydurduğu kaynaklar yüzünden mahkemede zor durumda kalan avukatların hikâyesini gelecek hafta göreceğiz.
 
 ## 3. Kaynağı değerlendirmek
 
@@ -82,7 +92,20 @@ Bir kaynağa güvenmeden önce dört soru sor:
 - **Neden?** Amaç bilgilendirmek mi, satmak mı, ikna etmek mi, öfkelendirmek mi?
 - **Kanıt ne?** İddia bir kaynağa, veriye ya da belgeye dayanıyor mu?
 
-**Birincil kaynak**, bilginin ilk ortaya çıktığı yerdir: bir yönetmeliğin Resmî Gazete'deki metni, bir araştırmanın makalesi, bir kazanın resmî inceleme raporu. Haberler ve özetler **ikincil kaynaktır**; işe yararlar, ama bilgiyi aktarırken değiştirebilirler.
+**Birincil kaynak**, bilginin ilk ortaya çıktığı yerdir: bir yönetmeliğin Resmî Gazete'deki metni, bir araştırmanın makalesi, bir kazanın resmî inceleme raporu. Haberler ve özetler **ikincil kaynaktır**; işe yararlar, ama bilgiyi aktarırken değiştirebilirler. Kaynakların bütün merdivenini Bölüm 4'te göreceğiz.
+
+### Haber mi, görüş mü, reklam mı?
+
+"Neden?" sorusunun cevabı çoğu zaman metnin türünde saklıdır. Aynı sitede yan yana duran metinler farklı işler görür:
+
+| Tür | Amacı | Nasıl anlaşılır? |
+|---|---|---|
+| Haber | Bir olayı aktarmak | Kim, ne, nerede, ne zaman sorularına cevap verir; kaynak ve tarih gösterir |
+| Görüş ya da köşe yazısı | Bir yorumu savunmak | Yazarın adı ve fotoğrafıyla, "bence" diliyle yazılır |
+| Basın bülteni | Bir kurumun kendi sesini duyurmak | Kurumun sitesinde yayımlanır; haber sitelerinde çoğu zaman neredeyse aynen tekrarlanır |
+| Reklam ve sponsorlu içerik | Satmak | "Sponsorlu", "Reklam", "İş birliği" etiketi taşır ya da taşıması gerekir |
+
+En zor ayırt edilen, haber ya da kişisel öneri gibi görünen reklamdır. Sosyal medyada bir ürünü öven bir içerik üreticisi, bunun karşılığında para ya da ürün aldıysa bunu açıkça belirtmelidir; Türkiye'de de reklam kuralları bu tür paylaşımların "reklam" ya da "iş birliği" gibi bir ifadeyle işaretlenmesini istiyor. Etiket yoksa ve içerik bir ürünü fazla övüyorsa, "Bunu yazan bundan ne kazanıyor?" diye sor.
 
 ### Yanal okuma
 
@@ -91,6 +114,8 @@ Stanford Üniversitesi'nden araştırmacılar, profesyonel haber doğrulayıcıl
 Bir analojiyle: Yeni bir lokantayı menüsünü okuyarak değil, mahalleliye sorarak tanırsın. Bir site kendisi hakkında her şeyi söyleyebilir; asıl bilgi, başkalarının onun hakkında söylediğidir.
 
 ### SIFT: dört adımda doğrulama
+
+SIFT, dört adımın İngilizce adlarının baş harfleridir:
 
 | Adım | Ne yaparsın? |
 |---|---|
@@ -107,7 +132,25 @@ Bir analojiyle: Yeni bir lokantayı menüsünü okuyarak değil, mahalleliye sor
 Havacılıkta hangi kaynağa güvenileceği kişisel bir tercih değildir, kuralla belirlenir. Bir bakım işinde değerler ve adımlar, üreticinin onaylı ve güncel revizyondaki dokümanından alınır; kurallar ise otoritelerin (SHGM, EASA, ICAO) yayınlarından. Forumlar, videolar ve "tecrübeli bir arkadaşın söylediği" yol gösterebilir, ama kaynak olamaz. Bir kaza olduğunda da ilk saatlerde sosyal medyada pek çok iddia dolaşır; asıl bilgi aylar sonra yayımlanan resmî inceleme raporundadır. İyi bir teknisyen de iyi bir okuyucu gibi önce "Bunun kaynağı ne?" diye sorar.
 :::
 
-## 4. Yanlış bilginin türleri
+## 4. Kaynakların merdiveni (okuma)
+
+Her kaynak aynı ağırlıkta değildir. Bir bilgiyi ararken bu merdiveni aklında tut:
+
+| Basamak | Örnek | Ne zaman işe yarar? |
+|---|---|---|
+| Birincil kaynak | Yasanın Resmî Gazete'deki metni, araştırma makalesi, resmî istatistik, kaza inceleme raporu, üreticinin dokümanı | Kesin bilgi gerektiğinde: alıntı, sayı, kural |
+| İkincil kaynak | Haber, kitap, derleme makalesi, bir uzmanın değerlendirmesi | Birincil kaynağı anlamak ve bağlamı görmek için |
+| Üçüncül kaynak | Ansiklopedi, ders kitabı, Vikipedi, sözlük | Konuya girmek ve birincil kaynaklara ulaşmak için |
+| Kaynak sayılmayanlar | Forum yazısı, sosyal medya paylaşımı, anonim video, "bir arkadaşın söylediği" | Fikir ve ipucu için; doğrulanmadan kaynak olarak gösterilmez |
+
+Bilimsel makalelerin çoğu yayımlanmadan önce **hakemli** değerlendirmeden geçer: Dergi, makaleyi alanın başka uzmanlarına gönderir; onlar yöntemi ve sonuçları sınar. Hakemlik hatasızlık garantisi değildir, ama bir eleme süzgecidir. Bu yüzden iki şeye daha dikkat et:
+
+- **Tek çalışma, bilimsel uzlaşı değildir.** "Yeni bir araştırmaya göre" diye başlayan bir haber, çoğu zaman tek bir çalışmayı anlatır. Bir konudaki asıl bilgi, çok sayıda çalışmanın birlikte gösterdiğidir.
+- **Makaleler geri çekilebilir.** Ciddi bir hata ya da sahtecilik ortaya çıkarsa dergi makaleyi geri çeker. Aşıların otizme yol açtığını öne süren 1998 tarihli makale, verilerin çarpıtıldığı ortaya çıktıktan sonra 2010'da geri çekildi; ama iddia bugün de dolaşıyor.
+
+Bir de ücret karşılığında neredeyse her şeyi hakemsiz yayımlayan, adı ciddi dergilere benzeyen sahte dergiler vardır. Bir derginin adını ilk kez duyuyorsan yanal okumayı ona da uygula.
+
+## 5. Yanlış bilginin türleri
 
 | Tür | Bilgi doğru mu? | Niyet zarar vermek mi? | Örnek |
 |---|---|---|---|
@@ -117,17 +160,36 @@ Havacılıkta hangi kaynağa güvenileceği kişisel bir tercih değildir, kural
 
 ### Neden yayılıyor?
 
-2018'de yayımlanan geniş çaplı bir araştırma, bir sosyal medya platformunda yanlış haberlerin doğru haberlerden daha hızlı ve daha uzağa yayıldığını gösterdi. Nedeni botlardan çok insanlardı: yanlış haberler daha şaşırtıcı ve daha duygusaldı, insanlar da şaşırtıcı ve duygusal olanı paylaşıyordu.
+2018'de yayımlanan geniş çaplı bir araştırma, bir sosyal medya platformunda yanlış haberlerin doğru haberlerden daha hızlı ve daha uzağa yayıldığını gösterdi: Doğru haberlerin 1.500 kişiye ulaşması, yanlış haberlerden yaklaşık altı kat uzun sürüyordu. Nedeni botlardan çok insanlardı: yanlış haberler daha şaşırtıcı ve daha duygusaldı, insanlar da şaşırtıcı ve duygusal olanı paylaşıyordu.
 
 İki mekanizma bunu güçlendirir. **Filtre balonu**, algoritmaların sana yalnızca sevdiğine benzeyen içeriği göstermesiyle oluşur. **Yankı odası** ise yalnızca seninle aynı düşünenlerin olduğu bir ortamda görüşlerinin sürekli tekrar edilip güçlenmesidir. İkisi birleşince "herkes böyle düşünüyor" sanırsın.
 
-**Deepfake**, yapay zekâyla üretilmiş ya da değiştirilmiş, gerçek gibi görünen video, ses ya da görüntüdür. Artık "gözümle gördüm" demek de tek başına yeterli kanıt değildir.
+**Deepfake** (derin sahte), yapay zekâyla üretilmiş ya da değiştirilmiş, gerçek gibi görünen video, ses ya da görüntüdür. Artık "gözümle gördüm" demek de tek başına yeterli kanıt değildir.
+
+### Sayılarla yanıltmak
+
+Yanlış bilgi her zaman yalan söylemez; bazen doğru sayıyı yanıltıcı biçimde sunar. En sık görülen dört hile:
+
+- **Yüzde ile sayıyı karıştırmak:** "Kazalar yüzde 100 arttı" başlığı korkutucudur; ama bir kazanın iki kaza olması da yüzde 100 artıştır. Yüzdeyi gördüğünde "kaçtan kaça?" diye sor.
+- **Göreli riski mutlak risk gibi sunmak:** Bir ilacın bir yan etkiyi "iki katına çıkardığı" söylenebilir; risk on binde birden on binde ikiye çıkmışsa bu, çoğu insan için çok küçük bir farktır.
+- **Küçük ya da seçilmiş örneklem:** Bir sitenin "okurlarımızın yüzde 90'ı katılıyor" anketi, o siteyi okuyan ve ankete katılmayı seçen kişileri ölçer; toplumu değil.
+- **Birlikte olmayı neden sanmak:** Yaz aylarında hem dondurma satışı hem boğulma vakaları artar; dondurma boğulmaya yol açmaz, ikisinin ortak nedeni sıcak havadır. İki şeyin birlikte artması (korelasyon), birinin ötekine yol açtığını (nedensellik) göstermez.
+
+Grafiklerle yapılan hileleri, örneğin sıfırdan başlamayan eksenleri, Hafta 12'de göreceğiz.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+"Trafik kazalarının çoğu evin yakınında oluyor. Demek ki evin yakınında araba kullanmak daha tehlikeli." Bu çıkarımda ne eksik?
+
+Biraz ek bilgi: İnsanlar yolculuklarının büyük kısmını zaten evlerinin yakınında yapar: markete, okula, işe. Bir yerde çok kaza olması, orada çok yolculuk yapılmasından da kaynaklanabilir. Doğru soru "Kaç kaza?" değil, "Yapılan yolculuk başına kaç kaza?" sorusudur. Haberlerde gördüğün başka hangi sayının "neye göre?" sorusuna ihtiyacı var?
+:::
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 "Bir yalan, gerçek daha ayakkabılarını giyerken dünyanın yarısını dolaşır." Bu söz genellikle Mark Twain'e atfedilir; ama benzerleri Twain'den çok önce de yazılmıştı ve Twain'in söylediğine dair bir kanıt yok. Yani yanlış bilgiyi anlatan en ünlü söz, kendisi de yanlış atfedilmiş bir söz. Bu senin için ne anlama geliyor?
+
+Biraz ek bilgi: Sözün bilinen en eski benzerlerinden biri, yazar Jonathan Swift'in 1710'da yazdığı bir cümledir: "Yalan uçar, gerçek ardından topallayarak gelir." Alıntıların izini süren Quote Investigator gibi siteler, ünlü sözlerin gerçek kaynağını belgeleriyle gösterir. Bir sözü paylaşmadan önce aramak bir dakikanı alır; senin sık kullandığın ya da paylaştığın bir "ünlü söz" var mı?
 :::
 
-## 5. Görselleri ve alıntıları doğrulamak
+## 6. Görselleri ve alıntıları doğrulamak
 
 ### Görseller
 
@@ -143,13 +205,13 @@ Türkiye'de Teyit ve Doğruluk Payı gibi doğrulama platformları, yaygın iddi
 - "640 KB bellek herkese yeter" sözü Bill Gates'e atfedilir; Gates bunu söylediğini defalarca reddetmiştir ve bir kaynak bulunamamıştır.
 - "Dünya pazarında belki beş bilgisayara yer var" sözü IBM'in başkanı Thomas Watson'a atfedilir; bunun da güvenilir bir kaynağı yoktur.
 
-Bir alıntı gerçek olsa bile bağlamından koparılınca yanıltıcı olabilir. 1949'da Popular Mechanics dergisi, gelecekte bilgisayarların "belki yalnızca 1,5 ton" ağırlığında olabileceğini yazmıştı. Bu cümle bugün bir gaf olarak paylaşılır. Oysa o yıllarda ENIAC 30 ton ağırlığındaydı; dergi aslında bilgisayarların yirmi kat hafifleyeceğini öngörüyordu ve bu, kendi zamanı için iyimser bir tahmindi.
+Bir alıntı gerçek olsa bile bağlamından koparılınca yanıltıcı olabilir. 1949'da Popular Mechanics dergisi, gelecekte bilgisayarların "belki yalnızca 1,5 ton" ağırlığında olabileceğini yazmıştı. Bu cümle bugün bir gaf olarak paylaşılır. Oysa o yıllarda ENIAC (Electronic Numerical Integrator and Computer) 30 ton ağırlığındaydı; dergi aslında bilgisayarların yirmi kat hafifleyeceğini öngörüyordu ve bu, kendi zamanı için iyimser bir tahmindi.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Sayılabilen her şey önemli değildir, önemli olan her şey sayılamaz." Bu söz internette çoğu zaman Einstein'a atfedilir. Bilinen ilk kaynağı ise sosyolog William Bruce Cameron'ın 1963 tarihli bir kitabıdır. Einstein'ın adı, bir sözü daha "güçlü" göstermek için en sık kullanılan addır.
 :::
 
-## 6. Kaynak göstermek ve intihal
+## 7. Kaynak göstermek ve intihal
 
 Başkasının fikrini, cümlesini, verisini ya da görselini kullandığında bunu belirtmen gerekir. Bunun üç yolu vardır:
 
@@ -159,7 +221,7 @@ Başkasının fikrini, cümlesini, verisini ya da görselini kullandığında bu
 
 **İntihal**, başkasının emeğini kendi emeğin gibi sunmaktır: kaynak göstermeden kopyalamak, kelimeleri biraz değiştirip kendi yazınmış gibi sunmak ya da başkasına yazdırılmış bir metni kendi adınla teslim etmek. Yapay zekânın yazdığı bir metni beyan etmeden kendi metnin gibi sunmak da bu derste aynı kapsamdadır.
 
-Bir kaynağı göstermenin pek çok biçimi vardır; bu derste kısa bir APA biçimi yeterlidir:
+Metnin içinde bir bilginin kaynağını belirtmeye **atıf**, kullandığın bütün kaynakların sonda listelenmesine **kaynakça** denir. Bir kaynağı göstermenin pek çok biçimi vardır; bu derste kısa bir APA (American Psychological Association) biçimi yeterlidir:
 
 ```text
 Kitap:      Soyad, A. (Yıl). Kitabın adı. Yayınevi.
@@ -170,7 +232,7 @@ Web sayfası: Kurum ya da yazar. (Yıl, gün ay). Sayfanın başlığı. Site ad
 Kısa vadede: ödevlerin için güvenilir kaynak bulur, doğru biçimde gösterir ve intihal riskinden kurtulursun. Orta vadede: iş yerinde bir prosedürün, bir duyurunun ya da bir parça bilgisinin resmî ve güncel kaynağını bulursun; sahte bir e-postayı ya da haberi fark edersin. Uzun vadede: sağlık, para ve seçim gibi hayatını etkileyen konularda yanlış bilgiye karşı bağışıklık kazanırsın.
 :::
 
-## 7. Kapanış: paylaşmadan önce
+## 8. Kapanış: paylaşmadan önce
 
 Bir bilgiyi paylaşmadan önce beş saniyelik bir kontrol:
 
@@ -185,8 +247,8 @@ Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1
 ## Akılda kalsın
 
 - **Arama motorları sıralar, karar vermez.** Sonuçlar kişiselleştirilir, en üsttekiler reklam olabilir; operatörler ve doğru kaynak türü aramayı keskinleştirir.
-- **Siteye değil, siteye dışarıdan bak.** Yanal okuma ve SIFT, bir kaynağı dakikalar içinde sınamanın yoludur.
-- **Yanlış bilginin niyeti ve türü vardır.** Duygusal ve şaşırtıcı olan daha hızlı yayılır; filtre balonu ve yankı odası bunu güçlendirir.
+- **Siteye değil, siteye dışarıdan bak.** Yanal okuma ve SIFT, bir kaynağı dakikalar içinde sınamanın yoludur. Kesin bilgi birincil kaynaktadır; tek çalışma uzlaşı değildir.
+- **Yanlış bilginin niyeti ve türü vardır.** Duygusal ve şaşırtıcı olan daha hızlı yayılır; filtre balonu ve yankı odası bunu güçlendirir. Doğru bir sayı da yanıltabilir: "Kaçtan kaça, neye göre?" diye sor.
 - **Görselin ve alıntının izini sür.** Ters görsel arama tarihi, ilk kaynak da sözün sahibini gösterir; bağlamdan koparılan gerçek bir alıntı da yanıltabilir.
 - **Kaynak göster.** Alıntı, aktarma ve özet kaynakla meşrudur; kaynaksız kopya intihaldir.
 
@@ -195,12 +257,14 @@ Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1
 Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Arama operatörleri arama motoru değiştikçe değişir.
 
 - **Araştırmalar:** Sam Wineburg ve Sarah McGrew, yanal okuma (Stanford Tarih Eğitimi Grubu, 2017); Mike Caulfield, SIFT (2019); Soroush Vosoughi, Deb Roy ve Sinan Aral, *Science* (2018); Claire Wardle ve Hossein Derakhshan, Avrupa Konseyi raporu (2017).
-- **Alıntılar:** John Naisbitt, *Megatrends* (1982); William Bruce Cameron, *Informal Sociology* (1963); *Popular Mechanics*, Mart 1949.
-- **Araçlar:** Google'ın arama operatörleri (Haziran 2026'daki durum); Teyit ve Doğruluk Payı.
+- **Bilim ve istatistik:** Wakefield ve arkadaşlarının 1998 tarihli makalesi ve *The Lancet*'in geri çekme kararı (2010); DOI sistemi (doi.org).
+- **Arama pazarı:** ABD Columbia Bölge Mahkemesi, *United States v. Google* kararı (2024); AB Dijital Piyasalar Yasası'ndaki seçim ekranı yükümlülüğü.
+- **Alıntılar:** Jonathan Swift, *The Examiner* (1710); John Naisbitt, *Megatrends* (1982); William Bruce Cameron, *Informal Sociology* (1963); *Popular Mechanics*, Mart 1949.
+- **Araçlar:** Google'ın arama operatörleri (Haziran 2026'daki durum); Teyit ve Doğruluk Payı; Quote Investigator.
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: arama motoru, tarama, dizinleme, sıralama, sponsorlu sonuç, arama operatörü, birincil kaynak, ikincil kaynak, yanal okuma, SIFT, yanlış bilgi, dezenformasyon, kötü niyetli bilgi, filtre balonu, yankı odası, deepfake, ters görsel arama, doğrulama platformu, Wayback Machine, alıntı, atıf, kaynakça, intihal.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: arama motoru, tarama, dizinleme, sıralama, sponsorlu sonuç, sponsorlu içerik, arama operatörü, birincil kaynak, ikincil kaynak, üçüncül kaynak, hakemli yayın, geri çekilen makale, DOI, yanal okuma, SIFT, yanlış bilgi, dezenformasyon, kötü niyetli bilgi, filtre balonu, yankı odası, deepfake, göreli risk, mutlak risk, örneklem, korelasyon, nedensellik, ters görsel arama, doğrulama platformu, Wayback Machine, alıntı, atıf, kaynakça, intihal.
 
 ## Kendini sına
 
