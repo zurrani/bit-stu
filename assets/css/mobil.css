@@ -1,0 +1,30 @@
+/* Mobil görünüm düzeltmeleri. Gezinme: 992 pikselin altı, üst menü katlandığında.
+   Quarto menü listesini ekranın %75'iyle sınırlıyor; uzun "Ders notları" listesi
+   açılınca "Ekler" ve "Hakkında" listenin içinde kayboluyordu. Kaydırmayı listeden
+   alıp katlanmış menünün tamamına veriyoruz. */
+@media (max-width: 991.98px) {
+  #navbarCollapse.show,
+  #navbarCollapse.collapsing {
+    max-height: calc(100dvh - 4rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  #navbarCollapse .navbar-nav-scroll {
+    max-height: none;
+    overflow-y: visible;
+  }
+  #navbarCollapse .dropdown-item {
+    padding-top: .55rem;
+    padding-bottom: .55rem;
+    white-space: normal;
+  }
+}
+
+/* Vaka ve örnek metin blokları (```text) dar ekranda yana kaymasın, satır kırılsın. */
+@media (max-width: 575.98px) {
+  div.sourceCode pre.text,
+  pre.text {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+  }
+}

@@ -258,7 +258,7 @@ Sorular sunumun bir parçasıdır, tehdidi değil. Birkaç alışkanlık işe ya
 - **Ekran paylaşımı:** Bütün ekranı değil, yalnızca sunum penceresini paylaş. Paylaşmadan önce bildirimleri kapat ve masaüstündeki ilgisiz pencereleri kapat: Ekrana düşen bir mesaj, Hafta 8'deki mahremiyet sorunlarının en hızlı yoludur.
 - **Kamera ve ortam:** Kamera göz hizasında olsun, ışık önden gelsin, arka planda kişisel bilgi görünmesin.
 - **Etkileşim:** Birkaç dakikada bir bir soru sor, sohbet alanını kullan ya da kısa bir oylama yap.
-- **Toplantı görgüsü:** Konuşmuyorken mikrofonunu kapat; sözü el kaldırma simgesiyle iste; sohbet alanında da Hafta 10'daki e-posta kurallarıyla yaz. Toplantıyı kaydedeceksen herkese önceden söyle (Hafta 7 ve 8).
+- **Toplantı görgüsü:** Konuşmuyorken mikrofonunu kapat; sözü el kaldırma simgesiyle iste; sohbet alanında da Hafta 10'daki e-posta kurallarıyla yaz. Toplantıyı kaydedeceksen herkese önceden söyle (Hafta 7 ve 8). Toplantı netiketinin ayrıntısı [Ek D](../ekler/d_netiket.qmd) sayfasında.
 
 Kayıtlı (video) sunum ise ayrı bir türdür: Dinleyici seni durdurabilir, geri sarabilir, hızlandırabilir. Daha kısa ve daha sıkı kurgulanmış olmalıdır; birkaç dakikalık bölümlere ayırmak izlemeyi kolaylaştırır.
 

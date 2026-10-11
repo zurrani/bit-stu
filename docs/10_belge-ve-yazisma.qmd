@@ -154,7 +154,7 @@ Teslimden önce üç kontrol yap:
 
 ## 7. Kurumsal e-posta: dijital antetli kâğıt
 
-Hafta 7'de mesaj gruplarındaki birkaç basit kuralı görmüştük. Çevrimiçi iletişimin görgü kurallarına **netiket** denir (İngilizce internet ve etiket kelimelerinden). Kurumsal e-posta bunun resmî halidir. Bir kurumun antetli kâğıdına yazılan mektup nasıl o kurumu temsil ederse, kurumsal adresinden gönderdiğin bir e-posta da seni ve kurumunu temsil eder. Kurumsal e-posta da bir belgedir: Konusu, alıcıları, eki ve imzası onun yapısıdır.
+Hafta 7'de çevrimiçi iletişimin görgü kurallarını, yani **netiketi** görmüştük; kanallara göre ayrıntısı [Ek D](../ekler/d_netiket.qmd) sayfasında. Kurumsal e-posta netiketin resmî halidir. Bir kurumun antetli kâğıdına yazılan mektup nasıl o kurumu temsil ederse, kurumsal adresinden gönderdiğin bir e-posta da seni ve kurumunu temsil eder. Kurumsal e-posta da bir belgedir: Konusu, alıcıları, eki ve imzası onun yapısıdır.
 
 ### Alıcı alanları
 

@@ -28,9 +28,50 @@ website:
     title: "BIT"
     left:
       - text: "Ders notları"
-        href: docs/01_teknoloji-neyi-cozer.qmd
+        menu:
+          - text: "Bu ders nasıl işler?"
+            href: docs/00_cerceve.qmd
+          - text: "---"
+          - text: "1 · Teknoloji neyi çözer, bedeli nedir?"
+            href: docs/01_teknoloji-neyi-cozer.qmd
+          - text: "2 · Bilgisayar nasıl düşünür?"
+            href: docs/02_bilgisayar-nasil-dusunur.qmd
+          - text: "3 · İşletim sistemleri"
+            href: docs/03_isletim-sistemleri.qmd
+          - text: "4 · Ağ, internet ve bulut"
+            href: docs/04_ag-internet-bulut.qmd
+          - text: "5 · Bilgi okuryazarlığı"
+            href: docs/05_bilgi-okuryazarligi.qmd
+          - text: "6 · Üretken yapay zekâ"
+            href: docs/06_uretken-yapay-zeka.qmd
+          - text: "7 · Dijital vatandaşlık ve hukuk"
+            href: docs/07_dijital-vatandaslik-hukuk.qmd
+          - text: "8 · Mahremiyet"
+            href: docs/08_mahremiyet.qmd
+          - text: "9 · Siber güvenlik"
+            href: docs/09_siber-guvenlik.qmd
+          - text: "10 · Belge tasarımı ve yazışma"
+            href: docs/10_belge-ve-yazisma.qmd
+          - text: "11 · Veriyle çalışmak I"
+            href: docs/11_veriyle-calismak-1.qmd
+          - text: "12 · Veriyle çalışmak II"
+            href: docs/12_veriyle-calismak-2.qmd
+          - text: "13 · Sunum ve görsel anlatım"
+            href: docs/13_sunum.qmd
+          - text: "14 · Kapanış"
+            href: docs/14_kapanis.qmd
       - text: "Ekler"
-        href: ekler/sozluk.qmd
+        menu:
+          - text: "Sözlük"
+            href: ekler/sozluk.qmd
+          - text: "A · 2000–2025 kırılımları"
+            href: ekler/a_kirilimlar.qmd
+          - text: "B · Bilim kurgudan gerçeğe"
+            href: ekler/b_bilim-kurgu.qmd
+          - text: "C · Her şeyin bir alternatifi var"
+            href: ekler/c_alternatifler.qmd
+          - text: "D · Netiket"
+            href: ekler/d_netiket.qmd
       - text: "Hakkında"
         href: hakkinda.qmd
     right:
@@ -84,6 +125,8 @@ website:
             href: ekler/b_bilim-kurgu.qmd
           - text: "C · Her şeyin bir alternatifi var"
             href: ekler/c_alternatifler.qmd
+          - text: "D · Netiket"
+            href: ekler/d_netiket.qmd
       - text: "Hakkında"
         href: hakkinda.qmd
   page-footer:
@@ -95,7 +138,9 @@ format:
     theme:
       light: [default, assets/css/bit.scss]
       dark: [default, assets/css/bit-dark.scss]
-    css: assets/css/fonts.css
+    css:
+      - assets/css/fonts.css
+      - assets/css/mobil.css
     toc: true
     toc-depth: 2
     toc-title: "Bu sayfada"

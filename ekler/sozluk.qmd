@@ -277,7 +277,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Mutlak başvuru (12) | Formül nereye kopyalanırsa kopyalansın aynı hücreyi gösteren başvuru (`$B$7` gibi) |
 | Nesnelerin interneti (14) | İnternete bağlı sensörler ve gündelik cihazlardan oluşan ağ (Internet of Things, IoT) |
 | Nesnelerin İnterneti, IoT (4) | Sensörlü ve gömülü cihazların internete bağlanmasıyla oluşan ağ |
-| Netiket (10) | Çevrimiçi iletişimin görgü kuralları (İngilizce internet ve etiket kelimelerinden) |
+| Netiket (7) | Çevrimiçi iletişimin görgü kuralları (İngilizce internet ve etiket kelimelerinden) |
 | NFC (4) | Birkaç santimetrelik mesafede çalışan kablosuz iletişim; temassız ödemede kullanılır |
 | Niceleme (2) | Her ölçümün, belirli sayıda bitle yazılabilecek en yakın değere yuvarlanması |
 | NotebookLM (13) | Google'ın, kullanıcının yüklediği kaynaklara dayanarak özet çıkaran, soru cevaplayan ve atıf gösteren YZ aracı |
@@ -377,6 +377,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | TPM (3) | Şifreleme anahtarlarını güvenle saklayan güvenlik çipi; Windows 11 için gereklidir |
 | Transistör (1) | Elektrik akımını açıp kapatan ya da yükselten yarı iletken bileşen; dijital elektroniğin temel taşı |
 | Trend izleme (12) | Bir parametrenin zamanla değişimini grafikle izleyerek aşınmayı ya da arızayı önceden fark etme yöntemi |
+| Trol (7) | Tartışmayı bilerek kışkırtan, öfke ve tepki bekleyen çevrimiçi hesap ya da kişi; en iyi cevap, cevap vermemektir |
 | Truva atı (9) | Yararlı bir program gibi görünüp kurulunca saldırgana kapı açan kötü amaçlı yazılım (trojan) |
 | Tuş kaydedici (9) | Klavyede basılan her tuşu kaydedip saldırgana gönderen casus yazılım (keylogger) |
 | Tümünü yanıtla (10) | Bir e-postanın yanıtını gönderene ve Kime ile Bilgi alanlarındaki bütün alıcılara gönderen komut |

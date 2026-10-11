@@ -23,7 +23,7 @@ Bir mesajın ekran görüntüsünü gruba atmak, bir haberi okumadan paylaşmak,
 
 1. Aktif ve pasif dijital ayak izini ayırt etmek, kendi izini gözden geçirmek.
 2. Platform tasarımının dikkat ekonomisiyle ilişkisini açıklamak, kendi ekran kullanımını değerlendirmek.
-3. Etik ile hukuku ayırt etmek, yaygın bilişim boyutlu suçları vaka üzerinden tanımak ve siber zorbalığa karşı atılacak adımları sıralamak.
+3. Etik ile hukuku ayırt etmek, yaygın bilişim boyutlu suçları vaka üzerinden tanımak, netikete uygun iletişim kurmak ve siber zorbalığa karşı atılacak adımları sıralamak.
 4. Telif, Creative Commons, kamu malı ve açık kaynak lisanslarını ayırt etmek, doğru atıf yapmak.
 5. Türkiye'deki ve Avrupa Birliği'ndeki güncel düzenlemelerin bir öğrencinin günlük hayatına etkisini örneklemek.
 
@@ -135,7 +135,27 @@ Ceza hukukunun yanında internetin kendine özgü kuralları da var:
 Bir öğrencinin havacılık hukukuyla ilk teması büyük olasılıkla bir drone, yani insansız hava aracıdır (İHA). Türkiye'de İHA'lar Sivil Havacılık Genel Müdürlüğü'nün (SHGM) talimatlarıyla düzenlenir: Belirli bir ağırlığın üzerindeki İHA'ların kayıt edilmesi, pilotun eğitim almış olması ve havalimanları çevresi gibi yasak bölgelerde uçulmaması gerekir. Başkalarının evlerini ya da yüzlerini izinsiz görüntülemek, bu bölümde gördüğün özel hayatın gizliliği kurallarına da takılır. Uçurmadan önce SHGM'nin güncel İHA kurallarını ve uçuşa yasak bölgeleri kontrol et.
 :::
 
-## 5. Siber zorbalık: tanı, sakla, bildir
+## 5. Netiket ve siber zorbalık
+
+```text
+[Sınıf grubu · Salı 21:12]
+Ece:  Bugünkü sunum için herkese
+      teşekkürler 🙌
+Mert: harika sunumdu, uyumamak için
+      çok uğraştım 😂
+```
+
+Mert gülerek yazdı; sunumu hazırlayan Ece ise mesajı akşam boyunca birkaç kez okudu. Yüz yüze söylense Mert'in yüzü ve sesi şakayı taşırdı. Yazıda yalnızca kelimeler kaldı ve kelimeler "sıkıcıydı" diyordu. (Ece ve Mert kurgusaldır.)
+
+Çevrimiçi iletişimin görgü kurallarına **netiket** denir (İngilizce internet ve etiket kelimelerinden). İnternet 1990'larda herkese açılırken bu kurallar yazıya geçirildi; o dönemin rehberlerinden birinin ilk kuralı bugün de geçerli: **Ekranın öbür ucunda bir insan var.** Yazıda ses tonu, yüz ifadesi ve beden dili yoktur; alıcı eksik kalanı kendi ruh haliyle doldurur. Bu yüzden şaka, iğneleme ve kısa cevaplar çoğu zaman olduğundan sert okunur. Göndermeden önce mesajını bir kez alıcının gözüyle oku.
+
+Netiketin beş ilkesi var: Karşında bir insan var. Yüz yüze söylemeyeceğini yazma. Karşının zamanına ve dikkatine saygı göster; kısa, net ve tek mesajla yaz. Başkasının verisi senin değil. Hata yaparsan kabul et ve düzelt.
+
+Mesaj gruplarında bu ilkeler birkaç basit kurala dönüşür: Başkasının mesajını, fotoğrafını ya da numarasını izinsiz başka gruba taşıma. Sınıf grubunu kişisel tartışmaya çevirme. Bir arkadaşını gruba eklemeden önce ona sor. Büyük harfle yazmanın bağırmak gibi okunduğunu unutma. Kanallara göre kurallar, gündelik vakalar ve göndermeden önce bir kontrol listesi [Ek D · Netiket](../ekler/d_netiket.qmd) sayfasında; kurumsal e-posta Hafta 10'da ayrıca ele alınacak.
+
+Netiket hatası çoğu zaman kırıcıdır ama kasıtlı değildir. Bilerek kışkırtıp tepki bekleyen hesaplara **trol** denir; en iyi cevap, cevap vermemektir. Kasıt ve tekrar girdiğinde ise iş değişir: Bu artık siber zorbalıktır.
+
+### Siber zorbalık: tanı, sakla, bildir
 
 **Siber zorbalık**, dijital araçlarla birine kasıtlı ve tekrarlanan biçimde zarar vermektir. Türleri: hakaret ve aşağılama, yalan yayma, gruptan dışlama, sahte hesapla taklit, sürekli taciz ve takip, birinin özel bilgilerini (adres, telefon, okul) izinsiz yayma, yani **doxing**. Siber zorbalığı yüz yüze zorbalıktan ağır yapan üç şey var: Ekran ona gece de ulaşır, içerik hızla yayılır ve kalıcıdır, zorba kendini yüzsüz hissettiği için daha acımasız olabilir.
 
@@ -148,8 +168,6 @@ Hedef olursan ya da bir arkadaşının hedef olduğunu görürsen:
 5. **Gerekirse yasal yola git.** Emniyetin siber suçlarla mücadele birimine ya da doğrudan savcılığa şikâyette bulunabilirsin. Hakaret ve özel hayatın gizliliği gibi suçlarda şikâyet süresi sınırlıdır; beklemeden hareket et. Çocukların istismarı gibi yasa dışı içerikler İhbar Web üzerinden bildirilir.
 
 İzleyici olmak da bir roldür. Zorbalığı gören ama sessiz kalan, onu büyüten kalabalığın parçası olur. Paylaşmamak, hedefe özelden destek mesajı yazmak ve bildirmek, izleyicinin elindeki üç güçlü araçtır.
-
-Mesaj gruplarında da birkaç basit kural sorunların çoğunu önler: Başkasının mesajını, fotoğrafını ya da numarasını izinsiz başka gruba taşıma. Sınıf grubunu kişisel tartışmaya çevirme. Bir arkadaşını gruba eklemeden önce ona sor. Büyük harfle yazmanın bağırmak gibi okunduğunu unutma. Kurumsal e-posta yazımı Hafta 10'da ayrıca ele alınacak.
 
 ## 6. Telif, Creative Commons ve atıf
 
@@ -240,7 +258,7 @@ Kısa vadede: Paylaşmadan önce düşünür, başına dert açacak bir paylaş�
 - **Ayak izi erimez.** Aktif izini sen bırakırsın, pasif izini başkaları toplar; ikisi birlikte dijital itibarını oluşturur.
 - **Dikkatin bir üründür.** Sonsuz kaydırma, bildirim ve değişken ödül seni tutmak için tasarlandı; ekran süresi araçlarıyla kontrolü geri al, ama kanıtı aşan korkulara da kapılma.
 - **Sanal eylem, gerçek sonuç.** Ekran görüntüsü yaymak, birinin hesabına girmek, doğrulamadan paylaşmak suç olabilir; anonimlik ve "yalnızca paylaştım" seni korumaz.
-- **Siber zorbalıkta üç adım: sakla, bildir, destek al.** Karşılık verme, kanıtı tarihiyle kaydet, yalnız kalma.
+- **Ekranın öbür ucunda bir insan var.** Yüz yüze söylemeyeceğini yazma. Siber zorbalıkta ise üç adım: sakla, bildir, destek al; karşılık verme, kanıtı tarihiyle kaydet, yalnız kalma.
 - **Atıf izin değildir.** Telif kendiliğinden doğar; lisansa bak, dört parçalı atıf yaz (eser, yazar, kaynak, lisans).
 
 ## Kaynaklar ve güncellik
@@ -249,11 +267,12 @@ Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle
 
 - **Türkiye:** Türk Ceza Kanunu (5237; 217/A maddesi 7418 sayılı kanunla, 2022); 5651 sayılı kanun (2007, değişiklikleriyle); Siber Güvenlik Kanunu (7545, 2025); Mesafeli Sözleşmeler Yönetmeliği; Fikir ve Sanat Eserleri Kanunu (5846); Sınai Mülkiyet Kanunu (6769); SHGM'nin İHA talimatları. Kaynak: [mevzuat.gov.tr](https://www.mevzuat.gov.tr), [shgm.gov.tr](https://shgm.gov.tr).
 - **Avrupa Birliği:** Genel Veri Koruma Tüzüğü (2016/679), Dijital Hizmetler Yasası (2022/2065), Dijital Piyasalar Yasası (2022/1925), Yapay Zekâ Yasası (2024/1689), sivil havacılıkta olay bildirimi tüzüğü (376/2014), Dijital Omnibus önerisi (Kasım 2025). Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
+- **Netiket:** Virginia Shea, *Netiquette* (1994); IETF, RFC 1855 *Netiquette Guidelines* (1995).
 - **Diğer:** Dünya Sağlık Örgütü, ICD-11 (2019; yürürlük 2022); Lawrence Lessig, *Code and Other Laws of Cyberspace* (1999); ABD'de Thaler ile Perlmutter temyiz kararı (2025) ve TAKE IT DOWN Act (2025).
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: dijital vatandaşlık, dijital ayak izi, aktif ayak izi, pasif ayak izi, dijital itibar, unutulma hakkı, dikkat ekonomisi, dijital iyi oluş, oyun bozukluğu, etik, adil kültür, aleniyet, dezenformasyon suçu (TCK 217/A), 5651 sayılı kanun, siber zorbalık, doxing, telif hakkı, FSEK, Creative Commons, CC0, kamu malı, copyleft, atıf, patent, marka, Brüksel etkisi, GDPR, Dijital Hizmetler Yasası (DSA), Dijital Piyasalar Yasası (DMA), Yapay Zekâ Yasası.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: dijital vatandaşlık, dijital ayak izi, aktif ayak izi, pasif ayak izi, dijital itibar, unutulma hakkı, dikkat ekonomisi, dijital iyi oluş, oyun bozukluğu, etik, adil kültür, aleniyet, dezenformasyon suçu (TCK 217/A), 5651 sayılı kanun, netiket, trol, siber zorbalık, doxing, telif hakkı, FSEK, Creative Commons, CC0, kamu malı, copyleft, atıf, patent, marka, Brüksel etkisi, GDPR, Dijital Hizmetler Yasası (DSA), Dijital Piyasalar Yasası (DMA), Yapay Zekâ Yasası.
 
 ## Kendini sına
 

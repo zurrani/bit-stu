@@ -4,4 +4,5 @@ format:
   html:
     css:
       - assets/css/fonts.css
+      - assets/css/mobil.css
       - assets/css/genel.css

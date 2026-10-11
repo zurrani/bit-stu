@@ -1,0 +1,524 @@
+---
+title: "Ek D · Netiket"
+description: "Çevrimiçi iletişimin görgü kuralları: beş ilke, kanallara göre gündelik vakalar ve göndermeden önce bir kontrol listesi."
+---
+
+Hafta 7'de netiketin kısa bir tanımını gördün. Bu ek, onu dönem boyunca ve sonrasında dönüp bakabileceğin bir kılavuza çeviriyor.
+
+Her bölüm küçük bir vakayla açılır: kimseye gerçekten zarar vermeyen ama birini kıran, yoran ya da bekleten gündelik hatalar. Vakayı okuyunca önce ne ters gittiğini kendin bulmaya çalış, sonra devam et. Her vakanın sonunda hangi ilkenin çiğnendiği numarasıyla yazılı; ilkeler 2. bölümde.
+
+Vakalardaki kişiler kurgusaldır: sınıf temsilcisi Ece, aceleci Emir, şakacı Mert, ekran okuyucuyla çalışan Selin, dersin öğretim görevlisi Öğr. Gör. Arslan ve Emir'in staj yaptığı yerdeki şef Deniz Hanım. Ece'yi ve Öğr. Gör. Arslan'ı Hafta 10'daki e-posta örneğinden tanıyorsun.
+
+## 1. Neden netiket?
+
+Hafta 7'deki vakayı hatırla:
+
+```text
+[Sınıf grubu · Salı 21:12]
+Ece:  Bugünkü sunum için herkese
+      teşekkürler 🙌
+Mert: harika sunumdu, uyumamak için
+      çok uğraştım 😂
+```
+
+Mert gülerek yazdı; Ece ise mesajı akşam boyunca birkaç kez okudu. Yüz yüze söylense Mert'in yüzü ve sesi şakayı taşırdı. Yazıda yalnızca kelimeler kaldı ve kelimeler "sıkıcıydı" diyordu.
+
+**Netiket**, çevrimiçi iletişimin görgü kurallarıdır (İngilizce internet ve etiket kelimelerinden). İnternet 1990'larda üniversite ve araştırma ağlarından çıkıp herkese açılırken yeni gelenler için bu kurallar yazıya geçirildi. İnternetin teknik standartlarını yazan kuruluş IETF, 1995'te bir netiket rehberi yayımladı (RFC 1855). Virginia Shea'nın 1994 tarihli *Netiquette* kitabındaki ilk kural ise bugün de bütün kuralların özüdür: **Ekranın öbür ucunda bir insan var.**
+
+Yazıda neden bu kadar kolay yanlış anlaşılıyoruz? Yüz yüze konuşmada mesajın bir kısmını ses tonu, yüz ifadesi ve duraklamalar taşır. Yazıda bunlar yoktur; alıcı eksik kalanı kendi ruh haliyle doldurur. Yorgun ya da kaygılıysa nötr bir "tamam." bile soğuk okunur. Gönderen ise bunu fark etmez, çünkü yazarken kafasındaki ses tonunu duyar.
+
+::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
+"Şaka yaptığım anlaşılır." Çoğu zaman yanlış. 2005'te yayımlanan bir dizi deneyde katılımcılar kısa cümleler yazdı; bir kısmı ciddi, bir kısmı iğneleyiciydi. Gönderenler, alıcının hangisinin hangisi olduğunu büyük çoğunlukla anlayacağını tahmin etti. Alıcılar ise yazı üzerinden yazı tura atmaktan pek de iyi olmayan bir oranda doğru tahmin etti; aynı cümleler sesli söylendiğinde doğru tahmin belirgin biçimde arttı. Araştırmacılar bunu benmerkezcilikle açıkladı: Gönderen kendi ses tonunu duyar ve alıcının da duyduğunu sanır. Yazıyla şaka yapacaksan bağlamı açık et; emin değilsen yüz yüze söyle.
+:::
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Bir mesaj yüzünden kırıldığın ya da birini kırdığın bir anı hatırla. Aynı kelimeler yüz yüze söylenseydi aynı etkiyi yaratır mıydı? Ne değişirdi?
+:::
+
+## 2. Beş ilke
+
+Netiket bir yasak listesi değildir. Kuralların çoğu beş ilkeden kendiliğinden çıkar; bir kuralı unuttuğunda ilkeye dön.
+
+::: {.tablo-kaydir}
+| İlke | Ne demek? | Tersi |
+|---|---|---|
+| **1. Karşında bir insan var** | Mesajın okunacağı anı ve okuyanın durumunu düşünmek | Ekrana konuşur gibi yazmak |
+| **2. Yüz yüze söylemeyeceğini yazma** | Ekran insana cesaret verir; ölçüt yüz yüze konuşmadır | Sert yorum, iğneleme, toplu alay |
+| **3. Karşının zamanına ve dikkatine saygı göster** | Kısa, net, tek mesaj; doğru kanal, doğru saat | Parça parça mesaj, gece bildirimi, gereksiz etiket |
+| **4. Başkasının verisi senin değil** | Mesaj, fotoğraf, numara ve ekran görüntüsü sahibinindir | İzinsiz taşımak, etiketlemek, gruba eklemek |
+| **5. Hata yaparsan kabul et ve düzelt** | Özür, düzeltme, gerekirse silme | Savunmaya geçmek, "şakaydı" demek |
+:::
+
+## 3. Kanala göre netiket
+
+Aynı mesaj bir kanalda yerindeyken başka bir kanalda netiketsiz olabilir. Önce kanalı seç:
+
+::: {.tablo-kaydir}
+| Ne iletmek istiyorsun? | Uygun kanal | Neden? |
+|---|---|---|
+| Kısa, acil olmayan bir soru | Anlık mesaj | Karşındaki uygun olduğunda okur |
+| Kayıt kalması gereken bir talep, belge ya da resmî bilgi | E-posta | Konu satırı, ek ve arşiv; kurumda iz bırakır |
+| Gerçekten acil bir durum (bugün, şimdi) | Telefon | Mesaj okunmayabilir; arama dikkat çeker |
+| Kötü haber, özür, hassas konu, uzayan tartışma | Yüz yüze ya da görüntülü | Ses tonu ve yüz ifadesi yanlış anlamayı önler |
+| Herkesi ilgilendiren duyuru | Grup ya da duyuru kanalı | Bir kez yazılır, herkes görür |
+| Yalnızca bir kişiyi ilgilendiren konu | Birebir mesaj | Kırk kişiyi meşgul etmez |
+:::
+
+### Birebir mesaj
+
+```text
+[Emir → Ece · Çarşamba]
+14:02  Emir: merhaba
+14:21  Emir: müsait misin
+14:34  Emir: bir şey sorcam
+14:34  Emir: yarın
+14:34  Emir: lab
+14:35  Emir: kaçta
+```
+
+**Ne ters gitti?** Ece yarım saat boyunca gelecek soruyu bekledi. Soru gelince de altı parçaya bölündü ve altı bildirim oldu (ilke 3).
+
+**Daha iyisi:** "Merhaba Ece, yarınki laboratuvar kaçta başlıyor, biliyor musun?"
+
+- **Selamı ve soruyu tek mesajda yaz.** "Müsait misin?" diye sorup bekleme; soruyu yaz, karşındaki müsait olduğunda cevaplar.
+- **Düşünceni bitir, sonra gönder.** Her satır ayrı bir bildirimdir.
+- **Aramadan önce sor:** "Beş dakika konuşabilir miyiz?" Habersiz görüntülü arama, kapıyı çalmadan içeri girmek gibidir.
+- **Okundu bilgisi bir cevap sözü değildir.** Okuyup sonra cevaplamak normaldir (4. bölüm).
+
+### Grup
+
+```text
+[Sınıf grubu · 42 üye · Perşembe 10:15]
+Ece:  Duyuru: Cuma günkü ders
+      yapılmayacak, telafisi
+      duyurulacak.
+Can:  tamam
+Mert: ok
+Emir: 👍
+(… 14 kişi daha "tamam" yazıyor)
+Emir: @herkes lab 3te kulaklığımı
+      unuttum gören var mı
+```
+
+**Ne ters gitti?** Kırk iki kişinin telefonu on yedi kez çaldı ve asıl duyuru mesajların arasında kayboldu. Emir yalnızca kendisini ilgilendiren bir soru için herkesi etiketledi (ilke 3).
+
+**Daha iyisi:** Cevap gerektirmeyen bir duyuruya mesaj yazma; uygulama izin veriyorsa bir tepki bırak. Kayıp kulaklık gibi bir soruyu etiketsiz yaz ya da önce laboratuvar görevlisine sor.
+
+- **Yazmadan önce sor:** Bu mesaj kırk kişiyi ilgilendiriyor mu? İlgilendirmiyorsa birebir yaz.
+- **Herkesi etiketleme** yalnızca gerçekten herkesi ilgilendiren ve acil olan durumlar içindir.
+- **Tartışma uzuyorsa** birebire ya da yüz yüze geç (5. bölüm).
+- **Konu dışı paylaşımlar** (şaka, video, zincir mesaj) ders grubunu boğar; onlar için ayrı bir grup açın.
+- **Grubu sen kurduysan** kuralları baştan yaz ve sabitle: grubun amacı, hangi saatlerde yazılacağı, neyin paylaşılmayacağı.
+- **Sessize almak kabalık değildir;** ama sabitlenmiş duyuruları kaçırma. Gruptan ayrılırken tek bir cümle yeter.
+- **Hafta 7'deki kurallar** burada da geçerli: izinsiz taşıma yok, izinsiz ekleme yok, büyük harf yok.
+
+### Sesli mesaj
+
+```text
+[Mert → Ece · Cuma 09:40]
+Mert: 🎤 Sesli mesaj · 4:12
+```
+
+İki dakikalık bir girişten sonra, kaydın ortasında tek bir soru var: "Proje toplantısı hangi sınıftaydı?"
+
+**Ne ters gitti?** Ece kalabalık bir otobüsteydi ve kulaklığı yoktu. Tek satırlık bir soru dört dakikalık bir kayda gömüldü; cevabını metin gibi arayamaz, kopyalayamaz (ilke 3).
+
+**Daha iyisi:** "Proje toplantısı hangi sınıftaydı?"
+
+- **Sesli mesaj** uzun bir anlatım, ses tonunun önemli olduğu anlar (tebrik, teselli) ya da yazmanın zor olduğu durumlar içindir. Saat, yer ve numara gibi bilgiler yazıyla gider.
+- **Uzun bir sesli mesajın altına** bir cümlelik özet ekle.
+- **Başkasının sesli mesajını** kalabalık bir ortamda hoparlörden dinleme; içinde sana özel bir şey olabilir (ilke 4).
+- **Duyma engelli biri için** metin tek erişim yolu olabilir (8. bölüm).
+
+### E-posta
+
+```text
+Kime: (öğretim görevlisinin adresi)
+Konu: (boş)
+
+notum neden düşük
+```
+
+**Ne ters gitti?** Konu, hitap, ad ve ders yok. Öğr. Gör. Arslan birkaç şubedeki yüzlerce öğrenciden hangisinin yazdığını bulmak zorunda. Kısa ve sert ton da bir talepten çok bir suçlama gibi okunuyor (ilke 1, 3).
+
+**Daha iyisi:**
+
+```text
+Konu: BIT vize notu hakkında,
+      Emir Aksoy (2. şube)
+
+Sayın Öğr. Gör. Arslan,
+
+Temel Bilgi Teknolojileri dersinin
+2. şubesinden Emir Aksoy'um. Vize
+notumu gördüm; hangi sorularda puan
+kaybettiğimi öğrenmek istiyorum.
+Uygun olduğunuz bir saatte sınav
+kâğıdıma bakabilir miyim?
+
+Saygılarımla,
+Emir Aksoy
+```
+
+E-postanın parçaları, alıcı alanları ve "tümünü yanıtla"nın tuzakları Hafta 10'da. Bir not daha: E-posta adresin de bir mesajdır. Derse ilişkin yazışmada kurumsal adresini kullan; kişisel bir adres gerekiyorsa adın ve soyadından oluşsun.
+
+### Sosyal medya ve yorum
+
+```text
+[Herkese açık paylaşım · Mert]
+(Fotoğraf: Proje gününden bir kare;
+ Emir sırada ağzı açık uyuyor)
+"Proje günü bitti, bazılarımız da
+ bitti 😂 @emir"
+```
+
+**Ne ters gitti?** Emir o fotoğrafın paylaşılmasını istemezdi ve kimse ona sormadı. Etiketlendiği için fotoğraf onun arkadaşlarına da gitti; staj başvurusu yaptığı yerdeki biri de görebilir (ilke 2, 4).
+
+**Daha iyisi:** Paylaşmadan önce sor: "Bu fotoğrafı paylaşabilir miyim?" On saniye sürer.
+
+- **Başkasının göründüğü** fotoğrafı ya da videoyu paylaşmadan ve etiketlemeden önce izin iste.
+- **Yorumda kişiye değil içeriğe** cevap ver. Tanımadığın biri de bir insandır (ilke 1).
+- **Paylaşmadan önce üç soru:** Doğru mu (Hafta 5)? Paylaşmak benim hakkım mı (Hafta 8)? Birini kırar mı?
+- **Bir kişiye yönelen toplu öfkeye,** yani linç kalabalığına katılma; ona bir yorum daha eklemek, zorbalığa ortak olmaktır (Hafta 7).
+- **Trole yem verme.** Tartışmayı bilerek kışkırtan hesaba en iyi cevap, cevap vermemektir; gerekirse engelle ve bildir.
+- **Herkese açık hesabın** dijital itibarındır (Hafta 7). Bugün yazdığın yorumu yıllar sonra bir işveren okuyabilir.
+
+### Çevrim içi toplantı
+
+```text
+[Çevrim içi ders · 38 katılımcı]
+(Emir'in mikrofonu açık; arkada
+ televizyon ve tencere sesi)
+Öğr. Gör. Arslan: Emir, mikrofonun
+                  açık galiba.
+(Cevap yok. Emir başka bir sekmede.)
+```
+
+**Ne ters gitti?** Otuz sekiz kişi dersi televizyonun sesinin üstünden dinlemeye çalıştı ve adı anıldığında cevap verecek kimse yoktu (ilke 1, 3).
+
+**Daha iyisi:** Konuşmuyorken mikrofon kapalı; adın anıldığında cevap verebilecek kadar orada ol.
+
+- **Teknik prova, ekran paylaşımı, kamera ve ortam** Hafta 13'te (Çevrim içi sunum).
+- **Toplantının sohbet alanı** herkese açıktır; yan konuşma herkes tarafından okunur. Birebir yazdığını sandığın bir mesajın kime gittiğine bak.
+- **Toplantıyı kaydedeceksen** herkese önceden söyle (Hafta 7 ve 8).
+- **Zamanında katıl;** erken ayrılman gerekiyorsa başta söyle, ayrılırken bir cümle yaz.
+
+### Forum ve soru-cevap siteleri
+
+```text
+[Bir yardım forumu]
+Başlık: YARDIM!!!! acil
+Emir:   excel bozuldu formül
+        çalışmıyo ne yapcam
+
+(İki gün sonra, aynı başlıkta)
+Emir:   tamam hallettim
+```
+
+**Ne ters gitti?** Başlık sorunu anlatmıyor; hangi formülün, hangi hatayı, hangi sürümde verdiği belli değil. Yardım etmek isteyen önce on soru sormak zorunda (ilke 3). Çözümü yazmadan gitmek de aynı sorunu yaşayacak bir sonraki kişiyi eli boş bırakıyor.
+
+**Daha iyisi:** Başlık: "DÜŞEYARA #YOK hatası veriyor (Excel, Türkçe sürüm)". Gövdede ne yapmak istediğini, ne yazdığını, ne olduğunu ve neyi denediğini yaz; ekran görüntüsündeki kişisel bilgiyi karart. Sorun çözülünce: "Sorun hücrelerdeki fazladan boşluklarmış; KIRP işleviyle çözüldü. Teşekkürler!" (Hafta 11).
+
+- **Sormadan önce ara;** sorunun büyük olasılıkla daha önce sorulmuş ve cevaplanmıştır.
+- **Forumun kurallarını oku;** her topluluğun kendi düzeni vardır.
+- **Teşekkür et ve çözümü paylaş.** Forumlar, çözümünü yazan insanlar sayesinde işe yarar.
+- **Aynı soruyu beş foruma birden yapıştırma;** cevap verenlerin emeği boşa gider.
+
+### Oyun ve topluluklar
+
+```text
+[Çevrim içi oyun · sesli sohbet · maç sonu]
+Takım arkadaşı: sırf senin yüzünden
+                kaybettik, oyunu sil
+```
+
+**Ne ters gitti?** Kaybetmenin öfkesi bir insana yöneldi. Karşısındaki, on iki yaşında bir çocuk da olabilirdi; ilk maçını oynayan biri de (ilke 1, 2).
+
+**Daha iyisi:** "İyi oyundu, sonrakinde." Ya da hiçbir şey. Kaybettikten sonra bir mola ver.
+
+- **Oyun sohbeti de bir kamusal alandır.** Küfür ve aşağılama bildirilir; platformların kuralları hesabın kısıtlanmasına kadar gidebilir.
+- **Takım oyununda maçı habersiz terk etmek** takımın geri kalanını cezalandırır.
+- **Saldırgan bir oyuncu karşısında** sessize al, bildir, oyuna devam et. Tartışmaya girmek ateşe odun atmaktır.
+- **Topluluk sunucularında** (oyun, hobi, ders toplulukları) kanalların amacına uy, sabitlenmiş kuralları oku, yöneticilerin uyarısına saygı göster.
+
+### Staj ve iş yazışması
+
+```text
+[Emir → Deniz Hanım · Pazar 23:58]
+Emir: abla yarın gelemicem hastayım
+```
+
+**Ne ters gitti?** Haber vermesi doğruydu; biçimi yanlıştı. Staj yerindeki şefine gece yarısı, kişisel mesaj uygulamasından ve "abla" diye yazdı. Kim olduğunu, ne zaman döneceğini ve yarım kalan işinin ne olacağını söylemedi (ilke 1, 3).
+
+**Daha iyisi:** Sabah mesai başlamadan ve staj yerinin istediği kanaldan:
+
+```text
+Günaydın Deniz Hanım, ben stajyer
+Emir Aksoy. Ateşim olduğu için bugün
+gelemeyeceğim; doktora gidip rapor
+alacağım. Dün başladığım envanter
+listesini ortak klasöre kaydettim,
+kaldığım yeri dosyanın başına not
+ettim. Yarınki durumumu sabah 8'de
+bildireceğim.
+```
+
+- **İlk yazışmada ton resmîdir;** karşındaki samimi bir dile geçerse onu izle. Hitap "Deniz Hanım", "Kaan Bey"; "abla", "abi", "kanka" iş yazışmasına uygun değildir.
+- **Staj yerine hangi kanaldan yazılacağını ilk gün sor.** Bazı yerler e-posta ister, bazıları belirli bir grup kullanır.
+- **Gece yazman gerekiyorsa** zamanlanmış gönderimi kullan (4. bölüm).
+- **E-posta adresin, profil fotoğrafın ve durum mesajın** iş yerinde de görünür; bir ilk izlenimdir.
+- **Kurumun bilgisi kurumda kalır.** Müşteri listeleri, iç belgeler, teknik dokümanlar kişisel gruplarda paylaşılmaz; gizlilik sözleşmesini ve kişisel verilerin korunmasını ihlal edebilir (Hafta 7 ve 8).
+- **Mesai dışı yazışmada** kurumun beklentisini sor; her mesaja anında cevap vermek zorunda değilsin.
+
+## 4. Zaman ve hız
+
+```text
+[Sınıf grubu · Pazar 23:47]
+Emir: arkadaşlar yarınki ödev neydi
+Emir: ??
+Emir: ACİL
+Emir: kimse yok mu
+```
+
+**Ne ters gitti?** Gece yarısı kırk kişiyi dört bildirimle uyandırdı. Sorunun cevabı duyuruda zaten yazıyor. Büyük harf bağırmak gibi okunuyor (ilke 3).
+
+**Daha iyisi:** Önce duyuruya bak. Bulamazsan tek mesajla sor: "Yarınki BIT ödevinin teslim biçimini bulamadım, bilen var mı? Acelesi yok, sabah bakarım."
+
+Netiket yalnızca öğrenciler için değildir:
+
+```text
+[Sınıf grubu · Pazar 23:40]
+Öğr. Gör. Arslan: Arkadaşlar, yarın
+sabah 09:00'a kadar proje konularınızı
+gruba yazar mısınız?
+```
+
+**Ne ters gitti?** Talep gece geldi ve dokuz saatlik bir süre verdi. Öğrencilerin çoğu mesajı sabah gördüğünde süre bitmek üzereydi (ilke 3).
+
+**Daha iyisi:** Talebi mesai saatinde ve makul bir süreyle iletmek ya da gece yazılan mesajı sabaha zamanlamak: "Arkadaşlar, proje konularınızı Çarşamba 17:00'ye kadar gruba yazar mısınız?"
+
+Çoğu kurumda yaygın beklentiler şöyledir; kendi okulunun ve iş yerinin kurallarını ayrıca öğren:
+
+::: {.tablo-kaydir}
+| Kanal | Makul yanıt süresi | Not |
+|---|---|---|
+| Arkadaşa anlık mesaj | Aynı gün | Hemen cevap zorunlu değil |
+| İş ya da staj için anlık mesaj | Mesai içinde aynı gün | Mesai dışı bir mesaja ertesi gün cevap vermek normaldir |
+| E-posta | Bir iki iş günü | Cevap uzayacaksa "Aldım, Cuma'ya kadar dönüyorum" yaz |
+| Cevapsız arama | Uygun olunca geri dön | Dönemiyorsan kısa bir mesaj yaz |
+:::
+
+- **Sessiz saatler:** Acil olmayan mesajı gece 22:00 ile sabah 08:00 arasında gönderme. Gece aklına geldiyse zamanlanmış gönderimi kullan ya da taslağa kaydet.
+- **Kendi bildirimlerini de yönet:** Rahatsız etme modu ve uygulama bazında bildirim ayarları, Hafta 7'deki dijital iyi oluşun parçasıdır.
+- **Okundu bilgisi baskı aracı değildir.** Birinin mesajını okuyup cevaplamaması çoğu zaman meşgul olduğu anlamına gelir; hemen kişisel algılama (ilke 1). İstersen okundu bilgisini kendin de kapatabilirsin.
+- **"?", "??" ve "neden cevap vermiyorsun" yazmak** baskıdır. Bir gün sonra kibar bir hatırlatma yeter: "Önceki mesajımı görme fırsatın oldu mu?"
+- **Hızlı cevap, yanlış cevaptan iyi değildir.** Emin değilsen "Kontrol edip dönüyorum" de ve dön.
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Steril kokpit"}
+ABD'de 1981'de yürürlüğe giren bir kural, ticari uçuşlarda kalkış, iniş ve yaklaşık 10.000 fitin altındaki bütün uçuş safhalarında kokpitte uçuşla ilgisi olmayan konuşmayı ve işi yasaklar. Kuralın arkasında, dikkati dağılmış ekiplerin karıştığı kazalar vardır. Bakımda da benzer bir anlayış geçerlidir: Kritik bir işin ortasındaki teknisyenin dikkati bölünmez; soru, iş bitince sorulur. Mesajlaşmadaki karşılığı aynı: Karşındakinin o an neyle meşgul olduğunu düşün ve acil olmayanı doğru ana bırak.
+:::
+
+## 5. Anlaşmazlık ve öfke
+
+```text
+[Proje grubu · 4 üye · Salı 22:05]
+Ece:  Emir, senin bölümün hâlâ yok.
+      Yarın teslim.
+Emir: herkes bana yüklenmeyi seviyo
+      zaten
+Mert: ya bi sakin olun
+Ece:  Sakinim. Sadece hep aynı şey
+      oluyor.
+Emir: TAMAM YAPMAYIN O ZAMAN BEN
+      YAPARIM HEPSİNİ
+```
+
+**Ne ters gitti?** Konu iş bölümüydü; birkaç mesajda kişiliklere döndü. "Hep", "herkes" ve "zaten" kelimeleri bir işten değil bir insandan şikâyet ediyor. Ses tonu olmadığı için her mesaj bir öncekinden sert okundu ve sonunda büyük harfle bağırmaya dönüştü (ilke 1, 2).
+
+**Daha iyisi:** Ece'nin ilk mesajı: "Emir, bulgular bölümü hâlâ klasörde görünmüyor; yarın 12:00'de teslim ediyoruz. Yetiştirmekte zorlanıyorsan bu akşam beş dakika konuşalım, işi bölüşebiliriz." Emir'in cevabı: "Haklısın, gecikti. Gece 23:00'e kadar yüklerim; tablosunu sabah birlikte kontrol edelim mi?"
+
+- **İşi konuş, kişiyi değil.** "Hep", "hiç", "zaten" ve "herkes" tartışmayı kişiselleştirir; bunun yerine durumu, etkisini ve önerini yaz.
+- **İki mesajdan sonra hâlâ anlaşamıyorsanız** kanal değiştirin: telefon ya da yüz yüze (3. bölümdeki tablo).
+- **Öfkeyle yazdığını gönderme.** Taslağa kaydet, bir süre sonra yeniden oku. Hafta 10'daki e-posta kuralı her kanalda geçerlidir.
+- **Bir kişiyle sorunun varsa** onu herkesin önünde tartışma; birebir yaz.
+- **Özür üç parçalıdır:** Ne yaptım, bunun etkisi ne oldu, bundan sonra ne yapacağım. "Kırıldıysan özür dilerim" bir özür değildir; sorumluluğu karşındakine yükler. Örnek: "Dün gece büyük harfle yazdım, ekibe bağırmış gibi oldum; özür dilerim. Bölümümü bu akşam 20:00'de yüklüyorum." (ilke 5)
+- **Kasıt ve tekrar varsa** artık bir anlaşmazlık değil, siber zorbalıktır: Hafta 7'deki adımlar geçerli (sakla, bildir, destek al).
+
+::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Saygılı ama açık"}
+1970'lerdeki bazı kazaların incelemelerinde, kokpitte bir sorunu fark eden ekip üyelerinin bunu kaptana yeterince açık söyleyemediği görüldü. Bunun üzerine havacılıkta ekip kaynak yönetimi (Crew Resource Management, CRM) eğitimleri yaygınlaştı; bakım ekiplerinde de benzeri vardır (Maintenance Resource Management, MRM). Özünde saygılı ama açık iletişim yatar: Kişiyi değil durumu söyle, endişeni adıyla belirt, bir çözüm öner ve cevap iste. "Kaptan, yakıta bir baksanız mı?" yerine: "Kaptan, 20 dakikalık yakıtımız kaldı; şimdi yedek meydana dönmemiz gerekiyor. Onaylıyor musunuz?" Proje grubunda da aynısı işe yarar: suçlamadan durum, etki ve öneri.
+:::
+
+## 6. Başkasının verisi ve görüntüsü
+
+```text
+[Ece → Mert · birebir · 18:30]
+Ece:  Aramızda kalsın, bu dönem bursla
+      ilgili sıkıntıdayım, ödevleri
+      yetiştiremiyorum.
+
+[Altı kişilik başka bir grup · 19:35]
+Mert: (Ece'nin mesajının ekran
+      görüntüsü) Ece'ye biraz yardım
+      edelim mi?
+```
+
+**Ne ters gitti?** Mert iyi niyetliydi. Ama Ece'nin özel derdini ona sormadan altı kişiye taşıdı. Ece'nin ekonomik durumu artık onun kontrolünde değil (ilke 4).
+
+**Daha iyisi:** Önce Ece'ye sor: "Ödevlerde destek olmak isterim. Diğerlerine de söyleyebilir miyim, yoksa aramızda mı kalsın?"
+
+- **Birebir mesaj,** gönderenin izni olmadan başka yere taşınmaz. Ekran görüntüsü de bir taşımadır.
+- **Taşıman gerçekten gerekiyorsa** adı, numarayı ve profil fotoğrafını karart; bağlamdan koparma. Tek bir cümlenin ekran görüntüsü, konuşmanın tamamını anlatmaz.
+- **Birini gruba eklemeden ve numarasını başkasına vermeden önce** ona sor.
+- **Fotoğraf ve videoda** içinde görünen herkese sor. Çocukların görüntülerini paylaşırken iki kez düşün.
+- **Konum:** Canlı konum paylaşımı ve fotoğrafların içindeki konum bilgisi, nerede yaşadığını ve ne zaman evde olmadığını anlatır (Hafta 8).
+- **Sınıf listesi, not listesi, telefon listesi** gibi toplu kişisel veriler gruplarda dolaşmaz (Hafta 8, KVKK).
+- **Hukuki boyutu da var:** Özel hayatın gizliliğini ihlal etmek ve kişisel verileri hukuka aykırı biçimde yaymak suç olabilir (Hafta 7, 4. bölüm).
+
+## 7. Yapay zekâ çağında netiket
+
+```text
+[Mert → Ece · Perşembe 19:20]
+Mert: Elbette! İşte samimi ve içten
+      bir taziye mesajı:
+
+      "Sevgili Ece, büyükannenin
+      vefatını duyduğuma çok üzüldüm.
+      Bu zor günlerde..."
+```
+
+**Ne ters gitti?** Mert ne yazacağını bilemediği için mesajı bir sohbet asistanına yazdırdı; niyeti iyiydi. Ama asistanın giriş cümlesini silmeyi unuttu. Ece en zor gününde mesajın bir makineye yazdırıldığını gördü (ilke 1).
+
+**Daha iyisi:** Kısa ve kendi cümlelerinle: "Ece, büyükanneni duydum, çok üzüldüm. Bir şeye ihtiyacın olursa buradayım." Taziyenin, tebriğin ve özrün değeri, onu senin yazmandadır.
+
+- **YZ'yle yazdığın mesajın sorumluluğu sende.** Fikir alabilirsin; ama gönderdiğin her kelimeyi oku ve sahiplen. Ödevde ya da başvuruda YZ'den yararlandıysan beyan et (Hafta 6).
+- **Başkasının mesajını, e-postasını ya da ekran görüntüsünü** bir sohbet asistanına yapıştırmak, onun verisini üçüncü bir tarafa vermektir (Hafta 8, ilke 4). Adları ve kişisel bilgileri çıkar ya da hiç yapıştırma.
+- **"YZ'ye sordum, şöyle diyor":** Sana sorulan bir soruya asistanın cevabını kontrol etmeden yapıştırmak, sorana emek vermemektir. Cevap yanlışsa yanlışı sen yaymış olursun (Hafta 5 ve 6). Bildiğini yaz ya da kontrol ederek ve kaynağıyla paylaş.
+- **Toplantıda not alan ya da kayıt yapan YZ araçları:** Toplantıdaki herkese önceden söyle; itiraz eden olursa kapat (Hafta 7 ve 8).
+- **Birinin yüzüyle ya da sesiyle** YZ'yle üretilmiş "şaka" görsel ya da ses yapma; izni yoksa şaka değildir. Sahte görüntülerin hukuki boyutu Hafta 7'de.
+- **Uygulamaların önerdiği hazır cevaplar** ("Harika!", "Teşekkürler!") kısa yazışmada pratiktir; ama bir insanın derdine hazır cevapla karşılık verme.
+
+::: {.callout-caution .kutu-dusun title="Düşün"}
+Son bir haftada bir yapay zekâ aracına yazdırdığın ya da düzelttirdiğin bir mesaj var mı? Alıcı bunu bilseydi mesajın anlamı onun için değişir miydi?
+:::
+
+## 8. Erişilebilirlik ve kültür farkı
+
+```text
+[Sınıf grubu · Pazartesi 09:10]
+Ece: (Afiş görseli: vize programı,
+     tarihler ve salonlar)
+Ece: 👆👆👆🔥🔥 #vizehaftasıbaşlıyor
+```
+
+Selin'in ekran okuyucusu bu iki mesajı şöyle seslendirdi: "Görsel. Yukarıyı gösteren el, yukarıyı gösteren el, yukarıyı gösteren el, ateş, ateş, vizehaftasıbaşlıyor." Programın kendisi görselin içinde kaldı.
+
+**Ne ters gitti?** Bilgi yalnızca görselin içindeydi ve ekran okuyucu görseldeki yazıyı okuyamadı. Emojiler tek tek seslendirildi; etiket tek bir uzun kelime gibi okundu (ilke 1). Ece'nin niyeti iyiydi; yalnızca herkesin mesajı aynı biçimde okumadığını düşünmedi.
+
+**Daha iyisi:**
+
+```text
+Ece: Vize programı: BIT 4 Kasım
+     Çarşamba 10:00, A-204. Diğer
+     derslerin tarihleri afişte.
+     (Afiş görseli, alternatif
+     metniyle)
+     #VizeHaftası
+```
+
+- **Görseldeki bilgiyi metin olarak da yaz;** platform izin veriyorsa görsele alternatif metin ekle (Hafta 10).
+- **Çok kelimeli etiketlerde** her kelimeyi büyük harfle başlat (#VizeHaftası). Ekran okuyucu kelimeleri ayırabilir, göz de daha kolay okur.
+- **Emojiyi süs olarak kullan, dizi yapma;** bir anlam taşıyorsa onu kelimeyle de söyle.
+- **Sesli mesaja ve videoya** yazılı bir özet ya da altyazı ekle.
+- **Bilgiyi yalnızca renkle verme** ("kırmızılar bu hafta"); renk körlüğü olan biri için kırmızı ile yeşil aynı görünebilir (Hafta 13).
+- **Süslü yazı tipi gibi görünen karakterler** (bazı uygulamaların sunduğu "şık yazı" seçenekleri) aslında başka alfabelerden ya da matematik simgelerinden seçilmiş karakterlerdir; ekran okuyucu onları okuyamaz ya da harf harf okur.
+
+Aynı işaret herkes için aynı anlamı taşımaz. 🙏 kimine göre teşekkür, kimine göre rica; 👍 kiminin gözünde "tamam", kiminin gözünde soğuk bir "tamam, uzatma"; 🙂 bazı genç kullanıcılara içten değil, alaycı gelebilir. Kuşaktan kuşağa, kültürden kültüre anlam kayar. Emin olmadığın birine kelimeyle yaz. Başka bir ülkeden biriyle yazışırken saat dilimini, tatil günlerini ve hitap biçimlerini düşün; çeviri aracıyla yazacaksan cümleleri sade tut, deyim kullanma.
+
+## 9. Göndermeden önce
+
+Göndermeden önce on saniye:
+
+- [ ] Bu kişiye bu kanaldan, bu saatte yazmak uygun mu? (ilke 3)
+- [ ] Bu mesajı yüz yüze aynı kelimelerle söyler miydim? (ilke 2)
+- [ ] Alıcı yorgun ya da kaygılıysa bu mesajı nasıl okur? (ilke 1)
+- [ ] Selam, kim olduğum ve asıl söyleyeceğim tek mesajda mı? (ilke 3)
+- [ ] Ne istediğim ve ne zamana kadar istediğim açık mı? (ilke 3)
+- [ ] İçinde başkasının mesajı, fotoğrafı, numarası ya da kişisel bilgisi var mı? Varsa izni var mı? (ilke 4)
+- [ ] Görseldeki bilgi metinde de yazıyor mu? (ilke 1)
+- [ ] Yapay zekâdan yardım aldıysam her kelimeyi okudum mu? (ilke 1)
+- [ ] Öfkeli miyim? Öyleyse mesaj taslakta bekliyor. (ilke 2)
+- [ ] Büyük harf, gereksiz etiket ya da emoji dizisi var mı? (ilke 3)
+
+### Bu mesajda kaç hata var?
+
+Emir'in staj yerine yazdığı mesajları oku. Önce hataları kendin say, sonra cevaba bak.
+
+```text
+[Emir → Deniz Hanım · Cumartesi 01:12]
+Emir: slm
+Emir: ABLA PAZARTESİ STAJA GELEMİCEM
+Emir: sınavım var
+Emir: 🎤 Sesli mesaj · 3:05
+Emir: bide geçen hafta kaan abinin
+      attığı müşteri listesini sınıf
+      grubuna attım bende açılmıyodu
+      belki onlarda açılır
+Emir: neyse cevap yazın
+Emir: ??
+```
+
+::: {.callout-note collapse="true" title="Cevap"}
+En az on hata var:
+
+1. **Saat:** Cumartesi gece 01:12'de, acil olmayan bir konu için (ilke 3).
+2. **Kanal:** Kişisel mesaj uygulaması. İzin talebi kayıt kalması gereken bir taleptir; staj yerinin istediği kanaldan, büyük olasılıkla e-postayla gider (ilke 3).
+3. **Hitap ve tanıtma:** "slm" ve "abla"; Emir adını söylemiyor (ilke 1).
+4. **Parça parça mesaj:** Yedi mesaj, yedi bildirim (ilke 3).
+5. **Büyük harf:** Bağırmak gibi okunuyor (ilke 2).
+6. **Talep değil bildirim:** "Gelemicem" diyor; izin istemiyor, eksik günü nasıl telafi edeceğini söylemiyor (ilke 1).
+7. **Sesli mesaj:** Bilgi üç dakikalık bir kayda gömülmüş; iş ortamında dinlenemeyebilir (ilke 3).
+8. **Kurumun verisi:** Müşteri listesini sınıf grubuna göndermiş. En ciddi hata budur: Kurumun bilgisi kurum dışına çıkmış, içindeki kişisel veriler yayılmış (ilke 4; Hafta 8).
+9. **Hatayı saklamak:** Bu ciddi hatayı geçerken anıyor ve ne yaptığını söylemiyor (ilke 5).
+10. **Baskı:** "neyse cevap yazın" ve "??" (ilke 1, 3).
+11. **Özensiz yazım:** "gelemicem", "bide", "açılmıyodu"; iş yazışmasında karşındakine değer vermediğin izlenimini verir (ilke 1).
+
+Daha iyisi, Cumartesi sabahına zamanlanmış bir e-posta:
+
+```text
+Konu: 2 Kasım Pazartesi için izin
+      talebi, Emir Aksoy (stajyer)
+
+Sayın Deniz Hanım,
+
+Ben stajyer Emir Aksoy. 2 Kasım
+Pazartesi saat 10:00'da vize sınavım
+olduğu için o gün staja gelemeyeceğim.
+Uygun görürseniz eksik günü Cuma günü
+tamamlayabilirim.
+
+Ayrıca bir hatamı bildirmem gerekiyor:
+Kaan Bey'in geçen hafta gönderdiği
+müşteri listesini, dosya bende
+açılmadığı için yanlışlıkla sınıf
+grubuma gönderdim. Fark ettiğim anda
+gruptan sildim ve arkadaşlarımdan da
+silmelerini istedim. Kurum dosyalarını
+bundan sonra kurum dışına
+göndermeyeceğim. Yapmam gereken başka
+bir şey varsa hemen yaparım.
+
+İyi çalışmalar dilerim.
+
+Emir Aksoy
+Stajyer
+```
+:::
+
+## Kaynaklar
+
+Bu ek Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Vakalar ve kişiler kurgusaldır.
+
+- Virginia Shea, *Netiquette* (1994).
+- IETF, RFC 1855, *Netiquette Guidelines* (1995).
+- Justin Kruger, Nicholas Epley, Jason Parker ve Zhi-Wen Ng, "Egocentrism over e-mail: Can we communicate as well as we think?", *Journal of Personality and Social Psychology* (2005).
+- ABD Federal Havacılık İdaresi (FAA), steril kokpit kuralı (14 CFR 121.542, 1981).

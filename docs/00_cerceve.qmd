@@ -52,5 +52,5 @@ Konuyla ilgili film, belgesel ve videoları önerir.
 ## Kurallar
 
 - **Yapay zekâ yasak değildir.** Kullandığında nasıl kullandığını beyan edersin ve çıktının doğruluğundan sen sorumlusun. Ayrıntısı Hafta 6'da.
-- **İletişim:** Derse ilişkin yazışmalar kurumsal e-posta adresinden, konu satırında ders adı ve öğrenci numarasıyla yapılır. Ayrıntısı Hafta 10'da.
+- **İletişim:** Derse ilişkin yazışmalar kurumsal e-posta adresinden, konu satırında ders adı ve öğrenci numarasıyla yapılır. Ayrıntısı Hafta 10'da. Sınıf grubunda ve bütün çevrimiçi ortamlarda netiket geçerlidir (Hafta 7, [Ek D](../ekler/d_netiket.qmd)).
 - **Kaynak gösterme:** Başkasının metnini, görselini ya da fikrini kullandığında kaynağını belirtirsin. Ayrıntısı Hafta 5 ve 7'de.
