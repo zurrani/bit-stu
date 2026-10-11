@@ -36,7 +36,7 @@ else:
     BOLUMLER = {
         "planlama": ("Planlama", [f"planlama/{a}.md" for a in (
             "00_proje-rehberi", "01_ders-taslagi", "02_kaynak-envanteri", "03_durum",
-            "04_yeni-oturum", "05_sinav-modulu", "06_teyit-raporu")]),
+            "04_yeni-oturum", "05_sinav-modulu", "06_teyit-raporu", "07_yari-ters-yuz-taslak")]),
         "ogretim": ("Öğretim", [f"ogretim/{i:02d}_ogretim.md" for i in range(1, 15)]),
         "soru-bankasi": ("Soru bankası", ["soru-bankasi/00_standartlar.md"]
             + [f"soru-bankasi/{i:02d}_soru-bankasi.md" for i in range(1, 15)]
@@ -96,6 +96,8 @@ def hazirla(metin, genel):
                 if ad:
                     cikti += ["", f"**{ad.group(1)}**", ""]
                 continue
+            if re.match(r"^---+\s*$", satir):
+                satir = "***"        # yatay çizgi: iki "---" arası YAML sanılmasın
             if re.match(r"^#{1,5} ", satir):
                 satir = "#" + satir                      # başlıklar bir düzey aşağı
             satir = re.sub(r"\[([^\]]+)\]\(#[^)]*\)", r"\1", satir)          # sayfa içi bağlantı
