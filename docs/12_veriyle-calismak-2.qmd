@@ -25,7 +25,7 @@ Ekranda aynı veriyle çizilmiş iki grafik var. İkisi de bir laboratuvarın ü
 2. Temel, mantıksal, koşullu özet ve arama işlevleriyle veriden sonuç çıkarmak; hata değerlerini okumak.
 3. Özet tabloyla veriyi farklı ölçütlere göre özetlemek.
 4. Soruya uygun grafiği seçmek; yanıltıcı bir grafiği tanıyıp düzeltmek.
-5. Bulguyu sayıyla desteklenen kısa bir yorumla yazmak; yapay zekânın (YZ) önerdiği bir formülü test durumlarıyla sınamak.
+5. Bulguyu sayıyla desteklenen kısa bir yorumla yazmak; YZ'nin önerdiği bir formülü test durumlarıyla sınamak.
 
 Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
 
@@ -138,7 +138,7 @@ Formül bir şeyi hesaplayamadığında hücreye bir **hata değeri** yazar. Hat
 **EĞERHATA** bir hatayı başka bir değerle değiştirir: `=EĞERHATA(ÇAPRAZARA(…); "Kayıtta yok")`. Dikkatli kullan: Hatanın nedenini anlamadan onu gizlemek, bir uyarı lambasının ampulünü sökmeye benzer.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Tekrarlayan arızayı yakalamak"}
-Bakım planlamasında önemli sorulardan biri şudur: Aynı uçakta aynı sistem kısa sürede yeniden arızalanıyor mu? **Tekrarlayan arıza**, ilk onarımın sorunu gerçekten çözmediğinin işaretidir ve özel bir inceleme gerektirir. Kurgusal bir arıza tablosunda ÇOKEĞERSAY ile "aynı tescil, aynı ATA (Air Transport Association) bölümü, son 10 gün" koşullarını birlikte sayarak tekrarlayan arızaları işaretleyebilirsin. ATA bölümlerine göre bir özet tablo da filonun en çok hangi sistemle uğraştığını gösterir. Bu basit güvenilirlik analizinin sonucu, bakım planlayıcısına yazılan tek bir cümledir: "Son üç ayda ATA 32'de beş tekrarlayan arıza var; iniş takımı sensörlerinin tedarikçisiyle görüşülmeli."
+Bakım planlamasında önemli sorulardan biri şudur: Aynı uçakta aynı sistem kısa sürede yeniden arızalanıyor mu? **Tekrarlayan arıza**, ilk onarımın sorunu gerçekten çözmediğinin işaretidir ve özel bir inceleme gerektirir. Kurgusal bir arıza tablosunda ÇOKEĞERSAY ile "aynı tescil, aynı ATA bölümü, son 10 gün" koşullarını birlikte sayarak tekrarlayan arızaları işaretleyebilirsin. ATA bölümlerine göre bir özet tablo da filonun en çok hangi sistemle uğraştığını gösterir. Bu basit güvenilirlik analizinin sonucu, bakım planlayıcısına yazılan tek bir cümledir: "Son üç ayda ATA 32'de beş tekrarlayan arıza var; iniş takımı sensörlerinin tedarikçisiyle görüşülmeli."
 :::
 
 ## 5. Özet tablo
@@ -223,7 +223,7 @@ Bu hikâyenin dersi Excel'e güvenmemek değil, hesabı **yeniden üretilebilir*
 
 Elektronik tablo çok şey yapar, ama her şeyi yapmaz. Veri büyüdükçe, sık güncellendikçe ya da birçok kişiye sunulacağı zaman başka araçlar devreye girer:
 
-- **Pano** (dashboard): Birkaç grafiği ve göstergeyi tek ekranda toplayan, veri değiştikçe kendiliğinden güncellenen görünüm. Microsoft Power BI (business intelligence, iş zekâsı) Desktop ve Google Looker Studio ücretsiz olarak kullanılabilir.
+- **Pano** (dashboard): Birkaç grafiği ve göstergeyi tek ekranda toplayan, veri değiştikçe kendiliğinden güncellenen görünüm. Microsoft Power BI Desktop ve Google Looker Studio ücretsiz olarak kullanılabilir.
 - **Programlama:** Python gibi diller milyonlarca satırı işleyebilir ve her adımı bir betikte kaydettiği için analiz baştan sona yeniden üretilebilir. Google Colab, Python'u tarayıcıda kurulum olmadan çalıştırmanı sağlar.
 - **Veri tabanı:** Çok kullanıcılı, büyük ve sürekli güncellenen kayıtlar için elektronik tablo değil veri tabanı kullanılır (Hafta 11'deki satır sınırı hikâyesini hatırla).
 

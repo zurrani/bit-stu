@@ -40,7 +40,7 @@ Yazılımlar iki büyük gruba ayrılır:
 | Sistem yazılımı | Bilgisayarın çalışmasını ve donanımın yönetilmesini sağlar | İşletim sistemi, aygıt sürücüleri, BIOS ve UEFI |
 | Uygulama yazılımı | Kullanıcının işini görür | Tarayıcı, kelime işlemci, oyun, mesajlaşma uygulaması |
 
-Bilgisayar açıldığında ilk çalışan yazılım anakarttaki **UEFI**'dir (Unified Extensible Firmware Interface; eski bilgisayarlarda BIOS, Basic Input/Output System): donanımı kontrol eder ve işletim sistemini başlatır. **Aygıt sürücüleri** ise işletim sistemi ile belirli bir donanım (yazıcı, ekran kartı, kamera) arasında çevirmenlik yapar; sürücüsü olmayan bir yazıcıyı işletim sistemi tanımaz.
+Bilgisayar açıldığında ilk çalışan yazılım anakarttaki **UEFI**'dir (eski bilgisayarlarda BIOS): donanımı kontrol eder ve işletim sistemini başlatır. **Aygıt sürücüleri** ise işletim sistemi ile belirli bir donanım (yazıcı, ekran kartı, kamera) arasında çevirmenlik yapar; sürücüsü olmayan bir yazıcıyı işletim sistemi tanımaz.
 
 ### Yazılımı nasıl edinirsin?
 
@@ -71,7 +71,7 @@ Biraz ek bilgi: Bazı ofis aboneliklerinde süre dolunca belgelerin açılır am
 İşletim sistemi, donanım ile kullanıcı ve uygulamalar arasındaki yöneticidir. Beş temel görevi vardır:
 
 - **Süreç yönetimi:** Aynı anda açık onlarca programa sırayla işlemci zamanı verir.
-- **Bellek yönetimi:** Hangi programın RAM'in neresini kullanacağına karar verir; RAM (random access memory) yetmezse diskin bir bölümünü yedek bellek gibi kullanır; buna **sanal bellek** denir. Disk RAM'den çok daha yavaş olduğu için her şey ağırlaşır (Hafta 2'deki sürekli yanan disk ışığı).
+- **Bellek yönetimi:** Hangi programın RAM'in neresini kullanacağına karar verir; RAM yetmezse diskin bir bölümünü yedek bellek gibi kullanır; buna **sanal bellek** denir. Disk RAM'den çok daha yavaş olduğu için her şey ağırlaşır (Hafta 2'deki sürekli yanan disk ışığı).
 - **Dosya yönetimi:** Dosyaların diskte nerede ve nasıl tutulacağını düzenler.
 - **Giriş-çıkış yönetimi:** Klavyeden, kameradan, ağdan gelen ve ekrana, yazıcıya giden veriyi yönetir.
 - **Güvenlik:** Kullanıcı hesaplarını, izinleri ve programların birbirine karışmamasını sağlar.
@@ -84,7 +84,7 @@ Bu görevleri iş başında görmek için Windows'ta **Ctrl + Shift + Esc** tuş
 
 ### Grafik arayüz ve komut satırı
 
-Çoğumuz işletim sistemini **grafik arayüzle** (GUI, graphical user interface) kullanırız: pencereler, simgeler, fare. Ama hâlâ çok güçlü bir ikinci yol var: **komut satırı** (CLI, command-line interface). Komut satırında işlemleri yazarak yaparsın. İlk bakışta eski görünür, ama yüzlerce dosyaya aynı işlemi tek satırla uygulamak, uzaktaki bir sunucuyu yönetmek ya da bir işi otomatikleştirmek için vazgeçilmezdir.
+Çoğumuz işletim sistemini **grafik arayüzle** (GUI) kullanırız: pencereler, simgeler, fare. Ama hâlâ çok güçlü bir ikinci yol var: **komut satırı** (CLI). Komut satırında işlemleri yazarak yaparsın. İlk bakışta eski görünür, ama yüzlerce dosyaya aynı işlemi tek satırla uygulamak, uzaktaki bir sunucuyu yönetmek ya da bir işi otomatikleştirmek için vazgeçilmezdir.
 
 ```text
 dir              klasördeki dosyaları listeler (macOS ve Linux'ta: ls)
@@ -111,7 +111,7 @@ Grafik arayüzde de klavye zaman kazandırır. Birkaç **klavye kısayolu** her 
 macOS'te Ctrl'nin yerini çoğunlukla Command (⌘) tuşu alır.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
-Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistemiyle değil, **gerçek zamanlı işletim sistemleriyle** çalışır. Bunlarda önemli olan hız değil, öngörülebilirliktir: bir görevin her seferinde belirli bir süre içinde tamamlanacağı garanti edilmelidir. Bu yazılımlar DO-178C gibi standartlara göre, her satırı izlenebilir biçimde geliştirilir ve onaylanır. Kokpitte ise pilotlar haritalar, el kitapları ve performans hesapları için Elektronik Uçuş Çantası (EFB, electronic flight bag) olarak tabletler kullanır.
+Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistemiyle değil, **gerçek zamanlı işletim sistemleriyle** çalışır. Bunlarda önemli olan hız değil, öngörülebilirliktir: bir görevin her seferinde belirli bir süre içinde tamamlanacağı garanti edilmelidir. Bu yazılımlar DO-178C gibi standartlara göre, her satırı izlenebilir biçimde geliştirilir ve onaylanır. Kokpitte ise pilotlar haritalar, el kitapları ve performans hesapları için Elektronik Uçuş Çantası (EFB) olarak tabletler kullanır.
 :::
 
 ### Herkes için bir arayüz: erişilebilirlik özellikleri
@@ -125,7 +125,7 @@ Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistem
 | Yıl | İşletim sistemi | Önemi |
 |---|---|---|
 | 1969–1973 | Unix (Bell Laboratuvarları) | Çok kullanıcılı tasarım; bugünkü Linux, macOS, Android ve iOS'un düşünsel atası |
-| 1981 | MS-DOS (Microsoft Disk Operating System) | IBM PC ile yaygınlaşan, komut satırlı işletim sistemi |
+| 1981 | MS-DOS | IBM PC ile yaygınlaşan, komut satırlı işletim sistemi |
 | 1984 | Macintosh | Grafik arayüzü ve fareyi geniş kitlelere taşıdı |
 | 1985 | Windows 1.0 | Microsoft'un grafik arayüzü; DOS'un üzerinde çalışıyordu |
 | 1991 | Linux | Linus Torvalds'ın başlattığı açık kaynak çekirdek |
@@ -133,15 +133,15 @@ Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistem
 
 ### Windows
 
-Dünyadaki masaüstü bilgisayarların çoğu Windows kullanır. Bir sürümün güvenlik güncellemesi aldığı süreye **destek ömrü** denir. Windows 10'un desteği 14 Ekim 2025'te sona erdi; bu tarihten sonra Microsoft, bireysel kullanıcılara yalnızca ek ve süreli bir güvenlik güncellemesi programı sundu. Windows 11 ise daha sıkı donanım gereksinimleri getirdi: TPM 2.0 (Trusted Platform Module) adlı güvenlik çipi, güvenli önyükleme ve belirli bir yaştan yeni işlemciler. Bu yüzden teknik olarak sağlam olan pek çok bilgisayar resmî olarak Windows 11'e geçemiyor.
+Dünyadaki masaüstü bilgisayarların çoğu Windows kullanır. Bir sürümün güvenlik güncellemesi aldığı süreye **destek ömrü** denir. Windows 10'un desteği 14 Ekim 2025'te sona erdi; bu tarihten sonra Microsoft, bireysel kullanıcılara yalnızca ek ve süreli bir güvenlik güncellemesi programı sundu. Windows 11 ise daha sıkı donanım gereksinimleri getirdi: TPM 2.0 adlı güvenlik çipi, güvenli önyükleme ve belirli bir yaştan yeni işlemciler. Bu yüzden teknik olarak sağlam olan pek çok bilgisayar resmî olarak Windows 11'e geçemiyor.
 
 Yeni Windows sürümleri yapay zekâ özellikleriyle de geliyor. Bunlardan Recall, ekranda yapılanların düzenli görüntülerini kaydedip aranabilir hale getirmek için tasarlandı; mahremiyet eleştirileri üzerine isteğe bağlı hale getirildi. Windows ayrıca Microsoft'a **tanılama verisi** (telemetri) gönderir; gönderilen verinin kapsamı Ayarlar'daki Gizlilik bölümünden sınırlanabilir.
 
 ### Linux
 
-Linux aslında bir **çekirdektir**. Bu çekirdeğin üzerine masaüstü, uygulamalar ve araçlar eklenerek **dağıtımlar** oluşturulur: Ubuntu, Linux Mint, Fedora, Debian ve TÜBİTAK'ın (Türkiye Bilimsel ve Teknolojik Araştırma Kurumu) geliştirdiği yerli dağıtım Pardus bunlardan bazılarıdır. Linux ücretsizdir ve açık kaynaklıdır.
+Linux aslında bir **çekirdektir**. Bu çekirdeğin üzerine masaüstü, uygulamalar ve araçlar eklenerek **dağıtımlar** oluşturulur: Ubuntu, Linux Mint, Fedora, Debian ve TÜBİTAK'ın geliştirdiği yerli dağıtım Pardus bunlardan bazılarıdır. Linux ücretsizdir ve açık kaynaklıdır.
 
-Masaüstünde payı küçük olsa da Linux dünyayı görünmeden yönetir: internet sunucularının ve bulut hizmetlerinin büyük çoğunluğu, dünyanın en güçlü süper bilgisayarlarının tamamı ve Android telefonlar Linux çekirdeğiyle çalışır. Desteği bitmiş eski bir bilgisayara hafif bir Linux dağıtımı kurmak, ona yıllarca güvenli kullanım kazandırabilir. Bir Linux dağıtımını USB (Universal Serial Bus) belleğe yazıp bilgisayara hiçbir şey kurmadan denemek mümkündür; buna **canlı USB** denir.
+Masaüstünde payı küçük olsa da Linux dünyayı görünmeden yönetir: internet sunucularının ve bulut hizmetlerinin büyük çoğunluğu, dünyanın en güçlü süper bilgisayarlarının tamamı ve Android telefonlar Linux çekirdeğiyle çalışır. Desteği bitmiş eski bir bilgisayara hafif bir Linux dağıtımı kurmak, ona yıllarca güvenli kullanım kazandırabilir. Bir Linux dağıtımını USB belleğe yazıp bilgisayara hiçbir şey kurmadan denemek mümkündür; buna **canlı USB** denir.
 
 ### macOS
 
@@ -162,10 +162,10 @@ Bugün telefonların neredeyse tamamı iki işletim sisteminden birini kullanır
 | | Android | iOS |
 |---|---|---|
 | Geliştiren | Google ve açık kaynak topluluğu | Apple |
-| Temel | Linux çekirdeği; açık kaynak çekirdeği AOSP (Android Open Source Project) | Kapalı kaynak; Unix kökenli |
+| Temel | Linux çekirdeği; açık kaynak çekirdeği AOSP | Kapalı kaynak; Unix kökenli |
 | Cihazlar | Pek çok üreticinin telefonu | Yalnızca iPhone |
 | Güncelleme süresi | Üreticiye ve modele göre değişir; bazı modellerde birkaç yıl, bazı üst modellerde yedi yıla kadar | Apple tarafından, genellikle uzun süre |
-| Uygulama kurma | Mağazanın yanında başka kaynaklardan da kurulabilir (yan yükleme) | Esas olarak App Store; Avrupa Birliği'nde (AB) düzenlemeyle alternatif mağazalara açıldı |
+| Uygulama kurma | Mağazanın yanında başka kaynaklardan da kurulabilir (yan yükleme) | Esas olarak App Store; AB'de düzenlemeyle alternatif mağazalara açıldı |
 
 Android'in ilk sürümleri tatlı adlarıyla anılırdı: Cupcake, Donut, KitKat, Lollipop. Bu alışkanlık 2019'da bırakıldı.
 
@@ -199,18 +199,18 @@ Bir bilgisayarda iki tür hesap vardır: Sistem ayarlarını değiştirebilen ve
 
 Bir yazılımın **kaynak kodu**, insanların okuyabildiği komutlardır. **Kapalı kaynak** yazılımda bu kod gizlidir; yalnızca çalışan program dağıtılır. **Açık kaynak** yazılımda kod herkese açıktır: okunabilir, incelenebilir ve lisansına göre değiştirilip yeniden dağıtılabilir. Özgür yazılım hareketi ise 1980'lerden beri kullanıcının yazılımı çalıştırma, inceleme, değiştirme ve paylaşma özgürlüğünü savunur.
 
-Açık kaynağın güvenlik savunusu, yazar Eric S. Raymond'ın "Linus yasası" dediği ilkeye dayanır: "Yeterince göz varsa, bütün hatalar sığdır." Kodu çok kişi okuyabildiğinde hatalar daha çabuk bulunabilir. Ama yalnızca açık olmak yetmez; kodu gerçekten okuyan ve bakımını yapan bir topluluk gerekir. Linus Torvalds'ın sık anılan sözü de bu kültürü özetler: "Laf ucuzdur, kodu göster." Açık kaynak lisanslarını (GPL, GNU General Public License; MIT lisansı gibi) Hafta 7'de telif hakkıyla birlikte göreceğiz.
+Açık kaynağın güvenlik savunusu, yazar Eric S. Raymond'ın "Linus yasası" dediği ilkeye dayanır: "Yeterince göz varsa, bütün hatalar sığdır." Kodu çok kişi okuyabildiğinde hatalar daha çabuk bulunabilir. Ama yalnızca açık olmak yetmez; kodu gerçekten okuyan ve bakımını yapan bir topluluk gerekir. Linus Torvalds'ın sık anılan sözü de bu kültürü özetler: "Laf ucuzdur, kodu göster." Açık kaynak lisanslarını (GPL, MIT gibi) Hafta 7'de telif hakkıyla birlikte göreceğiz.
 
 ## 7. Dosyalar, klasörler ve adlandırma
 
 ### Dosya adı ve uzantı
 
-Bir dosyanın adı iki parçadan oluşur: ad ve uzantı. `staj-raporu.docx` dosyasında `staj-raporu` ad, `docx` uzantıdır. Uzantı, işletim sistemine dosyayı hangi programla açacağını söyler. Örneğin PDF (Portable Document Format), her cihazda aynı görünmesi için tasarlanmış bir belge biçimidir.
+Bir dosyanın adı iki parçadan oluşur: ad ve uzantı. `staj-raporu.docx` dosyasında `staj-raporu` ad, `docx` uzantıdır. Uzantı, işletim sistemine dosyayı hangi programla açacağını söyler. Örneğin PDF, her cihazda aynı görünmesi için tasarlanmış bir belge biçimidir.
 
 | Tür | Sık görülen uzantılar |
 |---|---|
 | Belge | .docx, .pdf, .odt, .txt |
-| Tablo | .xlsx, .csv (comma-separated values), .ods |
+| Tablo | .xlsx, .csv, .ods |
 | Sunum | .pptx, .odp |
 | Görüntü | .jpg, .png, .webp, .heic |
 | Ses ve video | .mp3, .m4a, .mp4, .mov |
@@ -243,7 +243,7 @@ Burada `C:` sürücüyü, aradaki adlar klasörleri, en sondaki ise dosyanın ke
 
 ### Dosya sistemi: diskin düzeni
 
-İşletim sistemi dosyaları diske gelişigüzel değil, bir **dosya sistemi** düzeniyle yazar: hangi dosyanın diskin neresinde durduğunu, adını, boyutunu ve izinlerini bu düzen tutar. Windows NTFS (New Technology File System), macOS APFS (Apple File System), Linux çoğunlukla ext4 kullanır. USB bellekler ve hafıza kartları ise çoğu zaman **FAT32** (File Allocation Table, 32 bit) ya da **exFAT** (extended FAT) ile gelir, çünkü bunları neredeyse her cihaz okuyabilir.
+İşletim sistemi dosyaları diske gelişigüzel değil, bir **dosya sistemi** düzeniyle yazar: hangi dosyanın diskin neresinde durduğunu, adını, boyutunu ve izinlerini bu düzen tutar. Windows NTFS, macOS APFS, Linux çoğunlukla ext4 kullanır. USB bellekler ve hafıza kartları ise çoğu zaman **FAT32** ya da **exFAT** ile gelir, çünkü bunları neredeyse her cihaz okuyabilir.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "USB belleğimde 30 GB boş yer var ama 5 GB'lık bir video kopyalanmıyor; bellek bozuk." Büyük olasılıkla yanlış. FAT32 dosya sistemi tek bir dosyayı en fazla 4 GB'a kadar saklayabilir; boş yer ne kadar olursa olsun daha büyük bir dosya kopyalanmaz. Çözüm, belleği exFAT ile biçimlendirmektir. Biçimlendirme içindekileri sildiği için önce dosyaları başka bir yere kopyala. exFAT Windows'ta, macOS'te ve çoğu yeni cihazda okunur; NTFS biçimli bir belleğe ise Mac varsayılan olarak yazamaz, yalnızca okur.
@@ -307,7 +307,7 @@ Kısa vadede: bugün telefonunun izinlerini düzenler, dosya uzantılarını gö
 
 Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Sürüm ve destek tarihleri sık değişir; güncel durumu üreticinin sitesinden kontrol et.
 
-- **Üreticiler:** Microsoft'un Windows 10 destek sonu (14 Ekim 2025) ve Windows 11 donanım gereksinimleri; Google ve Apple'ın güncelleme ve gizlilik duyuruları; TÜBİTAK ULAKBİM (Ulusal Akademik Ağ ve Bilgi Merkezi), Pardus. Kaynak: [microsoft.com](https://www.microsoft.com), [pardus.org.tr](https://www.pardus.org.tr).
+- **Üreticiler:** Microsoft'un Windows 10 destek sonu (14 Ekim 2025) ve Windows 11 donanım gereksinimleri; Google ve Apple'ın güncelleme ve gizlilik duyuruları; TÜBİTAK ULAKBİM, Pardus. Kaynak: [microsoft.com](https://www.microsoft.com), [pardus.org.tr](https://www.pardus.org.tr).
 - **Diğer:** TOP500 süper bilgisayar listesi; *Revolution OS* (2001); Y.-A. de Montjoye ve arkadaşları, "Unique in the Crowd", *Scientific Reports* (2013).
 
 ## Bu haftanın kavramları

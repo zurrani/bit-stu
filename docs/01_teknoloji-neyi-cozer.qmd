@@ -111,7 +111,7 @@ Ama ilk on yıllarda bedel ağırdı. Fabrikalarda uzun ve tehlikeli çalışma 
 Tarih teknolojinin kendiliğinden iyi ya da kötü olmadığını gösteriyor. Tarihçi Melvin Kranzberg bunu 1986'da şöyle özetledi: "Teknoloji ne iyidir ne kötüdür; tarafsız da değildir." Teknoloji bir kaldıraç gibidir: gücü artırır, ama yönünü onu tutan el belirler.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
-Sokrates yazının belleği zayıflatacağından korkuyordu. Bugün aynı kaygı yapay zekâ (YZ) için dile getiriliyor: "Her şeyi YZ'ye sorarsak düşünmeyi unutur muyuz?" Sokrates haklı mıydı? Bu kaygı YZ için daha mı geçerli?
+Sokrates yazının belleği zayıflatacağından korkuyordu. Bugün aynı kaygı yapay zekâ için dile getiriliyor: "Her şeyi YZ'ye sorarsak düşünmeyi unutur muyuz?" Sokrates haklı mıydı? Bu kaygı YZ için daha mı geçerli?
 :::
 
 ::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
@@ -211,12 +211,12 @@ Makineli hesaplamanın her adımı somut bir ihtiyaçtan doğdu: vergi hesabı, 
 | 1843 | Ada Lovelace'ın notları: bir makine için yazılmış ilk algoritma | Makinenin sayılardan fazlasını işleyebileceği öngörüsü |
 | 1890 | Hollerith'in delikli kartlı sayım makinesi | ABD nüfus sayımı |
 | 1936 | Alan Turing'in kuramsal hesaplama makinesi | "Hesaplanabilir" olanın matematiksel tanımı |
-| 1945 | ENIAC (Electronic Numerical Integrator and Computer): ilk genel amaçlı elektronik bilgisayarlardan biri | Savaş dönemi top atış hesapları |
+| 1945 | ENIAC: ilk genel amaçlı elektronik bilgisayarlardan biri | Savaş dönemi top atış hesapları |
 | 1947 | Transistör (Bell Laboratuvarları) | Vakum tüplerinin yerine küçük, dayanıklı anahtar |
-| 1951 | UNIVAC I (Universal Automatic Computer): ilk ticari bilgisayarlardan biri | Nüfus sayımı ve iş dünyası |
+| 1951 | UNIVAC I: ilk ticari bilgisayarlardan biri | Nüfus sayımı ve iş dünyası |
 | 1958–1959 | **Entegre devre** | Çok sayıda transistörü tek parçada birleştirmek |
 | 1971 | Intel 4004: ilk ticari **mikroişlemci** | Hesap makinesi üretimi |
-| 1975–1981 | Altair 8800, Apple I ve II, IBM PC (personal computer, kişisel bilgisayar) | Bilgisayarın eve ve masaya girmesi |
+| 1975–1981 | Altair 8800, Apple I ve II, IBM PC | Bilgisayarın eve ve masaya girmesi |
 :::
 
 ENIAC yaklaşık 30 ton ağırlığındaydı, büyük bir salonu dolduruyordu ve saniyede 5.000 toplama yapabiliyordu. Programlanması kabloların ve anahtarların elle değiştirilmesiyle yapılıyordu; bu işi yapan ilk programcıların altısı kadındı. Bugün cebimizdeki bir telefon, ENIAC'tan milyonlarca kat hızlıdır.

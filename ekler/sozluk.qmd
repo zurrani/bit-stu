@@ -3,7 +3,7 @@ title: "Sözlük"
 description: "Derste geçen kavramlar ve kısa tanımları. Her hafta yayımlandıkça yeni kavramlar eklenir."
 ---
 
-Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği haftayı gösterir.
+Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği haftayı gösterir. Kısaltmaların açılımları sayfanın sonundaki [Kısaltmalar](#kısaltmalar) bölümündedir.
 
 | Kavram | Anlamı |
 |---|---|
@@ -450,6 +450,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | VOR (4) | Uçakların seyrüsefer için kullandığı, yerdeki VHF radyo istasyonu (VHF omnidirectional range) |
 | VPN (9) | Trafiği şifreli bir tünelle bir sunucuya taşıyan hizmet; bulunulan ağdan gizler, ama oltalamaya karşı korumaz ve anonim yapmaz (virtual private network) |
 | WAN (4) | Geniş alan ağı; ülkeler ve kıtalar arası ağ (wide area network) |
+| WPA2, WPA3 (4) | Wi-Fi Protected Access, sürüm 2 ve 3; Wi-Fi şifreleme standartları (eski WEP, Wired Equivalent Privacy, kolayca kırılır) |
 | Wayback Machine (5) | Web sayfalarının geçmişteki hallerini saklayan arşiv |
 | Web (4) | Belgelerin birbirine bağlantılarla bağlandığı, internet üzerinde çalışan hizmet (World Wide Web) |
 | Wi-Fi (4) | Bir ev ya da binada cihazları kablosuz olarak ağa bağlayan teknoloji |
@@ -484,3 +485,129 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Yüz tanıma (8) | Bir kişiyi yüz görüntüsünden tanıyan teknoloji; yüz görüntüsü biyometrik veridir |
 | YZ ajanı (6) | Yalnızca cevap vermekle kalmayıp tarayıcıda gezinmek, dosya açmak gibi işleri kendisi yapan yapay zekâ sistemi |
 | YZ beyanı (6) | Bir çalışmada yapay zekânın hangi araçla, ne için, nerede kullanıldığını ve nasıl doğrulandığını belirten açıklama |
+
+## Kısaltmalar
+
+Notlarda kısaltmalar açılımlarıyla birlikte yazılmaz; açılımları burada toplanır. Parantez içindeki sayı, kısaltmanın ilk geçtiği haftayı gösterir. İngilizce açılımlar teknik terimin aslını verir; ezberlemen gerekmez.
+
+| Kısaltma | Açılımı |
+|---|---|
+| ACARS (4) | Aircraft Communications Addressing and Reporting System |
+| ADC (2) | analog-to-digital converter; analog-dijital dönüştürücü |
+| ADS-B (4) | Automatic Dependent Surveillance–Broadcast |
+| AFAD (9) | Afet ve Acil Durum Yönetimi Başkanlığı |
+| AOSP (3) | Android Open Source Project |
+| APA (5) | American Psychological Association |
+| APFS (3) | Apple File System |
+| ARINC (2) | Aeronautical Radio, Incorporated (ARINC 429: uçak veri yolu standardı) |
+| ARM (2) | Advanced RISC Machines |
+| ARPANET (4) | Advanced Research Projects Agency Network |
+| ASCII (2) | American Standard Code for Information Interchange |
+| ATA (10) | Air Transport Association |
+| BCC (10) | blind carbon copy (gizli alıcı) |
+| BIOS (3) | Basic Input/Output System |
+| BIT (1) | Basic Information Technologies (dersin kısa adı) |
+| BITE (2) | built-in test equipment |
+| BİT (1) | bilgi ve iletişim teknolojileri |
+| CC (7) | Creative Commons (Hafta 7); carbon copy, e-postada bilgi alanı (Hafta 10) |
+| CD (2) | compact disc |
+| CERN (4) | Conseil Européen pour la Recherche Nucléaire (Avrupa Nükleer Araştırma Merkezi) |
+| CLI (3) | command-line interface |
+| CPU (2) | central processing unit |
+| CSV (11) | comma-separated values |
+| DAC (2) | digital-to-analog converter; dijital-analog dönüştürücü |
+| DHCP (4) | Dynamic Host Configuration Protocol |
+| DigComp (1) | Digital Competence Framework for Citizens (Avrupa dijital yetkinlik çerçevesi) |
+| DMA (7) | Digital Markets Act |
+| DNS (4) | Domain Name System |
+| DOCX (10) | Office Open XML belgesi (Word) |
+| DOI (5) | Digital Object Identifier |
+| DSA (7) | Digital Services Act |
+| EASA (5) | European Union Aviation Safety Agency |
+| EDVAC (2) | Electronic Discrete Variable Automatic Computer |
+| EFB (3) | electronic flight bag |
+| ENIAC (1) | Electronic Numerical Integrator and Computer |
+| exFAT (3) | extended File Allocation Table |
+| EXIF (8) | Exchangeable Image File Format |
+| FAT32 (3) | File Allocation Table, 32 bit |
+| FDM (8) | flight data monitoring |
+| fps (2) | frames per second |
+| FSEK (7) | Fikir ve Sanat Eserleri Kanunu |
+| FYI (10) | for your information |
+| GDPR (7) | General Data Protection Regulation |
+| GPL (3) | GNU General Public License |
+| GPS (9) | Global Positioning System |
+| GPU (2) | graphics processing unit |
+| GUI (3) | graphical user interface |
+| HBM (2) | high bandwidth memory |
+| HDD (2) | hard disk drive |
+| HDMI (2) | High-Definition Multimedia Interface |
+| HTTP (4) | Hypertext Transfer Protocol |
+| HTTPS (4) | HTTP Secure |
+| IaaS (4) | infrastructure as a service |
+| IBM (1) | International Business Machines |
+| ICAO (5) | International Civil Aviation Organization |
+| IEC (2) | International Electrotechnical Commission |
+| IMAP (4) | Internet Message Access Protocol |
+| IoT (4) | Internet of Things |
+| IP (4) | Internet Protocol |
+| İHA (5) | insansız hava aracı |
+| İYS (7) | İleti Yönetim Sistemi |
+| JPEG (2) | Joint Photographic Experts Group |
+| KiB (2) | kibibyte |
+| KVKK (8) | Kişisel Verilerin Korunması Kanunu |
+| LAN (4) | local area network |
+| LRU (2) | line replaceable unit |
+| MAN (4) | metropolitan area network |
+| Mbps (2) | megabits per second |
+| MFA (9) | multi-factor authentication |
+| MIT (3) | Massachusetts Institute of Technology |
+| MP3 (14) | MPEG-1 Audio Layer III |
+| MS-DOS (3) | Microsoft Disk Operating System |
+| NFC (4) | near field communication |
+| NIST (9) | National Institute of Standards and Technology |
+| NPU (2) | neural processing unit |
+| NTFS (3) | New Technology File System |
+| ODTÜ (4) | Orta Doğu Teknik Üniversitesi |
+| PaaS (4) | platform as a service |
+| PC (1) | personal computer |
+| PDF (3) | Portable Document Format |
+| PDF/A (10) | PDF for archiving (arşiv için PDF) |
+| PIN (9) | personal identification number |
+| PNG (2) | Portable Network Graphics |
+| PPSX (13) | PowerPoint gösterisi dosya biçimi |
+| PPTX (13) | PowerPoint sunum dosya biçimi |
+| PTT (4) | Posta ve Telgraf Teşkilatı |
+| PUE (4) | power usage effectiveness |
+| QR (9) | Quick Response |
+| QRH (9) | quick reference handbook (hızlı başvuru kontrol listesi) |
+| RAM (2) | random access memory |
+| RGB (2) | red, green, blue |
+| SaaS (4) | software as a service |
+| SDK (8) | software development kit |
+| SHGM (5) | Sivil Havacılık Genel Müdürlüğü |
+| SIFT (5) | Stop, Investigate, Find, Trace |
+| SIM (9) | Subscriber Identity Module |
+| SMS (7) | Short Message Service |
+| SMTP (4) | Simple Mail Transfer Protocol |
+| SSD (2) | solid-state drive |
+| TCK (7) | Türk Ceza Kanunu |
+| TCP/IP (4) | Transmission Control Protocol / Internet Protocol |
+| TED (13) | Technology, Entertainment, Design |
+| TLS (4) | Transport Layer Security |
+| TPM (3) | Trusted Platform Module |
+| TÜBİTAK (3) | Türkiye Bilimsel ve Teknolojik Araştırma Kurumu |
+| TÜİK (5) | Türkiye İstatistik Kurumu |
+| UEFI (3) | Unified Extensible Firmware Interface |
+| ULAKBİM (3) | Ulusal Akademik Ağ ve Bilgi Merkezi |
+| UNIVAC (1) | Universal Automatic Computer |
+| URL (4) | Uniform Resource Locator |
+| USB (2) | Universal Serial Bus |
+| UTF-8 (2) | Unicode Transformation Format, 8 bit |
+| VHF (4) | very high frequency |
+| VOR (4) | VHF omnidirectional range |
+| VPN (9) | virtual private network |
+| WAN (4) | wide area network |
+| WYSIWYG (10) | what you see is what you get |
+| YÖK (5) | Yükseköğretim Kurulu |
+| YZ (1) | yapay zekâ (artificial intelligence, AI) |

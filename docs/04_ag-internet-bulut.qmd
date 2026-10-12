@@ -39,17 +39,17 @@ Her yeni iletişim teknolojisi de korkuyla karşılandı. 1980'lerde e-postanın
 
 ### Ağlar ağı
 
-**İnternet**, dünyanın dört bir yanındaki bilgisayar ağlarının birbirine bağlanmasıyla oluşan bir ağlar ağıdır. Kökeni, ABD'de araştırma kurumlarının bilgisayarlarını birbirine bağlamak için kurulan ARPANET'e (Advanced Research Projects Agency Network) dayanır.
+**İnternet**, dünyanın dört bir yanındaki bilgisayar ağlarının birbirine bağlanmasıyla oluşan bir ağlar ağıdır. Kökeni, ABD'de araştırma kurumlarının bilgisayarlarını birbirine bağlamak için kurulan ARPANET'e dayanır.
 
 29 Ekim 1969'da ARPANET üzerinden gönderilen ilk mesaj "LOGIN" kelimesi olacaktı. İlk iki harf, "LO", gitti; sonra sistem çöktü. İnternetin ilk sözü böylece, kazara, "Lo" oldu.
 
-ARPANET'in temel fikri **paket anahtarlamaydı**: veri küçük paketlere bölünür, her paket hedefe kendi yolunu bulur ve varışta yeniden birleştirilir. Bir hat koparsa paketler başka yollardan gider. Bu tasarım internete bugün de dayanıklılığını veriyor. Ağdaki cihazların nasıl konuşacağını belirleyen kurallar dizisine **protokol** denir. 1983'te ağlar ortak bir dil olan **TCP/IP** (Transmission Control Protocol / Internet Protocol) protokolüne geçti; bu tarih internetin doğum günlerinden biri sayılır.
+ARPANET'in temel fikri **paket anahtarlamaydı**: veri küçük paketlere bölünür, her paket hedefe kendi yolunu bulur ve varışta yeniden birleştirilir. Bir hat koparsa paketler başka yollardan gider. Bu tasarım internete bugün de dayanıklılığını veriyor. Ağdaki cihazların nasıl konuşacağını belirleyen kurallar dizisine **protokol** denir. 1983'te ağlar ortak bir dil olan **TCP/IP** protokolüne geçti; bu tarih internetin doğum günlerinden biri sayılır.
 
-Türkiye internete 12 Nisan 1993'te, ODTÜ (Orta Doğu Teknik Üniversitesi) üzerinden bağlandı. Bugün üniversiteler ULAKBİM'in (Ulusal Akademik Ağ ve Bilgi Merkezi) kurduğu ağ üzerinden internete erişir.
+Türkiye internete 12 Nisan 1993'te, ODTÜ üzerinden bağlandı. Bugün üniversiteler ULAKBİM'in kurduğu ağ üzerinden internete erişir.
 
 ### Web, internetin yalnızca bir parçası
 
-1989'da CERN'de (Avrupa Nükleer Araştırma Merkezi) çalışan Tim Berners-Lee, belgelerin birbirine bağlantılarla bağlandığı bir sistem önerdi: **World Wide Web**. İlk web sayfası hâlâ yayında: info.cern.ch. Berners-Lee web'in patentini almadı ve herkese açık bıraktı; 2012 Londra Olimpiyatları'nın açılışında yazdığı mesaj bunu özetliyordu: "Bu herkes için."
+1989'da CERN'de çalışan Tim Berners-Lee, belgelerin birbirine bağlantılarla bağlandığı bir sistem önerdi: **World Wide Web**. İlk web sayfası hâlâ yayında: info.cern.ch. Berners-Lee web'in patentini almadı ve herkese açık bıraktı; 2012 Londra Olimpiyatları'nın açılışında yazdığı mesaj bunu özetliyordu: "Bu herkes için."
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "İnternet ile web aynı şeydir." Yanlış. İnternet altyapıdır: kablolar, yönlendiriciler ve ortak dil. Web ise bu altyapı üzerinde çalışan hizmetlerden yalnızca biridir. E-posta, anlık mesajlaşma, çevrimiçi oyunlar, görüntülü görüşme ve dosya aktarımı da internet üzerinde çalışır, ama web değildir. Yol ile o yolda giden otobüs hattı gibi düşün.
@@ -62,9 +62,9 @@ Web de değişti. Web 1.0'da (yaklaşık 1990–2004) sayfalar çoğunlukla okun
 ::: {.tablo-kaydir}
 | Ağ türü | Kapsadığı alan | Örnek |
 |---|---|---|
-| Yerel alan ağı (LAN, local area network) | Bir ev, okul, ofis | Laboratuvardaki bilgisayarlar |
-| Şehir alan ağı (MAN, metropolitan area network) | Bir şehir ya da kampüs | Üniversitenin yerleşkeleri arası ağ |
-| Geniş alan ağı (WAN, wide area network) | Ülkeler, kıtalar | İnternetin kendisi |
+| Yerel alan ağı (LAN) | Bir ev, okul, ofis | Laboratuvardaki bilgisayarlar |
+| Şehir alan ağı (MAN) | Bir şehir ya da kampüs | Üniversitenin yerleşkeleri arası ağ |
+| Geniş alan ağı (WAN) | Ülkeler, kıtalar | İnternetin kendisi |
 :::
 
 Ağdaki bilgisayarların çoğu **istemci-sunucu** düzeniyle çalışır: senin tarayıcın (istemci) bir istek gönderir, uzaktaki bilgisayar (sunucu) cevap verir.
@@ -76,7 +76,7 @@ Evindeki "modem" aslında birkaç cihazın tek kutuda birleşmiş halidir: **mod
 Evindeki modem, internetle cihazların arasındaki kapıdır; kapının kilidini kurulumdaki gibi bırakmak risklidir. Birkaç adım çoğu riski kapatır:
 
 - **Yönetici şifresini değiştir.** Modemin ayar sayfasına giriş şifresi çoğu zaman cihazın altındaki etikette yazar ya da herkesin bildiği bir varsayılan şifredir.
-- **Güçlü şifreleme seç.** Wi-Fi ayarlarında WPA2 ya da tercihen WPA3 (WPA: Wi-Fi Protected Access) kullan; eski WEP ve şifresiz ağ kolayca kırılır. Wi-Fi parolası da uzun olmalıdır.
+- **Güçlü şifreleme seç.** Wi-Fi ayarlarında WPA2 ya da tercihen WPA3 kullan; eski WEP ve şifresiz ağ kolayca kırılır. Wi-Fi parolası da uzun olmalıdır.
 - **Misafir ağı aç.** Misafirlerin ve akıllı ampul, kamera gibi cihazların ayrı bir **misafir ağında** durması, birinde açık çıkarsa öbür cihazlarını korur.
 - **Modemin yazılımını güncel tut.** Modemler de bir bilgisayardır; onların yazılımı da açık verir ve güncelleme alır.
 
@@ -86,13 +86,13 @@ Evin dışındaki halka açık Wi-Fi ağlarında nasıl davranacağını Hafta 9
 
 ### IP adresi ve alan adı
 
-Ağa bağlı her cihazın bir **IP adresi** (Internet Protocol) vardır; posta adresi gibi düşünebilirsin. Eski sürüm IPv4 (sürüm 4), 32 bitlik adresler kullanır (örneğin 172.217.16.14) ve yaklaşık 4,3 milyar adrese izin verir. Bu sayı çoktan yetmez oldu; yeni sürüm IPv6, 128 bitlik adreslerle neredeyse sınırsız adres sağlar. Evdeki cihazların çoğu dışarıya tek bir ortak adresle çıkar.
+Ağa bağlı her cihazın bir **IP adresi** vardır; posta adresi gibi düşünebilirsin. Eski sürüm IPv4, 32 bitlik adresler kullanır (örneğin 172.217.16.14) ve yaklaşık 4,3 milyar adrese izin verir. Bu sayı çoktan yetmez oldu; yeni sürüm IPv6, 128 bitlik adreslerle neredeyse sınırsız adres sağlar. Evdeki cihazların çoğu dışarıya tek bir ortak adresle çıkar.
 
-Kimse sayıları ezberlemek istemez. Bu yüzden **alan adları** (iuc.edu.tr gibi) kullanılır. Alan adını IP adresine çeviren sisteme **DNS** (Domain Name System, alan adı sistemi) denir; internetin telefon rehberidir.
+Kimse sayıları ezberlemek istemez. Bu yüzden **alan adları** (iuc.edu.tr gibi) kullanılır. Alan adını IP adresine çeviren sisteme **DNS** denir; internetin telefon rehberidir.
 
 ### URL'nin parçaları
 
-Tarayıcıya yazdığın tam adrese **URL** (Uniform Resource Locator) denir.
+Tarayıcıya yazdığın tam adrese **URL** denir.
 
 ```text
 https://www.iuc.edu.tr/tr/duyurular?sayfa=2
@@ -125,7 +125,7 @@ tracert iuc.edu.tr      paketlerin geçtiği durakları listeler (macOS ve Linux
 
 ### HTTPS ve kilit simgesi
 
-**HTTP** (Hypertext Transfer Protocol) web'in konuşma dilidir. **HTTPS** (HTTP Secure) aynı dilin şifreli halidir; şifrelemeyi TLS (Transport Layer Security) adlı protokol yapar: tarayıcı ile sunucu arasındaki trafik başkaları tarafından okunamaz ve değiştirilemez. Bir analojiyle: HTTPS mühürlü bir zarftır. İçindeki mektup okunmaz, ama zarfın üstündeki adres, yani hangi siteye gittiğin, görünür.
+**HTTP** web'in konuşma dilidir. **HTTPS** aynı dilin şifreli halidir; şifrelemeyi TLS adlı protokol yapar: tarayıcı ile sunucu arasındaki trafik başkaları tarafından okunamaz ve değiştirilemez. Bir analojiyle: HTTPS mühürlü bir zarftır. İçindeki mektup okunmaz, ama zarfın üstündeki adres, yani hangi siteye gittiğin, görünür.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Adres çubuğunda kilit simgesi varsa site güvenilirdir." Yanlış. Kilit yalnızca bağlantının şifreli olduğunu ve tarayıcının o alan adının sahibiyle konuştuğunu söyler. Sahte bir site de kilit simgesi alabilir; bugün oltalama sitelerinin çoğu HTTPS kullanır. Asıl soru şudur: Bu alan adı gerçekten olması gereken adres mi? `iuc.edu.tr` ile `iuc-giris.xyz` aynı şey değildir.
@@ -140,18 +140,18 @@ Bir saniyelik bu yolculukta birçok protokol birlikte çalışır:
 ::: {.tablo-kaydir}
 | Protokol | Ne işe yarar? | Ne zaman karşına çıkar? |
 |---|---|---|
-| DHCP (Dynamic Host Configuration Protocol) | Ağa katılan cihaza kendiliğinden bir IP adresi verir | Wi-Fi'ye bağlandığın an |
+| DHCP | Ağa katılan cihaza kendiliğinden bir IP adresi verir | Wi-Fi'ye bağlandığın an |
 | DNS | Alan adını IP adresine çevirir | Her adres yazdığında |
 | TCP/IP | Veriyi paketlere böler, adresler, eksik paketi yeniden ister | Her bağlantıda |
 | HTTP ve HTTPS | Tarayıcı ile web sunucusu arasındaki istek ve cevap | Her web sayfasında |
-| SMTP ve IMAP | E-posta göndermek (Simple Mail Transfer Protocol) ve sunucudaki postayı okumak (Internet Message Access Protocol) | E-posta uygulamanı kurarken (Hafta 10) |
+| SMTP ve IMAP | E-posta göndermek ve sunucudaki postayı okumak | E-posta uygulamanı kurarken (Hafta 10) |
 :::
 
 ### Ağ üzerindeki devlet: e-Devlet
 
 Türkiye'de kamu hizmetlerinin büyük kısmı bugün **e-Devlet Kapısı** (turkiye.gov.tr) üzerinden sunulur: öğrenci belgesi ve transkript, adres ve nüfus kayıtları, vergi ve sigorta bilgileri, sağlık randevuları ve daha binlercesi. Kapı 2008'de açıldı. Kendisi bir veri deposu değildir; seni yüzlerce kurumun sistemine bağlayan, tek girişli bir ön kapıdır.
 
-Kapıya birkaç yolla girilir: PTT'den (Posta ve Telgraf Teşkilatı) kimlikle alınan e-Devlet şifresi, mobil imza, elektronik imza, çipli kimlik kartı ya da bazı bankaların internet şubesi. Tek bir şifrenin bu kadar çok kapıyı açtığını düşününce, e-Devlet şifren de en güçlü ve kimseyle paylaşılmayan şifrelerinden biri olmalıdır; sunuluyorsa iki aşamalı doğrulamayı da aç.
+Kapıya birkaç yolla girilir: PTT'den kimlikle alınan e-Devlet şifresi, mobil imza, elektronik imza, çipli kimlik kartı ya da bazı bankaların internet şubesi. Tek bir şifrenin bu kadar çok kapıyı açtığını düşününce, e-Devlet şifren de en güçlü ve kimseyle paylaşılmayan şifrelerinden biri olmalıdır; sunuluyorsa iki aşamalı doğrulamayı da aç.
 
 İki pratik bilgi:
 
@@ -178,9 +178,9 @@ Biraz ek bilgi: Tek kapı, kuyrukları ve kâğıt belgeleri azaltır; bir kurum
 | Bağlantı | Menzil | En uygun kullanım |
 |---|---|---|
 | Wi-Fi | Bir ev ya da bina | Evde ve okulda internet; 2,4 GHz daha uzağa ulaşır, 5 GHz daha hızlıdır ama menzili kısadır |
-| Hücresel (4.5G, 5G; G: generation, nesil) | Baz istasyonunun kapsadığı alan | Hareket halinde internet ve arama |
+| Hücresel (4.5G, 5G) | Baz istasyonunun kapsadığı alan | Hareket halinde internet ve arama |
 | Bluetooth | Birkaç metre | Kulaklık, saat, klavye |
-| NFC (near field communication) | Birkaç santimetre | Temassız ödeme, kart okuma |
+| NFC | Birkaç santimetre | Temassız ödeme, kart okuma |
 | Uydu | Neredeyse her yer | Kablo ve baz istasyonunun ulaşmadığı yerler |
 :::
 
@@ -202,9 +202,9 @@ Bir bağlantı çok hızlı ama yüksek gecikmeli olabilir: filmi hızla indirir
 ::: {.tablo-kaydir}
 | Model | Ne kiralanır? | Örnek |
 |---|---|---|
-| Hizmet olarak yazılım (SaaS, software as a service) | Hazır bir uygulama | Gmail, Google Dokümanlar, Microsoft 365'in web sürümü |
-| Hizmet olarak platform (PaaS, platform as a service) | Uygulama geliştirme ortamı | Yazılımcıların kullandığı bulut platformları |
-| Hizmet olarak altyapı (IaaS, infrastructure as a service) | Sanal sunucu, depolama, ağ | Büyük bulut sağlayıcılarının sanal makineleri |
+| Hizmet olarak yazılım (SaaS) | Hazır bir uygulama | Gmail, Google Dokümanlar, Microsoft 365'in web sürümü |
+| Hizmet olarak platform (PaaS) | Uygulama geliştirme ortamı | Yazılımcıların kullandığı bulut platformları |
+| Hizmet olarak altyapı (IaaS) | Sanal sunucu, depolama, ağ | Büyük bulut sağlayıcılarının sanal makineleri |
 :::
 
 ### Depolamak ile birlikte çalışmak
@@ -241,7 +241,7 @@ Bütün verini ve iş akışını tek bir sağlayıcıya bağlamak kolaydır, ç
 
 ### Bulutun bedeni: elektrik ve su
 
-Veri merkezleri, binlerce sunucunun gece gündüz çalıştığı, çok elektrik tüketen ve sürekli soğutulması gereken binalardır. Bir veri merkezinin verimliliği **PUE** (power usage effectiveness, güç kullanım etkinliği) ile ölçülür: binanın toplam enerji tüketimi, bilişim ekipmanının tükettiği enerjiye bölünür. 1,0 ideal değerdir; 1,5, her birim hesaplama için yarım birim enerjinin de soğutmaya ve diğer işlere gittiği anlamına gelir. Soğutmada su da kullanılır; kuraklık yaşanan bölgelerde bu yerel bir tartışma konusudur (Hafta 14). Yapay zekâ modellerinin eğitimi ve kullanımı veri merkezlerinin enerji talebini hızla artırıyor; birçok ülke yeni veri merkezleri için enerji planı yapıyor (Hafta 6).
+Veri merkezleri, binlerce sunucunun gece gündüz çalıştığı, çok elektrik tüketen ve sürekli soğutulması gereken binalardır. Bir veri merkezinin verimliliği **PUE** (güç kullanım etkinliği) ile ölçülür: binanın toplam enerji tüketimi, bilişim ekipmanının tükettiği enerjiye bölünür. 1,0 ideal değerdir; 1,5, her birim hesaplama için yarım birim enerjinin de soğutmaya ve diğer işlere gittiği anlamına gelir. Soğutmada su da kullanılır; kuraklık yaşanan bölgelerde bu yerel bir tartışma konusudur (Hafta 14). Yapay zekâ modellerinin eğitimi ve kullanımı veri merkezlerinin enerji talebini hızla artırıyor; birçok ülke yeni veri merkezleri için enerji planı yapıyor (Hafta 6).
 
 Bir çözüm yolu her işi buluta göndermemektir. Veriyi kaynağına yakın, cihazın kendisinde ya da yakındaki küçük bir sunucuda işlemeye **uç hesaplama** (edge computing) denir. Telefonundaki yüz tanıma, bir fabrika makinesindeki titreşim sensörü ya da uçaktaki sistemler veriyi önce yerinde işler; buluta yalnızca özet gider. Gecikme azalır, bağlantı kopsa da iş sürer, veri cihazdan daha az çıkar.
 
@@ -253,7 +253,7 @@ Biraz ek bilgi: Bulut hizmetleri bir dosyayı kaybetmemek için çoğu zaman bir
 
 ## 8. Telefon bir sensör kutusudur
 
-Akıllı telefonun içinde onlarca sensör vardır: konum için uydu alıcısı, hareket için ivmeölçer ve jiroskop, yön için pusula, ekran parlaklığı için ışık sensörü ve birçok modelde hava basıncı için **barometre**. Bu sensörler internete bağlandığında ortaya **Nesnelerin İnterneti** (IoT, Internet of Things) çıkar: akıllı saatler, termostatlar, fabrika makineleri, tarlalardaki nem sensörleri. Hafta 2'deki gömülü sistemlerin internete bağlanmış halidir.
+Akıllı telefonun içinde onlarca sensör vardır: konum için uydu alıcısı, hareket için ivmeölçer ve jiroskop, yön için pusula, ekran parlaklığı için ışık sensörü ve birçok modelde hava basıncı için **barometre**. Bu sensörler internete bağlandığında ortaya **Nesnelerin İnterneti** (IoT) çıkar: akıllı saatler, termostatlar, fabrika makineleri, tarlalardaki nem sensörleri. Hafta 2'deki gömülü sistemlerin internete bağlanmış halidir.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
 Hava basıncı yükseldikçe azalır. Uçaklardaki **barometrik altimetre** irtifayı tam olarak bu ilkeyle, dış hava basıncını ölçerek hesaplar. Telefonundaki barometreyle bunu kendin görebilirsin: deniz seviyesine yakın yerlerde yaklaşık 8 metrelik yükselme, basıncı 1 hektopaskal kadar düşürür. Birkaç kat merdiven çıkarken ölçtüğün küçük fark, kokpitteki altimetrenin minyatür bir provasıdır.
@@ -264,9 +264,9 @@ Hava basıncı yükseldikçe azalır. Uçaklardaki **barometrik altimetre** irti
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Uçak konuşur"}
 Bir yolcu uçağı uçarken sürekli konuşur:
 
-- **ADS-B** (Automatic Dependent Surveillance–Broadcast): Uçak konumunu, irtifasını ve hızını saniyede birkaç kez yayınlar. Flightradar24 gibi siteler bu yayınları, dünyanın dört bir yanındaki gönüllülerin kurduğu alıcılarla toplar; ağ kavramının somut bir örneğidir.
-- **Telsiz:** Pilotlar hava trafik kontrolüyle VHF (very high frequency, çok yüksek frekans) hava bandında konuşur. Seyrüsefer için yerdeki VOR (VHF omnidirectional range, çok yönlü radyo işareti) istasyonlarından gelen radyo sinyallerini kullanır.
-- **ACARS** (Aircraft Communications Addressing and Reporting System): Uçak ile yer arasında kısa veri mesajları taşıyan sistemdir. Arıza mesajları bu yolla uçak daha inmeden bakım ekibine ulaşabilir; Hafta 1'deki "bir teknisyenin günü" tablosundaki değişimin arkasında bu bağlantı vardır.
+- **ADS-B:** Uçak konumunu, irtifasını ve hızını saniyede birkaç kez yayınlar. Flightradar24 gibi siteler bu yayınları, dünyanın dört bir yanındaki gönüllülerin kurduğu alıcılarla toplar; ağ kavramının somut bir örneğidir.
+- **Telsiz:** Pilotlar hava trafik kontrolüyle VHF hava bandında konuşur. Seyrüsefer için yerdeki VOR istasyonlarından gelen radyo sinyallerini kullanır.
+- **ACARS:** Uçak ile yer arasında kısa veri mesajları taşıyan sistemdir. Arıza mesajları bu yolla uçak daha inmeden bakım ekibine ulaşabilir; Hafta 1'deki "bir teknisyenin günü" tablosundaki değişimin arkasında bu bağlantı vardır.
 - **Kabinde internet:** Yolcuların interneti ya yerdeki istasyonlar ya da uydular üzerinden gelir.
 
 Bakım teknisyeni için ağ bilgisi soyut değildir: arıza mesajını alan, dokümanı tabletten açan, kaydı elektronik sisteme giren kişi odur. Bağlantı koptuğunda ne yapılacağını bilmek de işin parçasıdır (Hafta 9).

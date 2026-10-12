@@ -42,14 +42,14 @@ Burada yasalar, öğrencinin günlük hayatına etkisini anlamak için sade bir 
 | | Aktif ayak izi | Pasif ayak izi |
 |---|---|---|
 | Nasıl oluşur? | Bilerek bıraktığın izler | Sen fark etmeden toplanan izler |
-| Örnek | Paylaşım, yorum, beğeni, profil fotoğrafı, bir forma yazdığın bilgiler | Ziyaret ettiğin sitelerin çerezlerle kaydı, konum geçmişi, IP (Internet Protocol) adresin, bir uygulamanın kullanım verisi |
+| Örnek | Paylaşım, yorum, beğeni, profil fotoğrafı, bir forma yazdığın bilgiler | Ziyaret ettiğin sitelerin çerezlerle kaydı, konum geçmişi, IP adresin, bir uygulamanın kullanım verisi |
 | Kim görür? | Çoğu zaman paylaştığın kişiler ve onların paylaştıkları | Çoğu zaman şirketler; sen görmezsin |
 
 Dijital ayak izi karda yürümeye benzer; ama bu kar hiç erimez. Sildiğin bir paylaşımın ekran görüntüsü başkasının telefonunda, arşiv sitelerinde ya da bir veri tabanında kalabilir. Bu yüzden internette "geçici" diye bir şey neredeyse yoktur.
 
 İzinin bir de **dijital itibar** boyutu var: insanların seni internette arattığında gördüğü şey. Şirketlerin önemli bir kısmı iş başvurusundaki adayların herkese açık profillerine bakıyor. Staj başvurusundan önce kendi adını arama motorunda tırnak içinde aratmak, eski bir hesabın gizlilik ayarlarını gözden geçirmek ya da kullanmadığın hesapları kapatmak beş dakikalık işlerdir.
 
-Bazı durumlarda geçmişteki bir kaydın arama sonuçlarından kaldırılmasını isteyebilirsin. Buna **unutulma hakkı** denir. AB'de **Genel Veri Koruma Tüzüğü** (GDPR, General Data Protection Regulation) ile tanımlanmıştır; Türkiye'de de yargı ve Kişisel Verileri Koruma Kurulu kararlarıyla tanınmaktadır. Ayrıntısını Hafta 8'de göreceğiz. Ama bu hak sınırlıdır; en iyi koruma hâlâ paylaşmadan önce düşünmektir.
+Bazı durumlarda geçmişteki bir kaydın arama sonuçlarından kaldırılmasını isteyebilirsin. Buna **unutulma hakkı** denir. AB'de **Genel Veri Koruma Tüzüğü** (GDPR) ile tanımlanmıştır; Türkiye'de de yargı ve Kişisel Verileri Koruma Kurulu kararlarıyla tanınmaktadır. Ayrıntısını Hafta 8'de göreceğiz. Ama bu hak sınırlıdır; en iyi koruma hâlâ paylaşmadan önce düşünmektir.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Bir işveren bu akşam adını aratsa ilk sayfada ne görürdü? Görmesini istemeyeceğin bir şey var mı? Varsa onu kaldırmak için ilk adımın ne olurdu?
@@ -123,7 +123,7 @@ Ceza hukukunun yanında internetin kendine özgü kuralları da var:
 
 - **5651 sayılı kanun** (2007) internetteki yayınları düzenler: içerik sağlayıcının, yer sağlayıcının ve erişim sağlayıcının sorumluluğunu tanımlar. Kişilik hakların ihlal edildiğinde (örneğin hakkında hakaret içeren bir paylaşım varsa) içeriğin kaldırılması ya da erişimin engellenmesi için başvurabilirsin. Sonraki değişikliklerle Türkiye'den çok kullanıcısı olan sosyal ağ sağlayıcılarına Türkiye'de temsilci atama ve başvurulara belirli sürelerde cevap verme yükümlülüğü getirildi.
 - **Siber Güvenlik Kanunu** (2025), kamu kurumlarının ve kritik altyapıların (enerji, ulaşım, sağlık, iletişim gibi) siber güvenliğine ilişkin yükümlülükleri ve bunu denetleyecek kurumu düzenler; siber olaylarla ilgili yeni suç tanımları da içerir. Hafta 9'da yeniden değineceğiz.
-- **Tüketici hakları:** İnternetten aldığın bir ürünü, bazı istisnalar dışında, teslimden itibaren 14 gün içinde gerekçe göstermeden iade edebilirsin (cayma hakkı). İzin vermediğin halde gelen reklam SMS'lerini (SMS, Short Message Service; kısa mesaj) ve e-postalarını İleti Yönetim Sistemi (İYS) üzerinden durdurabilirsin.
+- **Tüketici hakları:** İnternetten aldığın bir ürünü, bazı istisnalar dışında, teslimden itibaren 14 gün içinde gerekçe göstermeden iade edebilirsin (cayma hakkı). İzin vermediğin halde gelen reklam SMS'lerini ve e-postalarını İleti Yönetim Sistemi (İYS) üzerinden durdurabilirsin.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Anonim hesap kullanırsam bulunamam." Çoğu zaman yanlış. Bağlandığın her ağ bir IP adresi kaydı bırakır ve internet hizmet sağlayıcıları bu kayıtları yasa gereği belirli bir süre saklar. Bir soruşturmada mahkeme kararıyla platformlardan ve hizmet sağlayıcılardan bilgi istenebilir. Aynı fotoğrafı, aynı yazım alışkanlıklarını ya da aynı telefonu kullanmak da kimliği ele verebilir.
@@ -186,7 +186,7 @@ Eser sahibi, eserini başkalarının da kullanmasını isteyebilir. **Creative C
 
 **Kamu malı** (public domain), telif süresi dolmuş ya da hiç telif korumasına girmemiş eserlerdir: Yüz yıl önce ölmüş bir ressamın tabloları gibi. Bazı ülkelerde devlet kurumlarının ürettiği eserler de kamu malıdır; örneğin NASA'nın fotoğraflarının çoğu.
 
-Yazılımda da benzer lisanslar vardır. **MIT lisansı** (adını Massachusetts Institute of Technology'den alır) kodu neredeyse hiçbir koşul olmadan kullanmana izin verir; yalnızca lisans metnini korumanı ister. **GPL lisansı** (GNU General Public License) ise kodu değiştirip dağıtırsan senin kodunun da açık ve aynı lisansla olmasını ister. Bu yaklaşıma **copyleft** denir. Açık kaynak dünyasını Hafta 3'te ve [Ek C](../ekler/c_alternatifler.qmd) sayfasında görmüştün.
+Yazılımda da benzer lisanslar vardır. **MIT lisansı** kodu neredeyse hiçbir koşul olmadan kullanmana izin verir; yalnızca lisans metnini korumanı ister. **GPL lisansı** ise kodu değiştirip dağıtırsan senin kodunun da açık ve aynı lisansla olmasını ister. Bu yaklaşıma **copyleft** denir. Açık kaynak dünyasını Hafta 3'te ve [Ek C](../ekler/c_alternatifler.qmd) sayfasında görmüştün.
 
 Lisanslı bir eseri kullanırken doğru atıf dört parçadan oluşur: **eserin adı, yazarı, kaynağı ve lisansı.** Örnek:
 
@@ -204,7 +204,7 @@ Uçak bakım el kitabı (AMM), servis bültenleri ve parça katalogları üretic
 
 ## 7. Yapay zekâ ve hukuk
 
-Hafta 6'da üretken yapay zekânın (YZ) nasıl çalıştığını gördün. Hukuk bu teknolojiye üç soruyla yetişmeye çalışıyor.
+Hafta 6'da üretken YZ'nin nasıl çalıştığını gördün. Hukuk bu teknolojiye üç soruyla yetişmeye çalışıyor.
 
 **YZ'nin ürettiği içerik kimin?** Telif hakkı geleneksel olarak insanın yaratıcı emeğini korur. ABD'de telif ofisi ve mahkemeler, insan katkısı olmadan tamamen YZ'nin ürettiği bir görselin telifle korunmayacağına karar verdi; 2025'teki bir temyiz kararı da bu yaklaşımı doğruladı. Türkiye'de FSEK, eseri "sahibinin hususiyetini taşıyan" fikir ve sanat ürünü olarak tanımlar; bu tanımın insanı işaret ettiği yaygın bir görüştür. YZ'yi bir araç olarak kullanıp seçen, düzenleyen ve şekillendiren kişinin katkısının nasıl değerlendirileceği ise hâlâ tartışılıyor.
 
@@ -228,8 +228,8 @@ AB son on yılda dijital dünyayı düzenleyen bir dizi yasa çıkardı. Bunlar 
 | Düzenleme | Uygulanmaya başladığı tarih | Ne düzenler? | Senin için anlamı |
 |---|---|---|---|
 | Genel Veri Koruma Tüzüğü (GDPR) | 2018 | Kişisel verilerin işlenmesi | Verine erişme, düzelttirme, sildirme hakkı; çerez onay pencereleri (Hafta 8) |
-| **Dijital Hizmetler Yasası** (DSA, Digital Services Act) | 2024 | Platformların yasa dışı içerik, şeffaflık ve küçüklerin korunması konusundaki yükümlülükleri | Bir içeriğin neden kaldırıldığını öğrenme ve itiraz etme hakkı; reklamların neden gösterildiğini görme |
-| **Dijital Piyasalar Yasası** (DMA, Digital Markets Act) | 2024 | Çok büyük platformların ("bekçiler") rekabeti engellemesi | Varsayılan tarayıcı ve arama motorunu seçme ekranları; mesajlaşma uygulamaları arasında birlikte çalışabilirlik |
+| **Dijital Hizmetler Yasası** (DSA) | 2024 | Platformların yasa dışı içerik, şeffaflık ve küçüklerin korunması konusundaki yükümlülükleri | Bir içeriğin neden kaldırıldığını öğrenme ve itiraz etme hakkı; reklamların neden gösterildiğini görme |
+| **Dijital Piyasalar Yasası** (DMA) | 2024 | Çok büyük platformların ("bekçiler") rekabeti engellemesi | Varsayılan tarayıcı ve arama motorunu seçme ekranları; mesajlaşma uygulamaları arasında birlikte çalışabilirlik |
 | **Yapay Zekâ Yasası** | Kademeli: 2025'ten başlayarak | YZ sistemlerini risk düzeyine göre düzenler | Kabul edilemez uygulamalar (örneğin sosyal puanlama) 2025'ten beri yasak; YZ kullanan kuruluşlar çalışanlarının YZ okuryazarlığını sağlamalı; deepfake etiketlenmeli |
 :::
 

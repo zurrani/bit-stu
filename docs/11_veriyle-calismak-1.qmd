@@ -25,7 +25,7 @@ Bir tablonun aynı sütununda üç tarih var: "03.04.2026", "4/3/2026" ve "3 Nis
 2. Sayı, metin ve tarih türlerini ayırt etmek; bir hücrenin değerini görünüşünden ayırmak ve yerel ayardan doğan hataları düzeltmek.
 3. Sıralama, filtre ve tablo nesnesiyle veriyi incelemek.
 4. Yinelenenleri kaldırma, KIRP, metni sütunlara dönüştürme, bul ve değiştir ve hızlı doldurma ile veriyi temizlemek; orijinali koruyup temizliği kaydetmek.
-5. Veri doğrulama ve koşullu biçimlendirmeyle hatayı girişte önleyen bir kayıt tablosu kurmak; veriyi CSV (comma-separated values, virgülle ayrılmış değerler) olarak doğru içe ve dışa aktarmak.
+5. Veri doğrulama ve koşullu biçimlendirmeyle hatayı girişte önleyen bir kayıt tablosu kurmak; veriyi CSV olarak doğru içe ve dışa aktarmak.
 
 Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00_cerceve.qmd) sayfasında bulabilirsin. Haftanın özeti en sondaki *Akılda kalsın* bölümündedir.
 
@@ -153,10 +153,10 @@ Temizlik pahalıdır; en iyisi kirin hiç girmemesidir. Bunun iki aracı vardır
 
 **CSV** (comma-separated values, virgülle ayrılmış değerler), tabloyu her satırı bir metin satırı, her hücresi bir ayraçla ayrılmış olarak saklayan düz metin biçimidir. Neredeyse her program onu açar; bu yüzden sistemler arasında veri taşımanın en yaygın yoludur. Ama CSV yalnızca değerleri taşır: formüller, biçimler, renkler, birden çok sayfa kaybolur.
 
-İki tuzağı vardır. Birincisi **ayraçtır**: Ondalık ayırıcısı virgül olan Türkçe ayarda CSV dosyaları çoğu zaman noktalı virgülle ayrılır. Virgülle ayrılmış bir dosyayı çift tıklayıp açtığında bütün satır tek sütuna yığılabilir. İkincisi **karakter kodlamasıdır** (Hafta 2): Dosya UTF-8 (Unicode Transformation Format, 8 bit) dışında bir kodlamayla açılırsa "ğ", "ş" ve "ı" bozuk karakterlere döner. İkisinin de çözümü dosyayı çift tıklamak yerine **Veri > Metinden/CSV'den** ile içe aktarmak ve ayracı ile kodlamayı kendin seçmektir. Dışa aktarırken de **CSV UTF-8** seçeneğini kullan.
+İki tuzağı vardır. Birincisi **ayraçtır**: Ondalık ayırıcısı virgül olan Türkçe ayarda CSV dosyaları çoğu zaman noktalı virgülle ayrılır. Virgülle ayrılmış bir dosyayı çift tıklayıp açtığında bütün satır tek sütuna yığılabilir. İkincisi **karakter kodlamasıdır** (Hafta 2): Dosya UTF-8 dışında bir kodlamayla açılırsa "ğ", "ş" ve "ı" bozuk karakterlere döner. İkisinin de çözümü dosyayı çift tıklamak yerine **Veri > Metinden/CSV'den** ile içe aktarmak ve ayracı ile kodlamayı kendin seçmektir. Dışa aktarırken de **CSV UTF-8** seçeneğini kullan.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Standart kod, standart veri"}
-Havacılıkta bir arızanın hangi sisteme ait olduğu serbest metinle değil, standart bir numarayla yazılır: **ATA bölüm numarası** (ATA: Air Transport Association). Örneğin ATA 21 klima, ATA 32 iniş takımı, ATA 34 seyrüsefer sistemleridir. Dünyanın her yerinde aynı numaralar aynı sistemi gösterdiği için bir arıza kaydı başka bir ülkedeki bir teknisyen, bir üretici ya da bir yazılım tarafından doğru okunur. Bu, veri doğrulamanın havacılıktaki karşılığıdır: Kurgusal bir arıza tablosunda "Sistem" sütununa serbest metin değil, ATA bölümlerinden oluşan bir açılır liste koymak, "iniş takımı", "İniş Tk." ve "gear" gibi yazımları baştan önler.
+Havacılıkta bir arızanın hangi sisteme ait olduğu serbest metinle değil, standart bir numarayla yazılır: **ATA bölüm numarası**. Örneğin ATA 21 klima, ATA 32 iniş takımı, ATA 34 seyrüsefer sistemleridir. Dünyanın her yerinde aynı numaralar aynı sistemi gösterdiği için bir arıza kaydı başka bir ülkedeki bir teknisyen, bir üretici ya da bir yazılım tarafından doğru okunur. Bu, veri doğrulamanın havacılıktaki karşılığıdır: Kurgusal bir arıza tablosunda "Sistem" sütununa serbest metin değil, ATA bölümlerinden oluşan bir açılır liste koymak, "iniş takımı", "İniş Tk." ve "gear" gibi yazımları baştan önler.
 :::
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}

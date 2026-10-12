@@ -40,7 +40,7 @@ Bir mikrofon sesi sürekli değişen bir elektrik sinyaline çevirir. Bu sinyali
 - **Örnekleme:** Sinyalin değeri saniyede belirli sayıda ölçülür. Ne kadar sık ölçülürse o kadar ayrıntı yakalanır.
 - **Niceleme:** Her ölçüm, belirli sayıda bitle yazılabilecek en yakın değere yuvarlanır. Bit sayısı arttıkça adımlar incelir.
 
-Bu işi yapan devreye **analog-dijital dönüştürücü** (ADC, analog-to-digital converter) denir. Tersini, yani sayıları yeniden sese ya da gerilime çeviren devreye **dijital-analog dönüştürücü** (DAC, digital-to-analog converter) denir; kulaklığından gelen ses bir DAC'tan geçmiştir.
+Bu işi yapan devreye **analog-dijital dönüştürücü** (ADC) denir. Tersini, yani sayıları yeniden sese ya da gerilime çeviren devreye **dijital-analog dönüştürücü** (DAC) denir; kulaklığından gelen ses bir DAC'tan geçmiştir.
 
 ### Neden ikili?
 
@@ -93,7 +93,7 @@ Bit sayısı her arttığında gösterilebilecek değer sayısı iki katına ç�
 | Gigabayt (GB) | 1.000 MB | Bir film |
 | Terabayt (TB) | 1.000 GB | Binlerce film |
 
-Bilgisayarlar ikili düşündüğü için yıllarca 1 KB 1.024 bayt olarak da kullanıldı. Karışıklığı gidermek için 1998'de ikili birimler ayrıca adlandırıldı: **kibibayt** (KiB, kibibyte; 1.024 bayt), mebibayt (MiB), gibibayt (GiB). Disk üreticileri ondalık birimi, bazı işletim sistemleri ise ikili birimi kullanır ama ikisine de "GB" der.
+Bilgisayarlar ikili düşündüğü için yıllarca 1 KB 1.024 bayt olarak da kullanıldı. Karışıklığı gidermek için 1998'de ikili birimler ayrıca adlandırıldı: **kibibayt** (KiB, 1.024 bayt), mebibayt (MiB), gibibayt (GiB). Disk üreticileri ondalık birimi, bazı işletim sistemleri ise ikili birimi kullanır ama ikisine de "GB" der.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Kutusunda 500 GB yazan disk bilgisayarda 465 GB görünüyor; üretici bizi kandırıyor." Yanlış. Diskte gerçekten 500 milyar bayt var. Üretici bunu 1 GB = 1.000.000.000 bayt ile, işletim sistemi ise 1 GiB = 1.073.741.824 bayt ile bölüyor: 500.000.000.000 / 1.073.741.824 ≈ 465,7. Değişen kapasite değil, birim.
@@ -103,9 +103,9 @@ Bilgisayarlar ikili düşündüğü için yıllarca 1 KB 1.024 bayt olarak da ku
 
 ### Metin
 
-Bilgisayar harfleri bilmez; her harfe bir sayı karşılık gelir. 1963'te standartlaşan **ASCII** (American Standard Code for Information Interchange), 7 bitle 128 karakteri kodlar: İngiliz alfabesinin büyük ve küçük harfleri, rakamlar, noktalama işaretleri. Örneğin "D" harfi 68'dir, ikili 1000100.
+Bilgisayar harfleri bilmez; her harfe bir sayı karşılık gelir. 1963'te standartlaşan **ASCII**, 7 bitle 128 karakteri kodlar: İngiliz alfabesinin büyük ve küçük harfleri, rakamlar, noktalama işaretleri. Örneğin "D" harfi 68'dir, ikili 1000100.
 
-ASCII'de ç, ğ, ı, İ, ö, ş, ü yoktur. Her ülke bu boşluğu kendi kod tablosuyla doldurdu ve bir ülkede yazılan metin başka bir bilgisayarda bozuk görünmeye başladı. Çözüm **Unicode** oldu: dünyadaki hemen bütün yazı sistemlerini ve emojileri kapsayan, 150 binden fazla karakterlik ortak bir tablo. Bugün web'in büyük kısmı Unicode'u **UTF-8** (Unicode Transformation Format, 8 bit) adlı kodlamayla kullanır.
+ASCII'de ç, ğ, ı, İ, ö, ş, ü yoktur. Her ülke bu boşluğu kendi kod tablosuyla doldurdu ve bir ülkede yazılan metin başka bir bilgisayarda bozuk görünmeye başladı. Çözüm **Unicode** oldu: dünyadaki hemen bütün yazı sistemlerini ve emojileri kapsayan, 150 binden fazla karakterlik ortak bir tablo. Bugün web'in büyük kısmı Unicode'u **UTF-8** adlı kodlamayla kullanır.
 
 Bir dosya UTF-8 ile kaydedilip başka bir kodlamayla açılırsa "ışık" kelimesi "Ä±ÅŸÄ±k" gibi görünür. Bu bozulmanın adı **karakter kodlaması** uyumsuzluğudur; çözümü, dosyayı açarken doğru kodlamayı seçmektir.
 
@@ -117,23 +117,23 @@ Biraz ek bilgi: Yazılımcılar bu tuzağı o kadar iyi bilir ki uluslararası b
 
 ### Görüntü
 
-Ekrandaki her görüntü küçük noktalardan, yani **piksellerden** oluşur. Her piksel kırmızı, yeşil ve mavi (RGB; red, green, blue) ışığın karışımıdır ve her renk genellikle 8 bitle, yani 0 ile 255 arasında bir sayıyla tutulur. Bir piksel için 24 bit, yaklaşık 16,7 milyon renk eder.
+Ekrandaki her görüntü küçük noktalardan, yani **piksellerden** oluşur. Her piksel kırmızı, yeşil ve mavi (RGB) ışığın karışımıdır ve her renk genellikle 8 bitle, yani 0 ile 255 arasında bir sayıyla tutulur. Bir piksel için 24 bit, yaklaşık 16,7 milyon renk eder.
 
-**Çözünürlük**, görüntünün kaç pikselden oluştuğunu söyler. 1920 × 1080 pikselli bir görüntü yaklaşık 2 milyon pikseldir; sıkıştırılmadan saklansa her piksel 3 bayttan yaklaşık 6 MB tutar. Bu yüzden görüntüler **sıkıştırılır**: JPEG (Joint Photographic Experts Group) gözün fark etmeyeceği ayrıntıları atarak küçültür (kayıplı), PNG (Portable Network Graphics) hiçbir ayrıntıyı atmaz (kayıpsız).
+**Çözünürlük**, görüntünün kaç pikselden oluştuğunu söyler. 1920 × 1080 pikselli bir görüntü yaklaşık 2 milyon pikseldir; sıkıştırılmadan saklansa her piksel 3 bayttan yaklaşık 6 MB tutar. Bu yüzden görüntüler **sıkıştırılır**: JPEG gözün fark etmeyeceği ayrıntıları atarak küçültür (kayıplı), PNG hiçbir ayrıntıyı atmaz (kayıpsız).
 
 ### Ses
 
-Ses, örnekleme ve nicelemeyle sayıya döner. Müzik CD'leri (compact disc) saniyede 44.100 örnek alır ve her örneği 16 bitle yazar. Örnekleme hızının, duyabildiğimiz en yüksek sesin (yaklaşık 20.000 Hz) iki katından fazla olması, o sesin geri üretilebilmesi için gereklidir.
+Ses, örnekleme ve nicelemeyle sayıya döner. Müzik CD'leri saniyede 44.100 örnek alır ve her örneği 16 bitle yazar. Örnekleme hızının, duyabildiğimiz en yüksek sesin (yaklaşık 20.000 Hz) iki katından fazla olması, o sesin geri üretilebilmesi için gereklidir.
 
-Bir ses dosyasının saniyede kullandığı veri miktarına **bit hızı** denir ve kbps (kilobits per second, saniyede kilobit) ile ölçülür. 128 kbps'lik bir dosya bir dakikada 128.000 × 60 = 7.680.000 bit, yani yaklaşık 0,96 MB tutar. Bit hızı düştükçe dosya küçülür, ama ayrıntı da kaybolur.
+Bir ses dosyasının saniyede kullandığı veri miktarına **bit hızı** denir ve kbps (saniyede kilobit) ile ölçülür. 128 kbps'lik bir dosya bir dakikada 128.000 × 60 = 7.680.000 bit, yani yaklaşık 0,96 MB tutar. Bit hızı düştükçe dosya küçülür, ama ayrıntı da kaybolur.
 
 ### Video
 
-Video, art arda gösterilen fotoğraflardır. Saniyede gösterilen kare sayısına **kare hızı** denir ve fps (frames per second, saniyedeki kare) ile ölçülür. Sinema geleneksel olarak saniyede 24 kare kullanır; telefonlar çoğu zaman 30 ya da 60 kare çeker.
+Video, art arda gösterilen fotoğraflardır. Saniyede gösterilen kare sayısına **kare hızı** denir ve fps (saniyedeki kare) ile ölçülür. Sinema geleneksel olarak saniyede 24 kare kullanır; telefonlar çoğu zaman 30 ya da 60 kare çeker.
 
-Hesap hızla büyür. 1920 × 1080 pikselli bir kare sıkıştırılmadan yaklaşık 6 MB tutuyordu; saniyede 30 kareyle bu, saniyede 180 MB, dakikada yaklaşık 10,8 GB eder. Telefonundaki bir dakikalık video ise ayarına göre birkaç on ile birkaç yüz megabayt arasındadır. Aradaki farkı **kodek** (codec: coder-decoder, kodlayıcı-çözücü) adı verilen sıkıştırma yöntemleri kapatır. Kodekler iki fikre dayanır: Bir karenin içinde gözün fark etmeyeceği ayrıntıyı atmak, tıpkı JPEG gibi; art arda gelen kareler arasında yalnızca değişeni saklamak. Konuşan bir kişinin arkasındaki duvar kareden kareye değişmez; onu her karede yeniden yazmaya gerek yoktur. H.264, H.265 ve AV1 bugün yaygın kodeklerdendir.
+Hesap hızla büyür. 1920 × 1080 pikselli bir kare sıkıştırılmadan yaklaşık 6 MB tutuyordu; saniyede 30 kareyle bu, saniyede 180 MB, dakikada yaklaşık 10,8 GB eder. Telefonundaki bir dakikalık video ise ayarına göre birkaç on ile birkaç yüz megabayt arasındadır. Aradaki farkı **kodek** (kodlayıcı-çözücü) adı verilen sıkıştırma yöntemleri kapatır. Kodekler iki fikre dayanır: Bir karenin içinde gözün fark etmeyeceği ayrıntıyı atmak, tıpkı JPEG gibi; art arda gelen kareler arasında yalnızca değişeni saklamak. Konuşan bir kişinin arkasındaki duvar kareden kareye değişmez; onu her karede yeniden yazmaya gerek yoktur. H.264, H.265 ve AV1 bugün yaygın kodeklerdendir.
 
-Videonun bit hızı megabit/saniye (Mbps, megabits per second) ile ölçülür. 8 Mbps'lik bir video bir dakikada 8 × 60 = 480 megabit, yani 60 MB tutar. Aynı süre 4K çözünürlükte (yaklaşık 3840 × 2160 piksel) ve saniyede 60 kareyle çekilirse dosya birkaç kat büyür. Telefonunun deposunu en hızlı dolduran şeyin video olmasının nedeni budur.
+Videonun bit hızı megabit/saniye (Mbps, saniyede megabit) ile ölçülür. 8 Mbps'lik bir video bir dakikada 8 × 60 = 480 megabit, yani 60 MB tutar. Aynı süre 4K çözünürlükte (yaklaşık 3840 × 2160 piksel) ve saniyede 60 kareyle çekilirse dosya birkaç kat büyür. Telefonunun deposunu en hızlı dolduran şeyin video olmasının nedeni budur.
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
 Kısa vadede: telefonunun deposunun neden dolduğunu anlar, fotoğraf ve video ayarlarını bilinçli seçersin; bozuk görünen bir dosyanın nedenini tahmin edersin. Orta vadede: işte veri alışverişi yaparken dosya boyutunu, biçimini ve karakter kodlamasını doğru seçersin. Uzun vadede: sensörlerden gelen her verinin bir örnekleme ve niceleme kararıyla başladığını bilir, ölçümün sınırlarını sorgularsın.
@@ -164,18 +164,18 @@ Parçaların adını bilmek, ancak hangi işi yaptıklarını ve yetersiz kaldı
 ::: {.tablo-kaydir}
 | Bileşen | Görevi | Yetersizse ne olur? |
 |---|---|---|
-| İşlemci (CPU, central processing unit) | Komutları sırayla ve hızla işler; bilgisayarın genel beyni | Ağır işlerde uzun bekleme, sürekli %100 işlemci kullanımı |
-| Ekran kartı (GPU, graphics processing unit) | Binlerce basit işlemi aynı anda yapar: görüntü, video, yapay zekâ (YZ) hesapları | Oyunda takılma, video dışa aktarmada uzun süre |
-| Yapay zekâ birimi (NPU, neural processing unit) | Yeni cihazlarda YZ işlerini az enerjiyle yapar | Cihazdaki YZ özellikleri yavaş ya da hiç yok |
-| RAM (random access memory, rastgele erişimli bellek) | Çalışan programların ve verilerin geçici olarak tutulduğu hızlı bellek; elektrik kesilince silinir | Çok sekme ya da program açınca yavaşlama, disk ışığının sürekli yanması |
+| İşlemci (CPU) | Komutları sırayla ve hızla işler; bilgisayarın genel beyni | Ağır işlerde uzun bekleme, sürekli %100 işlemci kullanımı |
+| Ekran kartı (GPU) | Binlerce basit işlemi aynı anda yapar: görüntü, video, YZ hesapları | Oyunda takılma, video dışa aktarmada uzun süre |
+| Yapay zekâ birimi (NPU) | Yeni cihazlarda YZ işlerini az enerjiyle yapar | Cihazdaki YZ özellikleri yavaş ya da hiç yok |
+| RAM | Çalışan programların ve verilerin geçici olarak tutulduğu hızlı bellek; elektrik kesilince silinir | Çok sekme ya da program açınca yavaşlama, disk ışığının sürekli yanması |
 | Depolama (SSD ya da HDD) | Dosyaların kalıcı olarak saklandığı yer | Yavaş açılış, "depolama dolu" uyarısı, güncellemelerin yapılamaması |
 | Anakart | Bütün parçaları birbirine bağlar | Yükseltme seçeneklerinin kısıtlı olması |
 | Güç kaynağı ya da batarya | Enerji sağlar | Ani kapanma, kısa pil ömrü |
 | Soğutma | Isıyı dışarı atar | Fan gürültüsü, ısınma ve işlemcinin kendini yavaşlatması |
-| Bağlantı noktaları | Çevre birimlerini bağlar; bugün en yaygını USB-C (USB, Universal Serial Bus) | Adaptör ihtiyacı, yavaş aktarım |
+| Bağlantı noktaları | Çevre birimlerini bağlar; bugün en yaygını USB-C | Adaptör ihtiyacı, yavaş aktarım |
 :::
 
-**HDD ve SSD:** Sabit disk (HDD, hard disk drive), dönen manyetik plakalar ve hareketli bir okuma kafasıyla çalışır; ucuzdur, ama yavaş ve darbeye hassastır. SSD'de (solid-state drive, katı hal sürücüsü) hareketli parça yoktur; veri çiplerde tutulur. Bu yüzden SSD'li bir bilgisayar saniyeler içinde açılır. Eski bir bilgisayara SSD takmak, ona çoğu zaman en çok hız kazandıran yükseltmedir.
+**HDD ve SSD:** Sabit disk (HDD), dönen manyetik plakalar ve hareketli bir okuma kafasıyla çalışır; ucuzdur, ama yavaş ve darbeye hassastır. SSD'de hareketli parça yoktur; veri çiplerde tutulur. Bu yüzden SSD'li bir bilgisayar saniyeler içinde açılır. Eski bir bilgisayara SSD takmak, ona çoğu zaman en çok hız kazandıran yükseltmedir.
 
 **Darboğaz:** Bir sistemin hızını en yavaş halkası belirler. Görev yöneticisinde RAM %98 doluyken işlemci %15'te bekliyorsa, daha hızlı bir işlemci almak sorunu çözmez; sorun tezgâhtadır, aşçıda değil.
 
@@ -191,7 +191,7 @@ Parçaların adını bilmek, ancak hangi işi yaptıklarını ve yetersiz kaldı
 
 Son sütun, gerçek erişim sürelerini bir insanın anlayacağı ölçeğe büyütür. Gerçek değerler cihaza ve bağlantıya göre değişir, ama basamaklar arasındaki büyüklük farkı budur. Bir bilgisayarı hızlandırmanın yolu bu yüzden çoğu zaman işlemciyi değil, verinin beklediği basamağı yükseltmektir: HDD yerine SSD, yetersiz RAM yerine daha fazlası.
 
-**Bağlantı noktaları:** USB-C bir fiş biçiminin adıdır, bir hızın ya da yeteneğin değil. Aynı görünen iki USB-C girişinden biri ekran bağlamaya ve hızlı şarja izin verirken öteki yalnızca yavaş veri aktarabilir; girişin yanındaki simgelere ve cihazın teknik özelliklerine bakmak gerekir. Bir projektöre ya da ikinci ekrana bağlanırken çoğu zaman HDMI (High-Definition Multimedia Interface) kullanılır; Windows'ta **Windows + P** tuşları ekranı çoğaltma ya da genişletme seçeneklerini açar. Sunum yapacağın bir salona kendi adaptörünle gitmek, dersin "hazırlıklı ol" felsefesinin en küçük uygulamasıdır.
+**Bağlantı noktaları:** USB-C bir fiş biçiminin adıdır, bir hızın ya da yeteneğin değil. Aynı görünen iki USB-C girişinden biri ekran bağlamaya ve hızlı şarja izin verirken öteki yalnızca yavaş veri aktarabilir; girişin yanındaki simgelere ve cihazın teknik özelliklerine bakmak gerekir. Bir projektöre ya da ikinci ekrana bağlanırken çoğu zaman HDMI kullanılır; Windows'ta **Windows + P** tuşları ekranı çoğaltma ya da genişletme seçeneklerini açar. Sunum yapacağın bir salona kendi adaptörünle gitmek, dersin "hazırlıklı ol" felsefesinin en küçük uygulamasıdır.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Belirtiden parçaya"}
 Belirtiden bileşene giden düşünce, bakım teknisyenliğinin özüdür. Uçaktaki elektronik sistemlerin çoğu kendi kendini test eden donanımlarla (BITE, built-in test equipment) donatılmıştır; arıza olduğunda bir arıza kodu kaydedilir. Teknisyen bu kodu ve belirtileri okuyarak arızalı birimi bulur ve onu bütünüyle çıkarıp yenisini takar. Pistte hızla değiştirilebilecek şekilde tasarlanan bu birimlere **hat değiştirilebilir birim** (LRU, line replaceable unit) denir. Bu hafta bir bilgisayar için yaptığın "hangi belirti hangi parçayı gösterir?" çalışması, hangarda her gün yapılan işin küçük bir provasıdır.
@@ -209,7 +209,7 @@ Moore yasası onlarca yıl boyunca aynı paraya daha fazla işlem gücü ve depo
 
 - **2011:** Tayland'daki büyük sel, sabit disk fabrikalarını ve parça tedarikçilerini sular altında bıraktı; disk fiyatları aylarca yüksek kaldı.
 - **2020–2023:** Salgınla birlikte bilgisayar ve elektronik talebi patladı, üretim ve taşımacılık aksadı. Bazı otomobil fabrikaları, birkaç dolarlık çipler gelmediği için üretimi durdurdu.
-- **2025'in sonlarından itibaren:** Bellek fiyatları kısa sürede keskin biçimde yükseldi. Yapay zekâ veri merkezleri, işlemcinin hemen yanına yerleştirilen **yüksek bant genişlikli bellek** (HBM, high bandwidth memory) gibi pahalı bellek türlerine büyük bir talep yarattı. Üreticiler kapasitelerini bu ürünlere kaydırınca telefon ve bilgisayarlarda kullanılan sıradan bellek kıtlaştı; bazı bellek ürünlerinin fiyatı birkaç ayda iki katını aştı, bazı cihaz üreticileri fiyatlarını artırdı.
+- **2025'in sonlarından itibaren:** Bellek fiyatları kısa sürede keskin biçimde yükseldi. Yapay zekâ veri merkezleri, işlemcinin hemen yanına yerleştirilen **yüksek bant genişlikli bellek** (HBM) gibi pahalı bellek türlerine büyük bir talep yarattı. Üreticiler kapasitelerini bu ürünlere kaydırınca telefon ve bilgisayarlarda kullanılan sıradan bellek kıtlaştı; bazı bellek ürünlerinin fiyatı birkaç ayda iki katını aştı, bazı cihaz üreticileri fiyatlarını artırdı.
 
 Senin için ders şu: Fiyatı yalnızca mühendislik değil, arz, talep ve beklenmedik olaylar da belirler. RAM'i sonradan artırılamayan bir cihaz alırken bugünkü ihtiyacını değil, cihazın bütün ömrü boyunca gereken belleği düşün. Bellek pahalıyken eksik bellekli bir cihaz almak, iki yıl sonra yeni bir cihaz almak anlamına gelebilir.
 
@@ -238,14 +238,14 @@ Bilgisayar deyince aklımıza masaüstü ve dizüstü gelir, ama bunlar bilgisay
 | Süper bilgisayar | Hava tahmini, iklim, fizik modelleri | Binlerce işlemciyi paralel çalıştırır |
 | Gömülü sistem | Saat, çamaşır makinesi, otomobil, uçak | Tek bir işe adanmıştır; kullanıcı yeni program kuramaz |
 
-**Gömülü sistemler** sayıca bütün diğerlerinden fazladır: evdeki kumandadan kombiye kadar her yerdedir ve çoğu zaman fark edilmez. Hafta 4'te göreceğimiz Nesnelerin İnterneti (IoT, Internet of Things), bu gömülü sistemlerin internete bağlanmasıdır.
+**Gömülü sistemler** sayıca bütün diğerlerinden fazladır: evdeki kumandadan kombiye kadar her yerdedir ve çoğu zaman fark edilmez. Hafta 4'te göreceğimiz Nesnelerin İnterneti, bu gömülü sistemlerin internete bağlanmasıdır.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Basit bir dijital kol saati bilgisayar değildir." Yanlış sayılır. 1989'dan beri üretilen ucuz bir dijital saatin içinde de program çalıştıran küçük bir işlemci vardır; yalnızca tek bir işe adanmıştır. Bazı meraklılar bu saatlerin çipini söküp mikroskopla fotoğraflayarak nasıl çalıştığını inceler. Bir ürünü söküp nasıl çalıştığını anlamaya **tersine mühendislik** denir; güvenlik boyutunu Hafta 9'da göreceğiz.
 :::
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
-Bir yolcu uçağında onlarca gömülü bilgisayar vardır. Bunlardan biri ADC kısaltmasını taşır, ama bu kez analog-dijital dönüştürücü değil, **hava verisi bilgisayarı** (Air Data Computer) demektir: pitot ve statik basınç ölçümlerinden hız ve irtifayı hesaplar. Uçak sistemleri arasındaki veri, ARINC 429 (ARINC: Aeronautical Radio, Incorporated; standardı yayımlayan kuruluş) gibi veri yollarında 32 bitlik kelimeler halinde taşınır; her kelimenin son biti, iletimde bir bitin bozulup bozulmadığını anlamaya yarayan **parite bitidir**.
+Bir yolcu uçağında onlarca gömülü bilgisayar vardır. Bunlardan biri ADC kısaltmasını taşır, ama bu kez analog-dijital dönüştürücü değil, **hava verisi bilgisayarı** (Air Data Computer) demektir: pitot ve statik basınç ölçümlerinden hız ve irtifayı hesaplar. Uçak sistemleri arasındaki veri, ARINC 429 gibi veri yollarında 32 bitlik kelimeler halinde taşınır; her kelimenin son biti, iletimde bir bitin bozulup bozulmadığını anlamaya yarayan **parite bitidir**.
 :::
 
 ## 8. Kapanış: doğru cihazı seçmek ve onarmak
@@ -259,7 +259,7 @@ Bir bilgisayar ilanı okurken soru "En güçlüsü hangisi?" değil, "Benim işi
 | YZ araçlarını cihazda denemek | NPU ya da güçlü GPU, bol RAM |
 | Taşınabilirlik | Ağırlık, pil, USB-C ile şarj |
 
-İşlemcilerin bugün iki büyük ailesi var: masaüstü ve dizüstülerde uzun süre baskın olan **x86** (Intel, AMD) ve telefonlarda başlayıp dizüstülere de yayılan, az enerji harcayan **ARM** (adı, tasarımcı şirketin eski adı Advanced RISC Machines'ten gelir; Apple'ın M serisi, Qualcomm Snapdragon). Seçim, kullanacağın programların bu mimaride çalışıp çalışmadığına da bağlıdır.
+İşlemcilerin bugün iki büyük ailesi var: masaüstü ve dizüstülerde uzun süre baskın olan **x86** (Intel, AMD) ve telefonlarda başlayıp dizüstülere de yayılan, az enerji harcayan **ARM** (Apple'ın M serisi, Qualcomm Snapdragon). Seçim, kullanacağın programların bu mimaride çalışıp çalışmadığına da bağlıdır.
 
 Bir cihazı almak kadar onu uzun süre kullanabilmek de önemlidir. Pili, ekranı ya da depolaması değiştirilebilen, yani **tamir edilebilir** bir cihaz yıllarca kullanılabilir; her şeyi yapıştırılmış bir cihaz ise küçük bir arızada çöpe gider. Avrupa Birliği son yıllarda üreticileri tamire uygun tasarıma ve ortak USB-C şarj girişine yönlendiren düzenlemeler yaptı. Elektronik atık dünyanın en hızlı büyüyen atık türlerinden biri; tamir ettirmek, yükseltmek ya da ikinci el almak hem bütçe hem çevre için bir alternatiftir.
 
@@ -279,8 +279,8 @@ Kısa vadede: telefon ya da bilgisayar alırken ilanı okuyup ihtiyacına göre 
 
 Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı.
 
-- **Standartlar:** ASCII (1963); Unicode; IEC (International Electrotechnical Commission) ikili önekleri (1998); ARINC 429 veri yolu standardı.
-- **Tarih:** Claude Shannon, "A Mathematical Theory of Communication" (1948); John von Neumann, EDVAC (Electronic Discrete Variable Automatic Computer) raporu (1945); Gordon Moore (1965); Intel 4004 (1971).
+- **Standartlar:** ASCII (1963); Unicode; IEC ikili önekleri (1998); ARINC 429 veri yolu standardı.
+- **Tarih:** Claude Shannon, "A Mathematical Theory of Communication" (1948); John von Neumann, EDVAC raporu (1945); Gordon Moore (1965); Intel 4004 (1971).
 - **Avrupa Birliği ve çevre:** Ortak şarj girişi direktifi (2022/2380; uygulama Aralık 2024); onarım hakkı direktifi (2024/1799); BM Küresel E-Atık İzleme raporları. Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
 - **Çip politikaları ve fiyatlar:** ABD CHIPS and Science Act (2022); Avrupa Çip Yasası (AB Tüzüğü 2023/1781). Bellek fiyatlarındaki artış için 2025–2026 sektör duyuruları ve haberleri; fiyatlar hızla değiştiği için güncel durumu piyasa araştırma şirketlerinin raporlarından izle.
 

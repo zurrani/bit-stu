@@ -15,7 +15,7 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
 </div>
 ```
 
-Aramak hiç bu kadar kolay olmamıştı; doğruyu bulmak ise hiç bu kadar zor olmamıştı. Bu hafta arama motorlarının nasıl çalıştığını ve onları nasıl daha iyi kullanacağını, sonra da asıl beceriyi öğreneceksin: bir bilginin, bir sitenin, bir fotoğrafın ya da bir alıntının güvenilir olup olmadığını birkaç dakikada sınamayı. Bu beceri gelecek hafta yapay zekâyla (YZ) çalışırken de en büyük koruman olacak.
+Aramak hiç bu kadar kolay olmamıştı; doğruyu bulmak ise hiç bu kadar zor olmamıştı. Bu hafta arama motorlarının nasıl çalıştığını ve onları nasıl daha iyi kullanacağını, sonra da asıl beceriyi öğreneceksin: bir bilginin, bir sitenin, bir fotoğrafın ya da bir alıntının güvenilir olup olmadığını birkaç dakikada sınamayı. Bu beceri gelecek hafta yapay zekâyla çalışırken de en büyük koruman olacak.
 
 **Okuma süresi:** yaklaşık 25 dakika.
 
@@ -57,17 +57,17 @@ Dünyada ve Türkiye'de aramaların büyük çoğunluğu tek bir arama motorunda
 | `site:` | Yalnızca belirli bir sitede ya da alan adı türünde arar | `site:shgm.gov.tr`, `site:edu.tr` |
 | `filetype:` | Belirli dosya türünü arar | `filetype:pdf yönetmelik` |
 
-Operatörler birleştirilebilir: `site:shgm.gov.tr filetype:pdf İHA` sorgusu, yalnızca SHGM'nin (Sivil Havacılık Genel Müdürlüğü) sitesindeki ve İHA (insansız hava aracı) geçen PDF (Portable Document Format) dosyalarını getirir. Eski sunumlarda ve sitelerde görebileceğin `+`, `~`, `related:` ve `info:` operatörleri ise artık çalışmıyor; arama motorları değiştikçe operatörler de değişir.
+Operatörler birleştirilebilir: `site:shgm.gov.tr filetype:pdf İHA` sorgusu, yalnızca SHGM'nin sitesindeki ve İHA geçen PDF dosyalarını getirir. Eski sunumlarda ve sitelerde görebileceğin `+`, `~`, `related:` ve `info:` operatörleri ise artık çalışmıyor; arama motorları değiştikçe operatörler de değişir.
 
 ### Arama motoru her şey değil
 
 | Ne arıyorsun? | Nereye bakmalı? |
 |---|---|
 | Bilimsel makale | Google Akademik, DergiPark |
-| Türkiye'deki tezler | YÖK (Yükseköğretim Kurulu) Ulusal Tez Merkezi |
+| Türkiye'deki tezler | YÖK Ulusal Tez Merkezi |
 | Yasa ve yönetmelik | Resmî Gazete, mevzuat.gov.tr |
-| Resmî istatistik | TÜİK (Türkiye İstatistik Kurumu), ilgili bakanlıkların veri sayfaları |
-| Havacılık kuralları | SHGM, EASA (European Union Aviation Safety Agency, Avrupa Birliği Havacılık Emniyeti Ajansı), ICAO'nun (International Civil Aviation Organization, Uluslararası Sivil Havacılık Örgütü) kendi siteleri |
+| Resmî istatistik | TÜİK, ilgili bakanlıkların veri sayfaları |
+| Havacılık kuralları | SHGM, EASA, ICAO'nun kendi siteleri |
 | Bir sayfanın eski hali | Wayback Machine (web.archive.org) |
 
 ### YZ ile arama
@@ -77,7 +77,7 @@ Bugün birçok arama motoru sonuçların üstünde yapay zekâyla yazılmış bi
 1. **Kaynağı iste.** Cevap kaynak göstermiyorsa sor: "Bunu hangi kaynağa dayandırıyorsun?"
 2. **Bağlantıyı aç.** Gösterilen sayfa gerçekten var mı ve açılıyor mu?
 3. **İddiayı orada bul.** Sayfa var diye iddianın da orada olduğunu varsayma; ilgili cümleyi sayfada ara (Ctrl + F).
-4. **Künyeyi kontrol et.** Bir makale gösterildiyse başlığını Google Akademik'te ya da DergiPark'ta ara. Bilimsel makalelerin çoğunun **DOI** (Digital Object Identifier) adı verilen kalıcı bir kimlik numarası vardır; `doi.org/` adresinin sonuna eklenen numara seni makalenin kendisine götürür. Var olmayan bir makalenin DOI'si de yoktur.
+4. **Künyeyi kontrol et.** Bir makale gösterildiyse başlığını Google Akademik'te ya da DergiPark'ta ara. Bilimsel makalelerin çoğunun **DOI** adı verilen kalıcı bir kimlik numarası vardır; `doi.org/` adresinin sonuna eklenen numara seni makalenin kendisine götürür. Var olmayan bir makalenin DOI'si de yoktur.
 
 YZ'nin uydurduğu kaynaklar yüzünden mahkemede zor durumda kalan avukatların hikâyesini gelecek hafta göreceğiz.
 
@@ -205,7 +205,7 @@ Türkiye'de Teyit ve Doğruluk Payı gibi doğrulama platformları, yaygın iddi
 - "640 KB bellek herkese yeter" sözü Bill Gates'e atfedilir; Gates bunu söylediğini defalarca reddetmiştir ve bir kaynak bulunamamıştır.
 - "Dünya pazarında belki beş bilgisayara yer var" sözü IBM'in başkanı Thomas Watson'a atfedilir; bunun da güvenilir bir kaynağı yoktur.
 
-Bir alıntı gerçek olsa bile bağlamından koparılınca yanıltıcı olabilir. 1949'da Popular Mechanics dergisi, gelecekte bilgisayarların "belki yalnızca 1,5 ton" ağırlığında olabileceğini yazmıştı. Bu cümle bugün bir gaf olarak paylaşılır. Oysa o yıllarda ENIAC (Electronic Numerical Integrator and Computer) 30 ton ağırlığındaydı; dergi aslında bilgisayarların yirmi kat hafifleyeceğini öngörüyordu ve bu, kendi zamanı için iyimser bir tahmindi.
+Bir alıntı gerçek olsa bile bağlamından koparılınca yanıltıcı olabilir. 1949'da Popular Mechanics dergisi, gelecekte bilgisayarların "belki yalnızca 1,5 ton" ağırlığında olabileceğini yazmıştı. Bu cümle bugün bir gaf olarak paylaşılır. Oysa o yıllarda ENIAC 30 ton ağırlığındaydı; dergi aslında bilgisayarların yirmi kat hafifleyeceğini öngörüyordu ve bu, kendi zamanı için iyimser bir tahmindi.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Sayılabilen her şey önemli değildir, önemli olan her şey sayılamaz." Bu söz internette çoğu zaman Einstein'a atfedilir. Bilinen ilk kaynağı ise sosyolog William Bruce Cameron'ın 1963 tarihli bir kitabıdır. Einstein'ın adı, bir sözü daha "güçlü" göstermek için en sık kullanılan addır.
@@ -221,7 +221,7 @@ Başkasının fikrini, cümlesini, verisini ya da görselini kullandığında bu
 
 **İntihal**, başkasının emeğini kendi emeğin gibi sunmaktır: kaynak göstermeden kopyalamak, kelimeleri biraz değiştirip kendi yazınmış gibi sunmak ya da başkasına yazdırılmış bir metni kendi adınla teslim etmek. Yapay zekânın yazdığı bir metni beyan etmeden kendi metnin gibi sunmak da bu derste aynı kapsamdadır.
 
-Metnin içinde bir bilginin kaynağını belirtmeye **atıf**, kullandığın bütün kaynakların sonda listelenmesine **kaynakça** denir. Bir kaynağı göstermenin pek çok biçimi vardır; bu derste kısa bir APA (American Psychological Association) biçimi yeterlidir:
+Metnin içinde bir bilginin kaynağını belirtmeye **atıf**, kullandığın bütün kaynakların sonda listelenmesine **kaynakça** denir. Bir kaynağı göstermenin pek çok biçimi vardır; bu derste kısa bir APA biçimi yeterlidir:
 
 ```text
 Kitap:      Soyad, A. (Yıl). Kitabın adı. Yayınevi.
