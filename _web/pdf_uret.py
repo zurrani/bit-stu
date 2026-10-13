@@ -7,7 +7,7 @@
 Dosyalar geçici bir klasöre kopyalanıp orada Quarto + Typst ile derlenir; özgün dosyalara
 dokunulmaz. PDF depodaki _pdf/ klasörüne yazılır; bu klasör git'e girmemelidir.
 bit-ins çıktısı sınav soruları ve cevap anahtarları içerir: öğrenciyle paylaşılmaz.
-Gereken: Quarto 1.7 (Typst içinde gelir) ve Python 3.
+Gereken: Quarto 1.7 ya da sonrası (Typst içinde gelir; 1.10.19 ile denendi) ve Python 3.
 """
 import argparse, re, shutil, subprocess, sys, tempfile
 from pathlib import Path
