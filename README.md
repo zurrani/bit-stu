@@ -84,6 +84,8 @@ Yalnızca öğrenmeyi destekleyen sorular buraya girer; sınav soruları hiçbir
 
 Site **Cloudflare Pages** ile yayımlanır; depo özel kalır, yalnızca derlenmiş site (`_site/`) açılır. Adres `https://bit.zurrani.com` (yedek adres `https://bit-stu.pages.dev`). Karar ve gerekçe: `bit-ins/planlama/00_proje-rehberi.md`, 4.8.
 
+> **Düzeltme (16 Ekim 2026):** zurrani.com'un DNS'i Cloudflare'e taşındı. Yedek adres `bit-stu.pages.dev` Türkiye'deki bir ağdan açılmadı; öğrencilere yalnızca `bit.zurrani.com` verilir. Cloudflare ayarları, DNS, derleme komutu ve sağlık denetimi artık tek yerde: [`ALTYAPI.md`](ALTYAPI.md).
+
 **Güncelleme:** Bir notu değiştir, yerelde `quarto preview` ile kontrol et, sonra:
 
 ```bash
@@ -94,22 +96,9 @@ git push
 
 Cloudflare `main` dalındaki her push'ta siteyi kendisi derler (yaklaşık bir dakika). Durumu Cloudflare panelinde bit-stu → Deployments sekmesinde görürsün. Bir derleme başarısız olursa yayındaki site değişmez; günlüğe "Details"ten bakılır.
 
-Cloudflare'deki ayarlar (bit-stu projesi):
+Cloudflare'deki ayarlar (Pages projesi, özel alan adı, DNS kaydı, derleme komutu) ve sağlık denetimi: [`ALTYAPI.md`](ALTYAPI.md). Tablonun 16 Ekim 2026'ya kadarki hâli orada, "Değişiklik geçmişi"nde (özel alan adı satırı: "WordPress.com DNS'inde CNAME `bit` → `bit-stu.pages.dev`").
 
-| Ayar | Değer |
-|---|---|
-| Production branch | `main` |
-| Framework preset | None |
-| Build command | aşağıdaki satır |
-| Build output directory | `_site` |
-| Özel alan adı | `bit.zurrani.com` (WordPress.com DNS'inde CNAME `bit` → `bit-stu.pages.dev`) |
-| Web Analytics | Açık (çerezsiz; Hakkında'da açıklanır) |
-
-```text
-mkdir -p /tmp/q && curl -sL https://github.com/quarto-dev/quarto-cli/releases/download/v1.10.19/quarto-1.10.19-linux-amd64.tar.gz | tar xz -C /tmp/q && /tmp/q/quarto-1.10.19/bin/quarto render
-```
-
-Quarto sürümü yerelde güncellenirse derleme komutundaki sürüm de güncellenir. Yayımlanan profil öntanımlı (havacılık katmanlı) profildir; genel profil yalnızca yerelde derlenir.
+Quarto sürümü yerelde güncellenirse `ALTYAPI.md`'deki derleme komutundaki sürüm de güncellenir. Yayımlanan profil öntanımlı (havacılık katmanlı) profildir; genel profil yalnızca yerelde derlenir.
 
 Depo özel olsa da site herkese açıktır: buraya yalnızca öğrenciye açık içerik girer. Sınav soruları, lisansı belirsiz görseller ve kişisel veri hiçbir zaman konmaz. `$` işaretini (örneğin `$B$7`) ters tırnak içinde yaz; yoksa Quarto onu matematik formülü sanar ve sayfa dışarıdan MathJax yükler.
 
