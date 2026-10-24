@@ -2,7 +2,7 @@
 
 **Başlangıç dosyası:** `bozuk-rapor.docx` (bu klasörde). Rapor, kişileri, sayıları ve kaynaklarıyla **kurgusaldır**.
 **Süre:** yaklaşık 60 dakika. Sınıfta başlarsın, öğretim görevlisinin duyurduğu tarihe kadar (bir hafta) tamamlarsın.
-**Ağırlık:** Hafta 10–12'deki üç föy birlikte final notunun %20'sidir; bu föy 15 puan üzerinden değerlendirilir.
+**Değerlendirme:** Föy, sonundaki kontrol listesine dayanan bir ölçüt tablosuyla değerlendirilir; ayrıntısı derste duyurulur.
 **Program:** Masaüstü Word ya da ücretsiz LibreOffice Writer. Web sürümlerinde ve Google Dokümanlar'da resim yazısı ve çapraz başvuru gibi bazı özellikler eksik ya da farklı olabilir.
 
 Bu raporu bir öğrenci kulübü hazırlamış; ama bir daktilo gibi yazmış. Başlıklar elle büyütülmüş, içindekiler ve sayfa numaraları elle yazılmış, yeni sayfalar Enter'la açılmış. Bir arkadaşın da (Ayşe Demir, kurgusal) raporu incelemiş: içinde onun izlenen değişiklikleri ve iki yorumu var. Senin görevin raporu **yapılandırılmış** bir belgeye dönüştürmek ve teslime hazırlamak. Menü adları Word'e göredir; bulamazsan programın arama kutusuna işlevin adını yaz.

@@ -51,27 +51,17 @@ Bu dersi başarıyla tamamladığında şunları yapabileceksin:
 
 ## 4. Ders nasıl işlenir?
 
-- **Dersten önce:** O haftanın notunu oku (25–35 dakika). Notun nasıl okunacağı [Bu ders nasıl işler?](../docs/00_cerceve.qmd) sayfasında.
+- **Dersten önce:** O haftanın notunu oku (yaklaşık 20–30 dakika; her notun başında yazar). Notun nasıl okunacağı [Bu ders nasıl işler?](../docs/00_cerceve.qmd) sayfasında.
 - **Derste:** Kısa bir açılış sorusu, kavramlar ve bilgisayar başında uygulama. Anlatım bir seferde 15 dakikayı aşmaz; zamanın önemli bir kısmı senin yaptığın etkinliklerdir.
 - **Dersten sonra:** Haftanın ödevi, bir sonraki haftanın başına kadar. Notun sonundaki *Kendini sına* sorularıyla konuyu anlayıp anlamadığını kontrol edebilirsin; bunlar nota girmez.
 - **Laboratuvar yoksa:** Föyler evde yapılır; okulun bilgisayar salonu ya da programların ücretsiz web sürümleri kullanılabilir. Ön ve son test için bir ders saati bilgisayar başında ayarlanır.
 
 ## 5. Değerlendirme
 
-::: {.tablo-kaydir}
-| Bileşen | Kapsam | Ağırlık |
-|---|---|---|
-| Vize sınavı | Hafta 1–8 | Vize notunun %50'si |
-| Uygulama dosyası | Hafta 1–9 ödevleri, tek klasörde | Vize notunun %50'si |
-| Final sınavı | Bütün dönem | Final notunun %40'ı |
-| Üretim föyleri | Hafta 10, 11 ve 12 föyleri (eşit ağırlıklı) | Final notunun %20'si |
-| Dönem projesi | Altı adım ve sunum (6. bölüm) | Final notunun %40'ı |
-:::
-
-Dönem notu: **vize %40, final %60.** Oranlar kurumun yönetmeliğine göre uyarlanabilir; geçerli oranlar dönem başında duyurulur.
+Dönem notu: **%40 yıl içi değerlendirme, %60 yıl sonu değerlendirme.** Değerlendirmenin ayrıntısı derste duyurulur.
 
 - **Sınavlar:** Biçimi ve süresi dönem başında duyurulur. Sınavlar ders notlarındaki çekirdek bölümlerden gelir; *(okuma)* bölümlerinden tarih ya da sayı değil, kavram sorulur.
-- **Ödevler ve föyler:** Her biri 15 puanlık bir ölçüt tablosuyla (rubrik) değerlendirilir. Ölçütler ödevin yönergesinde ya da derste duyurulur.
+- **Ödevler ve föyler:** Her biri bir ölçüt tablosuyla (rubrik) değerlendirilir. Ölçütler ödevin yönergesinde ya da derste duyurulur.
 - **Ön ve son test:** Hafta 1 ve 14'te Europass Dijital Beceri Testi ve sınıfta kısa bir performans testi. Nota girmez; kendi gelişimini görmen içindir.
 - **Bütünleme ve mazeret sınavları:** … yönetmeliğine göre.
 
@@ -90,7 +80,7 @@ Dönem boyunca kendi seçtiğin bir konuda adım adım bir çalışma dosyası h
 | 6 | 13–14 | Üç dakikalık sunum (Hafta 13'te hazırlık ve prova, Hafta 14'te sunum) ve bütün adımların son teslimi |
 :::
 
-İlk üç adım vize döneminde ödev olarak da değerlendirilir ve geri bildirim alır. Son teslimde notlanan, aynı adımların ikinci kez kendisi değil; projenin bütünlüğü ve geri bildirimle yaptığın düzeltmelerdir (değişiklik notların). İlk adımlarda zayıf kalan bir bölümü son teslime kadar düzeltebilirsin.
+İlk üç adım dönemin ilk yarısında ödev olarak da değerlendirilir ve geri bildirim alır. Son teslimde notlanan, aynı adımların ikinci kez kendisi değil; projenin bütünlüğü ve geri bildirimle yaptığın düzeltmelerdir (değişiklik notların). İlk adımlarda zayıf kalan bir bölümü son teslime kadar düzeltebilirsin.
 
 Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlarının sana verdiği geri bildirim seni geliştirmek içindir; nota girmez.
 
@@ -275,7 +265,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 - Kendi hesaplarında parola yöneticisi, çok faktörlü doğrulama ve kurtarma kodlarıyla bir kimlik doğrulama düzeni kurmak.
 - Büyük bir kesintiye karşı kişisel bir dijital dayanıklılık planı hazırlamak.
 
-**Ödev (Hafta 10'un başına kadar):** Kişisel dijital dayanıklılık planı (plan sende kalır; bir kontrol listesi ve fark ettiğin en önemli eksik teslim edilir) ve kimlik doğrulama beyanı. Hafta 1–9 uygulama çıktılarını tek bir klasörde, içindekiler dosyasıyla teslime hazırla: Bu klasör vize notunun yarısıdır.
+**Ödev (Hafta 10'un başına kadar):** Kişisel dijital dayanıklılık planı (plan sende kalır; bir kontrol listesi ve fark ettiğin en önemli eksik teslim edilir) ve kimlik doğrulama beyanı. Hafta 1–9 uygulama çıktılarını tek bir klasörde, içindekiler dosyasıyla teslime hazırla.
 
 ### Hafta 10 · Belge tasarımı ve kurumsal yazışma
 

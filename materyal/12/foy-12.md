@@ -2,7 +2,7 @@
 
 **Başlangıç dosyası:** `cihaz-arizalari-temiz.xlsx` (bu klasörde). Kayıtlar **kurgusaldır**; Hafta 11'de temizlediğin verinin temiz sürümüdür.
 **Süre:** yaklaşık 60–70 dakika. Sınıfta başlarsın, öğretim görevlisinin duyurduğu tarihe kadar (bir hafta) tamamlarsın.
-**Ağırlık:** Hafta 10–12'deki üç föy birlikte final notunun %20'sidir; bu föy 15 puan üzerinden değerlendirilir.
+**Değerlendirme:** Föy, sonundaki kontrol listesine dayanan bir ölçüt tablosuyla değerlendirilir; ayrıntısı derste duyurulur.
 **Program:** Masaüstü Excel ya da ücretsiz LibreOffice Calc. ÇAPRAZARA işlevi yoksa DÜŞEYARA kullan (aşağıda).
 
 Laboratuvarların sorumlusu senden kısa bir analiz istiyor: "Önümüzdeki dönem yedek parça ve bakım bütçesini nereye ayıralım?" Elinde Eylül–Kasım 2026'nın 120 arıza kaydı ve bir cihaz envanteri var. Bu föyde ders notundaki dört adımı uygulayacaksın: soru, hesap, görsel, yorum. Menü adları Türkçe Excel'e göredir; işlevlerde bağımsız değişkenler noktalı virgülle ayrılır.

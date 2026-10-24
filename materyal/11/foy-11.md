@@ -2,7 +2,7 @@
 
 **Başlangıç dosyası:** `cihaz-arizalari.xlsx` (bu klasörde). Kayıtlar **kurgusaldır**.
 **Süre:** yaklaşık 60 dakika. Sınıfta başlarsın, öğretim görevlisinin duyurduğu tarihe kadar (bir hafta) tamamlarsın.
-**Ağırlık:** Hafta 10–12'deki üç föy birlikte final notunun %20'sidir; bu föy 15 puan üzerinden değerlendirilir.
+**Değerlendirme:** Föy, sonundaki kontrol listesine dayanan bir ölçüt tablosuyla değerlendirilir; ayrıntısı derste duyurulur.
 **Program:** Masaüstü Excel ya da ücretsiz LibreOffice Calc. Google E-Tablolar'da da yapılabilir, ama bazı menü adları farklıdır.
 
 Bir kampüsteki laboratuvar görevlileri cihaz arızalarını üç ay boyunca bir tabloya yazmış. Herkes kendi alışkanlığıyla yazdığı için tablo bir analize hazır değil: Aynı cihaz türü beş farklı biçimde yazılmış, tarihlerin bir kısmı metin, bazı bilgiler yalnızca renkle tutulmuş. Gelecek hafta bu verinin temiz sürümüyle analiz yapacaksın. Bu hafta senin görevin tabloyu **düzenli veriye** dönüştürmek ve bunu yaparken ne yaptığını kaydetmek. Menü adları Excel'e göredir; bulamazsan programın arama kutusuna işlevin adını yaz.
