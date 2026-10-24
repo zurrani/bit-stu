@@ -10,6 +10,7 @@ $bit-baglanti:#1F5F7E;   // bağlantılar, Bu notu nasıl okursun
 $bit-rbf:     #B3141F;   // Efsane mi gerçek mi?
 $bit-amber:   #94600A;   // Düşün
 $bit-camgobegi:#25695F;  // Bu ne işime yarar?
+$bit-primer-metin: #5F6A1F; // astar yeşilinin metin tonu (zeminde 5,4:1; WCAG AA)
 $bit-cizgi:   #D7DBD3;
 
 $body-bg: #F5F6F2;
@@ -43,6 +44,7 @@ $table-border-color: #D7DBD3;
 
 :root {
   --bit-primer: #{$bit-primer};
+  --bit-primer-metin: #{$bit-primer-metin};
   --bit-panel: #{$bit-metin};
   --bit-panel-metin: #E7EAE3;
   --bit-panel-ikincil: #AEB8B0;
@@ -90,7 +92,7 @@ strong { font-weight: 700; }
   .madde-tur { font-style: italic; color: $bit-ikincil; margin: .4rem 0 0; }
   .madde-tanim { font-size: 1.3rem; line-height: 1.45; max-width: 34ch; margin: .2rem 0 1.4rem; }
   .madde-ders { max-width: 60ch; color: $bit-ikincil; }
-  .ikili { font-family: $headings-font-family; color: var(--bit-primer); letter-spacing: .08em; }
+  .ikili { font-family: $headings-font-family; color: var(--bit-primer-metin); letter-spacing: .08em; }
 }
 
 // Haftalar listesi: gerçek bir sıra olduğu için numaralı.
@@ -99,8 +101,8 @@ strong { font-weight: 700; }
   li { display: grid; grid-template-columns: 3rem 1fr auto; align-items: baseline; gap: .75rem; padding: .7rem 0; border-bottom: 1px solid var(--bit-cizgi); max-width: none; }
   .no { font-family: $headings-font-family; font-weight: 600; font-size: 1.35rem; color: $bit-ikincil; }
   .durum { font-size: .9rem; color: $bit-ikincil; }
-  li.hazir .no { color: var(--bit-primer); }
-  li.hazir .durum { color: var(--bit-primer); font-weight: 700; }
+  li.hazir .no { color: var(--bit-primer-metin); }
+  li.hazir .durum { color: var(--bit-primer-metin); font-weight: 700; }
 }
 
 // Kutular: Quarto kutuları, türüne göre renk alır.
@@ -132,11 +134,11 @@ thead th { font-family: $headings-font-family; font-weight: 600; font-size: 1.02
   display: block; width: 100%; text-align: left;
   font: inherit; color: inherit;
   background: transparent;
-  border: 1px solid var(--bit-cizgi);
+  border: 1px solid $bit-ikincil;
   border-radius: 4px;
   padding: .45rem .7rem;
   cursor: pointer;
-  &:hover { border-color: $bit-ikincil; }
+  &:hover { border-color: $bit-metin; }
   &:focus-visible { outline: 3px solid $bit-baglanti; outline-offset: 2px; }
   &.dogru { border-color: var(--bit-dogru); background: rgba(37,105,95,.10); }
   &.yanlis { border-color: var(--bit-yanlis); background: rgba(179,20,31,.07); }

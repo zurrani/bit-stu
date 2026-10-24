@@ -1,0 +1,14 @@
+---
+title: "Sayfa bulunamadı"
+description: "Aradığın adres bu sitede yok."
+toc: false
+search: false
+---
+
+Adres yanlış yazılmış ya da sayfanın yeri değişmiş olabilir.
+
+- [Ana sayfaya dön](/index.html): 14 haftanın listesi.
+- [Bu ders nasıl işler?](/docs/00_cerceve.html): dersin yapısı ve notların nasıl okunacağı.
+- [Sözlük](/ekler/sozluk.html): bir kavramı arıyorsan.
+
+Sağ üstteki arama düğmesiyle de bir konuyu bulabilirsin.

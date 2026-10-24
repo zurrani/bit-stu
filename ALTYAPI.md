@@ -52,7 +52,7 @@ Bölge ayarları `zurrani.com`'daki bütün Proxied kayıtları etkiler; tek bir
 - Dışarıya giden tek istek Cloudflare Web Analytics betiği. Yazı tipleri yerelde.
 - `.html` uzantılı adresler 308 ile uzantısız adrese, `http://` 301 ile `https://`'e yönlenir.
 - `robots.txt` ve `sitemap.xml` dosyalarını Quarto üretir (`_quarto.yml`, `site-url`).
-- 404 sayfası yok: olmayan bir adres 200 ile ana sayfayı döndürür (Pages, `404.html` bulamayınca böyle davranır). Açık iş: `03_durum.md`, Sıradakiler.
+- 404 sayfası: `404.qmd` (24 Ekim 2026). Pages, `404.html` varsa olmayan adreste onu 404 koduyla gösterir; öncesinde 200 ile ana sayfayı döndürüyordu. Push'tan sonra canlıda `/yok-boyle-sayfa` ile denenir.
 
 ## Yeni bir alt alan adı eklemek
 

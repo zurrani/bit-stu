@@ -12,6 +12,7 @@
       var geri = document.createElement('p');
       geri.className = 'quiz-geri';
       geri.setAttribute('aria-live', 'polite');
+      geri.tabIndex = -1;  // düğmeler kapanınca odak buraya taşınır; klavyeyle gezen yerini kaybetmez
 
       var goster = document.createElement('button');
       goster.type = 'button';
@@ -38,6 +39,7 @@
             geri.textContent = 'Doğru. ' + gerekce;
             goster.hidden = true;
             butonlar.forEach(function (x) { x.disabled = true; });
+            geri.focus();
           } else {
             b.classList.add('yanlis');
             geri.className = 'quiz-geri no';
@@ -56,6 +58,7 @@
         geri.className = 'quiz-geri ok';
         geri.textContent = 'Doğru cevap ' + dogruHarf + '. ' + gerekce;
         goster.hidden = true;
+        geri.focus();
       });
 
       soru.appendChild(geri);
