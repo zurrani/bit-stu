@@ -1,6 +1,6 @@
 # BIT · öğrenci sitesi deposu
 
-Temel Bilgi Teknolojileri (BIT) dersinin öğrenci sitesi (Quarto). Planlama belgeleri ve öğretim görevlisi materyalleri kardeş özel depodadır: `../bit-ins`.
+Temel Bilgi Teknolojileri (BIT) dersinin öğrenci sitesi (Quarto). Planlama belgeleri ve öğretim görevlisi materyalleri kardeş özel depodadır: `../bit-ins`. Üç deponun düzeni: `../CLAUDE.md`.
 
 Çalışmaya başlamadan önce oku:
 
