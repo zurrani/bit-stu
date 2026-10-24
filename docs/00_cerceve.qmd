@@ -50,7 +50,7 @@ Ayrıntılı dönem planı, haftalık ödevler ve iş yükü [Ek E · Ders izlen
 
 - **%40 yıl içi değerlendirme, %60 yıl sonu değerlendirme.** Ayrıntısı derste duyurulur.
 - **Dönem projesi:** Dönem boyunca kendi seçtiğin bir konuda adım adım bir çalışma dosyası hazırlarsın: kaynak araştırması, yapay zekâ kullanım beyanı, lisanslı görseller, rapor, veri analizi ve kısa bir sunum.
-- **Ön test ve son test:** İlk hafta ve son hafta dijital yetkinliğini iki yolla ölçeriz: Avrupa Birliği'nin ücretsiz Europass Dijital Beceri Testi ve sınıfta yapılan kısa bir performans testi. Bu ölçümler not için değil, kendi gelişimini görmen içindir.
+- **Ön test ve son test:** İlk hafta ve son hafta dijital yetkinliğini üç yolla ölçeriz: iki öz değerlendirme (Europass Dijital Beceri Testi ve DigComp çarkı) ve sınıfta yapılan kısa bir performans testi. Bu ölçümler not için değil, kendi gelişimini görmen içindir.
 
 ## Kurallar
 

@@ -129,13 +129,13 @@ Bu sorunların büyük kısmı kurumların ve devletlerin işidir; ama senin de 
 
 ## 6. Ne kazandın?
 
-Hafta 1'de iki ölçüm yaptın: Europass Dijital Beceri Testi'yle kendini değerlendirdin ve performans testinde gerçek görevleri yaptın. Görevlerden önce her biri için "yapabilir miyim?" diye bir tahmin de yazdın. Bu hafta aynı yapıdaki ikinci testi yapıyorsun. Şimdi üç karşılaştırma yapabilirsin:
+Hafta 1'de üç ölçüm yaptın: Europass Dijital Beceri Testi ve DigComp çarkıyla kendini değerlendirdin, performans testinde gerçek görevleri yaptın. Görevlerden önce her biri için "yapabilir miyim?" diye bir tahmin de yazdın. Bu hafta aynı yapıdaki ikinci testi yapıyorsun. Şimdi üç karşılaştırma yapabilirsin:
 
 1. **Ön test ve son test:** Hangi görevlerde puanın arttı? Hangilerinde aynı kaldı? Artışın en çok olduğu görev, büyük olasılıkla en çok pratik yaptığın haftaya karşılık geliyor.
 2. **Öz tahmin ve sonuç:** Kendini doğru tahmin etmeye **kalibrasyon** denir. İyi kalibre olmuş biri neyi yapabildiğini ve neyi yapamadığını bilir; bu da ne öğrenmesi gerektiğini bilmek demektir. Son testte tahminlerin ön teste göre daha mı isabetli oldu?
 3. **Yapabiliyorum listesi:** Dönemin başında "bir adım öne çık" oyununda gördüğün yirmi maddeye şimdi kaç kez "evet" diyorsun? Tam listedeki yetmiş maddeye de bir göz at: Bazıları bu derste hiç işlenmedi; onları kendi başına öğrenebileceğin beceriler olarak düşün.
 
-Europass testini evde bir kez daha yap ve sonucunu, kendi öz değerlendirmene alan alan yaz. Sonucun bir not değil, bir haritadır: Nerede olduğunu ve nereye gidebileceğini gösterir.
+Europass testini ve DigComp çarkını evde bir kez daha yap; iki sonucu Hafta 1'dekilerle alan alan karşılaştır ve kendi öz değerlendirmene yaz. Sonucun bir not değil, bir haritadır: Nerede olduğunu ve nereye gidebileceğini gösterir.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Bu dönem öğrendiğin hangi beceri, dönem başında "bunu hiç yapamam" dediğin bir şeydi? Onu öğrenmeni ne sağladı: bir açıklama mı, bir örnek mi, yoksa deneyip yanılmak mı?

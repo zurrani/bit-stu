@@ -30,7 +30,7 @@ Klasörü teslim etmeden önce ZIP olarak sıkıştır (Hafta 10).
 ## 2. Kişisel öğrenme planı
 
 1. `yapabilirim-listesi.md` dosyasını (bu klasörde) doldur. Kimseye göstermek zorunda değilsin.
-2. Hafta 1'deki ve Hafta 14'teki performans testi sonuçlarına, öz tahminlerine ve Europass sonucuna bak.
+2. Hafta 1'deki ve Hafta 14'teki performans testi sonuçlarına, öz tahminlerine, Europass ve DigComp çarkı sonuçlarına bak.
 3. Listede en çok "Hayır" dediğin kategoriden **üç madde** seç. İstersen biri "—" işaretli (derste işlenmemiş) bir madde olsun.
 4. Her madde için aşağıdaki tabloyu doldurup bir sayfalık bir belge hazırla (Hafta 10'daki gibi stillerle):
 

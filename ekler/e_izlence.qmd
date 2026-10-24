@@ -62,7 +62,7 @@ Dönem notu: **%40 yıl içi değerlendirme, %60 yıl sonu değerlendirme.** De�
 
 - **Sınavlar:** Biçimi ve süresi dönem başında duyurulur. Sınavlar ders notlarındaki çekirdek bölümlerden gelir; *(okuma)* bölümlerinden tarih ya da sayı değil, kavram sorulur.
 - **Ödevler ve föyler:** Her biri bir ölçüt tablosuyla (rubrik) değerlendirilir. Ölçütler ödevin yönergesinde ya da derste duyurulur.
-- **Ön ve son test:** Hafta 1 ve 14'te Europass Dijital Beceri Testi ve sınıfta kısa bir performans testi. Nota girmez; kendi gelişimini görmen içindir.
+- **Ön ve son test:** Hafta 1 ve 14'te iki öz değerlendirme (Europass Dijital Beceri Testi ve DigComp çarkı) ve sınıfta kısa bir performans testi. Raporlar teslim edilir ama nota girmez; kendi gelişimini görmen içindir.
 - **Bütünleme ve mazeret sınavları:** … yönetmeliğine göre.
 
 ## 6. Dönem projesi
@@ -101,7 +101,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 ::: {.tablo-kaydir}
 | Hafta | Konu | Ödev ve föy | Dönem projesi |
 |---|---|---|---|
-| 1 | [Teknoloji neyi çözer, bedeli nedir?](../docs/01_teknoloji-neyi-cozer.qmd) | Europass ve ön test; "Bir icat, bir bedel" | — |
+| 1 | [Teknoloji neyi çözer, bedeli nedir?](../docs/01_teknoloji-neyi-cozer.qmd) | Europass, DigComp çarkı ve ön test; "Bir icat, bir bedel" | — |
 | 2 | [Bilgisayar nasıl düşünür?](../docs/02_bilgisayar-nasil-dusunur.qmd) | Cihazımın kimlik kartı | — |
 | 3 | [İşletim sistemleri: masaüstü, mobil ve dosya yönetimi](../docs/03_isletim-sistemleri.qmd) | Dijital düzen planı | — |
 | 4 | [Ağ, internet, bulut ve kablosuz iletişim](../docs/04_ag-internet-bulut.qmd) | Bir sayfanın yolculuğu | — |
@@ -123,7 +123,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Teknoloji hayatımızı kolaylaştırıyorsa, neden her seferinde bir bedeli de oluyor?*
 
-**Okuma:** [ders notu](../docs/01_teknoloji-neyi-cozer.qmd), yaklaşık 24 dakika. **DigComp:** 5.4 Dijital yetkinlik ihtiyaçları.
+**Okuma:** [ders notu](../docs/01_teknoloji-neyi-cozer.qmd), yaklaşık 25 dakika. **DigComp:** 5.4 Dijital yetkinlik ihtiyaçları.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -133,7 +133,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 - Dersin dört felsefesini kendi hayatından bir örnekle ilişkilendirmek.
 - Kendi dijital yetkinliğini ön testle belirlemek.
 
-**Ödev (Hafta 2'nin başına kadar):** Sınıfta performans ön testi. Evde Europass Dijital Beceri Testi'ni çöz ve sonuç raporunu PDF olarak sakla; Hafta 14'teki son testle karşılaştıracaksın. Kısa yazı, "Bir icat, bir bedel": Bir icadın çözdüğü sorunu, getirdiği bedeli ve o bedeli azaltacak bir önlemi yarım sayfada yaz.
+**Ödev (Hafta 2'nin başına kadar):** Sınıfta performans ön testi. Evde Europass Dijital Beceri Testi'ni ve DigComp çarkını çöz; iki sonucu sakla ve duyurulan yolla teslim et (nota girmez). Hafta 14'teki son testle karşılaştıracaksın. Kısa yazı, "Bir icat, bir bedel": Bir icadın çözdüğü sorunu, getirdiği bedeli ve o bedeli azaltacak bir önlemi yarım sayfada yaz.
 
 ### Hafta 2 · Bilgisayar nasıl düşünür?
 
@@ -359,7 +359,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 - Ön ve son testi, öz tahminini ve yapabiliyorum listesini karşılaştırarak kendi dijital yetkinliğini değerlendirmek.
 - Yaşam boyu öğrenme için kişisel bir öğrenme planı hazırlamak.
 
-**Ödev (final haftasına kadar):** Sınıfta performans son testi; Europass testini yeniden çöz ve iki raporu karşılaştır. Ödev: kişisel öğrenme planı.
+**Ödev (final haftasına kadar):** Sınıfta performans son testi; Europass testini ve DigComp çarkını yeniden çöz, ön ve son sonuçları karşılaştır. Ödev: kişisel öğrenme planı.
 
 **Dönem projesi, 6. adım:** Üç dakikalık sunum (sınıfta) ve dönem projesinin son teslimi: bütün adımlar tek klasörde, adlandırma kuralıyla.
 
@@ -377,7 +377,7 @@ Bir AKTS kredisi yaklaşık 25–30 saatlik öğrenci emeğine karşılık gelir
 | Haftalık ödevler (Hafta 1–9) | 9 × yaklaşık 1,5 saat | 13,5 |
 | Föylerin evde tamamlanması (Hafta 10–12) | 3 × yaklaşık 1,5 saat | 4,5 |
 | Hafta 10–14 ödevleri ve proje adımları | Rapor, veri analizi, sunum hazırlığı, son teslim | 12,5 |
-| Europass testi | Ön ve son test | 1 |
+| Europass testi ve DigComp çarkı | Ön ve son test | 1 |
 | Vize ve final hazırlığı | 5 + 8 saat | 13 |
 | Sınavlar | | 2 |
 | **Toplam** | | **yaklaşık 80 saat** (3 AKTS × 25–30 saat = 75–90) |
@@ -387,5 +387,5 @@ Bir AKTS kredisi yaklaşık 25–30 saatlik öğrenci emeğine karşılık gelir
 
 - **Ders notları ve ekler:** Bu sitedeki haftalık notlar dersin ana kaynağıdır. Ekler: [Sözlük](sozluk.qmd), [A · 2000–2025 kırılımları](a_kirilimlar.qmd), [B · Bilim kurgudan gerçeğe](b_bilim-kurgu.qmd), [C · Her şeyin bir alternatifi var](c_alternatifler.qmd), [D · Netiket](d_netiket.qmd).
 - **Programlar:** Kelime işlemci, elektronik tablo ve sunum programı. Microsoft 365 (kurumun sağladığı hesapla erişilebiliyorsa), Google'ın ücretsiz araçları ya da ücretsiz ve açık kaynaklı LibreOffice; hangisini kullandığın önemli değil ([Ek C](c_alternatifler.qmd)).
-- **Dijital yetkinlik:** DigComp 3.0 (Avrupa Komisyonu Ortak Araştırma Merkezi, 2025) ve Europass Dijital Beceri Testi (ücretsiz).
+- **Dijital yetkinlik:** DigComp 3.0 (Avrupa Komisyonu Ortak Araştırma Merkezi, 2025) Europass Dijital Beceri Testi (ücretsiz) ve DigComp çarkı (digcomp.digital-competence.eu, ücretsiz).
 - **Sınıf sunumları** derste gösterilir.
