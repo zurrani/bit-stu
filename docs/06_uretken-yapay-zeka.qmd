@@ -8,7 +8,8 @@ description: "Yapay zekâ, makine öğrenmesi ve derin öğrenme; dil modeli nas
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>6 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>26 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.500</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Yapay zekâ bir soruyu cevapladığında cevabı biliyor mu, yoksa tahmin mi ediyor? Bu fark senin için neden önemli?</p>
@@ -17,7 +18,7 @@ description: "Yapay zekâ, makine öğrenmesi ve derin öğrenme; dil modeli nas
 
 Geçen hafta bir bilginin, bir sitenin ya da bir alıntının güvenilir olup olmadığını sınamayı öğrendin. Bu hafta o beceriyi en çok ihtiyaç duyacağın yerde kullanacaksın: yapay zekâyla çalışırken. Önce yapay zekânın ne olduğunu ve bir dil modelinin içeride gerçekte ne yaptığını göreceksin. Sonra ondan iyi bir sonuç almayı, hatasını yakalamayı ve kullandığını dürüstçe beyan etmeyi öğreneceksin. Son olarak yapay zekânın bilimden sağlığa kadar neleri değiştirdiğine bakacağız.
 
-**Okuma süresi:** yaklaşık 30 dakika.
+**Okuma süresi:** yaklaşık 26 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

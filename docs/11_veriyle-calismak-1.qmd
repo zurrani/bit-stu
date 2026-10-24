@@ -8,7 +8,8 @@ description: "Elektronik tablo bir veri tabanıdır; düzenli veri; sayı, metin
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>11 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>21 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 2.900</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.3 Veriyi yönetme, 3.1 İçerik geliştirme, 5.1 Teknik sorunlar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir tablodaki sayılara güvenmeden önce neye bakmalısın?</p>
@@ -17,7 +18,7 @@ description: "Elektronik tablo bir veri tabanıdır; düzenli veri; sayı, metin
 
 Bir tablonun aynı sütununda üç tarih var: "03.04.2026", "4/3/2026" ve "3 Nisan 26". Hepsi aynı günü mü gösteriyor? Türkiye'de ilki 3 Nisan'dır. İkincisi ABD'de 3 Nisan, Türkiye'de 4 Mart diye okunur. Üçüncüsü bir insan için açıktır, ama elektronik tablo onu tarih değil düz metin sayar ve hiçbir hesaba katmaz. Bu küçük karışıklık, bir arıza kaydını yanlış aya, bir ödemeyi yanlış güne, bir sonucu yanlış karara taşıyabilir. Sorun yalnızca öğrencilerin başına gelmez: 2020'de genetik bilimciler, Excel bazı gen adlarını kendiliğinden tarihe çevirdiği için bu genlerin resmî adlarını değiştirdi. Bu hafta bir elektronik tablonun veriyi nasıl gördüğünü, düzenli bir tablonun nasıl kurulduğunu ve dağınık bir tablonun nasıl temizlendiğini öğreneceksin. Gelecek hafta bu temiz veriden formüllerle, özet tablolarla ve grafiklerle sonuç çıkaracağız. İki hafta birlikte bir bütündür: Önce veriyi düzenli hale getir, sonra ondan bir şey öğren.
 
-**Okuma süresi:** yaklaşık 25 dakika.
+**Okuma süresi:** yaklaşık 21 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

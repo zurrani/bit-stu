@@ -8,7 +8,8 @@ description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>4 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>21 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 2.800</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.4 İş birliği, 5.1 Teknik sorunlar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Tarayıcıya bir adres yazıp Enter'a bastığın o bir saniyede neler oluyor?</p>
@@ -17,7 +18,7 @@ description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (
 
 Her gün yüzlerce kez yapıyoruz: bir adres yazıyoruz, sayfa açılıyor. Bu hafta o bir saniyenin içine bakacağız: adresin sayıya çevrilmesini, verinin parçalara bölünüp dünyanın öbür ucuna gitmesini, denizin altından geçen kabloları ve havadaki dalgaları. Ardından devletin bu ağa nasıl taşındığını, "bulut" denen şeyin aslında nerede durduğunu ve neye mal olduğunu, bir uçağın da nasıl bu ağın parçası olduğunu göreceğiz.
 
-**Okuma süresi:** yaklaşık 25 dakika.
+**Okuma süresi:** yaklaşık 21 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

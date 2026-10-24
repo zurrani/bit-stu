@@ -8,7 +8,8 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>12 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>20 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 2.700</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Değerlendirme, 1.3 Veriyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?</p>
@@ -17,7 +18,7 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 
 Ekranda aynı veriyle çizilmiş iki grafik var. İkisi de bir laboratuvarın üç aylık arıza sayısını gösteriyor: 40, 49 ve 31. Birincisinde çubuklar birbirine yakın; ikincisinde Ekim çubuğu Eylül'ün neredeyse iki katı, Kasım ise yerle bir. Hangisi doğru? İkisi de. Aradaki tek fark, ikinci grafiğin dikey ekseninin sıfırdan değil 30'dan başlaması. Üstelik bir tuzak daha var: Kasım verisi ayın yalnızca ilk üç haftasını kapsıyor; Kasım'da arızalar azalmadı, ay henüz bitmedi. Geçen hafta veriyi düzenli hale getirdin. Bu hafta o veriden sonuç çıkaracaksın: Formül veriyi bir soruya, özet tablo soruyu bir cevaba, grafik cevabı bir karara çevirir. Ama her adımda yanılma ihtimali var; bu yüzden sonucu sınamayı da öğreneceksin.
 
-**Okuma süresi:** yaklaşık 25 dakika.
+**Okuma süresi:** yaklaşık 20 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

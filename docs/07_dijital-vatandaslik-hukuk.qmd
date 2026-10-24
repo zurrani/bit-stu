@@ -8,7 +8,8 @@ description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş;
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>7 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>26 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.500</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.2 Paylaşma, 2.3 Vatandaşlık, 2.5 Dijital davranış, 2.6 Dijital kimlik, 3.3 Telif ve lisanslar, 4.3 İyi oluş</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?</p>
@@ -17,7 +18,7 @@ description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş;
 
 Bir mesajın ekran görüntüsünü gruba atmak, bir haberi okumadan paylaşmak, internette bulduğun bir görseli sunumuna koymak: hepsi birkaç saniyelik işler. Bu hafta bu saniyelerin arkasındaki uzun izi göreceksin. Önce kendi dijital izine ve dikkatini yöneten tasarımlara bakacağız. Sonra etik ile hukukun ayrıldığı yere, Türkiye'de çevrimiçi bir eylemin hangi durumda suç olabileceğine ve başına bir şey geldiğinde ne yapacağına geçeceğiz. Son olarak başkasının emeğini nasıl doğru kullanacağını ve yapay zekânın hukuku nasıl zorladığını öğreneceksin.
 
-**Okuma süresi:** yaklaşık 30 dakika.
+**Okuma süresi:** yaklaşık 26 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

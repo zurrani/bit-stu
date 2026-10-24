@@ -8,7 +8,8 @@ description: "Sunum nedir; sunum türleri, bilgisayarlı ve bilgisayarsız sunum
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>13 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>35 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>32 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.300</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.2 Paylaşma, 3.1 İçerik geliştirme, 3.3 Telif ve lisanslar, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Dinleyicin sunumundan çıkarken aklında tek bir cümle kalacaksa, o cümle ne olmalı?</p>
@@ -17,7 +18,7 @@ description: "Sunum nedir; sunum türleri, bilgisayarlı ve bilgisayarsız sunum
 
 Uzay mekiği Columbia 16 Ocak 2003'te fırlatılırken, yakıt tankından kopan bir köpük parçası sol kanada çarptı. Görev sürerken mühendisler çarpmanın tehlikeli olup olmadığını inceledi ve sonuçlarını yöneticilere slaytlarla sundu. Slaytlardan birinin başlığı, test verilerinin "temkinli" olduğunu, yani ısı kalkanının dayanacağını söylüyordu. Asıl önemli bilgi ise aynı slaytın en altındaki küçük bir alt maddedeydi: Testlerde kullanılan parçalar, gerçekte çarpan köpükten çok daha küçüktü. 1 Şubat'ta Columbia atmosfere dönerken parçalandı ve yedi astronot hayatını kaybetti. Kaza inceleme kurulu, kurumdaki teknik iletişimin slayt biçimine fazla dayandığını da raporuna yazdı. Bir slayt bir kazaya tek başına neden olmaz. Ama yanlış kurulmuş bir slayt, doğru bilginin doğru kişiye ulaşmasını engelleyebilir. Bu hafta sunumun bir slayt yığını değil, bir mesaj olduğunu göreceksin. Sonra o mesajı hangi araçla, nasıl tasarlayacağını ve bir topluluğun karşısında nasıl anlatacağını öğreneceksin.
 
-**Okuma süresi:** yaklaşık 35 dakika.
+**Okuma süresi:** yaklaşık 32 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

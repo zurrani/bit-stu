@@ -55,7 +55,7 @@ Dosyalar düz Markdown'dır; VS Code, Positron ya da herhangi bir metin düzenle
 
 Programa özgü örnekler yalnızca `.kutu-havacilik` kutularında yer alır; ana metin genel kalır.
 
-**Görev kartı:** Her haftanın başında, `docs/01_teknoloji-neyi-cozer.qmd` dosyasındaki HTML bloğu kopyalanıp alanları güncellenir.
+**Görev kartı:** Her haftanın başında, `docs/01_teknoloji-neyi-cozer.qmd` dosyasındaki HTML bloğu kopyalanıp alanları güncellenir. Okuma süresi ve kelime sayısı elle yazılmaz: not değişince `bit-ins` klasöründe `python _web/olcum.py --belge --yaz` çalıştırılır.
 
 **Kendini sına:** Seçeneklerdeki parantez ters eğik çizgiyle yazılır (`A\)`), yoksa Markdown onu ayrı bir liste sanar.
 

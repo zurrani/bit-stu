@@ -8,7 +8,8 @@ description: "Mahremiyet ve gizlilik; veri ekonomisi ve profilleme; büyük veri
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>8 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>28 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.800</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Değerlendirme, 2.6 Dijital kimlik, 4.2 Mahremiyet</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Senin hakkında kim, ne biliyor ve bununla ne yapıyor?</p>
@@ -17,7 +18,7 @@ description: "Mahremiyet ve gizlilik; veri ekonomisi ve profilleme; büyük veri
 
 Geçen hafta dikkatinin bir ürün olduğunu gördün. Bu hafta hikâyenin öbür yarısına bakıyoruz: Ekranda geçirdiğin her dakika veri bırakır. Bu veri nereye gidiyor, nasıl bir profile dönüşüyor, algoritmalar bu profille senin için neye karar veriyor? Sonra yasanın sana tanıdığı haklara ve beş dakikada yapabileceğin ayarlara geçeceğiz. Amaç seni korkutmak değil, verin üzerindeki kontrolü geri almanı sağlamak.
 
-**Okuma süresi:** yaklaşık 30 dakika.
+**Okuma süresi:** yaklaşık 28 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

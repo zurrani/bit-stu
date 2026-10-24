@@ -8,7 +8,8 @@ description: "Yazılım ve işletim sistemi; Windows, Linux, macOS, Android ve i
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>3 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>22 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.000</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.3 Veriyi yönetme, 4.1 Cihazları koruma, 4.2 Mahremiyet</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir bilgisayarın ne zaman "çöp" olacağına donanım mı karar verir, yazılım mı?</p>
@@ -17,7 +18,7 @@ description: "Yazılım ve işletim sistemi; Windows, Linux, macOS, Android ve i
 
 Geçen hafta bilgisayarın donanımını, yani aşçıyı, tezgâhı ve kileri gördük. Bu hafta mutfağı yöneten yazılıma geçiyoruz: işletim sistemi. Hangi işletim sistemini kullandığın; cihazının kaç yıl güvenle çalışacağını, verilerinin kimlerle paylaşılacağını ve ne kadar para harcayacağını belirler. Haftanın ikinci yarısında her gün yaptığımız ama pek düşünmediğimiz bir işe bakacağız: dosyaları adlandırmak, düzenlemek ve kaybetmemek.
 
-**Okuma süresi:** yaklaşık 25 dakika.
+**Okuma süresi:** yaklaşık 22 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

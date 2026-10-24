@@ -8,7 +8,8 @@ description: "Gizlilik, bütünlük ve erişilebilirlik; kötü amaçlı yazıl�
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>9 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>26 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.500</dd></div>
     <div><dt>DigComp alanı</dt><dd>4.1 Cihazları koruma, 4.2 Mahremiyet, 5.1 Teknik sorunlar, 5.3 Yaratıcı çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir saldırı ya da kesinti olduğunda ne kadar etkilenirsin, ne kadar çabuk toparlanırsın?</p>
@@ -17,7 +18,7 @@ description: "Gizlilik, bütünlük ve erişilebilirlik; kötü amaçlı yazıl�
 
 19 Temmuz 2024 sabahı dünyanın dört bir yanında milyonlarca Windows bilgisayar aynı anda mavi ekrana düştü. Havalimanlarında bilgi ekranları karardı, biniş kartları elle yazıldı, binlerce uçuş iptal oldu; hastaneler ve bankalar da etkilendi. Ortada bir saldırgan yoktu: Bir güvenlik yazılımının hatalı bir güncellemesi yetmişti. Bu hafta iki soruya cevap arıyoruz. Birincisi: Seni ve verilerini kimler, nasıl hedef alıyor ve birkaç alışkanlık riski ne kadar azaltır? İkincisi: Her şeye rağmen bir gün teknoloji susarsa ne yaparsın?
 
-**Okuma süresi:** yaklaşık 30 dakika.
+**Okuma süresi:** yaklaşık 26 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 

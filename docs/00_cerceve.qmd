@@ -17,7 +17,7 @@ Bu ders sana bilgisayar kullanmayı değil, dijital dünyada güvenle düşünme
 
 ## Bir haftanın notu nasıl okunur?
 
-Her hafta bir görev kartıyla açılır: haftanın numarası, okuma süresi, ilgili dijital yetkinlik alanları ve haftanın sorusu. Ardından öğrenme çıktıları, konular, haftanın özeti (Akılda kalsın), sözlük ve kendini sınayabileceğin kısa bir test gelir.
+Her hafta bir görev kartıyla açılır: haftanın numarası, okuma süresi ve kelime sayısı, ilgili dijital yetkinlik alanları ve haftanın sorusu. Ardından öğrenme çıktıları, konular, haftanın özeti (Akılda kalsın), sözlük ve kendini sınayabileceğin kısa bir test gelir.
 
 Başlığında *(okuma)* yazan bölümler derste kısaca geçilir. İçlerindeki tablolar ezberlemek için değil, bağlamı görmek içindir.
 
