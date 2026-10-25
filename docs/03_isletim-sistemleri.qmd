@@ -105,7 +105,7 @@ Grafik arayüzde de klavye zaman kazandırır. Birkaç **klavye kısayolu** her 
 | Alt + Tab | Açık pencereler arasında geç |
 | Windows + E | Dosya Gezgini'ni aç |
 | Windows + Shift + S | Ekranın bir bölümünün görüntüsünü al |
-| Windows + V | Pano geçmişi: daha önce kopyaladıklarını gör |
+| Windows + V | Pano geçmişi: daha önce kopyaladıklarını gör (ilk kullanımda açman istenir) |
 | F2 | Seçili dosyayı yeniden adlandır |
 | Windows + L | Bilgisayarı kilitle; masadan kalkarken her seferinde |
 
@@ -306,10 +306,13 @@ Kısa vadede: bugün telefonunun izinlerini düzenler, dosya uzantılarını gö
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Sürüm ve destek tarihleri sık değişir; güncel durumu üreticinin sitesinden kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Sürüm ve destek tarihleri sık değişir; güncel durumu üreticinin sitesinden kontrol et.
 
-- **Üreticiler:** Microsoft'un Windows 10 destek sonu (14 Ekim 2025) ve Windows 11 donanım gereksinimleri; Google ve Apple'ın güncelleme ve gizlilik duyuruları; TÜBİTAK ULAKBİM, Pardus. Kaynak: [microsoft.com](https://www.microsoft.com), [pardus.org.tr](https://www.pardus.org.tr).
-- **Diğer:** TOP500 süper bilgisayar listesi; *Revolution OS* (2001); Y.-A. de Montjoye ve arkadaşları, "Unique in the Crowd", *Scientific Reports* (2013).
+- **Windows:** Windows 10 desteğinin sonu (14 Ekim 2025) ve ek güvenlik güncellemeleri: [Microsoft, Windows 10 desteğinin sonu](https://www.microsoft.com/tr-tr/windows/end-of-support). Windows 11 donanım gereksinimleri: [Microsoft, Windows 11 özellikleri](https://www.microsoft.com/tr-tr/windows/windows-11-specifications). Kısayollar: [Microsoft, Windows klavye kısayolları](https://support.microsoft.com/tr-tr/windows/windows-klavye-k%C4%B1sayollar%C4%B1-dcc61a57-8ff0-cffe-9796-cb9706c75eec). Yönetici ve standart hesap: [Microsoft Learn, Kullanıcı Hesabı Denetimi](https://learn.microsoft.com/windows/security/application-security/application-control/user-account-control/how-it-works).
+- **Abonelik ve depolama:** [Microsoft 365 aboneliği bitince](https://support.microsoft.com/help/2eb89f06-bd1c-4f57-9269-f1cbab894341); [Google, depolama alanını yönetme](https://support.google.com/drive/answer/6374270).
+- **Dosya sistemleri:** [Apple, Disk İzlencesi'ndeki dosya sistemi biçimleri](https://support.apple.com/tr-tr/guide/disk-utility/dsku19ed921c/mac).
+- **Linux ve Pardus:** [TOP500 süper bilgisayar listesi](https://top500.org); TÜBİTAK ULAKBİM, [Pardus](https://www.pardus.org.tr).
+- **Diğer:** Google ve Apple'ın güncelleme ve gizlilik duyuruları; *Revolution OS* (2001); Y.-A. de Montjoye, C. A. Hidalgo, M. Verleysen ve V. D. Blondel, "Unique in the Crowd: The privacy bounds of human mobility", *Scientific Reports* 3, 1376 (2013), [doi:10.1038/srep01376](https://doi.org/10.1038/srep01376).
 
 ## Bu haftanın kavramları
 
