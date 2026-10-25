@@ -216,7 +216,7 @@ AlphaGo (2017): Bir YZ'nin, sezgi gerektirdiği düşünülen Go oyununda dünya
 
 ### Ülkeler de yarışıyor: yapay zekâ stratejileri
 
-Yapay zekâ yalnızca şirketlerin değil, devletlerin de gündeminde. Son on yılda birçok ülke bir **ulusal yapay zekâ stratejisi** yayımladı: YZ'de nereye varmak istediğini ve bunun için ne yapacağını anlatan bir yol haritası. Kanada 2017'de ilk ulusal YZ stratejilerinden birini açıkladı; Birleşik Arap Emirlikleri aynı yıl bir yapay zekâ bakanlığı kurdu.
+Yapay zekâ yalnızca şirketlerin değil, devletlerin de gündeminde. Son on yılda birçok ülke bir **ulusal yapay zekâ stratejisi** yayımladı: YZ'de nereye varmak istediğini ve bunun için ne yapacağını anlatan bir yol haritası. Kanada 2017'de ilk ulusal YZ stratejilerinden birini açıkladı; Birleşik Arap Emirlikleri aynı yıl yapay zekâdan sorumlu bir devlet bakanı atadı.
 
 | Ülke ya da birlik | Belge | Öne çıkan vurgu |
 |---|---|---|
@@ -232,7 +232,7 @@ Bir stratejinin değeri, yazıldığı gün değil, yıllar sonra ölçülen son
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Bir ülke kendi büyük dil modelini geliştirmeli mi, yoksa dünyadaki en iyi modelleri kullanmakla mı yetinmeli?
 
-Biraz ek bilgi: Büyük dil modellerinin eğitim verisinin büyük kısmı İngilizcedir; Türkçe gibi dillerde modeller görece az veriyle eğitilir ve bu, cevapların kalitesine yansıyabilir. Kendi modelini geliştirmek; veri, uzman, hesaplama gücü ve enerji için büyük yatırım ister. Hazır bir modeli kullanmak ucuz ve hızlıdır, ama verinin nereye gittiği, hizmetin kesilmesi ve fiyatın değişmesi gibi soruları beraberinde getirir (Hafta 2'deki dijital egemenlik). Sence hangi alanlarda kendi modelimiz olmalı, hangilerinde gerek yok? Neden?
+Biraz ek bilgi: Verisinin dağılımını açıklayan büyük dil modellerinde eğitim verisinin büyük kısmı İngilizcedir; Türkçe gibi dillerde modeller görece az veriyle eğitilir ve bu, cevapların kalitesine yansıyabilir. Kendi modelini geliştirmek; veri, uzman, hesaplama gücü ve enerji için büyük yatırım ister. Hazır bir modeli kullanmak ucuz ve hızlıdır, ama verinin nereye gittiği, hizmetin kesilmesi ve fiyatın değişmesi gibi soruları beraberinde getirir (Hafta 2'deki dijital egemenlik). Sence hangi alanlarda kendi modelimiz olmalı, hangilerinde gerek yok? Neden?
 :::
 
 ## 8. Kapanış: akademik dürüstlük ve YZ beyanı
@@ -286,10 +286,12 @@ Kısa vadede: ödevlerinde YZ'yi kurallara uygun ve beyanlı kullanırsın; iyi 
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. YZ ürünleri ve ayarları çok hızlı değişir; adı geçen asistanların özelliklerini kendi sitelerinden kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; strateji belgeleri ve eğitim verisi kaynakları 25 Ekim 2026'da denetlendi. YZ ürünleri ve ayarları çok hızlı değişir; adı geçen asistanların özelliklerini kendi sitelerinden kontrol et.
 
-- **Düzenleme:** AB Yapay Zekâ Yasası (2024/1689), madde 3 (tanımlar); EASA'nın YZ yol haritası.
-- **Strateji belgeleri:** Ulusal Yapay Zekâ Stratejisi 2021–2025 ve 2024–2025 Eylem Planı (Cumhurbaşkanlığı Dijital Dönüşüm Ofisi ve Sanayi ve Teknoloji Bakanlığı); Türkiye Yapay Zekâ Eylem Planı 2026–2030 (Sanayi ve Teknoloji Bakanlığı, Ekim 2026; Haziran 2026 sonrasında yayımlandığı için belgenin kendisinden eklendi); Çin Devlet Konseyi, Yeni Nesil Yapay Zekâ Gelişim Planı (2017); Avrupa Komisyonu, Koordineli YZ Planı (2018, 2021) ve YZ Kıtası Eylem Planı (2025); ABD, Amerika'nın YZ Eylem Planı (2025). Kaynak: [sanayi.gov.tr](https://www.sanayi.gov.tr), [digital-strategy.ec.europa.eu](https://digital-strategy.ec.europa.eu). Kaynak: [EUR-Lex](https://eur-lex.europa.eu), [easa.europa.eu](https://www.easa.europa.eu).
+- **Düzenleme:** AB Yapay Zekâ Yasası (2024/1689), madde 3 (tanımlar); EASA'nın YZ yol haritası. Kaynak: [EUR-Lex](https://eur-lex.europa.eu), [easa.europa.eu](https://www.easa.europa.eu).
+- **Strateji belgeleri:** Ulusal Yapay Zekâ Stratejisi 2021–2025 ve 2024–2025 Eylem Planı (Cumhurbaşkanlığı Dijital Dönüşüm Ofisi ve Sanayi ve Teknoloji Bakanlığı); Türkiye Yapay Zekâ Eylem Planı 2026–2030 (Sanayi ve Teknoloji Bakanlığı, Ekim 2026; Haziran 2026 sonrasında yayımlandığı için belgenin kendisinden eklendi); Kaynak: [sanayi.gov.tr](https://www.sanayi.gov.tr).
+- **Diğer ülkelerin stratejileri:** Kanada, Pan-Kanada YZ Stratejisi (2017): [CIFAR](https://cifar.ca/ai/); Birleşik Arap Emirlikleri, YZ'den sorumlu devlet bakanlığı (Ekim 2017); Çin Devlet Konseyi, Yeni Nesil Yapay Zekâ Gelişim Planı (20 Temmuz 2017): [gov.cn](https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm); Avrupa Komisyonu, [Koordineli YZ Planı](https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence) (Aralık 2018; gözden geçirme Nisan 2021) ve [YZ Kıtası Eylem Planı](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1013) (9 Nisan 2025); ABD, Amerikan YZ Girişimi, kararname 13859 (11 Şubat 2019): [govinfo](https://www.govinfo.gov/content/pkg/FR-2019-02-14/html/2019-02544.htm) ve [Amerika'nın YZ Eylem Planı](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf) (Temmuz 2025).
+- **Eğitim verisinde diller:** GPT-3'ün eğitim verisinde İngilizce yüzde 92,6, Türkçe yüzde 0,06: [OpenAI, dillere göre kelime sayısı](https://github.com/openai/gpt-3/blob/master/dataset_statistics/languages_by_word_count.csv); Llama 2'de İngilizce yüzde 89,7: H. Touvron ve diğerleri (2023), tablo 10, [arXiv:2307.09288](https://arxiv.org/abs/2307.09288).
 - **Olaylar ve araştırmalar:** ImageNet yarışması (AlexNet, 2012); Mata ile Avianca davası (ABD, 2023); özgeçmiş tarama sistemi haberi (Reuters, 2018); AlphaFold veri tabanı ve 2024 Nobel Kimya ile Fizik ödülleri; YZ dedektörleri üzerine Liang ve diğerleri (2023).
 - **Alıntılar:** Arthur C. Clarke, *Profiles of the Future* (1973 baskısı); George Box (1976); Richard Baldwin'e atfedilen söz (2023).
 
