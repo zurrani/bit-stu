@@ -273,11 +273,11 @@ Kısa vadede: Ödevlerini, dönem projenin teknik raporunu ve özgeçmişini dah
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Menü adları programın sürümüne ve diline göre değişebilir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; programlar, standartlar ve kaynaklar 25 Ekim 2026'da denetlendi. Menü adları programın sürümüne ve diline göre değişebilir.
 
-- **Standartlar:** DOCX (ECMA-376, ISO/IEC 29500), ODF (ISO/IEC 26300), PDF/A; ASD-STE100 Basitleştirilmiş Teknik İngilizce; APA yazım kuralları (7. baskı).
-- **Tarih ve atıflar:** Xerox PARC, Bravo (1974); Microsoft Word'ün ilk sürümü (1983); Antoine de Saint-Exupéry, *Terre des hommes* (1939); *Helvetica* (Gary Hustwit, 2007).
-- **Programlar:** Microsoft Word, Google Dokümanlar ve LibreOffice Writer'ın Haziran 2026'daki sürümleri; Zotero.
+- **Standartlar:** DOCX: ECMA-376 (5. baskı, 2021): [ecma-international.org](https://ecma-international.org/publications-and-standards/standards/ecma-376/) ve ISO/IEC 29500-1:2016: [iso.org](https://www.iso.org/standard/71691.html); ODF: ISO/IEC 26300-1:2015: [iso.org](https://www.iso.org/standard/66363.html); PDF/A (ISO 19005): [pdfa.org](https://pdfa.org/resource/iso-19005-pdfa/); ASD-STE100 Basitleştirilmiş Teknik İngilizce (Issue 9): [asd-ste100.org](https://asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf); APA yazım kuralları (7. baskı).
+- **Tarih ve atıflar:** Xerox PARC, Bravo (1974) ve Charles Simonyi: [computerhistory.org](https://computerhistory.org/profile/charles-simonyi/); Microsoft Word'ün ilk sürümü (1983): [microsoft.com](https://www.microsoft.com/en-us/microsoft-365/word/history-of-microsoft-word); Antoine de Saint-Exupéry, *Terre des hommes* (1939); *Helvetica* (Gary Hustwit, 2007): [hustwit.com](https://www.hustwit.com/helvetica).
+- **Programlar:** Microsoft Word, Google Dokümanlar ve LibreOffice Writer'ın Haziran 2026'daki sürümleri. Word'deki Copilot'un abonelik planları: [microsoft.com](https://support.microsoft.com/en-us/microsoft-365-copilot/frequently-asked-questions-about-copilot-in-microsoft-365-subscriptions); Dokümanlar'daki Gemini'nin planları: [google.com](https://one.google.com/about/plans); Zotero: [zotero.org](https://www.zotero.org/); Europass özgeçmiş düzenleyicisi: [europass.europa.eu](https://europass.europa.eu/).
 
 ## Bu haftanın kavramları
 

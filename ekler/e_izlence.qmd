@@ -61,7 +61,7 @@ Bu dersi başarıyla tamamladığında şunları yapabileceksin:
 Dönem notu: **%40 yıl içi değerlendirme, %60 yıl sonu değerlendirme.** Değerlendirmenin ayrıntısı derste duyurulur.
 
 - **Sınavlar:** Biçimi ve süresi dönem başında duyurulur. Sınavlar ders notlarındaki çekirdek bölümlerden gelir; *(okuma)* bölümlerinden tarih ya da sayı değil, kavram sorulur.
-- **Ödevler ve föyler:** Her biri bir ölçüt tablosuyla (rubrik) değerlendirilir. Ölçütler ödevin yönergesinde ya da derste duyurulur.
+- **Ödevler ve föyler:** Her biri bir ölçüt tablosuyla (rubrik) değerlendirilir. Ölçütler ödevin yönergesinde ya da derste duyurulur. Bir ölçüte ait hiçbir iş yoksa ya da iş teslim edilmezse o ölçüt 0 puan alır.
 - **Ön ve son test:** Hafta 1 ve 14'te iki öz değerlendirme (Europass Dijital Beceri Testi ve DigComp çarkı) ve sınıfta kısa bir performans testi. Raporlar teslim edilir ama nota girmez; kendi gelişimini görmen içindir.
 - **Bütünleme ve mazeret sınavları:** … yönetmeliğine göre.
 
