@@ -78,7 +78,7 @@ Bugün birçok arama motoru sonuçların üstünde yapay zekâyla yazılmış bi
 1. **Kaynağı iste.** Cevap kaynak göstermiyorsa sor: "Bunu hangi kaynağa dayandırıyorsun?"
 2. **Bağlantıyı aç.** Gösterilen sayfa gerçekten var mı ve açılıyor mu?
 3. **İddiayı orada bul.** Sayfa var diye iddianın da orada olduğunu varsayma; ilgili cümleyi sayfada ara (Ctrl + F).
-4. **Künyeyi kontrol et.** Bir makale gösterildiyse başlığını Google Akademik'te ya da DergiPark'ta ara. Bilimsel makalelerin çoğunun **DOI** adı verilen kalıcı bir kimlik numarası vardır; `doi.org/` adresinin sonuna eklenen numara seni makalenin kendisine götürür. Var olmayan bir makalenin DOI'si de yoktur.
+4. **Künyeyi kontrol et.** Bir makale gösterildiyse başlığını Google Akademik'te ya da DergiPark'ta ara. Bilimsel makalelerin çoğunun **DOI** adı verilen kalıcı bir kimlik numarası vardır; `doi.org/` adresinin sonuna eklenen numara seni makalenin kendisine götürür. Var olmayan bir makalenin DOI'si de çalışmaz: uydurma bir DOI ya hiçbir yere götürmez ya da başka bir makaleye götürür.
 
 YZ'nin uydurduğu kaynaklar yüzünden mahkemede zor durumda kalan avukatların hikâyesini gelecek hafta göreceğiz.
 
@@ -104,9 +104,9 @@ Bir kaynağa güvenmeden önce dört soru sor:
 | Haber | Bir olayı aktarmak | Kim, ne, nerede, ne zaman sorularına cevap verir; kaynak ve tarih gösterir |
 | Görüş ya da köşe yazısı | Bir yorumu savunmak | Yazarın adı ve fotoğrafıyla, "bence" diliyle yazılır |
 | Basın bülteni | Bir kurumun kendi sesini duyurmak | Kurumun sitesinde yayımlanır; haber sitelerinde çoğu zaman neredeyse aynen tekrarlanır |
-| Reklam ve sponsorlu içerik | Satmak | "Sponsorlu", "Reklam", "İş birliği" etiketi taşır ya da taşıması gerekir |
+| Reklam ve sponsorlu içerik | Satmak | "Sponsorlu", "Reklam", "Tanıtım" etiketi taşır ya da taşıması gerekir |
 
-En zor ayırt edilen, haber ya da kişisel öneri gibi görünen reklamdır. Sosyal medyada bir ürünü öven bir içerik üreticisi, bunun karşılığında para ya da ürün aldıysa bunu açıkça belirtmelidir; Türkiye'de de reklam kuralları bu tür paylaşımların "reklam" ya da "iş birliği" gibi bir ifadeyle işaretlenmesini istiyor. Etiket yoksa ve içerik bir ürünü fazla övüyorsa, "Bunu yazan bundan ne kazanıyor?" diye sor.
+En zor ayırt edilen, haber ya da kişisel öneri gibi görünen reklamdır. Sosyal medyada bir ürünü öven bir içerik üreticisi, bunun karşılığında para ya da ürün aldıysa bunu açıkça belirtmelidir; Türkiye'de 1 Ağustos 2026'dan beri yönetmelik, bu tür paylaşımların ilk bakışta görülecek biçimde "Reklam" ya da "Tanıtım" kelimesiyle işaretlenmesini istiyor; yalnızca "iş birliği" yazmak yetmez. Etiket yoksa ve içerik bir ürünü fazla övüyorsa, "Bunu yazan bundan ne kazanıyor?" diye sor.
 
 ### Yanal okuma
 
@@ -147,7 +147,7 @@ Her kaynak aynı ağırlıkta değildir. Bir bilgiyi ararken bu merdiveni aklın
 Bilimsel makalelerin çoğu yayımlanmadan önce **hakemli** değerlendirmeden geçer: Dergi, makaleyi alanın başka uzmanlarına gönderir; onlar yöntemi ve sonuçları sınar. Hakemlik hatasızlık garantisi değildir, ama bir eleme süzgecidir. Bu yüzden iki şeye daha dikkat et:
 
 - **Tek çalışma, bilimsel uzlaşı değildir.** "Yeni bir araştırmaya göre" diye başlayan bir haber, çoğu zaman tek bir çalışmayı anlatır. Bir konudaki asıl bilgi, çok sayıda çalışmanın birlikte gösterdiğidir.
-- **Makaleler geri çekilebilir.** Ciddi bir hata ya da sahtecilik ortaya çıkarsa dergi makaleyi geri çeker. Aşıların otizme yol açtığını öne süren 1998 tarihli makale, verilerin çarpıtıldığı ortaya çıktıktan sonra 2010'da geri çekildi; ama iddia bugün de dolaşıyor.
+- **Makaleler geri çekilebilir.** Ciddi bir hata ya da sahtecilik ortaya çıkarsa dergi makaleyi geri çeker. Aşıların otizme yol açtığını öne süren 1998 tarihli makale, araştırmanın nasıl yapıldığına dair iddiaların yanlış olduğu ortaya çıktıktan sonra 2010'da geri çekildi; ama iddia bugün de dolaşıyor.
 
 Bir de ücret karşılığında neredeyse her şeyi hakemsiz yayımlayan, adı ciddi dergilere benzeyen sahte dergiler vardır. Bir derginin adını ilk kez duyuyorsan yanal okumayı ona da uygula.
 
@@ -255,13 +255,14 @@ Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Arama operatörleri arama motoru değiştikçe değişir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Arama operatörleri arama motoru değiştikçe değişir.
 
-- **Araştırmalar:** Sam Wineburg ve Sarah McGrew, yanal okuma (Stanford Tarih Eğitimi Grubu, 2017); Mike Caulfield, SIFT (2019); Soroush Vosoughi, Deb Roy ve Sinan Aral, *Science* (2018); Claire Wardle ve Hossein Derakhshan, Avrupa Konseyi raporu (2017).
-- **Bilim ve istatistik:** Wakefield ve arkadaşlarının 1998 tarihli makalesi ve *The Lancet*'in geri çekme kararı (2010); DOI sistemi (doi.org).
-- **Arama pazarı:** ABD Columbia Bölge Mahkemesi, *United States v. Google* kararı (2024); AB Dijital Piyasalar Yasası'ndaki seçim ekranı yükümlülüğü.
+- **Araştırmalar:** Sam Wineburg ve Sarah McGrew, yanal okuma (Stanford Tarih Eğitimi Grubu, 2017); Mike Caulfield, SIFT (2019); Soroush Vosoughi, Deb Roy ve Sinan Aral, "The spread of true and false news online", *Science* 359, 1146–1151 (2018), [doi:10.1126/science.aap9559](https://doi.org/10.1126/science.aap9559); Claire Wardle ve Hossein Derakhshan, Avrupa Konseyi raporu (2017).
+- **Bilim ve istatistik:** Wakefield ve arkadaşlarının 1998 tarihli makalesi ve *The Lancet*'in geri çekme kararı (2010), [doi:10.1016/S0140-6736(10)60175-4](https://doi.org/10.1016/S0140-6736(10)60175-4); DOI sistemi: [doi.org, DOI nedir?](https://www.doi.org/the-identifier/what-is-a-doi/).
+- **Arama pazarı:** ABD Columbia Bölge Mahkemesi, *United States v. Google* kararı (Ağustos 2024) ve yaptırım kararı (Eylül 2025): [ABD Adalet Bakanlığı](https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google); AB Dijital Piyasalar Yasası (2022/1925), madde 6(3), seçim ekranı: [EUR-Lex](https://eur-lex.europa.eu/legal-content/TR/TXT/?uri=CELEX:32022R1925).
+- **Reklam:** Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği, madde 23/A, sosyal medya etkileyicileri (değişiklik: Resmî Gazete, 1 Temmuz 2026; yürürlük 1 Ağustos 2026): [Resmî Gazete](https://www.resmigazete.gov.tr/eskiler/2026/07/20260701-9.htm).
 - **Alıntılar:** Jonathan Swift, *The Examiner* (1710); John Naisbitt, *Megatrends* (1982); William Bruce Cameron, *Informal Sociology* (1963); *Popular Mechanics*, Mart 1949.
-- **Araçlar:** Google'ın arama operatörleri (Haziran 2026'daki durum); Teyit ve Doğruluk Payı; Quote Investigator.
+- **Araçlar:** Google'ın arama operatörleri (Haziran 2026'daki durum); Teyit ve Doğruluk Payı; Swift alıntısının kaynağı: [Quote Investigator](https://quoteinvestigator.com/2014/07/13/truth/).
 
 ## Bu haftanın kavramları
 
