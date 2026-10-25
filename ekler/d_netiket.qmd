@@ -315,7 +315,7 @@ gruba yazar mısınız?
 - **Hızlı cevap, yanlış cevaptan iyi değildir.** Emin değilsen "Kontrol edip dönüyorum" de ve dön.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Steril kokpit"}
-ABD'de 1981'de yürürlüğe giren bir kural, ticari uçuşlarda kalkış, iniş ve yaklaşık 10.000 fitin altındaki bütün uçuş safhalarında kokpitte uçuşla ilgisi olmayan konuşmayı ve işi yasaklar. Kuralın arkasında, dikkati dağılmış ekiplerin karıştığı kazalar vardır. Bakımda da benzer bir anlayış geçerlidir: Kritik bir işin ortasındaki teknisyenin dikkati bölünmez; soru, iş bitince sorulur. Mesajlaşmadaki karşılığı aynı: Karşındakinin o an neyle meşgul olduğunu düşün ve acil olmayanı doğru ana bırak.
+ABD'de 1981'de yürürlüğe giren bir kural, ticari uçuşlarda taksi, kalkış, iniş ve seyir dışında 10.000 fitin altındaki bütün uçuş safhalarında kokpitte uçuşla ilgisi olmayan konuşmayı ve işi yasaklar. Kuralın arkasında, dikkati dağılmış ekiplerin karıştığı kazalar vardır. Bakımda da benzer bir anlayış geçerlidir: Kritik bir işin ortasındaki teknisyenin dikkati bölünmez; soru, iş bitince sorulur. Mesajlaşmadaki karşılığı aynı: Karşındakinin o an neyle meşgul olduğunu düşün ve acil olmayanı doğru ana bırak.
 :::
 
 ## 5. Anlaşmazlık ve öfke
@@ -516,9 +516,10 @@ Stajyer
 
 ## Kaynaklar
 
-Bu ek Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Vakalar ve kişiler kurgusaldır.
+Bu ek Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; kaynaklar 25 Ekim 2026'da denetlendi. Vakalar ve kişiler kurgusaldır.
 
-- Virginia Shea, *Netiquette* (1994).
-- IETF, RFC 1855, *Netiquette Guidelines* (1995).
-- Justin Kruger, Nicholas Epley, Jason Parker ve Zhi-Wen Ng, "Egocentrism over e-mail: Can we communicate as well as we think?", *Journal of Personality and Social Psychology* (2005).
-- ABD Federal Havacılık İdaresi (FAA), steril kokpit kuralı (14 CFR 121.542, 1981).
+- Virginia Shea, *Netiquette* (1994); kuralların özeti: [Core Rules of Netiquette](https://www.educause.edu/ir/library/html/erm/29558.html).
+- IETF, RFC 1855, *Netiquette Guidelines* (Ekim 1995): [rfc-editor.org](https://www.rfc-editor.org/rfc/rfc1855).
+- Justin Kruger, Nicholas Epley, Jason Parker ve Zhi-Wen Ng, "Egocentrism over e-mail: Can we communicate as well as we think?", *Journal of Personality and Social Psychology* 89(6) (2005): [doi:10.1037/0022-3514.89.6.925](https://doi.org/10.1037/0022-3514.89.6.925).
+- ABD Federal Havacılık İdaresi (FAA), steril kokpit kuralı (14 CFR 121.542, 1981): [govinfo](https://www.govinfo.gov/app/details/CFR-2025-title14-vol3/CFR-2025-title14-vol3-sec121-542).
+- FAA, ekip kaynak yönetiminin tarihçesi (1979 NASA atölyesi): [faa.gov](https://www.faa.gov/sites/faa.gov/files/crmhistory.pdf).

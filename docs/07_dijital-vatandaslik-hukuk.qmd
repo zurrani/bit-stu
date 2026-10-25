@@ -8,8 +8,8 @@ description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş;
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>7 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>26 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.500</dd></div>
+    <div><dt>Okuma süresi</dt><dd>27 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.600</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.2 Paylaşma, 2.3 Vatandaşlık katılımı, 2.5 Dijital davranış, 2.6 Dijital kimliği yönetme, 3.3 Telif ve lisanslar, 4.3 İyi oluşu destekleme</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?</p>
@@ -18,7 +18,7 @@ description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş;
 
 Bir mesajın ekran görüntüsünü gruba atmak, bir haberi okumadan paylaşmak, internette bulduğun bir görseli sunumuna koymak: hepsi birkaç saniyelik işler. Bu hafta bu saniyelerin arkasındaki uzun izi göreceksin. Önce kendi dijital izine ve dikkatini yöneten tasarımlara bakacağız. Sonra etik ile hukukun ayrıldığı yere, Türkiye'de çevrimiçi bir eylemin hangi durumda suç olabileceğine ve başına bir şey geldiğinde ne yapacağına geçeceğiz. Son olarak başkasının emeğini nasıl doğru kullanacağını ve yapay zekânın hukuku nasıl zorladığını öğreneceksin.
 
-**Okuma süresi:** yaklaşık 26 dakika.
+**Okuma süresi:** yaklaşık 27 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -74,7 +74,7 @@ Sonsuz kaydırmayı 2006'da tasarlayan Aza Raskin, sonraki yıllarda bu buluşun
 
 Peki bu tasarımlar bağımlılık yapar mı? Burada kanıt düzeyine dikkat etmek gerekir. Dünya Sağlık Örgütü **oyun bozukluğunu** 2019'da hastalık sınıflamasına ekledi; sınıflama 2022'de yürürlüğe girdi. Oyun bozukluğu, oyunun kontrol edilemediği, başka her şeyin önüne geçtiği ve bu durumun genellikle en az bir yıl sürdüğü bir tablodur; çok oyun oynamak tek başına tanı değildir. Buna karşılık "sosyal medya bağımlılığı", "nomofobi" (telefonsuz kalma korkusu) ya da "hayalet titreşim" gibi kavramlar araştırılan ama resmî tanı olmayan kavramlardır. Ekran süresiyle uyku, dikkat ve ruh hali arasındaki ilişki gerçek; ama "her ekran zararlıdır" demek de, "hiçbir etkisi yoktur" demek de kanıtı aşar.
 
-Düzenleyiciler de konuya eğiliyor. Avustralya 16 yaşın altındakilerin sosyal medya hesabı açmasını yasakladı; düzenleme 2025'in sonunda yürürlüğe girdi. Avrupa Komisyonu da büyük platformların gençler üzerinde bağımlılık yapıcı tasarımlar kullanıp kullanmadığına ilişkin Dijital Hizmetler Yasası kapsamında soruşturmalar açtı. Bu düzenlemelerin işe yarayıp yaramadığı da tartışılıyor: yaş doğrulamanın nasıl yapılacağı, gençlerin daha denetimsiz yerlere kayıp kaymayacağı gibi sorular henüz cevaplanmış değil.
+Düzenleyiciler de konuya eğiliyor. Avustralya 16 yaşın altındakilerin sosyal medya hesabı açmasını yasakladı; düzenleme 2025'in sonunda yürürlüğe girdi. Avrupa Komisyonu da büyük platformların gençler üzerinde bağımlılık yapıcı tasarımlar kullanıp kullanmadığına ilişkin Dijital Hizmetler Yasası kapsamında soruşturmalar açtı; 2026'da TikTok ve Meta için ihlal yönünde ön bulgular açıkladı (kesin karar henüz yok). Bu düzenlemelerin işe yarayıp yaramadığı da tartışılıyor: yaş doğrulamanın nasıl yapılacağı, gençlerin daha denetimsiz yerlere kayıp kaymayacağı gibi sorular henüz cevaplanmış değil.
 
 **Dijital iyi oluş**, teknolojiyi kendi amaçların için kullanmak, onun seni kullanmasına izin vermemektir. Birkaç somut adım:
 
@@ -234,7 +234,7 @@ AB son on yılda dijital dünyayı düzenleyen bir dizi yasa çıkardı. Bunlar 
 | **Yapay Zekâ Yasası** | Kademeli: 2025'ten başlayarak | YZ sistemlerini risk düzeyine göre düzenler | Kabul edilemez uygulamalar (örneğin sosyal puanlama) 2025'ten beri yasak; YZ kullanan kuruluşlar çalışanlarının YZ okuryazarlığını sağlamalı; deepfake etiketlenmeli |
 :::
 
-Yapay Zekâ Yasası'nın takvimi kademelidir: Yasaklar ve YZ okuryazarlığı yükümlülüğü Şubat 2025'te, genel amaçlı YZ modellerine ilişkin kurallar Ağustos 2025'te uygulanmaya başladı. Yüksek riskli sistemlere (örneğin işe alım, eğitimde not verme ya da kredi değerlendirmesi için kullanılan YZ) ilişkin kuralların 2026 ve 2027'de uygulanması planlanıyordu. Avrupa Komisyonu 2025'in sonunda bu yükümlülüklerin bir kısmını ertelemeyi önerdi. Takvimin son halini EUR-Lex'ten ya da Komisyonun sitesinden kontrol et.
+Yapay Zekâ Yasası'nın takvimi kademelidir: Yasaklar ve YZ okuryazarlığı yükümlülüğü Şubat 2025'te, genel amaçlı YZ modellerine ilişkin kurallar Ağustos 2025'te uygulanmaya başladı. Yüksek riskli sistemlere (örneğin işe alım, eğitimde not verme ya da kredi değerlendirmesi için kullanılan YZ) ilişkin kuralların 2026 ve 2027'de uygulanması planlanıyordu; 2026'da kabul edilen bir değişiklikle (Dijital Omnibus) bu kurallar ertelendi: İşe alım ya da eğitim gibi alanlarda kullanılan sistemler için Aralık 2027, ürünlerin içine yerleştirilen YZ için Ağustos 2028. Takvim yeniden değişebilir; son halini EUR-Lex'ten ya da Komisyonun sitesinden kontrol et.
 
 ## 9. Patent ve marka (okuma)
 
@@ -264,11 +264,11 @@ Kısa vadede: Paylaşmadan önce düşünür, başına dert açacak bir paylaş�
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar sık değişir; bir maddeye dayanarak karar vereceksen güncel metni kaynağından kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar, AB düzenlemeleri ve netiket kaynakları 25 Ekim 2026'da denetlendi. Yasalar sık değişir; bir maddeye dayanarak karar vereceksen güncel metni kaynağından kontrol et.
 
-- **Türkiye:** Türk Ceza Kanunu (5237; 217/A maddesi 7418 sayılı kanunla, 2022); 5651 sayılı kanun (2007, değişiklikleriyle); Siber Güvenlik Kanunu (7545, 2025); Mesafeli Sözleşmeler Yönetmeliği; Fikir ve Sanat Eserleri Kanunu (5846); Sınai Mülkiyet Kanunu (6769); SHGM'nin İHA talimatları. Kaynak: [mevzuat.gov.tr](https://www.mevzuat.gov.tr), [shgm.gov.tr](https://shgm.gov.tr).
-- **Avrupa Birliği:** Genel Veri Koruma Tüzüğü (2016/679), Dijital Hizmetler Yasası (2022/2065), Dijital Piyasalar Yasası (2022/1925), Yapay Zekâ Yasası (2024/1689), sivil havacılıkta olay bildirimi tüzüğü (376/2014), Dijital Omnibus önerisi (Kasım 2025). Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
-- **Netiket:** Virginia Shea, *Netiquette* (1994); IETF, RFC 1855 *Netiquette Guidelines* (1995).
+- **Türkiye:** Türk Ceza Kanunu (5237; 217/A maddesi 7418 sayılı kanunla, Ekim 2022): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5); 5651 sayılı kanun (2007, değişiklikleriyle; son değişiklikler 2026): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5651&MevzuatTur=1&MevzuatTertip=5); Siber Güvenlik Kanunu (7545, Resmî Gazete 19 Mart 2025): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7545&MevzuatTur=1&MevzuatTertip=5); Mesafeli Sözleşmeler Yönetmeliği; Fikir ve Sanat Eserleri Kanunu (5846); Sınai Mülkiyet Kanunu (6769); SHGM'nin İHA talimatları. Kaynak: [mevzuat.gov.tr](https://www.mevzuat.gov.tr), [shgm.gov.tr](https://shgm.gov.tr).
+- **Avrupa Birliği:** Genel Veri Koruma Tüzüğü (2016/679), Dijital Hizmetler Yasası (2022/2065), Dijital Piyasalar Yasası (2022/1925), Yapay Zekâ Yasası (2024/1689), sivil havacılıkta olay bildirimi tüzüğü (376/2014), Yapay Zekâ Yasası'nı değiştiren Dijital Omnibus tüzüğü (2026/1744): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng). Komisyonun Dijital Hizmetler Yasası kapsamındaki ön bulguları: [TikTok](https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act) (Şubat 2026), [Meta](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1579) (Temmuz 2026). Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
+- **Netiket:** Virginia Shea, *Netiquette* (1994) ve kuralların özeti: [Core Rules of Netiquette](https://www.educause.edu/ir/library/html/erm/29558.html); IETF, [RFC 1855](https://www.rfc-editor.org/rfc/rfc1855) *Netiquette Guidelines* (Ekim 1995).
 - **Diğer:** Dünya Sağlık Örgütü, ICD-11 (2019; yürürlük 2022); Lawrence Lessig, *Code and Other Laws of Cyberspace* (1999); ABD'de Thaler ile Perlmutter temyiz kararı (2025) ve TAKE IT DOWN Act (2025).
 
 ## Bu haftanın kavramları

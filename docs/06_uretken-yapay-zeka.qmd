@@ -9,7 +9,7 @@ description: "Yapay zekâ, makine öğrenmesi ve derin öğrenme; dil modeli nas
   <dl>
     <div><dt>Hafta</dt><dd>6 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>26 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.500</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.600</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Yapay zekâ bir soruyu cevapladığında cevabı biliyor mu, yoksa tahmin mi ediyor? Bu fark senin için neden önemli?</p>
