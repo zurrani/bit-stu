@@ -41,7 +41,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Arama operatörü (5) | Aramayı daraltan özel ifade ("...", -, OR, site:, filetype:) |
 | ARINC 429 (2) | Uçak sistemleri arasında veriyi 32 bitlik kelimelerle taşıyan veri yolu standardı (ARINC: Aeronautical Radio, Incorporated) |
 | Arızalar arası ortalama süre, MTBF (12) | Bir parçanın toplam çalışma süresinin arıza sayısına bölünmesiyle bulunan güvenilirlik ölçüsü (mean time between failures) |
-| ARM (2) | Telefonlarda başlayıp dizüstülere yayılan, az enerji harcayan işlemci mimarisi (adı Advanced RISC Machines'ten gelir) |
+| ARM (2) | Telefonlarda başlayıp dizüstülere yayılan, az enerji harcayan işlemci mimarisi (adı Acorn'un işlemcisinden gelir; 1990'da kurulan şirketin adı Advanced RISC Machines'ti, bugün yalnızca Arm) |
 | ARPANET (4) | 1969'da ABD'de kurulan, internetin öncüsü olan araştırma ağı (Advanced Research Projects Agency Network) |
 | Artırılmış gerçeklik (14) | Gerçek dünyanın görüntüsünün üzerine dijital bilgi yansıtan teknoloji (augmented reality) |
 | Asansör konuşması (13) | Bir fikri yarım dakika ile bir dakika arasında anlatan çok kısa konuşma (elevator pitch) |
@@ -500,7 +500,7 @@ Notlarda kısaltmalar açılımlarıyla birlikte yazılmaz; açılımları burad
 | APA (5) | American Psychological Association |
 | APFS (3) | Apple File System |
 | ARINC (2) | Aeronautical Radio, Incorporated (ARINC 429: uçak veri yolu standardı) |
-| ARM (2) | Advanced RISC Machines |
+| ARM (2) | Acorn RISC Machine; 1990'dan sonra Advanced RISC Machines |
 | ARPANET (4) | Advanced Research Projects Agency Network |
 | ASCII (2) | American Standard Code for Information Interchange |
 | ATA (10) | Air Transport Association |
