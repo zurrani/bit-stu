@@ -167,7 +167,7 @@ Hafta 6'da sohbete yazdığın her şeyin hizmet sağlayıcının sunucularına 
 
 ### Anonim veri ne kadar anonim?
 
-**Anonimleştirme**, verinin hiçbir şekilde bir kişiyle ilişkilendirilemeyecek hale getirilmesidir ve sanıldığından zordur. Bilgisayar bilimci Latanya Sweeney, ABD'de yalnızca posta kodu, doğum tarihi ve cinsiyetin nüfusun yaklaşık yüzde 87'sini tanımlamaya yettiğini gösterdi. "Anonim" bir veri seti başka bir veriyle birleşince kişiler yeniden tanınabilir.
+**Anonimleştirme**, verinin hiçbir şekilde bir kişiyle ilişkilendirilemeyecek hale getirilmesidir ve sanıldığından zordur. Bilgisayar bilimci Latanya Sweeney, ABD'nin 1990 nüfus verisiyle, yalnızca posta kodu, doğum tarihi ve cinsiyetin nüfusun yaklaşık yüzde 87'sini tek başına tanımlamaya yetebileceğini hesapladı. "Anonim" bir veri seti başka bir veriyle birleşince kişiler yeniden tanınabilir.
 
 **Takma adlandırma** (pseudonymization) ise adın yerine bir kod koymaktır: "Ayşe Yılmaz" yerine "K-4821". Kodu çözen anahtar bir yerde durduğu için bu veri hâlâ kişiseldir. Gerçek anonimleştirmede geri dönüş yolu yoktur ve anonim veri artık kişisel veri sayılmaz.
 
@@ -297,7 +297,7 @@ Hafta 4'te gördüğün Nesnelerin İnterneti, evdeki ve yoldaki birçok cihazı
 | Robot süpürge, akıllı ev | Evin planını, evde kimin ne zaman olduğunu | Varsayılan şifreleri değiştir |
 :::
 
-Bu riskler kuramsal değil. 2019'da birkaç büyük şirketin sesli asistan kayıtlarının bir kısmını çalışanlarına ya da taşeronlara dinlettiği ortaya çıktı; 2024'te ABD'de bazı otomobil üreticilerinin sürüş verilerini sürücülerin haberi olmadan sigorta şirketleriyle paylaştığı haberlere yansıdı. Pratik kural: İhtiyacın olmayan bağlantı, ihtiyacın olmayan veri demektir.
+Bu riskler kuramsal değil. 2019'da birkaç büyük şirketin sesli asistan kayıtlarının bir kısmını çalışanlarına ya da taşeronlara dinlettiği ortaya çıktı; 2024'te ABD'de bazı otomobil üreticilerinin sürüş verilerini sürücülerin haberi olmadan sigorta şirketleriyle paylaştığı haberlere yansıdı; 2026'da ABD'li düzenleyici bu üreticilerden birine, sürüş verisini beş yıl boyunca bu tür şirketlerle paylaşmama yasağı getirdi. Pratik kural: İhtiyacın olmayan bağlantı, ihtiyacın olmayan veri demektir.
 
 ## 9. KVKK ile GDPR (okuma)
 
@@ -333,11 +333,11 @@ Kısa vadede: Bugün reklam kimliğini sıfırlar, üçüncü taraf çerezleri k
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar ve kurul kararları sık değişir; bir hakkını kullanmadan önce güncel metni kaynağından kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar, kurul kararları ve rehberler 25 Ekim 2026'da denetlendi. Yasalar ve kurul kararları sık değişir; bir hakkını kullanmadan önce güncel metni kaynağından kontrol et.
 
-- **Türkiye:** Kişisel Verilerin Korunması Kanunu (6698, 2016; 7499 sayılı kanunla yapılan değişiklik, yürürlük Haziran 2024); Kişisel Verileri Koruma Kurulu'nun veri ihlali bildirimine ilişkin kararı (72 saat, 2019) ve çerez uygulamaları rehberi (2022). Kaynak: [mevzuat.gov.tr](https://www.mevzuat.gov.tr), [kvkk.gov.tr](https://www.kvkk.gov.tr).
-- **Avrupa Birliği:** Veri koruma direktifi (95/46/EC), Genel Veri Koruma Tüzüğü (2016/679), Yapay Zekâ Yasası (2024/1689; yasaklı uygulamalar Şubat 2025'ten beri). Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
-- **Araştırma ve olaylar:** Latanya Sweeney'nin yeniden tanımlama çalışması (2000); Shoshana Zuboff, *The Age of Surveillance Capitalism* (2019); Cambridge Analytica (2018), Strava ısı haritası (2018), İngiltere'deki sınav notu algoritması (2020), ABD'de gizli mod davası (2024).
+- **Türkiye:** Kişisel Verilerin Korunması Kanunu (6698, 2016; 7499 sayılı kanunla yapılan değişiklik, yürürlük Haziran 2024): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5); Kişisel Verileri Koruma Kurulu'nun veri ihlali bildirimine ilişkin kararı (72 saat, 2019/10): [kvkk.gov.tr](https://www.kvkk.gov.tr/Icerik/5362/Veri-Ihlali-Bildirimi); çerez uygulamaları rehberi (2022; güncel sürüm Temmuz 2025): [kvkk.gov.tr](https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/fb193dbb-b159-4221-8a7b-3addc083d33f.pdf); Üretken Yapay Zekâ ve Kişisel Verilerin Korunması Rehberi (Kasım 2025): [kvkk.gov.tr](https://www.kvkk.gov.tr/Icerik/8547/uretken-yapay-zeka-ve-kisisel-verilerin-korunmasi-rehberi-15-soruda).
+- **Avrupa Birliği:** Veri koruma direktifi (95/46/EC), Genel Veri Koruma Tüzüğü (2016/679): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2016/679/oj), Yapay Zekâ Yasası (2024/1689; yasaklı uygulamalar Şubat 2025'ten beri): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2024/1689/oj).
+- **Araştırma ve olaylar:** Latanya Sweeney, "Simple Demographics Often Identify People Uniquely" (2000): [dataprivacylab.org](https://dataprivacylab.org/projects/identifiability/paper1.pdf); Shoshana Zuboff, *The Age of Surveillance Capitalism* (2019); Cambridge Analytica (2018), Strava ısı haritası (2018), İngiltere'deki sınav notu algoritması (2020), ABD'de gizli mod davası (2024); ABD Federal Ticaret Komisyonu'nun sürüş verisi kararı (Ocak 2026): [ftc.gov](https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers).
 
 ## Bu haftanın kavramları
 
