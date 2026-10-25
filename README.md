@@ -21,6 +21,7 @@ bit-stu/
 └─ assets/
    ├─ css/                bit.scss (açık tema), bit-dark.scss, fonts.css, mobil.css, genel.css
    ├─ js/quiz.html        "Kendini sına" bileşeni
+   ├─ js/gorunum.html     üst çubukta metin boyutu (beş kademe) ve tam ekran düğmeleri
    ├─ fonts/              yerel yazı tipleri (OFL lisanslı)
    └─ img/                görseller, haftaya göre alt klasörler
 ```

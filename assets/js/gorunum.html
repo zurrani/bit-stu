@@ -1,0 +1,121 @@
+<style>
+/* Düğmelerin stili burada, sayfayla birlikte gelir: stil dosyaları tarayıcıda 4 saate kadar
+   önbellekte kalabildiği için (bit-stu/ALTYAPI.md, Browser Cache TTL) ayrı .css'e konmadı.
+   Tema anahtarıyla aynı rengi alır; boyutlar piksel, metin büyüyünce çubuk büyümesin. */
+.quarto-navbar-tools .bit-arac {
+  background: none;
+  border: 0;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.quarto-navbar-tools .bit-arac .bi { font-size: 16px; }
+.quarto-navbar-tools .bit-a {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: .02em;
+}
+.quarto-navbar-tools .bit-a-kucuk { font-size: 14px; }
+.quarto-navbar-tools .bit-arac:disabled { opacity: .35; cursor: default; }
+</style>
+<script>
+/* Görünüm araçları: üst çubukta metin boyutu (beş kademe) ve tam ekran düğmeleri.
+   Metin boyutu tercihi yalnızca bu tarayıcıda saklanır (localStorage); hiçbir yere gönderilmez.
+   Sayfanın başında çalışır: kayıtlı boyut sayfa çizilmeden uygulanır, düğmeler sayfa yüklenince eklenir. */
+(function () {
+  var KADEMELER = [0.9, 1, 1.1, 1.2, 1.3];
+  var OLAGAN = 1;               // KADEMELER içinde %100'ün yeri
+  var KOK_PX = 17;              // bit.scss ve bit-dark.scss: $font-size-root
+  var ANAHTAR = 'bit-metin-boyutu';
+  var sira = OLAGAN;
+
+  try {
+    var kayitli = parseInt(localStorage.getItem(ANAHTAR), 10);
+    if (kayitli >= 0 && kayitli < KADEMELER.length) sira = kayitli;
+  } catch (e) { /* tarayıcı depolamaya izin vermiyorsa öntanımlı boyut */ }
+
+  function uygula() {
+    document.documentElement.style.fontSize =
+      sira === OLAGAN ? '' : (KOK_PX * KADEMELER[sira]) + 'px';
+  }
+  uygula();
+
+  function dugme(etiket, icerik, tikla) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'bit-arac quarto-navigation-tool px-1';
+    b.innerHTML = icerik;
+    b.addEventListener('click', tikla);
+    etiketle(b, etiket);
+    return b;
+  }
+
+  function etiketle(b, etiket) {
+    b.title = etiket;
+    b.setAttribute('aria-label', etiket);
+  }
+
+  function kur() {
+    var kutu = document.querySelector('.quarto-navbar-tools');
+    if (!kutu) return;
+    var ilk = kutu.firstChild;
+
+    var kucult = dugme('', '<span class="bit-a bit-a-kucuk" aria-hidden="true">A−</span>', function () { degistir(-1); });
+    var buyut = dugme('', '<span class="bit-a" aria-hidden="true">A+</span>', function () { degistir(1); });
+
+    function durum() {
+      var yuzde = '%' + Math.round(KADEMELER[sira] * 100);
+      etiketle(kucult, 'Metni küçült (şu an ' + yuzde + ')');
+      etiketle(buyut, 'Metni büyüt (şu an ' + yuzde + ')');
+      kucult.disabled = sira === 0;
+      buyut.disabled = sira === KADEMELER.length - 1;
+    }
+
+    function degistir(adim) {
+      var yeni = sira + adim;
+      if (yeni < 0 || yeni >= KADEMELER.length) return;
+      sira = yeni;
+      uygula();
+      durum();
+      try { localStorage.setItem(ANAHTAR, String(sira)); } catch (e) { /* yalnızca bu sayfada geçerli kalır */ }
+      // Quarto üst çubuğun yüksekliğine göre sayfa boşluğunu yeniden hesaplasın.
+      window.dispatchEvent(new Event('resize'));
+    }
+
+    durum();
+    kutu.insertBefore(kucult, ilk);
+    kutu.insertBefore(buyut, ilk);
+
+    // Tam ekran: tarayıcı desteklemiyorsa (örneğin iPhone'daki Safari) düğme eklenmez.
+    var kok = document.documentElement;
+    var ac = kok.requestFullscreen || kok.webkitRequestFullscreen;
+    var kapat = document.exitFullscreen || document.webkitExitFullscreen;
+    if (!ac || !kapat || !(document.fullscreenEnabled || document.webkitFullscreenEnabled)) return;
+
+    function tamEkranda() {
+      return !!(document.fullscreenElement || document.webkitFullscreenElement);
+    }
+
+    var tam = dugme('', '', function () {
+      var sonuc = tamEkranda() ? kapat.call(document) : ac.call(kok);
+      if (sonuc && sonuc.catch) sonuc.catch(function () { /* tarayıcı reddetti; düğme olduğu gibi kalır */ });
+    });
+
+    function tamDurum() {
+      var acik = tamEkranda();
+      tam.innerHTML = '<i class="bi ' + (acik ? 'bi-fullscreen-exit' : 'bi-fullscreen') + '" aria-hidden="true"></i>';
+      etiketle(tam, acik ? 'Tam ekrandan çık' : 'Tam ekran');
+    }
+
+    tamDurum();
+    document.addEventListener('fullscreenchange', tamDurum);
+    document.addEventListener('webkitfullscreenchange', tamDurum);
+    kutu.insertBefore(tam, ilk);
+  }
+
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', kur);
+  else kur();
+})();
+</script>

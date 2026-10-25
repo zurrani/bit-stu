@@ -163,6 +163,7 @@ format:
     anchor-sections: true
     link-external-icon: false
     link-external-newwindow: true
+    include-in-header: assets/js/gorunum.html
     include-after-body: assets/js/quiz.html
 
 language:
