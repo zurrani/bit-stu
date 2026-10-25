@@ -10,7 +10,7 @@ description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş;
     <div><dt>Hafta</dt><dd>7 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>26 dakika</dd></div>
     <div><dt>Kelime</dt><dd>yaklaşık 3.500</dd></div>
-    <div><dt>DigComp alanı</dt><dd>2.2 Paylaşma, 2.3 Vatandaşlık, 2.5 Dijital davranış, 2.6 Dijital kimlik, 3.3 Telif ve lisanslar, 4.3 İyi oluş</dd></div>
+    <div><dt>DigComp alanı</dt><dd>2.2 Paylaşma, 2.3 Vatandaşlık katılımı, 2.5 Dijital davranış, 2.6 Dijital kimliği yönetme, 3.3 Telif ve lisanslar, 4.3 İyi oluşu destekleme</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?</p>
 </div>

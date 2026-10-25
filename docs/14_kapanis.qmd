@@ -10,7 +10,7 @@ description: "Dönemin haritası; son 25 yılın kırılımları; geçmişin bil
     <div><dt>Hafta</dt><dd>14 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>21 dakika</dd></div>
     <div><dt>Kelime</dt><dd>yaklaşık 2.900</dd></div>
-    <div><dt>DigComp alanı</dt><dd>5.3 Dijital teknolojileri yaratıcı kullanma, 5.4 Dijital yetkinlik açıklarını belirleme, 4.4 Çevreyi koruma</dd></div>
+    <div><dt>DigComp alanı</dt><dd>5.3 Yaratıcı çözümler, 5.4 Dijital yetkinlik ihtiyaçları, 4.4 Çevresel etkiler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bundan 25 yıl sonra bugünün hangi teknolojisi sana tuhaf, hangisi sıradan gelecek?</p>
 </div>

@@ -10,7 +10,7 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
     <div><dt>Hafta</dt><dd>5 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>19 dakika</dd></div>
     <div><dt>Kelime</dt><dd>yaklaşık 2.500</dd></div>
-    <div><dt>DigComp alanı</dt><dd>1.1 Arama ve filtreleme, 1.2 Değerlendirme, 3.3 Telif</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.1 Arama ve filtreleme, 1.2 Bilgiyi değerlendirme, 3.3 Telif ve lisanslar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> İnternette bulduğun bir bilginin doğru olduğundan nasıl emin olursun?</p>
 </div>

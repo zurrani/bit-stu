@@ -155,7 +155,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bir bilgisayarın ne zaman "çöp" olacağına donanım mı karar verir, yazılım mı?*
 
-**Okuma:** [ders notu](../docs/03_isletim-sistemleri.qmd), yaklaşık 22 dakika. **DigComp:** 1.3 Veriyi yönetme, 4.1 Cihazları koruma, 4.2 Mahremiyet.
+**Okuma:** [ders notu](../docs/03_isletim-sistemleri.qmd), yaklaşık 22 dakika. **DigComp:** 1.3 Bilgiyi yönetme, 4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -187,7 +187,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *İnternette bulduğun bir bilginin doğru olduğundan nasıl emin olursun?*
 
-**Okuma:** [ders notu](../docs/05_bilgi-okuryazarligi.qmd), yaklaşık 19 dakika. **DigComp:** 1.1 Arama ve filtreleme, 1.2 Değerlendirme, 3.3 Telif.
+**Okuma:** [ders notu](../docs/05_bilgi-okuryazarligi.qmd), yaklaşık 19 dakika. **DigComp:** 1.1 Arama ve filtreleme, 1.2 Bilgiyi değerlendirme, 3.3 Telif ve lisanslar.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -203,7 +203,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Yapay zekâ bir soruyu cevapladığında cevabı biliyor mu, yoksa tahmin mi ediyor? Bu fark senin için neden önemli?*
 
-**Okuma:** [ders notu](../docs/06_uretken-yapay-zeka.qmd), yaklaşık 26 dakika. **DigComp:** 1.2 Değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları.
+**Okuma:** [ders notu](../docs/06_uretken-yapay-zeka.qmd), yaklaşık 26 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -219,7 +219,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?*
 
-**Okuma:** [ders notu](../docs/07_dijital-vatandaslik-hukuk.qmd), yaklaşık 26 dakika. **DigComp:** 2.2 Paylaşma, 2.3 Vatandaşlık, 2.5 Dijital davranış, 2.6 Dijital kimlik, 3.3 Telif ve lisanslar, 4.3 İyi oluş.
+**Okuma:** [ders notu](../docs/07_dijital-vatandaslik-hukuk.qmd), yaklaşık 26 dakika. **DigComp:** 2.2 Paylaşma, 2.3 Vatandaşlık katılımı, 2.5 Dijital davranış, 2.6 Dijital kimliği yönetme, 3.3 Telif ve lisanslar, 4.3 İyi oluşu destekleme.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -237,7 +237,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Senin hakkında kim, ne biliyor ve bununla ne yapıyor?*
 
-**Okuma:** [ders notu](../docs/08_mahremiyet.qmd), yaklaşık 28 dakika. **DigComp:** 1.2 Değerlendirme, 2.6 Dijital kimlik, 4.2 Mahremiyet.
+**Okuma:** [ders notu](../docs/08_mahremiyet.qmd), yaklaşık 28 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 2.6 Dijital kimliği yönetme, 4.2 Kişisel veri ve mahremiyet.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -255,7 +255,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bir saldırı ya da kesinti olduğunda ne kadar etkilenirsin, ne kadar çabuk toparlanırsın?*
 
-**Okuma:** [ders notu](../docs/09_siber-guvenlik.qmd), yaklaşık 26 dakika. **DigComp:** 4.1 Cihazları koruma, 4.2 Mahremiyet, 5.1 Teknik sorunlar, 5.3 Yaratıcı çözümler.
+**Okuma:** [ders notu](../docs/09_siber-guvenlik.qmd), yaklaşık 26 dakika. **DigComp:** 4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet, 5.1 Teknik sorunlar, 5.3 Yaratıcı çözümler.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -291,7 +291,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bir tablodaki sayılara güvenmeden önce neye bakmalısın?*
 
-**Okuma:** [ders notu](../docs/11_veriyle-calismak-1.qmd), yaklaşık 21 dakika. **DigComp:** 1.3 Veriyi yönetme, 3.1 İçerik geliştirme, 5.1 Teknik sorunlar.
+**Okuma:** [ders notu](../docs/11_veriyle-calismak-1.qmd), yaklaşık 21 dakika. **DigComp:** 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.1 Teknik sorunlar.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -309,7 +309,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?*
 
-**Okuma:** [ders notu](../docs/12_veriyle-calismak-2.qmd), yaklaşık 20 dakika. **DigComp:** 1.2 Değerlendirme, 1.3 Veriyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler.
+**Okuma:** [ders notu](../docs/12_veriyle-calismak-2.qmd), yaklaşık 20 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -349,7 +349,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bundan 25 yıl sonra bugünün hangi teknolojisi sana tuhaf, hangisi sıradan gelecek?*
 
-**Okuma:** [ders notu](../docs/14_kapanis.qmd), yaklaşık 21 dakika. **DigComp:** 5.3 Dijital teknolojileri yaratıcı kullanma, 5.4 Dijital yetkinlik açıklarını belirleme, 4.4 Çevreyi koruma.
+**Okuma:** [ders notu](../docs/14_kapanis.qmd), yaklaşık 21 dakika. **DigComp:** 5.3 Yaratıcı çözümler, 5.4 Dijital yetkinlik ihtiyaçları, 4.4 Çevresel etkiler.
 
 **Bu hafta şunları yapabileceksin:**
 

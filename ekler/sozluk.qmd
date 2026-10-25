@@ -125,7 +125,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Dezenformasyon (5) | Bilerek uydurulup zarar vermek amacıyla yayılan yanlış bilgi |
 | Dezenformasyon suçu, TCK 217/A (7) | Ülkenin iç ve dış güvenliği, kamu düzeni ya da genel sağlıkla ilgili gerçeğe aykırı bir bilgiyi yalnızca panik yaratma amacıyla ve kamu barışını bozmaya elverişli biçimde alenen yaymayı suç sayan, 2022'de eklenen madde |
 | DHCP (4) | Ağa katılan cihaza kendiliğinden IP adresi veren protokol (Dynamic Host Configuration Protocol) |
-| DigComp (1) | Avrupa Komisyonu'nun dijital yetkinlik çerçevesi; güncel sürümü 3.0 (2025) |
+| DigComp (1) | Avrupa Komisyonu'nun dijital yetkinlik çerçevesi; güncel sürümü 3.0 (2025). Beş alanı, 21 yetkinliği ve dört düzeyi [Ek F](f_digcomp.qmd)'de |
 | Dijital (2) | Kesikli; belirli adımlarla ve sayılarla ifade edilen |
 | Dijital ayak izi (7) | İnternette yapılan her şeyin bıraktığı izlerin toplamı; aktif ve pasif olmak üzere ikiye ayrılır |
 | Dijital dayanıklılık (9) | Bir saldırı ya da kesinti olduğunda az etkilenme ve çabuk toparlanma yeteneği; yedek, plan ve alternatiflerle kurulur |
@@ -517,7 +517,7 @@ Notlarda kısaltmalar açılımlarıyla birlikte yazılmaz; açılımları burad
 | CSV (11) | comma-separated values |
 | DAC (2) | digital-to-analog converter; dijital-analog dönüştürücü |
 | DHCP (4) | Dynamic Host Configuration Protocol |
-| DigComp (1) | Digital Competence Framework for Citizens (Avrupa dijital yetkinlik çerçevesi) |
+| DigComp (1) | European Digital Competence Framework (Avrupa dijital yetkinlik çerçevesi) |
 | DMA (7) | Digital Markets Act |
 | DNS (4) | Domain Name System |
 | DOCX (10) | Office Open XML belgesi (Word) |

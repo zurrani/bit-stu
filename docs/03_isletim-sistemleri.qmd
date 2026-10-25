@@ -10,7 +10,7 @@ description: "Yazılım ve işletim sistemi; Windows, Linux, macOS, Android ve i
     <div><dt>Hafta</dt><dd>3 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>22 dakika</dd></div>
     <div><dt>Kelime</dt><dd>yaklaşık 3.000</dd></div>
-    <div><dt>DigComp alanı</dt><dd>1.3 Veriyi yönetme, 4.1 Cihazları koruma, 4.2 Mahremiyet</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.3 Bilgiyi yönetme, 4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir bilgisayarın ne zaman "çöp" olacağına donanım mı karar verir, yazılım mı?</p>
 </div>

@@ -9,7 +9,7 @@ description: "Bilim, teknoloji ve bilişim; çözüm ve bedel; veriden bilgeliğ
   <dl>
     <div><dt>Hafta</dt><dd>1 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.400</dd></div>
     <div><dt>DigComp alanı</dt><dd>5.4 Dijital yetkinlik ihtiyaçları</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Teknoloji hayatımızı kolaylaştırıyorsa, neden her seferinde bir bedeli de oluyor?</p>
@@ -258,11 +258,13 @@ DigComp, Avrupa Komisyonu'nun Ortak Araştırma Merkezi tarafından hazırlanan 
 
 | Alan | Kapsadığı yetkinlikler | Dersteki haftalar |
 |---|---|---|
-| 1. Bilgi ve veri okuryazarlığı | Arama ve filtreleme, değerlendirme, bilgi ve veriyi yönetme | 3, 5, 8, 11, 12 |
-| 2. İletişim ve iş birliği | Etkileşim, paylaşma, vatandaşlık, iş birliği, dijital davranış, dijital kimlik | 4, 7, 10 |
-| 3. Dijital içerik üretme | İçerik geliştirme, bütünleştirme ve yeniden düzenleme, telif ve lisanslar, hesaplamalı düşünme ve programlama | 6, 7, 10, 11, 12, 13 |
-| 4. Güvenlik | Cihazları koruma, kişisel veri ve mahremiyet, sağlık ve iyi oluş, çevre | 3, 7, 8, 9 |
-| 5. Problem çözme | Teknik sorunlar, ihtiyaçlar ve teknolojik çözümler, yaratıcı çözümler, dijital yetkinlik ihtiyaçları | 1, 2, 3, 4, 9, 14 |
+| 1. Bilgi arama, değerlendirme ve yönetme | Arama ve filtreleme, bilgiyi değerlendirme, bilgiyi yönetme | 3, 5, 6, 8, 11, 12 |
+| 2. İletişim ve iş birliği | Etkileşim, paylaşma, vatandaşlık katılımı, iş birliği, dijital davranış, dijital kimliği yönetme | 4, 7, 8, 10, 13 |
+| 3. İçerik üretme | İçerik geliştirme, bütünleştirme ve yeniden düzenleme, telif ve lisanslar, hesaplamalı düşünme ve programlama | 5, 6, 7, 10, 11, 12, 13 |
+| 4. Güvenlik, iyi oluş ve sorumlu kullanım | Cihazları koruma, kişisel veri ve mahremiyet, iyi oluşu destekleme, çevresel etkiler | 3, 7, 8, 9, 14 |
+| 5. Problem belirleme ve çözme | Teknik sorunlar, ihtiyaçlar ve teknolojik çözümler, yaratıcı çözümler, dijital yetkinlik ihtiyaçları | 1, 2, 4, 6, 9, 11, 12, 13, 14 |
+
+Yirmi bir yetkinliğin tamamı, kısa açıklamaları ve dersteki haftaları [Ek F](../ekler/f_digcomp.qmd)'de.
 
 DigComp 3.0 her yetkinlik için dört yeterlik düzeyi tanımlar: **temel**, **orta**, **ileri** ve **çok ileri**. Düzeyi belirleyen üç şey vardır: görevin karmaşıklığı, gereken düşünme düzeyi ve kişinin ne kadar bağımsız çalışabildiği. Önceki sürümdeki sekiz düzeylik ölçek bu dört düzeyle eşleştirilebilir.
 

@@ -77,6 +77,8 @@ website:
             href: ekler/d_netiket.qmd
           - text: "E · Ders izlencesi"
             href: ekler/e_izlence.qmd
+          - text: "F · DigComp 3.0"
+            href: ekler/f_digcomp.qmd
       - text: "Hakkında"
         href: hakkinda.qmd
     right:
@@ -134,6 +136,8 @@ website:
             href: ekler/d_netiket.qmd
           - text: "E · Ders izlencesi"
             href: ekler/e_izlence.qmd
+          - text: "F · DigComp 3.0"
+            href: ekler/f_digcomp.qmd
       - text: "Hakkında"
         href: hakkinda.qmd
   page-footer:

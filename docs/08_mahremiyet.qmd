@@ -10,7 +10,7 @@ description: "Mahremiyet ve gizlilik; veri ekonomisi ve profilleme; büyük veri
     <div><dt>Hafta</dt><dd>8 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>28 dakika</dd></div>
     <div><dt>Kelime</dt><dd>yaklaşık 3.800</dd></div>
-    <div><dt>DigComp alanı</dt><dd>1.2 Değerlendirme, 2.6 Dijital kimlik, 4.2 Mahremiyet</dd></div>
+    <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 2.6 Dijital kimliği yönetme, 4.2 Kişisel veri ve mahremiyet</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Senin hakkında kim, ne biliyor ve bununla ne yapıyor?</p>
 </div>

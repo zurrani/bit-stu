@@ -1,0 +1,110 @@
+---
+title: "Ek F · DigComp 3.0"
+description: "Avrupa dijital yetkinlik çerçevesinin Türkçe kısa sürümü: beş alan, 21 yetkinlik, dört düzey ve her yetkinliğin dersteki haftaları."
+---
+
+Hafta 1'de DigComp 3.0'ı ve dört düzeyini tanıdın; her haftanın görev kartında da o haftanın ilgili yetkinlikleri numaralarıyla yazıyor. Bu ek, çerçevenin bütün yetkinliklerini Türkçe ve kısaltılmış olarak bir arada veriyor ve her yetkinliğin dersin hangi haftalarında işlendiğini gösteriyor. Dönem başında ve sonunda öz değerlendirme yaparken, bir yetkinliğin ne anlama geldiğini buradan kontrol edebilirsin.
+
+Bu bir çeviri ve kısaltmadır, resmî bir Türkçe sürüm değildir. Kaynağı ve lisansı sayfanın sonunda.
+
+## 1. Çerçeve neyi tanımlar?
+
+DigComp, Avrupa Komisyonu'nun Ortak Araştırma Merkezi tarafından hazırlanan dijital yetkinlik çerçevesidir. DigComp 3.0, 2025'te yayımlanan beşinci sürümüdür. Çerçeve, Avrupa Birliği Konseyi'nin 2018 tarihli yaşam boyu öğrenme için anahtar yetkinlikler tavsiyesindeki tanımı kullanır: **Dijital yetkinlik**, dijital teknolojileri öğrenmek, çalışmak ve topluma katılmak için güvenle, eleştirel ve sorumlu biçimde kullanmak ve onlarla etkileşmektir. Her yetkinlik bilgi, beceri ve tutumun birleşimidir ([Sözlük](sozluk.qmd)).
+
+Çerçevenin yapısı önceki sürümle (2.2) aynıdır: beş alan ve 21 yetkinlik. Değişen, alanların ve yetkinliklerin adları ve tanımları ile düzeylerin tanımlarıdır. Yapay zekâ ayrı bir alan değildir. Çerçeve onu birçok dijital teknolojiden biri olarak ele alır; yapay zekâ 21 yetkinliğin her birinde açıkça ya da örtük olarak yer alır.
+
+Görev kartlarında yer kazanmak için bazı yetkinliklerin kısa adı kullanılır; tablolarda tam adın altında "Kartta" diye yazar.
+
+## 2. Beş alan ve 21 yetkinlik
+
+### 1. Bilgi arama, değerlendirme ve yönetme
+
+Bilgi ihtiyacını ifade etmek; dijital bilgiyi ve içeriği aramak, bulmak ve ona erişmek. Kaynakları, içeriği ve onları üreten süreçleri eleştirel gözle değerlendirmek; bilgiyi ve veriyi saklamak, düzenlemek ve çözümlemek.
+
+::: {.tablo-kaydir}
+| No | Yetkinlik | Ne demek? | Dersteki haftalar |
+|---|---|---|---|
+| 1.1 | **Bilgiye göz atma, bilgi arama ve filtreleme**<br>*Kartta: Arama ve filtreleme* | Bilgi ihtiyacını ifade etmek, dijital ortamlarda nerede ve nasıl arayacağını bilmek, bulduklarına erişip aralarında gezinmek. Uygun araçları seçerek aramalar kurmak ve güncellemek, ilgili bilgiyi ilgisizden ayırmak. | [5](../docs/05_bilgi-okuryazarligi.qmd) |
+| 1.2 | **Bilgiyi değerlendirme** | Kaynakların inanılırlığını ve güvenilirliğini değerlendirmek ve karşılaştırmak. Bilgiyi ve içeriği, onları üreten süreçlerle birlikte yorumlamak ve eleştirel gözle değerlendirmek. | [5](../docs/05_bilgi-okuryazarligi.qmd), [6](../docs/06_uretken-yapay-zeka.qmd), [8](../docs/08_mahremiyet.qmd), [12](../docs/12_veriyle-calismak-2.qmd) |
+| 1.3 | **Bilgiyi yönetme** | Dijital ortamlarda bilgiyi ve veriyi düzenlemek, saklamak ve gerektiğinde yeniden bulmak. Yapılandırılmış dijital ortamlarda bilgiyi ve veriyi toplamak, işlemek ve çözümlemek. | [3](../docs/03_isletim-sistemleri.qmd), [11](../docs/11_veriyle-calismak-1.qmd), [12](../docs/12_veriyle-calismak-2.qmd) |
+:::
+
+### 2. İletişim ve iş birliği
+
+Kültürel, kuşaksal ve diğer farklılıkların ve dijital teknolojilerin olanaklarıyla sınırlarının farkında olarak etkileşmek, paylaşmak, iletişim kurmak ve iş birliği yapmak. Dijital teknolojilerle topluma katılmak, haklarını savunmak ve seçim yapmak; dijital varlığını, kimliğini ve itibarını yönetmek.
+
+::: {.tablo-kaydir}
+| No | Yetkinlik | Ne demek? | Dersteki haftalar |
+|---|---|---|---|
+| 2.1 | **Dijital teknolojilerle ve dijital teknolojiler aracılığıyla etkileşim**<br>*Kartta: Etkileşim* | Çeşitli dijital teknolojilerle ve onlar aracılığıyla etkileşmek; bağlama uygun dijital iletişim biçimini kullanmak. | [4](../docs/04_ag-internet-bulut.qmd), [10](../docs/10_belge-ve-yazisma.qmd), [13](../docs/13_sunum.qmd) |
+| 2.2 | **Dijital teknolojilerle paylaşma**<br>*Kartta: Paylaşma* | Bilgiyi ve içeriği uygun dijital teknolojilerle başkalarıyla etik ve sorumlu biçimde paylaşmak. | [7](../docs/07_dijital-vatandaslik-hukuk.qmd), [13](../docs/13_sunum.qmd) |
+| 2.3 | **Dijital teknolojilerle vatandaşlık katılımı**<br>*Kartta: Vatandaşlık katılımı* | Dijital platformları ve hizmetleri etik ve sorumlu biçimde kullanarak topluma katılmak, güçlenme ve katılım fırsatları aramak. Dijital ortamlarda haklarının farkında olmak, onları savunmak ve seçim yapmak. | [7](../docs/07_dijital-vatandaslik-hukuk.qmd) |
+| 2.4 | **Dijital teknolojilerle iş birliği**<br>*Kartta: İş birliği* | Dijital teknolojileri iş birliği için, bilgiyi, kaynakları ve birikimi birlikte üretmek için etik ve sorumlu biçimde kullanmak. | [4](../docs/04_ag-internet-bulut.qmd), [10](../docs/10_belge-ve-yazisma.qmd) |
+| 2.5 | **Dijital davranış** | Davranış normlarını bilmek ve dijital ortamlarda saygılı davranmak. İletişimi bağlama uyarlamak; kültürel, kuşaksal ve diğer farklılıkların farkında olmak ve onlara saygı göstermek. | [7](../docs/07_dijital-vatandaslik-hukuk.qmd), [10](../docs/10_belge-ve-yazisma.qmd) |
+| 2.6 | **Dijital kimliği yönetme** | Bir ya da birden çok dijital kimliği yönetmek. Dijital itibarını, yani çevrim içi varlığına bakılarak nasıl algılandığını korumak; dijital ayak izini, yani dijital platformları ve hizmetleri kullanırken oluşan veriyi yönetmek. | [7](../docs/07_dijital-vatandaslik-hukuk.qmd), [8](../docs/08_mahremiyet.qmd) |
+:::
+
+### 3. İçerik üretme
+
+Dijital içerik oluşturmak ve düzenlemek; bilgiyi ve içeriği var olan bilgi birikimine katmak. Bunu yaparken telif hakkının ve lisansların nasıl uygulandığını bilmek ve etik, sorumlu davranmak; bir bilgisayar sistemine talimat vermek için hesaplamalı düşünmeyi ve programlamayı uygulamak.
+
+::: {.tablo-kaydir}
+| No | Yetkinlik | Ne demek? | Dersteki haftalar |
+|---|---|---|---|
+| 3.1 | **Dijital içerik geliştirme**<br>*Kartta: İçerik geliştirme* | Dijital teknolojileri çeşitli içerikleri oluşturmak ve düzenlemek için etik ve sorumlu biçimde kullanmak; kendini dijital yollarla ifade etmek. | [6](../docs/06_uretken-yapay-zeka.qmd), [10](../docs/10_belge-ve-yazisma.qmd), [11](../docs/11_veriyle-calismak-1.qmd), [12](../docs/12_veriyle-calismak-2.qmd), [13](../docs/13_sunum.qmd) |
+| 3.2 | **Dijital içeriği bütünleştirme ve yeniden düzenleme**<br>*Kartta: Bütünleştirme ve yeniden düzenleme* | Yeni bilgiyi ve içeriği değiştirmek, iyileştirmek ve var olan bilgiyle ve kaynaklarla birleştirerek yeni ve özgün içerik ve bilgi üretmek. | [10](../docs/10_belge-ve-yazisma.qmd) |
+| 3.3 | **Telif hakkı ve lisanslar**<br>*Kartta: Telif ve lisanslar* | Telif hakkının, lisansların ve bunlarla ilgili hukuki ve etik konuların dijital içeriğe nasıl uygulandığını anlamak ve onları doğru uygulamak. | [5](../docs/05_bilgi-okuryazarligi.qmd), [7](../docs/07_dijital-vatandaslik-hukuk.qmd), [13](../docs/13_sunum.qmd) |
+| 3.4 | **Hesaplamalı düşünme ve programlama** | Bir sorunu çözümlemek, alt sorunlara ayırmak ve bir bilgisayar sisteminin o sorunu çözmesi ya da bir görevi yapması için adım adım bir talimat dizisi planlamak ve geliştirmek. | — |
+:::
+
+### 4. Güvenlik, iyi oluş ve sorumlu kullanım
+
+Cihazları, içeriği, kişisel veriyi ve mahremiyeti korumak. Kendinin ve başkalarının bedensel, ruhsal ve toplumsal iyi oluşunu desteklemek; dijital teknolojilerin çevresel etkisini bilmek, bu etkiyi azaltmak ve sürdürülebilirliği desteklemek.
+
+::: {.tablo-kaydir}
+| No | Yetkinlik | Ne demek? | Dersteki haftalar |
+|---|---|---|---|
+| 4.1 | **Cihazları koruma** | Dijital cihazları ve içeriği korumak için güvenlik ve siber güvenlik önlemleri almak. Dijital ortamlardaki risklerin ve tehditlerin sürekli değiştiğinin farkında olmak. | [3](../docs/03_isletim-sistemleri.qmd), [9](../docs/09_siber-guvenlik.qmd) |
+| 4.2 | **Kişisel veriyi ve mahremiyeti koruma**<br>*Kartta: Kişisel veri ve mahremiyet* | Kişisel veri ve mahremiyetle ilgili haklarını bilmek ve kullanmak; mahremiyet risklerini değerlendirmek ve yönetmek. Kendi verini ve başkalarının verisini güvenli, etik ve sorumlu biçimde kullanmak ve paylaşmak. | [3](../docs/03_isletim-sistemleri.qmd), [8](../docs/08_mahremiyet.qmd), [9](../docs/09_siber-guvenlik.qmd) |
+| 4.3 | **İyi oluşu destekleme** | Dijital teknolojileri iyi oluşu ve kapsayıcılığı destekleyecek biçimde kullanmak, ekran başı ile ekran dışı yaşam arasında denge kurmak. Kendini ve başkalarını siber zorbalık ve zararlı içerik gibi tehlikelerden korumak ve onlara nasıl karşılık vereceğini bilmek. | [7](../docs/07_dijital-vatandaslik-hukuk.qmd) |
+| 4.4 | **Dijital teknolojilerin çevresel etkileri**<br>*Kartta: Çevresel etkiler* | Cihazların üretiminden, kullanımından, onarımından, geri dönüşümünden ve atılmasından veri depolama altyapısına ve enerji tüketimine kadar dijital teknolojilerin çevresel etkilerinin farkında olmak. Bu etkiyi azaltmak ve dijital teknolojileri sürdürülebilirlik için kullanmak. | [14](../docs/14_kapanis.qmd) |
+:::
+
+### 5. Problem belirleme ve çözme
+
+İhtiyaçları belirlemek ve değerlendirmek; onları karşılamak için dijital teknolojileri kullanmak ve dijital ortamları uyarlamak. Teknik ve kavramsal sorunları çözmek, süreçlerde ve ürünlerde iyileştirme ya da yeni çözümler üretmek, kendi başına çalışabilmek ve dijital gelişmeleri izlemek.
+
+::: {.tablo-kaydir}
+| No | Yetkinlik | Ne demek? | Dersteki haftalar |
+|---|---|---|---|
+| 5.1 | **Teknik sorunları belirleme ve çözme**<br>*Kartta: Teknik sorunlar* | Dijital cihazları ve ortamları kullanırken teknik sorunları fark etmek ve onları çeşitli yollarla çözmek. | [2](../docs/02_bilgisayar-nasil-dusunur.qmd), [4](../docs/04_ag-internet-bulut.qmd), [9](../docs/09_siber-guvenlik.qmd), [11](../docs/11_veriyle-calismak-1.qmd) |
+| 5.2 | **İhtiyaçları ve dijital teknolojik çözümleri belirleme**<br>*Kartta: İhtiyaçlar ve teknolojik çözümler* | Kendinin ve başkalarının ihtiyaçlarını değerlendirmek; bu ihtiyaçlar için dijital teknolojileri değerlendirmek, seçmek, kullanmak ve uyarlamak. Dijital ortamları bağlama, amaca ve ihtiyaca (örneğin erişilebilirlik) göre ayarlamak. | [2](../docs/02_bilgisayar-nasil-dusunur.qmd), [6](../docs/06_uretken-yapay-zeka.qmd), [12](../docs/12_veriyle-calismak-2.qmd), [13](../docs/13_sunum.qmd) |
+| 5.3 | **Dijital teknolojilerle yaratıcı çözümler belirleme**<br>*Kartta: Yaratıcı çözümler* | Dijital teknolojileri, insanı merkeze alan bir yaklaşımla süreçleri ve ürünleri iyileştirmek ya da yeni çözümler üretmek için kullanmak. Kavramsal sorunları anlamak ve çözmek için tek başına ve başkalarıyla birlikte eleştirel düşünmek. | [9](../docs/09_siber-guvenlik.qmd), [14](../docs/14_kapanis.qmd) |
+| 5.4 | **Dijital yetkinlik ihtiyaçlarını belirleme ve giderme**<br>*Kartta: Dijital yetkinlik ihtiyaçları* | Kendi dijital yetkinliğinin nerede gelişmesi ya da güncellenmesi gerektiğini fark etmek ve bunu yaşam boyu öğrenmenin parçası olarak gidermek. Başkalarının gelişimini desteklemek; dijital gelişmeleri ve onların kişisel, mesleki ve toplumsal etkilerini izlemek. | [1](../docs/01_teknoloji-neyi-cozer.qmd), [6](../docs/06_uretken-yapay-zeka.qmd), [14](../docs/14_kapanis.qmd) |
+:::
+
+## 3. Dört düzey
+
+Çerçeve her yetkinlik için dört yeterlik düzeyi tanımlar. Düzeyi üç şey belirler: görevin ne kadar karmaşık olduğu, ne kadar düşünme gerektirdiği ve kişinin ne kadar bağımsız çalışabildiği.
+
+::: {.tablo-kaydir}
+| Düzey | Bu düzeyde kişi | Ne için? |
+|---|---|---|
+| **Temel** | Gerektiğinde yardım alarak basit görevleri hatırlar ve yapar. | Kişisel, öğrenme ve iş hedeflerini desteklemek, topluma katılmak |
+| **Orta** | Tanımı belli görevleri belirler ve yapar, tanımı belli sorunları kendi başına çözer. | Aynı hedefleri desteklemek, topluma kendi başına katılmak |
+| **İleri** | Çeşitli karmaşık görevlerde çözümleri değerlendirir ve uygular; farklı bağlamlara uyum sağlar, gerektiğinde başkalarına yol gösterir. | Topluma etkin katılmak, başkalarının hedeflerine ulaşmasını desteklemek |
+| **Çok ileri** | Çok karmaşık ya da uzmanlık isteyen sorunlarda yeni çözümler üretir ya da var olanları uyarlar; gerektiğinde başkalarına önderlik eder. | Başkalarının topluma etkin katılmasına yardım etmek, çok karmaşık sorunlarda iyileştirmeye ya da yeni çözümlere katkı vermek |
+:::
+
+**Basit görev**, tanımı belli, az parçalı, anlaşılması ve tamamlanması kolay görevdir; **karmaşık görev** ise tanımı belli olmayan, birbirine bağlı birçok parçadan oluşan görevdir. Çok ileri düzey, bilişim uzmanlarının mesleki becerileriyle aynı şey değildir: Bilişim sistemlerini geliştirmek ve işletmek ayrı bir uzmanlık eğitimi ister.
+
+Önceki sürümün sekiz düzeyli ölçeği bu dört düzeyle eşleştirilebilir: temel 1–2, orta 3–4, ileri 5–6, çok ileri 7–8. Eşleştirme kaynakta bir öneri olarak verilir.
+
+Bu dersin hedefi, çoğu yetkinlikte orta düzeye ulaşman ve bazılarında ileri düzeye adım atmandır. Aynı görevin dört düzeyde nasıl göründüğüne bir örnek [Hafta 1'de](../docs/01_teknoloji-neyi-cozer.qmd#beceri-yetkinlik-ve-digcomp-3.0) var.
+
+## Kaynak ve lisans
+
+- **Kaynak:** Cosgrove, J. ve Cachia, R., *DigComp 3.0: European Digital Competence Framework – Fifth Edition*, Avrupa Birliği Yayın Ofisi, Lüksemburg, 2025, JRC144121. [doi:10.2760/0001149](https://data.europa.eu/doi/10.2760/0001149). Yayın sayfası: [publications.jrc.ec.europa.eu](https://publications.jrc.ec.europa.eu/repository/handle/JRC144121).
+- **Lisans:** Kaynak, Creative Commons Atıf 4.0 Uluslararası ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr)) lisansıyla yayımlanmıştır.
+- **Yapılan değişiklikler:** Bu ek bir çeviri ve kısaltmadır. Alanların, yetkinliklerin ve düzeylerin adları ve tanımları Türkçeye çevrildi ve kısaltıldı; "Dersteki haftalar" sütunu ve kartlardaki kısa adlar eklendi. Çerçevenin yetkinlik ifadeleri, öğrenme çıktıları ve örnekleri alınmadı. Kaynağın 16 Aralık 2025 tarihli düzeltmeleri dikkate alındı.
+- **Sorumluluk:** Çeviri ve kısaltma Öğr. Gör. Emre Akar'a aittir; Ekim 2026'da yapay zekâ desteğiyle hazırlandı. Avrupa Komisyonu bu çeviriden ve kısaltmadan sorumlu değildir ve onu onaylamış değildir.
