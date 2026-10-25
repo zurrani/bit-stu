@@ -11,6 +11,8 @@ $bit-rbf:     #F0868C;   // Efsane mi gerçek mi?
 $bit-amber:   #E2B14E;   // Düşün
 $bit-camgobegi:#72C2B3;  // Bu ne işime yarar?
 $bit-primer-metin: #B5C266; // karanlıkta astar yeşili metinde de yeterli (8,6:1)
+$bit-celik:   #AEBBC8;   // Endüstriden (zeminde 8,5:1)
+$bit-erik:    #D3A8DC;   // Gündelik hayattan (zeminde 8,2:1)
 $bit-cizgi:   #33424B;
 
 $body-bg: #162027;
@@ -111,6 +113,13 @@ strong { font-weight: 700; }
 .callout.kutu-havacilik .callout-header { background-color: rgba(181,194,102,.14) !important; }
 .callout.kutu-havacilik .callout-icon::before { filter: hue-rotate(60deg) saturate(.6); }
 .callout.kutu-havacilik + .table, .callout.kutu-havacilik + table { margin-top: -.5rem; }
+// Ortak vaka katmanları: her profilde görünür (rehber 2.4).
+.callout.kutu-endustri { border-left-color: $bit-celik !important; }
+.callout.kutu-endustri .callout-header { background-color: rgba(174,187,200,.14) !important; }
+.callout.kutu-endustri .callout-icon::before { filter: grayscale(1); }
+.callout.kutu-toplum { border-left-color: $bit-erik !important; }
+.callout.kutu-toplum .callout-header { background-color: rgba(211,168,220,.14) !important; }
+.callout.kutu-toplum .callout-icon::before { filter: hue-rotate(80deg); }
 
 // Tablolar
 table { font-size: .95rem; }

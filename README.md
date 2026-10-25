@@ -52,9 +52,13 @@ Dosyalar düz Markdown'dır; VS Code, Positron ya da herhangi bir metin düzenle
 :::
 ::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
 :::
+::: {.callout-note .kutu-endustri title="Endüstriden: …"}
+:::
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: …"}
+:::
 ```
 
-Programa özgü örnekler yalnızca `.kutu-havacilik` kutularında yer alır; ana metin genel kalır.
+Programa özgü örnekler yalnızca `.kutu-havacilik` kutularında yer alır; ana metin genel kalır. Endüstriden ve Gündelik hayattan kutuları ortak vaka katmanıdır ve her profilde görünür (rehber 2.4).
 
 **Görev kartı:** Her haftanın başında, `docs/01_teknoloji-neyi-cozer.qmd` dosyasındaki HTML bloğu kopyalanıp alanları güncellenir. Okuma süresi ve kelime sayısı elle yazılmaz: not değişince `bit-ins` klasöründe `python _web/olcum.py --belge --yaz` çalıştırılır.
 
