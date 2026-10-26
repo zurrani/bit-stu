@@ -187,7 +187,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *İnternette bulduğun bir bilginin doğru olduğundan nasıl emin olursun?*
 
-**Okuma:** [ders notu](../docs/05_bilgi-okuryazarligi.qmd), yaklaşık 19 dakika. **DigComp:** 1.1 Arama ve filtreleme, 1.2 Bilgiyi değerlendirme, 3.3 Telif ve lisanslar.
+**Okuma:** [ders notu](../docs/05_bilgi-okuryazarligi.qmd), yaklaşık 22 dakika. **DigComp:** 1.1 Arama ve filtreleme, 1.2 Bilgiyi değerlendirme, 3.3 Telif ve lisanslar.
 
 **Bu hafta şunları yapabileceksin:**
 

@@ -8,8 +8,8 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>5 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>19 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 2.600</dd></div>
+    <div><dt>Okuma süresi</dt><dd>22 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.000</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.1 Arama ve filtreleme, 1.2 Bilgiyi değerlendirme, 3.3 Telif ve lisanslar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> İnternette bulduğun bir bilginin doğru olduğundan nasıl emin olursun?</p>
@@ -18,7 +18,7 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
 
 Aramak hiç bu kadar kolay olmamıştı; doğruyu bulmak ise hiç bu kadar zor olmamıştı. Bu hafta arama motorlarının nasıl çalıştığını ve onları nasıl daha iyi kullanacağını, sonra da asıl beceriyi öğreneceksin: bir bilginin, bir sitenin, bir fotoğrafın ya da bir alıntının güvenilir olup olmadığını birkaç dakikada sınamayı. Bu beceri gelecek hafta yapay zekâyla çalışırken de en büyük koruman olacak.
 
-**Okuma süresi:** yaklaşık 19 dakika.
+**Okuma süresi:** yaklaşık 22 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -32,13 +32,13 @@ Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00
 
 ## 1. Arama motorları nasıl çalışır?
 
-Bir arama motoru, sen soruyu sormadan çok önce işe başlar. Üç adımda çalışır:
+Bir **arama motoru**, sen soruyu sormadan çok önce işe başlar. Üç adımda çalışır:
 
 1. **Tarama:** Otomatik programlar web'de bağlantıdan bağlantıya gezerek sayfaları bulur.
 2. **Dizinleme:** Bulunan sayfaların içeriği, dev bir kütüphane kataloğu gibi düzenlenir.
 3. **Sıralama:** Sen aradığında, katalogdaki milyonlarca sayfa içinden hangisinin önce gösterileceğine karar verilir.
 
-Sıralamayı belirleyen yüzlerce etken vardır: sayfanın aradığın kelimeleri içermesi, başka sitelerin ona ne kadar bağlantı verdiği, güncelliği, senin konumun ve geçmiş aramaların. Bu yüzden iki kişi aynı kelimeyi aradığında farklı sonuçlar görebilir. Ayrıca sonuçların en üstündeki bazı bağlantılar **reklamdır**; "Sponsorlu" etiketi taşırlar ve oraya ilgili oldukları için değil, para ödendiği için konmuşlardır.
+Sıralamayı belirleyen yüzlerce etken vardır: sayfanın aradığın kelimeleri içermesi, başka sitelerin ona ne kadar bağlantı verdiği, güncelliği, senin konumun ve geçmiş aramaların. Bu yüzden iki kişi aynı kelimeyi aradığında farklı sonuçlar görebilir. Ayrıca sonuçların en üstündeki bazı bağlantılar **reklamdır**, yani **sponsorlu sonuçtur**; "Sponsorlu" etiketi taşırlar ve oraya ilgili oldukları için değil, para ödendiği için konmuşlardır.
 
 Dünyada ve Türkiye'de aramaların büyük çoğunluğu tek bir arama motorundan, Google'dan geçer; ama tek seçenek o değildir. Bing, Yandex ve DuckDuckGo gibi motorlar farklı dizinler ve farklı sıralama kuralları kullanır; bazıları aramalarını kaydetmemeyi ve seni profillememeyi öne çıkarır. Aynı soruyu iki farklı motorda aramak, birinin gözden kaçırdığını ötekinde bulmanın ve sıralamanın tarafsız olmadığını görmenin kolay bir yoludur. Arama pazarındaki bu yoğunlaşma hukukun da konusu oldu: Bir ABD mahkemesi 2024'te Google'ın genel arama pazarında yasa dışı biçimde tekel konumunu koruduğuna karar verdi; Avrupa Birliği de telefonlarda varsayılan arama motorunu seçme ekranlarını zorunlu tuttu (Hafta 7). Alternatifler [Ek C](../ekler/c_alternatifler.qmd) sayfasında.
 
@@ -49,6 +49,8 @@ Dünyada ve Türkiye'de aramaların büyük çoğunluğu tek bir arama motorunda
 İyi bir arama, iyi bir soruyla başlar. "Uçak neden uçar" yerine "kaldırma kuvveti Bernoulli" gibi konunun kendi terimlerini kullanmak, aramayı daraltır. Sonuç çok fazlaysa terimi özelleştir ("güvenlik" yerine "ağ güvenliği"), çok azsa genişlet.
 
 ### Arama operatörleri
+
+Aramayı daraltan bu özel işaret ve kelimelere **arama operatörü** denir.
 
 | Operatör | Ne yapar? | Örnek |
 |---|---|---|
@@ -104,7 +106,7 @@ Bir kaynağa güvenmeden önce dört soru sor:
 | Haber | Bir olayı aktarmak | Kim, ne, nerede, ne zaman sorularına cevap verir; kaynak ve tarih gösterir |
 | Görüş ya da köşe yazısı | Bir yorumu savunmak | Yazarın adı ve fotoğrafıyla, "bence" diliyle yazılır |
 | Basın bülteni | Bir kurumun kendi sesini duyurmak | Kurumun sitesinde yayımlanır; haber sitelerinde çoğu zaman neredeyse aynen tekrarlanır |
-| Reklam ve sponsorlu içerik | Satmak | "Sponsorlu", "Reklam", "Tanıtım" etiketi taşır ya da taşıması gerekir |
+| **Reklam ve sponsorlu içerik** | Satmak | "Sponsorlu", "Reklam", "Tanıtım" etiketi taşır ya da taşıması gerekir |
 
 En zor ayırt edilen, haber ya da kişisel öneri gibi görünen reklamdır. Sosyal medyada bir ürünü öven bir içerik üreticisi, bunun karşılığında para ya da ürün aldıysa bunu açıkça belirtmelidir; Türkiye'de 1 Ağustos 2026'dan beri yönetmelik, bu tür paylaşımların ilk bakışta görülecek biçimde "Reklam" ya da "Tanıtım" kelimesiyle işaretlenmesini istiyor; yalnızca "iş birliği" yazmak yetmez. Etiket yoksa ve içerik bir ürünü fazla övüyorsa, "Bunu yazan bundan ne kazanıyor?" diye sor.
 
@@ -116,7 +118,7 @@ Bir analojiyle: Yeni bir lokantayı menüsünü okuyarak değil, mahalleliye sor
 
 ### SIFT: dört adımda doğrulama
 
-SIFT, dört adımın İngilizce adlarının baş harfleridir:
+**SIFT**, dört adımın İngilizce adlarının baş harfleridir:
 
 | Adım | Ne yaparsın? |
 |---|---|
@@ -141,23 +143,31 @@ Her kaynak aynı ağırlıkta değildir. Bir bilgiyi ararken bu merdiveni aklın
 |---|---|---|
 | Birincil kaynak | Yasanın Resmî Gazete'deki metni, araştırma makalesi, resmî istatistik, kaza inceleme raporu, üreticinin dokümanı | Kesin bilgi gerektiğinde: alıntı, sayı, kural |
 | İkincil kaynak | Haber, kitap, derleme makalesi, bir uzmanın değerlendirmesi | Birincil kaynağı anlamak ve bağlamı görmek için |
-| Üçüncül kaynak | Ansiklopedi, ders kitabı, Vikipedi, sözlük | Konuya girmek ve birincil kaynaklara ulaşmak için |
+| **Üçüncül kaynak** | Ansiklopedi, ders kitabı, Vikipedi, sözlük | Konuya girmek ve birincil kaynaklara ulaşmak için |
 | Kaynak sayılmayanlar | Forum yazısı, sosyal medya paylaşımı, anonim video, "bir arkadaşın söylediği" | Fikir ve ipucu için; doğrulanmadan kaynak olarak gösterilmez |
 
 Bilimsel makalelerin çoğu yayımlanmadan önce **hakemli** değerlendirmeden geçer: Dergi, makaleyi alanın başka uzmanlarına gönderir; onlar yöntemi ve sonuçları sınar. Hakemlik hatasızlık garantisi değildir, ama bir eleme süzgecidir. Bu yüzden iki şeye daha dikkat et:
 
 - **Tek çalışma, bilimsel uzlaşı değildir.** "Yeni bir araştırmaya göre" diye başlayan bir haber, çoğu zaman tek bir çalışmayı anlatır. Bir konudaki asıl bilgi, çok sayıda çalışmanın birlikte gösterdiğidir.
-- **Makaleler geri çekilebilir.** Ciddi bir hata ya da sahtecilik ortaya çıkarsa dergi makaleyi geri çeker. Aşıların otizme yol açtığını öne süren 1998 tarihli makale, araştırmanın nasıl yapıldığına dair iddiaların yanlış olduğu ortaya çıktıktan sonra 2010'da geri çekildi; ama iddia bugün de dolaşıyor.
+- **Makaleler geri çekilebilir.** Ciddi bir hata ya da sahtecilik ortaya çıkarsa dergi makaleyi geri çeker; makale artık **geri çekilen makale** olarak işaretlenir. Aşıların otizme yol açtığını öne süren 1998 tarihli makale, araştırmanın nasıl yapıldığına dair iddiaların yanlış olduğu ortaya çıktıktan sonra 2010'da geri çekildi; ama iddia bugün de dolaşıyor.
 
 Bir de ücret karşılığında neredeyse her şeyi hakemsiz yayımlayan, adı ciddi dergilere benzeyen sahte dergiler vardır. Bir derginin adını ilk kez duyuyorsan yanal okumayı ona da uygula.
+
+::: {.callout-note .kutu-endustri title="Endüstriden: Hakemli makalesi olmayan kan testi"}
+2003'te Elizabeth Holmes'un kurduğu Theranos büyük bir vaatle yola çıktı: Parmak ucundan alınan birkaç damla kanla, tek bir küçük cihazda, sıradan bir laboratuvarın yaptığı her testi daha ucuza ve daha hızlı yapmak. Yatırımcılar şirkete 700 milyon dolardan fazla para yatırdı; testler bir eczane zinciri aracılığıyla hastalara da sunuldu. Ama basında çok konuşulan bu teknolojiyi anlatan hakemli bir makale yoktu. Tıp araştırmacısı John Ioannidis 2015'te *JAMA* dergisinde tam da buna dikkat çekti. Gerçek sonra ortaya çıktı: Cihaz yalnızca birkaç temel test yapabiliyordu; sonuçların çoğu başka şirketlerin makinelerinde alınıyordu. Hastalar yanlış sonuçlar aldı; düşük yaptığı söylenen bir kadının gebeliği, başka bir testte sağlıklı çıktı. Holmes 2022'de yatırımcıları dolandırmaktan suçlu bulundu ve 11 yılı aşkın hapis cezası aldı.
+
+Bir sağlık ürünü "bilimsel" olduğunu söylüyorsa, kanıtını nerede ararsın?
+:::
 
 ## 5. Yanlış bilginin türleri
 
 | Tür | Bilgi doğru mu? | Niyet zarar vermek mi? | Örnek |
 |---|---|---|---|
-| Yanlış bilgi (misinformation) | Hayır | Hayır | İyi niyetle paylaşılan yanlış bir sağlık önerisi |
-| Dezenformasyon | Hayır | Evet | Bilerek uydurulup yayılan sahte bir haber |
-| Kötü niyetli bilgi (malinformation) | Evet | Evet | Bir kişinin gerçek ama özel bilgisinin ona zarar vermek için yayılması |
+| **Yanlış bilgi** (misinformation) | Hayır | Hayır | İyi niyetle paylaşılan yanlış bir sağlık önerisi |
+| **Dezenformasyon** | Hayır | Evet | Bilerek uydurulup yayılan sahte bir haber |
+| **Kötü niyetli bilgi** (malinformation) | Evet | Evet | Bir kişinin gerçek ama özel bilgisinin ona zarar vermek için yayılması |
+
+Paylaşmanın hukuki bir yanı da var: Türkiye'de kamu düzeni ya da genel sağlıkla ilgili gerçeğe aykırı bir bilgiyi belirli koşullarda alenen yaymak suçtur (TCK 217/A, Hafta 7).
 
 ### Neden yayılıyor?
 
@@ -165,7 +175,13 @@ Bir de ücret karşılığında neredeyse her şeyi hakemsiz yayımlayan, adı c
 
 İki mekanizma bunu güçlendirir. **Filtre balonu**, algoritmaların sana yalnızca sevdiğine benzeyen içeriği göstermesiyle oluşur. **Yankı odası** ise yalnızca seninle aynı düşünenlerin olduğu bir ortamda görüşlerinin sürekli tekrar edilip güçlenmesidir. İkisi birleşince "herkes böyle düşünüyor" sanırsın.
 
-**Deepfake** (derin sahte), yapay zekâyla üretilmiş ya da değiştirilmiş, gerçek gibi görünen video, ses ya da görüntüdür. Artık "gözümle gördüm" demek de tek başına yeterli kanıt değildir.
+**Deepfake** (derin sahte), yapay zekâyla üretilmiş ya da değiştirilmiş, gerçek gibi görünen video, ses ya da görüntüdür. Artık "gözümle gördüm" demek de tek başına yeterli kanıt değildir. Google gibi bazı şirketler kendi YZ araçlarının ürettiği içeriğe görünmez bir filigran ekliyor; ama bu yalnızca o şirketin araçlarında işe yarar. Filigran bulunması bir ipucudur; bulunmaması ise içeriğin gerçek olduğunu göstermez.
+
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Ebeveynlerin yaydığı korku"}
+Şubat 2019'un son haftasında İngiltere'de ebeveyn grupları bir uyarıyla çalkalandı: Çocuk videolarının arasına gizlenen kocaman gözlü bir yüz, "Momo", çocuklara telefon numarası verip kendilerine zarar vermelerini istiyordu. Uyarıyı polis, okullar ve ünlüler de paylaştı. Bir ilkokulda müdür bütün öğrencileri toplayıp Momo'yu anlattı ve "sakın aramayın" dedi. Oysa böyle düzenli bir "oyun" yoktu ve bir çocuğun zarar gördüğüne dair kanıt bulunamadı. YouTube da Momo'yu özendiren yakın tarihli bir video görmediğini açıkladı. Korkunç yüz, bir Japon sanatçının 2016'da yaptığı bir heykelin fotoğrafıydı. Araştırmacılar sonradan bir şey daha gösterdi: Uyarılar, çocukları tam da korkulan görsele yöneltmişti; okul ağlarında "Momo" aramaları o hafta sıçradı. İyi niyetle paylaşılan uyarı, yanlış bilginin ta kendisi olmuştu.
+
+Bir uyarıyı paylaşmadan önce onu ilk kimin yaptığına ve kanıtının ne olduğuna bakıyor musun?
+:::
 
 ### Sayılarla yanıltmak
 
@@ -174,7 +190,7 @@ Yanlış bilgi her zaman yalan söylemez; bazen doğru sayıyı yanıltıcı bi�
 - **Yüzde ile sayıyı karıştırmak:** "Kazalar yüzde 100 arttı" başlığı korkutucudur; ama bir kazanın iki kaza olması da yüzde 100 artıştır. Yüzdeyi gördüğünde "kaçtan kaça?" diye sor.
 - **Göreli riski mutlak risk gibi sunmak:** Bir ilacın bir yan etkiyi "iki katına çıkardığı" söylenebilir; risk on binde birden on binde ikiye çıkmışsa bu, çoğu insan için çok küçük bir farktır.
 - **Küçük ya da seçilmiş örneklem:** Bir sitenin "okurlarımızın yüzde 90'ı katılıyor" anketi, o siteyi okuyan ve ankete katılmayı seçen kişileri ölçer; toplumu değil.
-- **Birlikte olmayı neden sanmak:** Yaz aylarında hem dondurma satışı hem boğulma vakaları artar; dondurma boğulmaya yol açmaz, ikisinin ortak nedeni sıcak havadır. İki şeyin birlikte artması (korelasyon), birinin ötekine yol açtığını (nedensellik) göstermez.
+- **Birlikte olmayı neden sanmak:** Yaz aylarında hem dondurma satışı hem boğulma vakaları artar; dondurma boğulmaya yol açmaz, ikisinin ortak nedeni sıcak havadır. İki şeyin birlikte artması (**korelasyon**), birinin ötekine yol açtığını (**nedensellik**) göstermez.
 
 Grafiklerle yapılan hileleri, örneğin sıfırdan başlamayan eksenleri, Hafta 12'de göreceğiz.
 
@@ -196,7 +212,9 @@ Biraz ek bilgi: Sözün bilinen en eski benzerlerinden biri, yazar Jonathan Swif
 
 Eski bir fotoğraf yeni bir olay gibi paylaşılabilir; bir başka ülkede çekilmiş bir görüntü buradaymış gibi sunulabilir. **Ters görsel arama** (Google Görseller, Google Lens, TinEye), fotoğrafı yükleyip onun internette ilk ne zaman ve nerede yayımlandığını bulmanı sağlar. Fotoğraf "bugün" çekildiği söylenirken yıllar önce yayımlanmışsa iddia yanlıştır.
 
-Türkiye'de Teyit ve Doğruluk Payı gibi doğrulama platformları, yaygın iddiaları inceleyip sonuçlarını yayımlar. Bir sayfanın ya da açıklamanın geçmişteki halini görmek için **Wayback Machine** kullanılabilir.
+Bir haberin, resmî bir yazının ya da bir paylaşımın ekran görüntüsü de kanıt değildir: Tarayıcıda birkaç tıkla sayfadaki metin değiştirilip görüntüsü alınabilir. Ekran görüntüsünün izini, asıl sayfaya ya da kurumun kendi hesabına giderek sür.
+
+Türkiye'de Teyit ve Doğruluk Payı gibi **doğrulama platformları**, yaygın iddiaları inceleyip sonuçlarını yayımlar. Bir sayfanın ya da açıklamanın geçmişteki halini görmek için **Wayback Machine** kullanılabilir.
 
 ### Alıntılar
 
@@ -243,6 +261,8 @@ Bir bilgiyi paylaşmadan önce beş saniyelik bir kontrol:
 4. Tarihi ne? Eski bir şey yeniymiş gibi mi sunuluyor?
 5. Emin değilsem paylaşmamak, yanlışı yaymaktan iyidir.
 
+WhatsApp, beş ya da daha fazla sohbetten geçerek gelen mesajları çift ok simgesiyle işaretler ve bunların aynı anda yalnızca bir sohbete iletilmesine izin verir. Bu işaret mesajın yanlış olduğunu söylemez; ama uzun bir zincirden geldiğini ve ilk kaynağının belirsiz olduğunu söyler.
+
 Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1982'de şöyle anlatmıştı: "Enformasyon içinde boğuluyoruz, ama bilgiye açız." Hafta 1'deki basamakları hatırla: veri ve enformasyon bol; bilgiye ve bilgeliğe çıkmak ise senin işin.
 
 ## Akılda kalsın
@@ -255,12 +275,14 @@ Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Arama operatörleri arama motoru değiştikçe değişir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi. Arama operatörleri arama motoru değiştikçe değişir.
 
 - **Araştırmalar:** Sam Wineburg ve Sarah McGrew, yanal okuma (Stanford Tarih Eğitimi Grubu, 2017); Mike Caulfield, SIFT (2019); Soroush Vosoughi, Deb Roy ve Sinan Aral, "The spread of true and false news online", *Science* 359, 1146–1151 (2018), [doi:10.1126/science.aap9559](https://doi.org/10.1126/science.aap9559); Claire Wardle ve Hossein Derakhshan, Avrupa Konseyi raporu (2017).
 - **Bilim ve istatistik:** Wakefield ve arkadaşlarının 1998 tarihli makalesi ve *The Lancet*'in geri çekme kararı (2010), [doi:10.1016/S0140-6736(10)60175-4](https://doi.org/10.1016/S0140-6736(10)60175-4); DOI sistemi: [doi.org, DOI nedir?](https://www.doi.org/the-identifier/what-is-a-doi/).
 - **Arama pazarı:** ABD Columbia Bölge Mahkemesi, *United States v. Google* kararı (Ağustos 2024) ve yaptırım kararı (Eylül 2025): [ABD Adalet Bakanlığı](https://www.justice.gov/opa/pr/department-justice-wins-significant-remedies-against-google); AB Dijital Piyasalar Yasası (2022/1925), madde 6(3), seçim ekranı: [EUR-Lex](https://eur-lex.europa.eu/legal-content/TR/TXT/?uri=CELEX:32022R1925).
 - **Reklam:** Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği, madde 23/A, sosyal medya etkileyicileri (değişiklik: Resmî Gazete, 1 Temmuz 2026; yürürlük 1 Ağustos 2026): [Resmî Gazete](https://www.resmigazete.gov.tr/eskiler/2026/07/20260701-9.htm).
+- **Vakalar:** Theranos: [ABD Menkul Kıymetler ve Borsa Komisyonu, 14 Mart 2018](https://www.sec.gov/news/press-release/2018-41); [ABD Adalet Bakanlığı, Holmes kararı, 18 Kasım 2022](https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-sentenced-more-11-years-defrauding-theranos-investors-hundreds); [ABD Adalet Bakanlığı, Balwani kararı, 7 Aralık 2022](https://www.justice.gov/usao-ndca/pr/theranos-president-sentenced-more-12-years-fraud-jeopardized-patient-health-and-bilked); J. P. A. Ioannidis, "Stealth research", *JAMA* 313(7), 663–664 (2015), [doi:10.1001/jama.2014.17662](https://doi.org/10.1001/jama.2014.17662). Momo: A. Phippen ve E. Bond, *Digital Ghost Stories: Impact, Risks and Reasons*, [SWGfL](https://swgfl.org.uk/research/digital-ghost-stories-impact-risks-and-reasons/).
+- **Platformlar:** [WhatsApp, iletme sınırları](https://faq.whatsapp.com/1053543185312573); [Google DeepMind, SynthID](https://deepmind.google/models/synthid/).
 - **Alıntılar:** Jonathan Swift, *The Examiner* (1710); John Naisbitt, *Megatrends* (1982); William Bruce Cameron, *Informal Sociology* (1963); *Popular Mechanics*, Mart 1949.
 - **Araçlar:** Google'ın arama operatörleri (Haziran 2026'daki durum); Teyit ve Doğruluk Payı; Swift alıntısının kaynağı: [Quote Investigator](https://quoteinvestigator.com/2014/07/13/truth/).
 
