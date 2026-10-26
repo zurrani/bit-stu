@@ -171,7 +171,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Tarayıcıya bir adres yazıp Enter'a bastığın o bir saniyede neler oluyor?*
 
-**Okuma:** [ders notu](../docs/04_ag-internet-bulut.qmd), yaklaşık 21 dakika. **DigComp:** 2.1 Etkileşim, 2.4 İş birliği, 5.1 Teknik sorunlar.
+**Okuma:** [ders notu](../docs/04_ag-internet-bulut.qmd), yaklaşık 24 dakika. **DigComp:** 2.1 Etkileşim, 2.4 İş birliği, 5.1 Teknik sorunlar.
 
 **Bu hafta şunları yapabileceksin:**
 

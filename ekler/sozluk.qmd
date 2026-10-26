@@ -65,6 +65,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Bellek hiyerarşisi (2) | Yazmaçtan önbelleğe, RAM'den depolamaya ve buluta uzanan bellek basamakları; yukarı çıktıkça hız artar, aşağı indikçe kapasite büyür ve fiyat ucuzlar |
 | Beygir gücü (1) | James Watt'ın tanımladığı güç birimi; yaklaşık 745,7 watt |
 | Beyin-bilgisayar arayüzü (14) | Beyin sinyallerini okuyarak bir cihazı düşünceyle kontrol etmeyi amaçlayan teknoloji |
+| BGP (4) | Ağların hangi IP adreslerine kendileri üzerinden ulaşılacağını birbirine duyurduğu yönlendirme protokolü; internetin yol haritasını güncel tutar (Border Gateway Protocol) |
 | BIOS ve UEFI (3) | Bilgisayar açılırken donanımı kontrol edip işletim sistemini başlatan yazılım; UEFI, BIOS'un yeni nesil karşılığıdır (Basic Input/Output System; Unified Extensible Firmware Interface) |
 | BITE (2) | Built-in test equipment; uçak sistemlerinin kendi kendini test etmesini sağlayan donanım |
 | Bilgelik (1) | Bilgiyi deneyim ve değerlendirmeyle birleştirip doğru kararı verebilme |
@@ -267,6 +268,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Kibibayt, KiB (2) | 1.024 bayt; ondalık kilobayttan (1.000 bayt) ayırmak için kullanılan ikili birim |
 | Kime alanı (10) | E-postada asıl muhatabın, yani kendisinden eylem ya da yanıt beklenen kişinin yazıldığı alan (To) |
 | Kirli Düzine (13) | Bakım hatalarına en sık yol açan on iki insan faktörünü hatırlatan liste ve posterler (Dirty Dozen) |
+| Kişisel erişim noktası (4) | Telefonun hücresel internet bağlantısını Wi-Fi ile başka cihazlara paylaştırması (hotspot) |
 | Kişisel veri (8) | Kimliği belirli ya da belirlenebilir bir gerçek kişiye ilişkin her türlü bilgi |
 | Klavye kısayolu (3) | Bir komutu fare yerine tuş birleşimiyle çalıştırma (Ctrl + C gibi) |
 | Kodek (2) | Videoyu ya da sesi sıkıştırıp yeniden açan yöntem (codec: coder-decoder); H.264, H.265 ve AV1 gibi |
@@ -505,6 +507,7 @@ Notlarda kısaltmalar açılımlarıyla birlikte yazılmaz; açılımları burad
 | ASCII (2) | American Standard Code for Information Interchange |
 | ATA (10) | Air Transport Association |
 | BCC (10) | blind carbon copy (gizli alıcı) |
+| BGP (4) | Border Gateway Protocol |
 | BIOS (3) | Basic Input/Output System |
 | BIT (1) | Basic Information Technologies (dersin kısa adı) |
 | BITE (2) | built-in test equipment |

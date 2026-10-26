@@ -8,8 +8,8 @@ description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>4 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>21 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 2.800</dd></div>
+    <div><dt>Okuma süresi</dt><dd>24 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.200</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.4 İş birliği, 5.1 Teknik sorunlar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Tarayıcıya bir adres yazıp Enter'a bastığın o bir saniyede neler oluyor?</p>
@@ -18,7 +18,7 @@ description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (
 
 Her gün yüzlerce kez yapıyoruz: bir adres yazıyoruz, sayfa açılıyor. Bu hafta o bir saniyenin içine bakacağız: adresin sayıya çevrilmesini, verinin parçalara bölünüp dünyanın öbür ucuna gitmesini, denizin altından geçen kabloları ve havadaki dalgaları. Ardından devletin bu ağa nasıl taşındığını, "bulut" denen şeyin aslında nerede durduğunu ve neye mal olduğunu, bir uçağın da nasıl bu ağın parçası olduğunu göreceğiz.
 
-**Okuma süresi:** yaklaşık 21 dakika.
+**Okuma süresi:** yaklaşık 24 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -40,7 +40,7 @@ Her yeni iletişim teknolojisi de korkuyla karşılandı. 1980'lerde e-postanın
 
 ### Ağlar ağı
 
-**İnternet**, dünyanın dört bir yanındaki bilgisayar ağlarının birbirine bağlanmasıyla oluşan bir ağlar ağıdır. Kökeni, ABD'de araştırma kurumlarının bilgisayarlarını birbirine bağlamak için kurulan ARPANET'e dayanır.
+**İnternet**, dünyanın dört bir yanındaki bilgisayar ağlarının birbirine bağlanmasıyla oluşan bir ağlar ağıdır. Kökeni, ABD'de araştırma kurumlarının bilgisayarlarını birbirine bağlamak için kurulan **ARPANET**'e dayanır.
 
 29 Ekim 1969'da ARPANET üzerinden gönderilen ilk mesaj "LOGIN" kelimesi olacaktı. İlk iki harf, "LO", gitti; sonra sistem çöktü. İnternetin ilk sözü böylece, kazara, "Lo" oldu.
 
@@ -63,9 +63,9 @@ Web de değişti. Web 1.0'da (yaklaşık 1990–2004) sayfalar çoğunlukla okun
 ::: {.tablo-kaydir}
 | Ağ türü | Kapsadığı alan | Örnek |
 |---|---|---|
-| Yerel alan ağı (LAN) | Bir ev, okul, ofis | Laboratuvardaki bilgisayarlar |
-| Şehir alan ağı (MAN) | Bir şehir ya da kampüs | Üniversitenin yerleşkeleri arası ağ |
-| Geniş alan ağı (WAN) | Ülkeler, kıtalar | İnternetin kendisi |
+| **Yerel alan ağı (LAN)** | Bir ev, okul, ofis | Laboratuvardaki bilgisayarlar |
+| **Şehir alan ağı (MAN)** | Bir şehir ya da kampüs | Üniversitenin yerleşkeleri arası ağ |
+| **Geniş alan ağı (WAN)** | Ülkeler, kıtalar | İnternetin kendisi |
 :::
 
 Ağdaki bilgisayarların çoğu **istemci-sunucu** düzeniyle çalışır: senin tarayıcın (istemci) bir istek gönderir, uzaktaki bilgisayar (sunucu) cevap verir.
@@ -77,7 +77,7 @@ Evindeki "modem" aslında birkaç cihazın tek kutuda birleşmiş halidir: **mod
 Evindeki modem, internetle cihazların arasındaki kapıdır; kapının kilidini kurulumdaki gibi bırakmak risklidir. Birkaç adım çoğu riski kapatır:
 
 - **Yönetici şifresini değiştir.** Modemin ayar sayfasına giriş şifresi çoğu zaman cihazın altındaki etikette yazar ya da herkesin bildiği bir varsayılan şifredir.
-- **Güçlü şifreleme seç.** Wi-Fi ayarlarında WPA2 ya da tercihen WPA3 kullan; eski WEP ve şifresiz ağ kolayca kırılır. Wi-Fi parolası da uzun olmalıdır.
+- **Güçlü şifreleme seç.** Wi-Fi ayarlarında WPA2 ya da tercihen **WPA3** kullan; eski WEP ve şifresiz ağ kolayca kırılır. Wi-Fi parolası da uzun olmalıdır.
 - **Misafir ağı aç.** Misafirlerin ve akıllı ampul, kamera gibi cihazların ayrı bir **misafir ağında** durması, birinde açık çıkarsa öbür cihazlarını korur.
 - **Modemin yazılımını güncel tut.** Modemler de bir bilgisayardır; onların yazılımı da açık verir ve güncelleme alır.
 
@@ -87,7 +87,7 @@ Evin dışındaki halka açık Wi-Fi ağlarında nasıl davranacağını Hafta 9
 
 ### IP adresi ve alan adı
 
-Ağa bağlı her cihazın bir **IP adresi** vardır; posta adresi gibi düşünebilirsin. Eski sürüm IPv4, 32 bitlik adresler kullanır (örneğin 172.217.16.14) ve yaklaşık 4,3 milyar adrese izin verir. Bu sayı çoktan yetmez oldu; yeni sürüm IPv6, 128 bitlik adreslerle neredeyse sınırsız adres sağlar. Evdeki cihazların çoğu dışarıya tek bir ortak adresle çıkar.
+Ağa bağlı her cihazın bir **IP adresi** vardır; posta adresi gibi düşünebilirsin. Eski sürüm IPv4, 32 bitlik adresler kullanır (örneğin 172.217.16.14) ve yaklaşık 4,3 milyar adrese izin verir. Bu sayı çoktan yetmez oldu; yeni sürüm **IPv6**, 128 bitlik adreslerle neredeyse sınırsız adres sağlar. Evdeki cihazların çoğu dışarıya tek bir ortak adresle çıkar.
 
 Kimse sayıları ezberlemek istemez. Bu yüzden **alan adları** (iuc.edu.tr gibi) kullanılır. Alan adını IP adresine çeviren sisteme **DNS** denir; internetin telefon rehberidir.
 
@@ -141,11 +141,17 @@ Bir saniyelik bu yolculukta birçok protokol birlikte çalışır:
 ::: {.tablo-kaydir}
 | Protokol | Ne işe yarar? | Ne zaman karşına çıkar? |
 |---|---|---|
-| DHCP | Ağa katılan cihaza kendiliğinden bir IP adresi verir | Wi-Fi'ye bağlandığın an |
+| **DHCP** | Ağa katılan cihaza kendiliğinden bir IP adresi verir | Wi-Fi'ye bağlandığın an |
 | DNS | Alan adını IP adresine çevirir | Her adres yazdığında |
 | TCP/IP | Veriyi paketlere böler, adresler, eksik paketi yeniden ister | Her bağlantıda |
 | HTTP ve HTTPS | Tarayıcı ile web sunucusu arasındaki istek ve cevap | Her web sayfasında |
 | SMTP ve IMAP | E-posta göndermek ve sunucudaki postayı okumak | E-posta uygulamanı kurarken (Hafta 10) |
+:::
+
+::: {.callout-note .kutu-endustri title="Endüstriden: Facebook internetten kaybolduğunda"}
+4 Ekim 2021'de, Türkiye saatiyle akşam altı buçuk sularında Facebook, Instagram ve WhatsApp aynı anda kayboldu. Şirketin ertesi gün yayımladığı açıklamaya göre bu bir saldırı değildi. Rutin bir bakımda, veri merkezlerini birbirine bağlayan ana ağın kapasitesini ölçmek için bir komut verildi ve komut bütün bağlantıları kopardı; onu durdurması gereken denetim aracında da bir hata vardı. Ardından şirketin DNS sunucuları, kendilerine giden yolu internete duyuran ilanları geri çekti. Ağların birbirine "bu adreslere benden ulaşılır" diye haber verdiği protokole **BGP** denir. Sunucular çalışıyordu, ama dünya onlara giden yolu bulamıyordu. Mühendisler uzaktan bağlanamadı; sıkı korunan veri merkezlerine yerinde girmek zaman aldı. Hizmetler ancak gece yarısından sonra döndü. Aynı gün Telegram, 70 milyondan fazla yeni kullanıcı geldiğini duyurdu. Hafta 1'de "hazırlıklı ol" ilkesini anlatırken andığımız akşam budur.
+
+Ailen, sınıfın ya da iş arkadaşların yalnızca tek bir uygulamada buluşuyorsa, o uygulama susunca birbirinize nasıl ulaşırsınız?
 :::
 
 ### Ağ üzerindeki devlet: e-Devlet
@@ -157,7 +163,7 @@ Kapıya birkaç yolla girilir: PTT'den kimlikle alınan e-Devlet şifresi, mobil
 İki pratik bilgi:
 
 - **Adresi sağdan oku.** Gerçek adres `turkiye.gov.tr`'dir. "e-Devlet'te bekleyen iadeniz var" diyen bir mesajdaki bağlantı başka bir alan adına gidiyorsa, kilit simgesi olsa bile sahtedir (Hafta 9).
-- **Belgeler doğrulanabilir.** e-Devlet'ten alınan belgelerin üzerinde bir barkod numarası bulunur. Belgeyi alan kurum ya da işveren, bu numarayla belgenin gerçek ve değiştirilmemiş olduğunu e-Devlet'teki belge doğrulama hizmetinden kontrol edebilir. Bir bilginin kaynağına giderek doğrulanmasını Hafta 5'te ayrıntılı göreceğiz.
+- **Belgeler doğrulanabilir.** e-Devlet'ten alınan belgelerin üzerinde bir barkod numarası bulunur. Belgeyi alan kurum ya da işveren, bu numarayla belgenin gerçek ve değiştirilmemiş olduğunu e-Devlet'teki belge doğrulama hizmetinden kontrol edebilir; buna **barkodlu belge doğrulama** denir. Bir bilginin kaynağına giderek doğrulanmasını Hafta 5'te ayrıntılı göreceğiz.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Bütün kamu hizmetlerinin tek bir kapıdan verilmesi bir kolaylık mı, bir risk mi?
@@ -178,14 +184,16 @@ Biraz ek bilgi: Tek kapı, kuyrukları ve kâğıt belgeleri azaltır; bir kurum
 ::: {.tablo-kaydir}
 | Bağlantı | Menzil | En uygun kullanım |
 |---|---|---|
-| Wi-Fi | Bir ev ya da bina | Evde ve okulda internet; 2,4 GHz daha uzağa ulaşır, 5 GHz daha hızlıdır ama menzili kısadır |
-| Hücresel (4.5G, 5G) | Baz istasyonunun kapsadığı alan | Hareket halinde internet ve arama |
-| Bluetooth | Birkaç metre | Kulaklık, saat, klavye |
-| NFC | Birkaç santimetre | Temassız ödeme, kart okuma |
+| **Wi-Fi** | Bir ev ya da bina | Evde ve okulda internet; 2,4 GHz daha uzağa ulaşır, 5 GHz daha hızlıdır ama menzili kısadır |
+| **Hücresel ağ** (4.5G, 5G) | Baz istasyonunun kapsadığı alan | Hareket halinde internet ve arama |
+| **Bluetooth** | Birkaç metre | Kulaklık, saat, klavye |
+| **NFC** | Birkaç santimetre | Temassız ödeme, kart okuma |
 | Uydu | Neredeyse her yer | Kablo ve baz istasyonunun ulaşmadığı yerler |
 :::
 
-Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep telefonu aramasını 3 Nisan 1973'te, New York sokağında, bir tuğla büyüklüğündeki cihazla yaptı. 1980'lerin analog birinci nesil (1G) şebekeleri yalnızca ses taşıyordu; 2G kısa mesajı, 3G mobil interneti, 4G video akışını getirdi; 5G ise düşük gecikme ve çok sayıda cihazı aynı anda bağlamayı hedefliyor. İlk akıllı telefon sayılan IBM Simon 1994'te satışa çıktı; dokunmatik ekranı ve e-postası vardı.
+Evde internet yoksa telefonun bir yedek olabilir: Ayarlardaki **kişisel erişim noktası** (hotspot) özelliği, telefonun hücresel bağlantısını Wi-Fi ile dizüstü bilgisayarına ya da tabletine paylaştırır. Kotanı hızla tüketir ve pili çabuk bitirir; uzun işler için değil, acil durumlar için uygundur.
+
+Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep telefonu aramasını 3 Nisan 1973'te, New York sokağında, bir tuğla büyüklüğündeki cihazla yaptı. 1980'lerin analog birinci nesil (1G) şebekeleri yalnızca ses taşıyordu; 2G kısa mesajı, 3G mobil interneti, 4G video akışını getirdi; 5G ise düşük gecikme ve çok sayıda cihazı aynı anda bağlamayı hedefliyor. Türkiye'de 5G, 31 Mart 2026'da önce 81 il merkezinde, kademeli olarak hizmete girdi. İlk akıllı telefon sayılan IBM Simon 1994'te satışa çıktı; dokunmatik ekranı ve e-postası vardı.
 
 ### Hız ile gecikme aynı şey değil
 
@@ -196,6 +204,14 @@ Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep te
 
 Bir bağlantı çok hızlı ama yüksek gecikmeli olabilir: filmi hızla indirirsin, ama görüntülü görüşmede sesler gecikir. Yerden 36 bin kilometre yüksekteki sabit uydularla kurulan bağlantılarda gecikme bu yüzden fark edilir; alçak yörüngeli uydu ağları gecikmeyi büyük ölçüde azalttı.
 
+İnternet paketlerinin hızı Mbps ile, yani saniyedeki megabit sayısıyla yazılır; indirme ekranları ise çoğu zaman saniyedeki megabaytı gösterir. Bir bayt sekiz bit olduğu için 100 Mbps'lik bir bağlantı en iyi durumda saniyede yaklaşık 12,5 megabayt indirir. Bu bir arıza değil, birim farkıdır (Hafta 2).
+
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Üç kardeş, tek telefon"}
+Mart 2020'de salgın yüzünden okullar kapandı ve 23 Mart'ta uzaktan eğitim başladı. Millî Eğitim Bakanlığı dersleri önce televizyondan, TRT EBA TV kanallarından yayınladı; internetteki EBA platformu onun yanında yürüdü. Gerekçe açıktı: Her evde internet ve bilgisayar yoktu, ama televizyon neredeyse her eve ulaşıyordu. Öğrencilere EBA için ücretsiz internet kotası da verildi. TÜİK'in o yılki araştırmasına göre hanelerin %90,7'si evden internete bağlanabiliyordu, ama ancak yarısında sabit bir bağlantı (ev hattı ya da fiber) vardı; geri kalanında internet telefon hattından geliyordu. Canlı dersler yaygınlaştıkça yeni bir soru doğdu: Üç kardeşin dersi aynı saatteyse, evdeki tek telefon kimde kalacak? 2020-21 öğretim yılı başlarken, evinde bilgisayarı ve interneti olmayan öğrenciler için EBA destek noktaları açılmaya başlandı. Bağlantı neredeyse her eve ulaşmıştı; cihaz ve kota ise eşit paylaşılmıyordu.
+
+Evinde herkesin aynı saatte internete ihtiyacı olsa, kimin işi önce gelirdi ve buna kim karar verirdi?
+:::
+
 ## 6. Bulut
 
 **Bulut bilişim**, depolama, yazılım ya da işlem gücünü kendi bilgisayarında değil, internet üzerinden başka birinin bilgisayarında kullanmaktır. Bilişimcilerin sevdiği bir espri bunu özetler: "Bulut diye bir şey yok, yalnızca başkasının bilgisayarı var."
@@ -203,9 +219,9 @@ Bir bağlantı çok hızlı ama yüksek gecikmeli olabilir: filmi hızla indirir
 ::: {.tablo-kaydir}
 | Model | Ne kiralanır? | Örnek |
 |---|---|---|
-| Hizmet olarak yazılım (SaaS) | Hazır bir uygulama | Gmail, Google Dokümanlar, Microsoft 365'in web sürümü |
-| Hizmet olarak platform (PaaS) | Uygulama geliştirme ortamı | Yazılımcıların kullandığı bulut platformları |
-| Hizmet olarak altyapı (IaaS) | Sanal sunucu, depolama, ağ | Büyük bulut sağlayıcılarının sanal makineleri |
+| **Hizmet olarak yazılım (SaaS)** | Hazır bir uygulama | Gmail, Google Dokümanlar, Microsoft 365'in web sürümü |
+| **Hizmet olarak platform (PaaS)** | Uygulama geliştirme ortamı | Yazılımcıların kullandığı bulut platformları |
+| **Hizmet olarak altyapı (IaaS)** | Sanal sunucu, depolama, ağ | Büyük bulut sağlayıcılarının sanal makineleri |
 :::
 
 ### Depolamak ile birlikte çalışmak
@@ -214,7 +230,7 @@ Bir dosyayı **buluta yüklemek**, kopyasını başka bir yerde saklamaktır. **
 
 ### Paylaşım izinleri
 
-Bir belgeyi paylaşırken iki soru sorulur: kimle ve hangi yetkiyle?
+Bir belgeyi paylaşırken iki soru sorulur: kimle ve hangi yetkiyle? Bu iki sorunun cevabına **paylaşım izni** denir.
 
 - **Görüntüleyen:** okur, değiştiremez.
 - **Yorumcu:** okur ve yorum bırakır.
@@ -266,7 +282,7 @@ Hava basıncı yükseldikçe azalır. Uçaklardaki **barometrik altimetre** irti
 Bir yolcu uçağı uçarken sürekli konuşur:
 
 - **ADS-B:** Uçak konumunu, irtifasını ve hızını saniyede birkaç kez yayınlar. Flightradar24 gibi siteler bu yayınları, dünyanın dört bir yanındaki gönüllülerin kurduğu alıcılarla toplar; ağ kavramının somut bir örneğidir.
-- **Telsiz:** Pilotlar hava trafik kontrolüyle VHF hava bandında konuşur. Seyrüsefer için yerdeki VOR istasyonlarından gelen radyo sinyallerini kullanır.
+- **Telsiz:** Pilotlar hava trafik kontrolüyle VHF hava bandında konuşur. Seyrüsefer için yerdeki **VOR** istasyonlarından gelen radyo sinyallerini kullanır.
 - **ACARS:** Uçak ile yer arasında kısa veri mesajları taşıyan sistemdir. Arıza mesajları bu yolla uçak daha inmeden bakım ekibine ulaşabilir; Hafta 1'deki "bir teknisyenin günü" tablosundaki değişimin arkasında bu bağlantı vardır.
 - **Kabinde internet:** Yolcuların interneti ya yerdeki istasyonlar ya da uydular üzerinden gelir.
 
@@ -285,6 +301,8 @@ Bakım teknisyeni için ağ bilgisi soyut değildir: arıza mesajını alan, dok
 | Ad çözümü çalışıyor mu? | `nslookup iuc.edu.tr` | IP'ye ping var ama ad çözülmüyorsa sorun DNS'tedir |
 | Yalnızca tek bir site mi açılmıyor? | Başka bir site dene | Sorun o sitededir, sende değil |
 
+Tablodaki `8.8.8.8`, Google'ın herkese açık DNS sunucusunun adresidir. Ad yerine doğrudan sayıyı denediğin için, DNS çalışmasa bile dış dünyaya ulaşıp ulaşamadığını gösterir.
+
 Bu, Hafta 2'deki "belirtiden parçaya" düşüncesinin ağdaki karşılığıdır.
 
 ## Akılda kalsın
@@ -297,17 +315,18 @@ Bu, Hafta 2'deki "belirtiden parçaya" düşüncesinin ağdaki karşılığıdı
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi.
 
 - **İnternetin tarihi:** ARPANET'in ilk mesajı (29 Ekim 1969); TCP/IP'ye geçiş (1 Ocak 1983); Türkiye'nin internet bağlantısı (ODTÜ, 12 Nisan 1993); Tim Berners-Lee'nin önerisi (CERN, 1989).
-- **Teknik:** IPv4 adresleme (32 bit); WPA3 (Wi-Fi Alliance, 2018): [Wi-Fi Alliance, güvenlik](https://www.wi-fi.org/discover-wi-fi/security); PUE: The Green Grid'in tanımı, bugün ISO/IEC 30134-2 standardı; sabit yörünge yüksekliği (yaklaşık 36 bin km); standart atmosferde basınç ile yükseklik ilişkisi.
+- **Teknik:** IPv4 adresleme (32 bit); WPA3 (Wi-Fi Alliance, 2018): [Wi-Fi Alliance, güvenlik](https://www.wi-fi.org/discover-wi-fi/security); PUE: The Green Grid'in tanımı, bugün ISO/IEC 30134-2 standardı; sabit yörünge yüksekliği (yaklaşık 36 bin km); herkese açık DNS: [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using); Türkiye'de 5G: [Ulaştırma ve Altyapı Bakanlığı, 31 Mart 2026](https://www.uab.gov.tr/haberler/cumhurbaskani-erdogan-5g-doenemini-resmen-baslatti/); standart atmosferde basınç ile yükseklik ilişkisi.
 - **Kamu hizmetleri:** e-Devlet Kapısı, 18 Aralık 2008'den beri; giriş yolları ve iki aşamalı giriş: [e-Devlet, sık sorulan sorular](https://www.turkiye.gov.tr/bilgilendirme?konu=sikcaSorulanSorular); [e-Devlet, belge doğrulama](https://www.turkiye.gov.tr/belge-dogrulama).
 - **Bulut arızası (2025):** Sağlayıcının kendi olay raporu: [AWS, 19–20 Ekim 2025, Kuzey Virginia bölgesi](https://aws.amazon.com/message/101925/).
+- **Vakalar:** Kesintinin nedeni: [Meta mühendislik blogu, "More details about the October 4 outage", 5 Ekim 2021](https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/); saatler: [Cloudflare'in ölçümü, 4 Ekim 2021](https://blog.cloudflare.com/october-2021-facebook-outage/); [Telegram kurucusunun duyurusu](https://t.me/durov/169). Uzaktan eğitim: [Millî Eğitim Bakanlığı, 19 Mart 2020](https://www.meb.gov.tr/bakan-selcuk-23-martta-baslayacak-uzaktan-egitime-iliskin-detaylari-anlatti/haber/20554/tr); [Millî Eğitim Bakanlığı, EBA destek noktaları, 2 Eylül 2020](https://www.meb.gov.tr/eba-destek-noktalari-uzaktan-egitime-erisimin-onundeki-engelleri-kaldiriyor/haber/21553/tr); [TÜİK, Hanehalkı Bilişim Teknolojileri Kullanım Araştırması 2020, sayı 33679](https://veriportali.tuik.gov.tr/tr/press/33679).
 - **Diğer:** Leang Bulu Sipong 4 mağara resminin tarihlendirilmesi: M. Aubert ve arkadaşları, "Earliest hunting scene in prehistoric art", *Nature* 576 (2019), [doi:10.1038/s41586-019-1806-y](https://doi.org/10.1038/s41586-019-1806-y); Martin Cooper'ın ilk cep telefonu araması (1973).
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: internet, web, ARPANET, paket anahtarlama, TCP/IP, protokol, istemci, sunucu, LAN, WAN, modem, yönlendirici, erişim noktası, WPA3, misafir ağı, IP adresi, IPv6, alan adı, DNS, URL, HTTP, HTTPS, DHCP, e-Devlet Kapısı, barkodlu belge doğrulama, Wi-Fi, hücresel ağ, Bluetooth, NFC, bant genişliği, gecikme, fiber optik kablo, bulut bilişim, SaaS, PaaS, IaaS, eşzamanlı çalışma, paylaşım izni, veri merkezi, uçtan uca şifreleme, genel bulut, özel bulut, hibrit bulut, sağlayıcıya bağımlılık, PUE, uç hesaplama, Nesnelerin İnterneti, barometrik altimetre, ADS-B, VOR, ACARS.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: internet, web, ARPANET, paket anahtarlama, TCP/IP, protokol, istemci, sunucu, LAN, WAN, modem, yönlendirici, erişim noktası, WPA3, misafir ağı, IP adresi, IPv6, alan adı, DNS, BGP, URL, HTTP, HTTPS, DHCP, e-Devlet Kapısı, barkodlu belge doğrulama, Wi-Fi, hücresel ağ, Bluetooth, NFC, kişisel erişim noktası, bant genişliği, gecikme, fiber optik kablo, bulut bilişim, SaaS, PaaS, IaaS, eşzamanlı çalışma, paylaşım izni, veri merkezi, uçtan uca şifreleme, genel bulut, özel bulut, hibrit bulut, sağlayıcıya bağımlılık, PUE, uç hesaplama, Nesnelerin İnterneti, barometrik altimetre, ADS-B, VOR, ACARS.
 
 ## Kendini sına
 
