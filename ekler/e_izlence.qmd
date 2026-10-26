@@ -139,7 +139,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Yalnızca 0 ve 1 bilen bir makine nasıl oluyor da fotoğraf çekiyor, müzik çalıyor, mesaj yazıyor?*
 
-**Okuma:** [ders notu](../docs/02_bilgisayar-nasil-dusunur.qmd), yaklaşık 25 dakika. **DigComp:** 5.1 Teknik sorunlar, 5.2 İhtiyaçlar ve teknolojik çözümler.
+**Okuma:** [ders notu](../docs/02_bilgisayar-nasil-dusunur.qmd), yaklaşık 27 dakika. **DigComp:** 5.1 Teknik sorunlar, 5.2 İhtiyaçlar ve teknolojik çözümler.
 
 **Bu hafta şunları yapabileceksin:**
 

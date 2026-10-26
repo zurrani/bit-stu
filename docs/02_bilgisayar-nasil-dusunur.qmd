@@ -8,8 +8,8 @@ description: "Analogdan dijitale; bit, bayt ve birimler; metnin, görüntünün 
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>2 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
+    <div><dt>Okuma süresi</dt><dd>27 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.700</dd></div>
     <div><dt>DigComp alanı</dt><dd>5.1 Teknik sorunlar, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Yalnızca 0 ve 1 bilen bir makine nasıl oluyor da fotoğraf çekiyor, müzik çalıyor, mesaj yazıyor?</p>
@@ -18,7 +18,7 @@ description: "Analogdan dijitale; bit, bayt ve birimler; metnin, görüntünün 
 
 Geçen hafta transistörün akımı açıp kapatan bir anahtar olduğunu, bu iki durumun 1 ve 0 demek olduğunu gördük. Bu hafta o 1 ve 0'ların nasıl harfe, renge ve sese dönüştüğünü, bilgisayarın içinde bir işin hangi yolu izlediğini ve hangi parçanın neden önemli olduğunu öğreneceksin. Amaç parça adlarını ezberlemek değil: bilgisayarın mantığını kavrayıp bir cihaz alırken ya da bir sorunla karşılaştığında doğru soruyu sorabilmek.
 
-**Okuma süresi:** yaklaşık 25 dakika.
+**Okuma süresi:** yaklaşık 27 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -118,7 +118,7 @@ Biraz ek bilgi: Yazılımcılar bu tuzağı o kadar iyi bilir ki uluslararası b
 
 ### Görüntü
 
-Ekrandaki her görüntü küçük noktalardan, yani **piksellerden** oluşur. Her piksel kırmızı, yeşil ve mavi (RGB) ışığın karışımıdır ve her renk genellikle 8 bitle, yani 0 ile 255 arasında bir sayıyla tutulur. Bir piksel için 24 bit, yaklaşık 16,7 milyon renk eder.
+Ekrandaki her görüntü küçük noktalardan, yani **piksellerden** oluşur. Her piksel kırmızı, yeşil ve mavi (**RGB**) ışığın karışımıdır ve her renk genellikle 8 bitle, yani 0 ile 255 arasında bir sayıyla tutulur. Bir piksel için 24 bit, yaklaşık 16,7 milyon renk eder.
 
 **Çözünürlük**, görüntünün kaç pikselden oluştuğunu söyler. 1920 × 1080 pikselli bir görüntü yaklaşık 2 milyon pikseldir; sıkıştırılmadan saklansa her piksel 3 bayttan yaklaşık 6 MB tutar. Bu yüzden görüntüler **sıkıştırılır**: JPEG gözün fark etmeyeceği ayrıntıları atarak küçültür (kayıplı), PNG hiçbir ayrıntıyı atmaz (kayıpsız).
 
@@ -128,13 +128,19 @@ Ses, örnekleme ve nicelemeyle sayıya döner. Müzik CD'leri saniyede 44.100 ö
 
 Bir ses dosyasının saniyede kullandığı veri miktarına **bit hızı** denir ve kbps (saniyede kilobit) ile ölçülür. 128 kbps'lik bir dosya bir dakikada 128.000 × 60 = 7.680.000 bit, yani yaklaşık 0,96 MB tutar. Bit hızı düştükçe dosya küçülür, ama ayrıntı da kaybolur.
 
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Sesi sayıya çeviren kulak"}
+İç kulaktaki tüy hücreleri zarar görmüşse sesi yükseltmek yetmez; işitme cihazının sesi ulaştıracağı yol kapanmıştır. Koklear implant bu yolu atlar: Kulağın arkasındaki mikrofon sesi alır, işlemci onu sayıya çevirip frekans kanallarına ayırır, iç kulağa yerleştirilen elektrotlar işitme sinirini doğrudan uyarır. Bu haftanın örnekleme ve niceleme fikri burada insan bedeninde çalışır. 2019'un sonuna kadar dünyada yaklaşık 737 bin implant takıldı. Ama sesin bütün inceliğini, modele göre 12 ile 22 arasında elektrot taşır. ABD Ulusal Sağlık Enstitüleri, implantın normal işitmeyi geri getirmediğini, implantla duymanın zamanla öğrenildiğini vurgular. Bedelin toplumsal bir yüzü de var: ABD Ulusal Sağırlar Derneği, implant takılan bir çocuktan işaret dili esirgenirse dil gelişiminin gecikebileceği uyarısını yapar.
+
+Bir teknoloji bir duyuyu tamamlarken, o duyu olmadan kurulmuş bir dile ve kültüre ne olur?
+:::
+
 ### Video
 
 Video, art arda gösterilen fotoğraflardır. Saniyede gösterilen kare sayısına **kare hızı** denir ve fps (saniyedeki kare) ile ölçülür. Sinema geleneksel olarak saniyede 24 kare kullanır; telefonlar çoğu zaman 30 ya da 60 kare çeker.
 
 Hesap hızla büyür. 1920 × 1080 pikselli bir kare sıkıştırılmadan yaklaşık 6 MB tutuyordu; saniyede 30 kareyle bu, saniyede 180 MB, dakikada yaklaşık 10,8 GB eder. Telefonundaki bir dakikalık video ise ayarına göre birkaç on ile birkaç yüz megabayt arasındadır. Aradaki farkı **kodek** (kodlayıcı-çözücü) adı verilen sıkıştırma yöntemleri kapatır. Kodekler iki fikre dayanır: Bir karenin içinde gözün fark etmeyeceği ayrıntıyı atmak, tıpkı JPEG gibi; art arda gelen kareler arasında yalnızca değişeni saklamak. Konuşan bir kişinin arkasındaki duvar kareden kareye değişmez; onu her karede yeniden yazmaya gerek yoktur. H.264, H.265 ve AV1 bugün yaygın kodeklerdendir.
 
-Videonun bit hızı megabit/saniye (Mbps, saniyede megabit) ile ölçülür. 8 Mbps'lik bir video bir dakikada 8 × 60 = 480 megabit, yani 60 MB tutar. Aynı süre 4K çözünürlükte (yaklaşık 3840 × 2160 piksel) ve saniyede 60 kareyle çekilirse dosya birkaç kat büyür. Telefonunun deposunu en hızlı dolduran şeyin video olmasının nedeni budur.
+Videonun bit hızı megabit/saniye (Mbps, saniyede megabit) ile ölçülür. 8 Mbps'lik bir video bir dakikada 8 × 60 = 480 megabit, yani 60 MB tutar. Aynı süre 4K çözünürlükte (yaklaşık 3840 × 2160 piksel) ve saniyede 60 kareyle çekilirse dosya birkaç kat büyür. Telefonunun deposunu en hızlı dolduran şeyin video olmasının nedeni budur. Telefonunun ayarlarındaki depolama ekranı, hangi uygulamanın ve hangi dosya türünün ne kadar yer tuttuğunu gösterir; yer açmaya en büyük videolardan başlamak çoğu zaman en hızlı yoldur.
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
 Kısa vadede: telefonunun deposunun neden dolduğunu anlar, fotoğraf ve video ayarlarını bilinçli seçersin; bozuk görünen bir dosyanın nedenini tahmin edersin. Orta vadede: işte veri alışverişi yaparken dosya boyutunu, biçimini ve karakter kodlamasını doğru seçersin. Uzun vadede: sensörlerden gelen her verinin bir örnekleme ve niceleme kararıyla başladığını bilir, ölçümün sınırlarını sorgularsın.
@@ -165,16 +171,18 @@ Parçaların adını bilmek, ancak hangi işi yaptıklarını ve yetersiz kaldı
 ::: {.tablo-kaydir}
 | Bileşen | Görevi | Yetersizse ne olur? |
 |---|---|---|
-| İşlemci (CPU) | Komutları sırayla ve hızla işler; bilgisayarın genel beyni | Ağır işlerde uzun bekleme, sürekli %100 işlemci kullanımı |
-| Ekran kartı (GPU) | Binlerce basit işlemi aynı anda yapar: görüntü, video, YZ hesapları | Oyunda takılma, video dışa aktarmada uzun süre |
-| Yapay zekâ birimi (NPU) | Yeni cihazlarda YZ işlerini az enerjiyle yapar | Cihazdaki YZ özellikleri yavaş ya da hiç yok |
-| RAM | Çalışan programların ve verilerin geçici olarak tutulduğu hızlı bellek; elektrik kesilince silinir | Çok sekme ya da program açınca yavaşlama, disk ışığının sürekli yanması |
-| Depolama (SSD ya da HDD) | Dosyaların kalıcı olarak saklandığı yer | Yavaş açılış, "depolama dolu" uyarısı, güncellemelerin yapılamaması |
+| **İşlemci (CPU)** | Komutları sırayla ve hızla işler; bilgisayarın genel beyni | Ağır işlerde uzun bekleme, sürekli %100 işlemci kullanımı |
+| **Ekran kartı (GPU)** | Binlerce basit işlemi aynı anda yapar: görüntü, video, YZ hesapları | Oyunda takılma, video dışa aktarmada uzun süre |
+| **Yapay zekâ birimi (NPU)** | Yeni cihazlarda YZ işlerini az enerjiyle yapar | Cihazdaki YZ özellikleri yavaş ya da hiç yok |
+| **RAM** | Çalışan programların ve verilerin geçici olarak tutulduğu hızlı bellek; elektrik kesilince silinir | Çok sekme ya da program açınca yavaşlama, disk ışığının sürekli yanması |
+| Depolama (**SSD** ya da **HDD**) | Dosyaların kalıcı olarak saklandığı yer | Yavaş açılış, "depolama dolu" uyarısı, güncellemelerin yapılamaması |
 | Anakart | Bütün parçaları birbirine bağlar | Yükseltme seçeneklerinin kısıtlı olması |
 | Güç kaynağı ya da batarya | Enerji sağlar | Ani kapanma, kısa pil ömrü |
 | Soğutma | Isıyı dışarı atar | Fan gürültüsü, ısınma ve işlemcinin kendini yavaşlatması |
 | Bağlantı noktaları | Çevre birimlerini bağlar; bugün en yaygını USB-C | Adaptör ihtiyacı, yavaş aktarım |
 :::
+
+Telefon ilanlarında "hafıza" diye yazan 128 ya da 256 GB çoğu zaman depolamadır; RAM ayrıca ve daha küçük bir sayıyla, örneğin 8 GB diye yazılır. İkisini karıştıran, depolaması büyük ama RAM'i yetersiz bir cihaz alabilir.
 
 **HDD ve SSD:** Sabit disk (HDD), dönen manyetik plakalar ve hareketli bir okuma kafasıyla çalışır; ucuzdur, ama yavaş ve darbeye hassastır. SSD'de hareketli parça yoktur; veri çiplerde tutulur. Bu yüzden SSD'li bir bilgisayar saniyeler içinde açılır. Eski bir bilgisayara SSD takmak, ona çoğu zaman en çok hız kazandıran yükseltmedir.
 
@@ -195,7 +203,7 @@ Son sütun, gerçek erişim sürelerini bir insanın anlayacağı ölçeğe büy
 **Bağlantı noktaları:** USB-C bir fiş biçiminin adıdır, bir hızın ya da yeteneğin değil. Aynı görünen iki USB-C girişinden biri ekran bağlamaya ve hızlı şarja izin verirken öteki yalnızca yavaş veri aktarabilir; girişin yanındaki simgelere ve cihazın teknik özelliklerine bakmak gerekir. Bir projektöre ya da ikinci ekrana bağlanırken çoğu zaman HDMI kullanılır; Windows'ta **Windows + P** tuşları ekranı çoğaltma ya da genişletme seçeneklerini açar. Sunum yapacağın bir salona kendi adaptörünle gitmek, dersin "hazırlıklı ol" felsefesinin en küçük uygulamasıdır.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Belirtiden parçaya"}
-Belirtiden bileşene giden düşünce, bakım teknisyenliğinin özüdür. Uçaktaki elektronik sistemlerin çoğu kendi kendini test eden donanımlarla (BITE, built-in test equipment) donatılmıştır; arıza olduğunda bir arıza kodu kaydedilir. Teknisyen bu kodu ve belirtileri okuyarak arızalı birimi bulur ve onu bütünüyle çıkarıp yenisini takar. Pistte hızla değiştirilebilecek şekilde tasarlanan bu birimlere **hat değiştirilebilir birim** (LRU, line replaceable unit) denir. Bu hafta bir bilgisayar için yaptığın "hangi belirti hangi parçayı gösterir?" çalışması, hangarda her gün yapılan işin küçük bir provasıdır.
+Belirtiden bileşene giden düşünce, bakım teknisyenliğinin özüdür. Uçaktaki elektronik sistemlerin çoğu kendi kendini test eden donanımlarla (**BITE**, built-in test equipment) donatılmıştır; arıza olduğunda bir arıza kodu kaydedilir. Teknisyen bu kodu ve belirtileri okuyarak arızalı birimi bulur ve onu bütünüyle çıkarıp yenisini takar. Pistte hızla değiştirilebilecek şekilde tasarlanan bu birimlere **hat değiştirilebilir birim** (LRU, line replaceable unit) denir. Bu hafta bir bilgisayar için yaptığın "hangi belirti hangi parçayı gösterir?" çalışması, hangarda her gün yapılan işin küçük bir provasıdır.
 :::
 
 ## 6. Moore yasası, fiyatlar ve çip yarışı (okuma)
@@ -241,12 +249,18 @@ Bilgisayar deyince aklımıza masaüstü ve dizüstü gelir, ama bunlar bilgisay
 
 **Gömülü sistemler** sayıca bütün diğerlerinden fazladır: evdeki kumandadan kombiye kadar her yerdedir ve çoğu zaman fark edilmez. Hafta 4'te göreceğimiz Nesnelerin İnterneti, bu gömülü sistemlerin internete bağlanmasıdır.
 
+::: {.callout-note .kutu-endustri title="Endüstriden: Okul için yapılan bilgisayar fabrikaya gitti"}
+2000'lerin ortasında Cambridge Üniversitesi'nde bilgisayar bilimine başvuranlar azalıyordu ve gelenlerin çok azı program yazmayı biliyordu. Eben Upton ve arkadaşlarının cevabı kredi kartı büyüklüğünde, 35 dolarlık bir bilgisayar oldu: Raspberry Pi, 29 Şubat 2012'de satışa çıktı. Ucuz, küçük ve programlanabilir olduğu için kısa sürede fabrikalara da yayıldı; makineleri izleyen, ekranları süren, ölçüm toplayan bir gömülü sisteme dönüştü. 2025'te satılan kartların dörtte üçü endüstriyel ve gömülü kullanıma gitti. Bedeli kıtlıkta görüldü. 2021'den sonra çip tedariki daralınca şirket, işini bu kartlara bağlamış firmalara öncelik verdi; gerekçesi insanların geçiminin söz konusu olmasıydı. Bireysel alıcılar uzun süre stokta kart bulmakta zorlandı; meraklılar ve okul kulüpleri sıranın sonuna düştü.
+
+Kıt bir ürünü dağıtırken önce kim beklemeli: bir fabrikanın üretim hattı mı, bir okulun robot kulübü mü?
+:::
+
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Basit bir dijital kol saati bilgisayar değildir." Yanlış sayılır. 1989'dan beri üretilen ucuz bir dijital saatin içinde de program çalıştıran küçük bir işlemci vardır; yalnızca tek bir işe adanmıştır. Bazı meraklılar bu saatlerin çipini söküp mikroskopla fotoğraflayarak nasıl çalıştığını inceler. Bir ürünü söküp nasıl çalıştığını anlamaya **tersine mühendislik** denir; güvenlik boyutunu Hafta 9'da göreceğiz.
 :::
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
-Bir yolcu uçağında onlarca gömülü bilgisayar vardır. Bunlardan biri ADC kısaltmasını taşır, ama bu kez analog-dijital dönüştürücü değil, **hava verisi bilgisayarı** (Air Data Computer) demektir: pitot ve statik basınç ölçümlerinden hız ve irtifayı hesaplar. Uçak sistemleri arasındaki veri, ARINC 429 gibi veri yollarında 32 bitlik kelimeler halinde taşınır; her kelimenin son biti, iletimde bir bitin bozulup bozulmadığını anlamaya yarayan **parite bitidir**.
+Bir yolcu uçağında onlarca gömülü bilgisayar vardır. Bunlardan biri ADC kısaltmasını taşır, ama bu kez analog-dijital dönüştürücü değil, **hava verisi bilgisayarı** (Air Data Computer) demektir: pitot ve statik basınç ölçümlerinden hız ve irtifayı hesaplar. Uçak sistemleri arasındaki veri, **ARINC 429** gibi veri yollarında 32 bitlik kelimeler halinde taşınır; her kelimenin son biti, iletimde bir bitin bozulup bozulmadığını anlamaya yarayan **parite bitidir**.
 :::
 
 ## 8. Kapanış: doğru cihazı seçmek ve onarmak
@@ -259,6 +273,8 @@ Bir bilgisayar ilanı okurken soru "En güçlüsü hangisi?" değil, "Benim işi
 | Fotoğraf, video, grafik | Güçlü GPU, bol RAM, geniş ve renkleri doğru gösteren ekran, büyük SSD |
 | YZ araçlarını cihazda denemek | NPU ya da güçlü GPU, bol RAM |
 | Taşınabilirlik | Ağırlık, pil, USB-C ile şarj |
+
+Telefon alırken de aynı soruları sor ve bir soru ekle: Üretici bu modele kaç yıl güvenlik güncellemesi veriyor? Güncelleme bitince telefon çalışmaya devam eder, ama yeni bulunan açıklara karşı korumasız kalır (Hafta 3 ve 9).
 
 İşlemcilerin bugün iki büyük ailesi var: masaüstü ve dizüstülerde uzun süre baskın olan **x86** (Intel, AMD) ve telefonlarda başlayıp dizüstülere de yayılan, az enerji harcayan **ARM** (Apple'ın M serisi, Qualcomm Snapdragon). Seçim, kullanacağın programların bu mimaride çalışıp çalışmadığına da bağlıdır.
 
@@ -278,11 +294,12 @@ Kısa vadede: telefon ya da bilgisayar alırken ilanı okuyup ihtiyacına göre 
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; çip politikaları, bellek fiyatları ve nottaki öteki güncel bilgiler 25 Ekim 2026'da birincil kaynaklarla denetlendi.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; çip politikaları, bellek fiyatları ve nottaki öteki güncel bilgiler 25 Ekim 2026'da birincil kaynaklarla denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi.
 
 - **Standartlar:** ASCII (1963); Unicode; IEC ikili önekleri (1998); ARINC 429 veri yolu standardı.
 - **Tarih:** Claude Shannon, "A Mathematical Theory of Communication" (1948); John von Neumann, EDVAC raporu (1945); Gordon Moore (1965); Intel 4004 (1971).
 - **Bellek, video ve bağlantılar:** Erişim süreleri: Peter Norvig, [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html) (yanıtlar bölümündeki süre tablosu); video bit hızları: [YouTube'un önerdiği yükleme ayarları](https://support.google.com/youtube/answer/1722171); kodekler: Uluslararası Telekomünikasyon Birliği'nin [H.264](https://www.itu.int/rec/T-REC-H.264) ve [H.265](https://www.itu.int/rec/T-REC-H.265) tavsiyeleri, Alliance for Open Media'nın [AV1 belirtimi](https://aomediacodec.github.io/av1-spec/) (2018); USB-C: [USB geliştiricilerinin USB Type-C adlandırma kılavuzu](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf); Windows + P: [Microsoft Destek, Windows'ta klavye kısayolları](https://support.microsoft.com/tr-tr/accessibility/windows/keyboard-shortcuts-in-windows); "Türkiye testi": [Does Your Code Pass The Turkey Test?](https://www.moserware.com/2008/02/does-your-code-pass-turkey-test.html) (Moserware, 2008); ARM'ın kökeni: [Arm'ın resmî tarihi](https://newsroom.arm.com/blog/arm-official-history).
+- **Vakalar:** Raspberry Pi'nin doğuşu: [IEEE Spectrum, "Eben Upton: The Raspberry Pi Pioneer"](https://spectrum.ieee.org/eben-upton-the-raspberry-pi-pioneer); satışa çıkış: [Raspberry Pi, "The Raspberry Pi launch" (1 Mart 2012)](https://www.raspberrypi.com/news/the-raspberry-pi-launch/); kıtlıkta öncelik: [Raspberry Pi, "Production and supply-chain update" (Nisan 2022)](https://www.raspberrypi.com/news/production-and-supply-chain-update/); satışların dağılımı (2025): [Raspberry Pi yatırımcı sayfası](https://investors.raspberrypi.com/). Koklear implant: [ABD Ulusal Sağlık Enstitüleri, "Cochlear Implants"](https://www.nidcd.nih.gov/health/cochlear-implants); elektrot sayıları: Dhanasingh ve arkadaşları, "Cochlear implant electrode design for safe and effective treatment", *Frontiers in Neurology* (2024), [doi:10.3389/fneur.2024.1348439](https://doi.org/10.3389/fneur.2024.1348439); işaret dili: [ABD Ulusal Sağırlar Derneği, erken dil gelişimi tutum bildirgesi (2014)](https://nad.org/knowledge-hub/position-statements/position-statement-on-early-cognitive-and-language-development-and-education-of-deaf-and-hard-of-hearing-children/).
 - **Avrupa Birliği ve çevre:** Ortak şarj girişi direktifi (2022/2380; uygulama Aralık 2024); onarım hakkı direktifi (2024/1799); BM Küresel E-Atık İzleme raporları. Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
 - **Çip politikaları ve fiyatlar:** ABD Çip ve Bilim Yasası (CHIPS and Science Act, Public Law 117-167, 9 Ağustos 2022): [govinfo](https://www.govinfo.gov/app/details/PLAW-117publ167); ABD'nin Çin'e ileri çip ve çip üretim makinesi satış kısıtları (7 Ekim 2022): [ABD Ticaret Bakanlığı](https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples); Avrupa Çip Yasası (AB Tüzüğü 2023/1781; yürürlük 21 Eylül 2023): [Avrupa Komisyonu](https://digital-strategy.ec.europa.eu/en/policies/european-chips-act); Hindistan'ın yarı iletken programı (Aralık 2021): [Hindistan hükümeti duyurusu](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1781723). Depolama fiyatının uzun vadeli düşüşü: [Our World in Data](https://ourworldindata.org/data-insights/the-price-of-computer-storage-has-fallen-exponentially-since-the-1950s) (John C. McCallum'un verisi); 2011 Tayland seli: [Western Digital duyurusu, 17 Ekim 2011](https://prnewswire.com/news-releases/wd-provides-update-on-effect-of-thailand-floods-primary-manufacturing-site-flooded-second-site-at-risk-significant-impact-on-december-quarter-131972898.html); en ileri çip üretiminin Tayvan'da yoğunlaşması: [ABD Yarı İletken Endüstrisi Birliği ve Boston Consulting Group raporu, 2021](https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf); en gelişmiş litografi makineleri: [ASML](https://www.asml.com/en/products/euv-lithography-systems); fabrika maliyeti: [TSMC duyurusu, 4 Mart 2025](https://pr.tsmc.com/english/news/3210); su ve enerji ihtiyacı: [TSMC 2024 faaliyet raporu, iklim ve enerji sayfası](https://investor.tsmc.com/static/annualReports/2024/english/ebook/files/basic-html/page157.html). Bellek fiyatlarındaki artış: TrendForce duyuruları, [Aralık 2025](https://www.trendforce.com/presscenter/news/20251211-12831.html), [Ocak 2026](https://www.trendforce.com/presscenter/news/20260105-12860.html) ve [Şubat 2026](https://www.trendforce.com/presscenter/news/20260226-12937.html); fiyatlar hızla değiştiği için güncel durumu piyasa araştırma şirketlerinin raporlarından izle.
 
