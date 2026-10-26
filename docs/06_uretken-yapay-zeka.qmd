@@ -8,8 +8,8 @@ description: "Yapay zekâ, makine öğrenmesi ve derin öğrenme; dil modeli nas
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>6 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>26 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.600</dd></div>
+    <div><dt>Okuma süresi</dt><dd>29 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.900</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Yapay zekâ bir soruyu cevapladığında cevabı biliyor mu, yoksa tahmin mi ediyor? Bu fark senin için neden önemli?</p>
@@ -18,7 +18,7 @@ description: "Yapay zekâ, makine öğrenmesi ve derin öğrenme; dil modeli nas
 
 Geçen hafta bir bilginin, bir sitenin ya da bir alıntının güvenilir olup olmadığını sınamayı öğrendin. Bu hafta o beceriyi en çok ihtiyaç duyacağın yerde kullanacaksın: yapay zekâyla çalışırken. Önce yapay zekânın ne olduğunu ve bir dil modelinin içeride gerçekte ne yaptığını göreceksin. Sonra ondan iyi bir sonuç almayı, hatasını yakalamayı ve kullandığını dürüstçe beyan etmeyi öğreneceksin. Son olarak yapay zekânın bilimden sağlığa kadar neleri değiştirdiğine bakacağız.
 
-**Okuma süresi:** yaklaşık 26 dakika.
+**Okuma süresi:** yaklaşık 29 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -106,12 +106,12 @@ Büyük bir dil modelinde milyarlarca ağırlık vardır ve her token için heps
 | Ses ve konuşma | Konuşmayı yazıya, yazıyı konuşmaya çevirir; ses taklidi yapabilir | Bir kişinin sesi birkaç saniyelik kayıttan taklit edilebilir (Hafta 9) |
 | Video üreticiler | Kısa video üretir ya da düzenler | Gerçek gibi görünen sahte görüntüler (Hafta 5) |
 | Kod asistanları | Kod yazar, açıklar, hata ayıklar | Çalışıyor gibi görünen kod da hatalı ya da güvensiz olabilir |
-| Çok kipli modeller | Metni, görseli ve sesi birlikte işler: bir fotoğrafı yükleyip soru sorabilirsin | Görseldeki ayrıntıyı yanlış okuyabilir |
-| YZ ajanları | Yalnızca cevap vermez, iş yapar: tarayıcıda gezinir, dosya açar, form doldurur | Ona hangi yetkiyi verdiğini bil; her adımı denetleyebilmelisin |
+| **Çok kipli modeller** | Metni, görseli ve sesi birlikte işler: bir fotoğrafı yükleyip soru sorabilirsin | Görseldeki ayrıntıyı yanlış okuyabilir |
+| **YZ ajanları** | Yalnızca cevap vermez, iş yapar: tarayıcıda gezinir, dosya açar, form doldurur | Ona hangi yetkiyi verdiğini bil; her adımı denetleyebilmelisin |
 | **Yerel modeller** | Bilgisayarında, internete bağlanmadan çalışır | Verin cihazından çıkmaz; ama güçlü donanım ister, daha küçük modellerdir |
 :::
 
-Bugün yaygın sohbet asistanlarına örnek olarak (alfabetik sırayla) ChatGPT, Claude, Copilot, DeepSeek, Gemini ve Le Chat sayılabilir. Bu liste sen bu notu okurken bile değişmiş olabilir. YZ özellikleri artık ayrı uygulamalarda değil, kullandığın ofis programlarına, e-postana ve telefonuna da gömülü olarak geliyor. Her işlev için ücretsiz ve açık kaynak seçenekler [Ek C](../ekler/c_alternatifler.qmd) sayfasındadır.
+Bugün yaygın sohbet asistanlarına örnek olarak (alfabetik sırayla) ChatGPT, Claude, Copilot, DeepSeek, Gemini ve Le Chat sayılabilir. Bu liste sen bu notu okurken bile değişmiş olabilir. Çoğu asistanın telefon uygulaması da vardır: Sesle soru sorabilir, kamerayla bir belgenin fotoğrafını çekip açıklatabilirsin. Telefonda da aynı kural geçerlidir: Fotoğraftaki kişisel bilgileri göndermeden önce düşün. YZ özellikleri artık ayrı uygulamalarda değil, kullandığın ofis programlarına, e-postana ve telefonuna da gömülü olarak geliyor. Her işlev için ücretsiz ve açık kaynak seçenekler [Ek C](../ekler/c_alternatifler.qmd) sayfasındadır.
 
 ## 5. İstem yazmak
 
@@ -155,8 +155,14 @@ Halüsinasyon bir arıza değil, 2. bölümde gördüğün çalışma biçiminin
 
 - **Güncellik:** Bilgi kesim tarihinden sonrasını bilmez; internette arama yapsa bile eski ya da yanlış bir sayfayı özetleyebilir.
 - **Önyargı:** Model, eğitim verisindeki önyargıları da öğrenir. 2018'de haberlere yansıdığı üzere, büyük bir şirket geçmişteki işe alım verileriyle eğitilen özgeçmiş tarama sisteminin kadın adaylara sistematik olarak daha düşük puan verdiğini fark edince sistemi kullanmaktan vazgeçti. Geçmiş eşitsizse, ondan öğrenen sistem de eşitsizliği sürdürür.
-- **Kişisel ve kurumsal veri:** Sohbete yazdığın her şey hizmet sağlayıcının sunucularına gider; bazı hizmetlerde, ayarlarına bağlı olarak, modelleri geliştirmek için de kullanılabilir. Başkasının kişisel bilgisini, sağlık bilgini ya da kurumunun gizli belgesini sohbete yapıştırmadan önce düşün. Ayrıntısı Hafta 8'de.
+- **Kişisel ve kurumsal veri:** Sohbete yazdığın her şey hizmet sağlayıcının sunucularına gider; bazı hizmetlerde, ayarlarına bağlı olarak, modelleri geliştirmek için de kullanılabilir. Bazı asistanların veri ayarlarında sohbetlerinin modeli geliştirmek için kullanılmasını kapatma seçeneği vardır; hassas bir iş için önce bu ayara bak. Başkasının kişisel bilgisini, sağlık bilgini ya da kurumunun gizli belgesini sohbete yapıştırmadan önce düşün. Ayrıntısı Hafta 8'de.
 - **Kandırılabilirlik:** YZ'ye okuttuğun bir web sayfasına ya da belgeye gizlenmiş talimatlar, modelin davranışını değiştirebilir. YZ'ye yönelik bu tür saldırıları Hafta 9'da göreceğiz.
+
+::: {.callout-note .kutu-endustri title="Endüstriden: “O bir doktor” kim?"}
+Türkçede "o" zamiri kadın için de erkek için de kullanılır; İngilizce ise "he" ile "she" arasında seçim ister. Uzun süre Google Çeviri, "O bir doktor" cümlesini "He is a doctor", "O bir hemşire" cümlesini ise "She is a nurse" diye çevirdi. Kimse sisteme "doktorlar erkektir" diye bir kural yazmamıştı. Model, eğitildiği milyonlarca metinde hangi mesleğin hangi zamirle daha sık geçtiğini öğrenmiş ve bu sıklığı çeviriye taşımıştı. Google, 6 Aralık 2018'de Türkçeden İngilizceye çeviride iki seçeneği birlikte göstermeye başladı: "She is a doctor" ve "He is a doctor". Şirketin mühendisleri yöntemin her cümlede işe yaramadığını, sistemin emin olmadığı yerde eski tek çeviriye döndüğünü de yazdı. Dilimizin bir özelliği, dünyanın en çok kullanılan çeviri araçlarından birindeki önyargıyı görünür kılmıştı.
+
+Kullandığın bir YZ aracında, sana sunulan "en olası" cevabın aslında bir alışkanlık olduğunu fark ettiğin bir an oldu mu?
+:::
 
 ### Nasıl doğrularsın?
 
@@ -201,6 +207,12 @@ Modern bir uçak, motorlarından ve sistemlerinden her uçuşta büyük miktarda
 | Herkesin içerik üretebilmesi | Eğitim verisi ve çıktılar üzerindeki telif tartışmaları (Hafta 7) |
 
 Beceri körelmesini Hafta 1'deki çıkış kartından hatırla: navigasyon uygulaması bugün yolunu bulmanı sağlar, ama yıllar içinde yön duygunu zayıflatabilir. Her yazını YZ'ye yazdırırsan yazma becerin de aynı yolu izler. Bir beceriyi YZ'ye devretmeden önce "Bu beceriye kendim de sahip olmam gerekiyor mu?" diye sor. Hazırlıklı ol felsefesini de hatırla: Hizmet kesildiğinde ya da ücretsiz kullanım sınırın dolduğunda işini YZ olmadan da sürdürebilmelisin.
+
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Sanal arkadaşın bildikleri"}
+Replika, kullanıcısıyla sohbet eden ve onu tanıdıkça bir "sanal arkadaşa" dönüşen bir YZ uygulamasıdır. Şirketi, uygulamanın stresle baş etmeye ve yalnızlığı azaltmaya yardım ettiğini söyler. Şubat 2023'te İtalya'nın kişisel verileri koruma kurumu, uygulamanın İtalya'daki kullanıcıların verilerini işlemesini geçici olarak durdurdu. Gerekçeleri şunlardı: Kayıtta gerçek bir yaş kontrolü yoktu ve kendini reşit olmayan diye tanıtan kullanıcı bile engellenmiyordu; cevaplar çocukların gelişim düzeyine uygun değildi; uygulama duygu durumunu etkilediği için duygusal olarak kırılgan kişiler için daha büyük risk taşıyordu. Haziran 2023'te kurum, şirketin yaş kontrolü gibi önlemleri alması koşuluyla kısıtlamayı askıya aldı. Ama kurum 2025'te şirkete 5 milyon avro ceza verdi ve modelin nasıl eğitildiğine dair yeni bir inceleme başlattı. Bir uygulama ne kadar yakın hissettirirse, ona anlattıkların o kadar kişisel olur.
+
+Bir YZ'ye hiçbir insana anlatmadığın bir şeyi anlatsaydın, o konuşmanın nereye gittiğini bilir miydin?
+:::
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Yapay zekâ işimi elimden alacak." Yarı gerçek. YZ çoğu zaman bütün bir mesleği değil, o mesleğin içindeki bazı görevleri üstlenir: rapor taslağı yazmak, belge aramak, çizelge hazırlamak. Ekonomist Richard Baldwin'e atfedilen bir söz bunu şöyle özetler: "İşinizi YZ almayacak; YZ'yi iyi kullanan biri alacak." Yine de geçiş herkes için kolay olmayacak; bazı görevler gerçekten ortadan kalkacak. En güvenli konum, YZ'nin yaptığı işi denetleyebilecek kadar o işi bilen kişinin konumudur.
@@ -247,9 +259,9 @@ Bu derste YZ yasak değildir. Ama iki kural vardır: Kullandığında **beyan ed
 | Kendi metnine geri bildirim almak | Başkasının ödevini YZ ile yeniden yazdırıp teslim etmek |
 | İngilizce bir kaynağı anlamak için çeviri yaptırmak | Uydurulmuş veriyi gerçekmiş gibi kullanmak |
 
-Bu tablo bu dersin kuralıdır. Her ders ve her kurum farklı bir kural koyabilir; bir derste serbest olan bir kullanım başka bir derste yasak olabilir. Emin değilsen sor.
+Bu tablo bu dersin kuralıdır. Her ders ve her kurum farklı bir kural koyabilir; bir derste serbest olan bir kullanım başka bir derste yasak olabilir. Emin değilsen sor. Yükseköğretim Kurulu da Mayıs 2024'te bilimsel araştırma ve yayınlarda üretken YZ kullanımı için bir etik rehber yayımladı; rehberin ilkelerinden biri şeffaflıktır: YZ'nin işin hangi aşamasında ve ne ölçüde kullanıldığı açıkça belirtilir.
 
-Bu derste YZ kullandığın her ödevin sonuna kısa bir beyan eklersin:
+Bu derste YZ kullandığın her ödevin sonuna kısa bir **YZ beyanı** eklersin:
 
 ```text
 YZ kullanım beyanı
@@ -286,13 +298,15 @@ Kısa vadede: ödevlerinde YZ'yi kurallara uygun ve beyanlı kullanırsın; iyi 
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; strateji belgeleri ve eğitim verisi kaynakları 25 Ekim 2026'da denetlendi. YZ ürünleri ve ayarları çok hızlı değişir; adı geçen asistanların özelliklerini kendi sitelerinden kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; strateji belgeleri ve eğitim verisi kaynakları 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi. YZ ürünleri ve ayarları çok hızlı değişir; adı geçen asistanların özelliklerini kendi sitelerinden kontrol et.
 
 - **Düzenleme:** AB Yapay Zekâ Yasası (2024/1689), madde 3 (tanımlar); EASA'nın YZ yol haritası. Kaynak: [EUR-Lex](https://eur-lex.europa.eu), [easa.europa.eu](https://www.easa.europa.eu).
 - **Strateji belgeleri:** Ulusal Yapay Zekâ Stratejisi 2021–2025 ve 2024–2025 Eylem Planı (Cumhurbaşkanlığı Dijital Dönüşüm Ofisi ve Sanayi ve Teknoloji Bakanlığı); Türkiye Yapay Zekâ Eylem Planı 2026–2030 (Sanayi ve Teknoloji Bakanlığı, Ekim 2026; Haziran 2026 sonrasında yayımlandığı için belgenin kendisinden eklendi); Kaynak: [sanayi.gov.tr](https://www.sanayi.gov.tr).
 - **Diğer ülkelerin stratejileri:** Kanada, Pan-Kanada YZ Stratejisi (2017): [CIFAR](https://cifar.ca/ai/); Birleşik Arap Emirlikleri, YZ'den sorumlu devlet bakanlığı (Ekim 2017); Çin Devlet Konseyi, Yeni Nesil Yapay Zekâ Gelişim Planı (20 Temmuz 2017): [gov.cn](https://www.gov.cn/zhengce/content/2017-07/20/content_5211996.htm); Avrupa Komisyonu, [Koordineli YZ Planı](https://digital-strategy.ec.europa.eu/en/library/coordinated-plan-artificial-intelligence) (Aralık 2018; gözden geçirme Nisan 2021) ve [YZ Kıtası Eylem Planı](https://ec.europa.eu/commission/presscorner/detail/en/ip_25_1013) (9 Nisan 2025); ABD, Amerikan YZ Girişimi, kararname 13859 (11 Şubat 2019): [govinfo](https://www.govinfo.gov/content/pkg/FR-2019-02-14/html/2019-02544.htm) ve [Amerika'nın YZ Eylem Planı](https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf) (Temmuz 2025).
 - **Eğitim verisinde diller:** GPT-3'ün eğitim verisinde İngilizce yüzde 92,6, Türkçe yüzde 0,06: [OpenAI, dillere göre kelime sayısı](https://github.com/openai/gpt-3/blob/master/dataset_statistics/languages_by_word_count.csv); Llama 2'de İngilizce yüzde 89,7: H. Touvron ve diğerleri (2023), tablo 10, [arXiv:2307.09288](https://arxiv.org/abs/2307.09288).
 - **Olaylar ve araştırmalar:** ImageNet yarışması (AlexNet, 2012); Mata ile Avianca davası (ABD, 2023); özgeçmiş tarama sistemi haberi (Reuters, 2018); AlphaFold veri tabanı ve 2024 Nobel Kimya ile Fizik ödülleri; YZ dedektörleri üzerine Liang ve diğerleri (2023).
+- **Vakalar:** Google Çeviri: [Google, "Reducing gender bias in Google Translate", 6 Aralık 2018](https://blog.google/products/translate/reducing-gender-bias-google-translate/); [Google Research, "Providing Gender-Specific Translations in Google Translate", 10 Aralık 2018](https://research.google/blog/providing-gender-specific-translations-in-google-translate/). Replika: [İtalya Kişisel Verileri Koruma Kurumu (Garante), 2 Şubat 2023 kararı](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9852214) ve [basın duyurusu](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9852506); [kısıtlamanın askıya alınması, 22 Haziran 2023](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10013893); [2025 cezası](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10132048).
+- **Kurallar ve ayarlar:** [Yükseköğretim Kurulu, üretken yapay zekâ kullanımına dair etik rehber (Mayıs 2024)](https://proje.yok.gov.tr/tr/page/635); sohbetlerin eğitimde kullanılmasını kapatma örneği: [OpenAI, ChatGPT veri ayarları](https://help.openai.com/en/articles/7730893-data-controls-faq).
 - **Alıntılar:** Arthur C. Clarke, *Profiles of the Future* (1973 baskısı); George Box (1976); Richard Baldwin'e atfedilen söz (2023).
 
 ## Bu haftanın kavramları

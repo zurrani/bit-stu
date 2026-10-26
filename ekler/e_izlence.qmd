@@ -203,7 +203,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Yapay zekâ bir soruyu cevapladığında cevabı biliyor mu, yoksa tahmin mi ediyor? Bu fark senin için neden önemli?*
 
-**Okuma:** [ders notu](../docs/06_uretken-yapay-zeka.qmd), yaklaşık 26 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları.
+**Okuma:** [ders notu](../docs/06_uretken-yapay-zeka.qmd), yaklaşık 29 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler, 5.4 Dijital yetkinlik ihtiyaçları.
 
 **Bu hafta şunları yapabileceksin:**
 
