@@ -8,8 +8,8 @@ description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş;
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>7 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>27 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.600</dd></div>
+    <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.000</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.2 Paylaşma, 2.3 Vatandaşlık katılımı, 2.5 Dijital davranış, 2.6 Dijital kimliği yönetme, 3.3 Telif ve lisanslar, 4.3 İyi oluşu destekleme</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?</p>
@@ -18,7 +18,7 @@ description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş;
 
 Bir mesajın ekran görüntüsünü gruba atmak, bir haberi okumadan paylaşmak, internette bulduğun bir görseli sunumuna koymak: hepsi birkaç saniyelik işler. Bu hafta bu saniyelerin arkasındaki uzun izi göreceksin. Önce kendi dijital izine ve dikkatini yöneten tasarımlara bakacağız. Sonra etik ile hukukun ayrıldığı yere, Türkiye'de çevrimiçi bir eylemin hangi durumda suç olabileceğine ve başına bir şey geldiğinde ne yapacağına geçeceğiz. Son olarak başkasının emeğini nasıl doğru kullanacağını ve yapay zekânın hukuku nasıl zorladığını öğreneceksin.
 
-**Okuma süresi:** yaklaşık 27 dakika.
+**Okuma süresi:** yaklaşık 30 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -38,7 +38,7 @@ Burada yasalar, öğrencinin günlük hayatına etkisini anlamak için sade bir 
 
 İnternet, her ülke sınırında trafik kurallarının değiştiği bir otoyola benzer: araç aynı, kurallar farklı. **Dijital vatandaşlık**, bu otoyolda haklarını bilerek ve sorumluluklarını üstlenerek yol almaktır. Haklar tarafında ifade özgürlüğü, kişisel verilerin korunması, bilgiye erişim vardır. Sorumluluklar tarafında başkasının haklarına saygı, doğru bilgi paylaşma ve kendi güvenliğini sağlama.
 
-İnternette yaptığın her şey bir iz bırakır. Bu izlerin toplamına **dijital ayak izi** denir ve iki türü vardır:
+İnternette yaptığın her şey bir iz bırakır. Bu izlerin toplamına **dijital ayak izi** denir. Bilerek bıraktığın izler **aktif ayak izi**, sen fark etmeden toplananlar **pasif ayak izidir**:
 
 | | Aktif ayak izi | Pasif ayak izi |
 |---|---|---|
@@ -50,7 +50,13 @@ Dijital ayak izi karda yürümeye benzer; ama bu kar hiç erimez. Sildiğin bir 
 
 İzinin bir de **dijital itibar** boyutu var: insanların seni internette arattığında gördüğü şey. Şirketlerin önemli bir kısmı iş başvurusundaki adayların herkese açık profillerine bakıyor. Staj başvurusundan önce kendi adını arama motorunda tırnak içinde aratmak, eski bir hesabın gizlilik ayarlarını gözden geçirmek ya da kullanmadığın hesapları kapatmak beş dakikalık işlerdir.
 
-Bazı durumlarda geçmişteki bir kaydın arama sonuçlarından kaldırılmasını isteyebilirsin. Buna **unutulma hakkı** denir. AB'de **Genel Veri Koruma Tüzüğü** (GDPR) ile tanımlanmıştır; Türkiye'de de yargı ve Kişisel Verileri Koruma Kurulu kararlarıyla tanınmaktadır. Ayrıntısını Hafta 8'de göreceğiz. Ama bu hak sınırlıdır; en iyi koruma hâlâ paylaşmadan önce düşünmektir.
+Bazı durumlarda geçmişteki bir kaydın arama sonuçlarından kaldırılmasını isteyebilirsin. Buna **unutulma hakkı** denir. AB'de **Genel Veri Koruma Tüzüğü (GDPR)** ile tanımlanmıştır; Türkiye'de de yargı ve Kişisel Verileri Koruma Kurulu kararlarıyla tanınmaktadır. Ayrıntısını Hafta 8'de göreceğiz. Ama bu hak sınırlıdır; en iyi koruma hâlâ paylaşmadan önce düşünmektir.
+
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Çocuğun fotoğrafı kimin?"}
+İlk banyo, ilk adım, okulun ilk günü: Birçok çocuğun internetteki izi, daha konuşmayı öğrenmeden ailesinin paylaşımlarıyla başlar. Bu iz aktiftir, ama onu çocuk bırakmamıştır. Fransa bu konuda Şubat 2024'te bir yasa çıkardı. Yasa, çocuğun özel hayatını korumayı anne ve babanın görevleri arasına yazdı: Çocuğun görüntüsü üzerindeki hakkını ikisi birlikte korur ve çocuğu yaşına ve olgunluğuna göre bu kararlara katar. Anne ve baba anlaşamazsa hâkim, birinin öbürünün izni olmadan çocuğa ait içerik paylaşmasını yasaklayabilir. Paylaşımlar çocuğun onuruna ağır biçimde zarar veriyorsa hâkim, yalnızca bu konudaki karar yetkisini bir aile üyesine ya da çocuğu koruyan kuruma verebilir. Fransız Adalet Bakanlığı, bu hükümlerin bir kısmının önceki hukukta da bulunduğunu, yasanın onları görünür kıldığını yazıyor. Yasa paylaşmayı yasaklamıyor; çocuğa söz hakkı tanıyor.
+
+On beş yıl sonra çocuğun bu fotoğrafı görse, paylaşılmasına izin verir miydi?
+:::
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Bir işveren bu akşam adını aratsa ilk sayfada ne görürdü? Görmesini istemeyeceğin bir şey var mı? Varsa onu kaldırmak için ilk adımın ne olurdu?
@@ -74,7 +80,7 @@ Sonsuz kaydırmayı 2006'da tasarlayan Aza Raskin, sonraki yıllarda bu buluşun
 
 Peki bu tasarımlar bağımlılık yapar mı? Burada kanıt düzeyine dikkat etmek gerekir. Dünya Sağlık Örgütü **oyun bozukluğunu** 2019'da hastalık sınıflamasına ekledi; sınıflama 2022'de yürürlüğe girdi. Oyun bozukluğu, oyunun kontrol edilemediği, başka her şeyin önüne geçtiği ve bu durumun genellikle en az bir yıl sürdüğü bir tablodur; çok oyun oynamak tek başına tanı değildir. Buna karşılık "sosyal medya bağımlılığı", "nomofobi" (telefonsuz kalma korkusu) ya da "hayalet titreşim" gibi kavramlar araştırılan ama resmî tanı olmayan kavramlardır. Ekran süresiyle uyku, dikkat ve ruh hali arasındaki ilişki gerçek; ama "her ekran zararlıdır" demek de, "hiçbir etkisi yoktur" demek de kanıtı aşar.
 
-Düzenleyiciler de konuya eğiliyor. Avustralya 16 yaşın altındakilerin sosyal medya hesabı açmasını yasakladı; düzenleme 2025'in sonunda yürürlüğe girdi. Avrupa Komisyonu da büyük platformların gençler üzerinde bağımlılık yapıcı tasarımlar kullanıp kullanmadığına ilişkin Dijital Hizmetler Yasası kapsamında soruşturmalar açtı; 2026'da TikTok ve Meta için ihlal yönünde ön bulgular açıkladı (kesin karar henüz yok). Bu düzenlemelerin işe yarayıp yaramadığı da tartışılıyor: yaş doğrulamanın nasıl yapılacağı, gençlerin daha denetimsiz yerlere kayıp kaymayacağı gibi sorular henüz cevaplanmış değil.
+Düzenleyiciler de konuya eğiliyor. Avustralya 16 yaşın altındakilerin sosyal medya hesabı açmasını yasakladı; düzenleme 2025'in sonunda yürürlüğe girdi. Avrupa Komisyonu da büyük platformların gençler üzerinde bağımlılık yapıcı tasarımlar kullanıp kullanmadığına ilişkin Dijital Hizmetler Yasası kapsamında soruşturmalar açtı; 2026'da TikTok ve Meta için ihlal yönünde ön bulgular açıkladı (kesin karar henüz yok). Türkiye'de de 5651 sayılı kanuna 2026'da eklenen bir hüküm 1 Kasım 2026'da yürürlüğe girdi: Sosyal ağlar 15 yaşını doldurmamış çocuklara hizmet sunamaz ve bunun için yaş doğrulama dahil önlem almak zorundadır. Ebeveynlere de kullanım süresini izleyip sınırlayabilecekleri denetim araçları sunmaları gerekir. Bu düzenlemelerin işe yarayıp yaramadığı da tartışılıyor: yaş doğrulamanın nasıl yapılacağı, gençlerin daha denetimsiz yerlere kayıp kaymayacağı gibi sorular henüz cevaplanmış değil.
 
 **Dijital iyi oluş**, teknolojiyi kendi amaçların için kullanmak, onun seni kullanmasına izin vermemektir. Birkaç somut adım:
 
@@ -104,7 +110,7 @@ Havacılıkta etik ile hukukun en ince kesiştiği yer **adil kültürdür** (ju
 
 ## 4. Çevrimiçi eylemin hukuki sonucu: Türkiye
 
-İnternetteki eylemler "sanal" olabilir, ama sonuçları gerçektir. Türk Ceza Kanunu'ndaki (TCK) suçların çoğu internette de işlenebilir; bazıları, sosyal medyada olduğu gibi herkesin görebileceği biçimde (alenen) işlendiğinde daha ağır cezalandırılır. Aşağıdaki tablo bir öğrencinin karşılaşabileceği durumları gösteriyor. Bir eylemin gerçekten suç olup olmadığına ve cezasına ancak mahkeme somut olayın koşullarına bakarak karar verir.
+İnternetteki eylemler "sanal" olabilir, ama sonuçları gerçektir. Türk Ceza Kanunu'ndaki (TCK) suçların çoğu internette de işlenebilir; bazıları, sosyal medyada olduğu gibi herkesin görebileceği biçimde (alenen) işlendiğinde daha ağır cezalandırılır; hukukta buna **aleniyet** denir. Aşağıdaki tablo bir öğrencinin karşılaşabileceği durumları gösteriyor. Bir eylemin gerçekten suç olup olmadığına ve cezasına ancak mahkeme somut olayın koşullarına bakarak karar verir.
 
 ::: {.tablo-kaydir}
 | Durum | Gündeme gelebilecek suç | Dikkat edilecek nokta |
@@ -118,11 +124,11 @@ Havacılıkta etik ile hukukun en ince kesiştiği yer **adil kültürdür** (ju
 | Bir sistemi çökertmek, verileri silmek ya da değiştirmek | Sistemi engelleme, bozma, verileri yok etme ya da değiştirme (TCK 244) | |
 :::
 
-**TCK 217/A** 2022'de yasaya eklendi. Ülkenin iç ve dış güvenliği, kamu düzeni ya da genel sağlıkla ilgili gerçeğe aykırı bir bilgiyi, yalnızca halk arasında endişe, korku ya da panik yaratma amacıyla ve kamu barışını bozmaya elverişli biçimde alenen yaymayı suç sayar. Düzenlemeyi savunanlar, özellikle afet ve salgın dönemlerinde yanlış bilginin can kaybına yol açabildiğini vurguladı. Eleştirenler ise "gerçeğe aykırı bilgi" ve "kamu barışı" gibi kavramların belirsiz olduğunu ve düzenlemenin ifade ve basın özgürlüğü üzerinde caydırıcı bir etki yaratabileceğini savundu. Senin için pratik sonuç, Hafta 5'teki ilkedir: Doğrulamadığın bir haberi paylaşmadan önce dur. Bu hem yanlış bilginin yayılmasına katkıyı hem de olası hukuki riski azaltır.
+Kamuoyunda **dezenformasyon suçu** diye anılan **TCK 217/A** 2022'de yasaya eklendi. Ülkenin iç ve dış güvenliği, kamu düzeni ya da genel sağlıkla ilgili gerçeğe aykırı bir bilgiyi, yalnızca halk arasında endişe, korku ya da panik yaratma amacıyla ve kamu barışını bozmaya elverişli biçimde alenen yaymayı suç sayar. Düzenlemeyi savunanlar, özellikle afet ve salgın dönemlerinde yanlış bilginin can kaybına yol açabildiğini vurguladı. Eleştirenler ise "gerçeğe aykırı bilgi" ve "kamu barışı" gibi kavramların belirsiz olduğunu ve düzenlemenin ifade ve basın özgürlüğü üzerinde caydırıcı bir etki yaratabileceğini savundu. Senin için pratik sonuç, Hafta 5'teki ilkedir: Doğrulamadığın bir haberi paylaşmadan önce dur. Bu hem yanlış bilginin yayılmasına katkıyı hem de olası hukuki riski azaltır.
 
 Ceza hukukunun yanında internetin kendine özgü kuralları da var:
 
-- **5651 sayılı kanun** (2007) internetteki yayınları düzenler: içerik sağlayıcının, yer sağlayıcının ve erişim sağlayıcının sorumluluğunu tanımlar. Kişilik hakların ihlal edildiğinde (örneğin hakkında hakaret içeren bir paylaşım varsa) içeriğin kaldırılması ya da erişimin engellenmesi için başvurabilirsin. Sonraki değişikliklerle Türkiye'den çok kullanıcısı olan sosyal ağ sağlayıcılarına Türkiye'de temsilci atama ve başvurulara belirli sürelerde cevap verme yükümlülüğü getirildi.
+- **5651 sayılı kanun** (2007) internetteki yayınları düzenler: içerik sağlayıcının, yer sağlayıcının ve erişim sağlayıcının sorumluluğunu tanımlar. Kişilik hakların ihlal edildiğinde (örneğin hakkında hakaret içeren bir paylaşım varsa) içeriğin kaldırılması ya da erişimin engellenmesi için başvurabilirsin. Sonraki değişikliklerle Türkiye'den çok kullanıcısı olan sosyal ağ sağlayıcılarına Türkiye'de temsilci atama ve başvurulara belirli sürelerde cevap verme yükümlülüğü getirildi. 2026'daki bir değişiklikle dijital oyun platformları da kanunun kapsamına girdi: Yaş derecelendirmesi yapılmamış oyun sunamaz ve ebeveyn denetim araçları sağlarlar; Türkiye'den çok kullanıcısı olan yurt dışı platformlar Türkiye'de temsilci atar.
 - **Siber Güvenlik Kanunu** (2025), kamu kurumlarının ve kritik altyapıların (enerji, ulaşım, sağlık, iletişim gibi) siber güvenliğine ilişkin yükümlülükleri ve bunu denetleyecek kurumu düzenler; siber olaylarla ilgili yeni suç tanımları da içerir. Hafta 9'da yeniden değineceğiz.
 - **Tüketici hakları:** İnternetten aldığın bir ürünü, bazı istisnalar dışında, teslimden itibaren 14 gün içinde gerekçe göstermeden iade edebilirsin (cayma hakkı). İzin vermediğin halde gelen reklam SMS'lerini ve e-postalarını İleti Yönetim Sistemi (İYS) üzerinden durdurabilirsin.
 
@@ -172,7 +178,7 @@ Hedef olursan ya da bir arkadaşının hedef olduğunu görürsen:
 
 ## 6. Telif, Creative Commons ve atıf
 
-Bir fotoğraf, bir şarkı, bir metin ya da bir yazılım, onu yapan kişinin emeğidir. **Telif hakkı**, eser sahibine eserini kimin, nasıl kullanabileceğine karar verme hakkı tanır. Türkiye'de **Fikir ve Sanat Eserleri Kanunu** (FSEK) ile korunur ve iki özelliği çoğu öğrenciyi şaşırtır: Telif hakkı eser yaratıldığı anda kendiliğinden doğar; bir yere kayıt ya da © işareti gerekmez. Koruma da eser sahibinin ölümünden sonra 70 yıl sürer. Yani internette bir görselin yanında hiçbir uyarı yazmaması, onun serbest olduğu anlamına gelmez; varsayılan durum "tüm hakları saklıdır"dır.
+Bir fotoğraf, bir şarkı, bir metin ya da bir yazılım, onu yapan kişinin emeğidir. **Telif hakkı**, eser sahibine eserini kimin, nasıl kullanabileceğine karar verme hakkı tanır. Türkiye'de **Fikir ve Sanat Eserleri Kanunu (FSEK)** ile korunur ve iki özelliği çoğu öğrenciyi şaşırtır: Telif hakkı eser yaratıldığı anda kendiliğinden doğar; bir yere kayıt ya da © işareti gerekmez. Koruma da eser sahibinin ölümünden sonra 70 yıl sürer. Yani internette bir görselin yanında hiçbir uyarı yazmaması, onun serbest olduğu anlamına gelmez; varsayılan durum "tüm hakları saklıdır"dır.
 
 Eser sahibi, eserini başkalarının da kullanmasını isteyebilir. **Creative Commons** (CC) lisansları bunun için hazır kalıplar sunar: "Bazı hakları saklıdır." Dört öğeden oluşur:
 
@@ -188,6 +194,12 @@ Eser sahibi, eserini başkalarının da kullanmasını isteyebilir. **Creative C
 **Kamu malı** (public domain), telif süresi dolmuş ya da hiç telif korumasına girmemiş eserlerdir: Yüz yıl önce ölmüş bir ressamın tabloları gibi. Bazı ülkelerde devlet kurumlarının ürettiği eserler de kamu malıdır; örneğin NASA'nın fotoğraflarının çoğu.
 
 Yazılımda da benzer lisanslar vardır. **MIT lisansı** kodu neredeyse hiçbir koşul olmadan kullanmana izin verir; yalnızca lisans metnini korumanı ister. **GPL lisansı** ise kodu değiştirip dağıtırsan senin kodunun da açık ve aynı lisansla olmasını ister. Bu yaklaşıma **copyleft** denir. Açık kaynak dünyasını Hafta 3'te ve [Ek C](../ekler/c_alternatifler.qmd) sayfasında görmüştün.
+
+::: {.callout-note .kutu-endustri title="Endüstriden: 11.500 satırlık dava"}
+Google 2005'te telefonlar için Android'i geliştirmeye başladığında milyonlarca programcı Java dilini biliyordu. Google onların Android'de de alıştıkları komutlarla çalışabilmesini istedi. Java'nın sahibi Sun ile lisans görüşmeleri sonuçsuz kalınca Google kendi yazılımını yazdı; ama Java'nın uygulama programlama arayüzünden yaklaşık 11.500 satırı kopyaladı. Bu satırlar görevlerin adlarını ve düzenini veriyordu; görevleri yapan kodu Google kendisi yazmıştı. Kopyalanan satırlar, 2,86 milyon satırlık arayüzün yalnızca binde dördüydü. Sun'ı 2010'da satın alan Oracle, aynı yıl dava açtı. Dava on bir yıl sürdü; mahkemeler birbirinin kararını bozdu. 2021'de ABD Yüksek Mahkemesi Google'ı haklı buldu: Kopyalama, programcıların bildiklerini yeni bir ortamda kullanmasını sağlayan "adil kullanım"dı; bu kopya olmasa programcılar aynı işler için baştan yeni bir sistem öğrenmek zorunda kalacaktı. Mahkeme, bu satırların telifle korunup korunmadığına ise karar vermedi. Soru yazılım dünyası için açık kaldı.
+
+Başka bir programın "dilini" konuşan bir program yazmak, onun emeğini kullanmak mıdır?
+:::
 
 Lisanslı bir eseri kullanırken doğru atıf dört parçadan oluşur: **eserin adı, yazarı, kaynağı ve lisansı.** Örnek:
 
@@ -211,7 +223,7 @@ Hafta 6'da üretken YZ'nin nasıl çalıştığını gördün. Hukuk bu teknoloj
 
 **YZ'yi kimin eserleriyle eğitebilirsin?** Dil ve görsel modelleri milyonlarca metin ve görselle eğitiliyor; bunların çoğu telifli. Gazeteler, yazarlar ve görsel ajansları YZ şirketlerine dava açtı. 2025'te ABD'de bir YZ şirketi, eğitimde korsan sitelerden indirilmiş kitapları kullandığı gerekçesiyle açılan davada yazarlarla yaklaşık 1,5 milyar dolarlık bir uzlaşmaya vardı. Bu davalarda verilecek kararlar, telif hukukunun önümüzdeki on yılını şekillendirecek.
 
-**Rızası olmadan birinin yüzü ya da sesi kullanılabilir mi?** Birkaç yıl öncesine kadar bilim kurgu filmlerinin konusu olan deepfake teknolojisi (Hafta 5), bugün bir telefon uygulamasıyla birinin yüzünü ya da sesini, söylemediği bir şeyi söylüyormuş gibi gösterebiliyor. Birinin görüntüsünü rızası olmadan, hele mahrem bir içerikte kullanmak, Türkiye'de özel hayatın gizliliği ve kişilik hakları kapsamında suç ve tazminat konusu olabilir. ABD'de 2025'te rızasız mahrem deepfake görüntülerin yayılmasını suç sayan ve platformlara kaldırma yükümlülüğü getiren bir federal yasa çıktı. AB'nin Yapay Zekâ Yasası da deepfake içeriğin yapay olarak üretildiğinin açıkça belirtilmesini istiyor.
+**Rızası olmadan birinin yüzü ya da sesi kullanılabilir mi?** Birkaç yıl öncesine kadar bilim kurgu filmlerinin konusu olan deepfake teknolojisi (Hafta 5), bugün bir telefon uygulamasıyla birinin yüzünü ya da sesini, söylemediği bir şeyi söylüyormuş gibi gösterebiliyor. Birinin görüntüsünü rızası olmadan, hele mahrem bir içerikte kullanmak, Türkiye'de özel hayatın gizliliği ve kişilik hakları kapsamında suç ve tazminat konusu olabilir. ABD'de 2025'te rızasız mahrem deepfake görüntülerin yayılmasını suç sayan ve platformlara kaldırma yükümlülüğü getiren bir federal yasa çıktı. AB'nin Yapay Zekâ Yasası da deepfake içeriğin yapay olarak üretildiğinin açıkça belirtilmesini istiyor; 2026'daki bir değişiklikle, tanınabilir bir kişinin rızası olmadan mahrem görüntüsünü üretmek için tasarlanmış YZ sistemlerini de 2 Aralık 2026'dan itibaren yasaklıyor.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Bir YZ aracıyla ürettiğin bir logo, tanınmış bir markanın logosuna çok benziyorsa kim sorumludur: sen mi, aracı yapan şirket mi? Bu soruyu cevaplamak için hangi bilgilere ihtiyacın olurdu?
@@ -234,7 +246,7 @@ AB son on yılda dijital dünyayı düzenleyen bir dizi yasa çıkardı. Bunlar 
 | **Yapay Zekâ Yasası** | Kademeli: 2025'ten başlayarak | YZ sistemlerini risk düzeyine göre düzenler | Kabul edilemez uygulamalar (örneğin sosyal puanlama) 2025'ten beri yasak; YZ kullanan kuruluşlar çalışanlarının YZ okuryazarlığını sağlamalı; deepfake etiketlenmeli |
 :::
 
-Yapay Zekâ Yasası'nın takvimi kademelidir: Yasaklar ve YZ okuryazarlığı yükümlülüğü Şubat 2025'te, genel amaçlı YZ modellerine ilişkin kurallar Ağustos 2025'te uygulanmaya başladı. Yüksek riskli sistemlere (örneğin işe alım, eğitimde not verme ya da kredi değerlendirmesi için kullanılan YZ) ilişkin kuralların 2026 ve 2027'de uygulanması planlanıyordu; 2026'da kabul edilen bir değişiklikle (Dijital Omnibus) bu kurallar ertelendi: İşe alım ya da eğitim gibi alanlarda kullanılan sistemler için Aralık 2027, ürünlerin içine yerleştirilen YZ için Ağustos 2028. Takvim yeniden değişebilir; son halini EUR-Lex'ten ya da Komisyonun sitesinden kontrol et.
+Yapay Zekâ Yasası'nın takvimi kademelidir: Yasaklar ve YZ okuryazarlığı yükümlülüğü Şubat 2025'te, genel amaçlı YZ modellerine ilişkin kurallar Ağustos 2025'te uygulanmaya başladı. Şeffaflık kuralları Ağustos 2026'dan beri uygulanıyor: Bir sohbet botu, bir insanla değil bir YZ ile konuştuğunu sana bildirmeli; deepfake içerik de etiketlenmeli. Yüksek riskli sistemlere (örneğin işe alım, eğitimde not verme ya da kredi değerlendirmesi için kullanılan YZ) ilişkin kuralların 2026 ve 2027'de uygulanması planlanıyordu; 2026'da kabul edilen bir değişiklikle (Dijital Omnibus) bu kurallar ertelendi: İşe alım ya da eğitim gibi alanlarda kullanılan sistemler için Aralık 2027, ürünlerin içine yerleştirilen YZ için Ağustos 2028. Takvim yeniden değişebilir; son halini EUR-Lex'ten ya da Komisyonun sitesinden kontrol et.
 
 ## 9. Patent ve marka (okuma)
 
@@ -247,7 +259,7 @@ Telif tek fikri mülkiyet türü değildir. Üç temel tür şöyle ayrılır:
 | Ne kadar sürer? | Eser sahibinin ölümünden sonra 70 yıl | Genellikle başvurudan itibaren 20 yıl | Yenilendikçe süresiz |
 | Örnek | Bir robot süpürgenin kullanım kılavuzu | Robot süpürgenin engel algılama yöntemi | Robot süpürgenin markası ve logosu |
 
-Türkiye'de patent ve marka başvuruları Türk Patent ve Marka Kurumu'na yapılır. **Patent**, buluşun nasıl çalıştığını kamuya açıklamak karşılığında sınırlı bir süre için tekel verir; süre dolunca buluş herkesin olur. Hafta 1'deki çoklu buluşu hatırla: Bell ile Gray'in aynı gün yaptığı başvurular, patent sisteminin "ilk kim?" sorusunu neden bu kadar önemsediğini gösterir.
+Türkiye'de patent ve marka başvuruları Türk Patent ve Marka Kurumu'na yapılır. **Patent**, buluşun nasıl çalıştığını kamuya açıklamak karşılığında sınırlı bir süre için tekel verir; süre dolunca buluş herkesin olur. **Marka** ise bir ürünü ya da şirketi ayırt eden ad ya da logodur; tescil yenilendikçe korunur. Hafta 1'deki çoklu buluşu hatırla: Bell ile Gray'in aynı gün yaptığı başvurular, patent sisteminin "ilk kim?" sorusunu neden bu kadar önemsediğini gösterir.
 
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
@@ -264,10 +276,11 @@ Kısa vadede: Paylaşmadan önce düşünür, başına dert açacak bir paylaş�
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar, AB düzenlemeleri ve netiket kaynakları 25 Ekim 2026'da denetlendi. Yasalar sık değişir; bir maddeye dayanarak karar vereceksen güncel metni kaynağından kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar, AB düzenlemeleri ve netiket kaynakları 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları ile 2026'daki Türkiye ve AB değişiklikleri 26 Ekim 2026'da eklendi. Yasalar sık değişir; bir maddeye dayanarak karar vereceksen güncel metni kaynağından kontrol et.
 
-- **Türkiye:** Türk Ceza Kanunu (5237; 217/A maddesi 7418 sayılı kanunla, Ekim 2022): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5); 5651 sayılı kanun (2007, değişiklikleriyle; son değişiklikler 2026): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5651&MevzuatTur=1&MevzuatTertip=5); Siber Güvenlik Kanunu (7545, Resmî Gazete 19 Mart 2025): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7545&MevzuatTur=1&MevzuatTertip=5); Mesafeli Sözleşmeler Yönetmeliği; Fikir ve Sanat Eserleri Kanunu (5846); Sınai Mülkiyet Kanunu (6769); SHGM'nin İHA talimatları. Kaynak: [mevzuat.gov.tr](https://www.mevzuat.gov.tr), [shgm.gov.tr](https://shgm.gov.tr).
+- **Türkiye:** Türk Ceza Kanunu (5237; 217/A maddesi 7418 sayılı kanunla, Ekim 2022): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5); 5651 sayılı kanun (2007, değişiklikleriyle; son değişiklikler 2026): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5651&MevzuatTur=1&MevzuatTertip=5); sosyal ağlarda 15 yaş ve dijital oyun platformları: 7578 sayılı kanun, madde 21–23 ve 27 ([Resmî Gazete, 1 Mayıs 2026](https://www.resmigazete.gov.tr/eskiler/2026/05/20260501-1.htm)); Siber Güvenlik Kanunu (7545, Resmî Gazete 19 Mart 2025): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7545&MevzuatTur=1&MevzuatTertip=5); Mesafeli Sözleşmeler Yönetmeliği; Fikir ve Sanat Eserleri Kanunu (5846); Sınai Mülkiyet Kanunu (6769); SHGM'nin İHA talimatları. Kaynak: [mevzuat.gov.tr](https://www.mevzuat.gov.tr), [shgm.gov.tr](https://shgm.gov.tr).
 - **Avrupa Birliği:** Genel Veri Koruma Tüzüğü (2016/679), Dijital Hizmetler Yasası (2022/2065), Dijital Piyasalar Yasası (2022/1925), Yapay Zekâ Yasası (2024/1689), sivil havacılıkta olay bildirimi tüzüğü (376/2014), Yapay Zekâ Yasası'nı değiştiren Dijital Omnibus tüzüğü (2026/1744): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng). Komisyonun Dijital Hizmetler Yasası kapsamındaki ön bulguları: [TikTok](https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act) (Şubat 2026), [Meta](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1579) (Temmuz 2026). Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
+- **Vakalar:** Google ile Oracle: [ABD Yüksek Mahkemesi, *Google LLC v. Oracle America, Inc.*, 593 U.S. (5 Nisan 2021)](https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf). Fransa: Loi n° 2024-120 du 19 février 2024 visant à garantir le respect du droit à l'image des enfants (Journal officiel, 20 Şubat 2024); [Fransa Adalet Bakanlığı, yasayı tanıtan genelge (23 Mayıs 2024)](https://cnb.avocat.fr/sites/default/files/documents/circulaire_de_presentation_des_dispositions_de_loi_n_2024-120_du_19_fevrier_2024_visant_a_garantir_le_respect_du_droit_a_limage_des_enfants_-_240523.pdf).
 - **Netiket:** Virginia Shea, *Netiquette* (1994) ve kuralların özeti: [Core Rules of Netiquette](https://www.educause.edu/ir/library/html/erm/29558.html); IETF, [RFC 1855](https://www.rfc-editor.org/rfc/rfc1855) *Netiquette Guidelines* (Ekim 1995).
 - **Diğer:** Dünya Sağlık Örgütü, ICD-11 (2019; yürürlük 2022); Lawrence Lessig, *Code and Other Laws of Cyberspace* (1999); ABD'de Thaler ile Perlmutter temyiz kararı (2025) ve TAKE IT DOWN Act (2025).
 

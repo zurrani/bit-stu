@@ -219,7 +219,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?*
 
-**Okuma:** [ders notu](../docs/07_dijital-vatandaslik-hukuk.qmd), yaklaşık 27 dakika. **DigComp:** 2.2 Paylaşma, 2.3 Vatandaşlık katılımı, 2.5 Dijital davranış, 2.6 Dijital kimliği yönetme, 3.3 Telif ve lisanslar, 4.3 İyi oluşu destekleme.
+**Okuma:** [ders notu](../docs/07_dijital-vatandaslik-hukuk.qmd), yaklaşık 30 dakika. **DigComp:** 2.2 Paylaşma, 2.3 Vatandaşlık katılımı, 2.5 Dijital davranış, 2.6 Dijital kimliği yönetme, 3.3 Telif ve lisanslar, 4.3 İyi oluşu destekleme.
 
 **Bu hafta şunları yapabileceksin:**
 
