@@ -8,8 +8,8 @@ description: "Yazılım ve işletim sistemi; Windows, Linux, macOS, Android ve i
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>3 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>22 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.000</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.3 Bilgiyi yönetme, 4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir bilgisayarın ne zaman "çöp" olacağına donanım mı karar verir, yazılım mı?</p>
@@ -18,7 +18,7 @@ description: "Yazılım ve işletim sistemi; Windows, Linux, macOS, Android ve i
 
 Geçen hafta bilgisayarın donanımını, yani aşçıyı, tezgâhı ve kileri gördük. Bu hafta mutfağı yöneten yazılıma geçiyoruz: işletim sistemi. Hangi işletim sistemini kullandığın; cihazının kaç yıl güvenle çalışacağını, verilerinin kimlerle paylaşılacağını ve ne kadar para harcayacağını belirler. Haftanın ikinci yarısında her gün yaptığımız ama pek düşünmediğimiz bir işe bakacağız: dosyaları adlandırmak, düzenlemek ve kaybetmemek.
 
-**Okuma süresi:** yaklaşık 22 dakika.
+**Okuma süresi:** yaklaşık 25 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -38,10 +38,10 @@ Yazılımlar iki büyük gruba ayrılır:
 
 | Tür | Görevi | Örnek |
 |---|---|---|
-| Sistem yazılımı | Bilgisayarın çalışmasını ve donanımın yönetilmesini sağlar | İşletim sistemi, aygıt sürücüleri, BIOS ve UEFI |
-| Uygulama yazılımı | Kullanıcının işini görür | Tarayıcı, kelime işlemci, oyun, mesajlaşma uygulaması |
+| **Sistem yazılımı** | Bilgisayarın çalışmasını ve donanımın yönetilmesini sağlar | İşletim sistemi, aygıt sürücüleri, BIOS ve UEFI |
+| **Uygulama yazılımı** | Kullanıcının işini görür | Tarayıcı, kelime işlemci, oyun, mesajlaşma uygulaması |
 
-Bilgisayar açıldığında ilk çalışan yazılım anakarttaki **UEFI**'dir (eski bilgisayarlarda BIOS): donanımı kontrol eder ve işletim sistemini başlatır. **Aygıt sürücüleri** ise işletim sistemi ile belirli bir donanım (yazıcı, ekran kartı, kamera) arasında çevirmenlik yapar; sürücüsü olmayan bir yazıcıyı işletim sistemi tanımaz.
+Bilgisayar açıldığında ilk çalışan yazılım anakarttaki **UEFI**'dir (eski bilgisayarlarda **BIOS**): donanımı kontrol eder ve işletim sistemini başlatır. **Aygıt sürücüleri** ise işletim sistemi ile belirli bir donanım (yazıcı, ekran kartı, kamera) arasında çevirmenlik yapar; sürücüsü olmayan bir yazıcıyı işletim sistemi tanımaz.
 
 ### Yazılımı nasıl edinirsin?
 
@@ -69,7 +69,7 @@ Biraz ek bilgi: Bazı ofis aboneliklerinde süre dolunca belgelerin açılır am
 
 ## 2. İşletim sistemi ne yapar?
 
-İşletim sistemi, donanım ile kullanıcı ve uygulamalar arasındaki yöneticidir. Beş temel görevi vardır:
+**İşletim sistemi**, donanım ile kullanıcı ve uygulamalar arasındaki yöneticidir. Beş temel görevi vardır:
 
 - **Süreç yönetimi:** Aynı anda açık onlarca programa sırayla işlemci zamanı verir.
 - **Bellek yönetimi:** Hangi programın RAM'in neresini kullanacağına karar verir; RAM yetmezse diskin bir bölümünü yedek bellek gibi kullanır; buna **sanal bellek** denir. Disk RAM'den çok daha yavaş olduğu için her şey ağırlaşır (Hafta 2'deki sürekli yanan disk ışığı).
@@ -112,7 +112,7 @@ Grafik arayüzde de klavye zaman kazandırır. Birkaç **klavye kısayolu** her 
 macOS'te Ctrl'nin yerini çoğunlukla Command (⌘) tuşu alır.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
-Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistemiyle değil, **gerçek zamanlı işletim sistemleriyle** çalışır. Bunlarda önemli olan hız değil, öngörülebilirliktir: bir görevin her seferinde belirli bir süre içinde tamamlanacağı garanti edilmelidir. Bu yazılımlar DO-178C gibi standartlara göre, her satırı izlenebilir biçimde geliştirilir ve onaylanır. Kokpitte ise pilotlar haritalar, el kitapları ve performans hesapları için Elektronik Uçuş Çantası (EFB) olarak tabletler kullanır.
+Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistemiyle değil, **gerçek zamanlı işletim sistemleriyle** çalışır. Bunlarda önemli olan hız değil, öngörülebilirliktir: bir görevin her seferinde belirli bir süre içinde tamamlanacağı garanti edilmelidir. Bu yazılımlar **DO-178C** gibi standartlara göre, her satırı izlenebilir biçimde geliştirilir ve onaylanır. Kokpitte ise pilotlar haritalar, el kitapları ve performans hesapları için **Elektronik Uçuş Çantası** (**EFB**) olarak tabletler kullanır.
 :::
 
 ### Herkes için bir arayüz: erişilebilirlik özellikleri
@@ -134,7 +134,7 @@ Uçaktaki aviyonik bilgisayarlar Windows gibi genel amaçlı bir işletim sistem
 
 ### Windows
 
-Dünyadaki masaüstü bilgisayarların çoğu Windows kullanır. Bir sürümün güvenlik güncellemesi aldığı süreye **destek ömrü** denir. Windows 10'un desteği 14 Ekim 2025'te sona erdi; bu tarihten sonra Microsoft, bireysel kullanıcılara yalnızca ek ve süreli bir güvenlik güncellemesi programı sundu. Windows 11 ise daha sıkı donanım gereksinimleri getirdi: TPM 2.0 adlı güvenlik çipi, güvenli önyükleme ve belirli bir yaştan yeni işlemciler. Bu yüzden teknik olarak sağlam olan pek çok bilgisayar resmî olarak Windows 11'e geçemiyor.
+Dünyadaki masaüstü bilgisayarların çoğu Windows kullanır. Bir sürümün güvenlik güncellemesi aldığı süreye **destek ömrü** denir. Windows 10'un desteği 14 Ekim 2025'te sona erdi; bu tarihten sonra Microsoft, bireysel kullanıcılara yalnızca ek ve süreli bir güvenlik güncellemesi programı sundu. Windows 11 ise daha sıkı donanım gereksinimleri getirdi: **TPM** 2.0 adlı güvenlik çipi, güvenli önyükleme ve belirli bir yaştan yeni işlemciler. Bu yüzden teknik olarak sağlam olan pek çok bilgisayar resmî olarak Windows 11'e geçemiyor.
 
 Yeni Windows sürümleri yapay zekâ özellikleriyle de geliyor. Bunlardan Recall, ekranda yapılanların düzenli görüntülerini kaydedip aranabilir hale getirmek için tasarlandı; mahremiyet eleştirileri üzerine isteğe bağlı hale getirildi. Windows ayrıca Microsoft'a **tanılama verisi** (telemetri) gönderir; gönderilen verinin kapsamı Ayarlar'daki Gizlilik bölümünden sınırlanabilir.
 
@@ -143,6 +143,14 @@ Yeni Windows sürümleri yapay zekâ özellikleriyle de geliyor. Bunlardan Recal
 Linux aslında bir **çekirdektir**. Bu çekirdeğin üzerine masaüstü, uygulamalar ve araçlar eklenerek **dağıtımlar** oluşturulur: Ubuntu, Linux Mint, Fedora, Debian ve TÜBİTAK'ın geliştirdiği yerli dağıtım Pardus bunlardan bazılarıdır. Linux ücretsizdir ve açık kaynaklıdır.
 
 Masaüstünde payı küçük olsa da Linux dünyayı görünmeden yönetir: internet sunucularının ve bulut hizmetlerinin büyük çoğunluğu, dünyanın en güçlü süper bilgisayarlarının tamamı ve Android telefonlar Linux çekirdeğiyle çalışır. Desteği bitmiş eski bir bilgisayara hafif bir Linux dağıtımı kurmak, ona yıllarca güvenli kullanım kazandırabilir. Bir Linux dağıtımını USB belleğe yazıp bilgisayara hiçbir şey kurmadan denemek mümkündür; buna **canlı USB** denir.
+
+Pardus'un etkileşimli tahtalar için hazırlanan ETAP sürümü okullarda kullanılıyor; Millî Eğitim Bakanlığı 2025'te yeni sürümün 81 ildeki tahtalara kademe kademe geçeceğini duyurdu. Okulda bir akıllı tahtaya dokunduysan bir Linux kullanmış olabilirsin.
+
+::: {.callout-note .kutu-endustri title="Endüstriden: Linux'a geçen şehir geri döndü"}
+2000'lerin başında Münih belediyesi, binlerce bilgisayarını Windows'tan kendi Linux sürümüne, LiMux'a taşımaya karar verdi. Amaç lisans parasından tasarruf etmek ve tek bir şirkete bağımlı kalmamaktı. Geçiş on yıl kadar sürdü ve çalışanların büyük kısmı Linux'a geçti. Ama başka kurumlardan gelen Office belgeleriyle uyumsuzluk ve iki sistemi birlikte yönetmenin yükü bitmedi. Belediye meclisi 23 Kasım 2017'de Windows tabanlı tek tip bir bilgisayar düzenine dönmeye karar verdi. Hikâye orada bitmedi: Schleswig-Holstein eyaleti 2024'te yaklaşık 30 bin çalışanının ofis programı olarak LibreOffice'i standart yaptı ve Linux'a geçişi de planladı. Gerekçesi bu kez tasarruf değil, dijital egemenlikti. Türkiye'de TÜBİTAK'ın geliştirdiği Pardus da aynı soruya verilmiş bir cevaptır.
+
+Bir kurum işletim sistemini değiştirirken asıl bedeli ne öder: lisans parası mı, alışkanlıkları mı?
+:::
 
 ### macOS
 
@@ -163,7 +171,7 @@ Bugün telefonların neredeyse tamamı iki işletim sisteminden birini kullanır
 | | Android | iOS |
 |---|---|---|
 | Geliştiren | Google ve açık kaynak topluluğu | Apple |
-| Temel | Linux çekirdeği; açık kaynak çekirdeği AOSP | Kapalı kaynak; Unix kökenli |
+| Temel | Linux çekirdeği; açık kaynak çekirdeği **AOSP** | Kapalı kaynak; Unix kökenli |
 | Cihazlar | Pek çok üreticinin telefonu | Yalnızca iPhone |
 | Güncelleme süresi | Üreticiye ve modele göre değişir; bazı modellerde birkaç yıl, bazı üst modellerde yedi yıla kadar | Apple tarafından, genellikle uzun süre |
 | Uygulama kurma | Mağazanın yanında başka kaynaklardan da kurulabilir (yan yükleme) | Esas olarak App Store; AB'de düzenlemeyle alternatif mağazalara açıldı |
@@ -181,7 +189,7 @@ Android'in ilk sürümleri tatlı adlarıyla anılırdı: Cupcake, Donut, KitKat
 - **İzinlerin işlevle uyumu:** Navigasyon uygulamasının konuma ihtiyacı vardır; el feneri uygulamasının rehbere ihtiyacı yoktur. İşlevle ilgisi olmayan bir izin, veri toplama işaretidir.
 - **"Yalnızca kullanırken":** Konum izni çoğu uygulama için "her zaman" değil, "yalnızca kullanırken" olmalıdır.
 - **Göstergeler:** Telefonlarda kamera ya da mikrofon kullanıldığında ekranın köşesinde küçük renkli bir nokta yanar.
-- **Reklam kimliği:** Telefonlar, uygulamaların seni reklam için tanımasını sağlayan bir kimlik numarası taşır. Android'de bu kimlik silinebilir; iOS'ta Uygulama İzleme Şeffaflığı özelliği, uygulamaların seni başka şirketlerin uygulamalarında izlemeden önce izin istemesini zorunlu kılar.
+- **Reklam kimliği:** Telefonlar, uygulamaların seni reklam için tanımasını sağlayan bir kimlik numarası taşır. Android'de bu kimlik silinebilir; iOS'ta **Uygulama İzleme Şeffaflığı** özelliği, uygulamaların seni başka şirketlerin uygulamalarında izlemeden önce izin istemesini zorunlu kılar.
 - **Güncelleme desteği:** Desteği biten bir cihaz yeni bulunan güvenlik açıkları için yama almaz. Güncelleme yalnızca yeni özellik değil, kilidi değiştirmektir.
 
 Bu konuyu Hafta 8'de, verinin neden bu kadar değerli olduğunu konuşurken derinleştireceğiz.
@@ -198,7 +206,7 @@ Bir bilgisayarda iki tür hesap vardır: Sistem ayarlarını değiştirebilen ve
 
 ## 6. Açık kaynak ve özgür yazılım (okuma)
 
-Bir yazılımın **kaynak kodu**, insanların okuyabildiği komutlardır. **Kapalı kaynak** yazılımda bu kod gizlidir; yalnızca çalışan program dağıtılır. **Açık kaynak** yazılımda kod herkese açıktır: okunabilir, incelenebilir ve lisansına göre değiştirilip yeniden dağıtılabilir. Özgür yazılım hareketi ise 1980'lerden beri kullanıcının yazılımı çalıştırma, inceleme, değiştirme ve paylaşma özgürlüğünü savunur.
+Bir yazılımın **kaynak kodu**, insanların okuyabildiği komutlardır. **Kapalı kaynak** yazılımda bu kod gizlidir; yalnızca çalışan program dağıtılır. **Açık kaynak** yazılımda kod herkese açıktır: okunabilir, incelenebilir ve lisansına göre değiştirilip yeniden dağıtılabilir. **Özgür yazılım** hareketi ise 1980'lerden beri kullanıcının yazılımı çalıştırma, inceleme, değiştirme ve paylaşma özgürlüğünü savunur.
 
 Açık kaynağın güvenlik savunusu, yazar Eric S. Raymond'ın "Linus yasası" dediği ilkeye dayanır: "Yeterince göz varsa, bütün hatalar sığdır." Kodu çok kişi okuyabildiğinde hatalar daha çabuk bulunabilir. Ama yalnızca açık olmak yetmez; kodu gerçekten okuyan ve bakımını yapan bir topluluk gerekir. Linus Torvalds'ın sık anılan sözü de bu kültürü özetler: "Laf ucuzdur, kodu göster." Açık kaynak lisanslarını (GPL, MIT gibi) Hafta 7'de telif hakkıyla birlikte göreceğiz.
 
@@ -206,7 +214,7 @@ Açık kaynağın güvenlik savunusu, yazar Eric S. Raymond'ın "Linus yasası" 
 
 ### Dosya adı ve uzantı
 
-Bir dosyanın adı iki parçadan oluşur: ad ve uzantı. `staj-raporu.docx` dosyasında `staj-raporu` ad, `docx` uzantıdır. Uzantı, işletim sistemine dosyayı hangi programla açacağını söyler. Örneğin PDF, her cihazda aynı görünmesi için tasarlanmış bir belge biçimidir.
+Bir dosyanın adı iki parçadan oluşur: ad ve **uzantı**. `staj-raporu.docx` dosyasında `staj-raporu` ad, `docx` uzantıdır. Uzantı, işletim sistemine dosyayı hangi programla açacağını söyler. Örneğin PDF, her cihazda aynı görünmesi için tasarlanmış bir belge biçimidir.
 
 | Tür | Sık görülen uzantılar |
 |---|---|
@@ -236,7 +244,7 @@ Dosyalar iç içe klasörlerde durur. Bir dosyanın tam adresine **yol** denir:
 C:\Users\Ali\Belgeler\Staj\2026-10-15_staj-raporu_v2.docx
 ```
 
-Burada `C:` sürücüyü, aradaki adlar klasörleri, en sondaki ise dosyanın kendisini gösterir.
+Burada `C:` sürücüyü, aradaki adlar klasörleri, en sondaki ise dosyanın kendisini gösterir. Telefonda da dosyalar bir klasör ağacında durur: iPhone'da Dosyalar, Android'de çoğu zaman Files ya da Dosyalarım uygulaması bu ağacı gösterir. İndirdiğin bir PDF'i bulamıyorsan önce İndirilenler klasörüne bak.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Diskin adı C: çünkü 'Computer' kelimesinden geliyor." Yanlış. İlk kişisel bilgisayarlarda sabit disk yoktu; programlar disketlerden çalışırdı ve A: ile B: disket sürücülerine ayrılmıştı. Sabit diskler geldiğinde sıradaki harfi, C:'yi aldılar. Disketler kalktı, ama gelenek kaldı.
@@ -244,7 +252,7 @@ Burada `C:` sürücüyü, aradaki adlar klasörleri, en sondaki ise dosyanın ke
 
 ### Dosya sistemi: diskin düzeni
 
-İşletim sistemi dosyaları diske gelişigüzel değil, bir **dosya sistemi** düzeniyle yazar: hangi dosyanın diskin neresinde durduğunu, adını, boyutunu ve izinlerini bu düzen tutar. Windows NTFS, macOS APFS, Linux çoğunlukla ext4 kullanır. USB bellekler ve hafıza kartları ise çoğu zaman **FAT32** ya da **exFAT** ile gelir, çünkü bunları neredeyse her cihaz okuyabilir.
+İşletim sistemi dosyaları diske gelişigüzel değil, bir **dosya sistemi** düzeniyle yazar: hangi dosyanın diskin neresinde durduğunu, adını, boyutunu ve izinlerini bu düzen tutar. Windows **NTFS**, macOS APFS, Linux çoğunlukla ext4 kullanır. USB bellekler ve hafıza kartları ise çoğu zaman **FAT32** ya da **exFAT** ile gelir, çünkü bunları neredeyse her cihaz okuyabilir.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "USB belleğimde 30 GB boş yer var ama 5 GB'lık bir video kopyalanmıyor; bellek bozuk." Büyük olasılıkla yanlış. FAT32 dosya sistemi tek bir dosyayı en fazla 4 GB'a kadar saklayabilir; boş yer ne kadar olursa olsun daha büyük bir dosya kopyalanmaz. Çözüm, belleği exFAT ile biçimlendirmektir. Biçimlendirme içindekileri sildiği için önce dosyaları başka bir yere kopyala. exFAT Windows'ta, macOS'te ve çoğu yeni cihazda okunur; NTFS biçimli bir belleğe ise Mac varsayılan olarak yazamaz, yalnızca okur.
@@ -262,7 +270,7 @@ Taşınabilir belleği çıkarmadan önce "güvenle kaldır" komutunu kullanmak 
 - **Anlamlı ad:** `IMG_2341.jpg` yerine `2026-10-15_hangar-gezisi_01.jpg`.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Hangi revizyon güncel?"}
-Bakımda yalnızca geçerli revizyondaki doküman kullanılır. Bakım el kitapları düzenli olarak revize edilir ve eski bir revizyonla yapılan iş, hatalı bir değer ya da kaldırılmış bir prosedür demek olabilir. Bu yüzden havacılıkta bir dokümanın güncel olup olmadığı dosya adına ya da "son" kelimesine bakılarak değil, onaylı sistemdeki revizyon listesinden kontrol edilir. Kendi dosyalarında tarih ve sürüm numarası kullanmayı alışkanlık haline getirmek, bu disiplinin küçük bir provasıdır.
+Bakımda yalnızca geçerli **revizyondaki** doküman kullanılır. Bakım el kitapları düzenli olarak revize edilir ve eski bir revizyonla yapılan iş, hatalı bir değer ya da kaldırılmış bir prosedür demek olabilir. Bu yüzden havacılıkta bir dokümanın güncel olup olmadığı dosya adına ya da "son" kelimesine bakılarak değil, onaylı sistemdeki revizyon listesinden kontrol edilir. Kendi dosyalarında tarih ve sürüm numarası kullanmayı alışkanlık haline getirmek, bu disiplinin küçük bir provasıdır.
 :::
 
 ## 8. Kapanış: kaybetmemek ve vazgeçmemek
@@ -279,6 +287,12 @@ Bilgisayara sürekli takılı duran bir harici disk tek başına yeterli değild
 
 **Senkronizasyon yedek değildir.** Bulutla eşitlenen bir klasörde bir dosyayı silersen ya da bir fidye yazılımı dosyayı şifrelerse, bu değişiklik birkaç saniye içinde buluta da yansır. Seni kurtaran, bulut hizmetinin **sürüm geçmişi** ya da bilgisayara bağlı olmayan bir kopyadır (bulutu Hafta 4'te ayrıntılı göreceğiz).
 
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Kızlarının hesabına giremeyen bir aile"}
+2012'de Almanya'da 15 yaşında bir kız, bir metro kazasında hayatını kaybetti. Ailesi, ölümün nasıl gerçekleştiğini anlamaya yardım edebilecek mesajlarını okumak için kızlarının Facebook hesabına girmek istedi. Ama hesap "anma" durumuna alınmıştı ve kimse giriş yapamıyordu. Şirket, mesajlaşılan arkadaşların mahremiyetini gerekçe gösterdi. Dava yıllarca sürdü. Almanya Federal Adalet Divanı 12 Temmuz 2018'de karar verdi: Bir sosyal ağ hesabı, tıpkı günlükler ve mektuplar gibi mirasçılara geçer. Şirketler de araç ekledi: Google 2013'te Etkin Olmayan Hesap Yöneticisi'ni, Apple 2021'de Vâris özelliğini sundu; ikisinde de kimin neye erişeceğini önceden sen seçersin. Bedeli şudur: Verini yabancılardan koruyan şifreleme, önceden bir karar vermezsen yakınlarını da dışarıda bırakır.
+
+Senin hesaplarına ve fotoğraflarına bir gün kimin ulaşmasını isterdin, bunu bugün nereye yazdın?
+:::
+
 ### Windows 10 bilgisayarın çöp mü?
 
 Haftanın sorusuna dönelim. Desteği biten bir bilgisayar için seçenekler:
@@ -289,6 +303,8 @@ Haftanın sorusuna dönelim. Desteği biten bir bilgisayar için seçenekler:
 | Ek güvenlik güncellemeleri | Düşük | Süreli | Geçici bir çözümdür |
 | Linux kurmak | Ücretsiz | Yüksek | Bazı programlar çalışmayabilir; önce canlı USB ile denenmeli |
 | Yeni cihaz almak | Yüksek | Yüksek | Eski cihaz elektronik atığa dönüşmemeli; ikinci el ya da bağış düşünülmeli |
+
+Eski bir cihazı satmadan ya da bağışlamadan önce yedeğini al, hesaplarından çık ve fabrika ayarlarına sıfırla. Hesaptan çıkmazsan cihaz yeni sahibinde kilitli kalabilir; sıfırlamazsan fotoğrafların ve mesajların cihazla birlikte gider.
 
 Görüldüğü gibi bir bilgisayarın ömrünü çoğu zaman donanım değil, yazılım desteği belirler; ama bu kaderi değiştirmek için de bir alternatif hep vardır.
 
@@ -306,12 +322,13 @@ Kısa vadede: bugün telefonunun izinlerini düzenler, dosya uzantılarını gö
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Sürüm ve destek tarihleri sık değişir; güncel durumu üreticinin sitesinden kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi. Sürüm ve destek tarihleri sık değişir; güncel durumu üreticinin sitesinden kontrol et.
 
 - **Windows:** Windows 10 desteğinin sonu (14 Ekim 2025) ve ek güvenlik güncellemeleri: [Microsoft, Windows 10 desteğinin sonu](https://www.microsoft.com/tr-tr/windows/end-of-support). Windows 11 donanım gereksinimleri: [Microsoft, Windows 11 özellikleri](https://www.microsoft.com/tr-tr/windows/windows-11-specifications). Kısayollar: [Microsoft, Windows klavye kısayolları](https://support.microsoft.com/tr-tr/windows/windows-klavye-k%C4%B1sayollar%C4%B1-dcc61a57-8ff0-cffe-9796-cb9706c75eec). Yönetici ve standart hesap: [Microsoft Learn, Kullanıcı Hesabı Denetimi](https://learn.microsoft.com/windows/security/application-security/application-control/user-account-control/how-it-works).
 - **Abonelik ve depolama:** [Microsoft 365 aboneliği bitince](https://support.microsoft.com/help/2eb89f06-bd1c-4f57-9269-f1cbab894341); [Google, depolama alanını yönetme](https://support.google.com/drive/answer/6374270).
 - **Dosya sistemleri:** [Apple, Disk İzlencesi'ndeki dosya sistemi biçimleri](https://support.apple.com/tr-tr/guide/disk-utility/dsku19ed921c/mac).
 - **Linux ve Pardus:** [TOP500 süper bilgisayar listesi](https://top500.org); TÜBİTAK ULAKBİM, [Pardus](https://www.pardus.org.tr).
+- **Vakalar:** Münih belediye meclisinin 23 Kasım 2017 kararı: [München RIS, Sitzungsvorlage 14-20 / V 09983](https://risi.muenchen.de/risi/sitzungsvorlage/detail/4642491); Schleswig-Holstein'ın LibreOffice kararı: [eyalet hükümetinin duyurusu, 3 Nisan 2024](https://www.schleswig-holstein.de/DE/landesregierung/ministerien-behoerden/I/Presse/PI/2024/CdS/240403_cds_it-arbeitsplatz); Pardus ETAP: [Millî Eğitim Bakanlığı, 26 Temmuz 2025](https://www.meb.gov.tr/okullarda-mill-isletim-sistemi-pardusun-yeni-surumu-kullanilmaya-baslandi/haber/37895/tr). Dijital miras: [Almanya Federal Adalet Divanı, basın duyurusu 115/2018](https://www.bundesgerichtshof.de/SharedDocs/Pressemitteilungen/DE/2018/2018115.html) (III ZR 183/17, 12 Temmuz 2018); [Google, Etkin Olmayan Hesap Yöneticisi](https://support.google.com/accounts/answer/3036546); [Apple, Vâris ekleme](https://support.apple.com/tr-tr/102631). Cihazı elden çıkarmadan önce: [Apple, iPhone'u satmadan önce yapılacaklar](https://support.apple.com/tr-tr/109511).
 - **Diğer:** Google ve Apple'ın güncelleme ve gizlilik duyuruları; *Revolution OS* (2001); Y.-A. de Montjoye, C. A. Hidalgo, M. Verleysen ve V. D. Blondel, "Unique in the Crowd: The privacy bounds of human mobility", *Scientific Reports* 3, 1376 (2013), [doi:10.1038/srep01376](https://doi.org/10.1038/srep01376).
 
 ## Bu haftanın kavramları

@@ -155,7 +155,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bir bilgisayarın ne zaman "çöp" olacağına donanım mı karar verir, yazılım mı?*
 
-**Okuma:** [ders notu](../docs/03_isletim-sistemleri.qmd), yaklaşık 22 dakika. **DigComp:** 1.3 Bilgiyi yönetme, 4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet.
+**Okuma:** [ders notu](../docs/03_isletim-sistemleri.qmd), yaklaşık 25 dakika. **DigComp:** 1.3 Bilgiyi yönetme, 4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet.
 
 **Bu hafta şunları yapabileceksin:**
 
