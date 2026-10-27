@@ -255,7 +255,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bir saldırı ya da kesinti olduğunda ne kadar etkilenirsin, ne kadar çabuk toparlanırsın?*
 
-**Okuma:** [ders notu](../docs/09_siber-guvenlik.qmd), yaklaşık 26 dakika. **DigComp:** 4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet, 5.1 Teknik sorunlar, 5.3 Yaratıcı çözümler.
+**Okuma:** [ders notu](../docs/09_siber-guvenlik.qmd), yaklaşık 29 dakika. **DigComp:** 4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet, 5.1 Teknik sorunlar, 5.3 Yaratıcı çözümler.
 
 **Bu hafta şunları yapabileceksin:**
 

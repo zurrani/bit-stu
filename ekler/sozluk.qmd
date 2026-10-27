@@ -72,6 +72,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Bilgi (1) | Enformasyonun yorumlanıp anlam kazanmış hali |
 | Bilgi alanı, CC (10) | E-postada bilgisi olması gereken ama kendisinden eylem beklenmeyen alıcıların yazıldığı alan (carbon copy) |
 | Bilgi güvenliği (9) | Bilgiyi ve onu taşıyan sistemleri korumak için alınan önlemlerin bütünü; gizlilik, bütünlük ve erişilebilirlik ilkelerine dayanır |
+| Bilgi hırsızı (9) | Tarayıcıda kayıtlı parolaları, kart bilgilerini ve kripto para cüzdanlarını toplayıp saldırgana gönderen kötü amaçlı yazılım (infostealer) |
 | Bilgi işçisi (1) | Elleriyle değil, bilgiyle çalışan kişi (Peter Drucker, 1959) |
 | Bilgi kesim tarihi (6) | Bir dil modelinin eğitim verisinin bittiği tarih; model bu tarihten sonrasını kendiliğinden bilmez |
 | Bilgi toplumu (1) | Bilginin ve verinin temel üretim gücü haline geldiği toplum |
