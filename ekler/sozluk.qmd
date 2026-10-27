@@ -213,6 +213,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Görev Yöneticisi (3) | Windows'ta çalışan programları ve işlemci, bellek, disk, ağ kullanımını gösteren araç (Ctrl + Shift + Esc) |
 | Gözetim kapitalizmi (8) | İnsan davranışının veri olarak toplanıp davranışı tahmin eden ve yönlendiren ürünlere dönüştürüldüğü ekonomik düzen (Zuboff, 2019) |
 | Grafik arayüz, GUI (3) | Pencere, simge ve fareyle kullanılan arayüz (graphical user interface) |
+| Güvenli elektronik imza (10) | Nitelikli elektronik sertifikaya dayanan, elle atılan imzayla aynı hukuki sonucu doğuran ve imzadan sonra belgede değişiklik yapılıp yapılmadığını gösteren elektronik imza |
 | Hakemli yayın (5) | Yayımlanmadan önce alanın başka uzmanlarınca yöntem ve sonuçları sınanmış makale (peer review); hatasızlık garantisi değil, bir süzgeçtir |
 | Halüsinasyon (6) | Yapay zekânın gerçek olmayan bir bilgiyi kendinden emin bir dille üretmesi |
 | Hat değiştirilebilir birim, LRU (2) | Uçakta arızalandığında bütünüyle çıkarılıp yenisi takılabilecek şekilde tasarlanmış birim (line replaceable unit) |
@@ -260,6 +261,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Kare hızı, fps (2) | Bir videoda saniyede gösterilen kare sayısı (frames per second) |
 | Karma başvuru (12) | Yalnızca satırı ya da yalnızca sütunu sabitleyen hücre başvurusu (`$B2` ya da `B$2`) |
 | Kaynak kodu (3) | Bir yazılımın insanların okuyabildiği komutlardan oluşan metni |
+| Kayıtlı elektronik posta, KEP (10) | Gönderimi ve teslimi de dahil olmak üzere hukuki delil sağlayan, e-postanın nitelikli biçimi |
 | Kaynakça (5) | Bir çalışmada kullanılan kaynakların belirli bir biçimde listelenmesi |
 | Kaynakça yöneticisi (10) | Kaynak bilgilerini bir kez kaydedip metin içi atıfları ve kaynakçayı seçilen biçimde kendiliğinden oluşturan araç |
 | Kelime işlemci (10) | Metin yazmak, düzenlemek, biçimlendirmek ve yazdırmak için kullanılan program (word processor) |

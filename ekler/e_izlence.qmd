@@ -271,7 +271,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *İyi görünen bir belge ile iyi kurulmuş bir belge arasındaki fark nedir?*
 
-**Okuma:** [ders notu](../docs/10_belge-ve-yazisma.qmd), yaklaşık 28 dakika. **DigComp:** 2.1 Etkileşim, 2.4 İş birliği, 2.5 Dijital davranış, 3.1 İçerik geliştirme, 3.2 Bütünleştirme ve yeniden düzenleme.
+**Okuma:** [ders notu](../docs/10_belge-ve-yazisma.qmd), yaklaşık 31 dakika. **DigComp:** 2.1 Etkileşim, 2.4 İş birliği, 2.5 Dijital davranış, 3.1 İçerik geliştirme, 3.2 Bütünleştirme ve yeniden düzenleme.
 
 **Bu hafta şunları yapabileceksin:**
 

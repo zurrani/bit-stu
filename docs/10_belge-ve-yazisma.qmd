@@ -8,8 +8,8 @@ description: "Biçimlendirilmiş değil, yapılandırılmış belge; stiller, ba
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>10 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>28 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.800</dd></div>
+    <div><dt>Okuma süresi</dt><dd>31 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.200</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.4 İş birliği, 2.5 Dijital davranış, 3.1 İçerik geliştirme, 3.2 Bütünleştirme ve yeniden düzenleme</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> İyi görünen bir belge ile iyi kurulmuş bir belge arasındaki fark nedir?</p>
@@ -18,7 +18,7 @@ description: "Biçimlendirilmiş değil, yapılandırılmış belge; stiller, ba
 
 Gece 23.40. Yarın teslim edeceğin 30 sayfalık raporun hazır. Son anda bir mesaj geliyor: "Başa bir özet sayfası ekle." Eklediğin anda her şey kayıyor. Başlıklar sayfanın en altında kalıyor, elle yazdığın içindekilerdeki sayfa numaralarının hepsi yanlış, "Tablo 4" diye andığın tablo artık beşinci. Bir saat boyunca sayfa sayfa düzeltiyorsun. Aynı rapor doğru kurulsaydı bu iş üç dakika sürerdi. Bu hafta o "doğru kurmanın" ne olduğunu öğreneceksin. Sonra belgeni başkalarına göndermenin kurallarına geçeceğiz: kurumsal e-posta. "Üretmek" bloğunun ilk haftasındayız; burada öğreneceğin her şeyi dönem projenin teknik raporunda kullanacaksın.
 
-**Okuma süresi:** yaklaşık 28 dakika.
+**Okuma süresi:** yaklaşık 31 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -45,6 +45,10 @@ Bir **kelime işlemci** (word processor), metin yazmak, düzenlemek, biçimlendi
 | Bir değişiklik her şeyi kaydırır | Bir değişiklik birkaç tıklamayla düzelir |
 
 Bir benzetme: Stiller, bir binanın taşıyıcı sistemidir. Elle biçimlendirme ise her duvarı ayrı ayrı boyamaktır. Duvarlar güzel görünebilir, ama bina yeni bir kata dayanamaz. Taşıyıcı sistem sağlamsa kat eklemek kolaydır.
+
+::: {.callout-note .kutu-endustri title="Endüstriden: Faturayı makine okur"}
+Türkiye'de birçok işletme için fatura artık bir sayfa değil, bir veri dosyasıdır. Gelir İdaresi Başkanlığı'nın (GİB) 2010'da başlattığı e-Fatura uygulamasında fatura, uluslararası UBL standardından uyarlanan UBL-TR biçiminde düzenlenir: Tarih, vergi kimlik numarası, malın cinsi, miktarı ve vergi oranı gibi her bilgi, bir XML dosyasında kendi etiketiyle yer alır. Bu yüzden fatura, kimse yeniden yazmadan alıcının muhasebe programına ve idarenin sistemine akar. Stillerin bir başlığa yaptığını, faturanın her bilgisine yapar. Yürürlükteki tebliğe göre yıllık brüt satış hasılatı 3 milyon lira ve üzeri olan mükellefler e-Faturaya geçmek zorunda. 2026 başından beri e-Arşiv'e geçmemiş mükelleflerin faturaları da tutarına bakılmaksızın elektronik düzenleniyor; basit usuldeki ve işletme defteri tutan mükellefler için bu tarih 2027. Peki sistem çökerse? Tebliğ, arıza ve kesintiler için yeterli miktarda kâğıt fatura bulundurmayı zorunlu tutuyor. Yazdığın bir belgeyi bir gün bir makinenin de okuyacağını bilsen, onu nasıl farklı yazardın?
+:::
 
 Bu notta menü adları Word'ün Türkçe arayüzüne göre verildi. Öğrendiğin mantık ise programdan bağımsızdır: Stil, bölüm, resim yazısı ve değişiklikleri izle bütün kelime işlemcilerde vardır, yalnızca menüdeki yerleri farklıdır. Bir özelliği bulamazsan programın arama kutusuna işlevin adını yaz; menü adları sürümden sürüme biraz değişebilir.
 
@@ -143,6 +147,8 @@ Bakımda iş, serbest metinle değil şablonlarla yürür: görev kartı (task c
 
 **DOCX**, Word'ün düzenlenebilir dosya biçimidir; Google Dokümanlar ve Writer da açıp kaydedebilir. **PDF** (Portable Document Format) ise belgeyi her cihazda aynı görünecek şekilde "dondurur": Yazı tipi, sayfa düzeni ve resimler yerinde kalır. Kural basittir: Karşı taraf belgeyi okuyacak, yazdıracak ya da arşivleyecekse **PDF**; seninle birlikte üzerinde çalışacaksa **DOCX** gönder. Word'de **Dosya > Farklı Kaydet** ile türü PDF seçersin. Başlık stillerini kullandıysan PDF'te de yer işaretleri ve tıklanabilir içindekiler oluşur.
 
+Bir belgeyi imzalaman gerekiyorsa, imzanın taranmış resmini PDF'e yapıştırmak onu elektronik olarak imzalamak değildir. 5070 sayılı Elektronik İmza Kanunu'na göre nitelikli bir elektronik sertifikaya dayanan **güvenli elektronik imza**, elle atılan imzayla aynı hukuki sonucu doğurur ve imzadan sonra belgede bir değişiklik yapılıp yapılmadığını ortaya çıkarır. Resmî şekle bağlı bazı işlemler (örneğin tapu satışı gibi noter ya da resmî memur önünde yapılması gerekenler) bunun dışındadır.
+
 Teslimden önce üç kontrol yap:
 
 1. **Yazım denetimi:** **Gözden Geçir > Yazım ve Dilbilgisi** (F7). Metnin dilinin Türkçe seçili olduğundan emin ol; yoksa doğru kelimeleri de hatalı sayar. Denetim "türü"yle "turu"yu ayırmaz; sonunda bir kez de sesli oku.
@@ -156,6 +162,8 @@ Teslimden önce üç kontrol yap:
 ## 7. Kurumsal e-posta: dijital antetli kâğıt
 
 Hafta 7'de çevrimiçi iletişimin görgü kurallarını, yani **netiketi** görmüştük; kanallara göre ayrıntısı [Ek D](../ekler/d_netiket.qmd) sayfasında. Kurumsal e-posta netiketin resmî halidir. Bir kurumun antetli kâğıdına yazılan mektup nasıl o kurumu temsil ederse, kurumsal adresinden gönderdiğin bir e-posta da seni ve kurumunu temsil eder. Kurumsal e-posta da bir belgedir: Konusu, alıcıları, eki ve imzası onun yapısıdır.
+
+Sıradan bir e-postanın gönderildiğini, ne zaman ulaştığını ve içeriğinin değişmediğini kanıtlamak zordur. Türkiye'de bunun için **kayıtlı elektronik posta** (KEP) vardır: gönderimi ve teslimi de dahil olmak üzere hukuki delil sağlayan, e-postanın nitelikli biçimi. Türk Ticaret Kanunu'na dayanan KEP'i şirketler ve kamu kurumları resmî yazışmada kullanır; örneğin TÜBİTAK, resmî yazılarını kurumların KEP adreslerine gönderiyor. İş hayatında bir gün "KEP adresiniz nedir?" sorusuyla karşılaşabilirsin.
 
 ### Alıcı alanları
 
@@ -203,6 +211,10 @@ Ece Yıldız
 
 **Yanıtla** yalnızca gönderene, **Tümünü yanıtla** bütün alıcılara gider. Kırk kişilik bir duyuruya "Teşekkürler" diye tümünü yanıtlamak kırk gelen kutusunu doldurur; tümünü yanıtla yalnızca herkesin bilmesi gereken bir şey yazıyorsan kullanılır. **İlet** (forward) bir e-postayı başka birine gönderir. İletmeden önce içinde başkasının kişisel bilgisi ya da kendisine yazılmış özel bir not olup olmadığına bak. İlettiğin mesajın başına bir iki cümleyle neden ilettiğini yaz; "Bilginize" (İngilizce kısaltması FYI, for your information) "yalnızca haberin olsun" demektir, "gereğini yap" değil.
 
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: 840.000 kişiye “Tümünü yanıtla”"}
+14 Kasım 2016 sabahı İngiltere'nin kamu sağlık hizmeti NHS'te, Londra'daki bir bilgi işlem çalışanı yerel bir dağıtım listesine boş bir e-posta gönderdi. Tedarikçinin sisteminde bir hata vardı: Liste, NHSmail adresi olan herkesi, yaklaşık 840.000 kişiyi kapsıyordu. Asıl fırtınayı yanıtlar kopardı. Şaşıran alıcılar listeye yanıt yazıp listeden çıkarılmayı istedi; her yanıt yine yüz binlerce gelen kutusuna düştü. Bir çalışan öğleden sonra gelen kutusunda 411 e-posta saydı; başkaları sosyal medyadan meslektaşlarına tümünü yanıtlamayı bırakmaları için seslendi. Basına yansıyan iç rapora göre bir saatten biraz fazla sürede 500 milyon e-posta gönderildi. Sistem saatlerce yavaşladı; sabah gönderilen mesajlar ancak öğleden sonra ulaşabiliyordu. Kurumun bilgi teknolojisi birimi NHS Digital, olayın kullanıcının değil tedarikçi sisteminin hatası olduğunu açıkladı. Ama sistemi kilitleyen, alıcıların tek tek bastığı yanıt düğmeleriydi. O sabah gelen kutunda bu e-postayı görseydin, listeden çıkmak için ne yapardın?
+:::
+
 E-posta kalıcıdır. Silsen bile alıcının kutusunda, sunucularda ve ekran görüntülerinde kalabilir; iletilebilir. Öfkeyle yazdığın bir e-postayı hemen gönderme; taslaklara kaydet ve bir süre sonra yeniden oku. Birçok program gönderimi birkaç saniye geri almana ya da bir e-postayı sonra gönderilmek üzere zamanlamana izin verir.
 
 Son bir bağ: Hafta 9'da oltalama mesajlarının işaretlerini gördün. Kendi e-postan o işaretleri taşımamalı. Kurumsal adresinden yaz, açık bir konu satırı kullan, beklenmedik ya da açıklamasız bir ek ya da bağlantı gönderme. İyi yazılmış bir e-posta alıcısına güven verir; aceleyle yazılmış bir e-posta ise sahtesinden ayırt edilemeyebilir.
@@ -224,7 +236,7 @@ Bir öğretim görevlisine ya da bir kuruma en son yazdığın mesajı bul. Konu
 Bir belgenin ilk okuru gözdür; göz metni okumadan önce sayfanın düzenini görür. **Tipografi**, yazının okunur ve anlaşılır olması için yazı tiplerinin ve sayfa düzeninin seçilmesidir. Birkaç ilke çoğu belgeyi iyileştirir:
 
 - **Az yazı tipi:** Bir belgede bir, en fazla iki yazı tipi yeter: biri metin, biri başlıklar için. Her başlıkta farklı bir yazı tipi, düzen değil gürültü üretir.
-- **Okunur boyut ve satır aralığı:** Ekranda ve kâğıtta metin için 11–12 punto ve yaklaşık 1,15–1,5 satır aralığı çoğu belgede rahat okunur. Kurumunun yazım kılavuzu farklı bir değer istiyorsa ona uy.
+- **Okunur boyut ve satır aralığı:** Ekranda ve kâğıtta metin için 11–12 punto ve yaklaşık 1,15–1,5 satır aralığı çoğu belgede rahat okunur. Kurumunun yazım kılavuzu farklı bir değer istiyorsa ona uy. Türkiye'de kamu kurumlarının yazışmalarında bu değer yönetmelikle belirlenmiştir: Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik'e göre Times New Roman 12 punto ya da Arial 11 punto esastır.
 - **Beyaz alan:** Boşluk israf değildir. Kenar boşlukları ve paragraflar arasındaki boşluk, gözün dinlenmesini ve bölümlerin ayrılmasını sağlar. Paragraf arasını boş satırla değil, stilin "paragraftan sonra" boşluğuyla ver.
 - **Hizalama:** Metni sola yaslamak çoğu zaman en kolay okunan seçenektir. İki yana yaslamak düzgün görünür, ama kelimeler arasında açılan büyük boşluklar okumayı zorlaştırabilir.
 - **Vurgu az olursa işe yarar:** Her şey kalın ve altı çizili olursa hiçbir şey öne çıkmaz.
@@ -273,15 +285,17 @@ Kısa vadede: Ödevlerini, dönem projenin teknik raporunu ve özgeçmişini dah
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; programlar, standartlar ve kaynaklar 25 Ekim 2026'da denetlendi. Menü adları programın sürümüne ve diline göre değişebilir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; programlar, standartlar ve kaynaklar 25 Ekim 2026'da, vakalar ve mevzuat 27 Ekim 2026'da denetlendi. Menü adları programın sürümüne ve diline göre değişebilir.
 
 - **Standartlar:** DOCX: ECMA-376 (5. baskı, 2021): [ecma-international.org](https://ecma-international.org/publications-and-standards/standards/ecma-376/) ve ISO/IEC 29500-1:2016: [iso.org](https://www.iso.org/standard/71691.html); ODF: ISO/IEC 26300-1:2015: [iso.org](https://www.iso.org/standard/66363.html); PDF/A (ISO 19005): [pdfa.org](https://pdfa.org/resource/iso-19005-pdfa/); ASD-STE100 Basitleştirilmiş Teknik İngilizce (Issue 9): [asd-ste100.org](https://asd-ste100.org/assets/files/ASD-STE100_ISSUE9.pdf); APA yazım kuralları (7. baskı).
+- **Mevzuat:** e-Fatura: Vergi Usul Kanunu Genel Tebliği (Sıra No: 509), değişiklikleriyle güncel hali ve UBL-TR, GİB e-Belge mevzuat sayfası: [gib.gov.tr](https://ebelge.gib.gov.tr/efaturamevzuat.html); 5070 sayılı Elektronik İmza Kanunu, madde 5: [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5070&MevzuatTur=1&MevzuatTertip=5); Kayıtlı Elektronik Posta Sistemine İlişkin Usul ve Esaslar Hakkında Yönetmelik (Resmî Gazete, 25 Ağustos 2011), madde 3: [resmigazete.gov.tr](https://www.resmigazete.gov.tr/eskiler/2011/08/20110825-7.htm); TÜBİTAK'ın KEP duyurusu: [tubitak.gov.tr](https://tubitak.gov.tr/tr/duyuru/kayitli-elektronik-posta-kep-kullanimi-hakkinda-duyuru); Resmî Yazışmalarda Uygulanacak Usul ve Esaslar Hakkında Yönetmelik (Resmî Gazete, 10 Haziran 2020), madde 7: [csgb.gov.tr](https://csgb.gov.tr/Media/jcomj5ra/resmi-yaz%C4%B1%C5%9Fmalarda-uygulanacak-usul-ve-esaslar-hakk%C4%B1nda-y%C3%B6netmelik.pdf).
+- **Vakalar:** NHSmail "Tümünü yanıtla" olayı (14 Kasım 2016; NHS Digital'in açıklaması): [publictechnology.net](https://www.publictechnology.net/articles/news/nhs-mail-system-grinds-halt-after-email-list-error), [theregister.com](https://www.theregister.com/2016/11/14/nhs_blames_supplier_accenture_850k_user_reply_all_email/); NHS Digital raporundaki 500 milyon e-posta (Şubat 2017): [infosecurity-magazine.com](https://www.infosecurity-magazine.com/news/email-config-error-led-to-nhs/).
 - **Tarih ve atıflar:** Xerox PARC, Bravo (1974) ve Charles Simonyi: [computerhistory.org](https://computerhistory.org/profile/charles-simonyi/); Microsoft Word'ün ilk sürümü (1983): [microsoft.com](https://www.microsoft.com/en-us/microsoft-365/word/history-of-microsoft-word); Antoine de Saint-Exupéry, *Terre des hommes* (1939); *Helvetica* (Gary Hustwit, 2007): [hustwit.com](https://www.hustwit.com/helvetica).
 - **Programlar:** Microsoft Word, Google Dokümanlar ve LibreOffice Writer'ın Haziran 2026'daki sürümleri. Word'deki Copilot'un abonelik planları: [microsoft.com](https://support.microsoft.com/en-us/microsoft-365-copilot/frequently-asked-questions-about-copilot-in-microsoft-365-subscriptions); Dokümanlar'daki Gemini'nin planları: [google.com](https://one.google.com/about/plans); Zotero: [zotero.org](https://www.zotero.org/); Europass özgeçmiş düzenleyicisi: [europass.europa.eu](https://europass.europa.eu/).
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: kelime işlemci, stil, başlık düzeyi, gezinti bölmesi, otomatik içindekiler, sayfa sonu, bölüm sonu, üst bilgi, alt bilgi, resim yazısı, kaynakça yöneticisi, dipnot, son not, değişiklikleri izle, yorum, şablon, revizyon çubuğu, DOCX, PDF, dijital erişilebilirlik, alternatif metin, belge denetimi, karartma, netiket, konu satırı, Kime alanı, Bilgi alanı (CC), Gizli alan (BCC), tümünü yanıtla, e-posta imzası, geri okuma, tipografi, Basitleştirilmiş Teknik İngilizce, WYSIWYG, açık standart.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: kelime işlemci, stil, başlık düzeyi, gezinti bölmesi, otomatik içindekiler, sayfa sonu, bölüm sonu, üst bilgi, alt bilgi, resim yazısı, kaynakça yöneticisi, dipnot, son not, değişiklikleri izle, yorum, şablon, revizyon çubuğu, DOCX, PDF, güvenli elektronik imza, dijital erişilebilirlik, alternatif metin, belge denetimi, karartma, netiket, kayıtlı elektronik posta (KEP), konu satırı, Kime alanı, Bilgi alanı (CC), Gizli alan (BCC), tümünü yanıtla, e-posta imzası, geri okuma, tipografi, Basitleştirilmiş Teknik İngilizce, WYSIWYG, açık standart.
 
 ## Kendini sına
 
