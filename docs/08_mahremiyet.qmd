@@ -8,8 +8,8 @@ description: "Mahremiyet ve gizlilik; veri ekonomisi ve profilleme; büyük veri
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>8 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>28 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.800</dd></div>
+    <div><dt>Okuma süresi</dt><dd>31 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.200</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 2.6 Dijital kimliği yönetme, 4.2 Kişisel veri ve mahremiyet</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Senin hakkında kim, ne biliyor ve bununla ne yapıyor?</p>
@@ -18,7 +18,7 @@ description: "Mahremiyet ve gizlilik; veri ekonomisi ve profilleme; büyük veri
 
 Geçen hafta dikkatinin bir ürün olduğunu gördün. Bu hafta hikâyenin öbür yarısına bakıyoruz: Ekranda geçirdiğin her dakika veri bırakır. Bu veri nereye gidiyor, nasıl bir profile dönüşüyor, algoritmalar bu profille senin için neye karar veriyor? Sonra yasanın sana tanıdığı haklara ve beş dakikada yapabileceğin ayarlara geçeceğiz. Amaç seni korkutmak değil, verin üzerindeki kontrolü geri almanı sağlamak.
 
-**Okuma süresi:** yaklaşık 28 dakika.
+**Okuma süresi:** yaklaşık 31 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -135,6 +135,12 @@ Bu kararlar hızlı ve tutarlı görünür, ama tarafsız olmayabilir. **Algorit
 
 Bu yüzden önemli kararlarda insan denetimi ve itiraz hakkı önemlidir. KVKK, yalnızca otomatik sistemlerle yapılan bir analizin aleyhine çıkan sonucuna itiraz hakkı tanır (Bölüm 6).
 
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: “Riskli” işaretlenen aileler"}
+Hollanda'da çalışan anne ve babalar, çocuklarının kreş masrafı için devletten yardım alabilir. Vergi idaresi bu başvuruları denetlerken, bazılarını otomatik olarak "riskli" diye işaretleyen bir sistem de kullandı. Çok sayıda ebeveyn haksız yere kasıtlı dolandırıcı sayıldı; küçük bir eksik yüzünden yardımın tamamı geri istenebiliyordu. Meclisin soruşturma komisyonu Aralık 2020'de raporuna "Eşi görülmemiş haksızlık" adını verdi ve hukuk devletinin temel ilkelerinin çiğnendiğini yazdı. Ocak 2021'de hükümet istifa etti. Hollanda'nın veri koruma kurumu, vergi idaresinin başvuranın uyruğunu "Hollandalı mı, değil mi" diye risk sistemine gösterge olarak koyduğunu tespit etti. Oysa yardım hakkı için uyruk değil, ülkede yasal olarak yaşamak önemliydi. Kurum bunu ayrımcı buldu ve 2021'de 2,75 milyon avro ceza verdi. Kurumun başkanına göre devletle işlerinde vatandaşın başka seçeneği yoktur; bu yüzden verisinin ayrımcılık yapılmadan işlendiğinden emin olabilmelidir.
+
+Bir sistem seni "riskli" diye işaretlese, nedenini sorabileceğini bilir miydin?
+:::
+
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Bir seyahat sitesinde aynı bileti üç kez aradın ve fiyat her seferinde arttı. Arkadaşın "Çerezlerini sil, fiyat düşer" diyor. Fiyat seni tanıdığı için mi arttı, yoksa bilet mi azaldı? Bunu nasıl test ederdin?
 :::
@@ -161,7 +167,7 @@ Seni siteden siteye tanıyan birkaç teknoloji var. Hiçbiri tek başına kötü
 
 Hafta 6'da sohbete yazdığın her şeyin hizmet sağlayıcının sunucularına gittiğini gördün. Bunun üç sonucu var:
 
-- **Eğitim verisi:** Bazı sohbet asistanları, ayarlarına bağlı olarak konuşmalarını modelleri geliştirmek için kullanabilir; ayarın adı ve varsayılan değeri ürüne göre değişir. Sosyal medyadaki herkese açık paylaşımlar da yapay zekâ (YZ) eğitiminde kullanılabiliyor; bazı platformlar itiraz yolu sunuyor.
+- **Eğitim verisi:** Bazı sohbet asistanları, ayarlarına bağlı olarak konuşmalarını modelleri geliştirmek için kullanabilir; ayarın adı ve varsayılan değeri ürüne göre değişir. Sosyal medyadaki herkese açık paylaşımlar da yapay zekâ (YZ) eğitiminde kullanılabiliyor; bazı platformlar itiraz yolu sunuyor. Kişisel Verileri Koruma Kurumu da Kasım 2025'te üretken YZ ile kişisel verilerin korunması üzerine bir rehber yayımladı.
 - **Kurumsal veri sızıntısı:** 2023'te büyük bir elektronik şirketinin çalışanları gizli kaynak kodunu bir sohbet asistanına yapıştırdı; şirket ardından üretken YZ kullanımını kısıtladı. Bir müşterinin ya da hastanın verisini bir YZ aracına yapıştırmak, o veriyi izinsiz bir üçüncü tarafa, çoğu zaman da yurt dışına aktarmaktır.
 - **Yüz tanıma:** Yüz, değiştiremeyeceğin bir şifredir. İnternetten milyarlarca fotoğraf toplayarak yüz tanıma veri tabanı kuran şirketler birçok Avrupa ülkesinde ceza aldı; AB'nin Yapay Zekâ Yasası bu tür hedefsiz toplamayı 2025'ten beri yasaklıyor.
 
@@ -228,6 +234,12 @@ Hangi şarta dayanırsa dayansın, veri sorumlusu seni **aydınlatmak** zorundad
 "'Okudum, onaylıyorum' kutusunu işaretlediğimde her şeye rıza vermiş olurum." Yanlış. Aydınlatma seni bilgilendirir, rıza ise bir şeye izin vermektir; metni okuduğunu onaylamak rıza vermek değildir. Açık rıza belirli bir konuya ilişkin, bilgilendirilmeye dayanan ve özgür iradeyle verilmiş olmalıdır. Önceden işaretlenmiş kutular ya da hizmeti reklam iznine bağlayan tek bir "Kabul ediyorum" düğmesi bu koşulları karşılamaz. Öte yandan "Her işlem için açık rıza gerekir" düşüncesi de yanlıştır: Kargo şirketinin adresini kullanması sözleşmeye dayanır, rıza gerekmez. Verdiğin rızayı istediğin zaman geri alabilirsin.
 :::
 
+::: {.callout-note .kutu-endustri title="Endüstriden: Kabul et ya da bırak"}
+Ocak 2021'de WhatsApp kullanıcılarının ekranına yeni kullanım koşulları geldi. Koşullar, kullanıcı verilerinin Facebook şirketleriyle paylaşılmasını da kapsıyordu ve uygulamayı kullanmaya devam etmek için onay vermek gerekiyordu. Türkiye'de iki kurum harekete geçti. Rekabet Kurulu 11 Ocak'ta soruşturma açıp geçici tedbir kararı verdi. WhatsApp güncellemeyi dünya genelinde Mayıs'a erteledi; sonra veri paylaşımını içeren bu değişikliğin, onaylayanlar dahil Türkiye'deki hiçbir kullanıcı için yürürlüğe girmeyeceğini bildirdi. Kişisel Verileri Koruma Kurulu da inceleme başlattı. Eylül 2021'deki kararında, verinin işlenmesine ve yurt dışına aktarılmasına tek bir onayla, hizmetin şartı olarak rıza alınmasını kanuna aykırı buldu. Kurul, şirkete 1.950.000 lira idari para cezası verdi ve metinlerini kanuna uygun hale getirmesini istedi. Seçeneği olmayan bir onay, özgür iradeyle verilmiş sayılmamıştı.
+
+Bir uygulama "Kabul etmezsen hesabın kapanır" dediğinde, gerçekten bir seçeneğin var mı?
+:::
+
 ### Hakların ve başvuru yolu
 
 KVKK'nın 11. maddesi sana dört grup hak tanır:
@@ -243,7 +255,7 @@ Bu hakları kullanmak için önce **veri sorumlusuna**, yazılı olarak ya da ay
 
 Hafta 4'te bulutun belirli bir ülkedeki veri merkezinde durduğunu görmüştün. Kişisel verinin yurt dışına aktarılması ayrı kurallara bağlıdır; 2024'teki değişiklikle bu kurallar AB düzenine yaklaştırıldı: Aktarım, karşı ülkenin yeterli koruma sağladığına dair bir karara, yoksa standart sözleşme gibi güvencelere, o da yoksa sınırlı istisnalara dayanır. Sunucular yurt dışındaysa aydınlatma metninde yazmalıdır.
 
-Verilerin yetkisiz kişilerin eline geçmesine **veri ihlali** denir. Veri sorumlusu ihlali en kısa sürede Kurul'a ve etkilenen kişilere bildirmek zorundadır; Kurul bunun için 72 saat öngörüyor. Böyle bir bildirim alırsan o hesabın ve aynı şifreyi kullandığın hesapların şifresini değiştir; ayrıntısı Hafta 9'da.
+Verilerin yetkisiz kişilerin eline geçmesine **veri ihlali** denir. Veri sorumlusu ihlali en kısa sürede Kurul'a ve etkilenen kişilere bildirmek zorundadır; Kurul bunun için 72 saat öngörüyor. Kurul, kendisine bildirilen ihlallerin bir kısmını sitesinde "Veri İhlali Bildirimleri" başlığıyla duyuruyor; kullandığın bir şirketin adı orada var mı, bakabilirsin. Böyle bir bildirim alırsan o hesabın ve aynı şifreyi kullandığın hesapların şifresini değiştir; ayrıntısı Hafta 9'da.
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: İmzan da kişisel veridir"}
 Bir iş kartını imzaladığında ya da uçağı bakım sonrasında hizmete bırakan belgeyi onayladığında adın, imzan ve yetki numaran kayda geçer. Bu kayıtlar kişisel verindir, ama işlenmeleri rızana bağlı değildir: Havacılık mevzuatı izlenebilirliği zorunlu tutar. Yıllar sonra bir arızanın kökü araştırılırken hangi işi kimin, ne zaman, hangi dokümanın hangi revizyonuna göre yaptığı bilinmelidir. Bu, KVKK'daki "hukuki yükümlülük" şartının gündelik örneğidir: Kaydın silinmesini isteyemezsin, ama doğru olmasını ve yalnızca bu amaçla kullanılmasını bekleyebilirsin.
@@ -271,7 +283,7 @@ Bir öğrencinin tehdit modeli ile bir gazetecininki farklıdır; amaç her şey
 | Google ve diğer hesapların | Kişiselleştirilmiş reklamları kapat ya da ilgi alanlarını düzenle; etkinlik ve konum geçmişine otomatik silme koy |
 | Sosyal medya | Profilin kimlere açık? "Bu reklamı neden görüyorum?" bilgisine bak |
 | YZ asistanları | Konuşmaların model eğitiminde kullanılması ayarını kontrol et |
-| Telefon | İzinleri gözden geçir, reklam kimliğini sıfırla (Hafta 3); kamerada konum etiketini kapat |
+| Telefon | İzinleri gözden geçir, reklam kimliğini sıfırla (Hafta 3); kamerada konum etiketini kapat; hangi uygulamanın konumuna, kamerana ve mikrofonuna ne zaman eriştiğine bak (Android'de gizlilik kontrol paneli, iPhone'da Uygulama Gizlilik Raporu) |
 | E-posta | Uzaktaki görsellerin otomatik yüklenmesini kapat |
 :::
 
@@ -333,9 +345,11 @@ Kısa vadede: Bugün reklam kimliğini sıfırlar, üçüncü taraf çerezleri k
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar, kurul kararları ve rehberler 25 Ekim 2026'da denetlendi. Yasalar ve kurul kararları sık değişir; bir hakkını kullanmadan önce güncel metni kaynağından kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar, kurul kararları ve rehberler 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi. Yasalar ve kurul kararları sık değişir; bir hakkını kullanmadan önce güncel metni kaynağından kontrol et.
 
 - **Türkiye:** Kişisel Verilerin Korunması Kanunu (6698, 2016; 7499 sayılı kanunla yapılan değişiklik, yürürlük Haziran 2024): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=6698&MevzuatTur=1&MevzuatTertip=5); Kişisel Verileri Koruma Kurulu'nun veri ihlali bildirimine ilişkin kararı (72 saat, 2019/10): [kvkk.gov.tr](https://www.kvkk.gov.tr/Icerik/5362/Veri-Ihlali-Bildirimi); çerez uygulamaları rehberi (2022; güncel sürüm Temmuz 2025): [kvkk.gov.tr](https://www.kvkk.gov.tr/SharedFolderServer/CMSFiles/fb193dbb-b159-4221-8a7b-3addc083d33f.pdf); Üretken Yapay Zekâ ve Kişisel Verilerin Korunması Rehberi (Kasım 2025): [kvkk.gov.tr](https://www.kvkk.gov.tr/Icerik/8547/uretken-yapay-zeka-ve-kisisel-verilerin-korunmasi-rehberi-15-soruda).
+- **Vakalar:** WhatsApp: [Rekabet Kurumu, Facebook-WhatsApp soruşturması hakkında basın duyurusu (21 Mayıs 2021)](https://www.rekabet.gov.tr/tr/Guncel/facebook-whatsapp-sorusturmasi-hakkinda--7f1270260cbaeb11812e00505694b4c6); Kişisel Verileri Koruma Kurulu'nun 2021/891 sayılı kararı (3 Eylül 2021): [Anadolu Ajansı'nın haberi](https://www.aa.com.tr/tr/bilim-teknoloji/kisisel-verileri-koruma-kurumundan-whatsappa-1-milyon-950-bin-lira-ceza/2354876). Hollanda: [Tweede Kamer, soruşturma komisyonunun raporu (17 Aralık 2020)](https://www.tweedekamer.nl/nieuws/kamernieuws/eindverslag-onderzoek-kinderopvangtoeslag-overhandigd); [Başbakanın istifa açıklaması (15 Ocak 2021)](https://www.rijksoverheid.nl/documenten/videos/2021/01/15/verklaring-minister-president-rutte-na-afloop-van-ministerraad-15-januari-2021); [Autoriteit Persoonsgegevens, vergi idaresine ceza (7 Aralık 2021)](https://www.autoriteitpersoonsgegevens.nl/actueel/boete-belastingdienst-voor-discriminerende-en-onrechtmatige-werkwijze).
+- **Ayarlar ve bildirimler:** [Kişisel Verileri Koruma Kurumu, Veri İhlali Bildirimleri](https://www.kvkk.gov.tr/veri-ihlali-bildirimi); [Android, gizlilik](https://www.android.com/intl/tr_tr/safety/privacy/); [Apple, Uygulama Gizlilik Raporu duyurusu (Haziran 2021)](https://www.apple.com/tr/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/).
 - **Avrupa Birliği:** Veri koruma direktifi (95/46/EC), Genel Veri Koruma Tüzüğü (2016/679): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2016/679/oj), Yapay Zekâ Yasası (2024/1689; yasaklı uygulamalar Şubat 2025'ten beri): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2024/1689/oj).
 - **Araştırma ve olaylar:** Latanya Sweeney, "Simple Demographics Often Identify People Uniquely" (2000): [dataprivacylab.org](https://dataprivacylab.org/projects/identifiability/paper1.pdf); Shoshana Zuboff, *The Age of Surveillance Capitalism* (2019); Cambridge Analytica (2018), Strava ısı haritası (2018), İngiltere'deki sınav notu algoritması (2020), ABD'de gizli mod davası (2024); ABD Federal Ticaret Komisyonu'nun sürüş verisi kararı (Ocak 2026): [ftc.gov](https://www.ftc.gov/news-events/news/press-releases/2026/01/ftc-finalizes-order-settling-allegations-gm-onstar-collected-sold-geolocation-data-without-consumers).
 

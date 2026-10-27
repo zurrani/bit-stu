@@ -237,7 +237,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Senin hakkında kim, ne biliyor ve bununla ne yapıyor?*
 
-**Okuma:** [ders notu](../docs/08_mahremiyet.qmd), yaklaşık 28 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 2.6 Dijital kimliği yönetme, 4.2 Kişisel veri ve mahremiyet.
+**Okuma:** [ders notu](../docs/08_mahremiyet.qmd), yaklaşık 31 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 2.6 Dijital kimliği yönetme, 4.2 Kişisel veri ve mahremiyet.
 
 **Bu hafta şunları yapabileceksin:**
 
