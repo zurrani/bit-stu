@@ -15,6 +15,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Açık kaynak (3) | Kaynak kodu herkese açık, lisansına göre incelenip değiştirilebilen yazılım |
 | Açık rıza (8) | Belirli bir konuya ilişkin, bilgilendirilmeye dayanan ve özgür iradeyle verilen izin; KVKK'daki işleme şartlarından yalnızca biridir |
 | Açık standart (10) | Herkesin inceleyip kullanabileceği biçimde belgelenmiş dosya ya da iletişim biçimi; DOCX ve ODT belge biçimleri buna örnektir |
+| Açık veri (11) | Kamu kurumlarının herkesin indirip kullanabileceği biçimde yayımladığı veri; çoğu zaman CSV ya da XLSX olarak sunulur |
 | Açılır liste (11) | Veri doğrulamayla bir hücreye yalnızca listeden seçilen değerlerin girilmesini sağlayan kural |
 | Adil kültür (7) | Hatayı ve tehlikeyi bildireni cezalandırmayan, ama kasıt ve ağır ihmali korumayan güvenlik kültürü (just culture) |
 | ADS-B (4) | Uçağın konumunu, irtifasını ve hızını düzenli olarak yayınladığı gözetim sistemi (Automatic Dependent Surveillance–Broadcast) |
