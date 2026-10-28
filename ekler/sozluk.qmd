@@ -81,7 +81,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Bilgisayar (1) | Aritmetik ve mantıksal işlem dizilerini otomatik yürütmek üzere programlanabilen makine |
 | Bilgisayarsız sunum (13) | Slayt ya da projeksiyon kullanmadan; tahta, kâğıt tahta, poster, nesnenin kendisi ya da yalnızca konuşmayla yapılan sunum |
 | Bilim (1) | Evreni ve doğayı anlamak için sistematik bilgi üretme çabası |
-| Bilişim (1) | Bilginin, özellikle elektronik makineler aracılığıyla düzenli biçimde işlenmesi; Fransızca "informatique" karşılığı (1971) |
+| Bilişim (1) | Bilginin, özellikle elektronik makineler aracılığıyla düzenli biçimde işlenmesi; enformatik |
 | Birinci taraf çerezi (8) | Ziyaret edilen sitenin kendi çerezi; oturumu ve sepeti hatırlamak gibi işlere yarar |
 | Birincil kaynak (5) | Bilginin ilk ortaya çıktığı yer (yönetmeliğin metni, araştırmanın makalesi, resmî rapor) |
 | Birleştirilmiş hücre (11) | Birkaç hücrenin tek hücre gibi gösterilmesi; görüntüyü güzelleştirir ama sıralamayı ve analizi bozar |

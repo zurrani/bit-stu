@@ -123,7 +123,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Teknoloji hayatımızı kolaylaştırıyorsa, neden her seferinde bir bedeli de oluyor?*
 
-**Okuma:** [ders notu](../docs/01_teknoloji-neyi-cozer.qmd), yaklaşık 25 dakika. **DigComp:** 5.4 Dijital yetkinlik ihtiyaçları.
+**Okuma:** [ders notu](../docs/01_teknoloji-neyi-cozer.qmd), yaklaşık 27 dakika. **DigComp:** 5.4 Dijital yetkinlik ihtiyaçları.
 
 **Bu hafta şunları yapabileceksin:**
 
