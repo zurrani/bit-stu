@@ -28,3 +28,4 @@
 .sema-not svg .s-ok-vurgu { stroke: var(--sema-vurgu); stroke-width: 3; fill: none; }
 .sema-not svg .s-ok-vurgu-uc { fill: var(--sema-vurgu); }
 .sema-not svg .s-nokta { fill: var(--sema-amber); }
+.sema-not svg .s-dolu-soluk { fill: var(--sema-ikincil); opacity: .35; }

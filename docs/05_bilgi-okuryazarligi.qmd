@@ -8,8 +8,8 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>5 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>22 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.000</dd></div>
+    <div><dt>Okuma süresi</dt><dd>23 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.100</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.1 Arama ve filtreleme, 1.2 Bilgiyi değerlendirme, 3.3 Telif ve lisanslar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> İnternette bulduğun bir bilginin doğru olduğundan nasıl emin olursun?</p>
@@ -18,7 +18,7 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
 
 Aramak hiç bu kadar kolay olmamıştı; doğruyu bulmak ise hiç bu kadar zor olmamıştı. Bu hafta arama motorlarının nasıl çalıştığını ve onları nasıl daha iyi kullanacağını, sonra da asıl beceriyi öğreneceksin: bir bilginin, bir sitenin, bir fotoğrafın ya da bir alıntının güvenilir olup olmadığını birkaç dakikada sınamayı. Bu beceri gelecek hafta yapay zekâyla çalışırken de en büyük koruman olacak.
 
-**Okuma süresi:** yaklaşık 22 dakika.
+**Okuma süresi:** yaklaşık 23 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -185,12 +185,39 @@ Bir uyarıyı paylaşmadan önce onu ilk kimin yaptığına ve kanıtının ne o
 
 ### Sayılarla yanıltmak
 
-Yanlış bilgi her zaman yalan söylemez; bazen doğru sayıyı yanıltıcı biçimde sunar. En sık görülen dört hile:
+Yanlış bilgi her zaman yalan söylemez; bazen doğru sayıyı yanıltıcı biçimde sunar. En sık görülen dört hile ve her birine karşı sorulacak soru:
 
-- **Yüzde ile sayıyı karıştırmak:** "Kazalar yüzde 100 arttı" başlığı korkutucudur; ama bir kazanın iki kaza olması da yüzde 100 artıştır. Yüzdeyi gördüğünde "kaçtan kaça?" diye sor.
-- **Göreli riski mutlak risk gibi sunmak:** Bir ilacın bir yan etkiyi "iki katına çıkardığı" söylenebilir; risk on binde birden on binde ikiye çıkmışsa bu, çoğu insan için çok küçük bir farktır.
-- **Küçük ya da seçilmiş örneklem:** Bir sitenin "okurlarımızın yüzde 90'ı katılıyor" anketi, o siteyi okuyan ve ankete katılmayı seçen kişileri ölçer; toplumu değil.
-- **Birlikte olmayı neden sanmak:** Yaz aylarında hem dondurma satışı hem boğulma vakaları artar; dondurma boğulmaya yol açmaz, ikisinin ortak nedeni sıcak havadır. İki şeyin birlikte artması (**korelasyon**), birinin ötekine yol açtığını (**nedensellik**) göstermez.
+| Hile | Örnek | Sor |
+|---|---|---|
+| Yüzde ile sayıyı karıştırmak | "Kazalar yüzde 100 arttı": bir kazanın iki kaza olması da yüzde 100 artıştır | Kaçtan kaça? |
+| Göreli riski mutlak risk gibi sunmak | "Yan etki riski iki katına çıktı": risk on binde birden on binde ikiye çıkmış olabilir | Kaç kişide? |
+| Küçük ya da seçilmiş örneklem | "Okurlarımızın yüzde 90'ı katılıyor": anket, siteyi okuyan ve katılmayı seçenleri ölçer; toplumu değil | Kimi ölçtü? |
+| Birlikte olmayı neden sanmak | Yazın hem dondurma satışı hem boğulma vakaları artar; ortak neden sıcak havadır | Üçüncü bir neden var mı? |
+
+**Örneklem**, bir araştırmada ölçülen ve bütün topluluğu temsil etmesi beklenen gruptur. İki şeyin birlikte artması (**korelasyon**), birinin ötekine yol açtığını (**nedensellik**) göstermez. **Göreli risk** bir riskin kaç kat değiştiğini, **mutlak risk** ise olayın gerçekte kaç kişide yaşandığını söyler. Aşağıdaki iki kare aynı haberi iki yoldan gösteriyor:
+
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 430" role="img" aria-labelledby="sema-risk-baslik">
+<title id="sema-risk-baslik">Göreli ve mutlak risk: Her kare 10.000 kişiyi gösteriyor. Soldaki karede yan etki yaşayan 1 kişi, sağdakinde 2 kişi işaretli. Risk iki katına çıkmış, ama 10.000 kişide yalnızca 1 kişi daha etkileniyor; işaretli kişiler karenin içinde zor seçiliyor.</title>
+<defs><pattern id="sema-risk-desen" width="3" height="3" patternUnits="userSpaceOnUse"><rect class="s-dolu-soluk" width="2.2" height="2.2"/></pattern></defs>
+<text class="s-bas" x="190" y="28" font-size="23" text-anchor="middle">Önce: on binde 1</text>
+<text class="s-bas" x="530" y="28" font-size="23" text-anchor="middle">Sonra: on binde 2</text>
+<rect x="40" y="44" width="300" height="300" fill="url(#sema-risk-desen)"/>
+<rect x="380" y="44" width="300" height="300" fill="url(#sema-risk-desen)"/>
+<rect class="s-dolu-amber" x="187" y="191" width="3" height="3"/>
+<rect class="s-dolu-amber" x="527" y="191" width="3" height="3"/>
+<rect class="s-dolu-amber" x="545" y="230" width="3" height="3"/>
+<circle class="s-cizgi-vurgu" cx="188.5" cy="192.5" r="13" stroke-width="2.5"/>
+<circle class="s-cizgi-vurgu" cx="528.5" cy="192.5" r="13" stroke-width="2.5"/>
+<circle class="s-cizgi-vurgu" cx="546.5" cy="231.5" r="13" stroke-width="2.5"/>
+<text class="s-ikincil" x="360" y="372" font-size="17" text-anchor="middle">Her kare 10.000 kişi; işaretli kareler yan etki yaşayanlar (kurgusal örnek)</text>
+<text x="190" y="408" font-size="18" text-anchor="middle">Göreli risk: <tspan class="s-bas" font-size="21">iki katı</tspan></text>
+<text x="530" y="408" font-size="18" text-anchor="middle">Mutlak fark: <tspan class="s-bas" font-size="21">10.000 kişide 1 kişi</tspan></text>
+</svg>
+<figcaption>Aynı değişiklik: "Risk iki katına çıktı" başlığı korkutur, "10.000 kişiden biri daha" cümlesi ise ölçüyü gösterir. İkisi de doğrudur; karar vermek için ikisine birlikte bakarsın.</figcaption>
+</figure>
+```
 
 Grafiklerle yapılan hileleri, örneğin sıfırdan başlamayan eksenleri, Hafta 12'de göreceğiz.
 
@@ -214,15 +241,27 @@ Eski bir fotoğraf yeni bir olay gibi paylaşılabilir; bir başka ülkede çeki
 
 Bir haberin, resmî bir yazının ya da bir paylaşımın ekran görüntüsü de kanıt değildir: Tarayıcıda birkaç tıkla sayfadaki metin değiştirilip görüntüsü alınabilir. Ekran görüntüsünün izini, asıl sayfaya ya da kurumun kendi hesabına giderek sür.
 
-Türkiye'de Teyit ve Doğruluk Payı gibi **doğrulama platformları**, yaygın iddiaları inceleyip sonuçlarını yayımlar. Bir sayfanın ya da açıklamanın geçmişteki halini görmek için **Wayback Machine** kullanılabilir.
+Türkiye'de Teyit ve Doğruluk Payı gibi **doğrulama platformları**, yaygın iddiaları inceleyip sonuçlarını yayımlar. Bir sayfanın ya da açıklamanın geçmişteki halini görmek için **Wayback Machine** kullanılabilir. Aracı, neyi doğruladığına göre seç; araçların adları değişebilir, yaptıkları iş kalır:
+
+| Neyi doğruluyorsun? | Araç | Ne gösterir? |
+|---|---|---|
+| Fotoğraf | Google Lens, TinEye | Görselin internette ilk ne zaman, nerede yayımlandığı |
+| Yaygın bir iddia | Teyit, Doğruluk Payı | İddianın daha önce incelenip incelenmediği ve sonucu |
+| Bir sayfanın eski hali | Wayback Machine (web.archive.org) | Sayfanın geçmiş tarihlerdeki kopyası; silinen ya da değiştirilen metin |
+| Bir alıntı | Quote Investigator; sözün ilk yayımlandığı kitap ya da gazete | Sözün bilinen en eski kaynağı |
+| Bir makale | Google Akademik, DergiPark, doi.org | Makalenin gerçekten var olup olmadığı ve künyesi |
+| Bir ekran görüntüsü | Kurumun ya da kişinin kendi sitesi ve hesabı | Paylaşımın asıl yerinde durup durmadığı |
 
 ### Alıntılar
 
-Ünlü sözlerin önemli bir kısmı ya hiç söylenmemiştir ya da başka birine aittir. Teknoloji tarihindeki "gaflar" listeleri bunun iyi bir örneğidir:
+Ünlü sözlerin önemli bir kısmı ya hiç söylenmemiştir ya da başka birine aittir. Teknoloji tarihindeki "gaflar" listeleri bunun iyi bir örneğidir. Kaynağı bulunamayan bir söz için doğru ifade "atfedilir"dir:
 
-- "Patent bürosunun kapatılması gerek, icat edilecek her şey icat edildi" sözü 1899'da ABD Patent Bürosu başkanı Charles Duell'e atfedilir; ama Duell'in böyle bir şey söylediğine dair kanıt yoktur.
-- "640 KB bellek herkese yeter" sözü Bill Gates'e atfedilir; Gates bunu söylediğini defalarca reddetmiştir ve bir kaynak bulunamamıştır.
-- "Dünya pazarında belki beş bilgisayara yer var" sözü IBM'in başkanı Thomas Watson'a atfedilir; bunun da güvenilir bir kaynağı yoktur.
+| Söz | Kime atfedilir? | Ne biliyoruz? |
+|---|---|---|
+| "Patent bürosunun kapatılması gerek, icat edilecek her şey icat edildi." | Charles Duell, ABD Patent Bürosu başkanı, 1899 | Söylediğine dair kanıt yok; söz ilk kez 1981'de, kaynak göstermeyen bir kitapta görülür. Duell'in 1899 raporu ise icadı destekler. |
+| "640 KB bellek herkese yeter." | Bill Gates, 1981 | Kaynağı bulunamadı; Gates 1996'da bunu söylemediğini yazdı. |
+| "Dünya pazarında belki beş bilgisayara yer var." | Thomas Watson, IBM, 1943 | Güvenilir kaynağı yok. IBM'in bir 1953 konuşmasının çarpıtılmış hali olabilir: Şirket yeni bilgisayarı için beş sipariş beklemiş, 18 sipariş almıştı. |
+| "Gelecekte bilgisayarların ağırlığı belki 1,5 tonu geçmeyecek." | *Popular Mechanics*, 1949 | Gerçek, ama bağlamından koparılmış (aşağıda). |
 
 Bir alıntı gerçek olsa bile bağlamından koparılınca yanıltıcı olabilir. 1949'da Popular Mechanics dergisi, gelecekte bilgisayarların "belki yalnızca 1,5 ton" ağırlığında olabileceğini yazmıştı. Bu cümle bugün bir gaf olarak paylaşılır. Oysa o yıllarda ENIAC 30 ton ağırlığındaydı; dergi aslında bilgisayarların yirmi kat hafifleyeceğini öngörüyordu ve bu, kendi zamanı için iyimser bir tahmindi.
 
@@ -275,7 +314,7 @@ Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi. Arama operatörleri arama motoru değiştikçe değişir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da, tablolar ve risk şeması 28 Ekim 2026'da eklendi. Arama operatörleri arama motoru değiştikçe değişir.
 
 - **Araştırmalar:** Sam Wineburg ve Sarah McGrew, yanal okuma (Stanford Tarih Eğitimi Grubu, 2017); Mike Caulfield, SIFT (2019); Soroush Vosoughi, Deb Roy ve Sinan Aral, "The spread of true and false news online", *Science* 359, 1146–1151 (2018), [doi:10.1126/science.aap9559](https://doi.org/10.1126/science.aap9559); Claire Wardle ve Hossein Derakhshan, Avrupa Konseyi raporu (2017).
 - **Bilim ve istatistik:** Wakefield ve arkadaşlarının 1998 tarihli makalesi ve *The Lancet*'in geri çekme kararı (2010), [doi:10.1016/S0140-6736(10)60175-4](https://doi.org/10.1016/S0140-6736(10)60175-4); DOI sistemi: [doi.org, DOI nedir?](https://www.doi.org/the-identifier/what-is-a-doi/).
@@ -283,7 +322,7 @@ Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle
 - **Reklam:** Ticari Reklam ve Haksız Ticari Uygulamalar Yönetmeliği, madde 23/A, sosyal medya etkileyicileri (değişiklik: Resmî Gazete, 1 Temmuz 2026; yürürlük 1 Ağustos 2026): [Resmî Gazete](https://www.resmigazete.gov.tr/eskiler/2026/07/20260701-9.htm).
 - **Vakalar:** Theranos: [ABD Menkul Kıymetler ve Borsa Komisyonu, 14 Mart 2018](https://www.sec.gov/news/press-release/2018-41); [ABD Adalet Bakanlığı, Holmes kararı, 18 Kasım 2022](https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-sentenced-more-11-years-defrauding-theranos-investors-hundreds); [ABD Adalet Bakanlığı, Balwani kararı, 7 Aralık 2022](https://www.justice.gov/usao-ndca/pr/theranos-president-sentenced-more-12-years-fraud-jeopardized-patient-health-and-bilked); J. P. A. Ioannidis, "Stealth research", *JAMA* 313(7), 663–664 (2015), [doi:10.1001/jama.2014.17662](https://doi.org/10.1001/jama.2014.17662). Momo: A. Phippen ve E. Bond, *Digital Ghost Stories: Impact, Risks and Reasons*, [SWGfL](https://swgfl.org.uk/research/digital-ghost-stories-impact-risks-and-reasons/).
 - **Platformlar:** [WhatsApp, iletme sınırları](https://faq.whatsapp.com/1053543185312573); [Google DeepMind, SynthID](https://deepmind.google/models/synthid/).
-- **Alıntılar:** Jonathan Swift, *The Examiner* (1710); John Naisbitt, *Megatrends* (1982); William Bruce Cameron, *Informal Sociology* (1963); *Popular Mechanics*, Mart 1949.
+- **Alıntılar:** Jonathan Swift, *The Examiner* (1710); John Naisbitt, *Megatrends* (1982); William Bruce Cameron, *Informal Sociology* (1963); *Popular Mechanics*, Mart 1949. Gaflar tablosu: Samuel Sass, "A Patently False Patent Myth", *Skeptical Inquirer* 13 (1989), 310–313 (Duell); Quote Investigator, [640K](https://quoteinvestigator.com/2011/09/08/640k-enough/) (Gates) ve [beş bilgisayar](https://quoteinvestigator.com/2026/08/29/market-five/) (Watson).
 - **Araçlar:** Google'ın arama operatörleri (Haziran 2026'daki durum); Teyit ve Doğruluk Payı; Swift alıntısının kaynağı: [Quote Investigator](https://quoteinvestigator.com/2014/07/13/truth/).
 
 ## Bu haftanın kavramları
