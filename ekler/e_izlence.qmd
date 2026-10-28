@@ -309,7 +309,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?*
 
-**Okuma:** [ders notu](../docs/12_veriyle-calismak-2.qmd), yaklaşık 22 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler.
+**Okuma:** [ders notu](../docs/12_veriyle-calismak-2.qmd), yaklaşık 23 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -373,7 +373,7 @@ Bir AKTS kredisi yaklaşık 25–30 saatlik öğrenci emeğine karşılık gelir
 | Etkinlik | Hesap | Saat |
 |---|---|---|
 | Ders | 14 hafta × 2 saat | 28 |
-| Notu önceden okuma | 14 notun ölçülen okuma süresi, yaklaşık 386 dakika | 6,4 |
+| Notu önceden okuma | 14 notun ölçülen okuma süresi, yaklaşık 387 dakika | 6,4 |
 | Haftalık ödevler (Hafta 1–9) | 9 × yaklaşık 1,5 saat | 13,5 |
 | Föylerin evde tamamlanması (Hafta 10–12) | 3 × yaklaşık 1,5 saat | 4,5 |
 | Hafta 10–14 ödevleri ve proje adımları | Rapor, veri analizi, sunum hazırlığı, son teslim | 12,5 |

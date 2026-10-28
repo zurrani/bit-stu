@@ -8,8 +8,8 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>12 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>22 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.000</dd></div>
+    <div><dt>Okuma süresi</dt><dd>23 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.100</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?</p>
@@ -18,7 +18,7 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 
 Ekranda aynı veriyle çizilmiş iki grafik var. İkisi de bir laboratuvarın üç aylık arıza sayısını gösteriyor: 40, 49 ve 31. Birincisinde çubuklar birbirine yakın; ikincisinde Ekim çubuğu Eylül'ün neredeyse iki katı, Kasım ise yerle bir. Hangisi doğru? İkisi de. Aradaki tek fark, ikinci grafiğin dikey ekseninin sıfırdan değil 30'dan başlaması. Üstelik bir tuzak daha var: Kasım verisi ayın yalnızca ilk üç haftasını kapsıyor; Kasım'da arızalar azalmadı, ay henüz bitmedi. Geçen hafta veriyi düzenli hale getirdin. Bu hafta o veriden sonuç çıkaracaksın: Formül veriyi bir soruya, özet tablo soruyu bir cevaba, grafik cevabı bir karara çevirir. Ama her adımda yanılma ihtimali var; bu yüzden sonucu sınamayı da öğreneceksin.
 
-**Okuma süresi:** yaklaşık 22 dakika.
+**Okuma süresi:** yaklaşık 23 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -69,18 +69,18 @@ Bakım mühendisliğinde bir parçanın güvenilirliği çoğu zaman **arızalar
 
 ## 3. Temel ve mantıksal işlevler
 
-Türkçe Excel'de işlev adları Türkçedir ve **bağımsız değişken**ler noktalı virgülle ayrılır. En sık kullanılanlar:
+Türkçe Excel'de işlev adları Türkçedir ve **bağımsız değişken**ler noktalı virgülle ayrılır. İngilizce kaynaklarda ve YZ asistanlarının önerdiği formüllerde aynı işlevler çoğu zaman İngilizce adlarıyla ve virgülle yazılır; tablodaki ikinci sütun bu yüzden var. En sık kullanılanlar:
 
 ::: {.tablo-kaydir}
-| İşlev | Ne yapar? | Örnek |
-|---|---|---|
-| TOPLA | Aralığın toplamı | `=TOPLA(J2:J121)` |
-| ORTALAMA | Aritmetik ortalama | `=ORTALAMA(J2:J121)` |
-| ORTANCA | Sıralanınca ortada kalan değer (medyan) | `=ORTANCA(J2:J121)` |
-| MAK, MİN | En büyük ve en küçük değer | `=MAK(J2:J121)` |
-| BAĞ_DEĞ_SAY | Sayı içeren hücrelerin sayısı | `=BAĞ_DEĞ_SAY(J2:J121)` |
-| BAĞ_DEĞ_DOLU_SAY | Boş olmayan hücrelerin sayısı | `=BAĞ_DEĞ_DOLU_SAY(A2:A121)` |
-| YUVARLA | Değeri gerçekten yuvarlar (biçim yalnızca gösterir) | `=YUVARLA(J2;1)` |
+| İşlev | İngilizce adı | Ne yapar? | Örnek |
+|---|---|---|---|
+| TOPLA | SUM | Aralığın toplamı | `=TOPLA(J2:J121)` |
+| ORTALAMA | AVERAGE | Aritmetik ortalama | `=ORTALAMA(J2:J121)` |
+| ORTANCA | MEDIAN | Sıralanınca ortada kalan değer (medyan) | `=ORTANCA(J2:J121)` |
+| MAK, MİN | MAX, MIN | En büyük ve en küçük değer | `=MAK(J2:J121)` |
+| BAĞ_DEĞ_SAY | COUNT | Sayı içeren hücrelerin sayısı | `=BAĞ_DEĞ_SAY(J2:J121)` |
+| BAĞ_DEĞ_DOLU_SAY | COUNTA | Boş olmayan hücrelerin sayısı | `=BAĞ_DEĞ_DOLU_SAY(A2:A121)` |
+| YUVARLA | ROUND | Değeri gerçekten yuvarlar (biçim yalnızca gösterir) | `=YUVARLA(J2;1)` |
 :::
 
 **Ortalama ile ortanca** farklı şeyler söyler. Bir arıza tablosunda çözüm sürelerinin ortalaması 22,6 saat, ortancası 8 saat çıkabilir. Fark, birkaç çok uzun süren arızadan gelir: Parçası yurt dışından gelen bir cihazın 96 saatlik arızası ortalamayı yukarı çeker ama ortancayı pek etkilemez. Böyle bir veride "bir arıza tipik olarak ne kadar sürede çözülür?" sorusunun dürüst cevabı ortancadır; "toplam ne kadar zaman kaybettik?" sorusunun cevabı ise toplamdır. Diğerlerinden çok uzak duran bu tür değerlere **aykırı değer** denir; silinmez, ama varlığı yoruma yazılır.
@@ -102,13 +102,13 @@ VE, bütün koşullar doğruysa; YADA, koşullardan en az biri doğruysa "doğru
 Çoğu soru "kaç tane?" ya da "toplam ne kadar?" diye başlar ve bir koşul içerir. Bunlar için **koşullu özet işlevleri** vardır:
 
 ::: {.tablo-kaydir}
-| İşlev | Soru | Örnek |
-|---|---|---|
-| EĞERSAY | Koşula uyan kaç kayıt var? | `=EĞERSAY(E2:E121; "Bilgisayar")` |
-| ETOPLA | Koşula uyan kayıtların toplamı | `=ETOPLA(E2:E121; "Bilgisayar"; J2:J121)` |
-| EĞERORTALAMA | Koşula uyan kayıtların ortalaması | `=EĞERORTALAMA(E2:E121; "Bilgisayar"; J2:J121)` |
-| ÇOKEĞERSAY | Birden çok koşula uyan kaç kayıt var? | `=ÇOKEĞERSAY(D2:D121; "LAB-2"; H2:H121; "Yüksek")` |
-| ÇOKETOPLA | Birden çok koşula uyan kayıtların toplamı | `=ÇOKETOPLA(J2:J121; D2:D121; "LAB-2"; C2:C121; "Ekim")` |
+| İşlev | İngilizce adı | Soru | Örnek |
+|---|---|---|---|
+| EĞERSAY | COUNTIF | Koşula uyan kaç kayıt var? | `=EĞERSAY(E2:E121; "Bilgisayar")` |
+| ETOPLA | SUMIF | Koşula uyan kayıtların toplamı | `=ETOPLA(E2:E121; "Bilgisayar"; J2:J121)` |
+| EĞERORTALAMA | AVERAGEIF | Koşula uyan kayıtların ortalaması | `=EĞERORTALAMA(E2:E121; "Bilgisayar"; J2:J121)` |
+| ÇOKEĞERSAY | COUNTIFS | Birden çok koşula uyan kaç kayıt var? | `=ÇOKEĞERSAY(D2:D121; "LAB-2"; H2:H121; "Yüksek")` |
+| ÇOKETOPLA | SUMIFS | Birden çok koşula uyan kayıtların toplamı | `=ÇOKETOPLA(J2:J121; D2:D121; "LAB-2"; C2:C121; "Ekim")` |
 :::
 
 Koşul bir hücreden de gelebilir: `=EĞERSAY($E$2:$E$121; A2)`. Bu formülü bir cihaz türleri listesinin yanında aşağı kopyaladığında her satır kendi türünü sayar. Aralık mutlak başvuruyla sabitlendiği için kaymaz; aranan değer ise göreli olduğu için kayar. Bölüm 2'deki iki başvuru türü burada birlikte çalışır.
@@ -177,6 +177,49 @@ Grafiği seçmek kadar onu dürüst çizmek de önemlidir. Sık görülen yanıl
 - **Etiketsiz eksen:** Birimi olmayan bir eksen (saat mi, gün mü, adet mi?) okura tahmin ettirir.
 - **Yalnızca renkle ayrım:** Hafta 10'daki erişilebilirlik ilkesi grafikler için de geçerlidir; seriler etiketle ya da desenle de ayrılmalıdır.
 
+Aşağıdaki iki grafik aynı üç sayıyı gösteriyor; yalnızca dikey eksenin başladığı yer farklı:
+
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 340" role="img" aria-labelledby="sema-eksen-baslik">
+<title id="sema-eksen-baslik">Kırpılmış eksen: Aynı kurgusal veri, LAB-1 46, LAB-2 43, LAB-3 41 arıza, iki çubuk grafikte. Ekseni 0'dan başlayan solda çubuklar neredeyse eşit; ekseni 40'tan başlayan sağda LAB-1'in çubuğu LAB-3'ünkinin altı katı uzun görünüyor.</title>
+<text class="s-bas" x="200" y="24" font-size="22" text-anchor="middle">Eksen 0'dan başlıyor</text>
+<text class="s-ikincil" x="200" y="48" font-size="17" text-anchor="middle">üç laboratuvar birbirine yakın</text>
+<text class="s-bas" x="560" y="24" font-size="22" text-anchor="middle">Eksen 40'tan başlıyor</text>
+<text class="s-ikincil" x="560" y="48" font-size="17" text-anchor="middle">LAB-1 kat kat kötü görünüyor</text>
+<line class="s-ok" x1="60" y1="70" x2="60" y2="270" stroke-width="2"/>
+<line class="s-ok" x1="60" y1="270" x2="340" y2="270" stroke-width="2"/>
+<text class="s-ikincil" x="52" y="276.0" font-size="17" text-anchor="end">0</text>
+<text class="s-ikincil" x="52" y="176.0" font-size="17" text-anchor="end">25</text>
+<text class="s-ikincil" x="52" y="76.0" font-size="17" text-anchor="end">50</text>
+<rect class="s-dolu-vurgu" x="74" y="86.0" width="70" height="184.0"/>
+<text class="s-bas" x="109" y="78.0" font-size="19" text-anchor="middle">46</text>
+<text x="109" y="294" font-size="17" text-anchor="middle">LAB-1</text>
+<rect class="s-dolu-vurgu" x="166" y="98.0" width="70" height="172.0"/>
+<text class="s-bas" x="201" y="90.0" font-size="19" text-anchor="middle">43</text>
+<text x="201" y="294" font-size="17" text-anchor="middle">LAB-2</text>
+<rect class="s-dolu-vurgu" x="258" y="106.0" width="70" height="164.0"/>
+<text class="s-bas" x="293" y="98.0" font-size="19" text-anchor="middle">41</text>
+<text x="293" y="294" font-size="17" text-anchor="middle">LAB-3</text>
+<line class="s-ok" x1="420" y1="70" x2="420" y2="270" stroke-width="2"/>
+<line class="s-ok" x1="420" y1="270" x2="700" y2="270" stroke-width="2"/>
+<text class="s-ikincil" x="412" y="276.0" font-size="17" text-anchor="end">40</text>
+<text class="s-ikincil" x="412" y="133.1" font-size="17" text-anchor="end">45</text>
+<rect class="s-dolu-amber" x="434" y="98.6" width="70" height="171.4"/>
+<text class="s-bas" x="469" y="90.6" font-size="19" text-anchor="middle">46</text>
+<text x="469" y="294" font-size="17" text-anchor="middle">LAB-1</text>
+<rect class="s-dolu-amber" x="526" y="184.3" width="70" height="85.7"/>
+<text class="s-bas" x="561" y="176.3" font-size="19" text-anchor="middle">43</text>
+<text x="561" y="294" font-size="17" text-anchor="middle">LAB-2</text>
+<rect class="s-dolu-amber" x="618" y="241.4" width="70" height="28.6"/>
+<text class="s-bas" x="653" y="233.4" font-size="19" text-anchor="middle">41</text>
+<text x="653" y="294" font-size="17" text-anchor="middle">LAB-3</text>
+<text class="s-ikincil" x="360" y="330" font-size="17" text-anchor="middle">Aynı kurgusal veri: bir ayda laboratuvar başına arıza sayısı</text>
+</svg>
+<figcaption>Sağdaki grafikte LAB-1'in çubuğu LAB-3'ünkinin altı katı uzun; sayılar arasındaki fark ise yalnızca 5 arıza, yaklaşık yüzde 12. Çubuğun boyu sayının kendisini gösterir; eksen sıfırdan başlamazsa bu sözleşme bozulur.</figcaption>
+</figure>
+```
+
 ::: {.callout-note .kutu-toplum title="Gündelik hayattan: Eğriyi düzleştirmek"}
 2020'nin baharında, COVID-19 salgınının ilk haftalarında, "eğriyi düzleştir" çağrısıyla bir grafik çok paylaşıldı: sivri bir tepe ve onun sağında daha alçak, daha yayvan bir tepe. Grafik yeni değildi; ABD Hastalık Kontrol ve Önleme Merkezi'nin 2007'de yayımladığı salgın planlama rehberindeydi. Rehbere göre okulları kapatmak, toplantıları ertelemek gibi önlemler salgının zirvesini geciktirir ve alçaltır; böylece aynı anda hastaneye ihtiyaç duyan hasta sayısı hastanelerin kapasitesine daha yakın kalır. Aynı haftalarda haberler ölüm sayılarını sık sık logaritmik ölçekle gösterdi. ABD'de yaklaşık iki bin kişiyle yapılan bir deneyde katılımcıların yarısına ölüm sayıları doğrusal, yarısına logaritmik ölçekte gösterildi. Logaritmik grafiği görenler salgının gidişini daha az doğru anladı, tahminlerinde daha çok yanıldı ve farklı önlemleri destekledi. Aynı sayılar değişmedi, yalnızca eksen değişti. Bir salgın haberinde sayıları gösterecek olsan hangi ölçeği seçer, grafiğin altına ne yazardın?
 :::
@@ -197,7 +240,16 @@ Bir analiz, okurun anlayacağı bir cümleyle biter. İyi bir yorumun üç parç
 
 > Arızaların %38'i (120 kayıttan 46'sı) bilgisayarlarda; bilgisayar arızaları da ortalama 30 saatle en uzun sürede çözülen grup. Bilgisayarlar için yedek parça stoku ve bir bakım sözleşmesi önceliklendirilmelidir.
 
-Yorum yazarken dört tuzağa dikkat et. **Eksik dönem:** Kasım'ın yalnızca üç haftası varsa "Kasım'da arızalar azaldı" diyemezsin. **Ortalama mı ortanca mı:** Aykırı değerler varsa hangisini kullandığını yaz. **İlişki neden değildir:** Eski cihazlarda daha çok arıza görmek, arızanın nedeninin yaş olduğunu tek başına kanıtlamaz; eski cihazlar daha çok kullanılan laboratuvarlarda olabilir. **Küçük sayılar:** Üç kayıttan çıkan bir oran ("yüzde 67") güçlü bir sonuç değildir; kaç kayda dayandığını yaz.
+Yorum yazarken dört tuzağa dikkat et:
+
+::: {.tablo-kaydir}
+| Tuzak | Yanıltan cümle | Dürüst cümle |
+|---|---|---|
+| **Eksik dönem** | "Kasım'da arızalar azaldı." (Kasım'ın yalnızca üç haftası var) | "Kasım'ın ilk üç haftasında arıza Ekim'den az; ay bitmeden karşılaştırmak erken." |
+| **Ortalama mı ortanca mı** | "Bir arıza ortalama 22,6 saatte çözülüyor." | "Tipik bir arıza 8 saatte çözülüyor (ortanca); birkaç uzun arıza ortalamayı 22,6 saate çekiyor." |
+| **İlişki neden değildir** | "Eski cihazlar yaşlı oldukları için daha çok bozuluyor." | "Eski cihazlarda daha çok arıza var; bu cihazlar en yoğun kullanılan laboratuvarda da olabilir." |
+| **Küçük sayılar** | "Projeksiyonların yüzde 67'si yeniden arızalandı." | "Üç projeksiyondan ikisi yeniden arızalandı; sonuç için kayıt sayısı az." |
+:::
 
 ::: {.callout-note .kutu-endustri title="Endüstriden: Veri vardı, doğru grafik yoktu"}
 28 Ocak 1986 sabahı Florida'da hava 2 °C'ydi; o güne kadarki bütün fırlatmalardan 8 °C'den fazla soğuk. Önceki gece roket üreticisi Morton Thiokol'un mühendisleri, roket parçalarının birleşim yerlerini sızdırmaz tutan lastik contaların (O-ring) soğukta işini yapamayabileceğini söyledi ve yaklaşık 12 °C'nin altında fırlatmamayı önerdi. O gece sıcaklıkla karşılaştırılan yalnızca contalarında hasar görülen uçuşlardı; bu uçuşlarda belirgin bir örüntü görünmüyordu. Şirket yönetimi görüşünü değiştirdi, fırlatma onaylandı. Uzay mekiği Challenger kalkıştan 73 saniye sonra parçalandı ve yedi astronot hayatını kaybetti. Kazayı inceleyen başkanlık komisyonu, hasarsız uçuşlar da eklenince tablonun bambaşka olduğunu gösterdi: Birleşim yeri 19 °C ya da daha sıcakken yapılan 20 uçuştan yalnızca üçünde hasar vardı; 17 °C ya da daha soğukken yapılan dört uçuşun dördünde de. Gelecek hafta aynı kurumun 2003'teki Columbia kazasında bir slaytın rolünü göreceksin. Hasarsız uçuşları grafiğe koymak neden bu kadar önemliydi?
@@ -257,12 +309,12 @@ Kısa vadede: Harcamalarını ya da ekran süreni birkaç formül ve bir grafikl
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. İşlev adları programın sürümüne ve diline göre değişebilir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; tablolar ve eksen şeması 28 Ekim 2026'da eklendi. İşlev adları programın sürümüne ve diline göre değişebilir.
 
 - **Araştırmalar:** Carmen Reinhart ve Kenneth Rogoff, "Growth in a Time of Debt", *American Economic Review* (2010): [doi.org/10.1257/aer.100.2.573](https://doi.org/10.1257/aer.100.2.573); Thomas Herndon, Michael Ash ve Robert Pollin, PERI çalışma raporu 322 (Nisan 2013), *Cambridge Journal of Economics*'te yayımlandı: [doi.org/10.1093/cje/bet075](https://doi.org/10.1093/cje/bet075); Raymond Panko'nun elektronik tablo hataları üzerine derlemeleri.
 - **Challenger:** Report of the Presidential Commission on the Space Shuttle Challenger Accident (Rogers Komisyonu, 1986), Bölüm III ve VI: [NASA tarih arşivi](https://www.nasa.gov/history/rogersrep/v1ch6.htm).
 - **Eğriyi düzleştirmek:** CDC, *Interim Pre-pandemic Planning Guidance: Community Strategy for Pandemic Influenza Mitigation* (Şubat 2007), Şekil 1: [CDC Stacks](https://stacks.cdc.gov/view/cdc/11425); Alessandro Romano, Chiara Sotis, Goran Dominioni ve Sebastián Guidi, "The scale of COVID-19 graphs affects understanding, attitudes, and policy preferences", *Health Economics* (2020): [doi.org/10.1002/hec.4143](https://doi.org/10.1002/hec.4143).
-- **Programlar:** Microsoft Destek, [ÇAPRAZARA işlevi](https://support.microsoft.com/tr-tr/office/%C3%A7aprazara-i%CC%87%C5%9Flevi-b7fd680e-6d10-43e6-84f9-88eae8bf5929); LibreOffice Yardım, [XLOOKUP](https://help.libreoffice.org/latest/en-US/text/scalc/01/func_xlookup.html) (24.8 sürümünden beri); Google Dokümanlar Düzenleyicileri Yardım, [XLOOKUP işlevi](https://support.google.com/docs/answer/12405947?hl=tr). Sürümler Haziran 2026'daki haliyle.
+- **Programlar:** Microsoft Destek, Türkçe işlev sayfaları (ör. [BAĞ_DEĞ_DOLU_SAY işlevi](https://support.microsoft.com/tr-tr/excel/functions/counta-function), [YADA işlevi](https://support.microsoft.com/tr-tr/excel/functions/or-function)); [ÇAPRAZARA işlevi](https://support.microsoft.com/tr-tr/office/%C3%A7aprazara-i%CC%87%C5%9Flevi-b7fd680e-6d10-43e6-84f9-88eae8bf5929); LibreOffice Yardım, [XLOOKUP](https://help.libreoffice.org/latest/en-US/text/scalc/01/func_xlookup.html) (24.8 sürümünden beri); Google Dokümanlar Düzenleyicileri Yardım, [XLOOKUP işlevi](https://support.google.com/docs/answer/12405947?hl=tr). Sürümler Haziran 2026'daki haliyle.
 - **Diğer:** *The Joy of Stats* (BBC Four, 2010): [BBC program sayfası](https://www.bbc.co.uk/programmes/b00wgq0l).
 
 ## Bu haftanın kavramları
