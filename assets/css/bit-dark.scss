@@ -54,6 +54,15 @@ $table-border-color: #33424B;
   --bit-dogru: #{$bit-camgobegi};
   --bit-yanlis: #{$bit-rbf};
   --bit-yuzey: #1C2830;
+  // Notlardaki şemalar (assets/css/sema.css)
+  --sema-metin: #{$bit-metin};
+  --sema-ikincil: #{$bit-ikincil};
+  --sema-cizgi: #{$bit-cizgi};
+  --sema-yuzey: #1C2830;
+  --sema-vurgu: #{$bit-baglanti};
+  --sema-yesil: #{$bit-primer};
+  --sema-amber: #{$bit-amber};
+  --sema-dolu-metin: #162027;
 }
 
 // Tipografi: 1.25 oranlı ölçek, başlıklar dar ve sıkı, gövde ferah.

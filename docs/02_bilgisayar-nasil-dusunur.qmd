@@ -8,8 +8,8 @@ description: "Analogdan dijitale; bit, bayt ve birimler; metnin, görüntünün 
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>2 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>27 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.700</dd></div>
+    <div><dt>Okuma süresi</dt><dd>31 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.100</dd></div>
     <div><dt>DigComp alanı</dt><dd>5.1 Teknik sorunlar, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Yalnızca 0 ve 1 bilen bir makine nasıl oluyor da fotoğraf çekiyor, müzik çalıyor, mesaj yazıyor?</p>
@@ -18,7 +18,7 @@ description: "Analogdan dijitale; bit, bayt ve birimler; metnin, görüntünün 
 
 Geçen hafta transistörün akımı açıp kapatan bir anahtar olduğunu, bu iki durumun 1 ve 0 demek olduğunu gördük. Bu hafta o 1 ve 0'ların nasıl harfe, renge ve sese dönüştüğünü, bilgisayarın içinde bir işin hangi yolu izlediğini ve hangi parçanın neden önemli olduğunu öğreneceksin. Amaç parça adlarını ezberlemek değil: bilgisayarın mantığını kavrayıp bir cihaz alırken ya da bir sorunla karşılaştığında doğru soruyu sorabilmek.
 
-**Okuma süresi:** yaklaşık 27 dakika.
+**Okuma süresi:** yaklaşık 31 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -55,7 +55,16 @@ Bilgisayarın temel parçası olan transistör iki durumu çok güvenilir biçim
 
 On farklı gerilim seviyesini her seferinde hatasız ayırt etmek zordur; elektriksel gürültü 4'ü 5'e çevirebilir. İki seviyeyi ayırt etmek ise çok kolaydır: "var" ile "yok" arasında karışıklık olmaz. İkili sistem bilgisayarın zayıflığı değil, güvenilirliğinin kaynağıdır.
 
-Transistörler bir araya gelerek **mantık kapılarını** oluşturur. Bir VE kapısı, ancak iki girişi de 1 ise 1 verir; bir VEYA kapısı, girişlerden biri 1 ise 1 verir. Bu basit kapılardan toplama yapan devreler, onlardan da işlemciler kurulur. Bir işlemcinin yaptığı her şey, sonunda milyarlarca küçük "evet ya da hayır" kararıdır.
+Transistörler bir araya gelerek **mantık kapılarını** oluşturur. Bir VE kapısı, ancak iki girişi de 1 ise 1 verir; bir VEYA kapısı, girişlerden biri 1 ise 1 verir; bir DEĞİL kapısı girişini tersine çevirir. Bir kapının her giriş için ne vereceğini gösteren tabloya **doğruluk tablosu** denir:
+
+| A | B | A VE B | A VEYA B | DEĞİL A |
+|---|---|---|---|---|
+| 0 | 0 | 0 | 0 | 1 |
+| 0 | 1 | 0 | 1 | 1 |
+| 1 | 0 | 0 | 1 | 0 |
+| 1 | 1 | 1 | 1 | 0 |
+
+Bu basit kapılardan toplama yapan devreler, onlardan da işlemciler kurulur. Bir işlemcinin yaptığı her şey, sonunda milyarlarca küçük "evet ya da hayır" kararıdır.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Dijital her zaman analogdan daha kalitelidir." Yarı gerçek. Dijital bir kayıt sonsuz kez kopyalansa da bozulmaz; analog bir kaset her kopyada biraz kaybeder. Ama dijitalleştirme sırasında örnekleme seyrek ya da bit sayısı az olursa bilgi daha baştan kaybolur. Kalite, "dijital" olmaktan değil, ne kadar sık ve ne kadar ince ölçüldüğünden gelir.
@@ -84,17 +93,21 @@ Bit sayısı her arttığında gösterilebilecek değer sayısı iki katına ç�
 | 10 | 1.024 | Birçok sensörün ölçüm çözünürlüğü |
 | 16 | 65.536 | CD sesinin her örneği |
 | 24 | yaklaşık 16,7 milyon | Ekrandaki renk sayısı |
+| 32 | yaklaşık 4,3 milyar | Eski 32 bitlik Windows: en fazla 4 GB RAM kullanabilir |
+| 64 | yaklaşık 18 kentilyon | Bugünkü işlemciler; Windows 11 yalnızca 64 bitlik işlemcide çalışır |
 
 ### Birimler ve 1000 ile 1024 karmaşası
 
-| Birim | Ondalık tanım | Yaklaşık karşılığı |
-|---|---|---|
-| Kilobayt (KB) | 1.000 bayt | Kısa bir metin |
-| Megabayt (MB) | 1.000 KB | Bir fotoğraf, bir dakikalık müzik |
-| Gigabayt (GB) | 1.000 MB | Bir film |
-| Terabayt (TB) | 1.000 GB | Binlerce film |
+Bilgisayarlar ikili düşündüğü için yıllarca 1 KB 1.024 bayt olarak da kullanıldı. Karışıklığı gidermek için 1998'de ikili birimler ayrıca adlandırıldı: **kibibayt** (KiB, 1.024 bayt), mebibayt (MiB), gibibayt (GiB), tebibayt (TiB). Disk üreticileri ondalık birimi, bazı işletim sistemleri ise ikili birimi kullanır ama ikisine de "GB" der. Birim büyüdükçe aradaki fark da büyür:
 
-Bilgisayarlar ikili düşündüğü için yıllarca 1 KB 1.024 bayt olarak da kullanıldı. Karışıklığı gidermek için 1998'de ikili birimler ayrıca adlandırıldı: **kibibayt** (KiB, 1.024 bayt), mebibayt (MiB), gibibayt (GiB). Disk üreticileri ondalık birimi, bazı işletim sistemleri ise ikili birimi kullanır ama ikisine de "GB" der.
+::: {.tablo-kaydir}
+| Ondalık birim | Bayt | İkili birim | Bayt | Fark | Yaklaşık karşılığı |
+|---|---|---|---|---|---|
+| Kilobayt (KB) | 1.000 | Kibibayt (KiB) | 1.024 | %2,4 | Kısa bir metin |
+| Megabayt (MB) | 1.000.000 | Mebibayt (MiB) | 1.048.576 | %4,9 | Bir fotoğraf, bir dakikalık müzik |
+| Gigabayt (GB) | 1.000.000.000 | Gibibayt (GiB) | 1.073.741.824 | %7,4 | Bir film |
+| Terabayt (TB) | 1.000.000.000.000 | Tebibayt (TiB) | 1.099.511.627.776 | %10,0 | Binlerce film |
+:::
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Kutusunda 500 GB yazan disk bilgisayarda 465 GB görünüyor; üretici bizi kandırıyor." Yanlış. Diskte gerçekten 500 milyar bayt var. Üretici bunu 1 GB = 1.000.000.000 bayt ile, işletim sistemi ise 1 GiB = 1.073.741.824 bayt ile bölüyor: 500.000.000.000 / 1.073.741.824 ≈ 465,7. Değişen kapasite değil, birim.
@@ -106,9 +119,21 @@ Bilgisayarlar ikili düşündüğü için yıllarca 1 KB 1.024 bayt olarak da ku
 
 Bilgisayar harfleri bilmez; her harfe bir sayı karşılık gelir. 1963'te standartlaşan **ASCII**, 7 bitle 128 karakteri kodlar: İngiliz alfabesinin büyük ve küçük harfleri, rakamlar, noktalama işaretleri. Örneğin "D" harfi 68'dir, ikili 1000100.
 
-ASCII'de ç, ğ, ı, İ, ö, ş, ü yoktur. Her ülke bu boşluğu kendi kod tablosuyla doldurdu ve bir ülkede yazılan metin başka bir bilgisayarda bozuk görünmeye başladı. Çözüm **Unicode** oldu: dünyadaki hemen bütün yazı sistemlerini ve emojileri kapsayan, 150 binden fazla karakterlik ortak bir tablo. Bugün web'in büyük kısmı Unicode'u **UTF-8** adlı kodlamayla kullanır.
+ASCII'de ç, ğ, ı, İ, ö, ş, ü yoktur. Her ülke bu boşluğu kendi kod tablosuyla doldurdu ve bir ülkede yazılan metin başka bir bilgisayarda bozuk görünmeye başladı. Çözüm **Unicode** oldu: dünyadaki hemen bütün yazı sistemlerini ve emojileri kapsayan, 150 binden fazla karakterlik ortak bir tablo. Bugün web'in büyük kısmı Unicode'u **UTF-8** adlı kodlamayla kullanır. UTF-8, ASCII'deki karakterleri yine tek baytla yazar; ötekiler için 2 ile 4 bayt kullanır:
 
-Bir dosya UTF-8 ile kaydedilip başka bir kodlamayla açılırsa "ışık" kelimesi "Ä±ÅŸÄ±k" gibi görünür. Bu bozulmanın adı **karakter kodlaması** uyumsuzluğudur; çözümü, dosyayı açarken doğru kodlamayı seçmektir.
+| Karakter | ASCII'deki sayısı | Unicode'daki numarası | UTF-8'de bayt |
+|---|---|---|---|
+| A | 65 | U+0041 | 1 |
+| a | 97 | U+0061 | 1 |
+| 0 (rakam) | 48 | U+0030 | 1 |
+| boşluk | 32 | U+0020 | 1 |
+| ç | yok | U+00E7 | 2 |
+| ı | yok | U+0131 | 2 |
+| ş | yok | U+015F | 2 |
+| € | yok | U+20AC | 3 |
+| 😀 | yok | U+1F600 | 4 |
+
+"ışık" dört harftir ama UTF-8'de 7 bayt tutar. Dosya UTF-8 ile kaydedilip her baytı ayrı bir harf sayan eski bir kodlamayla açılırsa bu 7 bayt 7 harf gibi okunur ve kelime "Ä±ÅŸÄ±k" gibi görünür. Bu bozulmanın adı **karakter kodlaması** uyumsuzluğudur; çözümü, dosyayı açarken doğru kodlamayı seçmektir.
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Türkçenin noktalı ve noktasız i'si yazılım dünyasında ünlüdür. İngilizcede küçük "i"nin büyüğü "I"dır, Türkçede "İ". Büyük harfe çevirme kuralını İngilizceye göre yazan bir program "istanbul" kelimesini nasıl yazar? Bu küçük fark, bir arama ya da giriş ekranında hangi sorunlara yol açabilir?
@@ -140,7 +165,34 @@ Video, art arda gösterilen fotoğraflardır. Saniyede gösterilen kare sayısı
 
 Hesap hızla büyür. 1920 × 1080 pikselli bir kare sıkıştırılmadan yaklaşık 6 MB tutuyordu; saniyede 30 kareyle bu, saniyede 180 MB, dakikada yaklaşık 10,8 GB eder. Telefonundaki bir dakikalık video ise ayarına göre birkaç on ile birkaç yüz megabayt arasındadır. Aradaki farkı **kodek** (kodlayıcı-çözücü) adı verilen sıkıştırma yöntemleri kapatır. Kodekler iki fikre dayanır: Bir karenin içinde gözün fark etmeyeceği ayrıntıyı atmak, tıpkı JPEG gibi; art arda gelen kareler arasında yalnızca değişeni saklamak. Konuşan bir kişinin arkasındaki duvar kareden kareye değişmez; onu her karede yeniden yazmaya gerek yoktur. H.264, H.265 ve AV1 bugün yaygın kodeklerdendir.
 
-Videonun bit hızı megabit/saniye (Mbps, saniyede megabit) ile ölçülür. 8 Mbps'lik bir video bir dakikada 8 × 60 = 480 megabit, yani 60 MB tutar. Aynı süre 4K çözünürlükte (yaklaşık 3840 × 2160 piksel) ve saniyede 60 kareyle çekilirse dosya birkaç kat büyür. Telefonunun deposunu en hızlı dolduran şeyin video olmasının nedeni budur. Telefonunun ayarlarındaki depolama ekranı, hangi uygulamanın ve hangi dosya türünün ne kadar yer tuttuğunu gösterir; yer açmaya en büyük videolardan başlamak çoğu zaman en hızlı yoldur.
+Karşına en sık çıkan biçimler ve kodekler:
+
+::: {.tablo-kaydir}
+| Tür | Biçim ya da kodek | Sıkıştırma | Nerede karşına çıkar? |
+|---|---|---|---|
+| Görüntü | JPEG | Kayıplı | Fotoğraflar, web sayfaları |
+| Görüntü | PNG | Kayıpsız | Ekran görüntüsü, logo, şema |
+| Görüntü | HEIF (`.heic`) | Kayıplı; JPEG'den az yer kaplar | iPhone'un "Yüksek Verimlilik" ayarı; Windows'ta açmak için eklenti gerekebilir |
+| Ses | WAV | Genellikle sıkıştırmasız | Ses kaydı ve düzenleme |
+| Ses | MP3, AAC | Kayıplı | Müzik, podcast, videonun sesi |
+| Ses | FLAC | Kayıpsız | Arşiv, yüksek kaliteli müzik |
+| Video | H.264 | Kayıplı | En yaygını; hemen her cihaz açar |
+| Video | H.265 (HEVC) | Kayıplı; H.264'ten az yer kaplar | iPhone'un "Yüksek Verimlilik" ayarı, 4K yayınlar |
+| Video | AV1 | Kayıplı; açık bir kodek | Web'deki video hizmetleri |
+:::
+
+Videonun bit hızı megabit/saniye (Mbps, saniyede megabit) ile ölçülür. 8 Mbps'lik bir video bir dakikada 8 × 60 = 480 megabit, yani 60 MB tutar. Aşağıdaki tablo, YouTube'un video yüklemek için önerdiği bit hızlarıyla bir dakikanın kaç megabayt tuttuğunu gösterir:
+
+| Ayar | Bit hızı | Bir dakika |
+|---|---|---|
+| 720p, saniyede 30 kare | 5 Mbps | yaklaşık 38 MB |
+| 1080p, saniyede 30 kare | 8 Mbps | yaklaşık 60 MB |
+| 1080p, saniyede 60 kare | 12 Mbps | yaklaşık 90 MB |
+| 4K, saniyede 30 kare | 35–45 Mbps | yaklaşık 260–340 MB |
+| 4K, saniyede 60 kare | 53–68 Mbps | yaklaşık 400–510 MB |
+| 1080p, saniyede 30 kare, sıkıştırmasız | yaklaşık 1.440 Mbps | yaklaşık 10,8 GB |
+
+4K çözünürlük yaklaşık 3840 × 2160 pikseldir. Telefonunun deposunu en hızlı dolduran şeyin video olmasının nedeni budur. Telefonunun ayarlarındaki depolama ekranı, hangi uygulamanın ve hangi dosya türünün ne kadar yer tuttuğunu gösterir; yer açmaya en büyük videolardan başlamak çoğu zaman en hızlı yoldur.
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
 Kısa vadede: telefonunun deposunun neden dolduğunu anlar, fotoğraf ve video ayarlarını bilinçli seçersin; bozuk görünen bir dosyanın nedenini tahmin edersin. Orta vadede: işte veri alışverişi yaparken dosya boyutunu, biçimini ve karakter kodlamasını doğru seçersin. Uzun vadede: sensörlerden gelen her verinin bir örnekleme ve niceleme kararıyla başladığını bilir, ölçümün sınırlarını sorgularsın.
@@ -153,6 +205,39 @@ Hangi bilgisayar olursa olsun, aynı döngü işler: veri **girer** (klavye, kam
 Bir analojiyle düşün: **işlemci aşçı, RAM tezgâh, depolama kiler, veri yolu ise garsondur.** Aşçı ne kadar hızlı olursa olsun, tezgâh küçükse sürekli kilere gidip gelir ve yemek gecikir. RAM yetersizliği tam olarak böyle hissedilir.
 
 Bazı sistemler bir de **geri besleme** kullanır: çıkıştaki sonuç ölçülüp yeniden girişe verilir. Odayı belirli bir sıcaklıkta tutan termostat böyle çalışır; sıcaklık düşerse ısıtıcıyı açar, yükselirse kapatır.
+
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 380" role="img" aria-labelledby="sema-dongu-baslik">
+<title id="sema-dongu-baslik">Bilgisayarın döngüsü: giriş, işlemci ve çıkış soldan sağa oklarla bağlı; işlemcinin altında RAM (tezgâh) ve depolama (kiler) kesikli çizgilerle işlemciye bağlı; çıkıştan girişe dönen bir geri besleme oku.</title>
+<path class="s-ok" d="M 620 86 C 620 20, 100 20, 100 76"/><polygon class="s-ok-uc" points="100,88 93,74 107,74"/>
+<text class="s-ikincil" x="360" y="24" font-size="17" text-anchor="middle">geri besleme</text>
+<rect class="s-kutu" x="10" y="90" width="180" height="110" rx="4"/>
+<text class="s-bas" x="100" y="134" font-size="28" text-anchor="middle">Giriş</text>
+<text x="100" y="162" font-size="17" text-anchor="middle">klavye, kamera,</text>
+<text x="100" y="184" font-size="17" text-anchor="middle">sensör</text>
+<line class="s-ok" x1="194" y1="145" x2="250" y2="145"/><polygon class="s-ok-uc" points="262,145 250,138 250,152"/>
+<rect class="s-dolu-vurgu" x="266" y="80" width="188" height="130" rx="4"/>
+<text class="s-bas s-dolu-metin" x="360" y="140" font-size="32" text-anchor="middle">İşlemci</text>
+<text class="s-dolu-metin" x="360" y="170" font-size="20" text-anchor="middle">aşçı</text>
+<line class="s-ok" x1="458" y1="145" x2="514" y2="145"/><polygon class="s-ok-uc" points="526,145 514,138 514,152"/>
+<rect class="s-kutu" x="530" y="90" width="180" height="110" rx="4"/>
+<text class="s-bas" x="620" y="134" font-size="28" text-anchor="middle">Çıkış</text>
+<text x="620" y="162" font-size="17" text-anchor="middle">ekran, hoparlör,</text>
+<text x="620" y="184" font-size="17" text-anchor="middle">motor</text>
+<path class="s-ok" d="M 271 266 L 271 240 L 330 240 L 330 212" stroke-dasharray="7 6"/>
+<path class="s-ok" d="M 449 266 L 449 240 L 390 240 L 390 212" stroke-dasharray="7 6"/>
+<rect class="s-dolu-yesil" x="196" y="268" width="150" height="80" rx="4"/>
+<text class="s-bas s-dolu-metin" x="271" y="304" font-size="28" text-anchor="middle">RAM</text>
+<text class="s-dolu-metin" x="271" y="330" font-size="18" text-anchor="middle">tezgâh</text>
+<rect class="s-dolu-amber" x="374" y="268" width="150" height="80" rx="4"/>
+<text class="s-bas s-dolu-metin" x="449" y="304" font-size="26" text-anchor="middle">Depolama</text>
+<text class="s-dolu-metin" x="449" y="330" font-size="18" text-anchor="middle">kiler</text>
+<text class="s-ikincil" x="360" y="374" font-size="17" text-anchor="middle">kesikli çizgi: veri yolu (garson)</text>
+</svg>
+<figcaption>Bilgisayarın döngüsü. Veri girer, işlemcide işlenir, çıkar; işlemci çalışırken RAM'i ve depolamayı kullanır. Bazı sistemlerde çıkıştaki sonuç ölçülüp yeniden girişe verilir.</figcaption>
+</figure>
+```
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı"}
 Otopilot geri beslemenin en bilinen örneğidir. Pilot bir irtifa seçer; otopilot gerçek irtifayı sürekli ölçer, aradaki farka göre kumanda yüzeylerine komut verir ve fark sıfırlanana kadar düzeltmeyi sürdürür. Girdi, işleme, çıktı ve geri besleme döngüsü saniyede defalarca döner.
@@ -209,6 +294,36 @@ Belirtiden bileşene giden düşünce, bakım teknisyenliğinin özüdür. Uçak
 ## 6. Moore yasası, fiyatlar ve çip yarışı (okuma)
 
 Intel'in kurucularından Gordon Moore 1965'te bir çipteki transistör sayısının düzenli olarak ikiye katlanacağını öngördü; bu öngörü sonradan "yaklaşık iki yılda bir" olarak yerleşti ve **Moore yasası** diye anılır oldu. 1971'deki ilk ticari mikroişlemci Intel 4004'te yaklaşık 2.300 transistör vardı; bugünün işlemcilerinde on milyarlarca transistör bulunuyor.
+
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 392" role="img" aria-labelledby="sema-moore-baslik">
+<title id="sema-moore-baslik">Logaritmik ölçekte bir çipteki transistör sayısı, 1971–2024: Intel 4004'te 2.300, Pentium'da 3,1 milyon, 2. nesil Core'da yaklaşık 1 milyar, Apple M1'de 16 milyar, Nvidia B200'de 208 milyar. Noktalar, 1971'den beri iki yılda bir ikiye katlanmayı gösteren kesikli çizginin yakınında.</title>
+<line class="s-cizgi" x1="92" y1="352" x2="700" y2="352"/><text class="s-ikincil" x="82" y="358" font-size="17" text-anchor="end">1 bin</text>
+<line class="s-cizgi" x1="92" y1="244" x2="700" y2="244"/><text class="s-ikincil" x="82" y="250" font-size="17" text-anchor="end">1 milyon</text>
+<line class="s-cizgi" x1="92" y1="136" x2="700" y2="136"/><text class="s-ikincil" x="82" y="142" font-size="17" text-anchor="end">1 milyar</text>
+<line class="s-cizgi" x1="92" y1="28" x2="700" y2="28"/><text class="s-ikincil" x="82" y="34" font-size="17" text-anchor="end">1 trilyon</text>
+<text class="s-ikincil" x="92" y="382" font-size="17" text-anchor="middle">1970</text>
+<text class="s-ikincil" x="203" y="382" font-size="17" text-anchor="middle">1980</text>
+<text class="s-ikincil" x="313" y="382" font-size="17" text-anchor="middle">1990</text>
+<text class="s-ikincil" x="424" y="382" font-size="17" text-anchor="middle">2000</text>
+<text class="s-ikincil" x="534" y="382" font-size="17" text-anchor="middle">2010</text>
+<text class="s-ikincil" x="645" y="382" font-size="17" text-anchor="middle">2020</text>
+<line class="s-cizgi-vurgu" x1="103" y1="339" x2="700" y2="46" stroke-width="3" stroke-dasharray="9 7"/>
+<text class="s-vurgu-metin" x="435" y="162" font-size="17" text-anchor="end">iki yılda bir ikiye katlansaydı</text>
+<circle class="s-nokta" cx="103" cy="339" r="7"/><text class="s-bas" x="115" y="361" font-size="19">4004</text>
+<circle class="s-nokta" cx="180" cy="299" r="7"/>
+<circle class="s-nokta" cx="258" cy="264" r="7"/>
+<circle class="s-nokta" cx="302" cy="241" r="7"/>
+<circle class="s-nokta" cx="346" cy="226" r="7"/><text class="s-bas" x="358" y="248" font-size="19">Pentium</text>
+<circle class="s-nokta" cx="424" cy="186" r="7"/>
+<circle class="s-nokta" cx="545" cy="136" r="7"/><text class="s-bas" x="557" y="158" font-size="19">Core (2. nesil)</text>
+<circle class="s-nokta" cx="645" cy="93" r="7"/><text class="s-bas" x="645" y="123" font-size="19" text-anchor="middle">Apple M1</text>
+<circle class="s-nokta" cx="689" cy="53" r="7"/><text class="s-bas" x="680" y="40" font-size="19" text-anchor="end">Nvidia B200</text>
+</svg>
+<figcaption>Bir çipteki transistör sayısı. Dikey eksen logaritmiktir: her yatay çizgi bir öncekinin bin katıdır (logaritmik ölçeği Hafta 12'de göreceğiz). Noktalar soldan sağa Intel 4004, 8086, 386, 486, Pentium, Pentium 4 ve 2. nesil Core, Apple M1 ve Nvidia B200; son ikisi bilgisayar ve yapay zekâ çipleridir. Kaynak: üreticilerin açıklamaları.</figcaption>
+</figure>
+```
 
 Transistörler küçüldükçe hem hızlandı hem ucuzladı. Ama artık atom ölçüsüne yaklaşan boyutlarda fiziksel sınırlar zorlanıyor. Üreticiler bu yüzden tek bir çekirdeği hızlandırmak yerine çok çekirdekli işlemcilere ve belirli işler için özelleşmiş çiplere yöneldi: görüntü için GPU, yapay zekâ için NPU. Bilgisayar dünyasının öncülerinden Alan Kay 1982'de "Yazılım konusunda gerçekten ciddi olanlar kendi donanımlarını yapmalıdır" demişti; bugün telefon ve bilgisayar üreticilerinin kendi çiplerini tasarlaması bu sözün karşılığıdır.
 
@@ -278,7 +393,18 @@ Telefon alırken de aynı soruları sor ve bir soru ekle: Üretici bu modele ka�
 
 İşlemcilerin bugün iki büyük ailesi var: masaüstü ve dizüstülerde uzun süre baskın olan **x86** (Intel, AMD) ve telefonlarda başlayıp dizüstülere de yayılan, az enerji harcayan **ARM** (Apple'ın M serisi, Qualcomm Snapdragon). Seçim, kullanacağın programların bu mimaride çalışıp çalışmadığına da bağlıdır.
 
-Bir cihazı almak kadar onu uzun süre kullanabilmek de önemlidir. Pili, ekranı ya da depolaması değiştirilebilen, yani **tamir edilebilir** bir cihaz yıllarca kullanılabilir; her şeyi yapıştırılmış bir cihaz ise küçük bir arızada çöpe gider. Avrupa Birliği son yıllarda üreticileri tamire uygun tasarıma ve ortak USB-C şarj girişine yönlendiren düzenlemeler yaptı. Elektronik atık dünyanın en hızlı büyüyen atık türlerinden biri; tamir ettirmek, yükseltmek ya da ikinci el almak hem bütçe hem çevre için bir alternatiftir.
+Bir cihazı almak kadar onu uzun süre kullanabilmek de önemlidir. Pili, ekranı ya da depolaması değiştirilebilen, yani **tamir edilebilir** bir cihaz yıllarca kullanılabilir; her şeyi yapıştırılmış bir cihaz ise küçük bir arızada çöpe gider. Avrupa Birliği son yıllarda üreticileri tamire uygun tasarıma ve ortak USB-C şarj girişine yönlendiren düzenlemeler yaptı. 20 Haziran 2025'ten beri AB'de satılan telefon ve tabletlerin enerji etiketinde, A'dan (en kolay tamir edilen) E'ye bir tamir edilebilirlik sınıfı yazıyor. Sınıf altı ölçütten hesaplanır:
+
+| Ölçüt | Ne sorar? | Ağırlık |
+|---|---|---|
+| Sökme derinliği | Pil, ekran gibi parçaya kaç adımda ulaşılıyor? | %25 |
+| Bağlantı elemanları | Parça vidalı mı, yapıştırılmış mı? Yeniden takılabiliyor mu? | %15 |
+| Aletler | Sıradan bir tornavida yetiyor mu, özel alet mi gerekiyor? | %15 |
+| Yedek parça | Parça ne kadar süre ve kime satılıyor? | %15 |
+| Yazılım güncellemesi | Cihaz kaç yıl güncelleme alacak? | %15 |
+| Onarım bilgisi | Onarım kılavuzu herkese açık mı? | %15 |
+
+Etikette ayrıca pil ömrü, düşmeye dayanıklılık sınıfı ve suya ve toza karşı koruma da yer alır. iFixit gibi bağımsız onarım siteleri de cihazlara kendi tamir edilebilirlik puanlarını verir; bir telefon almadan önce modelin adıyla aratmak birkaç dakikanı alır. Elektronik atık dünyanın en hızlı büyüyen atık türlerinden biri; tamir ettirmek, yükseltmek ya da ikinci el almak hem bütçe hem çevre için bir alternatiftir.
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
 Kısa vadede: telefon ya da bilgisayar alırken ilanı okuyup ihtiyacına göre seçersin, gereksiz yere pahalı bir cihaza para vermezsin. Orta vadede: iş yerindeki bir cihaz sorununu doğru terimlerle tarif eder, belirtiden olası parçaya gidersin. Uzun vadede: YZ çağında GPU ve NPU gibi donanım yatırımlarının neden yapıldığını anlar, teknoloji kararlarını bilinçli verirsin.
@@ -294,18 +420,21 @@ Kısa vadede: telefon ya da bilgisayar alırken ilanı okuyup ihtiyacına göre 
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; çip politikaları, bellek fiyatları ve nottaki öteki güncel bilgiler 25 Ekim 2026'da birincil kaynaklarla denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; çip politikaları, bellek fiyatları ve nottaki öteki güncel bilgiler 25 Ekim 2026'da birincil kaynaklarla denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi; tablolar ve iki grafik 28 Ekim 2026'da eklendi ve birincil kaynaklarla denetlendi.
 
-- **Standartlar:** ASCII (1963); Unicode; IEC ikili önekleri (1998); ARINC 429 veri yolu standardı.
+- **Standartlar:** ASCII (1963); Unicode ve karakter numaraları: [Unicode kod tabloları](https://www.unicode.org/charts/); IEC ikili önekleri (1998); ARINC 429 veri yolu standardı.
 - **Tarih:** Claude Shannon, "A Mathematical Theory of Communication" (1948); John von Neumann, EDVAC raporu (1945); Gordon Moore (1965); Intel 4004 (1971).
+- **Transistör sayıları (grafik):** Intel 4004: [Intel zaman çizelgesi](https://timeline.intel.com/1971/the-first-programmable-microprocessor:-the-4004); 8086, 386, 486, Pentium ve Pentium 4: [Intel işlemci başvuru kılavuzu](https://www.intel.com/pressroom/kits/quickreffam.htm); 2. nesil Core: [Intel, 4004'ün 40. yılı](https://download.intel.com/newsroom/kits/40thanniversary/pdfs/40_years_of_processors_facts.pdf) (2011); Apple M1: [Apple, 10 Kasım 2020](https://www.apple.com/newsroom/2020/11/apple-unleashes-m1/); Nvidia Blackwell: [Nvidia, 18 Mart 2024](https://nvidianews.nvidia.com/news/nvidia-blackwell-platform-arrives-to-power-a-new-era-of-computing).
+- **32 ve 64 bit:** 32 bitlik Windows'un bellek sınırı: [Microsoft Learn, Memory Limits for Windows Releases](https://learn.microsoft.com/en-us/windows/win32/memory/memory-limits-for-windows-releases); Windows 11'in 64 bit şartı: [Microsoft, Windows 11 gereksinimleri](https://www.microsoft.com/en-us/windows/windows-11-specifications).
+- **Biçimler:** HEIF ve HEVC, "Yüksek Verimlilik" ve "En Uyumlu" ayarları: [Apple Destek](https://support.apple.com/tr-tr/116944); Windows'ta HEIF: [Microsoft Store, HEIF Image Extensions](https://www.microsoft.com/en-us/p/heif-image-extensions/9pmmsr1cgpwg); FLAC: [xiph.org](https://xiph.org/flac/).
 - **Bellek, video ve bağlantılar:** Erişim süreleri: Peter Norvig, [Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html) (yanıtlar bölümündeki süre tablosu); video bit hızları: [YouTube'un önerdiği yükleme ayarları](https://support.google.com/youtube/answer/1722171); kodekler: Uluslararası Telekomünikasyon Birliği'nin [H.264](https://www.itu.int/rec/T-REC-H.264) ve [H.265](https://www.itu.int/rec/T-REC-H.265) tavsiyeleri, Alliance for Open Media'nın [AV1 belirtimi](https://aomediacodec.github.io/av1-spec/) (2018); USB-C: [USB geliştiricilerinin USB Type-C adlandırma kılavuzu](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf); Windows + P: [Microsoft Destek, Windows'ta klavye kısayolları](https://support.microsoft.com/tr-tr/accessibility/windows/keyboard-shortcuts-in-windows); "Türkiye testi": [Does Your Code Pass The Turkey Test?](https://www.moserware.com/2008/02/does-your-code-pass-turkey-test.html) (Moserware, 2008); ARM'ın kökeni: [Arm'ın resmî tarihi](https://newsroom.arm.com/blog/arm-official-history).
 - **Vakalar:** Raspberry Pi'nin doğuşu: [IEEE Spectrum, "Eben Upton: The Raspberry Pi Pioneer"](https://spectrum.ieee.org/eben-upton-the-raspberry-pi-pioneer); satışa çıkış: [Raspberry Pi, "The Raspberry Pi launch" (1 Mart 2012)](https://www.raspberrypi.com/news/the-raspberry-pi-launch/); kıtlıkta öncelik: [Raspberry Pi, "Production and supply-chain update" (Nisan 2022)](https://www.raspberrypi.com/news/production-and-supply-chain-update/); satışların dağılımı (2025): [Raspberry Pi yatırımcı sayfası](https://investors.raspberrypi.com/). Koklear implant: [ABD Ulusal Sağlık Enstitüleri, "Cochlear Implants"](https://www.nidcd.nih.gov/health/cochlear-implants); elektrot sayıları: Dhanasingh ve arkadaşları, "Cochlear implant electrode design for safe and effective treatment", *Frontiers in Neurology* (2024), [doi:10.3389/fneur.2024.1348439](https://doi.org/10.3389/fneur.2024.1348439); işaret dili: [ABD Ulusal Sağırlar Derneği, erken dil gelişimi tutum bildirgesi (2014)](https://nad.org/knowledge-hub/position-statements/position-statement-on-early-cognitive-and-language-development-and-education-of-deaf-and-hard-of-hearing-children/).
-- **Avrupa Birliği ve çevre:** Ortak şarj girişi direktifi (2022/2380; uygulama Aralık 2024); onarım hakkı direktifi (2024/1799); BM Küresel E-Atık İzleme raporları. Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
+- **Avrupa Birliği ve çevre:** Ortak şarj girişi direktifi (2022/2380; uygulama Aralık 2024); onarım hakkı direktifi (2024/1799); telefon ve tabletlerin enerji etiketi ve tamir edilebilirlik sınıfı (AB Tüzüğü 2023/1669, 20 Haziran 2025'ten beri): [EUR-Lex](https://eur-lex.europa.eu/eli/reg_del/2023/1669/oj); bağımsız tamir edilebilirlik puanları: [iFixit](https://www.ifixit.com/repairability); BM Küresel E-Atık İzleme raporları. Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
 - **Çip politikaları ve fiyatlar:** ABD Çip ve Bilim Yasası (CHIPS and Science Act, Public Law 117-167, 9 Ağustos 2022): [govinfo](https://www.govinfo.gov/app/details/PLAW-117publ167); ABD'nin Çin'e ileri çip ve çip üretim makinesi satış kısıtları (7 Ekim 2022): [ABD Ticaret Bakanlığı](https://www.bis.gov/press-release/commerce-implements-new-export-controls-advanced-computing-semiconductor-manufacturing-items-peoples); Avrupa Çip Yasası (AB Tüzüğü 2023/1781; yürürlük 21 Eylül 2023): [Avrupa Komisyonu](https://digital-strategy.ec.europa.eu/en/policies/european-chips-act); Hindistan'ın yarı iletken programı (Aralık 2021): [Hindistan hükümeti duyurusu](https://www.pib.gov.in/PressReleasePage.aspx?PRID=1781723). Depolama fiyatının uzun vadeli düşüşü: [Our World in Data](https://ourworldindata.org/data-insights/the-price-of-computer-storage-has-fallen-exponentially-since-the-1950s) (John C. McCallum'un verisi); 2011 Tayland seli: [Western Digital duyurusu, 17 Ekim 2011](https://prnewswire.com/news-releases/wd-provides-update-on-effect-of-thailand-floods-primary-manufacturing-site-flooded-second-site-at-risk-significant-impact-on-december-quarter-131972898.html); en ileri çip üretiminin Tayvan'da yoğunlaşması: [ABD Yarı İletken Endüstrisi Birliği ve Boston Consulting Group raporu, 2021](https://www.semiconductors.org/wp-content/uploads/2021/05/BCG-x-SIA-Strengthening-the-Global-Semiconductor-Value-Chain-April-2021_1.pdf); en gelişmiş litografi makineleri: [ASML](https://www.asml.com/en/products/euv-lithography-systems); fabrika maliyeti: [TSMC duyurusu, 4 Mart 2025](https://pr.tsmc.com/english/news/3210); su ve enerji ihtiyacı: [TSMC 2024 faaliyet raporu, iklim ve enerji sayfası](https://investor.tsmc.com/static/annualReports/2024/english/ebook/files/basic-html/page157.html). Bellek fiyatlarındaki artış: TrendForce duyuruları, [Aralık 2025](https://www.trendforce.com/presscenter/news/20251211-12831.html), [Ocak 2026](https://www.trendforce.com/presscenter/news/20260105-12860.html) ve [Şubat 2026](https://www.trendforce.com/presscenter/news/20260226-12937.html); fiyatlar hızla değiştiği için güncel durumu piyasa araştırma şirketlerinin raporlarından izle.
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: analog, dijital, analog-dijital dönüştürücü (ADC), örnekleme, niceleme, mantık kapısı, bayt, kibibayt (KiB), ASCII, Unicode, UTF-8, karakter kodlaması, piksel, RGB, çözünürlük, sıkıştırma, bit hızı, kare hızı, kodek, von Neumann mimarisi, geri besleme, hesaplamalı fotoğrafçılık, işlemci (CPU), ekran kartı (GPU), yapay zekâ birimi (NPU), RAM, SSD, HDD, darboğaz, bellek hiyerarşisi, yazmaç, önbellek, BITE, hat değiştirilebilir birim (LRU), Moore yasası, yüksek bant genişlikli bellek (HBM), dijital egemenlik, gömülü sistem, tersine mühendislik, hava verisi bilgisayarı, ARINC 429, parite biti, x86, ARM, tamir edilebilirlik.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: analog, dijital, analog-dijital dönüştürücü (ADC), örnekleme, niceleme, mantık kapısı, doğruluk tablosu, bayt, kibibayt (KiB), ASCII, Unicode, UTF-8, karakter kodlaması, piksel, RGB, çözünürlük, sıkıştırma, bit hızı, kare hızı, kodek, von Neumann mimarisi, geri besleme, hesaplamalı fotoğrafçılık, işlemci (CPU), ekran kartı (GPU), yapay zekâ birimi (NPU), RAM, SSD, HDD, darboğaz, bellek hiyerarşisi, yazmaç, önbellek, BITE, hat değiştirilebilir birim (LRU), Moore yasası, yüksek bant genişlikli bellek (HBM), dijital egemenlik, gömülü sistem, tersine mühendislik, hava verisi bilgisayarı, ARINC 429, parite biti, x86, ARM, tamir edilebilirlik.
 
 ## Kendini sına
 

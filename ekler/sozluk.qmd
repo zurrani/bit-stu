@@ -151,6 +151,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | DO-178C (3) | Havacılıkta uçak yazılımlarının geliştirilmesi ve onaylanması için kullanılan standart |
 | DOCX (10) | Word'ün düzenlenebilir belge biçimi; birlikte çalışılacak belgeler için uygundur (Office Open XML belgesi) |
 | Doğrulama platformu (5) | Yaygın iddiaları inceleyip sonuçlarını yayımlayan kuruluş (Teyit, Doğruluk Payı gibi) |
+| Doğruluk tablosu (2) | Bir mantık kapısının ya da devrenin her giriş birleşimi için hangi çıkışı vereceğini gösteren tablo |
 | DOI (5) | Bilimsel makalelere verilen kalıcı kimlik numarası (Digital Object Identifier); doi.org adresiyle makalenin kendisine götürür |
 | Doldurma tutamacı (11) | Seçili hücrenin sağ alt köşesindeki, sürüklenince formülü ya da diziyi komşu hücrelere kopyalayan küçük kare |
 | Dolgu sözcüğü (13) | Konuşmada boşluğu doldurmak için söylenen anlamsız sözcük: "ııı", "yani", "şey" |

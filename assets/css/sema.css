@@ -1,0 +1,27 @@
+/* Notlardaki şemalar ve grafikler (rehber 4.7): satır içi SVG, kendi üretimimiz.
+   Renkler tema dosyalarındaki --sema-* değişkenlerinden gelir; açık ve karanlık temada
+   kendiliğinden değişir. SVG'de renk yazılmaz, yalnızca aşağıdaki sınıflar kullanılır. */
+.sema-not { margin: 1.6rem 0; }
+.sema-not svg { display: block; width: 100%; height: auto; }
+/* Dar ekranda şema küçülüp yazısı okunmaz olmasın: tablolar gibi kendi içinde yana kaysın. */
+@media (max-width: 575.98px) {
+  .sema-not { overflow-x: auto; }
+  .sema-not svg { min-width: 560px; }
+}
+.sema-not figcaption { margin-top: .55rem; font-size: .9rem; color: var(--sema-ikincil); max-width: 70ch; }
+
+.sema-not svg text { fill: var(--sema-metin); font-family: "Atkinson Hyperlegible Next", system-ui, sans-serif; }
+.sema-not svg .s-bas { font-family: "Barlow Condensed", "Arial Narrow", sans-serif; font-weight: 600; }
+.sema-not svg text.s-ikincil { fill: var(--sema-ikincil); }
+.sema-not svg text.s-vurgu-metin { fill: var(--sema-vurgu); }
+.sema-not svg text.s-dolu-metin { fill: var(--sema-dolu-metin); }
+
+.sema-not svg .s-cizgi { stroke: var(--sema-cizgi); stroke-width: 1; }
+.sema-not svg .s-cizgi-vurgu { stroke: var(--sema-vurgu); fill: none; }
+.sema-not svg .s-ok { stroke: var(--sema-ikincil); stroke-width: 3; fill: none; }
+.sema-not svg .s-ok-uc { fill: var(--sema-ikincil); }
+.sema-not svg .s-kutu { fill: var(--sema-yuzey); stroke: var(--sema-vurgu); stroke-width: 3; }
+.sema-not svg .s-dolu-vurgu { fill: var(--sema-vurgu); }
+.sema-not svg .s-dolu-yesil { fill: var(--sema-yesil); }
+.sema-not svg .s-dolu-amber { fill: var(--sema-amber); }
+.sema-not svg .s-nokta { fill: var(--sema-amber); }

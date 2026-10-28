@@ -152,6 +152,7 @@ format:
     css:
       - assets/css/fonts.css
       - assets/css/mobil.css
+      - assets/css/sema.css
     toc: true
     toc-depth: 2
     toc-title: "Bu sayfada"

@@ -139,7 +139,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Yalnızca 0 ve 1 bilen bir makine nasıl oluyor da fotoğraf çekiyor, müzik çalıyor, mesaj yazıyor?*
 
-**Okuma:** [ders notu](../docs/02_bilgisayar-nasil-dusunur.qmd), yaklaşık 27 dakika. **DigComp:** 5.1 Teknik sorunlar, 5.2 İhtiyaçlar ve teknolojik çözümler.
+**Okuma:** [ders notu](../docs/02_bilgisayar-nasil-dusunur.qmd), yaklaşık 31 dakika. **DigComp:** 5.1 Teknik sorunlar, 5.2 İhtiyaçlar ve teknolojik çözümler.
 
 **Bu hafta şunları yapabileceksin:**
 
@@ -373,7 +373,7 @@ Bir AKTS kredisi yaklaşık 25–30 saatlik öğrenci emeğine karşılık gelir
 | Etkinlik | Hesap | Saat |
 |---|---|---|
 | Ders | 14 hafta × 2 saat | 28 |
-| Notu önceden okuma | 14 notun ölçülen okuma süresi, yaklaşık 381 dakika | 6,4 |
+| Notu önceden okuma | 14 notun ölçülen okuma süresi, yaklaşık 385 dakika | 6,4 |
 | Haftalık ödevler (Hafta 1–9) | 9 × yaklaşık 1,5 saat | 13,5 |
 | Föylerin evde tamamlanması (Hafta 10–12) | 3 × yaklaşık 1,5 saat | 4,5 |
 | Hafta 10–14 ödevleri ve proje adımları | Rapor, veri analizi, sunum hazırlığı, son teslim | 12,5 |

@@ -75,7 +75,7 @@ Programa özgü örnekler yalnızca `.kutu-havacilik` kutularında yer alır; an
 
 Yalnızca öğrenmeyi destekleyen sorular buraya girer; sınav soruları hiçbir zaman bu depoya girmez.
 
-**Görseller:** Bu depo herkese açık yayımlanan bir siteyi besler. Yalnızca kendi ürettiğin, kamu malı ya da açık lisanslı görseller konur ve lisansı yanına yazılır. Film kareleri ve stok görseller `bit-ins` deposunda kalır.
+**Görseller:** Bu depo herkese açık yayımlanan bir siteyi besler. Yalnızca kendi ürettiğin, kamu malı ya da açık lisanslı görseller konur ve lisansı yanına yazılır. Film kareleri ve stok görseller `bit-ins` deposunda kalır. Şema ve grafikler satır içi SVG olarak `<figure class="sema-not">` içine yazılır; renkler `assets/css/sema.css` sınıflarından gelir (kalıp: `bit-ins/planlama/00_proje-rehberi.md`, "Şema ve grafik"; örnek: Hafta 2, Bölüm 4 ve 6).
 
 ## Yeni bir haftayı yayımlama
 
