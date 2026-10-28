@@ -8,17 +8,17 @@ description: "Dönemin haritası; son 25 yılın kırılımları; geçmişin bil
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>14 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>21 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 2.900</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
     <div><dt>DigComp alanı</dt><dd>5.3 Yaratıcı çözümler, 5.4 Dijital yetkinlik ihtiyaçları, 4.4 Çevresel etkiler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bundan 25 yıl sonra bugünün hangi teknolojisi sana tuhaf, hangisi sıradan gelecek?</p>
 </div>
 ```
 
-Yıl 2001. Bir öğrencinin çantasında şunlar var: yalnızca konuşmaya ve kısa mesaja yarayan bir cep telefonu, otuz kadar şarkı alan bir MP3 çalar, ayrı bir dijital fotoğraf makinesi, şehrin kâğıt haritası ve bir ödev için kütüphaneden alınmış bir ansiklopedi cildi. Evde internete telefon hattı üzerinden bağlanıyor; bağlanırken telefon meşgul çalıyor ve bir fotoğrafın inmesi dakikalar sürüyor. Bugün senin çantanda bunların hepsinin yerini tek bir cihaz alıyor; üstelik o cihaz sana yol tarif ediyor, metni çeviriyor ve sorularını bir yapay zekâ ile cevaplıyor. Bu dönem, bu değişimin ne kazandırdığını ve neye mal olduğunu konuştuk. Bu son hafta dönemi bir araya getiriyor, geleceğe bakıyor ve en önemli soruyu soruyor: Bundan sonra kendi başına nasıl öğrenmeye devam edeceksin?
+Yıl 2001. Bir öğrencinin çantasında şunlar var: yalnızca konuşmaya ve kısa mesaja yarayan bir cep telefonu, birkaç düzine şarkı alan bir MP3 çalar, ayrı bir dijital fotoğraf makinesi, şehrin kâğıt haritası ve bir ödev için kütüphaneden alınmış bir ansiklopedi cildi. Evde internete telefon hattı üzerinden bağlanıyor; bağlanırken telefon meşgul çalıyor ve bir fotoğrafın inmesi dakikalar sürüyor. Bugün senin çantanda bunların hepsinin yerini tek bir cihaz alıyor; üstelik o cihaz sana yol tarif ediyor, metni çeviriyor ve sorularını bir yapay zekâ ile cevaplıyor. Bu dönem, bu değişimin ne kazandırdığını ve neye mal olduğunu konuştuk. Bu son hafta dönemi bir araya getiriyor, geleceğe bakıyor ve en önemli soruyu soruyor: Bundan sonra kendi başına nasıl öğrenmeye devam edeceksin?
 
-**Okuma süresi:** yaklaşık 21 dakika. Bu hafta ders saatinin büyük kısmı son teste ve proje sunumlarına ayrıldığı için bu notu kendi başına okursun.
+**Okuma süresi:** yaklaşık 25 dakika. Bu hafta ders saatinin büyük kısmı son teste ve proje sunumlarına ayrıldığı için bu notu kendi başına okursun.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -70,8 +70,33 @@ Tablodaki her satırın bir ortak noktası var: Kırılım geldiğinde bedeli he
 :::
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Kâğıttan elektronik teknik kayda"}
-Uzun yıllar boyunca bir uçağın arızaları ve yapılan bakım, kokpitteki kâğıt bir teknik kayıt defterine (tech log) elle yazıldı. Bugün birçok havayolu **elektronik teknik kayıt** sistemlerine geçiyor: Pilot arızayı bir tablette kaydediyor, kayıt anında bakım kontrol merkezine ulaşıyor, teknisyen yedek parçayı uçak inmeden hazırlayabiliyor. Kazanç hız ve izlenebilirlik; bedel ise yeni riskler: veri bütünlüğü, siber güvenlik, sistem çökerse kaydın nasıl tutulacağı. Bu yüzden elektronik sistemlerin de onaylı prosedürleri ve bir yedek (çoğu zaman yine kâğıt) yöntemi vardır. Hafta 9'daki "teknoloji susarsa" sorusu, havacılıkta bir mevzuat gereğidir.
+Uzun yıllar boyunca bir uçağın arızaları ve yapılan bakım, kokpitteki kâğıt bir teknik kayıt defterine (tech log) elle yazıldı. Bugün birçok havayolu **elektronik teknik kayıt** sistemlerine geçiyor: Pilot arızayı bir tablette kaydediyor, kayıt anında bakım kontrol merkezine ulaşıyor, teknisyen yedek parçayı uçak inmeden hazırlayabiliyor. Kazanç hız ve izlenebilirlik; bedel ise yeni riskler: veri bütünlüğü, siber güvenlik, sistem çökerse kaydın nasıl tutulacağı. Bu yüzden elektronik sistemlerin de onaylı prosedürleri ve bir yedek yöntemi (ayrı bir elektronik sistem ya da basılı kayıt gibi) vardır. Hafta 9'daki "teknoloji susarsa" sorusu, havacılıkta bir mevzuat gereğidir.
 :::
+
+### Bu dönemin vakaları
+
+Her hafta iki vaka okudun: biri endüstriden, biri gündelik hayattan. Hepsinde aynı üç soruyu sorduk: Ne oldu, teknoloji neyi çözdü, bedeli ne oldu? Yan yana koyunca dönemin kısa bir tarihi çıkıyor:
+
+::: {.tablo-kaydir}
+| Hafta | Endüstriden | Gündelik hayattan |
+|---|---|---|
+| [1](01_teknoloji-neyi-cozer.qmd) | Konteyner (1956) | Çamaşır makinesi ve kazanılan zaman |
+| [2](02_bilgisayar-nasil-dusunur.qmd) | Raspberry Pi | Koklear implant |
+| [3](03_isletim-sistemleri.qmd) | Münih'in Linux'a geçişi ve dönüşü | Ölen bir yakının hesapları |
+| [4](04_ag-internet-bulut.qmd) | Facebook'un kesintisi (2021) | Uzaktan eğitimde evdeki tek telefon (2020) |
+| [5](05_bilgi-okuryazarligi.qmd) | Theranos | Momo korkusu (2019) |
+| [6](06_uretken-yapay-zeka.qmd) | Makine çevirisinde cinsiyet | YZ arkadaşlık uygulaması |
+| [7](07_dijital-vatandaslik-hukuk.qmd) | Oracle ile Google'ın API davası | Çocuğun fotoğrafı kimin? |
+| [8](08_mahremiyet.qmd) | WhatsApp'ın gizlilik güncellemesi (2021) | Hollanda'da çocuk bakım yardımı skandalı |
+| [9](09_siber-guvenlik.qmd) | Colonial Pipeline (2021) | Bir saatte silinen dijital hayat (2012) |
+| [10](10_belge-ve-yazisma.qmd) | e-Fatura | 840.000 kişiye "Tümünü yanıtla" (2016) |
+| [11](11_veriyle-calismak-1.qmd) | Mars Climate Orbiter (1999) | Sayım gününden adres kaydına |
+| [12](12_veriyle-calismak-2.qmd) | Challenger (1986) | "Eğriyi düzleştir" grafiği (2020) |
+| [13](13_sunum.qmd) | Pebble | Ekranda kendine bakmak |
+| 14 | Fairphone ve onarım hakkı | Seksen yaşından sonra ilk uygulama |
+:::
+
+Vakaların çoğunda bedel, teknolojinin kendisinden değil, onu kuranların ve kullananların bir kararından geldi: bir birim yazılmadı, bir parola tek başına bırakıldı, bir grafik yanlış seçildi, bir algoritmanın kararı sorgulanmadı. Bu yüzden bedel de çoğu zaman bir kararla azaltılabilir.
 
 ## 3. Geçmişin bilim kurgusu
 
@@ -93,7 +118,7 @@ Bugünün bilim kurgusu ne? **Genel yapay zekâ** (her işte insan düzeyinde ya
 | Alan | Ne? | Çözebileceği sorun | Olası bedeli | Senin için soru |
 |---|---|---|---|---|
 | **YZ ajanları** | Yalnızca cevap vermeyen, senin adına adım adım iş yapan YZ: bir yolculuğu planlayıp bileti almak, bir tabloyu analiz edip raporu yazmak | Tekrarlayan işlerin yükü | Yanlış ya da izinsiz eylem; sorumluluğun belirsizliği; hesap güvenliği | Bir YZ'ye hangi işi, hangi izinle devredersin? |
-| **Robotlar** | Fabrikadan depoya, hastaneden eve; insanlarla yan yana çalışan iş birlikçi robotlar ve insansı robotlar | Ağır, tehlikeli, tekrarlayan işler; iş gücü açığı | İş kaybı ve dönüşümü; güvenlik; bakım bağımlılığı | Senin mesleğinde hangi iş robota, hangisi sana kalır? |
+| **Robotlar** | Fabrikadan depoya, hastaneden eve; insanlarla yan yana çalışan **iş birlikçi robotlar** ve insansı robotlar | Ağır, tehlikeli, tekrarlayan işler; iş gücü açığı | İş kaybı ve dönüşümü; güvenlik; bakım bağımlılığı | Senin mesleğinde hangi iş robota, hangisi sana kalır? |
 | **Otonom sistemler** | Sürücüsüz araçlar, otonom drone'lar, kendini yöneten makineler | Kaza riski, erişim, verimlilik | Kaza olunca sorumluluk; siber saldırı; etik kararlar | Bir makinenin kararına ne zaman güvenirsin? |
 | **Nesnelerin interneti** (IoT) | İnternete bağlı sensörler ve cihazlar: akıllı ev, akıllı şehir, akıllı fabrika | Kaynakların verimli kullanılması, uzaktan izleme | Mahremiyet; güvenliği zayıf cihazlar (Hafta 9); her şeyin bağlı olmasının kırılganlığı | Evindeki hangi cihaz seni dinliyor ya da izliyor? |
 :::
@@ -110,7 +135,7 @@ Bakımın geleneksel mantığı "belli bir süre ya da çevrimden sonra kontrol 
 
 ## 5. Dijital sürdürülebilirlik
 
-Dijital dünya "bulutta" yaşıyor gibi görünür; ama bulut, gerçek binalardaki gerçek bilgisayarlardır (Hafta 4). Her arama, her video, her YZ cevabı bir yerde elektrik harcar ve ısı üretir. Bu bedelin üç yüzü vardır:
+Dijital dünya "bulutta" yaşıyor gibi görünür; ama bulut, gerçek binalardaki gerçek bilgisayarlardır (Hafta 4). Her arama, her video, her YZ cevabı bir yerde elektrik harcar ve ısı üretir. Dijital teknolojiyi bu bedeli azaltacak biçimde üretmeye ve kullanmaya **dijital sürdürülebilirlik** denir. Bedelin üç yüzü vardır:
 
 - **Enerji:** Veri merkezleri dünyanın elektrik tüketiminde küçük ama hızla büyüyen bir paya sahip. Büyük YZ modellerini eğitmek ve milyonlarca kişiye cevap vermek, bu tüketimi belirgin biçimde artırıyor. Elektriğin nereden geldiği (kömür mü, güneş mi) bedeli değiştirir.
 - **Su:** Birçok veri merkezi sunucularını soğutmak için su kullanır; kuraklık yaşanan bölgelerde bu bir yerel sorun haline gelebilir.
@@ -122,6 +147,10 @@ Bu sorunların büyük kısmı kurumların ve devletlerin işidir; ama senin de 
 - **Doğru yere at.** Eski cihazı ve pili çöpe değil, e-atık toplama noktasına ver. Vermeden önce verilerini sil ve hesaplarından çıkış yap (Hafta 8).
 - **Gereksiz veriyi temizle.** Kullanmadığın bulut yedekleri, aynı fotoğrafın onlarca kopyası, abonesi olduğun ama okumadığın e-posta listeleri. Tek tek küçüktür, ama milyonlarca kullanıcıda büyür.
 - **Aracı işe göre seç.** Basit bir hesap için bir hesap makinesi, bir yazım düzeltmesi için yazım denetimi yeter; her işi büyük bir YZ modeline yaptırmak gerekmez. Bu da araç esnekliğinin bir yüzüdür.
+
+::: {.callout-note .kutu-endustri title="Endüstriden: Onarılabilen telefon"}
+Hollandalı Fairphone, bozulan parçasını kullanıcının kendisinin değiştirebildiği modüler telefonlar üretiyor; ekran, pil ve kamera gibi parçalar ayrı ayrı satılıyor. Şirketin 2024 yılı raporuna göre garanti kapsamındaki onarımların yüzde 31'ini kullanıcılar kendileri yaptı; sattığı ürünlerin yüzde 90'ı için aynı ağırlıkta elektronik atık toplatıp geri dönüştürdü. Bedeli de aynı raporda: Fairphone 2024'te yaklaşık 103 bin telefon sattı ve yine zarar etti. Kendini sektörde "görece küçük bir oyuncu" diye tanımlıyor, maliyetlerinin biraz yüksek olduğunu ve markasının az tanındığını kabul ediyor. Kurallar ise değişiyor: AB'nin 2024/1799 sayılı onarım hakkı yönergesi, üreticileri akıllı telefon gibi bazı ürünleri garanti dışında da onarmakla yükümlü kılıyor ve yedek parçaların makul fiyatla satılmasını istiyor. Üye ülkeler bu kuralları 31 Temmuz 2026'dan beri uyguluyor. Telefonunu son kez neden değiştirdin: bozulduğu için mi, eskidiği için mi?
+:::
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Dijital her zaman kâğıttan daha çevrecidir." Her zaman değil. Bir belgeyi bir kez okumak için yazdırmamak kâğıt tasarrufu sağlar; ama yıllarca saklanan, hiç açılmayan dosyalar, sürekli çalışan sunucular ve iki yılda bir değiştirilen cihazlar da bir bedel öder. Hangisinin daha çevreci olduğu kullanıma bağlıdır: ne kadar süre, ne sıklıkla, hangi cihazla, hangi enerjiyle. Doğru soru "dijital mi kâğıt mı?" değil, "bu iş için en az kaynakla en iyi sonucu veren yol hangisi?" sorusudur.
@@ -153,6 +182,10 @@ Bunun için birkaç yol var:
 - **Birlikte öğrenmek:** Bir arkadaşına gösterdiğinde, bir şeyi gerçekten anlayıp anlamadığını görürsün. İş yerinde de öğrenme çoğu zaman bir meslektaşın yanında olur.
 
 Ve son kez: **Hazırlıklı ol.** Hafta 9'daki dayanıklılık planına dön: yedeklerin, kurtarma kodların, çok faktörlü doğrulaman yerinde mi? Bu dersin bitmesi, hesaplarının ve verilerinin bakımının bitmesi değildir.
+
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Seksen yaşından sonra ilk uygulama"}
+Masako Wakamiya 1935'te Tokyo'da doğdu. Kişisel bilgisayarlar yaygınlaşırken, 60 yaşında bir bankadan emekli oldu ve hemen bir bilgisayar aldı; kendi deyişiyle 60 yaşında dünyası genişledi, kanatlandı. Yaşıtlarına bilgisayar kursu vermeye başladı; 1999'da yaşlılar için açılan Mellow Club sitesinin kurulmasına yardım etti. Akıllı telefon oyunlarının pek azının yaşlılar düşünülerek yapıldığını gördü ve seksen yaşını geçince kendi oyununu yazmaya karar verdi: Kitaplardan programlama öğrendi, İngilizcesinin yetmediği yerlerde zorlandı. Şubat 2017'de çıkan Hinadan oyununda bebekler kaydırarak değil, tek dokunuşla yerleştiriliyor. Haziran 2017'de Apple'ın geliştirici konferansına özel konuk olarak çağrıldı ve "en yaşlı geliştirici" diye tanıtıldı. Yaşıtlarının çoğu bu kapıdan henüz geçemedi: TÜİK'in 2026 araştırmasına göre e-Devlet hizmetlerini kullananların oranı 25–34 yaş grubunda yüzde 93,0, 65–74 yaş grubunda yüzde 31,3. Ailende dijital dünyada geride kalan birine sen ne öğretebilirsin?
+:::
 
 ### Kişisel öğrenme planı
 
@@ -204,11 +237,14 @@ Kısa vadede: Final sınavına neyi bildiğini ve neyi tekrar etmen gerektiğini
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Enerji, su ve e-atık üzerine sayılar her yıl güncellenir; güncel değerler için aşağıdaki kurumların raporlarına bak.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; olaylar, atıflar ve vakalar 28 Ekim 2026'da denetlendi. Enerji, su ve e-atık üzerine sayılar her yıl güncellenir; güncel değerler için aşağıdaki kurumların raporlarına bak.
 
-- **Kavramlar ve atıflar:** Marc Prensky, "Digital Natives, Digital Immigrants" (2001); Roy Amara'ya atfedilen yasa; Gartner'ın abartı döngüsü; Alan Kay'e ve William Gibson'a atfedilen sözler; Isaac Asimov ve Jason A. Shulman (1988).
-- **Raporlar:** Uluslararası Enerji Ajansı (IEA), veri merkezleri ve YZ'nin enerji kullanımı; BM Küresel E-Atık İzleme raporları; AB'nin mikro yeterlikler tavsiyesi (2022).
-- **Diğer:** *2001: Bir Uzay Destanı* (1968).
+- **Kırılımlar ve bilim kurgu:** iPhone'un tanıtımı (9 Ocak 2007): [apple.com](https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/); iPod (23 Ekim 2001): [apple.com](https://www.apple.com/newsroom/2001/10/23Apple-Presents-iPod/); *2001: Bir Uzay Destanı* (1968) ve filmdeki tabletler: [bfi.org.uk](https://www.bfi.org.uk/features/did-stanley-kubrick-invent-ipad); beyin-bilgisayar arayüzü denemeleri: [braingate.org](https://www.braingate.org/about-braingate/) ve [neuralink.com](https://neuralink.com/updates/prime-study-progress-update/).
+- **Kavramlar ve atıflar:** Marc Prensky, "Digital Natives, Digital Immigrants", *On the Horizon* 9(5) (2001): [doi.org](https://doi.org/10.1108/10748120110424816); Bennett, Maton ve Kervin, *British Journal of Educational Technology* 39(5) (2008): [doi.org](https://doi.org/10.1111/j.1467-8535.2007.00793.x); Helsper ve Eynon, *British Educational Research Journal* 36(3) (2010): [doi.org](https://doi.org/10.1080/01411920902989227); Roy Amara'ya atfedilen yasa: [quoteinvestigator.com](https://quoteinvestigator.com/2019/01/03/estimate/); Gartner'ın abartı döngüsü: [gartner.com](https://www.gartner.com/en/research/methodologies/gartner-hype-cycle); "beş bilgisayarlık pazar" sözü: [quoteinvestigator.com](https://quoteinvestigator.com/2026/08/29/market-five/); Alan Kay'e atfedilen söz: [quoteinvestigator.com](https://quoteinvestigator.com/2012/09/27/invent-the-future/) ve Kay, "A Personal Computer for Children of All Ages" (1972); William Gibson'a atfedilen söz: [quoteinvestigator.com](https://quoteinvestigator.com/2012/01/24/future-has-arrived/); Isaac Asimov ve Jason A. Shulman, *Isaac Asimov's Book of Science and Nature Quotations* (1988): [quoteinvestigator.com](https://quoteinvestigator.com/2022/02/07/science-wisdom/).
+- **Raporlar ve düzenlemeler:** Uluslararası Enerji Ajansı, *Energy and AI* (2025): [iea.org](https://www.iea.org/reports/energy-and-ai/executive-summary); ITU ve UNITAR, *Global E-waste Monitor 2024*: [ewastemonitor.info](https://ewastemonitor.info/the-global-e-waste-monitor-2024/); AB Konseyi'nin mikro yeterlikler tavsiyesi (16 Haziran 2022): [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32022H0627(02)); AB'nin onarım hakkı yönergesi, 2024/1799: [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/TR/TXT/?uri=CELEX:32024L1799).
+- **Havacılık:** FAA, AC 120-78B, elektronik kayıt ve yedek yöntemler (2024): [faa.gov](https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_120-78B_FAA_Web.pdf); Rolls-Royce, dijital ikiz: [rolls-royce.com](https://www.rolls-royce.com/innovation/digital/digital-twin.aspx); Airbus, drone ile muayene (2018): [airbus.com](https://www.airbus.com/en/newsroom/press-releases/2018-04-airbus-launches-advanced-indoor-inspection-drone-to-reduce-aircraft); Lufthansa Technik, artırılmış gerçeklik: [lufthansa-technik.com](https://www.lufthansa-technik.com/en/augmented-reality).
+- **Vakalar:** Fairphone B.V., 2024 yıllık raporu: [fairphone.com](https://www.fairphone.com/wp-content/uploads/2025/11/Fairphone_BV_-_Annual-report-2024-fully-signed-ryq3tdbpptg8mp4hr439b3cu6e.pdf); Japonya Hükümeti, *We Are Tomodachi* (2018), Masako Wakamiya: [japan.go.jp](https://www.japan.go.jp/tomodachi/2018/spring-summer2018/game_app_developer.html); TÜİK, Hanehalkı Bilişim Teknolojileri Kullanım Araştırması, 2026 (5 Ağustos 2026): [tuik.gov.tr](https://veriportali.tuik.gov.tr/tr/press/58006).
+- **Öğrenmeye devam:** BTK Akademi (ücretsiz çevrim içi eğitimler): [btkakademi.gov.tr](https://www.btkakademi.gov.tr/).
 
 ## Bu haftanın kavramları
 
