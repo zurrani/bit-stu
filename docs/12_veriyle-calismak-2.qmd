@@ -8,8 +8,8 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>12 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>23 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.100</dd></div>
+    <div><dt>Okuma süresi</dt><dd>24 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?</p>
@@ -18,7 +18,7 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 
 Ekranda aynı veriyle çizilmiş iki grafik var. İkisi de bir laboratuvarın üç aylık arıza sayısını gösteriyor: 40, 49 ve 31. Birincisinde çubuklar birbirine yakın; ikincisinde Ekim çubuğu Eylül'ün neredeyse iki katı, Kasım ise yerle bir. Hangisi doğru? İkisi de. Aradaki tek fark, ikinci grafiğin dikey ekseninin sıfırdan değil 30'dan başlaması. Üstelik bir tuzak daha var: Kasım verisi ayın yalnızca ilk üç haftasını kapsıyor; Kasım'da arızalar azalmadı, ay henüz bitmedi. Geçen hafta veriyi düzenli hale getirdin. Bu hafta o veriden sonuç çıkaracaksın: Formül veriyi bir soruya, özet tablo soruyu bir cevaba, grafik cevabı bir karara çevirir. Ama her adımda yanılma ihtimali var; bu yüzden sonucu sınamayı da öğreneceksin.
 
-**Okuma süresi:** yaklaşık 23 dakika.
+**Okuma süresi:** yaklaşık 24 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -111,7 +111,7 @@ VE, bütün koşullar doğruysa; YADA, koşullardan en az biri doğruysa "doğru
 | ÇOKETOPLA | SUMIFS | Birden çok koşula uyan kayıtların toplamı | `=ÇOKETOPLA(J2:J121; D2:D121; "LAB-2"; C2:C121; "Ekim")` |
 :::
 
-Koşul bir hücreden de gelebilir: `=EĞERSAY($E$2:$E$121; A2)`. Bu formülü bir cihaz türleri listesinin yanında aşağı kopyaladığında her satır kendi türünü sayar. Aralık mutlak başvuruyla sabitlendiği için kaymaz; aranan değer ise göreli olduğu için kayar. Bölüm 2'deki iki başvuru türü burada birlikte çalışır.
+Koşul bir sayıyla karşılaştırma da olabilir; o zaman işleç ve sayı birlikte tırnak içine yazılır: `=EĞERSAY(J2:J121; ">48")` çözümü 48 saatten uzun süren kayıtları sayar, `">=48"` tam 48 saati de katar. Koşul bir hücreden de gelebilir: `=EĞERSAY($E$2:$E$121; A2)`. Bu formülü bir cihaz türleri listesinin yanında aşağı kopyaladığında her satır kendi türünü sayar. Aralık mutlak başvuruyla sabitlendiği için kaymaz; aranan değer ise göreli olduğu için kayar. Bölüm 2'deki iki başvuru türü burada birlikte çalışır.
 
 **Arama işlevleri** bir tablodaki bilgiyi başka bir tablodan getirir. Arıza kayıtlarında yalnızca cihaz kodu var; cihazın alım yılı ise "Cihazlar" sayfasında. **ÇAPRAZARA** bu iki tabloyu bağlar:
 
@@ -163,10 +163,19 @@ Grafik, sayıların söylediğini bir bakışta göstermek içindir. Doğru graf
 | Soru | Grafik | Dikkat |
 |---|---|---|
 | Zamanla nasıl değişti? | **Çizgi grafik** | Zaman yatay eksende, eşit aralıklarla |
-| Hangisi daha çok? | **Çubuk grafik** | Çubukları büyükten küçüğe sırala; eksen sıfırdan başlasın |
+| Hangisi daha çok? | **Çubuk grafik** | Çubukları büyükten küçüğe sırala; eksen sıfırdan başlasın; değerleri çubukların üstüne yaz |
 | Bütünün içinde payı ne? | **Pasta grafik**, dikkatle | Az sayıda dilim (en fazla beş-altı); dilimlerin toplamı bütünü oluşturmalı. Dilimleri karşılaştırmak zordur, çoğu zaman çubuk daha iyidir |
 | İki değişken birlikte değişiyor mu? | **Dağılım grafiği** | İlişki neden-sonuç demek değildir |
 :::
+
+Excel'de grafiği dört adımda kurarsın:
+
+1. Grafiğe girecek hücreleri başlıklarıyla birlikte seç; **Ekle** sekmesindeki **Önerilen Grafikler**'den uygun türü al.
+2. Grafiğin yanındaki **Grafik Öğeleri** (+) düğmesinden **Eksen Başlıkları**'nı aç ve birimi yaz; gerekirse **Veri Etiketleri**'ni de aç, okur sayıyı tahmin etmek zorunda kalmasın.
+3. Çubuk grafikte dikey eksene sağ tıkla, **Ekseni Biçimlendir**'den en küçük değeri 0 yap.
+4. Grafiğe alternatif metin ekle: grafiğin söylediğini bir cümleyle yaz (Hafta 10).
+
+Yalnızca telefonun varsa Google E-Tablolar uygulamasında grafik **Ekle > Grafik** ile eklenir. E-Tablolar işlevleri çoğu zaman İngilizce adlarıyla gösterir; Bölüm 3 ve 4'teki tablolardaki ikinci sütun burada işine yarar. Özet tablo için Google bilgisayarı öneriyor; onu laboratuvarda ya da bir bilgisayarda tarayıcıdan yap.
 
 Grafiği seçmek kadar onu dürüst çizmek de önemlidir. Sık görülen yanıltma biçimleri:
 
@@ -240,7 +249,7 @@ Bir analiz, okurun anlayacağı bir cümleyle biter. İyi bir yorumun üç parç
 
 > Arızaların %38'i (120 kayıttan 46'sı) bilgisayarlarda; bilgisayar arızaları da ortalama 30 saatle en uzun sürede çözülen grup. Bilgisayarlar için yedek parça stoku ve bir bakım sözleşmesi önceliklendirilmelidir.
 
-Yorum yazarken dört tuzağa dikkat et:
+Yorum yazarken beş tuzağa dikkat et:
 
 ::: {.tablo-kaydir}
 | Tuzak | Yanıltan cümle | Dürüst cümle |
@@ -248,7 +257,8 @@ Yorum yazarken dört tuzağa dikkat et:
 | **Eksik dönem** | "Kasım'da arızalar azaldı." (Kasım'ın yalnızca üç haftası var) | "Kasım'ın ilk üç haftasında arıza Ekim'den az; ay bitmeden karşılaştırmak erken." |
 | **Ortalama mı ortanca mı** | "Bir arıza ortalama 22,6 saatte çözülüyor." | "Tipik bir arıza 8 saatte çözülüyor (ortanca); birkaç uzun arıza ortalamayı 22,6 saate çekiyor." |
 | **İlişki neden değildir** | "Eski cihazlar yaşlı oldukları için daha çok bozuluyor." | "Eski cihazlarda daha çok arıza var; bu cihazlar en yoğun kullanılan laboratuvarda da olabilir." |
-| **Küçük sayılar** | "Projeksiyonların yüzde 67'si yeniden arızalandı." | "Üç projeksiyondan ikisi yeniden arızalandı; sonuç için kayıt sayısı az." |
+| **Küçük sayılar** | "3B yazıcıların yüzde 67'si yeniden arızalandı." | "Üç 3B yazıcıdan ikisi yeniden arızalandı; sonuç için cihaz sayısı az." |
+| **Ham sayı mı oran mı** | "En sorunlu cihaz bilgisayar: 46 arıza." | "En çok arıza bilgisayarlarda, çünkü en çok bilgisayar var (18 cihaz). Cihaz başına bakınca bilgisayar 2,6 arızayla en sonda, 3B yazıcılar 4,7 ile önde." |
 :::
 
 ::: {.callout-note .kutu-endustri title="Endüstriden: Veri vardı, doğru grafik yoktu"}
@@ -309,12 +319,12 @@ Kısa vadede: Harcamalarını ya da ekran süreni birkaç formül ve bir grafikl
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; tablolar ve eksen şeması 28 Ekim 2026'da eklendi. İşlev adları programın sürümüne ve diline göre değişebilir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; tablolar ve eksen şeması 28 Ekim 2026'da, grafik adımları ve sayısal koşul 29 Ekim 2026'da eklendi. İşlev adları programın sürümüne ve diline göre değişebilir.
 
 - **Araştırmalar:** Carmen Reinhart ve Kenneth Rogoff, "Growth in a Time of Debt", *American Economic Review* (2010): [doi.org/10.1257/aer.100.2.573](https://doi.org/10.1257/aer.100.2.573); Thomas Herndon, Michael Ash ve Robert Pollin, PERI çalışma raporu 322 (Nisan 2013), *Cambridge Journal of Economics*'te yayımlandı: [doi.org/10.1093/cje/bet075](https://doi.org/10.1093/cje/bet075); Raymond Panko'nun elektronik tablo hataları üzerine derlemeleri.
 - **Challenger:** Report of the Presidential Commission on the Space Shuttle Challenger Accident (Rogers Komisyonu, 1986), Bölüm III ve VI: [NASA tarih arşivi](https://www.nasa.gov/history/rogersrep/v1ch6.htm).
 - **Eğriyi düzleştirmek:** CDC, *Interim Pre-pandemic Planning Guidance: Community Strategy for Pandemic Influenza Mitigation* (Şubat 2007), Şekil 1: [CDC Stacks](https://stacks.cdc.gov/view/cdc/11425); Alessandro Romano, Chiara Sotis, Goran Dominioni ve Sebastián Guidi, "The scale of COVID-19 graphs affects understanding, attitudes, and policy preferences", *Health Economics* (2020): [doi.org/10.1002/hec.4143](https://doi.org/10.1002/hec.4143).
-- **Programlar:** Microsoft Destek, Türkçe işlev sayfaları (ör. [BAĞ_DEĞ_DOLU_SAY işlevi](https://support.microsoft.com/tr-tr/excel/functions/counta-function), [YADA işlevi](https://support.microsoft.com/tr-tr/excel/functions/or-function)); [ÇAPRAZARA işlevi](https://support.microsoft.com/tr-tr/office/%C3%A7aprazara-i%CC%87%C5%9Flevi-b7fd680e-6d10-43e6-84f9-88eae8bf5929); LibreOffice Yardım, [XLOOKUP](https://help.libreoffice.org/latest/en-US/text/scalc/01/func_xlookup.html) (24.8 sürümünden beri); Google Dokümanlar Düzenleyicileri Yardım, [XLOOKUP işlevi](https://support.google.com/docs/answer/12405947?hl=tr). Sürümler Haziran 2026'daki haliyle.
+- **Programlar:** Microsoft Destek, [Önerilen grafiklerle grafik oluşturma](https://support.microsoft.com/tr-tr/Excel/create-a-chart-with-recommended-charts); Google E-Tablolar Yardım, [Grafik ekleme (Android)](https://support.google.com/docs/answer/63824?hl=tr&co=GENIE.Platform%3DAndroid) ve [Pivot tablolar](https://support.google.com/docs/answer/1272900?hl=tr); Microsoft Destek, Türkçe işlev sayfaları (ör. [BAĞ_DEĞ_DOLU_SAY işlevi](https://support.microsoft.com/tr-tr/excel/functions/counta-function), [YADA işlevi](https://support.microsoft.com/tr-tr/excel/functions/or-function)); [ÇAPRAZARA işlevi](https://support.microsoft.com/tr-tr/office/%C3%A7aprazara-i%CC%87%C5%9Flevi-b7fd680e-6d10-43e6-84f9-88eae8bf5929); LibreOffice Yardım, [XLOOKUP](https://help.libreoffice.org/latest/en-US/text/scalc/01/func_xlookup.html) (24.8 sürümünden beri); Google Dokümanlar Düzenleyicileri Yardım, [XLOOKUP işlevi](https://support.google.com/docs/answer/12405947?hl=tr). Sürümler Haziran 2026'daki haliyle.
 - **Diğer:** *The Joy of Stats* (BBC Four, 2010): [BBC program sayfası](https://www.bbc.co.uk/programmes/b00wgq0l).
 
 ## Bu haftanın kavramları

@@ -8,8 +8,8 @@ description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>4 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>24 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.400</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.4 İş birliği, 5.1 Teknik sorunlar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Tarayıcıya bir adres yazıp Enter'a bastığın o bir saniyede neler oluyor?</p>
@@ -18,7 +18,7 @@ description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (
 
 Her gün yüzlerce kez yapıyoruz: bir adres yazıyoruz, sayfa açılıyor. Bu hafta o bir saniyenin içine bakacağız: adresin sayıya çevrilmesini, verinin parçalara bölünüp dünyanın öbür ucuna gitmesini, denizin altından geçen kabloları ve havadaki dalgaları. Ardından devletin bu ağa nasıl taşındığını, "bulut" denen şeyin aslında nerede durduğunu ve neye mal olduğunu, bir uçağın da nasıl bu ağın parçası olduğunu göreceğiz.
 
-**Okuma süresi:** yaklaşık 24 dakika.
+**Okuma süresi:** yaklaşık 25 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -183,6 +183,8 @@ nslookup iuc.edu.tr     alan adının IP adresini gösterir
 ping iuc.edu.tr         sunucuya ulaşılıp ulaşılmadığını ve yanıt süresini ölçer
 tracert iuc.edu.tr      paketlerin geçtiği durakları listeler (macOS ve Linux'ta: traceroute)
 ```
+
+`tracert` çıktısının her satırı bir duraktır, yani paketin yolda geçtiği bir yönlendirici. İlk satır çoğu zaman evdeki ya da kampüsteki yönlendiricin, son satır hedef sunucudur. Satırdaki üç milisaniye değeri, o durağa gönderilen üç denemenin gidip gelme süresidir, yani gecikme; durak uzaklaştıkça artması beklenir. Yıldız (`*`) ya da zaman aşımı yazan satır bağlantının koptuğunu göstermez: Bazı yönlendiriciler bu denemelere bilerek yanıt vermez; sonraki duraklar geliyorsa yol açıktır. `tracert` varsayılan olarak en fazla 30 durağa bakar.
 
 ### HTTPS ve kilit simgesi
 
@@ -371,7 +373,7 @@ Hava basıncı yükseldikçe azalır. Uçaklardaki **barometrik altimetre** irti
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Uçak konuşur"}
 Bir yolcu uçağı uçarken sürekli konuşur:
 
-- **ADS-B:** Uçak konumunu, irtifasını ve hızını saniyede birkaç kez yayınlar. Flightradar24 gibi siteler bu yayınları, dünyanın dört bir yanındaki gönüllülerin kurduğu alıcılarla toplar; ağ kavramının somut bir örneğidir.
+- **ADS-B:** Uçak konumunu, irtifasını ve hızını saniyede birkaç kez yayınlar. Flightradar24 gibi siteler bu yayınları, dünyanın dört bir yanındaki gönüllülerin kurduğu alıcılarla toplar; ağ kavramının somut bir örneğidir. Bu sitelerde uçağı **tescil** işaretiyle bulursun; tescil uçağın plakasıdır ve Türkiye'de TC- ile başlar. Havacılıkta irtifa çoğunlukla fit (ft), hız knot (kt, saatte bir deniz mili, 1,852 km) ile verilir; birimi yazılmayan sayı eksiktir.
 - **Telsiz:** Pilotlar hava trafik kontrolüyle VHF hava bandında konuşur. Seyrüsefer için yerdeki **VOR** istasyonlarından gelen radyo sinyallerini kullanır.
 - **ACARS:** Uçak ile yer arasında kısa veri mesajları taşıyan sistemdir. Arıza mesajları bu yolla uçak daha inmeden bakım ekibine ulaşabilir; Hafta 1'deki "bir teknisyenin günü" tablosundaki değişimin arkasında bu bağlantı vardır.
 - **Kabinde internet:** Yolcuların interneti ya yerdeki istasyonlar ya da uydular üzerinden gelir.
@@ -405,11 +407,12 @@ Bu, Hafta 2'deki "belirtiden parçaya" düşüncesinin ağdaki karşılığıdı
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da, tablolar ve iki şema 28 Ekim 2026'da eklendi.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da, tablolar ve iki şema 28 Ekim 2026'da, tracert çıktısının okunuşu ve uçak verisinin birimleri 29 Ekim 2026'da eklendi.
 
 - **İnternetin tarihi:** ARPANET'in ilk mesajı (29 Ekim 1969); TCP/IP'ye geçiş (1 Ocak 1983); Türkiye'nin internet bağlantısı (ODTÜ, 12 Nisan 1993); Tim Berners-Lee'nin önerisi (CERN, 1989).
 - **Teknik:** IPv4 adresleme (32 bit); WPA3 (Wi-Fi Alliance, 2018): [Wi-Fi Alliance, güvenlik](https://www.wi-fi.org/discover-wi-fi/security); PUE: The Green Grid'in tanımı, bugün ISO/IEC 30134-2 standardı; sabit yörünge yüksekliği (yaklaşık 36 bin km); herkese açık DNS: [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using); Türkiye'de 5G: [Ulaştırma ve Altyapı Bakanlığı, 31 Mart 2026](https://www.uab.gov.tr/haberler/cumhurbaskani-erdogan-5g-doenemini-resmen-baslatti/); standart atmosferde basınç ile yükseklik ilişkisi.
 - **Kamu hizmetleri:** e-Devlet Kapısı, 18 Aralık 2008'den beri; giriş yolları ve iki aşamalı giriş: [e-Devlet, sık sorulan sorular](https://www.turkiye.gov.tr/bilgilendirme?konu=sikcaSorulanSorular); [e-Devlet, belge doğrulama](https://www.turkiye.gov.tr/belge-dogrulama).
+- **Komutlar ve havacılık:** [Microsoft Learn, tracert](https://learn.microsoft.com/tr-tr/windows-server/administration/windows-commands/tracert); tescil işareti: [SHGM, SHY-7 Hava Aracı Milliyeti ve Tescil İşaretleri Yönetmeliği](https://web.shgm.gov.tr/documents/sivilhavacilik/files/mevzuat/sektorel/yonetmelikler/2022/SHY-7.pdf).
 - **Bulut arızası (2025):** Sağlayıcının kendi olay raporu: [AWS, 19–20 Ekim 2025, Kuzey Virginia bölgesi](https://aws.amazon.com/message/101925/).
 - **Vakalar:** Kesintinin nedeni: [Meta mühendislik blogu, "More details about the October 4 outage", 5 Ekim 2021](https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/); saatler: [Cloudflare'in ölçümü, 4 Ekim 2021](https://blog.cloudflare.com/october-2021-facebook-outage/); [Telegram kurucusunun duyurusu](https://t.me/durov/169). Uzaktan eğitim: [Millî Eğitim Bakanlığı, 19 Mart 2020](https://www.meb.gov.tr/bakan-selcuk-23-martta-baslayacak-uzaktan-egitime-iliskin-detaylari-anlatti/haber/20554/tr); [Millî Eğitim Bakanlığı, EBA destek noktaları, 2 Eylül 2020](https://www.meb.gov.tr/eba-destek-noktalari-uzaktan-egitime-erisimin-onundeki-engelleri-kaldiriyor/haber/21553/tr); [TÜİK, Hanehalkı Bilişim Teknolojileri Kullanım Araştırması 2020, sayı 33679](https://veriportali.tuik.gov.tr/tr/press/33679).
 - **Diğer:** Leang Bulu Sipong 4 mağara resminin tarihlendirilmesi: M. Aubert ve arkadaşları, "Earliest hunting scene in prehistoric art", *Nature* 576 (2019), [doi:10.1038/s41586-019-1806-y](https://doi.org/10.1038/s41586-019-1806-y); Martin Cooper'ın ilk cep telefonu araması (1973).

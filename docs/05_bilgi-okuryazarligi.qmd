@@ -8,8 +8,8 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>5 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>23 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.100</dd></div>
+    <div><dt>Okuma süresi</dt><dd>24 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.200</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.1 Arama ve filtreleme, 1.2 Bilgiyi değerlendirme, 3.3 Telif ve lisanslar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> İnternette bulduğun bir bilginin doğru olduğundan nasıl emin olursun?</p>
@@ -18,7 +18,7 @@ description: "Arama motorları ve operatörler; kaynak değerlendirme, yanal oku
 
 Aramak hiç bu kadar kolay olmamıştı; doğruyu bulmak ise hiç bu kadar zor olmamıştı. Bu hafta arama motorlarının nasıl çalıştığını ve onları nasıl daha iyi kullanacağını, sonra da asıl beceriyi öğreneceksin: bir bilginin, bir sitenin, bir fotoğrafın ya da bir alıntının güvenilir olup olmadığını birkaç dakikada sınamayı. Bu beceri gelecek hafta yapay zekâyla çalışırken de en büyük koruman olacak.
 
-**Okuma süresi:** yaklaşık 23 dakika.
+**Okuma süresi:** yaklaşık 24 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -277,13 +277,18 @@ Başkasının fikrini, cümlesini, verisini ya da görselini kullandığında bu
 - **Kendi cümlelerinle aktarma:** Fikri kendi kelimelerinle yazar ve kaynağını gösterirsin.
 - **Özetleme:** Uzun bir metnin ana fikrini kısaca anlatır ve kaynağını gösterirsin.
 
-**İntihal**, başkasının emeğini kendi emeğin gibi sunmaktır: kaynak göstermeden kopyalamak, kelimeleri biraz değiştirip kendi yazınmış gibi sunmak ya da başkasına yazdırılmış bir metni kendi adınla teslim etmek. Yapay zekânın yazdığı bir metni beyan etmeden kendi metnin gibi sunmak da bu derste aynı kapsamdadır.
+**İntihal**, başkasının emeğini kendi emeğin gibi sunmaktır: kaynak göstermeden kopyalamak, kelimeleri biraz değiştirip kendi yazınmış gibi sunmak ya da başkasına yazdırılmış bir metni kendi adınla teslim etmek. Yapay zekânın yazdığı bir metni beyan etmeden kendi metnin gibi sunmak da bu derste aynı kapsamdadır. Beyanın nasıl yazılacağını ve bir örneğini gelecek hafta göreceksin: [Hafta 6, Bölüm 8](06_uretken-yapay-zeka.qmd#kapanış-akademik-dürüstlük-ve-yz-beyanı).
 
 Metnin içinde bir bilginin kaynağını belirtmeye **atıf**, kullandığın bütün kaynakların sonda listelenmesine **kaynakça** denir. Bir kaynağı göstermenin pek çok biçimi vardır; bu derste kısa bir APA biçimi yeterlidir:
 
 ```text
 Kitap:      Soyad, A. (Yıl). Kitabın adı. Yayınevi.
-Web sayfası: Kurum ya da yazar. (Yıl, gün ay). Sayfanın başlığı. Site adı. Adres
+Makale:     Soyad, A. (Yıl). Makalenin adı. Derginin Adı,
+            Cilt(Sayı), ilk-son sayfa. https://doi.org/...
+Tez:        Soyad, A. (Yıl). Tezin adı (Tez No.) [Yüksek lisans
+            tezi, Üniversitenin adı]. YÖK Ulusal Tez Merkezi.
+Web sayfası: Kurum ya da yazar. (Yıl, gün ay). Sayfanın başlığı.
+            Site adı. Adres
 ```
 
 ::: {.callout-tip .kutu-fayda title="Bu ne işime yarar?"}
@@ -314,7 +319,7 @@ Enformasyon hiç bu kadar bol olmamıştı. Fütürist John Naisbitt bunu daha 1
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da, tablolar ve risk şeması 28 Ekim 2026'da eklendi. Arama operatörleri arama motoru değiştikçe değişir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da, tablolar ve risk şeması 28 Ekim 2026'da, makale ve tez kalıpları 29 Ekim 2026'da eklendi. Arama operatörleri arama motoru değiştikçe değişir.
 
 - **Araştırmalar:** Sam Wineburg ve Sarah McGrew, yanal okuma (Stanford Tarih Eğitimi Grubu, 2017); Mike Caulfield, SIFT (2019); Soroush Vosoughi, Deb Roy ve Sinan Aral, "The spread of true and false news online", *Science* 359, 1146–1151 (2018), [doi:10.1126/science.aap9559](https://doi.org/10.1126/science.aap9559); Claire Wardle ve Hossein Derakhshan, Avrupa Konseyi raporu (2017).
 - **Bilim ve istatistik:** Wakefield ve arkadaşlarının 1998 tarihli makalesi ve *The Lancet*'in geri çekme kararı (2010), [doi:10.1016/S0140-6736(10)60175-4](https://doi.org/10.1016/S0140-6736(10)60175-4); DOI sistemi: [doi.org, DOI nedir?](https://www.doi.org/the-identifier/what-is-a-doi/).
@@ -323,6 +328,7 @@ Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle
 - **Vakalar:** Theranos: [ABD Menkul Kıymetler ve Borsa Komisyonu, 14 Mart 2018](https://www.sec.gov/news/press-release/2018-41); [ABD Adalet Bakanlığı, Holmes kararı, 18 Kasım 2022](https://www.justice.gov/usao-ndca/pr/elizabeth-holmes-sentenced-more-11-years-defrauding-theranos-investors-hundreds); [ABD Adalet Bakanlığı, Balwani kararı, 7 Aralık 2022](https://www.justice.gov/usao-ndca/pr/theranos-president-sentenced-more-12-years-fraud-jeopardized-patient-health-and-bilked); J. P. A. Ioannidis, "Stealth research", *JAMA* 313(7), 663–664 (2015), [doi:10.1001/jama.2014.17662](https://doi.org/10.1001/jama.2014.17662). Momo: A. Phippen ve E. Bond, *Digital Ghost Stories: Impact, Risks and Reasons*, [SWGfL](https://swgfl.org.uk/research/digital-ghost-stories-impact-risks-and-reasons/).
 - **Platformlar:** [WhatsApp, iletme sınırları](https://faq.whatsapp.com/1053543185312573); [Google DeepMind, SynthID](https://deepmind.google/models/synthid/).
 - **Alıntılar:** Jonathan Swift, *The Examiner* (1710); John Naisbitt, *Megatrends* (1982); William Bruce Cameron, *Informal Sociology* (1963); *Popular Mechanics*, Mart 1949. Gaflar tablosu: Samuel Sass, "A Patently False Patent Myth", *Skeptical Inquirer* 13 (1989), 310–313 (Duell); Quote Investigator, [640K](https://quoteinvestigator.com/2011/09/08/640k-enough/) (Gates) ve [beş bilgisayar](https://quoteinvestigator.com/2026/08/29/market-five/) (Watson).
+- **Kaynak gösterme:** APA 7 makale ve tez kalıpları: [Purdue OWL, süreli yayınlar](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/reference_list_articles_in_periodicals.html) ve [öbür basılı kaynaklar](https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/reference_list_other_print_sources.html).
 - **Araçlar:** Google'ın arama operatörleri (Haziran 2026'daki durum); Teyit ve Doğruluk Payı; Swift alıntısının kaynağı: [Quote Investigator](https://quoteinvestigator.com/2014/07/13/truth/).
 
 ## Bu haftanın kavramları
