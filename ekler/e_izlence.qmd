@@ -329,7 +329,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Dinleyicin sunumundan çıkarken aklında tek bir cümle kalacaksa, o cümle ne olmalı?*
 
-**Okuma:** [ders notu](../docs/13_sunum.qmd), yaklaşık 32 dakika. **DigComp:** 2.1 Etkileşim, 2.2 Paylaşma, 3.1 İçerik geliştirme, 3.3 Telif ve lisanslar, 5.2 İhtiyaçlar ve teknolojik çözümler.
+**Okuma:** [ders notu](../docs/13_sunum.qmd), yaklaşık 34 dakika. **DigComp:** 2.1 Etkileşim, 2.2 Paylaşma, 3.1 İçerik geliştirme, 3.3 Telif ve lisanslar, 5.2 İhtiyaçlar ve teknolojik çözümler.
 
 **Bu hafta şunları yapabileceksin:**
 

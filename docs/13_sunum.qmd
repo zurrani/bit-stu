@@ -8,8 +8,8 @@ description: "Sunum nedir; sunum türleri, bilgisayarlı ve bilgisayarsız sunum
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>13 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>32 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 4.300</dd></div>
+    <div><dt>Okuma süresi</dt><dd>34 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.600</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.2 Paylaşma, 3.1 İçerik geliştirme, 3.3 Telif ve lisanslar, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Dinleyicin sunumundan çıkarken aklında tek bir cümle kalacaksa, o cümle ne olmalı?</p>
@@ -18,7 +18,7 @@ description: "Sunum nedir; sunum türleri, bilgisayarlı ve bilgisayarsız sunum
 
 Uzay mekiği Columbia 16 Ocak 2003'te fırlatılırken, yakıt tankından kopan bir köpük parçası sol kanada çarptı. Görev sürerken mühendisler çarpmanın tehlikeli olup olmadığını inceledi ve sonuçlarını yöneticilere slaytlarla sundu. Slaytlardan birinin başlığı, test verilerinin "temkinli" olduğunu, yani ısı kalkanının dayanacağını söylüyordu. Asıl önemli bilgi ise aynı slaytın en altındaki küçük bir alt maddedeydi: Testlerde kullanılan parçalar, gerçekte çarpan köpükten çok daha küçüktü. 1 Şubat'ta Columbia atmosfere dönerken parçalandı ve yedi astronot hayatını kaybetti. Kaza inceleme kurulu, kurumdaki teknik iletişimin slayt biçimine fazla dayandığını da raporuna yazdı. Bir slayt bir kazaya tek başına neden olmaz. Ama yanlış kurulmuş bir slayt, doğru bilginin doğru kişiye ulaşmasını engelleyebilir. Bu hafta sunumun bir slayt yığını değil, bir mesaj olduğunu göreceksin. Sonra o mesajı hangi araçla, nasıl tasarlayacağını ve bir topluluğun karşısında nasıl anlatacağını öğreneceksin.
 
-**Okuma süresi:** yaklaşık 32 dakika.
+**Okuma süresi:** yaklaşık 34 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -106,7 +106,7 @@ Slayt bir yol tabelasına benzer. Tabela hızla okunur ve tek bir şey söyler; 
 
 ### Mesaj başlığı ve kanıt
 
-Hafta 12'de grafiğin başlığının bir cümle olabileceğini görmüştün. Slaytta da aynı ilke geçerlidir. "Arıza sayıları" bir **konu başlığıdır**; "Arızaların yarıya yakını bilgisayarlarda" ise bir **mesaj başlığıdır** ve slaytın ne söylediğini okura baştan söyler. Bu yaklaşımın adı **iddia ve kanıt** (assertion-evidence) slaytıdır: Üstte iddiayı söyleyen tam bir cümle, altında onu destekleyen kanıt (bir grafik, bir fotoğraf, bir şema). Madde imleriyle dolu bir slayt yerine iddia ve kanıt slaytları kullanan konuşmacıların sunumlarının daha iyi anlaşıldığını gösteren çalışmalar vardır.
+Hafta 12'de grafiğin başlığının bir cümle olabileceğini görmüştün. Slaytta da aynı ilke geçerlidir. "Arıza sayıları" bir **konu başlığıdır**; "Arızaların yarıya yakını bilgisayarlarda" ise bir **mesaj başlığıdır** ve slaytın ne söylediğini okura baştan söyler. Bu yaklaşımın adı **iddia ve kanıt slaytıdır** (assertion-evidence): Üstte iddiayı söyleyen tam bir cümle, altında onu destekleyen kanıt (bir grafik, bir fotoğraf, bir şema). Madde imleriyle dolu bir slayt yerine iddia ve kanıt slaytları kullanan konuşmacıların sunumlarının daha iyi anlaşıldığını gösteren çalışmalar vardır.
 
 Columbia'daki slaytı bir de bu gözle düşün: Başlık bir iddiaydı ("veriler temkinli"), ama kanıt bu iddiayı desteklemiyordu ve çürüten bilgi en alttaki küçük bir satırdaydı. Mesaj başlığı tek başına yetmez; başlığın iddiası doğru olmalı ve kanıt onu gerçekten göstermelidir.
 
@@ -160,7 +160,7 @@ PowerPoint'i açtığında solda slayt küçük resimleri, ortada üzerinde çal
 
 - **Slayt gösterisi:** F5 baştan, Shift + F5 bulunduğun slayttan başlatır. Gösteri sırasında B tuşu ekranı karartır (dikkati sana çekmek için), tekrar basınca geri döner; bir slayt numarası yazıp Enter'a basarak o slayta atlarsın.
 - **Sunucu görünümü** (presenter view): İkinci bir ekran ya da projeksiyon bağlıyken, dinleyici yalnızca slaytı görürken sen kendi ekranında konuşmacı notlarını, sıradaki slaytı ve geçen süreyi görürsün. Notlarını yüksek sesle okumak için değil, bir göz atıp yolunu bulmak için kullanırsın.
-- **Prova araçları:** **Slayt Gösterisi > Zamanlamaları Prova Et** her slayta harcadığın süreyi ölçer. Güncel sürümlerde bir prova koçu konuşma hızını, dolgu sözcüklerini ("ııı", "yani") ve slayttan okumayı fark edip geri bildirim verebilir.
+- **Prova araçları:** **Slayt Gösterisi > Zamanlamaları Prova Et** her slayta harcadığın süreyi ölçer. Güncel sürümlerde bir prova koçu (Konuşma Koçu) konuşma hızını, dolgu sözcüklerini ("ııı", "yani") ve slayttan okumayı fark edip geri bildirim verebilir.
 - **Altyazı:** Bazı sürümler konuşmanı canlı altyazıya dönüştürebilir; işitme engelli dinleyiciler ve gürültülü salonlar için değerlidir.
 
 ### Paylaşmak
@@ -225,7 +225,7 @@ Sorumlu bir iş akışı şöyle kurulabilir: Ana mesajı ve hikâye akışını
 
 ## 6. Topluluk önünde konuşmak
 
-Topluluk önünde konuşmak birçok insan için en kaygı verici durumlardan biridir. Kalp hızlanır, eller terler, ses titrer. Bunun önce şunu bil: **Bu tepki normaldir** ve vücudunun seni bir göreve hazırlamasıdır. Deneyimli konuşmacıların çoğu da heyecanlanır; farkı, heyecanı yönetmeyi öğrenmiş olmalarıdır. Amaç kaygıyı sıfıra indirmek değil, onunla birlikte konuşabilmektir.
+Topluluk önünde konuşmak birçok insan için en kaygı verici durumlardan biridir. Kalp hızlanır, eller terler, ses titrer. Buna **sunum kaygısı** denir. Önce şunu bil: **Bu tepki normaldir** ve vücudunun seni bir göreve hazırlamasıdır. Deneyimli konuşmacıların çoğu da heyecanlanır; farkı, heyecanı yönetmeyi öğrenmiş olmalarıdır. Amaç kaygıyı sıfıra indirmek değil, onunla birlikte konuşabilmektir.
 
 **Kaygıyı yönetmenin yolları:**
 
@@ -263,6 +263,10 @@ Sorular sunumun bir parçasıdır, tehdidi değil. Birkaç alışkanlık işe ya
 
 Kayıtlı (video) sunum ise ayrı bir türdür: Dinleyici seni durdurabilir, geri sarabilir, hızlandırabilir. Daha kısa ve daha sıkı kurgulanmış olmalıdır; birkaç dakikalık bölümlere ayırmak izlemeyi kolaylaştırır.
 
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Ekranda kendine bakmak"}
+2020'de salgınla birlikte dersler ve toplantılar görüntülü görüşmeye taşındı ve kısa sürede yeni bir deyim yayıldı: "Zoom yorgunluğu". Stanford Üniversitesi'nden iletişim araştırmacısı Jeremy Bailenson 2021'de bu yorgunluğun dört olası nedenini sıraladı. Birincisi, ekrandaki yüzlere çok yakından ve sürekli bakmak; yüz yüze bir toplantıda bu kadar uzun göz teması kurmayız. İkincisi, jestleri ve tepkileri ekrandan okumanın daha çok çaba istemesi. Üçüncüsü, gün boyu kendi görüntünü izlemek: Bailenson bunu, iş günü boyunca elinde bir aynayla peşinden dolaşan bir yardımcıya benzetir. Dördüncüsü, kameranın görüş alanında kalmak için yerinden kımıldamadan oturmak. Bailenson bunların henüz deneyle sınanmamış argümanlar olduğunu kendisi vurgular. Önerileri basittir: kendi görüntünü gizlemek, harici kamera ve klavyeyle ekrandan biraz uzaklaşmak, bazı toplantıları yalnızca sesli yapmak. Bir sonraki çevrim içi dersinde kendi görüntünü gizlesen ne değişir?
+:::
+
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "İletişimin yüzde 93'ü sözsüzdür; ne söylediğin değil, nasıl söylediğin önemlidir." Yanlış. Bu oran, psikolog Albert Mehrabian'ın 1960'lardaki iki deneyinden gelir ve yalnızca çok dar bir durumu anlatır: Bir kişinin tek bir sözcükle duygusunu ifade ettiği ve sesiyle sözcüğünün çeliştiği durumlar. Mehrabian bu sonucun bütün iletişime genellenemeyeceğini kendisi de vurgulamıştır. Ses ve beden dili elbette önemlidir; ama bir sunumda dinleyici en çok ne söylediğini hatırlar. İçerik zayıfsa iyi bir beden dili onu kurtarmaz.
 :::
@@ -285,6 +289,10 @@ Dönem projenin son adımı, bulgularını üç dakikada sunmaktır. Kısa bir s
 8. **Yedek:** Sunumun PDF'i bir bellekte ya da bulutta; projeksiyon çalışmazsa elinde basılı bir sayfa.
 
 Kısa sunumu sevmenin bir yolu da onu bir oyun gibi görmektir. **Pecha Kucha** biçiminde konuşmacı 20 slaytı, her biri 20 saniye kendiliğinden geçecek şekilde sunar; konuşma toplam 6 dakika 40 saniye sürer. **Asansör konuşması** (elevator pitch) ise bir fikri bir asansör yolculuğu kadar, yani yarım dakika ile bir dakika arasında anlatmaktır. İkisi de aynı şeyi öğretir: Süre sınırı, neyin gerçekten önemli olduğuna karar vermeye zorlar.
+
+::: {.callout-note .kutu-endustri title="Endüstriden: Bir kampanya sayfası, on milyon dolar"}
+Nisan 2012'de küçük bir girişim, Pebble Technology, telefona bağlanan ve bildirimleri gösteren e-kâğıt ekranlı bir kol saatini kitle fonlama sitesi Kickstarter'da tanıttı. Hedef 100.000 dolardı. Kampanya sayfası kısa bir tanıtım videosuyla açılıyor, saatin ne işe yaradığını birkaç görselle anlatıyordu. 37 gün sonra 68.929 destekçi toplam 10.266.845 dolar vermişti: hedefin yüz katından fazla. Şirket sonraki yıllarda yeni saatler için yeni kampanyalar açtı. Ama 7 Aralık 2016'da destekçilere yazdığı mesajda artık bağımsız bir şirket olarak çalışamayacağını, kapandığını ve bazı varlıklarının Fitbit'e geçtiğini duyurdu. Son kampanyada vaat edilen saatlerin bir kısmı hiç üretilmedi; destekçilere paraları iade edildi. İyi bir sunum bir fikre para ve ilgi toplayabilir; ürünü ayakta tutan ise üretim, satış ve rekabettir. Bir sunumun vaadi ile ürünün gerçeği arasındaki farkı dinleyici nasıl anlayabilir?
+:::
 
 ::: {.callout-caution .kutu-dusun title="Düşün"}
 Dönem projenin ana mesajını şimdi, tek cümleyle yaz. Yazmak kolay mı oldu? Değilse, eksik olan şey slaytlar mı, yoksa ne söylemek istediğin mi?
@@ -340,9 +348,12 @@ Kısa vadede: Dönem projeni üç dakikada, ana mesajı net ve süreye uygun bir
 
 Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. YZ araçlarının özellikleri ve ücretsiz sürüm sınırları sık değişir.
 
-- **Olaylar ve eleştiriler:** Columbia Kaza İnceleme Kurulu raporu (CAIB, 2003); Edward Tufte, *The Cognitive Style of PowerPoint* (2003).
+- **Olaylar ve eleştiriler:** Columbia Kaza İnceleme Kurulu raporu (CAIB, Ağustos 2003), Cilt I: [NASA Teknik Raporlar Sunucusu](https://ntrs.nasa.gov/citations/20030093634); Edward Tufte, *The Cognitive Style of PowerPoint* (2003).
+- **Pebble:** Kickstarter, [Pebble: E-Paper Watch for iPhone and Android](https://www.kickstarter.com/projects/getpebble/pebble-e-paper-watch-for-iphone-and-android) (kampanya 11 Nisan – 19 Mayıs 2012; 7 Aralık 2016 tarihli 55. güncelleme); [Pebble 2, Time 2 + All-New Pebble Core, 17. güncelleme](https://www.kickstarter.com/projects/597507018/pebble-2-time-2-and-core-an-entirely-new-3g-ultra/posts/1752929) (7 Aralık 2016, iadeler).
+- **Zoom yorgunluğu:** Jeremy N. Bailenson, "Nonverbal overload: A theoretical argument for the causes of Zoom fatigue", *Technology, Mind, and Behavior* 2(1), 2021: [doi.org/10.1037/tmb0000030](https://doi.org/10.1037/tmb0000030).
 - **Araştırmalar:** Richard Mayer'in çoklu ortamla öğrenme ilkeleri; Michael Alley'in iddia ve kanıt yaklaşımı; Albert Mehrabian'ın deneyleri (1967); Gordon Dupont, Kirli Düzine (Transport Canada, 1990'lar).
-- **Tarih ve diğer:** PowerPoint (Robert Gaskins ve Dennis Austin, 1987); Pecha Kucha (Tokyo, 2003); Susan Cain, "The Power of Introverts" (TED, 2012).
+- **Programlar:** Microsoft Destek, [Konuşma Koçu ile slayt gösterinizin provasını yapın](https://support.microsoft.com/tr-tr/powerpoint/rehearse-your-slide-show-with-speaker-coach); Google NotebookLM Yardım, [Sesli Özet oluşturma](https://support.google.com/notebooklm/answer/16212820) (80'den fazla dil, Türkçe dahil).
+- **Tarih ve diğer:** PowerPoint (Robert Gaskins ve Dennis Austin, 1987); Pecha Kucha (Tokyo, 2003): [pechakucha.com](https://www.pechakucha.com/); Susan Cain, "The Power of Introverts" (TED, 2012): [TED](https://www.ted.com/talks/susan_cain_the_power_of_introverts).
 
 ## Bu haftanın kavramları
 
