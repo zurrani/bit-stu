@@ -9,7 +9,7 @@ description: "İnternetin doğuşu; ağlar; bir adres yazıldığında olanlar (
   <dl>
     <div><dt>Hafta</dt><dd>4 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>24 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.200</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.4 İş birliği, 5.1 Teknik sorunlar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Tarayıcıya bir adres yazıp Enter'a bastığın o bir saniyede neler oluyor?</p>
@@ -72,6 +72,39 @@ Ağdaki bilgisayarların çoğu **istemci-sunucu** düzeniyle çalışır: senin
 
 Evindeki "modem" aslında birkaç cihazın tek kutuda birleşmiş halidir: **modem** evini servis sağlayıcının hattına bağlar; **yönlendirici** (router) paketleri doğru yere yönlendirir; **anahtar** (switch) kablolu cihazları birbirine bağlar; **erişim noktası** Wi-Fi yayını yapar.
 
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 350" role="img" aria-labelledby="sema-evag-baslik">
+<title id="sema-evag-baslik">Evdeki "modem" kutusunun içi: internetten gelen hat modeme girer; altında yönlendirici, anahtar ve erişim noktası katmanları var. Anahtardan kabloyla masaüstü bilgisayara, erişim noktasından Wi-Fi ile telefon ve dizüstüne bağlantı.</title>
+<text class="s-bas" x="380" y="28" font-size="24" text-anchor="middle">Evdeki "modem"</text>
+<rect class="s-kutu" x="200" y="40" width="360" height="296" rx="8"/>
+<rect class="s-dolu-amber" x="216" y="56" width="328" height="62" rx="4"/>
+<text class="s-bas s-dolu-metin" x="232" y="82" font-size="23">Modem</text>
+<text class="s-dolu-metin" x="232" y="106" font-size="16">servis sağlayıcının hattına bağlar</text>
+<rect class="s-dolu-vurgu" x="216" y="126" width="328" height="62" rx="4"/>
+<text class="s-bas s-dolu-metin" x="232" y="152" font-size="23">Yönlendirici</text>
+<text class="s-dolu-metin" x="232" y="176" font-size="16">paketleri doğru yere yönlendirir</text>
+<rect class="s-dolu-yesil" x="216" y="196" width="328" height="62" rx="4"/>
+<text class="s-bas s-dolu-metin" x="232" y="222" font-size="23">Anahtar</text>
+<text class="s-dolu-metin" x="232" y="246" font-size="16">kablolu cihazları birbirine bağlar</text>
+<rect class="s-dolu-camgobegi" x="216" y="266" width="328" height="62" rx="4"/>
+<text class="s-bas s-dolu-metin" x="232" y="292" font-size="23">Erişim noktası</text>
+<text class="s-dolu-metin" x="232" y="316" font-size="16">Wi-Fi yayını yapar</text>
+<text class="s-bas" x="84" y="82" font-size="24" text-anchor="middle">İnternet</text>
+<text class="s-ikincil" x="84" y="106" font-size="16" text-anchor="middle">servis sağlayıcı</text>
+<line class="s-ok" x1="146" y1="88" x2="200" y2="88"/><polygon class="s-ok-uc" points="214,88 200,81 200,95"/>
+<line class="s-ok" x1="548" y1="227" x2="606" y2="227"/><polygon class="s-ok-uc" points="620,227 606,220 606,234"/>
+<text class="s-bas" x="626" y="225" font-size="20">Masaüstü</text>
+<text class="s-ikincil" x="626" y="247" font-size="16">kabloyla</text>
+<line class="s-ok" x1="548" y1="297" x2="606" y2="297"/><polygon class="s-ok-uc" points="620,297 606,290 606,304"/>
+<text class="s-bas" x="626" y="287" font-size="20">Telefon,</text>
+<text class="s-bas" x="626" y="309" font-size="20">dizüstü</text>
+<text class="s-ikincil" x="626" y="330" font-size="16">Wi-Fi ile</text>
+</svg>
+<figcaption>Evdeki kutu dört cihazın işini birlikte yapar. "İnternet yok" dendiğinde sorunun hangi katmanda olduğunu bu bölümün sonundaki tabloyla ararsın.</figcaption>
+</figure>
+```
+
 ### Evdeki ağı korumak
 
 Evindeki modem, internetle cihazların arasındaki kapıdır; kapının kilidini kurulumdaki gibi bırakmak risklidir. Birkaç adım çoğu riski kapatır:
@@ -115,6 +148,33 @@ https://www.iuc.edu.tr/tr/duyurular?sayfa=2
 2. O adresteki sunucuyla bağlantı kurulur; HTTPS ise bu bağlantı şifrelenir.
 3. Tarayıcı sayfayı ister (HTTP isteği).
 4. Sunucu sayfayı paketler halinde gönderir; paketler farklı yollardan gelip tarayıcıda birleştirilir.
+
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 316" role="img" aria-labelledby="sema-birsaniye-baslik">
+<title id="sema-birsaniye-baslik">Bir adres yazınca kim kiminle konuşur: tarayıcı önce DNS sunucusuna alan adının IP adresini sorar ve cevabı alır; sonra web sunucusuyla bağlantı kurar, sayfayı ister; web sunucusu sayfayı paketler halinde geri gönderir.</title>
+<rect class="s-kutu" x="20" y="8" width="180" height="50" rx="4"/><text class="s-bas" x="110" y="41" font-size="22" text-anchor="middle">Tarayıcı</text>
+<rect class="s-kutu" x="270" y="8" width="180" height="50" rx="4"/><text class="s-bas" x="360" y="41" font-size="22" text-anchor="middle">DNS sunucusu</text>
+<rect class="s-kutu" x="520" y="8" width="180" height="50" rx="4"/><text class="s-bas" x="610" y="41" font-size="22" text-anchor="middle">Web sunucusu</text>
+<line class="s-ok" x1="110" y1="60" x2="110" y2="312" stroke-width="2" stroke-dasharray="4 6"/>
+<line class="s-ok" x1="360" y1="60" x2="360" y2="146" stroke-width="2" stroke-dasharray="4 6"/>
+<line class="s-ok" x1="610" y1="60" x2="610" y2="312" stroke-width="2" stroke-dasharray="4 6"/>
+<text x="235" y="90" font-size="16" text-anchor="middle">1. alan adının IP adresi ne?</text>
+<line class="s-ok-vurgu" x1="112" y1="100" x2="346" y2="100"/><polygon class="s-ok-vurgu-uc" points="358,100 346,94 346,106"/>
+<text class="s-ikincil" x="235" y="126" font-size="16" text-anchor="middle">IP adresi</text>
+<line class="s-ok" x1="358" y1="136" x2="124" y2="136" stroke-dasharray="7 5"/><polygon class="s-ok-uc" points="112,136 124,130 124,142"/>
+<text x="360" y="174" font-size="16" text-anchor="middle">2. bağlan; HTTPS ise şifrele</text>
+<line class="s-ok-vurgu" x1="112" y1="184" x2="596" y2="184"/><polygon class="s-ok-vurgu-uc" points="608,184 596,178 596,190"/>
+<text x="360" y="220" font-size="16" text-anchor="middle">3. sayfayı iste (HTTP isteği)</text>
+<line class="s-ok-vurgu" x1="112" y1="230" x2="596" y2="230"/><polygon class="s-ok-vurgu-uc" points="608,230 596,224 596,236"/>
+<text class="s-ikincil" x="360" y="264" font-size="16" text-anchor="middle">4. sayfa paketler halinde gelir</text>
+<line class="s-ok" x1="608" y1="276" x2="124" y2="276" stroke-dasharray="7 5"/><polygon class="s-ok-uc" points="112,276 124,270 124,282"/>
+<line class="s-ok" x1="608" y1="292" x2="124" y2="292" stroke-dasharray="7 5"/><polygon class="s-ok-uc" points="112,292 124,286 124,298"/>
+<line class="s-ok" x1="608" y1="308" x2="124" y2="308" stroke-dasharray="7 5"/><polygon class="s-ok-uc" points="112,308 124,302 124,314"/>
+</svg>
+<figcaption>Dört adımda kim kiminle konuşuyor. DNS yalnızca ilk adımda devrededir; sonrası tarayıcı ile web sunucusu arasındadır.</figcaption>
+</figure>
+```
 
 Bunu kendi bilgisayarında görebilirsin:
 
@@ -193,18 +253,38 @@ Biraz ek bilgi: Tek kapı, kuyrukları ve kâğıt belgeleri azaltır; bir kurum
 
 Evde internet yoksa telefonun bir yedek olabilir: Ayarlardaki **kişisel erişim noktası** (hotspot) özelliği, telefonun hücresel bağlantısını Wi-Fi ile dizüstü bilgisayarına ya da tabletine paylaştırır. Kotanı hızla tüketir ve pili çabuk bitirir; uzun işler için değil, acil durumlar için uygundur.
 
-Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep telefonu aramasını 3 Nisan 1973'te, New York sokağında, bir tuğla büyüklüğündeki cihazla yaptı. 1980'lerin analog birinci nesil (1G) şebekeleri yalnızca ses taşıyordu; 2G kısa mesajı, 3G mobil interneti, 4G video akışını getirdi; 5G ise düşük gecikme ve çok sayıda cihazı aynı anda bağlamayı hedefliyor. Türkiye'de 5G, 31 Mart 2026'da önce 81 il merkezinde, kademeli olarak hizmete girdi. İlk akıllı telefon sayılan IBM Simon 1994'te satışa çıktı; dokunmatik ekranı ve e-postası vardı.
+Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep telefonu aramasını 3 Nisan 1973'te, New York sokağında, bir tuğla büyüklüğündeki cihazla yaptı. İlk akıllı telefon sayılan IBM Simon 1994'te satışa çıktı; dokunmatik ekranı ve e-postası vardı. Şebekeler de kuşak kuşak gelişti; her kuşağa "nesil" (G) denir:
+
+| Nesil | Yaklaşık dönem | Getirdiği yenilik |
+|---|---|---|
+| 1G | 1980'ler | Analog ses; yalnızca konuşma |
+| 2G | 1990'lar | Dijital ses ve kısa mesaj |
+| 3G | 2000'ler | Mobil internet |
+| 4G | 2010'lar | Video akışı ve hızlı mobil internet |
+| 5G | 2020'ler | Düşük gecikme, aynı anda çok sayıda cihaz; Türkiye'de 31 Mart 2026'da önce 81 il merkezinde, kademeli olarak hizmete girdi |
 
 ### Hız ile gecikme aynı şey değil
 
 İnternet bağlantısının iki ayrı ölçüsü vardır:
 
-- **Bant genişliği** (hız), bir saniyede ne kadar veri taşındığıdır: otoyolun şerit sayısı gibi. Büyük dosyaları indirirken önemlidir.
-- **Gecikme** (ping), bir paketin gidip gelme süresidir: otoyolun uzunluğu gibi. Görüntülü görüşmede ve çevrimiçi oyunda önemlidir.
+::: {.tablo-kaydir}
+| Ölçü | Neyi ölçer? | Benzetme | Ne zaman önemli? | Birimi |
+|---|---|---|---|---|
+| **Bant genişliği** (hız) | Bir saniyede ne kadar veri taşındığını | Otoyolun şerit sayısı | Büyük dosya indirirken, video izlerken | Mbps (saniyede megabit) |
+| **Gecikme** (ping) | Bir paketin gidip gelme süresini | Otoyolun uzunluğu | Görüntülü görüşmede, çevrimiçi oyunda | ms (milisaniye) |
+:::
 
 Bir bağlantı çok hızlı ama yüksek gecikmeli olabilir: filmi hızla indirirsin, ama görüntülü görüşmede sesler gecikir. Yerden 36 bin kilometre yüksekteki sabit uydularla kurulan bağlantılarda gecikme bu yüzden fark edilir; alçak yörüngeli uydu ağları gecikmeyi büyük ölçüde azalttı.
 
-İnternet paketlerinin hızı Mbps ile, yani saniyedeki megabit sayısıyla yazılır; indirme ekranları ise çoğu zaman saniyedeki megabaytı gösterir. Bir bayt sekiz bit olduğu için 100 Mbps'lik bir bağlantı en iyi durumda saniyede yaklaşık 12,5 megabayt indirir. Bu bir arıza değil, birim farkıdır (Hafta 2).
+İnternet paketlerinin hızı Mbps ile, yani saniyedeki megabit sayısıyla yazılır; indirme ekranları ise çoğu zaman saniyedeki megabaytı gösterir. Bir bayt sekiz bit olduğu için Mbps'yi 8'e bölmek gerekir. Bu bir arıza değil, birim farkıdır (Hafta 2):
+
+| Bağlantı | En iyi durumda saniyede | 1 GB'lık bir dosya |
+|---|---|---|
+| 10 Mbps | 1,25 MB | yaklaşık 13 dakika |
+| 100 Mbps | 12,5 MB | yaklaşık 80 saniye |
+| 1.000 Mbps | 125 MB | yaklaşık 8 saniye |
+
+Gerçek hız çoğu zaman bunun altında kalır: Wi-Fi'nin menzili, aynı anda bağlı cihazlar ve karşıdaki sunucu da hızı belirler.
 
 ::: {.callout-note .kutu-toplum title="Gündelik hayattan: Üç kardeş, tek telefon"}
 Mart 2020'de salgın yüzünden okullar kapandı ve 23 Mart'ta uzaktan eğitim başladı. Millî Eğitim Bakanlığı dersleri önce televizyondan, TRT EBA TV kanallarından yayınladı; internetteki EBA platformu onun yanında yürüdü. Gerekçe açıktı: Her evde internet ve bilgisayar yoktu, ama televizyon neredeyse her eve ulaşıyordu. Öğrencilere EBA için ücretsiz internet kotası da verildi. TÜİK'in o yılki araştırmasına göre hanelerin %90,7'si evden internete bağlanabiliyordu, ama ancak yarısında sabit bir bağlantı (ev hattı ya da fiber) vardı; geri kalanında internet telefon hattından geliyordu. Canlı dersler yaygınlaştıkça yeni bir soru doğdu: Üç kardeşin dersi aynı saatteyse, evdeki tek telefon kimde kalacak? 2020-21 öğretim yılı başlarken, evinde bilgisayarı ve interneti olmayan öğrenciler için EBA destek noktaları açılmaya başlandı. Bağlantı neredeyse her eve ulaşmıştı; cihaz ve kota ise eşit paylaşılmıyordu.
@@ -250,7 +330,17 @@ Kısa vadede: "internet yok" dendiğinde sorunun Wi-Fi'de mi, modemde mi, DNS'te
 
 ### Genel, özel, hibrit
 
-Bulut hizmetleri kimin için kurulduğuna göre de ayrılır. **Genel bulut** (public cloud), hizmetini herkese kiralayan büyük sağlayıcıların bulutudur. **Özel bulut** (private cloud), bir kurumun yalnızca kendi kullanımı için kurduğu buluttur; bankalar, hastaneler ve kamu kurumları hassas verileri için bunu tercih edebilir. **Hibrit bulut** ikisini birleştirir: hassas veri kurumun içinde, geri kalan iş genel bulutta yürür. Seçimi maliyet kadar verinin hassasiyeti ve yasal yükümlülükler belirler (Hafta 8).
+Bulut hizmetleri kimin için kurulduğuna göre de ayrılır:
+
+::: {.tablo-kaydir}
+| Tür | Kimin için? | Kim tercih edebilir? |
+|---|---|---|
+| **Genel bulut** (public cloud) | Hizmetini herkese kiralayan büyük sağlayıcıların bulutu | Öğrenciler, küçük işletmeler, yeni kurulan şirketler |
+| **Özel bulut** (private cloud) | Bir kurumun yalnızca kendi kullanımı için kurduğu bulut | Hassas veri tutan bankalar, hastaneler, kamu kurumları |
+| **Hibrit bulut** | İkisinin birleşimi: hassas veri kurumun içinde, geri kalan iş genel bulutta | İki ihtiyacı birden olan büyük kurumlar |
+:::
+
+Seçimi maliyet kadar verinin hassasiyeti ve yasal yükümlülükler belirler (Hafta 8).
 
 ### Bağımlılık
 
@@ -315,7 +405,7 @@ Bu, Hafta 2'deki "belirtiden parçaya" düşüncesinin ağdaki karşılığıdı
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da, tablolar ve iki şema 28 Ekim 2026'da eklendi.
 
 - **İnternetin tarihi:** ARPANET'in ilk mesajı (29 Ekim 1969); TCP/IP'ye geçiş (1 Ocak 1983); Türkiye'nin internet bağlantısı (ODTÜ, 12 Nisan 1993); Tim Berners-Lee'nin önerisi (CERN, 1989).
 - **Teknik:** IPv4 adresleme (32 bit); WPA3 (Wi-Fi Alliance, 2018): [Wi-Fi Alliance, güvenlik](https://www.wi-fi.org/discover-wi-fi/security); PUE: The Green Grid'in tanımı, bugün ISO/IEC 30134-2 standardı; sabit yörünge yüksekliği (yaklaşık 36 bin km); herkese açık DNS: [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using); Türkiye'de 5G: [Ulaştırma ve Altyapı Bakanlığı, 31 Mart 2026](https://www.uab.gov.tr/haberler/cumhurbaskani-erdogan-5g-doenemini-resmen-baslatti/); standart atmosferde basınç ile yükseklik ilişkisi.
