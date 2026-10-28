@@ -373,14 +373,14 @@ Bir AKTS kredisi yaklaşık 25–30 saatlik öğrenci emeğine karşılık gelir
 | Etkinlik | Hesap | Saat |
 |---|---|---|
 | Ders | 14 hafta × 2 saat | 28 |
-| Notu önceden okuma | 14 notun ölçülen okuma süresi, yaklaşık 340 dakika | 5,7 |
+| Notu önceden okuma | 14 notun ölçülen okuma süresi, yaklaşık 375 dakika | 6,3 |
 | Haftalık ödevler (Hafta 1–9) | 9 × yaklaşık 1,5 saat | 13,5 |
 | Föylerin evde tamamlanması (Hafta 10–12) | 3 × yaklaşık 1,5 saat | 4,5 |
 | Hafta 10–14 ödevleri ve proje adımları | Rapor, veri analizi, sunum hazırlığı, son teslim | 12,5 |
 | Europass testi ve DigComp çarkı | Ön ve son test | 1 |
 | Vize ve final hazırlığı | 5 + 8 saat | 13 |
 | Sınavlar | | 2 |
-| **Toplam** | | **yaklaşık 80 saat** (3 AKTS × 25–30 saat = 75–90) |
+| **Toplam** | | **yaklaşık 81 saat** (3 AKTS × 25–30 saat = 75–90) |
 :::
 
 ## 10. Kaynaklar ve araçlar
