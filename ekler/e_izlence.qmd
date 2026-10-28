@@ -309,7 +309,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 
 *Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?*
 
-**Okuma:** [ders notu](../docs/12_veriyle-calismak-2.qmd), yaklaşık 20 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler.
+**Okuma:** [ders notu](../docs/12_veriyle-calismak-2.qmd), yaklaşık 22 dakika. **DigComp:** 1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler.
 
 **Bu hafta şunları yapabileceksin:**
 

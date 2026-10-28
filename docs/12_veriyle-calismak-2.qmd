@@ -8,8 +8,8 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>12 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>20 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 2.700</dd></div>
+    <div><dt>Okuma süresi</dt><dd>22 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.000</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir tablodaki sayılar bir karara nasıl dönüşür ve bu yolda nerede yanılabilirsin?</p>
@@ -18,7 +18,7 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 
 Ekranda aynı veriyle çizilmiş iki grafik var. İkisi de bir laboratuvarın üç aylık arıza sayısını gösteriyor: 40, 49 ve 31. Birincisinde çubuklar birbirine yakın; ikincisinde Ekim çubuğu Eylül'ün neredeyse iki katı, Kasım ise yerle bir. Hangisi doğru? İkisi de. Aradaki tek fark, ikinci grafiğin dikey ekseninin sıfırdan değil 30'dan başlaması. Üstelik bir tuzak daha var: Kasım verisi ayın yalnızca ilk üç haftasını kapsıyor; Kasım'da arızalar azalmadı, ay henüz bitmedi. Geçen hafta veriyi düzenli hale getirdin. Bu hafta o veriden sonuç çıkaracaksın: Formül veriyi bir soruya, özet tablo soruyu bir cevaba, grafik cevabı bir karara çevirir. Ama her adımda yanılma ihtimali var; bu yüzden sonucu sınamayı da öğreneceksin.
 
-**Okuma süresi:** yaklaşık 20 dakika.
+**Okuma süresi:** yaklaşık 22 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -119,7 +119,7 @@ Koşul bir hücreden de gelebilir: `=EĞERSAY($E$2:$E$121; A2)`. Bu formülü bi
 =ÇAPRAZARA(F2; Cihazlar!A:A; Cihazlar!D:D)
 ```
 
-"F2'deki kodu Cihazlar sayfasının A sütununda ara, bulduğun satırdaki D sütununun değerini getir." Eski sürümlerde ve birçok kaynakta aynı iş **DÜŞEYARA** ile yapılır: `=DÜŞEYARA(F2; Cihazlar!A:D; 4; YANLIŞ)`. DÜŞEYARA'da aranan sütunun en solda olması ve sonuna YANLIŞ yazılması gerekir; YANLIŞ unutulursa en yakın değeri getirir ve sessizce yanlış sonuç verebilir. Elindeki programda ÇAPRAZARA varsa onu kullan.
+"F2'deki kodu Cihazlar sayfasının A sütununda ara, bulduğun satırdaki D sütununun değerini getir." Eski sürümlerde ve birçok kaynakta aynı iş **DÜŞEYARA** ile yapılır: `=DÜŞEYARA(F2; Cihazlar!A:D; 4; YANLIŞ)`. DÜŞEYARA'da aranan sütunun en solda olması ve sonuna YANLIŞ yazılması gerekir; YANLIŞ unutulursa en yakın değeri getirir ve sessizce yanlış sonuç verebilir. Elindeki programda ÇAPRAZARA varsa onu kullan. Aynı işlev LibreOffice Calc'ta 24.8 sürümünden beri, Google E-Tablolar'da da var; İngilizce adı XLOOKUP'tır.
 
 ### Hata değerleri
 
@@ -171,10 +171,15 @@ Grafik, sayıların söylediğini bir bakışta göstermek içindir. Doğru graf
 Grafiği seçmek kadar onu dürüst çizmek de önemlidir. Sık görülen yanıltma biçimleri:
 
 - **Kırpılmış eksen:** Çubuk grafiğin dikey ekseni sıfırdan başlamazsa küçük farklar devasa görünür. Çizgi grafikte eksenin sıfırdan başlaması her zaman gerekmez, ama ölçek açıkça yazılmalıdır.
+- **Okunmayan ölçek:** Eksendeki her adım bir öncekinin on katıysa (10, 100, 1.000) buna **logaritmik ölçek** denir. Çok hızlı büyüyen sayıları tek grafikte göstermeye yarar, ama ölçeği fark etmeyen okur büyümenin yavaşladığını sanabilir. Logaritmik ölçek kullandıysan bunu eksende ve başlıkta yaz.
 - **Eksik dönem:** Ayın yarısını bitmiş aylarla aynı çubukta göstermek, düşüş varmış izlenimi verir. Eksik dönemi işaretle ya da dışarıda bırak.
 - **Üç boyut ve süs:** Üç boyutlu pasta, öndeki dilimi büyük gösterir. Gölge, doku ve gereksiz renk bilgiyi değil gürültüyü artırır.
 - **Etiketsiz eksen:** Birimi olmayan bir eksen (saat mi, gün mü, adet mi?) okura tahmin ettirir.
 - **Yalnızca renkle ayrım:** Hafta 10'daki erişilebilirlik ilkesi grafikler için de geçerlidir; seriler etiketle ya da desenle de ayrılmalıdır.
+
+::: {.callout-note .kutu-toplum title="Gündelik hayattan: Eğriyi düzleştirmek"}
+2020'nin baharında, COVID-19 salgınının ilk haftalarında, "eğriyi düzleştir" çağrısıyla bir grafik çok paylaşıldı: sivri bir tepe ve onun sağında daha alçak, daha yayvan bir tepe. Grafik yeni değildi; ABD Hastalık Kontrol ve Önleme Merkezi'nin 2007'de yayımladığı salgın planlama rehberindeydi. Rehbere göre okulları kapatmak, toplantıları ertelemek gibi önlemler salgının zirvesini geciktirir ve alçaltır; böylece aynı anda hastaneye ihtiyaç duyan hasta sayısı hastanelerin kapasitesine daha yakın kalır. Aynı haftalarda haberler ölüm sayılarını sık sık logaritmik ölçekle gösterdi. ABD'de yaklaşık iki bin kişiyle yapılan bir deneyde katılımcıların yarısına ölüm sayıları doğrusal, yarısına logaritmik ölçekte gösterildi. Logaritmik grafiği görenler salgının gidişini daha az doğru anladı, tahminlerinde daha çok yanıldı ve farklı önlemleri destekledi. Aynı sayılar değişmedi, yalnızca eksen değişti. Bir salgın haberinde sayıları gösterecek olsan hangi ölçeği seçer, grafiğin altına ne yazardın?
+:::
 
 Grafiğin başlığı da bir yorumdur. "Cihaz türüne göre arıza sayısı" bir konu başlığıdır; "Arızaların yarıya yakını bilgisayarlarda" ise bir **mesaj başlığıdır** ve okura ne görmesi gerektiğini söyler. Gelecek hafta sunumlarda bu fikre geri döneceğiz.
 
@@ -193,6 +198,10 @@ Bir analiz, okurun anlayacağı bir cümleyle biter. İyi bir yorumun üç parç
 > Arızaların %38'i (120 kayıttan 46'sı) bilgisayarlarda; bilgisayar arızaları da ortalama 30 saatle en uzun sürede çözülen grup. Bilgisayarlar için yedek parça stoku ve bir bakım sözleşmesi önceliklendirilmelidir.
 
 Yorum yazarken dört tuzağa dikkat et. **Eksik dönem:** Kasım'ın yalnızca üç haftası varsa "Kasım'da arızalar azaldı" diyemezsin. **Ortalama mı ortanca mı:** Aykırı değerler varsa hangisini kullandığını yaz. **İlişki neden değildir:** Eski cihazlarda daha çok arıza görmek, arızanın nedeninin yaş olduğunu tek başına kanıtlamaz; eski cihazlar daha çok kullanılan laboratuvarlarda olabilir. **Küçük sayılar:** Üç kayıttan çıkan bir oran ("yüzde 67") güçlü bir sonuç değildir; kaç kayda dayandığını yaz.
+
+::: {.callout-note .kutu-endustri title="Endüstriden: Veri vardı, doğru grafik yoktu"}
+28 Ocak 1986 sabahı Florida'da hava 2 °C'ydi; o güne kadarki bütün fırlatmalardan 8 °C'den fazla soğuk. Önceki gece roket üreticisi Morton Thiokol'un mühendisleri, roket parçalarının birleşim yerlerini sızdırmaz tutan lastik contaların (O-ring) soğukta işini yapamayabileceğini söyledi ve yaklaşık 12 °C'nin altında fırlatmamayı önerdi. O gece sıcaklıkla karşılaştırılan yalnızca contalarında hasar görülen uçuşlardı; bu uçuşlarda belirgin bir örüntü görünmüyordu. Şirket yönetimi görüşünü değiştirdi, fırlatma onaylandı. Uzay mekiği Challenger kalkıştan 73 saniye sonra parçalandı ve yedi astronot hayatını kaybetti. Kazayı inceleyen başkanlık komisyonu, hasarsız uçuşlar da eklenince tablonun bambaşka olduğunu gösterdi: Birleşim yeri 19 °C ya da daha sıcakken yapılan 20 uçuştan yalnızca üçünde hasar vardı; 17 °C ya da daha soğukken yapılan dört uçuşun dördünde de. Gelecek hafta aynı kurumun 2003'teki Columbia kazasında bir slaytın rolünü göreceksin. Hasarsız uçuşları grafiğe koymak neden bu kadar önemliydi?
+:::
 
 ### YZ'nin formülünü sınamak
 
@@ -250,13 +259,15 @@ Kısa vadede: Harcamalarını ya da ekran süreni birkaç formül ve bir grafikl
 
 Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. İşlev adları programın sürümüne ve diline göre değişebilir.
 
-- **Araştırmalar:** Carmen Reinhart ve Kenneth Rogoff (2010); Thomas Herndon, Michael Ash ve Robert Pollin (2013); Raymond Panko'nun elektronik tablo hataları üzerine derlemeleri.
-- **Programlar:** Microsoft Excel (ÇAPRAZARA dahil), Google E-Tablolar ve LibreOffice Calc'ın Haziran 2026'daki sürümleri.
-- **Diğer:** *The Joy of Stats* (BBC, 2010).
+- **Araştırmalar:** Carmen Reinhart ve Kenneth Rogoff, "Growth in a Time of Debt", *American Economic Review* (2010): [doi.org/10.1257/aer.100.2.573](https://doi.org/10.1257/aer.100.2.573); Thomas Herndon, Michael Ash ve Robert Pollin, PERI çalışma raporu 322 (Nisan 2013), *Cambridge Journal of Economics*'te yayımlandı: [doi.org/10.1093/cje/bet075](https://doi.org/10.1093/cje/bet075); Raymond Panko'nun elektronik tablo hataları üzerine derlemeleri.
+- **Challenger:** Report of the Presidential Commission on the Space Shuttle Challenger Accident (Rogers Komisyonu, 1986), Bölüm III ve VI: [NASA tarih arşivi](https://www.nasa.gov/history/rogersrep/v1ch6.htm).
+- **Eğriyi düzleştirmek:** CDC, *Interim Pre-pandemic Planning Guidance: Community Strategy for Pandemic Influenza Mitigation* (Şubat 2007), Şekil 1: [CDC Stacks](https://stacks.cdc.gov/view/cdc/11425); Alessandro Romano, Chiara Sotis, Goran Dominioni ve Sebastián Guidi, "The scale of COVID-19 graphs affects understanding, attitudes, and policy preferences", *Health Economics* (2020): [doi.org/10.1002/hec.4143](https://doi.org/10.1002/hec.4143).
+- **Programlar:** Microsoft Destek, [ÇAPRAZARA işlevi](https://support.microsoft.com/tr-tr/office/%C3%A7aprazara-i%CC%87%C5%9Flevi-b7fd680e-6d10-43e6-84f9-88eae8bf5929); LibreOffice Yardım, [XLOOKUP](https://help.libreoffice.org/latest/en-US/text/scalc/01/func_xlookup.html) (24.8 sürümünden beri); Google Dokümanlar Düzenleyicileri Yardım, [XLOOKUP işlevi](https://support.google.com/docs/answer/12405947?hl=tr). Sürümler Haziran 2026'daki haliyle.
+- **Diğer:** *The Joy of Stats* (BBC Four, 2010): [BBC program sayfası](https://www.bbc.co.uk/programmes/b00wgq0l).
 
 ## Bu haftanın kavramları
 
-Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: işlem önceliği, göreli başvuru, mutlak başvuru, karma başvuru, bağımsız değişken, ortalama, ortanca, aykırı değer, EĞER, EĞERSAY, ETOPLA, ÇOKEĞERSAY, ÇAPRAZARA, DÜŞEYARA, hata değeri, EĞERHATA, özet tablo, çizgi grafik, çubuk grafik, pasta grafik, dağılım grafiği, kırpılmış eksen, mesaj başlığı, test durumu, yeniden üretilebilirlik, arızalar arası ortalama süre, tekrarlayan arıza, trend izleme, pano.
+Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd) sayfasında: işlem önceliği, göreli başvuru, mutlak başvuru, karma başvuru, bağımsız değişken, ortalama, ortanca, aykırı değer, EĞER, EĞERSAY, ETOPLA, ÇOKEĞERSAY, ÇAPRAZARA, DÜŞEYARA, hata değeri, EĞERHATA, özet tablo, çizgi grafik, çubuk grafik, pasta grafik, dağılım grafiği, kırpılmış eksen, logaritmik ölçek, mesaj başlığı, test durumu, yeniden üretilebilirlik, arızalar arası ortalama süre, tekrarlayan arıza, trend izleme, pano.
 
 ## Kendini sına
 

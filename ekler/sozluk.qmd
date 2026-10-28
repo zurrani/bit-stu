@@ -291,6 +291,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | KVKK (8) | 6698 sayılı Kişisel Verilerin Korunması Kanunu (2016); Türkiye'de kişisel verilerin işlenmesini düzenler |
 | Kâğıt tahta (13) | Sayfaları çevrilerek üzerine yazılan büyük kâğıt blok (flipchart) |
 | LAN (4) | Yerel alan ağı; bir ev, okul ya da ofisteki ağ (local area network) |
+| Logaritmik ölçek (12) | Her adımı bir öncekinin belli bir katı (çoğu zaman on katı) olan grafik ekseni; çok hızlı büyüyen sayıları göstermeye yarar, kullanıldığı belirtilmezse yanıltabilir |
 | Mahremiyet (8) | Kişinin kendisiyle ilgili bilginin kimle, ne amaçla ve ne kadar süre paylaşılacağına karar verebilmesi (privacy) |
 | Makine (1) | Bir işi yapmak için kuvvet uygulayan ve hareketi kontrol eden fiziksel sistem |
 | Makine öğrenmesi (6) | Sistemin kurallarla programlanmak yerine örneklerden öğrendiği yapay zekâ alanı |
