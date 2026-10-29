@@ -36,7 +36,8 @@ else:
     BOLUMLER = {
         "planlama": ("Planlama", [f"planlama/{a}.md" for a in (
             "00_proje-rehberi", "01_ders-taslagi", "02_kaynak-envanteri", "03_durum",
-            "04_yeni-oturum", "05_sinav-modulu", "06_teyit-raporu", "07_yari-ters-yuz-taslak")]),
+            "04_yeni-oturum", "05_sinav-modulu", "06_teyit-raporu", "07_yari-ters-yuz-taslak",
+            "08_iyilestirme-plani", "09_icerik-olcumleri", "10_kanit-plani", "11_vaka-haritasi")]),
         "ogretim": ("Öğretim", [f"ogretim/{i:02d}_ogretim.md" for i in range(1, 15)]),
         "soru-bankasi": ("Soru bankası", ["soru-bankasi/00_standartlar.md"]
             + [f"soru-bankasi/{i:02d}_soru-bankasi.md" for i in range(1, 15)]
