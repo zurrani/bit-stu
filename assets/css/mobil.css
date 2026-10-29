@@ -44,3 +44,6 @@
     overflow-wrap: anywhere;
   }
 }
+
+/* Tabloda bölünmemesi gereken kısa ad (ör. "CC BY-NC-ND"): dar ekranda tire ve boşlukta kırılmaz. */
+.bolunmez { white-space: nowrap; }

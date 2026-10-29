@@ -9,7 +9,7 @@ description: "Dijital ayak izi ve itibar; dikkat ekonomisi ve dijital iyi oluş;
   <dl>
     <div><dt>Hafta</dt><dd>7 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>30 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 4.000</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.100</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.2 Paylaşma, 2.3 Vatandaşlık katılımı, 2.5 Dijital davranış, 2.6 Dijital kimliği yönetme, 3.3 Telif ve lisanslar, 4.3 İyi oluşu destekleme</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Ekranın arkasında yaptığın bir şeyin sonucu ne kadar gerçek?</p>
@@ -189,7 +189,47 @@ Eser sahibi, eserini başkalarının da kullanmasını isteyebilir. **Creative C
 | NC (Ticari olmayan) | Ticari amaçla kullanılamaz |
 | ND (Türetilemez) | Değiştirilemez; yalnızca olduğu gibi kullanılabilir |
 
-Öğeler birleşerek altı lisans oluşturur. En serbesti CC BY, en kısıtlısı CC BY-NC-ND'dir. Bunlardan ayrı olarak **CC0**, eser sahibinin bütün haklarından vazgeçtiğini gösterir.
+Öğeler birleşerek altı lisans oluşturur. Creative Commons onları en serbestten en kısıtlıya şöyle sıralar:
+
+::: {.tablo-kaydir}
+| Lisans | Ticari kullanım | Değiştirme | Koşul |
+|---|---|---|---|
+| [CC BY]{.bolunmez} | Evet | Evet | Adını belirt |
+| [CC BY-SA]{.bolunmez} | Evet | Evet | Adını belirt; değiştirdiğini aynı lisansla paylaş |
+| [CC BY-ND]{.bolunmez} | Evet | Hayır | Adını belirt; yalnızca olduğu gibi kullan |
+| [CC BY-NC]{.bolunmez} | Hayır | Evet | Adını belirt |
+| [CC BY-NC-SA]{.bolunmez} | Hayır | Evet | Adını belirt; değiştirdiğini aynı lisansla paylaş |
+| [CC BY-NC-ND]{.bolunmez} | Hayır | Hayır | Adını belirt; yalnızca olduğu gibi kullan |
+:::
+
+Bunlardan ayrı olarak **CC0**, eser sahibinin bütün haklarından vazgeçtiğini gösterir.
+
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 195" role="img" aria-labelledby="sema-cc-baslik">
+<title id="sema-cc-baslik">Creative Commons yelpazesi, daha serbestten daha kısıtlıya: en başta, lisanslardan ayrı olarak CC0; sonra CC BY, CC BY-SA ve CC BY-ND ticari kullanıma izin verir; CC BY-NC, CC BY-NC-SA ve CC BY-NC-ND yalnızca ticari olmayan kullanıma izin verir.</title>
+<text class="s-ikincil" x="30" y="40" font-size="17">daha serbest</text>
+<text class="s-ikincil" x="690" y="40" font-size="17" text-anchor="end">daha kısıtlı</text>
+<line class="s-ok" x1="30" y1="70" x2="690" y2="70"/>
+<line class="s-ok" x1="105" y1="50" x2="105" y2="90" stroke-width="2" stroke-dasharray="4 4"/>
+<line class="s-cizgi" x1="55" y1="80" x2="55" y2="86"/><line class="s-cizgi" x1="155" y1="80" x2="155" y2="86"/><line class="s-cizgi" x1="250" y1="80" x2="250" y2="112"/><line class="s-cizgi" x1="345" y1="80" x2="345" y2="86"/><line class="s-cizgi" x1="440" y1="80" x2="440" y2="112"/><line class="s-cizgi" x1="535" y1="80" x2="535" y2="86"/><line class="s-cizgi" x1="630" y1="80" x2="630" y2="112"/>
+<circle class="s-dolu-camgobegi" cx="55" cy="70" r="10"/>
+<circle class="s-dolu-vurgu" cx="155" cy="70" r="10"/><circle class="s-dolu-vurgu" cx="250" cy="70" r="10"/><circle class="s-dolu-vurgu" cx="345" cy="70" r="10"/>
+<circle class="s-dolu-amber" cx="440" cy="70" r="10"/><circle class="s-dolu-amber" cx="535" cy="70" r="10"/><circle class="s-dolu-amber" cx="630" cy="70" r="10"/>
+<text class="s-bas" x="55" y="104" font-size="19" text-anchor="middle">CC0</text>
+<text class="s-ikincil" x="55" y="126" font-size="17" text-anchor="middle">vazgeçme</text>
+<text class="s-bas" x="155" y="104" font-size="19" text-anchor="middle">CC BY</text>
+<text class="s-bas" x="250" y="130" font-size="19" text-anchor="middle">CC BY-SA</text>
+<text class="s-bas" x="345" y="104" font-size="19" text-anchor="middle">CC BY-ND</text>
+<text class="s-bas" x="440" y="130" font-size="19" text-anchor="middle">CC BY-NC</text>
+<text class="s-bas" x="535" y="104" font-size="19" text-anchor="middle">CC BY-NC-SA</text>
+<text class="s-bas" x="630" y="130" font-size="19" text-anchor="middle">CC BY-NC-ND</text>
+<circle class="s-dolu-vurgu" cx="38" cy="170" r="8"/><text x="54" y="176" font-size="17">ticari kullanıma izin verir</text>
+<circle class="s-dolu-amber" cx="300" cy="170" r="8"/><text x="316" y="176" font-size="17">yalnızca ticari olmayan kullanım</text>
+</svg>
+<figcaption>Bir görseli bir şirketin broşüründe kullanacaksan CC0 ve mavi noktalar işine yarar; değiştireceksen ND'li lisanslar da elenir. CC0 altı lisanstan ayrıdır: eser sahibi bütün haklarından vazgeçmiştir.</figcaption>
+</figure>
+```
 
 **Kamu malı** (public domain), telif süresi dolmuş ya da hiç telif korumasına girmemiş eserlerdir: Yüz yıl önce ölmüş bir ressamın tabloları gibi. Bazı ülkelerde devlet kurumlarının ürettiği eserler de kamu malıdır; örneğin NASA'nın fotoğraflarının çoğu.
 
@@ -276,11 +316,12 @@ Kısa vadede: Paylaşmadan önce düşünür, başına dert açacak bir paylaş�
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar, AB düzenlemeleri ve netiket kaynakları 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları ile 2026'daki Türkiye ve AB değişiklikleri 26 Ekim 2026'da eklendi. Yasalar sık değişir; bir maddeye dayanarak karar vereceksen güncel metni kaynağından kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı. Yasalar, AB düzenlemeleri ve netiket kaynakları 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları ile 2026'daki Türkiye ve AB değişiklikleri 26 Ekim 2026'da, lisans tablosu ve Creative Commons yelpazesi 29 Ekim 2026'da eklendi. Yasalar sık değişir; bir maddeye dayanarak karar vereceksen güncel metni kaynağından kontrol et.
 
 - **Türkiye:** Türk Ceza Kanunu (5237; 217/A maddesi 7418 sayılı kanunla, Ekim 2022): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5237&MevzuatTur=1&MevzuatTertip=5); 5651 sayılı kanun (2007, değişiklikleriyle; son değişiklikler 2026): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=5651&MevzuatTur=1&MevzuatTertip=5); sosyal ağlarda 15 yaş ve dijital oyun platformları: 7578 sayılı kanun, madde 21–23 ve 27 ([Resmî Gazete, 1 Mayıs 2026](https://www.resmigazete.gov.tr/eskiler/2026/05/20260501-1.htm)); Siber Güvenlik Kanunu (7545, Resmî Gazete 19 Mart 2025): [mevzuat.gov.tr](https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=7545&MevzuatTur=1&MevzuatTertip=5); Mesafeli Sözleşmeler Yönetmeliği; Fikir ve Sanat Eserleri Kanunu (5846); Sınai Mülkiyet Kanunu (6769); SHGM'nin İHA talimatları. Kaynak: [mevzuat.gov.tr](https://www.mevzuat.gov.tr), [shgm.gov.tr](https://shgm.gov.tr).
 - **Avrupa Birliği:** Genel Veri Koruma Tüzüğü (2016/679), Dijital Hizmetler Yasası (2022/2065), Dijital Piyasalar Yasası (2022/1925), Yapay Zekâ Yasası (2024/1689), sivil havacılıkta olay bildirimi tüzüğü (376/2014), Yapay Zekâ Yasası'nı değiştiren Dijital Omnibus tüzüğü (2026/1744): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng). Komisyonun Dijital Hizmetler Yasası kapsamındaki ön bulguları: [TikTok](https://digital-strategy.ec.europa.eu/en/news/commission-preliminarily-finds-tiktoks-addictive-design-breach-digital-services-act) (Şubat 2026), [Meta](https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1579) (Temmuz 2026). Kaynak: [EUR-Lex](https://eur-lex.europa.eu).
 - **Vakalar:** Google ile Oracle: [ABD Yüksek Mahkemesi, *Google LLC v. Oracle America, Inc.*, 593 U.S. (5 Nisan 2021)](https://www.supremecourt.gov/opinions/20pdf/18-956_d18f.pdf). Fransa: Loi n° 2024-120 du 19 février 2024 visant à garantir le respect du droit à l'image des enfants (Journal officiel, 20 Şubat 2024); [Fransa Adalet Bakanlığı, yasayı tanıtan genelge (23 Mayıs 2024)](https://cnb.avocat.fr/sites/default/files/documents/circulaire_de_presentation_des_dispositions_de_loi_n_2024-120_du_19_fevrier_2024_visant_a_garantir_le_respect_du_droit_a_limage_des_enfants_-_240523.pdf).
+- **Creative Commons:** lisansların sıralaması ve koşulları: [Creative Commons, About CC Licenses](https://creativecommons.org/share-your-work/cclicenses/).
 - **Netiket:** Virginia Shea, *Netiquette* (1994) ve kuralların özeti: [Core Rules of Netiquette](https://www.educause.edu/ir/library/html/erm/29558.html); IETF, [RFC 1855](https://www.rfc-editor.org/rfc/rfc1855) *Netiquette Guidelines* (Ekim 1995).
 - **Diğer:** Dünya Sağlık Örgütü, ICD-11 (2019; yürürlük 2022); Lawrence Lessig, *Code and Other Laws of Cyberspace* (1999); ABD'de Thaler ile Perlmutter temyiz kararı (2025) ve TAKE IT DOWN Act (2025).
 
