@@ -66,6 +66,41 @@ Reklam gösteren bir haber sitesini açtığında, sayfa yüklenirken arka pland
 3. Her biri "Bu kişiye reklam göstermek bana ne kadar değer?" hesabıyla teklif verir.
 4. En yüksek teklifi veren kazanır ve reklamı ekranına gelir.
 
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 230" role="img" aria-labelledby="sema-artirma-baslik">
+<title id="sema-artirma-baslik">Bir reklam açık artırmasının dört adımı soldan sağa: site boş reklam alanını reklam ağına bildirir; konumun, cihazın ve ilgi alanların teklif verebilecek herkese gider; her reklam veren bu kişinin kendisine ne kadar değer olduğunu hesaplayıp teklif verir; en yüksek teklif kazanır ve reklamı ekrana gelir. Altta: kaybeden şirketler de bilgileri görmüş olur.</title>
+<rect class="s-kutu" x="20" y="10" width="148" height="146" rx="6"/>
+<text class="s-bas s-vurgu-metin" x="36" y="50" font-size="34">1</text>
+<text class="s-bas" x="36" y="84" font-size="22">Boş alan</text>
+<text class="s-ikincil" x="36" y="112" font-size="17">site, reklam</text>
+<text class="s-ikincil" x="36" y="134" font-size="17">ağına bildirir</text>
+<rect class="s-kutu" x="196" y="10" width="148" height="146" rx="6"/>
+<text class="s-bas s-vurgu-metin" x="212" y="50" font-size="34">2</text>
+<text class="s-bas" x="212" y="84" font-size="22">Herkese gider</text>
+<text class="s-ikincil" x="212" y="112" font-size="17">konum, cihaz,</text>
+<text class="s-ikincil" x="212" y="134" font-size="17">ilgi alanları</text>
+<rect class="s-kutu" x="372" y="10" width="148" height="146" rx="6"/>
+<text class="s-bas s-vurgu-metin" x="388" y="50" font-size="34">3</text>
+<text class="s-bas" x="388" y="84" font-size="22">Teklif</text>
+<text class="s-ikincil" x="388" y="112" font-size="17">“Bana ne kadar</text>
+<text class="s-ikincil" x="388" y="134" font-size="17">değer?”</text>
+<rect class="s-kutu" x="548" y="10" width="152" height="146" rx="6"/>
+<text class="s-bas s-vurgu-metin" x="564" y="50" font-size="34">4</text>
+<text class="s-bas" x="564" y="84" font-size="22">Kazanan</text>
+<text class="s-ikincil" x="564" y="112" font-size="17">en yüksek</text>
+<text class="s-ikincil" x="564" y="134" font-size="17">teklif kazanır</text>
+<line class="s-ok" x1="170" y1="83" x2="186" y2="83"/><polygon class="s-ok-uc" points="194,83 184,77 184,89"/>
+<line class="s-ok" x1="346" y1="83" x2="362" y2="83"/><polygon class="s-ok-uc" points="370,83 360,77 360,89"/>
+<line class="s-ok" x1="522" y1="83" x2="538" y2="83"/><polygon class="s-ok-uc" points="546,83 536,77 536,89"/>
+<rect class="s-dolu-amber" x="196" y="174" width="504" height="46" rx="4"/>
+<text class="s-dolu-metin" x="214" y="204" font-size="19">Kaybeden şirketler de bilgilerini görmüş olur.</text>
+<text class="s-ikincil" x="20" y="204" font-size="17">≈ 0,1 saniye</text>
+</svg>
+<figcaption>Sayfa yüklenirken arka planda dönen dört adım. Teklif verilebilmesi için bilgilerin önce teklif verebilecek herkese gitmesi gerekir.</figcaption>
+</figure>
+```
+
 Hepsi yaklaşık saniyenin onda biri kadar sürer ve gün boyunca milyarlarca kez tekrarlanır. Önemli ayrıntı şu: Açık artırmayı kaybeden şirketler de bilgilerini görmüş olur.
 
 ### Veri simsarları ve profiller
@@ -97,6 +132,33 @@ Büyük verinin gücü tek tek kayıtlarda değil, birleşmede ve örüntüde ya
 ### Zarf da konuşur: üst veri
 
 **Üst veri** (metadata), verinin kendisi hakkındaki veridir. Bir mektubun içeriği zarfın içindedir; ama zarfın üstünde kimin kime, ne zaman ve nereden yazdığı görünür. Bir kişinin aylar boyunca bütün zarflarına bakabiliyorsan, zarfı açmadan da çok şey öğrenirsin.
+
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 300" role="img" aria-labelledby="sema-zarf-baslik">
+<title id="sema-zarf-baslik">Solda kapalı bir zarf: üstünde kimden, kime, ne zaman ve nereden yazıyor, içerik görünmüyor. Sağda dijital dünyadaki üç zarf: telefon görüşmesinde kim, kimi, ne zaman, ne kadar süreyle ve hangi baz istasyonu üzerinden aradı; mesajda gönderen, alıcı, saat, boyut ve bazen konum; fotoğrafta EXIF verisi olarak çekim zamanı, telefonun modeli ve konum izni açıksa koordinatlar.</title>
+<rect class="s-kutu" x="20" y="16" width="300" height="230" rx="6"/>
+<path class="s-ok" d="M 20 16 L 170 116 L 320 16"/>
+<text x="40" y="162" font-size="19">Kimden: …</text>
+<text x="40" y="192" font-size="19">Kime: …</text>
+<text x="40" y="222" font-size="19">Ne zaman, nereden: …</text>
+<text class="s-ikincil" x="170" y="280" font-size="18" text-anchor="middle">içerik kapalı</text>
+<rect class="s-dolu-vurgu" x="350" y="22" width="6" height="70" rx="2"/>
+<text class="s-bas" x="370" y="44" font-size="22">Telefon görüşmesi</text>
+<text class="s-ikincil" x="370" y="68" font-size="17">kim, kimi, ne zaman, ne kadar,</text>
+<text class="s-ikincil" x="370" y="90" font-size="17">hangi baz istasyonu üzerinden</text>
+<rect class="s-dolu-vurgu" x="350" y="114" width="6" height="70" rx="2"/>
+<text class="s-bas" x="370" y="136" font-size="22">Mesaj</text>
+<text class="s-ikincil" x="370" y="160" font-size="17">gönderen, alıcı, saat, boyut,</text>
+<text class="s-ikincil" x="370" y="182" font-size="17">bazen konum</text>
+<rect class="s-dolu-vurgu" x="350" y="206" width="6" height="70" rx="2"/>
+<text class="s-bas" x="370" y="228" font-size="22">Fotoğraf: EXIF</text>
+<text class="s-ikincil" x="370" y="252" font-size="17">çekim zamanı, telefon modeli,</text>
+<text class="s-ikincil" x="370" y="274" font-size="17">konum izni açıksa koordinatlar</text>
+</svg>
+<figcaption>Zarfı açmadan okunanlar: içerik şifreli olsa bile sağdaki bilgiler çoğu zaman görünür kalır.</figcaption>
+</figure>
+```
 
 Dijital dünyada üst veri her yerdedir:
 
@@ -176,6 +238,16 @@ Hafta 6'da sohbete yazdığın her şeyin hizmet sağlayıcının sunucularına 
 **Anonimleştirme**, verinin hiçbir şekilde bir kişiyle ilişkilendirilemeyecek hale getirilmesidir ve sanıldığından zordur. Bilgisayar bilimci Latanya Sweeney, ABD'nin 1990 nüfus verisiyle, yalnızca posta kodu, doğum tarihi ve cinsiyetin nüfusun yaklaşık yüzde 87'sini tek başına tanımlamaya yetebileceğini hesapladı. "Anonim" bir veri seti başka bir veriyle birleşince kişiler yeniden tanınabilir.
 
 **Takma adlandırma** (pseudonymization) ise adın yerine bir kod koymaktır: "Ayşe Yılmaz" yerine "K-4821". Kodu çözen anahtar bir yerde durduğu için bu veri hâlâ kişiseldir. Gerçek anonimleştirmede geri dönüş yolu yoktur ve anonim veri artık kişisel veri sayılmaz.
+
+Üç türü yan yana koyunca fark görünür:
+
+::: {.tablo-kaydir}
+| Tür | Örnek | Kişiye geri dönülebilir mi? | Kişisel veri mi? |
+|---|---|---|---|
+| Kişisel veri | "Ayşe Yılmaz, toplu taşımayla geliyor" | Gerek yok, kişi zaten belli | Evet |
+| Takma adlı veri | "K-4821, toplu taşımayla geliyor" | Evet: kodu çözen anahtar bir yerde duruyor | Evet |
+| Anonim veri | "Sınıfın 12'si toplu taşımayla geliyor" (kurgusal) | Hayır, geri dönüş yolu yok | Hayır; ama "anonim" denen bir veri başka bir veriyle birleşince kişiler yeniden tanınabilir |
+:::
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Uçuş verisi izleme"}
 Bir yolcu uçağı her uçuşta binlerce parametre kaydeder. Havayolları **uçuş verisi izleme** (Flight Data Monitoring, FDM) programlarıyla bu verileri analiz ederek, bir olay yaşanmadan riskli eğilimleri görür: belirli bir pistte yaklaşmaların hep hızlı olması ya da bir motorda titreşimin yavaş yavaş artması gibi. Bu programlar mahremiyet ile güvenliğin birlikte kurulabileceğini gösterir: Veriler genellikle takma adlandırılır, uçuş ekibinin kimliğine yalnızca güvenilir bir aracı kurallara bağlı olarak ulaşabilir. Amaç cezalandırmak değil, öğrenmektir; Hafta 7'deki adil kültür burada veriyle buluşur. Bakımda da motor sağlığı verileri arızayı önceden görmeye yarar (Hafta 6, öngörücü bakım).
