@@ -9,7 +9,7 @@ description: "Gizlilik, bütünlük ve erişilebilirlik; kötü amaçlı yazıl�
   <dl>
     <div><dt>Hafta</dt><dd>9 / 14</dd></div>
     <div><dt>Okuma süresi</dt><dd>29 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.800</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.900</dd></div>
     <div><dt>DigComp alanı</dt><dd>4.1 Cihazları koruma, 4.2 Kişisel veri ve mahremiyet, 5.1 Teknik sorunlar, 5.3 Yaratıcı çözümler</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir saldırı ya da kesinti olduğunda ne kadar etkilenirsin, ne kadar çabuk toparlanırsın?</p>
@@ -45,6 +45,37 @@ Hafta 8'deki ayrımı hatırla: Gizlilik bir güvenlik ilkesidir, mahremiyet ise
 Kanca olayına bu gözle bakalım: Ne bir bilgi çalındı ne bir kayıt değiştirildi; ama sistemler saatlerce kullanılamadı. Zarar gören **erişilebilirlikti**. Güvenlik yalnızca saldırganlara karşı değil, hataya ve kazaya karşı da bir hazırlıktır.
 
 Hiçbir önlem tek başına kusursuz değildir. İnsan hatası üzerine çalışan psikolog James Reason bunu **İsviçre peyniri modeli** ile anlattı: Her savunma katmanı delikli bir peynir dilimidir. Parolada, güncellemede, dikkatte, yedekte delikler vardır. Kaza ya da saldırı, deliklerin bir an için aynı hizaya geldiği yerde olur. Çözüm kusursuz bir dilim aramak değil, birbirinin deliğini kapatan birkaç dilim üst üste koymaktır. Güvenlik uzmanı Bruce Schneier'e atfedilen söz de aynı şeyi söyler: "Güvenlik bir ürün değil, bir süreçtir."
+
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 250" role="img" aria-labelledby="sema-peynir-baslik">
+<title id="sema-peynir-baslik">İsviçre peyniri modeli: yan yana dört delikli peynir dilimi, parola, güncelleme, dikkat ve yedek. Her dilimde birkaç delik var; bir ok, deliklerin aynı hizaya geldiği yerden dört dilimi de geçiyor. Okun başında kaza ya da saldırı yazıyor.</title>
+<polygon class="s-dolu-amber" points="200,40 270,20 270,190 200,210"/>
+<ellipse class="s-dolu-yuzey" cx="235" cy="115" rx="9" ry="13"/>
+<ellipse class="s-dolu-yuzey" cx="220" cy="70" rx="6" ry="9"/>
+<ellipse class="s-dolu-yuzey" cx="250" cy="170" rx="6" ry="9"/>
+<polygon class="s-dolu-amber" points="320,40 390,20 390,190 320,210"/>
+<ellipse class="s-dolu-yuzey" cx="355" cy="115" rx="9" ry="13"/>
+<ellipse class="s-dolu-yuzey" cx="370" cy="60" rx="6" ry="9"/>
+<ellipse class="s-dolu-yuzey" cx="345" cy="175" rx="6" ry="9"/>
+<polygon class="s-dolu-amber" points="440,40 510,20 510,190 440,210"/>
+<ellipse class="s-dolu-yuzey" cx="475" cy="115" rx="9" ry="13"/>
+<ellipse class="s-dolu-yuzey" cx="460" cy="160" rx="6" ry="9"/>
+<ellipse class="s-dolu-yuzey" cx="488" cy="70" rx="6" ry="9"/>
+<polygon class="s-dolu-amber" points="560,40 630,20 630,190 560,210"/>
+<ellipse class="s-dolu-yuzey" cx="595" cy="115" rx="9" ry="13"/>
+<ellipse class="s-dolu-yuzey" cx="605" cy="170" rx="6" ry="9"/>
+<ellipse class="s-dolu-yuzey" cx="582" cy="65" rx="6" ry="9"/>
+<line class="s-ok-vurgu" x1="20" y1="115" x2="688" y2="115"/><polygon class="s-ok-vurgu-uc" points="702,115 688,108 688,122"/>
+<text class="s-bas s-vurgu-metin" x="20" y="98" font-size="20">kaza ya da saldırı</text>
+<text class="s-bas" x="235" y="240" font-size="20" text-anchor="middle">parola</text>
+<text class="s-bas" x="355" y="240" font-size="20" text-anchor="middle">güncelleme</text>
+<text class="s-bas" x="475" y="240" font-size="20" text-anchor="middle">dikkat</text>
+<text class="s-bas" x="595" y="240" font-size="20" text-anchor="middle">yedek</text>
+</svg>
+<figcaption>Her savunma katmanı delikli bir dilimdir; kaza ya da saldırı, deliklerin aynı hizaya geldiği yerde olur. Çözüm, birbirinin deliğini kapatan birkaç dilim.</figcaption>
+</figure>
+```
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Bilgi güvenliği de uçuşa elverişliliğin parçası"}
 Bugünkü uçaklar ağlara bağlıdır: Bakım verisi uçaktan yere aktarılır, yazılımlar yüklenir, elektronik uçuş çantaları (Hafta 3) tabletlerde çalışır. Bu yüzden siber güvenlik artık yalnızca bilgi işlem biriminin değil, havacılık emniyetinin de konusudur. Avrupa Birliği Havacılık Emniyeti Ajansı'nın (EASA) **Part-IS** adı verilen kuralları, havayollarından bakım kuruluşlarına kadar havacılık kuruluşlarının bilgi güvenliği risklerini yönetmesini ve olayları bildirmesini zorunlu tutuyor; kurallar 2025 ve 2026'da kademeli olarak uygulanmaya başladı. Bakım teknisyeni için anlamı somuttur: Uçağa yüklenen bir yazılımın onaylı kaynaktan ve doğru sürümde geldiğini kontrol etmek, bakım bilgisayarına özel bir USB bellek takmamak, şüpheli bir durumu bildirmek. Hepsi peynirin birer dilimidir.
@@ -113,7 +144,17 @@ Hafta 4'teki uyarı da geçerli: Adres çubuğundaki kilit bağlantının şifre
 "Mesaj tanıdığım birinden geldi, demek ki güvenli." Yanlış. Saldırganlar en çok ele geçirdikleri hesapları kullanır: Bir arkadaşının hesabından gelen "Şu oylamaya katılır mısın, telefonuna gelen kodu bana gönder" mesajı, aslında senin hesabını ele geçirme girişimidir. Tanıdık birinden gelen alışılmadık bir istek, özellikle para ya da kod istiyorsa, başka bir kanaldan (telefonla, yüz yüze) doğrulanmadan yerine getirilmez.
 :::
 
-**Başına gelirse:** Bir bağlantıya tıklayıp şifreni girdiysen panik yapma, hızlı davran. Önce o hesabın şifresini değiştir ve "tüm oturumlardan çıkış yap" seçeneğini kullan. Aynı şifreyi kullandığın diğer hesapları da değiştir. Kart bilgisi verdiysen hemen bankanı ara ve kartı kapattır. Ardından olayı bildir: Oltalama sitelerini ve zararlı bağlantıları Siber Güvenlik Başkanlığı'nın ihbar formuyla, dolandırıcılığı emniyetin siber suçlarla mücadele birimine ya da savcılığa bildirebilirsin (Hafta 7). Kurumuna ait bir hesap söz konusuysa kurumunun bilgi işlem birimine haber ver; erken bildirim, başkalarının da kandırılmasını önler. Hafta 7'de değindiğimiz Siber Güvenlik Kanunu (2025) da kamu kurumlarının ve kritik altyapıların siber olayları bildirmesini ve bu olaylara müdahaleyi düzenliyor.
+**Başına gelirse:** Bir bağlantıya tıklayıp şifreni ya da kart bilgini girdiysen panik yapma, hızlı davran. Önce ilk adımı at, ardından olayı bildir:
+
+::: {.tablo-kaydir}
+| Ne verdin? | İlk adım | Nereye bildir? |
+|---|---|---|
+| Şifre | O hesabın şifresini değiştir ve "tüm oturumlardan çıkış yap" seçeneğini kullan; aynı şifreyi kullandığın diğer hesapları da değiştir | Oltalama sitesini ve zararlı bağlantıyı Siber Güvenlik Başkanlığı'nın ihbar formuna |
+| Kart bilgisi | Hemen bankanı ara ve kartı kapattır | Dolandırıcılığı emniyetin siber suçlarla mücadele birimine ya da savcılığa (Hafta 7) |
+| Kurumuna ait bir hesabın şifresi | Şifre satırındaki adımlar | Kurumunun bilgi işlem birimine |
+:::
+
+Erken bildirim, başkalarının da kandırılmasını önler. Hafta 7'de değindiğimiz Siber Güvenlik Kanunu (2025) da kamu kurumlarının ve kritik altyapıların siber olayları bildirmesini ve bu olaylara müdahaleyi düzenliyor.
 
 ## 4. Yapay zekâ: saldırganın yeni aracı, asistanının yeni açığı
 
