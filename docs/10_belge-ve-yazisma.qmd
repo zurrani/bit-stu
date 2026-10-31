@@ -8,8 +8,8 @@ description: "Biçimlendirilmiş değil, yapılandırılmış belge; stiller, ba
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>10 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>31 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 4.200</dd></div>
+    <div><dt>Okuma süresi</dt><dd>33 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.400</dd></div>
     <div><dt>DigComp alanı</dt><dd>2.1 Etkileşim, 2.4 İş birliği, 2.5 Dijital davranış, 3.1 İçerik geliştirme, 3.2 Bütünleştirme ve yeniden düzenleme</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> İyi görünen bir belge ile iyi kurulmuş bir belge arasındaki fark nedir?</p>
@@ -18,7 +18,7 @@ description: "Biçimlendirilmiş değil, yapılandırılmış belge; stiller, ba
 
 Gece 23.40. Yarın teslim edeceğin 30 sayfalık raporun hazır. Son anda bir mesaj geliyor: "Başa bir özet sayfası ekle." Eklediğin anda her şey kayıyor. Başlıklar sayfanın en altında kalıyor, elle yazdığın içindekilerdeki sayfa numaralarının hepsi yanlış, "Tablo 4" diye andığın tablo artık beşinci. Bir saat boyunca sayfa sayfa düzeltiyorsun. Aynı rapor doğru kurulsaydı bu iş üç dakika sürerdi. Bu hafta o "doğru kurmanın" ne olduğunu öğreneceksin. Sonra belgeni başkalarına göndermenin kurallarına geçeceğiz: kurumsal e-posta. "Üretmek" bloğunun ilk haftasındayız; burada öğreneceğin her şeyi dönem projenin teknik raporunda kullanacaksın.
 
-**Okuma süresi:** yaklaşık 31 dakika.
+**Okuma süresi:** yaklaşık 33 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -113,6 +113,16 @@ Araç ne kadar akıllı olursa olsun, kaynak bilgisini sen girersin; yanlış gi
 
 **Dipnot** (footnote), metindeki küçük bir numaraya bağlı olarak sayfanın altında yer alan ek açıklamadır. **Başvurular > Dipnot Ekle** ile eklenir; numaralar kendiliğinden sıralanır. Açıklama sayfanın değil belgenin sonunda toplanıyorsa buna **son not** denir. Dipnot, ana akışı bozmadan bir terimi açıklamak ya da bir ayrıntıyı vermek için kullanılır. APA biçiminde kaynak gösterimi dipnotla değil, metin içi atıfla ve kaynakçayla yapılır; dipnotu açıklama için sakla.
 
+Üç aracın belgedeki yeri ve işi:
+
+::: {.tablo-kaydir}
+| Araç | Nerede durur? | Ne için? | Word'de |
+|---|---|---|---|
+| Metin içi atıf | Cümlenin içinde: "(Soyad, Yıl)" | Fikrin ya da verinin kimden geldiğini göstermek | Başvurular > Alıntı Ekle |
+| Kaynakça | Belgenin sonunda, liste olarak | Atıf yapılan kaynakların bilgileri: yazar, yıl, başlık, yayıncı, adres | Başvurular > Kaynakça |
+| Dipnot ve son not | Metindeki küçük bir numaraya bağlı; dipnot sayfanın altında, son not belgenin sonunda | Ana akışı bozmadan bir terimi açıklamak ya da bir ayrıntıyı vermek; APA'da kaynak göstermek için değil | Başvurular > Dipnot Ekle |
+:::
+
 ## 5. Birlikte yazmak ve yapay zekâ
 
 Bir rapor nadiren tek kişinin elinden çıkar. Arkadaşın okur, öğretim görevlisi düzeltir, amirin onaylar. Herkes belgeyi doğrudan değiştirip geri gönderirse kimin neyi değiştirdiği kaybolur. Bunu önleyen iki araç vardır.
@@ -146,6 +156,17 @@ Bakımda iş, serbest metinle değil şablonlarla yürür: görev kartı (task c
 ### PDF mi DOCX mi?
 
 **DOCX**, Word'ün düzenlenebilir dosya biçimidir; Google Dokümanlar ve Writer da açıp kaydedebilir. **PDF** (Portable Document Format) ise belgeyi her cihazda aynı görünecek şekilde "dondurur": Yazı tipi, sayfa düzeni ve resimler yerinde kalır. Kural basittir: Karşı taraf belgeyi okuyacak, yazdıracak ya da arşivleyecekse **PDF**; seninle birlikte üzerinde çalışacaksa **DOCX** gönder. Word'de **Dosya > Farklı Kaydet** ile türü PDF seçersin. Başlık stillerini kullandıysan PDF'te de yer işaretleri ve tıklanabilir içindekiler oluşur.
+
+Bu hafta geçen dört biçim yan yana:
+
+::: {.tablo-kaydir}
+| Biçim | Ne yapar? | Ne zaman? |
+|---|---|---|
+| DOCX | Word'ün düzenlenebilir biçimi; Google Dokümanlar ve Writer da açıp kaydedebilir | Belge üzerinde birlikte çalışılacaksa |
+| ODT | LibreOffice'in düzenlenebilir biçimi (OpenDocument); DOCX gibi açık bir standart (9. bölüm) | Düzenlenebilir bir belgeyi açık bir biçimde saklamak istiyorsan |
+| PDF | Belgeyi her cihazda aynı görünecek şekilde dondurur: yazı tipi, sayfa düzeni ve resimler yerinde kalır | Karşı taraf belgeyi okuyacak, yazdıracak ya da arşivleyecekse |
+| PDF/A | Arşiv için tasarlanmış PDF (9. bölüm) | Belgenin yirmi yıl sonra da açılabilmesini istiyorsan |
+:::
 
 Bir belgeyi imzalaman gerekiyorsa, imzanın taranmış resmini PDF'e yapıştırmak onu elektronik olarak imzalamak değildir. 5070 sayılı Elektronik İmza Kanunu'na göre nitelikli bir elektronik sertifikaya dayanan **güvenli elektronik imza**, elle atılan imzayla aynı hukuki sonucu doğurur ve imzadan sonra belgede bir değişiklik yapılıp yapılmadığını ortaya çıkarır. Resmî şekle bağlı bazı işlemler (örneğin tapu satışı gibi noter ya da resmî memur önünde yapılması gerekenler) bunun dışındadır.
 
