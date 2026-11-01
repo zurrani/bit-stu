@@ -108,6 +108,33 @@ Slayt bir yol tabelasına benzer. Tabela hızla okunur ve tek bir şey söyler; 
 
 Hafta 12'de grafiğin başlığının bir cümle olabileceğini görmüştün. Slaytta da aynı ilke geçerlidir. "Arıza sayıları" bir **konu başlığıdır**; "Arızaların yarıya yakını bilgisayarlarda" ise bir **mesaj başlığıdır** ve slaytın ne söylediğini okura baştan söyler. Bu yaklaşımın adı **iddia ve kanıt slaytıdır** (assertion-evidence): Üstte iddiayı söyleyen tam bir cümle, altında onu destekleyen kanıt (bir grafik, bir fotoğraf, bir şema). Madde imleriyle dolu bir slayt yerine iddia ve kanıt slaytları kullanan konuşmacıların sunumlarının daha iyi anlaşıldığını gösteren çalışmalar vardır.
 
+```{=html}
+<figure class="sema-not">
+<svg viewBox="0 0 720 232" role="img" aria-labelledby="sema-maket-baslik">
+<title id="sema-maket-baslik">İki slayt maketi yan yana. Solda konu başlıklı slayt: başlıkta "Arıza sayıları" yazıyor, altında beş madde imli satır var. Sağda iddia ve kanıt slaytı: başlıkta "Arızaların yarıya yakını bilgisayarlarda" diye bir cümle, altında en uzunu vurgulanmış, büyükten küçüğe sıralı beş çubuk var.</title>
+<rect class="s-dolu-yuzey s-cizgi" x="1" y="1" width="338" height="228" rx="3"/>
+<text class="s-bas" x="20" y="42" font-size="25">Arıza sayıları</text>
+<text class="s-ikincil" x="20" y="68" font-size="17">konu başlığı</text>
+<circle class="s-dolu-soluk" cx="28" cy="100" r="5"/><rect class="s-dolu-soluk" x="42" y="95" width="250" height="10" rx="3"/>
+<circle class="s-dolu-soluk" cx="28" cy="126" r="5"/><rect class="s-dolu-soluk" x="42" y="121" width="225" height="10" rx="3"/>
+<circle class="s-dolu-soluk" cx="28" cy="152" r="5"/><rect class="s-dolu-soluk" x="42" y="147" width="200" height="10" rx="3"/>
+<circle class="s-dolu-soluk" cx="28" cy="178" r="5"/><rect class="s-dolu-soluk" x="42" y="173" width="175" height="10" rx="3"/>
+<circle class="s-dolu-soluk" cx="28" cy="204" r="5"/><rect class="s-dolu-soluk" x="42" y="199" width="150" height="10" rx="3"/>
+<rect class="s-kutu" x="381.5" y="1.5" width="337" height="227" rx="3"/>
+<text class="s-bas" x="400" y="40" font-size="25">Arızaların yarıya yakını</text>
+<text class="s-bas" x="400" y="67" font-size="25">bilgisayarlarda</text>
+<text class="s-vurgu-metin" x="400" y="92" font-size="17">mesaj başlığı: iddia</text>
+<rect class="s-dolu-vurgu" x="400" y="108" width="230" height="16"/>
+<rect class="s-dolu-soluk" x="400" y="130" width="130" height="16"/>
+<rect class="s-dolu-soluk" x="400" y="152" width="110" height="16"/>
+<rect class="s-dolu-soluk" x="400" y="174" width="70" height="16"/>
+<rect class="s-dolu-soluk" x="400" y="196" width="60" height="16"/>
+<text class="s-vurgu-metin" x="700" y="212" font-size="17" text-anchor="end">kanıt</text>
+</svg>
+<figcaption>Solda konu başlığı ve madde imleri; sağda iddiayı söyleyen mesaj başlığı ve onu gösteren kanıt. Çubuklar yalnızca bir grafiği temsil eder, veri taşımaz.</figcaption>
+</figure>
+```
+
 Columbia'daki slaytı bir de bu gözle düşün: Başlık bir iddiaydı ("veriler temkinli"), ama kanıt bu iddiayı desteklemiyordu ve çürüten bilgi en alttaki küçük bir satırdaydı. Mesaj başlığı tek başına yetmez; başlığın iddiası doğru olmalı ve kanıt onu gerçekten göstermelidir.
 
 ### İnsan nasıl öğrenir: birkaç ilke
