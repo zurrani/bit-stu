@@ -165,7 +165,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 - Dosya adı, uzantı, yol ve klasör yapısını kullanmak; tutarlı bir adlandırma ve sürüm kuralı uygulamak.
 - Kendi verileri için 3-2-1 yedekleme planı kurmak.
 
-**Ödev (Hafta 4'ün başına kadar):** "Dijital düzen planı": Bir klasörünü nottaki adlandırma kuralıyla yeniden düzenle (önce ve sonra ekran görüntüsü), kişisel 3-2-1 yedekleme planını yaz, telefonundaki üç uygulamanın izinlerini denetleyip bir tabloya işle.
+**Ödev (Hafta 4'ün başına kadar):** "Dijital düzen planı": Bir klasörünü nottaki adlandırma kuralıyla yeniden düzenle (önce ve sonra ekran görüntüsü), kişisel 3-2-1 yedekleme planını yaz, telefonundaki üç uygulamanın izinlerini denetleyip bir tabloya işle. Bilgisayarın yoksa klasörü telefonunun dosya yöneticisinde ya da okulun bilgisayar salonunda düzenleyebilirsin; puanlama aynıdır.
 
 ### Hafta 4 · Ağ, internet, bulut ve kablosuz iletişim
 
@@ -181,7 +181,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 - Wi-Fi, hücresel, Bluetooth, NFC ve uydu bağlantılarını kullanım durumuna göre karşılaştırmak.
 - HTTPS kilit simgesinin neyi garanti edip neyi etmediğini açıklamak.
 
-**Ödev (Hafta 5'in başına kadar):** "Bir sayfanın yolculuğu": `nslookup` ve `tracert` komutlarının çıktısını yorumla; canlı bir takip sitesindeki verinin (örneğin uçuş takibi) nasıl toplandığını kısaca açıkla.
+**Ödev (Hafta 5'in başına kadar):** "Bir sayfanın yolculuğu": `nslookup` ve `tracert` komutlarının çıktısını yorumla; canlı bir takip sitesindeki verinin (örneğin uçuş takibi) nasıl toplandığını kısaca açıkla. Bilgisayarın yoksa okulun bilgisayar salonunu ya da telefonda DNS sorgusu ve traceroute yapabilen ücretsiz bir ağ aracı uygulamasını kullanabilirsin; puanlama aynıdır.
 
 ### Hafta 5 · Bilgi okuryazarlığı: arama ve doğrulama
 

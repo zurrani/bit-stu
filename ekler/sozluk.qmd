@@ -298,7 +298,7 @@ Kavramlar alfabetik sıradadır. Parantez içindeki sayı, kavramın işlendiği
 | Makine öğrenmesi (6) | Sistemin kurallarla programlanmak yerine örneklerden öğrendiği yapay zekâ alanı |
 | Mantık kapısı (2) | Transistörlerden oluşan, 0 ve 1 girişlerine göre 0 ya da 1 çıkış veren temel devre (VE, VEYA, DEĞİL) |
 | Marka (7) | Bir ürünü ya da şirketi ayırt eden ad, logo gibi tescilli işaret |
-| Mavi ekran (3) | Windows'ta çekirdek düzeyinde kurtarılamaz bir hata olduğunda sistemin kendini durdurduğunu gösteren ekran |
+| Mavi ekran (3) | Windows'ta çekirdek düzeyinde kurtarılamaz bir hata olduğunda sistemin kendini durdurduğunu gösteren ekran; Windows 11'in 24H2 sürümünde siyah |
 | Mesaj başlığı (12) | Grafiğin ya da slaytın konusunu değil, ne söylediğini tam bir cümleyle yazan başlık |
 | Metin olarak saklanan sayı (11) | Sayı gibi görünen ama program tarafından metin sayılan değer; sola yaslanır ve hesaplara girmez |
 | Metni sütunlara dönüştürme (11) | Tek sütundaki birleşik değerleri bir ayraca göre birden çok sütuna bölen araç |

@@ -32,11 +32,12 @@ Notun nasıl okunacağını ve kutuların anlamını [Bu ders nasıl işler?](00
 
 ## 1. Dönemin haritası
 
-On üç haftayı üç blokta geçtik:
+On üç haftayı dört blokta geçtik:
 
 | Blok | Haftalar | Ne öğrendin? |
 |---|---|---|
-| **Temeller** | 1–4 | Teknolojinin neyi çözdüğünü ve bedelini; bilgisayarın nasıl düşündüğünü; işletim sistemini ve dosyalarını yönetmeyi; ağın, internetin ve bulutun nasıl çalıştığını |
+| **Açılış** | 1 | Teknolojinin neyi çözdüğünü ve bedelini |
+| **Anlamak** | 2–4 | Bilgisayarın nasıl düşündüğünü; işletim sistemini ve dosyalarını yönetmeyi; ağın, internetin ve bulutun nasıl çalıştığını |
 | **Güvenle kullanmak** | 5–9 | Bilgiyi aramayı ve doğrulamayı; üretken YZ'yi sorumlu kullanmayı; dijital vatandaşlığı ve hukuku; mahremiyetini korumayı; tehditlere karşı hazırlıklı olmayı |
 | **Üretmek** | 10–13 | Belgeyi stillerle kurmayı ve kurumsal yazışmayı; veriyi temizlemeyi, analiz etmeyi ve dürüstçe göstermeyi; bir mesajı sunmayı |
 

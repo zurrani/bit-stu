@@ -1,4 +1,4 @@
-/* Notlardaki şemalar ve grafikler (rehber 4.7): satır içi SVG, kendi üretimimiz.
+/* Notlardaki şemalar ve grafikler (rehber 4.4): satır içi SVG, kendi üretimimiz.
    Renkler tema dosyalarındaki --sema-* değişkenlerinden gelir; açık ve karanlık temada
    kendiliğinden değişir. SVG'de renk yazılmaz, yalnızca aşağıdaki sınıflar kullanılır. */
 .sema-not { margin: 1.6rem 0; }
