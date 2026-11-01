@@ -8,8 +8,8 @@ description: "Elektronik tablo bir veri tabanıdır; düzenli veri; sayı, metin
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>11 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
+    <div><dt>Okuma süresi</dt><dd>26 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 3.400</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.1 Teknik sorunlar</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Bir tablodaki sayılara güvenmeden önce neye bakmalısın?</p>
@@ -18,7 +18,7 @@ description: "Elektronik tablo bir veri tabanıdır; düzenli veri; sayı, metin
 
 Bir tablonun aynı sütununda üç tarih var: "03.04.2026", "4/3/2026" ve "3 Nisan 26". Hepsi aynı günü mü gösteriyor? Türkiye'de ilki 3 Nisan'dır. İkincisi ABD'de 3 Nisan, Türkiye'de 4 Mart diye okunur. Üçüncüsü bir insan için açıktır, ama elektronik tablo onu tarih değil düz metin sayar ve hiçbir hesaba katmaz. Bu küçük karışıklık, bir arıza kaydını yanlış aya, bir ödemeyi yanlış güne, bir sonucu yanlış karara taşıyabilir. Sorun yalnızca öğrencilerin başına gelmez: 2019'da genetik bilimciler, Excel bazı gen adlarını kendiliğinden tarihe çevirdiği için bu genlerin resmî adlarını değiştirdi. Bu hafta bir elektronik tablonun veriyi nasıl gördüğünü, düzenli bir tablonun nasıl kurulduğunu ve dağınık bir tablonun nasıl temizlendiğini öğreneceksin. Gelecek hafta bu temiz veriden formüllerle, özet tablolarla ve grafiklerle sonuç çıkaracağız. İki hafta birlikte bir bütündür: Önce veriyi düzenli hale getir, sonra ondan bir şey öğren.
 
-**Okuma süresi:** yaklaşık 25 dakika.
+**Okuma süresi:** yaklaşık 26 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -90,11 +90,33 @@ En sık tuzak **metin olarak saklanan sayıdır**. Bir web sayfasından ya da ba
 
 Sorunun önemli bir kaynağı **yerel ayardır** (locale): bilgisayarın ve programın hangi ülke kurallarına göre çalıştığı. Türkçe ayarda ondalık ayırıcı virgüldür (2,5), tarih gün.ay.yıl sırasıyla yazılır (03.04.2026) ve formüllerde bağımsız değişkenler noktalı virgülle ayrılır. ABD ayarında ondalık ayırıcı noktadır (2.5) ve tarih ay/gün/yıl sırasıyla yazılır (4/3/2026). Bu yüzden Türkçe Excel'e yapıştırılan "2.5" bir sayı değil, metin ya da bambaşka bir tarih olabilir. Gün ve ay sırası belirsiz tarihlerde (4/3/2026 gibi) çevredeki kayıtlara bakarak karar ver: Önceki ve sonraki satırlar Mart'taysa bu büyük olasılıkla 4 Mart'tır.
 
+İki ayar yan yana:
+
+::: {.tablo-kaydir}
+| Kural | Türkçe ayar | ABD ayarı |
+|---|---|---|
+| Ondalık ayırıcı | Virgül: 2,5 | Nokta: 2.5 |
+| Tarih sırası | Gün.ay.yıl: 03.04.2026 | Ay/gün/yıl: 4/3/2026 |
+| "4/3/2026" hangi gün? | 4 Mart 2026 | 3 Nisan 2026 |
+| Yapıştırılan "2.5" | Sayı değil; metin ya da bambaşka bir tarih olabilir | İki buçuk |
+:::
+
 ::: {.callout-note .kutu-endustri title="Endüstriden: Biri pound, öbürü newton"}
 23 Eylül 1999'da NASA'nın Mars Climate Orbiter aracı, dokuz buçuk aylık yolculuğun sonunda Mars'ın yörüngesine girmek için motorunu çalıştırdı; bir daha ondan sinyal alınamadı. Kaza inceleme kurulu kök nedeni yerdeki bir yazılımda buldu. Aracın küçük itici ateşlemelerinin etkisini hesaplayan program, sonuçları bir dosyaya ABD'de kullanılan pound-saniye biriminde yazıyordu. Projenin yazılım arayüz belgesi ise metrik birimi, newton-saniyeyi istiyordu; rotayı hesaplayan ekip de sayıları newton-saniye sandı. Bir pound kuvvet yaklaşık 4,45 newton olduğu için her ateşlemenin etkisi 4,45 kat küçük hesaplandı. Küçük hatalar aylarca birikti ve araç Mars'a planlanandan yaklaşık 170 kilometre alçaktan yaklaştı. Kurula göre araç ya atmosferde yok oldu ya da Mars'ı geçip Güneş çevresinde bir yörüngeye savruldu. Kurul, rotadaki tutarsızlığın fark edildiğini, ama resmî sorun kaydı yerine e-postayla tartışıldığını da yazdı. Bir sütunun başlığına birimini yazmak neden bir ayrıntı değildir?
 :::
 
 **Değer ile görünüşü ayırmak** için **Hücreleri Biçimlendir** (Ctrl + 1) penceresini kullanırsın. **Hücre biçimi** değeri değiştirmez; yalnızca nasıl gösterileceğini belirler. 0,456 değerini yüzde biçiminde "%46" gösterebilirsin, ama hesapta yine 0,456 kullanılır. Bir tarihi "3 Nisan 2026, Cuma" diye gösterebilirsin, ama değeri yine aynı gündür. Tersine, bir hücreyi "sayı" biçimine çevirmek içindeki metni kendiliğinden sayıya dönüştürmez; çoğu zaman hücrenin yanındaki uyarı simgesinden **Sayıya Dönüştür** demek ya da değeri yeniden girmek gerekir.
+
+Aynı hücrenin iki yüzü; değeri formül çubuğunda görürsün:
+
+::: {.tablo-kaydir}
+| Hücrede görünen | Saklanan değer | Neden farklı? |
+|---|---|---|
+| %45 | 0,45 | Yüzde biçimi; değer değişmez |
+| 2,46 | 2,456 | Ondalıklar biçimle gizlendi; hesapta 2,456 kullanılır |
+| 3 Nisan 2026, Cuma | Aynı gün; aslında bir sayı | Tarih biçimi; değer tarih seri numarasıdır |
+| 12, sola yaslı, köşede yeşil üçgen | "12" metni | Metin olarak saklanan sayı; TOPLA onu atlar |
+:::
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Ondalık basamakları gizledim, sayı yuvarlandı." Yanlış. Biçimle iki ondalığa indirdiğin 2,456 ekranda 2,46 görünür, ama hesaplarda 2,456 olarak kalır. Yüz tane böyle sayıyı topladığında ekrandaki rakamlarla yaptığın elle toplam ile tablonun toplamı farklı çıkabilir. Bir sayıyı gerçekten yuvarlamak istiyorsan bunu bir işlevle yaparsın (YUVARLA; Hafta 12). Görünüş bir vitrindir, değer ise depodaki maldır.
