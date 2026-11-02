@@ -407,7 +407,7 @@ Bu, Hafta 2'deki "belirtiden parçaya" düşüncesinin ağdaki karşılığıdı
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da, tablolar ve iki şema 28 Ekim 2026'da, tracert çıktısının okunuşu ve uçak verisinin birimleri 29 Ekim 2026'da eklendi.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; aşağıdaki kaynaklar 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da, tablolar ve iki şema 28 Ekim 2026'da, tracert çıktısının okunuşu ve uçak verisinin birimleri 29 Ekim 2026'da eklendi. Bu haftanın konularıyla ilgili tarihli gelişmeler ve yaklaşan yasal tarihler: [Ek G](../ekler/g_gundem.qmd).
 
 - **İnternetin tarihi:** ARPANET'in ilk mesajı (29 Ekim 1969); TCP/IP'ye geçiş (1 Ocak 1983); Türkiye'nin internet bağlantısı (ODTÜ, 12 Nisan 1993); Tim Berners-Lee'nin önerisi (CERN, 1989).
 - **Teknik:** IPv4 adresleme (32 bit); WPA3 (Wi-Fi Alliance, 2018): [Wi-Fi Alliance, güvenlik](https://www.wi-fi.org/discover-wi-fi/security); PUE: The Green Grid'in tanımı, bugün ISO/IEC 30134-2 standardı; sabit yörünge yüksekliği (yaklaşık 36 bin km); herkese açık DNS: [Google Public DNS](https://developers.google.com/speed/public-dns/docs/using); Türkiye'de 5G: [Ulaştırma ve Altyapı Bakanlığı, 31 Mart 2026](https://www.uab.gov.tr/haberler/cumhurbaskani-erdogan-5g-doenemini-resmen-baslatti/); standart atmosferde basınç ile yükseklik ilişkisi.

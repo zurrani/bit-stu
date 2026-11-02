@@ -319,7 +319,7 @@ Kısa vadede: Harcamalarını ya da ekran süreni birkaç formül ve bir grafikl
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; tablolar ve eksen şeması 28 Ekim 2026'da, grafik adımları ve sayısal koşul 29 Ekim 2026'da eklendi. İşlev adları programın sürümüne ve diline göre değişebilir.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; tablolar ve eksen şeması 28 Ekim 2026'da, grafik adımları ve sayısal koşul 29 Ekim 2026'da eklendi. İşlev adları programın sürümüne ve diline göre değişebilir. Bu haftanın konularıyla ilgili tarihli gelişmeler ve yaklaşan yasal tarihler: [Ek G](../ekler/g_gundem.qmd).
 
 - **Araştırmalar:** Carmen Reinhart ve Kenneth Rogoff, "Growth in a Time of Debt", *American Economic Review* (2010): [doi.org/10.1257/aer.100.2.573](https://doi.org/10.1257/aer.100.2.573); Thomas Herndon, Michael Ash ve Robert Pollin, PERI çalışma raporu 322 (Nisan 2013), *Cambridge Journal of Economics*'te yayımlandı: [doi.org/10.1093/cje/bet075](https://doi.org/10.1093/cje/bet075); Raymond Panko'nun elektronik tablo hataları üzerine derlemeleri.
 - **Challenger:** Report of the Presidential Commission on the Space Shuttle Challenger Accident (Rogers Komisyonu, 1986), Bölüm III ve VI: [NASA tarih arşivi](https://www.nasa.gov/history/rogersrep/v1ch6.htm).

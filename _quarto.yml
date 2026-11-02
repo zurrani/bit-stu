@@ -79,6 +79,8 @@ website:
             href: ekler/e_izlence.qmd
           - text: "F · DigComp 3.0"
             href: ekler/f_digcomp.qmd
+          - text: "G · Gündem"
+            href: ekler/g_gundem.qmd
       - text: "Hakkında"
         href: hakkinda.qmd
     right:
@@ -138,6 +140,8 @@ website:
             href: ekler/e_izlence.qmd
           - text: "F · DigComp 3.0"
             href: ekler/f_digcomp.qmd
+          - text: "G · Gündem"
+            href: ekler/g_gundem.qmd
       - text: "Hakkında"
         href: hakkinda.qmd
   page-footer:

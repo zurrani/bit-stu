@@ -1,0 +1,47 @@
+---
+title: "Ek G · Gündem"
+description: "Ders notlarındaki konularla ilgili tarihli ve hızla değişebilecek gelişmeler: yaklaşan yasal tarihler ve yeni gelişmeler. Sınav dışı."
+---
+
+Ders notları uzun süre geçerli kalacak bilgiyi anlatır. Teknoloji ve hukuk ise dönem içinde de değişir: Bir yasanın yürürlük tarihi gelir, bir taslak yasalaşır, yeni bir dolandırıcılık yöntemi için uyarı yayımlanır. Bu ek, notlardaki konularla ilgili bu tür tarihli gelişmeleri kısa satırlarla bir arada verir. Her satırda ilgili haftanın notuna bağlantı ve birincil kaynak var.
+
+**Son kontrol:** 3 Kasım 2026. Bu dönem vizeden ve finalden önce birer kez yeniden kontrol edilir. Bir satır eskimiş görünüyorsa kaynağına bak; Hafta 5'te öğrendiğin gibi, tarihi olmayan bilgiye güvenme.
+
+Bu ek **sınav dışıdır.** Hızla değişen bilgi soru olmaz; sınavda notlardaki kalıcı kavramlar sorulur.
+
+## 1. Takvim
+
+Notlarda anlatılan kuralların tarihleri. Geçmiş tarihli satır, kuralın artık uygulandığı anlamına gelir.
+
+::: {.tablo-kaydir}
+| Tarih | Ne oluyor? | Hafta |
+|---|---|---|
+| 2 Ağustos 2026 (uygulanıyor) | **AB Yapay Zekâ Yasası, şeffaflık kuralları:** Sohbet botu bir YZ ile konuştuğunu sana bildirmeli; deepfake içerik yapay olarak üretildiğini açıkça belirtmeli. | [7](../docs/07_dijital-vatandaslik-hukuk.qmd) |
+| 1 Kasım 2026 (uygulanıyor) | **Türkiye, 5651 sayılı kanun:** Sosyal ağlar 15 yaşını doldurmamış çocuklara hizmet sunamaz, yaş doğrulama yapar ve ebeveyn denetim araçları sunar. Dijital oyun platformlarında yaş derecelendirmesi ve ebeveyn denetimi zorunlu; günlük erişimi yüksek yurt dışı platformlar Türkiye'de temsilci atar (7578 sayılı kanun). | [7](../docs/07_dijital-vatandaslik-hukuk.qmd) |
+| 2 Aralık 2026 | **AB Yapay Zekâ Yasası:** Tanınabilir bir kişinin rızası olmadan mahrem görüntüsünü üretmek için tasarlanmış YZ sistemleri yasaklanıyor. | [7](../docs/07_dijital-vatandaslik-hukuk.qmd) |
+| 12 Ocak 2027 | **AB Veri Yasası:** Bulut sağlayıcını değiştirirken senden geçiş ücreti, verini dışarı taşıma ücreti dahil, alınamaz. 2024'ten bu tarihe kadar yalnızca geçişin doğrudan maliyeti alınabiliyordu. | [4](../docs/04_ag-internet-bulut.qmd) |
+| 2 Aralık 2027 | **AB Yapay Zekâ Yasası:** İşe alım, eğitimde not verme gibi alanlarda kullanılan yüksek riskli YZ sistemlerine ilişkin kurallar uygulanmaya başlıyor (2026'da ertelendi). | [7](../docs/07_dijital-vatandaslik-hukuk.qmd) |
+| 2 Ağustos 2028 | **AB Yapay Zekâ Yasası:** Ürünlerin içine yerleştirilen yüksek riskli YZ'ye ilişkin kurallar. | [7](../docs/07_dijital-vatandaslik-hukuk.qmd) |
+:::
+
+## 2. Gelişmeler
+
+Notlardaki konuların yeni örnekleri. Taslak olanlar ayrıca belirtilir.
+
+::: {.tablo-kaydir}
+| Tarih | Ne oldu? | Neden önemli? | Hafta |
+|---|---|---|---|
+| 21 Ekim 2026 (taslak) | **AB'de veri koruma kurallarının sadeleştirilmesi:** AB Konseyi, Dijital Omnibus paketindeki GDPR değişiklikleri için müzakere tutumunu belirledi. Kişisel veri tanımı aynı kalıyor; veri ihlalini denetim makamına bildirme süresi 72 saatten 96 saate çıkıyor. Avrupa Parlamentosu kendi tutumunu belirleyince müzakere başlayacak; değişiklik yürürlükte değil. | Hafta 8'deki ihlal bildirimi kuralı Avrupa'da değişebilir. Türkiye'de Kişisel Verileri Koruma Kurulu'nun 72 saatlik kararı ayrı bir kuraldır ve bundan etkilenmez. | [8](../docs/08_mahremiyet.qmd) |
+| 20 Temmuz 2026 | **Ses klonlama uyarısı:** ABD Federal Soruşturma Bürosu, dolandırıcıların YZ ile tanıdığın birinin sesini taklit edebildiğini ve taklit sesin gerçeğinden neredeyse ayırt edilemediğini yeniden duyurdu. Büro, 2024'teki uyarısında aile içinde önceden belirlenmiş gizli bir kelime öneriyordu. | Hafta 9'daki aile parolası bugün de en basit savunma: Sesi değil, yalnızca sizin bildiğiniz kelimeyi sına. | [9](../docs/09_siber-guvenlik.qmd) |
+| 29 Eylül 2025 | **Elektronik tablolarda YZ ajanı:** Büyük bir ofis yazılımı üreticisi, elektronik tablo programına hangi formülü kullanacağına kendisi karar veren, yeni sayfa ve grafik üreten bir "ajan modu" ekledi (önce önizleme olarak, web sürümünde). | Formülü ve grafiği YZ seçse de doğruluğundan sen sorumlusun: Hafta 11 ve 12'deki denetimler (veri temizliği, ham sayı mı oran mı) aynen geçerli. | [11](../docs/11_veriyle-calismak-1.qmd), [12](../docs/12_veriyle-calismak-2.qmd) |
+| 17 Temmuz 2025 | **Sohbet asistanlarında ajan modu:** Bir YZ şirketi, sohbet asistanının kendi sanal bilgisayarıyla web sitelerinde gezinip senin adına iş yapabildiği bir mod sundu; asistan önemli sonuçları olan bir eylemden önce izin istiyor. Benzer modlar o günden beri yaygınlaşıyor. | Hafta 6'daki YZ ajanı tanımının gündelik hali. Hafta 14'teki soru burada da geçerli: Hangi işi, hangi izinle devredersin? | [6](../docs/06_uretken-yapay-zeka.qmd), [14](../docs/14_kapanis.qmd) |
+:::
+
+## Kaynaklar
+
+- **5651 ve 7578 sayılı kanun:** [Resmî Gazete, 1 Mayıs 2026](https://www.resmigazete.gov.tr/eskiler/2026/05/20260501-1.htm) (madde 21–23 ve 27).
+- **AB Yapay Zekâ Yasası** (2024/1689): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2024/1689/oj); takvimi değiştiren Dijital Omnibus tüzüğü (2026/1744): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2026/1744/oj/eng).
+- **AB Veri Yasası** (2023/2854, madde 29): [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2023/2854/oj); Almanya'nın Veri Yasası denetim makamının açıklaması: [Bundesnetzagentur, "switching charge"](https://www.bundesnetzagentur.de/SharedDocs/A_Z_Glossar_DataAct_ENG/S/switching-charge.html).
+- **AB Konseyi'nin Dijital Omnibus tutumu** (21 Ekim 2026): [basın bildirisi](https://www.consilium.europa.eu/en/press/press-releases/2026/10/21/digital-rulebook-council-agrees-position-to-simplify-data-protection-privacy-and-cyber-reporting-rules/); müzakere metni, belge 14756/26: [Konsey belge kaydı](https://data.consilium.europa.eu/doc/document/ST-14756-2026-INIT/en/pdf).
+- **ABD Federal Soruşturma Bürosu'nun uyarıları:** [I-120324-PSA, 3 Aralık 2024](https://www.ic3.gov/PSA/2024/PSA241203); [I-072026-PSA, 20 Temmuz 2026](https://www.ic3.gov/PSA/2026/PSA260720).
+- **Ajan modları:** [Microsoft, 29 Eylül 2025](https://www.microsoft.com/en-us/copilot/blog/2025/09/29/vibe-working-introducing-agent-mode-and-office-agent-in-microsoft-365-copilot/); [OpenAI, 17 Temmuz 2025](https://openai.com/tr-TR/index/introducing-chatgpt-agent/).

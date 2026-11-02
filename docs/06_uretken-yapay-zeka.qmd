@@ -298,7 +298,7 @@ Kısa vadede: ödevlerinde YZ'yi kurallara uygun ve beyanlı kullanırsın; iyi 
 
 ## Kaynaklar ve güncellik
 
-Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; strateji belgeleri ve eğitim verisi kaynakları 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi. YZ ürünleri ve ayarları çok hızlı değişir; adı geçen asistanların özelliklerini kendi sitelerinden kontrol et.
+Bu not Ekim 2026'da, yapay zekâ desteğiyle ve Haziran 2026'ya kadarki bilgiyle hazırlandı; strateji belgeleri ve eğitim verisi kaynakları 25 Ekim 2026'da denetlendi. Endüstriden ve Gündelik hayattan kutuları 26 Ekim 2026'da eklendi. YZ ürünleri ve ayarları çok hızlı değişir; adı geçen asistanların özelliklerini kendi sitelerinden kontrol et. Bu haftanın konularıyla ilgili tarihli gelişmeler ve yaklaşan yasal tarihler: [Ek G](../ekler/g_gundem.qmd).
 
 - **Düzenleme:** AB Yapay Zekâ Yasası (2024/1689), madde 3 (tanımlar); EASA'nın YZ yol haritası. Kaynak: [EUR-Lex](https://eur-lex.europa.eu), [easa.europa.eu](https://www.easa.europa.eu).
 - **Strateji belgeleri:** Ulusal Yapay Zekâ Stratejisi 2021–2025 ve 2024–2025 Eylem Planı (Cumhurbaşkanlığı Dijital Dönüşüm Ofisi ve Sanayi ve Teknoloji Bakanlığı); Türkiye Yapay Zekâ Eylem Planı 2026–2030 (Sanayi ve Teknoloji Bakanlığı, Ekim 2026; Haziran 2026 sonrasında yayımlandığı için belgenin kendisinden eklendi); Kaynak: [sanayi.gov.tr](https://www.sanayi.gov.tr).
