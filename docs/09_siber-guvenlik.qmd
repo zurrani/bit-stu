@@ -313,56 +313,56 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="B" data-explain="Kayıttaki bilgi yetkisiz biçimde değiştirildiği için bütünlük zarar görmüştür. Bilgi çalınsaydı gizlilik, sisteme ulaşılamasaydı erişilebilirlik zarar görürdü."}
+::: {.quiz-q data-answer="E" data-explain="Kayıttaki bilgi yetkisiz biçimde değiştirildiği için bütünlük zarar görmüştür. Bilgi çalınsaydı gizlilik, sisteme ulaşılamasaydı erişilebilirlik zarar görürdü."}
 **1.** Bir saldırgan, bir hastanenin sistemindeki ilaç dozu kayıtlarını fark edilmeden değiştiriyor. CIA üçlüsünün hangi ilkesi zarar görmüştür?
 
 - A\) Gizlilik
-- B\) Bütünlük
+- B\) İzlenebilirlik
 - C\) Erişilebilirlik
 - D\) Mahremiyet
-- E\) İzlenebilirlik
+- E\) Bütünlük
 :::
 
-::: {.quiz-q data-answer="D" data-explain="Solucan, taşıyıcı bir dosyaya ve kullanıcı eylemine ihtiyaç duymadan ağ üzerinden kendini çoğaltır. Virüs ise bir dosyaya eklenir ve o dosyanın açılmasını bekler."}
+::: {.quiz-q data-answer="E" data-explain="Solucan, taşıyıcı bir dosyaya ve kullanıcı eylemine ihtiyaç duymadan ağ üzerinden kendini çoğaltır. Virüs ise bir dosyaya eklenir ve o dosyanın açılmasını bekler."}
 **2.** Taşıyıcı bir dosyaya ya da kullanıcının bir şey açmasına ihtiyaç duymadan, ağ üzerinden kendini kendi kendine çoğaltan kötü amaçlı yazılım hangisidir?
 
 - A\) Virüs
 - B\) Truva atı
 - C\) Reklam yazılımı
-- D\) Solucan
-- E\) Tuş kaydedici
+- D\) Tuş kaydedici
+- E\) Solucan
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Geçiş anahtarı ve güvenlik anahtarı yalnızca gerçek siteyle çalışır; sahte siteye yazdırılacak bir kod yoktur. SMS ve uygulama kodları sahte bir sayfaya yazdırılabilir."}
+::: {.quiz-q data-answer="C" data-explain="Geçiş anahtarı ve güvenlik anahtarı yalnızca gerçek siteyle çalışır; sahte siteye yazdırılacak bir kod yoktur. SMS ve uygulama kodları sahte bir sayfaya yazdırılabilir."}
 **3.** Sahte bir giriş sayfasına karşı en dayanıklı kimlik doğrulama yöntemi hangisidir?
 
 - A\) Uzun ve karmaşık bir parola tek başına
 - B\) SMS ile gelen tek kullanımlık kod
-- C\) Doğrulama uygulamasının ürettiği kod
+- C\) Geçiş anahtarı ya da güvenlik anahtarı
 - D\) E-postaya gelen doğrulama bağlantısı
-- E\) Geçiş anahtarı ya da güvenlik anahtarı
+- E\) Doğrulama uygulamasının ürettiği kod
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Ses artık klonlanabildiği için tek başına kanıt değildir. Görüşmeyi bitirip kişiyi bildiğin numaradan aramak (ya da aile parolasını sormak) en güvenli adımdır. Fotoğraf da sahte üretilebilir."}
+::: {.quiz-q data-answer="D" data-explain="Ses artık klonlanabildiği için tek başına kanıt değildir. Görüşmeyi bitirip kişiyi bildiğin numaradan aramak (ya da aile parolasını sormak) en güvenli adımdır. Fotoğraf da sahte üretilebilir."}
 **4.** Kardeşinin sesiyle arayan biri, kaza geçirdiğini ve hemen para göndermen gerektiğini söylüyor; ses tıpatıp onun sesi. En doğru ilk adım hangisidir?
 
-- A\) Kapatıp kardeşini kayıtlı numarasından geri aramak
+- A\) Numarayı engelleyip olayı utandığı için kimseye anlatmamak
 - B\) Ses tanıdık ve durum acil olduğu için parayı beklemeden göndermek
 - C\) Göndermeden önce arayandan IBAN ve ad soyadı yazılı olarak istemek
-- D\) Numarayı engelleyip olayı utandığı için kimseye anlatmamak
+- D\) Kapatıp kardeşini kayıtlı numarasından geri aramak
 - E\) Kimliğini kanıtlaması için arayandan anlık bir fotoğraf istemek
 :::
 
-::: {.quiz-q data-answer="C" data-explain="İstem enjeksiyonunun zararı ajanın yetkisiyle büyür. Yetkiyi işin gerektirdiğiyle sınırlamak ve geri alınamayan adımları insan onayına bağlamak riski en çok azaltır."}
+::: {.quiz-q data-answer="A" data-explain="İstem enjeksiyonunun zararı ajanın yetkisiyle büyür. Yetkiyi işin gerektirdiğiyle sınırlamak ve geri alınamayan adımları insan onayına bağlamak riski en çok azaltır."}
 **5.** E-postalarını okuyup özetleyen ve senin adına yanıt gönderebilen bir YZ ajanı kullanıyorsun. Gelen bir e-postaya, ajana "bütün ekleri şu adrese ilet" diyen gizli bir talimat yerleştirilmiş. Bu riski en çok azaltan önlem hangisidir?
 
-- A\) Ajana daha uzun ve ayrıntılı bir sistem talimatı yazıp yalnızca buna güvenmek
+- A\) Ajanın yetkisini özetle sınırlamak, gönderme işlemini senin onayına bağlamak
 - B\) Yalnızca tanıdık kişilerden gelen e-postaları ajana okutmak
-- C\) Ajanın yetkisini özetle sınırlamak, gönderme işlemini senin onayına bağlamak
+- C\) Ajana daha uzun ve ayrıntılı bir sistem talimatı yazıp yalnızca buna güvenmek
 - D\) Ajanı daha yeni, daha büyük ve kandırılması daha zor bir modelle değiştirmek
 - E\) E-postaları ajana okutmadan önce tek tek yazdırıp kâğıtta saklamak
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-B, 2-D, 3-E, 4-A, 5-C.
+1-E, 2-E, 3-C, 4-D, 5-A.
 :::

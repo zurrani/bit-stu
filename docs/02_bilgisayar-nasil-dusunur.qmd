@@ -440,23 +440,23 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="C" data-explain="Bit, binary digit yani ikili basamak kelimelerinden türetildi."}
+::: {.quiz-q data-answer="A" data-explain="Bit, binary digit yani ikili basamak kelimelerinden türetildi."}
 **1.** "Bit" kelimesi hangi ifadenin kısaltmasıdır?
 
-- A\) Basic information technology (temel bilgi teknolojisi)
+- A\) Binary digit (ikili basamak)
 - B\) Binary integer
-- C\) Binary digit (ikili basamak)
+- C\) Basic information technology (temel bilgi teknolojisi)
 - D\) Byte item
 - E\) Bilgisayar işlem tekniği
 :::
 
-::: {.quiz-q data-answer="A" data-explain="RAM geçici bellektir; elektrik kesilince içindekiler silinir. Kalıcı saklama depolamanın işidir."}
+::: {.quiz-q data-answer="D" data-explain="RAM geçici bellektir; elektrik kesilince içindekiler silinir. Kalıcı saklama depolamanın işidir."}
 **2.** Bilgisayar kapandığında içindeki bilgileri kaybeden bileşen hangisidir?
 
-- A\) RAM
+- A\) USB bellek
 - B\) SSD
 - C\) HDD
-- D\) USB bellek
+- D\) RAM
 - E\) Bulut depolama
 :::
 
@@ -470,26 +470,26 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 - E\) 13
 :::
 
-::: {.quiz-q data-answer="B" data-explain="Hem en hem boy iki katına çıkınca piksel sayısı 2 × 2 = 4 katına çıkar."}
+::: {.quiz-q data-answer="A" data-explain="Hem en hem boy iki katına çıkınca piksel sayısı 2 × 2 = 4 katına çıkar."}
 **4.** Bir fotoğrafın hem eni hem boyu piksel olarak iki katına çıkarılırsa piksel sayısı ne olur?
 
-- A\) Değişmez
-- B\) 4 katına çıkar
+- A\) 4 katına çıkar
+- B\) Değişmez
 - C\) 2 katına çıkar
 - D\) 8 katına çıkar
 - E\) Yarıya iner
 :::
 
-::: {.quiz-q data-answer="D" data-explain="Hız en yavaş halkaya bağlıdır; ihtiyaca göre RAM, depolama türü ve işlemci birlikte değerlendirilmelidir."}
+::: {.quiz-q data-answer="C" data-explain="Hız en yavaş halkaya bağlıdır; ihtiyaca göre RAM, depolama türü ve işlemci birlikte değerlendirilmelidir."}
 **5.** Bir arkadaşın yeni dizüstü alırken yalnızca işlemcinin GHz değerine bakıyor. En iyi tavsiye hangisidir?
 
 - A\) Doğru yapıyor; dizüstünün hızını tek başına işlemcinin GHz değeri belirler.
 - B\) GHz yerine yalnızca ekran boyutuna ve çözünürlüğüne bakmalı.
-- C\) En pahalı modeli almalı; fiyat RAM'i, depolamayı ve işlemciyi zaten gösterir.
-- D\) İhtiyacına göre RAM, depolama türü ve işlemciyi birlikte değerlendirmeli.
+- C\) İhtiyacına göre RAM, depolama türü ve işlemciyi birlikte değerlendirmeli.
+- D\) En pahalı modeli almalı; fiyat RAM'i, depolamayı ve işlemciyi zaten gösterir.
 - E\) Yalnızca markaya bakmalı; iyi marka her parçayı dengeli seçer.
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-C, 2-A, 3-E, 4-B, 5-D.
+1-A, 2-D, 3-E, 4-A, 5-C.
 :::

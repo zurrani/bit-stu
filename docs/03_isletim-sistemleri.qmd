@@ -390,56 +390,56 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="D" data-explain="İşletim sistemi süreç, bellek, dosya, giriş-çıkış ve güvenliği yöneten yazılımdır."}
+::: {.quiz-q data-answer="C" data-explain="İşletim sistemi süreç, bellek, dosya, giriş-çıkış ve güvenliği yöneten yazılımdır."}
 **1.** Donanım ile kullanıcı ve uygulamalar arasında kaynakları yöneten yazılım hangisidir?
 
 - A\) Aygıt sürücüsü
 - B\) Uygulama yazılımı
-- C\) Tarayıcı
-- D\) İşletim sistemi
+- C\) İşletim sistemi
+- D\) Tarayıcı
 - E\) Kelime işlemci
 :::
 
-::: {.quiz-q data-answer="A" data-explain="3-2-1'in 1'i, kopyalardan birinin farklı bir yerde, örneğin bulutta durmasıdır."}
+::: {.quiz-q data-answer="B" data-explain="3-2-1'in 1'i, kopyalardan birinin farklı bir yerde, örneğin bulutta durmasıdır."}
 **2.** 3-2-1 yedekleme kuralındaki "1" neyi anlatır?
 
-- A\) Kopyalardan birinin başka bir konumda durmasını
-- B\) Günde bir kez yedek alınmasını
+- A\) Günde bir kez yedek alınmasını
+- B\) Kopyalardan birinin başka bir konumda durmasını
 - C\) Tek bir harici disk kullanılmasını
 - D\) Yalnızca bir dosyanın yedeklenmesini
 - E\) Yedeğin bir yıl saklanmasını
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Uzantılar gizliyken .exe görünmez; dosya belge değil programdır. Açmadan uzantıları görünür yapıp dosyayı silmek ya da bildirmek gerekir."}
+::: {.quiz-q data-answer="B" data-explain="Uzantılar gizliyken .exe görünmez; dosya belge değil programdır. Açmadan uzantıları görünür yapıp dosyayı silmek ya da bildirmek gerekir."}
 **3.** E-postadan gelen "fatura.pdf.exe" dosyası, uzantılar gizliyken nasıl görünür ve ne yapmalısın?
 
 - A\) "fatura.exe" görünür; açmak güvenlidir.
-- B\) "fatura.pdf.exe" görünür; güvenli olması için PDF okuyucuyla açılmalıdır.
+- B\) "fatura.pdf" görünür; açmadan uzantıları görünür yapmalı, silmeli ya da bildirmelisin.
 - C\) Hiç görünmez; bir şey yapmaya gerek yoktur.
 - D\) "fatura" görünür; dosyayı yeniden adlandırıp uzantısını .pdf olarak düzeltip açmak yeterlidir.
-- E\) "fatura.pdf" görünür; açmadan uzantıları görünür yapmalı, silmeli ya da bildirmelisin.
+- E\) "fatura.pdf.exe" görünür; güvenli olması için PDF okuyucuyla açılmalıdır.
 :::
 
-::: {.quiz-q data-answer="B" data-explain="Navigasyon uygulamasının konuma ihtiyacı vardır, ama yalnızca kullanılırken."}
+::: {.quiz-q data-answer="E" data-explain="Navigasyon uygulamasının konuma ihtiyacı vardır, ama yalnızca kullanılırken."}
 **4.** Bir navigasyon uygulaması için en uygun konum izni hangisidir?
 
 - A\) Her zaman
-- B\) Yalnızca uygulamayı kullanırken
+- B\) Rehber izniyle birlikte her zaman
 - C\) Hiçbir zaman; navigasyon konumsuz çalışır
 - D\) Yalnızca gece
-- E\) Rehber izniyle birlikte her zaman
+- E\) Yalnızca uygulamayı kullanırken
 :::
 
-::: {.quiz-q data-answer="C" data-explain="Daha az hedef alınmak, hiç hedef alınmamak demek değildir; güncelleme ve dikkat her sistemde gereklidir."}
+::: {.quiz-q data-answer="A" data-explain="Daha az hedef alınmak, hiç hedef alınmamak demek değildir; güncelleme ve dikkat her sistemde gereklidir."}
 **5.** Bir arkadaşın "Mac kullanıyorum, virüs bulaşmaz, güncelleme yapmama da gerek yok" diyor. En isabetli değerlendirme hangisidir?
 
-- A\) Doğru; Mac'e zararlı yazılım yazılmaz.
+- A\) Yanlış; her işletim sistemi hedef olabilir ve güncellemeler açıkları kapatır.
 - B\) Doğru; güncellemeler yalnızca yeni özellik getirir.
-- C\) Yanlış; her işletim sistemi hedef olabilir ve güncellemeler açıkları kapatır.
+- C\) Doğru; Mac'e zararlı yazılım yazılmaz.
 - D\) Yanlış; ama güncelleme yerine yalnızca bir antivirüs programı kurması yeterlidir.
 - E\) Yalnızca Linux için doğrudur.
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-D, 2-A, 3-E, 4-B, 5-C.
+1-C, 2-B, 3-B, 4-E, 5-A.
 :::

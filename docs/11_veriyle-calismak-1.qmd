@@ -261,31 +261,31 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="D" data-explain="Her hücrede tek bir değer olmalı. 'LAB-2 / Bilgisayar' hücresi laboratuvar ve cihaz türü olmak üzere iki değişkeni bir arada tutar; ikisi ayrı sütunlara bölünmelidir."}
+::: {.quiz-q data-answer="A" data-explain="Her hücrede tek bir değer olmalı. 'LAB-2 / Bilgisayar' hücresi laboratuvar ve cihaz türü olmak üzere iki değişkeni bir arada tutar; ikisi ayrı sütunlara bölünmelidir."}
 **1.** Bir arıza tablosundaki "LAB-2 / Bilgisayar" hücresi düzenli verinin hangi kuralını bozar?
 
-- A\) Her satır bir kayıt olmalıdır.
+- A\) Her hücrede tek bir değer olmalıdır.
 - B\) Tablonun ilk satırı boş bırakılmalıdır.
 - C\) Her sütunun adı büyük harfle yazılmalıdır.
-- D\) Her hücrede tek bir değer olmalıdır.
+- D\) Her satır bir kayıt olmalıdır.
 - E\) Sayılar hücrenin sağına yaslanmalıdır.
 :::
 
-::: {.quiz-q data-answer="B" data-explain="Sola yaslanma ve köşedeki yeşil üçgen, değerin metin olarak saklandığını gösterir; TOPLA metni atlar. Biçim değiştirmek tek başına yetmez, değer sayıya dönüştürülmelidir."}
+::: {.quiz-q data-answer="D" data-explain="Sola yaslanma ve köşedeki yeşil üçgen, değerin metin olarak saklandığını gösterir; TOPLA metni atlar. Biçim değiştirmek tek başına yetmez, değer sayıya dönüştürülmelidir."}
 **2.** Bir sütundaki sayıların bir kısmı hücrenin soluna yaslanmış ve köşelerinde yeşil bir üçgen var; TOPLA işlevi bunları toplamıyor. En olası neden nedir?
 
 - A\) O hücrelere koşullu biçimlendirme uygulanmıştır.
-- B\) O değerler sayı değil, metin olarak saklanmıştır.
+- B\) O hücrelerin ondalık basamakları gizlenmiştir.
 - C\) Sütun genişliği sayıları göstermeye yetmemektedir.
-- D\) O hücrelerin ondalık basamakları gizlenmiştir.
+- D\) O değerler sayı değil, metin olarak saklanmıştır.
 - E\) Sayfanın bölmeleri dondurulmuş durumdadır.
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Yalnızca bir sütun sıralanırsa diğer sütunlar yerinde kalır ve her satırın bilgisi başka bir kayda karışır. Bütün tablo seçilmeli ya da program 'seçimi genişlet' diye sorduğunda kabul edilmelidir."}
+::: {.quiz-q data-answer="B" data-explain="Yalnızca bir sütun sıralanırsa diğer sütunlar yerinde kalır ve her satırın bilgisi başka bir kayda karışır. Bütün tablo seçilmeli ya da program 'seçimi genişlet' diye sorduğunda kabul edilmelidir."}
 **3.** Bir öğrenci 120 satırlık tabloda yalnızca "Tarih" sütununu seçip eskiden yeniye sıralıyor ve "Seçimi genişlet" sorusuna "hayır" diyor. Ne olur?
 
-- A\) Tarihler sıralanır ama diğer sütunlar yerinde kalır; kayıtlar birbirine karışır.
-- B\) Bütün satırlar tarihe göre doğru biçimde sıralanır; başka bir şey değişmez.
+- A\) Bütün satırlar tarihe göre doğru biçimde sıralanır; başka bir şey değişmez.
+- B\) Tarihler sıralanır ama diğer sütunlar yerinde kalır; kayıtlar birbirine karışır.
 - C\) Program sıralamayı reddeder ve tabloyu hiç değiştirmeden bırakır.
 - D\) Tarih sütunu metne dönüşür ve bütün tarihler sola yaslanır.
 - E\) Tablodaki yinelenen kayıtlar kendiliğinden silinir.
@@ -301,16 +301,16 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 - E\) Sütuna yalnızca üç seçenekten oluşan açılır listeli veri doğrulaması koymak
 :::
 
-::: {.quiz-q data-answer="C" data-explain="Geçersiz bir değer tahminle düzeltilmez ve kayıt sessizce silinmez. Kayıt işaretlenir, kaynağına sorulur ve karar temizlik günlüğüne yazılır; böylece değişiklik izlenebilir kalır."}
+::: {.quiz-q data-answer="A" data-explain="Geçersiz bir değer tahminle düzeltilmez ve kayıt sessizce silinmez. Kayıt işaretlenir, kaynağına sorulur ve karar temizlik günlüğüne yazılır; böylece değişiklik izlenebilir kalır."}
 **5.** Temizlediğin tabloda bir kaydın tarihi "31.09.2026". Eylül 30 gündür. Hangisi en doğru yaklaşımdır?
 
-- A\) Tarihi 30.09.2026 yapıp devam etmek; bir gün fark sonucu pek değiştirmez
+- A\) Kaydı işaretleyip kaynağına sormak, kararı temizlik günlüğüne yazmak
 - B\) Kaydı tablodan silmek; hatalı kayıt analizden çıkarılmalıdır
-- C\) Kaydı işaretleyip kaynağına sormak, kararı temizlik günlüğüne yazmak
+- C\) Tarihi 30.09.2026 yapıp devam etmek; bir gün fark sonucu pek değiştirmez
 - D\) Tarihi metin olarak bırakıp sıralamada en sona düşmesini beklemek
 - E\) Tarihi 01.10.2026 yapmak; çünkü 31 Eylül aslında 1 Ekim demektir
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-D, 2-B, 3-A, 4-E, 5-C.
+1-A, 2-D, 3-B, 4-E, 5-A.
 :::

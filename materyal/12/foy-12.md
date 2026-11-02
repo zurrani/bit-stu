@@ -25,7 +25,10 @@ Laboratuvarların sorumlusu senden kısa bir analiz istiyor: "Önümüzdeki dön
 - **B8:** `=TOPLA(B3:B7)`. Sonuç 120 olmalı; değilse bir yazım farkı vardır.
 - **C3:** `=B3/$B$8` yaz, aşağı kopyala ve yüzde biçimi ver. C8'de payların toplamı %100 olmalı.
 - **D3:** `=YUVARLA(EĞERORTALAMA(Kayitlar!$E$2:$E$121; A3; Kayitlar!$J$2:$J$121); 1)`; aşağı kopyala.
-- **E sütunu:** Ortanca için koşullu bir işlev yok. Bu sütunu bir sonraki adımda özet tablodan ya da filtreyle bulacaksın; şimdilik yalnızca bütün verinin değerlerini hesapla: Bir kenara `=ORTALAMA(Kayitlar!J2:J121)` ve `=ORTANCA(Kayitlar!J2:J121)` yaz. İki sayı neden bu kadar farklı? Bir cümleyle yanına yaz.
+- **E sütunu:** Ortanca için EĞERORTALAMA gibi koşullu bir işlev yok; özet tablo da ortanca hesaplamaz. İki yoldan birini seç:
+  - **Her programda:** `Kayitlar` tablosunu Cihaz türüne göre sırala. Her türün süre hücrelerini seçerek E3'e `=ORTANCA(Kayitlar!J…:J…)` yaz, öbür türler için de tekrarla. ORTANCA boş hücreleri (bekleyen kayıtları) saymaz. İşin bitince tabloyu Kayıt No'ya göre geri sırala.
+  - **Microsoft 365'te:** `=ORTANCA(FİLTRE(Kayitlar!$J$2:$J$121; (Kayitlar!$E$2:$E$121=A3)*(Kayitlar!$J$2:$J$121<>"")))` yaz ve aşağı kopyala. İkinci koşul bekleyen kayıtları dışarıda bırakır; FİLTRE boş hücreyi 0 diye getirir ve ortancayı bozar.
+- Bütün verinin değerlerini de hesapla: Bir kenara `=ORTALAMA(Kayitlar!J2:J121)` ve `=ORTANCA(Kayitlar!J2:J121)` yaz. İki sayı neden bu kadar farklı? Bir cümleyle yanına yaz.
 
 ## 3. Yeni sütunlar (mantık ve arama)
 
@@ -76,6 +79,7 @@ Laboratuvarların sorumlusu senden kısa bir analiz istiyor: "Önümüzdeki dön
 - Kasım'ın eksik olduğunu hesaba kat.
 - Süre için ortalamayı mı ortancayı mı kullandığını söyle.
 - Bir ilişkiyi neden gibi sunma.
+- Ham sayıyı oranla karıştırma: Cihaz başına arızayı `Cihazlar` sayfasındaki cihaz sayısıyla bul.
 - Bir öneriyle bitir: Bütçe öncelikle nereye ayrılmalı?
 
 ## Teslim

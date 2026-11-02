@@ -275,13 +275,13 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="D" data-explain="Hafta 1'deki yaklaşım her icadı iki soruyla değerlendirir: Hangi sorunu çözüyor ve bedeli ne? Tablodaki örneklerin ortak noktası, bedelin kırılım geldiğinde hemen görülmemesidir."}
+::: {.quiz-q data-answer="B" data-explain="Hafta 1'deki yaklaşım her icadı iki soruyla değerlendirir: Hangi sorunu çözüyor ve bedeli ne? Tablodaki örneklerin ortak noktası, bedelin kırılım geldiğinde hemen görülmemesidir."}
 **1.** Notta son 25 yılın kırılımları hangi iki soruyla değerlendirildi?
 
 - A\) Ne kadar sattı ve hangi şirket üretti?
-- B\) Hangi ülkede icat edildi ve kaç yılında?
+- B\) Hangi sorunu çözdü ve bedeli ne oldu?
 - C\) Ne kadar hızlı ve ne kadar ucuz?
-- D\) Hangi sorunu çözdü ve bedeli ne oldu?
+- D\) Hangi ülkede icat edildi ve kaç yılında?
 - E\) Kimler kullandı ve ne kadar sevildi?
 :::
 
@@ -295,14 +295,14 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 - E\) Yalnızca kod yazmak için kullanılması
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Bir cihazın çevresel bedelinin önemli bir kısmı üretimde ödenir; onu daha uzun kullanmak en etkili kişisel adımlardan biridir. Çöpe atmak e-atık sorununu büyütür; dijital her zaman daha çevreci değildir."}
+::: {.quiz-q data-answer="D" data-explain="Bir cihazın çevresel bedelinin önemli bir kısmı üretimde ödenir; onu daha uzun kullanmak en etkili kişisel adımlardan biridir. Çöpe atmak e-atık sorununu büyütür; dijital her zaman daha çevreci değildir."}
 **3.** Dijital teknolojinin çevresel bedelini azaltmak için kişisel ölçekte en etkili adımlardan biri hangisidir?
 
 - A\) Eski telefonu verilerini silmeden ve hesaplardan çıkmadan evdeki çöpe atmak
 - B\) Her yıl en yeni modele geçip eskisini çekmecede saklamak
 - C\) Bütün belgeleri yazdırıp dijital kopyaları tamamen silmek
-- D\) Her basit işi büyük bir YZ modeline yaptırmak
-- E\) Cihazı onarıp daha uzun kullanmak, sonunda e-atık noktasına vermek
+- D\) Cihazı onarıp daha uzun kullanmak, sonunda e-atık noktasına vermek
+- E\) Her basit işi büyük bir YZ modeline yaptırmak
 :::
 
 ::: {.quiz-q data-answer="A" data-explain="Kalibrasyon, öz tahminin gerçek performansla ne kadar örtüştüğüdür. 'Evet' deyip yapamamak aşırı güven, 'hayır' deyip yapabilmek kendini küçümsemedir; ikisi de öğrenme planını yanlış yöne çeker."}
@@ -315,16 +315,16 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 - E\) Öğrenci bu beceriyi zaten bildiği için tekrar çalışmasına gerek yoktur
 :::
 
-::: {.quiz-q data-answer="C" data-explain="İyi bir öğrenme planı somut bir hedef, bir kaynak, bir tarih ve öğrenildiğinin nasıl anlaşılacağını içerir. Belirsiz bir niyet ('daha çok çalışacağım') izlenemez."}
+::: {.quiz-q data-answer="E" data-explain="İyi bir öğrenme planı somut bir hedef, bir kaynak, bir tarih ve öğrenildiğinin nasıl anlaşılacağını içerir. Belirsiz bir niyet ('daha çok çalışacağım') izlenemez."}
 **5.** Hangisi iyi kurulmuş bir öğrenme planı maddesidir?
 
 - A\) "Bilgisayarı daha iyi ve daha verimli kullanmayı bir gün mutlaka öğreneceğim."
 - B\) "Excel'in bütün özelliklerini bu yaz tatilinde tek seferde bitireceğim."
-- C\) "Bir ay içinde açık bir dersle özet tablo öğrenip kendi harcama tablomda kuracağım."
+- C\) "Fırsat buldukça internette birkaç eğitim videosu izlemeye çalışacağım."
 - D\) "YZ her şeyi yapacağı için hiçbir şey öğrenmeme gerek kalmayacak."
-- E\) "Fırsat buldukça internette birkaç eğitim videosu izlemeye çalışacağım."
+- E\) "Bir ay içinde açık bir dersle özet tablo öğrenip kendi harcama tablomda kuracağım."
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-D, 2-B, 3-E, 4-A, 5-C.
+1-B, 2-B, 3-D, 4-A, 5-E.
 :::

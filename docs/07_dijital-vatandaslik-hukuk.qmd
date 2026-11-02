@@ -333,56 +333,56 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="B" data-explain="SA, değiştirilen eserin de aynı lisansla paylaşılmasını ister. Ticari kullanımı yasaklayan NC, değiştirmeyi yasaklayan ND'dir."}
+::: {.quiz-q data-answer="D" data-explain="SA, değiştirilen eserin de aynı lisansla paylaşılmasını ister. Ticari kullanımı yasaklayan NC, değiştirmeyi yasaklayan ND'dir."}
 **1.** Creative Commons lisansındaki "SA" öğesi ne ister?
 
 - A\) Eserin hiçbir koşulda ticari amaçla kullanılmamasını
-- B\) Eseri değiştirip paylaşırsan, yeni eseri de aynı lisansla paylaşmanı
+- B\) Eser sahibinin bütün haklarından vazgeçtiğini
 - C\) Eserin yalnızca olduğu gibi, hiç değiştirilmeden kullanılmasını
-- D\) Eser sahibinin bütün haklarından vazgeçtiğini
+- D\) Eseri değiştirip paylaşırsan, yeni eseri de aynı lisansla paylaşmanı
 - E\) Eserin yalnızca eğitim kurumlarında gösterilebileceğini
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Dünya Sağlık Örgütü oyun bozukluğunu 2019'da sınıflamasına ekledi. Diğerleri araştırılan, ama resmî tanı olmayan kavramlardır."}
+::: {.quiz-q data-answer="B" data-explain="Dünya Sağlık Örgütü oyun bozukluğunu 2019'da sınıflamasına ekledi. Diğerleri araştırılan, ama resmî tanı olmayan kavramlardır."}
 **2.** Dünya Sağlık Örgütü'nün hastalık sınıflamasında tanı olarak yer alan durum hangisidir?
 
 - A\) Sosyal medya bağımlılığı
-- B\) Nomofobi (telefonsuz kalma korkusu)
+- B\) Oyun bozukluğu
 - C\) Hayalet titreşim
 - D\) Dijital göz yorgunluğu bağımlılığı
-- E\) Oyun bozukluğu
+- E\) Nomofobi (telefonsuz kalma korkusu)
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Doğru atıf dört parçalıdır: eserin adı, yazarı, kaynağı ve lisansı. Diğer şıklarda en az bir parça eksik."}
+::: {.quiz-q data-answer="E" data-explain="Doğru atıf dört parçalıdır: eserin adı, yazarı, kaynağı ve lisansı. Diğer şıklarda en az bir parça eksik."}
 **3.** Wikimedia Commons'tan CC BY 4.0 lisanslı bir kütüphane fotoğrafını sunumunda kullanacaksın. Hangisi eksiksiz bir atıftır?
 
-- A\) "Gece yarısı kütüphane", Mehmet Kaya, Wikimedia Commons, CC BY 4.0
+- A\) Görsel temsilîdir; kaynağı ve lisansı sunumun sonunda belirtilecektir
 - B\) Fotoğraf: Wikimedia Commons, internetten alınmıştır, teşekkürler
 - C\) "Gece yarısı kütüphane", Wikimedia Commons'tan izin alınarak kullanılmıştır
 - D\) Mehmet Kaya'nın fotoğrafı, tüm hakları saklıdır, kaynak: internet ortamı
-- E\) Görsel temsilîdir; kaynağı ve lisansı sunumun sonunda belirtilecektir
+- E\) "Gece yarısı kütüphane", Mehmet Kaya, Wikimedia Commons, CC BY 4.0
 :::
 
-::: {.quiz-q data-answer="D" data-explain="Birinin adres, telefon gibi özel bilgilerini izinsiz yaymak doxing'dir ve kişisel verileri hukuka aykırı olarak yayma suçu da gündeme gelebilir."}
+::: {.quiz-q data-answer="E" data-explain="Birinin adres, telefon gibi özel bilgilerini izinsiz yaymak doxing'dir ve kişisel verileri hukuka aykırı olarak yayma suçu da gündeme gelebilir."}
 **4.** Bir öğrenci, tartıştığı bir sınıf arkadaşının ev adresini ve telefon numarasını herkese açık bir hesapta paylaşıyor. Bu davranış hangi kavramla adlandırılır?
 
 - A\) Trollemek: tartışmayı bilerek kışkırtan mesajlar yazmak
 - B\) Oltalama: sahte bir mesajla birinin şifresini ele geçirmeye çalışmak
 - C\) Deepfake: birinin görüntüsünü yapay zekâyla değiştirmek
-- D\) Doxing: birinin özel bilgilerini izinsiz yaymak
-- E\) Spam: çok sayıda kişiye istenmeyen ileti göndermek
+- D\) Spam: çok sayıda kişiye istenmeyen ileti göndermek
+- E\) Doxing: birinin özel bilgilerini izinsiz yaymak
 :::
 
-::: {.quiz-q data-answer="C" data-explain="Atıf intihali önler, ama izin yerine geçmez. Telifli bir fotoğraf ancak lisansı izin veriyorsa ya da eser sahibinden izin alınmışsa kullanılabilir."}
+::: {.quiz-q data-answer="A" data-explain="Atıf intihali önler, ama izin yerine geçmez. Telifli bir fotoğraf ancak lisansı izin veriyorsa ya da eser sahibinden izin alınmışsa kullanılabilir."}
 **5.** Bir arkadaşın kulüp broşüründe internette bulduğu bir fotoğrafı kullanmış ve "Fotoğrafçının adını yazdım, telif sorunu yok" diyor. En isabetli değerlendirme hangisidir?
 
-- A\) Doğrudur; ad yazıldığı sürece her görsel her amaçla kullanılabilir.
+- A\) Yanlıştır; atıf izin değildir, fotoğrafın lisansına bakılmalı ya da izin alınmalıdır.
 - B\) Doğrudur; broşür ücretsiz dağıtılıyorsa telif kuralları hiç uygulanmaz.
-- C\) Yanlıştır; atıf izin değildir, fotoğrafın lisansına bakılmalı ya da izin alınmalıdır.
+- C\) Doğrudur; ad yazıldığı sürece her görsel her amaçla kullanılabilir.
 - D\) Yanlıştır; internetteki fotoğraflar hiçbir koşulda broşürde kullanılamaz.
 - E\) Doğrudur; fotoğrafın yanında © işareti yoksa eser zaten kamu malıdır.
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-B, 2-E, 3-A, 4-D, 5-C.
+1-D, 2-B, 3-E, 4-E, 5-A.
 :::

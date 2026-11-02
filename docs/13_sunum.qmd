@@ -83,13 +83,13 @@ Sunum, dinleyicinin kafasında gerçekleşir. Bu yüzden ilk soru "ne anlatacağ
 
 ### Tek ana mesaj
 
-Haftanın sorusunu sunumun her aşamasında kendine sor: Dinleyici çıkarken aklında tek bir cümle kalacaksa, o ne olmalı? Bu cümleye **ana mesaj** denir: "Laboratuvar bütçesinin önceliği bilgisayar yedek parçası olmalı." Ana mesajı yazamıyorsan henüz sunuma hazır değilsin; slayt hazırlamaya başlamak bu sorunu çözmez, yalnızca gizler.
+Haftanın sorusunu sunumun her aşamasında kendine sor: Dinleyici çıkarken aklında tek bir cümle kalacaksa, o ne olmalı? Bu cümleye **ana mesaj** denir: "Laboratuvar bütçesinin önceliği 3B yazıcılar olmalı." Ana mesajı yazamıyorsan henüz sunuma hazır değilsin; slayt hazırlamaya başlamak bu sorunu çözmez, yalnızca gizler.
 
 Ana mesajı taşıyan basit bir **hikâye akışı** şöyledir:
 
 1. **Sorun:** Neden buradayız? ("Arızalar ders saatlerini yiyor.")
-2. **Kanıt:** Nereden biliyoruz? ("Üç ayda 120 arıza; yarıya yakını bilgisayarlarda.")
-3. **Çözüm ya da öneri:** Ne yapalım? ("Yedek parça stoku ve bir cihazın incelenmesi.")
+2. **Kanıt:** Nereden biliyoruz? ("Üç ayda 120 arıza; cihaz başına en çok 3B yazıcılarda.")
+3. **Çözüm ya da öneri:** Ne yapalım? ("3B yazıcılara yedek parça ve PC-0642'nin incelenmesi.")
 4. **Kapanış:** Ana mesaj bir kez daha, tek cümleyle.
 
 Yönetici ve karar odaklı topluluklarda sonucu başa almak (önce öneri, sonra kanıt) çoğu zaman daha etkilidir; dinleyici neyi neden dinlediğini baştan bilir.
@@ -106,12 +106,12 @@ Slayt bir yol tabelasına benzer. Tabela hızla okunur ve tek bir şey söyler; 
 
 ### Mesaj başlığı ve kanıt
 
-Hafta 12'de grafiğin başlığının bir cümle olabileceğini görmüştün. Slaytta da aynı ilke geçerlidir. "Arıza sayıları" bir **konu başlığıdır**; "Arızaların yarıya yakını bilgisayarlarda" ise bir **mesaj başlığıdır** ve slaytın ne söylediğini okura baştan söyler. Bu yaklaşımın adı **iddia ve kanıt slaytıdır** (assertion-evidence): Üstte iddiayı söyleyen tam bir cümle, altında onu destekleyen kanıt (bir grafik, bir fotoğraf, bir şema). Madde imleriyle dolu bir slayt yerine iddia ve kanıt slaytları kullanan konuşmacıların sunumlarının daha iyi anlaşıldığını gösteren çalışmalar vardır.
+Hafta 12'de grafiğin başlığının bir cümle olabileceğini görmüştün. Slaytta da aynı ilke geçerlidir. "Arıza sayıları" bir **konu başlığıdır**; "Arızaların %38'i bilgisayarlarda" ise bir **mesaj başlığıdır** ve slaytın ne söylediğini okura baştan söyler. Bu yaklaşımın adı **iddia ve kanıt slaytıdır** (assertion-evidence): Üstte iddiayı söyleyen tam bir cümle, altında onu destekleyen kanıt (bir grafik, bir fotoğraf, bir şema). Madde imleriyle dolu bir slayt yerine iddia ve kanıt slaytları kullanan konuşmacıların sunumlarının daha iyi anlaşıldığını gösteren çalışmalar vardır.
 
 ```{=html}
 <figure class="sema-not">
 <svg viewBox="0 0 720 232" role="img" aria-labelledby="sema-maket-baslik">
-<title id="sema-maket-baslik">İki slayt maketi yan yana. Solda konu başlıklı slayt: başlıkta "Arıza sayıları" yazıyor, altında beş madde imli satır var. Sağda iddia ve kanıt slaytı: başlıkta "Arızaların yarıya yakını bilgisayarlarda" diye bir cümle, altında en uzunu vurgulanmış, büyükten küçüğe sıralı beş çubuk var.</title>
+<title id="sema-maket-baslik">İki slayt maketi yan yana. Solda konu başlıklı slayt: başlıkta "Arıza sayıları" yazıyor, altında beş madde imli satır var. Sağda iddia ve kanıt slaytı: başlıkta "Arızaların %38'i bilgisayarlarda" diye bir cümle, altında en uzunu vurgulanmış, büyükten küçüğe sıralı beş çubuk var.</title>
 <rect class="s-dolu-yuzey s-cizgi" x="1" y="1" width="338" height="228" rx="3"/>
 <text class="s-bas" x="20" y="42" font-size="25">Arıza sayıları</text>
 <text class="s-ikincil" x="20" y="68" font-size="17">konu başlığı</text>
@@ -121,7 +121,7 @@ Hafta 12'de grafiğin başlığının bir cümle olabileceğini görmüştün. S
 <circle class="s-dolu-soluk" cx="28" cy="178" r="5"/><rect class="s-dolu-soluk" x="42" y="173" width="175" height="10" rx="3"/>
 <circle class="s-dolu-soluk" cx="28" cy="204" r="5"/><rect class="s-dolu-soluk" x="42" y="199" width="150" height="10" rx="3"/>
 <rect class="s-kutu" x="381.5" y="1.5" width="337" height="227" rx="3"/>
-<text class="s-bas" x="400" y="40" font-size="25">Arızaların yarıya yakını</text>
+<text class="s-bas" x="400" y="40" font-size="25">Arızaların %38'i</text>
 <text class="s-bas" x="400" y="67" font-size="25">bilgisayarlarda</text>
 <text class="s-vurgu-metin" x="400" y="92" font-size="17">mesaj başlığı: iddia</text>
 <rect class="s-dolu-vurgu" x="400" y="108" width="230" height="16"/>
@@ -390,12 +390,12 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="B" data-explain="Sunucu görünümünde dinleyici yalnızca slaytı görür; konuşmacı kendi ekranında notlarını, sıradaki slaytı ve süreyi görür. Notları okumak için değil, yolu bulmak için kullanılır."}
+::: {.quiz-q data-answer="C" data-explain="Sunucu görünümünde dinleyici yalnızca slaytı görür; konuşmacı kendi ekranında notlarını, sıradaki slaytı ve süreyi görür. Notları okumak için değil, yolu bulmak için kullanılır."}
 **1.** Sunucu görünümü (presenter view) ne sağlar?
 
 - A\) Dinleyicilerin slaytları kendi telefonlarından eşzamanlı izlemesini
-- B\) Dinleyici slaytı görürken konuşmacının notları ve süreyi görmesini
-- C\) Sunumun kendiliğinden bir video dosyasına dönüştürülüp kaydedilmesini
+- B\) Sunumun kendiliğinden bir video dosyasına dönüştürülüp kaydedilmesini
+- C\) Dinleyici slaytı görürken konuşmacının notları ve süreyi görmesini
 - D\) Bütün slaytların notlarıyla birlikte tek seferde yazdırılmasını
 - E\) Slaytlardaki yazım hatalarının kendiliğinden düzeltilmesini
 :::
@@ -410,22 +410,22 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 - E\) Logoyu slayt ana şablonunda bir kez değiştirmek
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Yönetici ve karar odaklı dinleyici sonucu ve gerekeni ister; öneriyi başa almak, dinleyicinin neyi neden dinlediğini baştan bilmesini sağlar. Ayrıntı ve yöntem sorulursa ek slayttadır."}
+::: {.quiz-q data-answer="E" data-explain="Yönetici ve karar odaklı dinleyici sonucu ve gerekeni ister; öneriyi başa almak, dinleyicinin neyi neden dinlediğini baştan bilmesini sağlar. Ayrıntı ve yöntem sorulursa ek slayttadır."}
 **3.** Bütçeyi onaylayacak üç yöneticiye beş dakikalık bir sunum yapacaksın. Sunumun açılışı için en uygun seçenek hangisidir?
 
-- A\) Önerini ve maliyetini ilk slaytta söylemek, kanıtı ardından göstermek
+- A\) Dinleyicinin ilgisini çekmek için konuyla ilgisiz bir video göstermek
 - B\) Analiz yöntemini ayrıntılı anlatarak başlamak, öneriyi sona saklamak
 - C\) Konunun tarihçesini anlatan birkaç slaytla girişi uzun tutmak
 - D\) Ham veri tablosunun tamamını ilk slayta koyup yorumlamalarını istemek
-- E\) Dinleyicinin ilgisini çekmek için konuyla ilgisiz bir video göstermek
+- E\) Önerini ve maliyetini ilk slaytta söylemek, kanıtı ardından göstermek
 :::
 
-::: {.quiz-q data-answer="C" data-explain="Yalnızca sunum penceresini paylaşmak ve bildirimleri kapatmak, ekrana düşebilecek kişisel mesajları ve ilgisiz pencereleri dinleyiciden korur. Bütün ekranı paylaşmak mahremiyet riskidir."}
+::: {.quiz-q data-answer="B" data-explain="Yalnızca sunum penceresini paylaşmak ve bildirimleri kapatmak, ekrana düşebilecek kişisel mesajları ve ilgisiz pencereleri dinleyiciden korur. Bütün ekranı paylaşmak mahremiyet riskidir."}
 **4.** Çevrim içi bir toplantıda sunum yapacaksın. Ekranını paylaşmadan önce en önemli adım hangisidir?
 
 - A\) Kamerayı kapatıp yalnızca sesle konuşmaya karar vermek
-- B\) Bütün ekranı paylaşıp masaüstündeki dosyaları da göstermek
-- C\) Bildirimleri kapatıp yalnızca sunum penceresini paylaşmak
+- B\) Bildirimleri kapatıp yalnızca sunum penceresini paylaşmak
+- C\) Bütün ekranı paylaşıp masaüstündeki dosyaları da göstermek
 - D\) Toplantıdaki herkesin mikrofonunu açık tutmasını istemek
 - E\) Sunumu paylaşmak yerine slaytları tek tek fotoğraflayıp göndermek
 :::
@@ -441,5 +441,5 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-B, 2-E, 3-A, 4-C, 5-D.
+1-C, 2-E, 3-E, 4-B, 5-D.
 :::

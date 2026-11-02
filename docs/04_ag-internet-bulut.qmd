@@ -425,56 +425,56 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="C" data-explain="İnternet altyapıdır; web onun üzerinde çalışan hizmetlerden biridir."}
+::: {.quiz-q data-answer="B" data-explain="İnternet altyapıdır; web onun üzerinde çalışan hizmetlerden biridir."}
 **1.** İnternet ile web arasındaki ilişki hangisidir?
 
 - A\) İkisi aynı şeyin farklı adlarıdır.
-- B\) Web altyapıdır, internet onun üzerinde çalışır.
-- C\) İnternet altyapıdır; web onun üzerinde çalışan hizmetlerden biridir.
-- D\) Web yalnızca e-postadır.
-- E\) İnternet yalnızca telefonlarda kullanılır.
+- B\) İnternet altyapıdır; web onun üzerindeki hizmetlerden biridir.
+- C\) Web altyapıdır, internet onun üzerinde çalışır.
+- D\) Web yalnızca e-posta ve mesajlaşma uygulamalarından oluşur.
+- E\) İnternet yalnızca telefonlarda ve tabletlerde kullanılabilir.
 :::
 
-::: {.quiz-q data-answer="A" data-explain="DNS, internetin telefon rehberidir: alan adını IP adresine çevirir."}
+::: {.quiz-q data-answer="D" data-explain="DNS, internetin telefon rehberidir: alan adını IP adresine çevirir."}
 **2.** DNS'in görevi hangisidir?
 
-- A\) Alan adını IP adresine çevirmek
+- A\) Wi-Fi yayını yapmak
 - B\) Trafiği şifrelemek
 - C\) Dosyaları buluta yedeklemek
-- D\) Wi-Fi yayını yapmak
+- D\) Alan adını IP adresine çevirmek
 - E\) Sayfaları hızlandırmak için sıkıştırmak
 :::
 
-::: {.quiz-q data-answer="E" data-explain="www alt alan, /tr/duyurular yol, https protokoldür; alan adı iuc.edu.tr'dir."}
-**3.** `https://www.iuc.edu.tr/tr/duyurular` adresinde alan adı hangisidir?
+::: {.quiz-q data-answer="D" data-explain="Yorumcu okur ve yorum bırakır, metni değiştiremez. Paylaşırken en düşük yeterli yetki seçilir; görüntüleyen not bırakamaz, düzenleyen metni değiştirebilir."}
+**3.** Proje taslağını bir arkadaşınla paylaşacaksın. Arkadaşın taslağı okuyup not bırakabilsin, ama metni değiştiremesin. Hangi paylaşım iznini verirsin?
 
-- A\) https
-- B\) www
-- C\) /tr/duyurular
-- D\) tr/duyurular
-- E\) iuc.edu.tr
+- A\) Görüntüleyen
+- B\) Bağlantıya sahip herkes düzenleyebilir
+- C\) Düzenleyen
+- D\) Yorumcu
+- E\) Belgenin sahibi
 :::
 
-::: {.quiz-q data-answer="B" data-explain="2,4 GHz duvarları daha iyi geçer ve daha uzağa ulaşır; 5 GHz daha hızlıdır ama menzili kısadır."}
+::: {.quiz-q data-answer="A" data-explain="2,4 GHz duvarları daha iyi geçer ve daha uzağa ulaşır; 5 GHz daha hızlıdır ama menzili kısadır."}
 **4.** Modemden uzaktaki odada Wi-Fi sinyali zayıf. Hangi bant daha uzağa ulaşır?
 
-- A\) 5 GHz; çünkü daha yüksek frekanslı olduğu için duvarları daha kolay aşar
-- B\) 2,4 GHz; menzili daha uzundur, 5 GHz daha hızlı ama kısa menzillidir
+- A\) 2,4 GHz; menzili daha uzundur, 5 GHz daha hızlı ama kısa menzillidir
+- B\) 5 GHz; çünkü daha yüksek frekanslı olduğu için duvarları daha kolay aşar
 - C\) İkisinin menzili aynıdır
 - D\) Hiçbiri; Wi-Fi menzili banda bağlı değildir
 - E\) Bluetooth'a geçmek gerekir
 :::
 
-::: {.quiz-q data-answer="D" data-explain="Kilit yalnızca şifreli bağlantıyı gösterir; alan adı kurumun adresi değildir, bilgi girilmemelidir."}
+::: {.quiz-q data-answer="C" data-explain="Kilit yalnızca şifreli bağlantıyı gösterir; alan adı kurumun adresi değildir, bilgi girilmemelidir."}
 **5.** Üniversite giriş sayfasına benzeyen bir sayfada kilit simgesi var, ama adres `iuc-giris.xyz`. En isabetli değerlendirme hangisidir?
 
 - A\) Kilit simgesi olduğu için sayfa güvenlidir; giriş bilgileri rahatça girilebilir.
 - B\) Sayfa tasarımı aynıysa sorun yoktur.
-- C\) Yalnızca parola girilmez; kullanıcı adı ve öğrenci numarası ise güvenle girilebilir.
-- D\) Kilit yalnızca şifreli bağlantıyı gösterir; alan adı kurumun değil, bilgi girilmemeli.
+- C\) Kilit yalnızca şifreli bağlantıyı gösterir; alan adı kurumun değil, bilgi girilmemeli.
+- D\) Yalnızca parola girilmez; kullanıcı adı ve öğrenci numarası ise güvenle girilebilir.
 - E\) Sayfa yenilenirse güvenli hale gelir.
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-C, 2-A, 3-E, 4-B, 5-D.
+1-B, 2-D, 3-D, 4-A, 5-C.
 :::

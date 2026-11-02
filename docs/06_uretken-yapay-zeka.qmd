@@ -317,56 +317,56 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="C" data-explain="Halkalar dıştan içe: yapay zekâ, makine öğrenmesi, derin öğrenme. Her derin öğrenme modeli bir makine öğrenmesi modelidir; tersi her zaman doğru değildir."}
+::: {.quiz-q data-answer="A" data-explain="Halkalar dıştan içe: yapay zekâ, makine öğrenmesi, derin öğrenme. Her derin öğrenme modeli bir makine öğrenmesi modelidir; tersi her zaman doğru değildir."}
 **1.** Yapay zekâ, makine öğrenmesi ve derin öğrenme arasındaki ilişki için hangisi doğrudur?
 
-- A\) Üçü aynı şeyin farklı adlarıdır.
+- A\) Derin öğrenme makine öğrenmesinin, makine öğrenmesi de yapay zekânın bir alt alanıdır.
 - B\) Makine öğrenmesi, derin öğrenmenin içinde yer alan daha küçük bir alt alanıdır.
-- C\) Derin öğrenme makine öğrenmesinin, makine öğrenmesi de yapay zekânın bir alt alanıdır.
+- C\) Üçü aynı şeyin farklı adlarıdır.
 - D\) Yapay zekâ, hem derin öğrenmenin hem de makine öğrenmesinin içinde yer alan bir alt alanıdır.
 - E\) Derin öğrenme yapay zekâdan tamamen ayrı bir alandır.
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Model, eğitiminin bittiği tarihten sonraki olayları kendiliğinden bilmez; internette arama yapabilen asistanlar bu açığı kısmen kapatır."}
+::: {.quiz-q data-answer="E" data-explain="Model, eğitiminin bittiği tarihten sonraki olayları kendiliğinden bilmez; internette arama yapabilen asistanlar bu açığı kısmen kapatır."}
 **2.** Bir dil modelinin "bilgi kesim tarihi" neyi anlatır?
 
-- A\) Modelin eğitim verisinin bittiği, sonrasını kendiliğinden bilmediği tarihi
+- A\) Modelin internet bağlantısının kesildiği ve güncel sayfalara artık ulaşamadığı tarihi
 - B\) Modelin kullanımdan kaldırılacağı tarihi
 - C\) Kullanıcının sohbet geçmişinin silineceği tarihi
 - D\) Modelin lisans süresinin bittiği tarihi
-- E\) Modelin internet bağlantısının kesildiği ve güncel sayfalara artık ulaşamadığı tarihi
+- E\) Modelin eğitim verisinin bittiği, sonrasını kendiliğinden bilmediği tarihi
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Rol (sınav koçu), bağlam (birinci sınıf, ikili sayılar sınavı), görev (beş soru) ve biçim (cevaplar sonda, ayrı liste) birlikte verilmiş."}
+::: {.quiz-q data-answer="B" data-explain="Doğru istemde dört öğe birlikte: rol (sınav koçu), bağlam (birinci sınıf, haftaya sınav), görev (beş alıştırma sorusu) ve biçim (cevaplar sonda, ayrı liste). Öbürlerinin her birinde bir öğe eksik: rol, bağlam, açık bir görev ya da biçim."}
 **3.** Hangisi rol, bağlam, görev ve biçim öğelerinin hepsini içeren bir istemdir?
 
-- A\) "Ödevimi yaz."
-- B\) "Sen bir uzmansın."
-- C\) "Yapay zekâ hakkında her şeyi anlat."
-- D\) "Kısa yaz."
-- E\) "Bir sınav koçu gibi davran. Birinci sınıf öğrencisiyim, haftaya ikili sayılardan sınavım var. Bana beş alıştırma sorusu hazırla; cevapları en sonda, ayrı bir listede ver ve emin olmadığın bir şey varsa belirt."
+- A\) "Birinci sınıf öğrencisiyim, haftaya ikili sayılardan sınavım var. Bana beş alıştırma sorusu hazırla."
+- B\) "Bir sınav koçu gibi davran. Birinci sınıf öğrencisiyim, haftaya ikili sayılardan sınavım var. Bana beş alıştırma sorusu hazırla; cevapları en sonda, ayrı bir listede ver."
+- C\) "Bir sınav koçu gibi davran. Birinci sınıf öğrencisiyim, haftaya ikili sayılardan sınavım var. Bana yardım et; cevapları en sonda, ayrı bir listede ver."
+- D\) "Bir sınav koçu gibi davran. Birinci sınıf öğrencisiyim, haftaya ikili sayılardan sınavım var. Bana beş alıştırma sorusu hazırla."
+- E\) "Bir sınav koçu gibi davran ve bana yardımcı ol. İkili sayılardan beş alıştırma sorusu hazırla; cevapları en sonda, ayrı bir listede ver ve emin olmadığın bir şey varsa belirt."
 :::
 
-::: {.quiz-q data-answer="B" data-explain="Madde numarası ve içerik birincil kaynaktan, yani yönetmeliğin yayımlandığı resmî metinden doğrulanmalıdır; YZ'ye ya da başka bir YZ'ye sormak doğrulama değildir."}
+::: {.quiz-q data-answer="C" data-explain="Madde numarası ve içerik birincil kaynaktan, yani yönetmeliğin yayımlandığı resmî metinden doğrulanmalıdır; YZ'ye ya da başka bir YZ'ye sormak doğrulama değildir."}
 **4.** Bir YZ asistanı bir yönetmeliğin belirli bir maddesini numarasıyla birlikte aktardı. Ödevinde bu maddeyi kullanmadan önce ne yapmalısın?
 
 - A\) Asistana "Emin misin?" diye sorup "evet" derse kullanmak
-- B\) Yönetmeliğin resmî metnini (mevzuat.gov.tr) açıp maddeyi kontrol etmek
-- C\) Başka bir YZ asistanına da aynı soruyu sorup iki cevap aynıysa kullanmak
+- B\) Başka bir YZ asistanına da aynı soruyu sorup iki cevap aynıysa kullanmak
+- C\) Yönetmeliğin resmî metnini (mevzuat.gov.tr) açıp maddeyi kontrol etmek
 - D\) Cevap ayrıntılı ve kendinden emin olduğu için doğrudan kullanmak
 - E\) Madde numarasını silip yalnızca içeriği kullanmak
 :::
 
-::: {.quiz-q data-answer="D" data-explain="YZ yasak değildir; ne için ve nerede kullanıldığı açıkça beyan edilmelidir. Genel bir ifade ya da hiç beyan etmemek yetmez."}
+::: {.quiz-q data-answer="C" data-explain="YZ yasak değildir; ne için ve nerede kullanıldığı açıkça beyan edilmelidir. Genel bir ifade ya da hiç beyan etmemek yetmez."}
 **5.** Bir öğrenci ödevinin planını YZ ile çıkarıyor, metni kendisi yazıyor, imla düzeltmesi için yine YZ kullanıyor ve kaynakları kendisi buluyor. En dürüst davranış hangisidir?
 
-- A\) YZ'yi az kullandığı için hiçbir şey belirtmemek
-- B\) YZ kullandığı için ödevi hiç teslim etmemek
-- C\) Beyanın yerine yalnızca "Bu ödevde YZ kullanılmıştır" cümlesini yazmak, ayrıntı vermemek
-- D\) Beyanda planlama ve imla düzeltmesi için YZ kullandığını, metni ve kaynakları kendisinin hazırladığını belirtmek
+- A\) YZ'yi yalnızca küçük işlerde kullandığı için beyanda hiçbir şey belirtmemek
+- B\) YZ kullandığı için ödevi hiç teslim etmemek ve durumu öğretim görevlisine anlatmak
+- C\) Beyanda YZ'yi planlama ve imla için kullandığını, metni ve kaynakları kendisinin hazırladığını yazmak
+- D\) Beyan yerine yalnızca "Bu ödevde YZ kullanılmıştır" cümlesini yazmak, nerede ve ne için kullandığını söylememek
 - E\) Beyan yazmak yerine kullandığı YZ'nin adını kaynakçanın sonuna ekleyip geçmek
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-C, 2-A, 3-E, 4-B, 5-D.
+1-A, 2-E, 3-B, 4-C, 5-C.
 :::

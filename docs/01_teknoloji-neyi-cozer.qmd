@@ -355,24 +355,24 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="D" data-explain="Kuram çok sayıda gözlem ve deneyle desteklenmiş bir çerçevedir; tahmin niteliğindeki öneri hipotezdir."}
+::: {.quiz-q data-answer="E" data-explain="Kuram çok sayıda gözlem ve deneyle desteklenmiş bir çerçevedir; tahmin niteliğindeki öneri hipotezdir."}
 **1.** Bilimde "kuram" (teori) için hangisi doğrudur?
 
 - A\) Henüz hiç test edilmemiş, bilim insanının aklına gelen ilk tahmindir.
 - B\) Tek bir başarılı deneyle kesin olarak kanıtlanmış bir iddiadır.
 - C\) Bilim insanlarının kanıta dayanmayan kişisel görüşüdür.
-- D\) Çok sayıda gözlem ve deneyle desteklenmiş açıklayıcı bir çerçevedir.
-- E\) Gözlemden önce sorulan ve cevabı henüz bilinmeyen bir sorudur.
+- D\) Gözlemden önce sorulan ve cevabı henüz bilinmeyen bir sorudur.
+- E\) Çok sayıda gözlem ve deneyle desteklenmiş açıklayıcı bir çerçevedir.
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Endüstri 3.0, elektronik ve bilgisayarlarla otomasyon dönemidir."}
+::: {.quiz-q data-answer="C" data-explain="Endüstri 3.0, elektronik ve bilgisayarlarla otomasyon dönemidir."}
 **2.** Endüstri 3.0'ı en iyi tanımlayan ifade hangisidir?
 
 - A\) Su ve buhar gücüyle makineleşme
 - B\) Elektrik ve montaj hattıyla seri üretim
-- C\) Nesnelerin İnterneti ve yapay zekâyla akıllı üretim
+- C\) Elektronik ve bilgisayarlarla otomasyon
 - D\) El tezgâhlarında zanaat üretimi
-- E\) Elektronik ve bilgisayarlarla otomasyon
+- E\) Nesnelerin İnterneti ve yapay zekâyla akıllı üretim
 :::
 
 ::: {.quiz-q data-answer="B" data-explain="64 tek başına veridir; Final notu bağlamıyla enformasyon olur. Geçmek için yeterli mi yorumu bilgi olurdu."}
@@ -385,26 +385,26 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 - E\) Yetkinlik
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Tek bir araca bağımlılık ve yedeğin olmaması: her şeyin bir alternatifi var ve hazırlıklı ol."}
+::: {.quiz-q data-answer="B" data-explain="Tek bir araca bağımlılık ve yedeğin olmaması: her şeyin bir alternatifi var ve hazırlıklı ol."}
 **4.** Bir öğrenci bütün ödevlerini yalnızca tek bir bulut hizmetinde tutuyor ve teslim gecesi hizmete erişilemiyor. Öğrenci dersin hangi iki felsefesini göz ardı etmiştir?
 
-- A\) Her şeyin bir alternatifi var; hazırlıklı ol
-- B\) Yakından uzağa; geçmişin bilim kurgusu
+- A\) Yakından uzağa; geçmişin bilim kurgusu
+- B\) Her şeyin bir alternatifi var; hazırlıklı ol
 - C\) Geçmişin bilim kurgusu; hazırlıklı ol
 - D\) Yakından uzağa; her şeyin bir alternatifi var
 - E\) Yalnızca geçmişin bilim kurgusu
 :::
 
-::: {.quiz-q data-answer="C" data-explain="Çoklu buluş: bilgi birikimi olgunlaştığında aynı buluş birbirinden habersiz kişilerce yapılabilir."}
+::: {.quiz-q data-answer="D" data-explain="Çoklu buluş: bilgi birikimi olgunlaştığında aynı buluş birbirinden habersiz kişilerce yapılabilir."}
 **5.** Bir arkadaşın "Bell olmasaydı telefon hiç icat edilmezdi" diyor. Bu haftanın notuna göre bu iddiayı en iyi hangi değerlendirme çürütür?
 
 - A\) Bell telefonu tek başına ve kimseden habersiz icat ettiği için iddia doğrudur.
 - B\) Telefon antik çağdan beri bilindiği için Bell yalnızca ona adını vermiştir.
-- C\) Gray'in aynı gün başvurusu, birikim olgunlaşınca aynı buluşun başkasınca da yapılabileceğini gösterir.
-- D\) Telefon sanayi devriminden önce icat edildiği için Bell'in bu buluşta hiçbir rolü yoktur.
+- C\) Telefon sanayi devriminden önce icat edildiği için Bell'in bu buluşta hiçbir rolü yoktur.
+- D\) Gray'in aynı gün başvurusu, birikim olgunlaşınca aynı buluşun başkasınca da yapılabileceğini gösterir.
 - E\) Telefon bir buluş değil, bir sanat eseri olduğu için bu soru anlamsızdır.
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-D, 2-E, 3-B, 4-A, 5-C.
+1-E, 2-C, 3-B, 4-B, 5-D.
 :::

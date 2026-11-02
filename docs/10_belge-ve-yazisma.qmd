@@ -322,43 +322,43 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="C" data-explain="Alternatif metin, resmin ne gösterdiğini anlatır ve ekran okuyucu tarafından seslendirilir. Resim yazısı herkesin gördüğü numaralı açıklamadır; resmi göremeyen biri için resmin içeriğini anlatmaz."}
+::: {.quiz-q data-answer="B" data-explain="Alternatif metin, resmin ne gösterdiğini anlatır ve ekran okuyucu tarafından seslendirilir. Resim yazısı herkesin gördüğü numaralı açıklamadır; resmi göremeyen biri için resmin içeriğini anlatmaz."}
 **1.** Ekran okuyucu kullanan bir okurun, rapordaki bir grafiğin ne gösterdiğini öğrenebilmesi için resme ne eklenir?
 
 - A\) Numaralı resim yazısı
-- B\) Dipnot
-- C\) Alternatif metin
+- B\) Alternatif metin
+- C\) Dipnot
 - D\) Üst bilgi
 - E\) Kaynakça kaydı
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Bir stil değiştirildiğinde o stili kullanan bütün metinler aynı anda değişir. Belgenin tamamını seçmek normal metni de değiştirir; içindekileri güncellemek görünüşü değiştirmez."}
+::: {.quiz-q data-answer="C" data-explain="Bir stil değiştirildiğinde o stili kullanan bütün metinler aynı anda değişir. Belgenin tamamını seçmek normal metni de değiştirir; içindekileri güncellemek görünüşü değiştirmez."}
 **2.** Raporundaki bütün ana başlıklara "Başlık 1" stili uygulanmış. Hepsinin yazı tipini ve rengini tek seferde değiştirmenin yolu hangisidir?
 
 - A\) Başlıkları tek tek seçip yazı tipini elle değiştirmek
 - B\) Belgenin tamamını seçip yazı tipini değiştirmek
-- C\) Başlıkları silip yeni yazı tipiyle yeniden yazmak
+- C\) "Başlık 1" stilini değiştirmek
 - D\) İçindekiler tablosunu güncellemek
-- E\) "Başlık 1" stilini değiştirmek
+- E\) Başlıkları silip yeni yazı tipiyle yeniden yazmak
 :::
 
-::: {.quiz-q data-answer="B" data-explain="İyi bir konu satırı dersi, işin ne olduğunu ve göndereni açmadan söyler. Diğerleri ya boş ya genel ya da ne istendiğini göstermiyor."}
+::: {.quiz-q data-answer="A" data-explain="İyi bir konu satırı dersi, işin ne olduğunu ve göndereni açmadan söyler. Diğerleri ya boş ya genel ya da ne istendiğini göstermiyor."}
 **3.** Dönem projenin rapor taslağını öğretim görevlisine göndereceksin. En uygun konu satırı hangisidir?
 
-- A\) Merhaba hocam, ödevim hakkında
-- B\) BIT dönem projesi: rapor taslağı, Ece Yıldız (2. şube)
+- A\) BIT dönem projesi: rapor taslağı, Ece Yıldız (2. şube)
+- B\) Merhaba hocam, ödevim hakkında
 - C\) ÖNEMLİ!!! Ödev hakkında acil bilgi
 - D\) (konu satırı boş bırakılır, açıklama gövdededir)
 - E\) Hocam merhaba, rapor_son_son.docx dosyası ektedir, bakar mısınız
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Resim yazısının numarası bir alandır; araya yeni bir tablo eklenince sonrakiler kendiliğinden yeniden numaralanır. Elle yazılan numaraları ise tek tek düzeltmek gerekir."}
+::: {.quiz-q data-answer="D" data-explain="Resim yazısının numarası bir alandır; araya yeni bir tablo eklenince sonrakiler kendiliğinden yeniden numaralanır. Elle yazılan numaraları ise tek tek düzeltmek gerekir."}
 **4.** Raporunda "Tablo 1"den "Tablo 6"ya kadar numaralanmış tablolar var. Araya yeni bir tablo ekleyeceksin ve sonraki numaraların kendiliğinden kaymasını istiyorsun. Tablo numaraları baştan nasıl eklenmiş olmalıydı?
 
-- A\) Resim yazısı olarak, numarası programın ürettiği bir alanla
+- A\) Her tablonun altına eklenmiş bir dipnot numarasıyla
 - B\) Tablonun ilk hücresine elle yazılmış bir numarayla
 - C\) Tablonun üstüne kalın ve büyük yazılmış bir başlıkla
-- D\) Her tablonun altına eklenmiş bir dipnot numarasıyla
+- D\) Resim yazısı olarak, numarası programın ürettiği bir alanla
 - E\) Üst bilgiye yazılmış ve her sayfada tekrarlanan bir numarayla
 :::
 
@@ -373,5 +373,5 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-C, 2-E, 3-B, 4-A, 5-D.
+1-B, 2-C, 3-A, 4-D, 5-D.
 :::

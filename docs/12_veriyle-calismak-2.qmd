@@ -233,7 +233,7 @@ Aşağıdaki iki grafik aynı üç sayıyı gösteriyor; yalnızca dikey eksenin
 2020'nin baharında, COVID-19 salgınının ilk haftalarında, "eğriyi düzleştir" çağrısıyla bir grafik çok paylaşıldı: sivri bir tepe ve onun sağında daha alçak, daha yayvan bir tepe. Grafik yeni değildi; ABD Hastalık Kontrol ve Önleme Merkezi'nin 2007'de yayımladığı salgın planlama rehberindeydi. Rehbere göre okulları kapatmak, toplantıları ertelemek gibi önlemler salgının zirvesini geciktirir ve alçaltır; böylece aynı anda hastaneye ihtiyaç duyan hasta sayısı hastanelerin kapasitesine daha yakın kalır. Aynı haftalarda haberler ölüm sayılarını sık sık logaritmik ölçekle gösterdi. ABD'de yaklaşık iki bin kişiyle yapılan bir deneyde katılımcıların yarısına ölüm sayıları doğrusal, yarısına logaritmik ölçekte gösterildi. Logaritmik grafiği görenler salgının gidişini daha az doğru anladı, tahminlerinde daha çok yanıldı ve farklı önlemleri destekledi. Aynı sayılar değişmedi, yalnızca eksen değişti. Bir salgın haberinde sayıları gösterecek olsan hangi ölçeği seçer, grafiğin altına ne yazardın?
 :::
 
-Grafiğin başlığı da bir yorumdur. "Cihaz türüne göre arıza sayısı" bir konu başlığıdır; "Arızaların yarıya yakını bilgisayarlarda" ise bir **mesaj başlığıdır** ve okura ne görmesi gerektiğini söyler. Gelecek hafta sunumlarda bu fikre geri döneceğiz.
+Grafiğin başlığı da bir yorumdur. "Cihaz türüne göre arıza sayısı" bir konu başlığıdır; "Arızaların %38'i bilgisayarlarda" ise bir **mesaj başlığıdır** ve okura ne görmesi gerektiğini söyler. Gelecek hafta sunumlarda bu fikre geri döneceğiz.
 
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Grafik sayıları gösteriyor; sayılar yalan söylemez." Yanlış. Bütün sayılar doğru olduğu halde grafik yanıltabilir: kırpılmış bir eksen, seçilmiş bir zaman aralığı, eksik bir ay, üç boyutlu bir pasta. Hafta 5'teki soruyu grafiklere de sor: Bu grafiği kim, hangi mesajı vermek için çizdi? Eksen nereden başlıyor? Hangi dönem gösterilmemiş?
@@ -247,7 +247,7 @@ Motor bakımında tek bir ölçümden çok, ölçümlerin zamanla nasıl değiş
 
 Bir analiz, okurun anlayacağı bir cümleyle biter. İyi bir yorumun üç parçası vardır: **bulgu**, onu destekleyen **sayı** ve **anlamı**.
 
-> Arızaların %38'i (120 kayıttan 46'sı) bilgisayarlarda; bilgisayar arızaları da ortalama 30 saatle en uzun sürede çözülen grup. Bilgisayarlar için yedek parça stoku ve bir bakım sözleşmesi önceliklendirilmelidir.
+> En çok arıza bilgisayarlarda (120 kayıttan 46'sı, %38), ama en çok cihaz da bilgisayar: Cihaz başına bakınca 3B yazıcılar 4,7 arızayla önde, bilgisayarlar 2,6 ile en sonda. Tipik bir bilgisayar arızası 8 saatte çözülüyor (ortanca); ortalamayı 30 saate çeken, 48 saat ya da daha uzun süren 15 kayıt. Bütçede öncelik 3B yazıcılara ve uzun süren bilgisayar arızalarının nedenini bulmaya verilmeli.
 
 Yorum yazarken beş tuzağa dikkat et:
 
@@ -335,13 +335,13 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="C" data-explain="Dolar işareti sütunu ve satırı sabitler; formül nereye kopyalanırsa kopyalansın B7'ye bakar. Yalnızca satırı ya da yalnızca sütunu sabitleyen başvuru karma başvurudur."}
+::: {.quiz-q data-answer="D" data-explain="Dolar işareti sütunu ve satırı sabitler; formül nereye kopyalanırsa kopyalansın B7'ye bakar. Yalnızca satırı ya da yalnızca sütunu sabitleyen başvuru karma başvurudur."}
 **1.** Bir formüldeki `$B$7` başvurusu ne anlama gelir?
 
 - A\) B7 hücresinin değeri para birimi biçiminde gösterilir.
 - B\) Formül kopyalanınca yalnızca satır numarası sabit kalır.
-- C\) Formül nereye kopyalanırsa kopyalansın B7'ye bakmaya devam eder.
-- D\) B7 hücresi kilitlenir ve içeriği bir daha değiştirilemez.
+- C\) B7 hücresi kilitlenir ve içeriği bir daha değiştirilemez.
+- D\) Formül nereye kopyalanırsa kopyalansın B7'ye bakmaya devam eder.
 - E\) B7'deki değer formülde yuvarlanarak kullanılır.
 :::
 
@@ -355,36 +355,36 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 - E\) Formülün baktığı satır ya da sütun silinmiş.
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Zamanla değişimi göstermek için çizgi grafik kullanılır. Pasta grafik parça-bütün ilişkisi, dağılım grafiği iki değişken arasındaki ilişki içindir."}
+::: {.quiz-q data-answer="C" data-explain="Zamanla değişimi göstermek için çizgi grafik kullanılır. Pasta grafik parça-bütün ilişkisi, dağılım grafiği iki değişken arasındaki ilişki içindir."}
 **3.** Son on iki ayda aylık telefon faturanın nasıl değiştiğini göstermek istiyorsun. En uygun grafik hangisidir?
 
 - A\) On iki dilimli bir pasta grafik
 - B\) Üç boyutlu bir pasta grafik
-- C\) Faturayı kişi sayısıyla karşılaştıran bir dağılım grafiği
+- C\) Ayların yatay eksende sırayla durduğu bir çizgi grafik
 - D\) Ayları rastgele sıralayan bir çubuk grafik
-- E\) Ayların yatay eksende sırayla durduğu bir çizgi grafik
+- E\) Faturayı kişi sayısıyla karşılaştıran bir dağılım grafiği
 :::
 
-::: {.quiz-q data-answer="B" data-explain="Birkaç çok uzun arıza ortalamayı yukarı çeker; 'tipik' süre için ortanca daha dürüst bir ölçüdür. Aykırı değerler silinmez, yorumda belirtilir."}
+::: {.quiz-q data-answer="C" data-explain="Birkaç çok uzun arıza ortalamayı yukarı çeker; 'tipik' süre için ortanca daha dürüst bir ölçüdür. Aykırı değerler silinmez, yorumda belirtilir."}
 **4.** Yirmi arızanın on dokuzu 2 ile 10 saat arasında çözülmüş, biri ise 300 saat sürmüş. "Bir arıza tipik olarak ne kadar sürede çözülüyor?" sorusu için hangisi daha uygundur?
 
 - A\) Ortalama; çünkü bütün değerleri hesaba katan tek ölçü odur
-- B\) Ortanca; çünkü tek bir çok uzun arızadan pek etkilenmez
-- C\) En büyük değer; çünkü en kötü durumu gösterir
+- B\) En büyük değer; çünkü en kötü durumu gösterir
+- C\) Ortanca; çünkü tek bir çok uzun arızadan pek etkilenmez
 - D\) Toplam süre; çünkü kaybedilen bütün zamanı gösterir
 - E\) 300 saatlik kaydı silip kalanların ortalaması
 :::
 
-::: {.quiz-q data-answer="D" data-explain="Sonucu elle bilinen bir kontrol, bir sınır durumu (tam 48 saat) ve boş hücre, formülün hem doğru koşulu hem doğru aralığı kullandığını sınar. Hata vermemesi ya da YZ'nin emin konuşması doğruluğun kanıtı değildir."}
+::: {.quiz-q data-answer="E" data-explain="Sonucu elle bilinen bir kontrol, bir sınır durumu (tam 48 saat) ve boş hücre, formülün hem doğru koşulu hem doğru aralığı kullandığını sınar. Hata vermemesi ya da YZ'nin emin konuşması doğruluğun kanıtı değildir."}
 **5.** Bir YZ asistanı, çözüm süresi 48 saatten uzun olan kayıtları sayan bir formül önerdi. Formülü raporunda kullanmadan önce hangi sınama en güvenilirdir?
 
 - A\) Formülün hata vermediğini görmek ve doğrudan kullanmak
 - B\) Aynı soruyu YZ'ye ikinci kez sorup aynı formülü verip vermediğine bakmak
 - C\) Formülü daha uzun ve karmaşık bir formülle değiştirmesini istemek
-- D\) Filtreyle elle saymak, tam 48 saatlik ve boş süreli kayıtları denemek
-- E\) Formülü bir arkadaşına gönderip yalnızca görünüşünü onaylatmak
+- D\) Formülü bir arkadaşına gönderip yalnızca görünüşünü onaylatmak
+- E\) Filtreyle elle saymak, tam 48 saatlik ve boş süreli kayıtları denemek
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-C, 2-A, 3-E, 4-B, 5-D.
+1-D, 2-A, 3-C, 4-C, 5-E.
 :::

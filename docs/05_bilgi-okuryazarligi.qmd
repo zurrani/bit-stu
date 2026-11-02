@@ -339,56 +339,56 @@ Bu haftanın kavramları tanımlarıyla birlikte [Sözlük](../ekler/sozluk.qmd)
 
 Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. Bir seçeneğe tıkla; yanıtların hiçbir yere kaydedilmez.
 
-::: {.quiz-q data-answer="B" data-explain="Eksi işareti, ardından gelen kelimeyi içeren sonuçları dışarıda bırakır."}
+::: {.quiz-q data-answer="E" data-explain="Eksi işareti, ardından gelen kelimeyi içeren sonuçları dışarıda bırakır."}
 **1.** `uçak -oyuncak` araması ne yapar?
 
 - A\) Yalnızca oyuncak uçakları getirir.
-- B\) "Oyuncak" kelimesini içeren sonuçları dışarıda bırakır.
+- B\) Sonuçları tarihe göre sıralar.
 - C\) "Uçak" ve "oyuncak" kelimelerini aynı sırayla ve yan yana arar.
 - D\) Yalnızca resmî siteleri getirir.
-- E\) Sonuçları tarihe göre sıralar.
+- E\) "Oyuncak" kelimesini içeren sonuçları dışarıda bırakır.
 :::
 
-::: {.quiz-q data-answer="D" data-explain="Yanal okuma, sitenin kendi söylediğine değil, başkalarının o site hakkında söylediğine bakmaktır."}
+::: {.quiz-q data-answer="C" data-explain="Yanal okuma, sitenin kendi söylediğine değil, başkalarının o site hakkında söylediğine bakmaktır."}
 **2.** Yanal okuma nedir?
 
 - A\) Bir sayfayı baştan sona dikkatle okumak
 - B\) Sitenin "Hakkımızda" sayfasını ve iletişim bilgilerini ayrıntılı incelemek
-- C\) Sayfayı yatay ekranda okumak
-- D\) Yeni sekmede başka kaynakların o site ya da yazar hakkında ne dediğine bakmak
+- C\) Yeni sekmede başka kaynakların o site ya da yazar hakkında ne dediğine bakmak
+- D\) Sayfayı yatay ekranda okumak
 - E\) Sitenin tasarım kalitesini, reklam sayısını ve yazım hatalarını değerlendirmek
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Yönetmeliğin kendisi, Resmî Gazete'de yayımlanan metindir; haberler ve yorumlar ikincil kaynaktır."}
-**3.** Yeni bir yönetmelik değişikliği hakkında en birincil kaynak hangisidir?
+::: {.quiz-q data-answer="A" data-explain="Başkasının emeğini kendi emeğin gibi sunmak intihaldir. Yapay zekânın yazdığı bir metni beyan etmeden kendi metnin gibi teslim etmek de bu derste intihal sayılır."}
+**3.** Bir yapay zekâ aracının yazdığı paragrafı, kullandığını belirtmeden kendi metnin gibi ödevine koydun ve teslim ettin. Bu hangisidir?
 
-- A\) Yönetmeliğin Resmî Gazete'de yayımlanan metni
-- B\) Değişikliği anlatan bir haber sitesi
-- C\) Konuyla ilgili bir sosyal medya paylaşımı
-- D\) Bir forumdaki yorum
-- E\) Değişikliği özetleyen bir video
+- A\) İntihal
+- B\) Kendi cümlelerinle aktarma
+- C\) Özetleme
+- D\) Doğrudan alıntı
+- E\) Atıf
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Bilerek uydurulmuş ve zarar vermek amacıyla yayılan yanlış içerik dezenformasyondur."}
+::: {.quiz-q data-answer="A" data-explain="Bilerek uydurulmuş ve zarar vermek amacıyla yayılan yanlış içerik dezenformasyondur."}
 **4.** Seçimden birkaç gün önce, bir adayı bilerek uydurulmuş sözlerle gösteren bir video yayılıyor. Bu hangisine örnektir?
 
-- A\) Yanlış bilgi (misinformation)
+- A\) Dezenformasyon
 - B\) Kötü niyetli bilgi (malinformation)
 - C\) Hiciv
 - D\) Filtre balonu
-- E\) Dezenformasyon
+- E\) Yanlış bilgi (misinformation)
 :::
 
-::: {.quiz-q data-answer="C" data-explain="Duygusal ve şaşırtıcı bir iddia: önce dur, resmî kaynaktan kontrol et; emin değilsen paylaşma."}
+::: {.quiz-q data-answer="B" data-explain="Duygusal ve şaşırtıcı bir iddia: önce dur, resmî kaynaktan kontrol et; emin değilsen paylaşma."}
 **5.** Mesajlaşma grubunda "Bir havayolu şirketi bugün herkese ücretsiz bilet veriyor, bu bağlantıya tıkla ve on kişiye gönder" mesajı dolaşıyor. En isabetli davranış hangisidir?
 
 - A\) Fırsat kaçmasın diye hemen tıklayıp bilgileri girmek ve on kişiye paylaşmak
-- B\) Yalnızca tıklamak, paylaşmamak
-- C\) Durup şirketin resmî sitesinden kontrol etmek; doğrulanmadan tıklamamak ve paylaşmamak
+- B\) Durup şirketin resmî sitesinden kontrol etmek; doğrulanmadan tıklamamak ve paylaşmamak
+- C\) Yalnızca tıklamak, paylaşmamak
 - D\) Grupta en çok kişi paylaştıysa ve tanıdıklar da gönderdiyse mesajı doğru kabul edip yaymak
 - E\) Bağlantı HTTPS ile başlıyorsa ve kilit simgesi varsa güvenip tıklamak
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-B, 2-D, 3-A, 4-E, 5-C.
+1-E, 2-C, 3-A, 4-A, 5-B.
 :::

@@ -443,46 +443,46 @@ Bu sorular not için değil, konuyu anlayıp anlamadığını görmen içindir. 
 - E\) Mesajdaki emojilerin anlamları
 :::
 
-::: {.quiz-q data-answer="E" data-explain="Parmak izi biyometrik veridir; KVKK'ya göre özel nitelikli kişisel veridir. Diğerleri kişisel veridir, ama özel nitelikli değildir."}
+::: {.quiz-q data-answer="A" data-explain="Parmak izi biyometrik veridir; KVKK'ya göre özel nitelikli kişisel veridir. Diğerleri kişisel veridir, ama özel nitelikli değildir."}
 **2.** Hangisi KVKK'ya göre özel nitelikli kişisel veridir?
 
-- A\) E-posta adresi
+- A\) Parmak izi
 - B\) Cep telefonu numarası
 - C\) Öğrenci numarası
 - D\) Ev adresi
-- E\) Parmak izi
+- E\) E-posta adresi
 :::
 
-::: {.quiz-q data-answer="B" data-explain="Farklı sitelerde aynı reklamın seni takip etmesi, siteler arası izlemenin işaretidir; bunun başlıca aracı üçüncü taraf çerezlerdir. Konum izni, şifre ve ekran kilidi başka riskleri azaltır."}
+::: {.quiz-q data-answer="D" data-explain="Farklı sitelerde aynı reklamın seni takip etmesi, siteler arası izlemenin işaretidir; bunun başlıca aracı üçüncü taraf çerezlerdir. Konum izni, şifre ve ekran kilidi başka riskleri azaltır."}
 **3.** Gezdiğin farklı sitelerde, bir gün önce baktığın ayakkabının reklamı karşına çıkıyor. Bu siteler arası izlemeyi en doğrudan azaltacak adım hangisidir?
 
 - A\) Telefonda bütün uygulamaların konum iznini kapatmak
-- B\) Tarayıcıda üçüncü taraf çerezleri engellemek
+- B\) Bilgisayara parmak izli bir ekran kilidi koymak
 - C\) E-posta hesabının şifresini daha uzun yapmak
-- D\) Bilgisayara parmak izli bir ekran kilidi koymak
+- D\) Tarayıcıda üçüncü taraf çerezleri engellemek
 - E\) Ev Wi-Fi'si yerine mobil veriyle internete girmek
 :::
 
-::: {.quiz-q data-answer="D" data-explain="Paketi teslim etmek, aradaki sözleşmenin ifasıdır; bunun için ayrıca açık rıza gerekmez. Açık rıza, örneğin kampanya mesajları için gerekir."}
+::: {.quiz-q data-answer="B" data-explain="Paketi teslim etmek, aradaki sözleşmenin ifasıdır; bunun için ayrıca açık rıza gerekmez. Açık rıza, örneğin kampanya mesajları için gerekir."}
 **4.** Bir kargo şirketi, sipariş ettiğin paketi teslim etmek için adresini kullanıyor. Bu işlem KVKK'daki hangi işleme şartına dayanır?
 
 - A\) Açık rıza
-- B\) Hayati tehlike
+- B\) Sözleşmenin ifası
 - C\) Bilginin alenileştirilmesi
-- D\) Sözleşmenin ifası
+- D\) Hayati tehlike
 - E\) Bir hakkın korunması
 :::
 
-::: {.quiz-q data-answer="A" data-explain="Cinsiyet sütunu çıkarılsa da meslek, alışveriş ya da okul gibi vekil değişkenler cinsiyeti dolaylı olarak taşıyabilir. Önyargının olup olmadığını ancak sonuçları gruplara göre denetlemek gösterir."}
+::: {.quiz-q data-answer="B" data-explain="Cinsiyet sütunu çıkarılsa da meslek, alışveriş ya da okul gibi vekil değişkenler cinsiyeti dolaylı olarak taşıyabilir. Önyargının olup olmadığını ancak sonuçları gruplara göre denetlemek gösterir."}
 **5.** Bir banka, kredi algoritmasından cinsiyet sütununu çıkardığını ve "Artık önyargı yok" dediğini açıklıyor. En isabetli değerlendirme hangisidir?
 
-- A\) Yetersiz; başka değişkenler cinsiyetin yerine geçebilir, sonuçlar gruplara göre denetlenmeli.
-- B\) Yeterli; algoritma cinsiyeti görmediği sürece gruplar arasında önyargılı bir karar üretemez.
+- A\) Yeterli; algoritma cinsiyeti görmediği sürece gruplar arasında önyargılı bir karar üretemez.
+- B\) Yetersiz; başka değişkenler cinsiyetin yerine geçebilir, sonuçlar gruplara göre denetlenmeli.
 - C\) Yetersiz; kararlar algoritmaya değil, yalnızca banka çalışanlarının deneyimine bırakılmalıdır.
 - D\) Yeterli; kredi notu ödeme geçmişinden hesaplandığı için kişisel özelliklerden etkilenmez.
 - E\) Yetersiz; cinsiyet sütunu modelde tutulmalı, ama müşterilerden ve denetçilerden gizlenmelidir.
 :::
 
 ::: {.callout-note collapse="true" title="Cevap anahtarı (yazdırılabilir sürüm için)"}
-1-C, 2-E, 3-B, 4-D, 5-A.
+1-C, 2-A, 3-D, 4-B, 5-B.
 :::
