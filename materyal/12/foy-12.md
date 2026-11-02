@@ -4,6 +4,7 @@
 **Süre:** yaklaşık 60–70 dakika. Sınıfta başlarsın, öğretim görevlisinin duyurduğu tarihe kadar (bir hafta) tamamlarsın.
 **Değerlendirme:** Föy, sonundaki kontrol listesine dayanan bir ölçüt tablosuyla değerlendirilir; ayrıntısı derste duyurulur.
 **Program:** Masaüstü Excel ya da ücretsiz LibreOffice Calc. ÇAPRAZARA işlevi yoksa DÜŞEYARA kullan (aşağıda).
+**Bilgisayarın yoksa:** Föyü okulun bilgisayar salonunda, taşınabilir LibreOffice Calc'la (USB bellekten, kurulumsuz çalışan sürüm) ya da tarayıcıda Google E-Tablolar'da yapabilirsin. E-Tablolar'da bir işlevi bulamazsan İngilizce adını dene (örneğin XLOOKUP); bitirince dosyayı XLSX olarak indirip teslim et. Puanlama aynıdır.
 
 Laboratuvarların sorumlusu senden kısa bir analiz istiyor: "Önümüzdeki dönem yedek parça ve bakım bütçesini nereye ayıralım?" Elinde Eylül–Kasım 2026'nın 120 arıza kaydı ve bir cihaz envanteri var. Bu föyde ders notundaki dört adımı uygulayacaksın: soru, hesap, görsel, yorum. Menü adları Türkçe Excel'e göredir; işlevlerde bağımsız değişkenler noktalı virgülle ayrılır.
 

@@ -54,7 +54,7 @@ Bu dersi başarıyla tamamladığında şunları yapabileceksin:
 - **Dersten önce:** O haftanın notunu oku (yaklaşık 20–30 dakika; her notun başında yazar). Notun nasıl okunacağı [Bu ders nasıl işler?](../docs/00_cerceve.qmd) sayfasında.
 - **Derste:** Kısa bir açılış sorusu, kavramlar ve bilgisayar başında uygulama. Anlatım bir seferde 15 dakikayı aşmaz; zamanın önemli bir kısmı senin yaptığın etkinliklerdir.
 - **Dersten sonra:** Haftanın ödevi, bir sonraki haftanın başına kadar. Notun sonundaki *Kendini sına* sorularıyla konuyu anlayıp anlamadığını kontrol edebilirsin; bunlar nota girmez.
-- **Laboratuvar yoksa:** Föyler evde yapılır; okulun bilgisayar salonu ya da programların ücretsiz web sürümleri kullanılabilir. Ön ve son test için bir ders saati bilgisayar başında ayarlanır.
+- **Laboratuvar yoksa:** Föyler evde yapılır; okulun bilgisayar salonu, taşınabilir LibreOffice ya da Föy 11 ve 12 için tarayıcıda Google E-Tablolar kullanılabilir. Föy 10 tarayıcıda tamamlanamaz; ayrıntı her föyün başında. Ön ve son test için bir ders saati bilgisayar başında ayarlanır.
 
 ## 5. Değerlendirme
 
@@ -281,7 +281,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 - Belgeyi PDF olarak dışa aktarmak; yazım ve erişilebilirlik denetimi yapmak.
 - Kurumsal kurallara uygun bir e-posta yazmak: konu satırı, alıcı alanları, hitap, gövde, ek ve imza.
 
-**Ödev (Hafta 11'in başına kadar):** **Föy 10, bozuk raporu onar:** sınıfta başlar, bir hafta içinde teslim edilir. Raporunu öğretim görevlisine kurumsal e-postayla gönder; e-postanın kendisi de değerlendirilir.
+**Ödev (Hafta 11'in başına kadar):** **Föy 10, bozuk raporu onar:** sınıfta başlar, bir hafta içinde teslim edilir. Raporunu öğretim görevlisine kurumsal e-postayla gönder; e-postanın kendisi de değerlendirilir. Bilgisayarın yoksa föyün başındaki yolu izleyebilirsin; puanlama aynıdır.
 
 **Dönem projesi, 4. adım:** Konunla ilgili 3–5 sayfalık bir teknik rapor taslağı: stiller, otomatik içindekiler, sayfa numarası, kaynakça, resim yazılı bir görsel ve YZ beyanı.
 
@@ -301,7 +301,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 - Yinelenenleri kaldırma, KIRP, metni sütunlara dönüştürme, bul ve değiştir ve hızlı doldurma ile veriyi temizlemek; orijinali koruyup temizliği kaydetmek.
 - Veri doğrulama ve koşullu biçimlendirmeyle hatayı girişte önleyen bir kayıt tablosu kurmak; veriyi CSV olarak doğru içe ve dışa aktarmak.
 
-**Ödev (Hafta 12'nin başına kadar):** **Föy 11, kirli veriyi temizle:** sınıfta başlar, bir hafta içinde teslim edilir. Ödev: Kurgusal ekran süresi verisini içe aktar; tablo nesnesi, kontrol sütunu, koşullu biçimlendirme ve veri doğrulamayla düzenle.
+**Ödev (Hafta 12'nin başına kadar):** **Föy 11, kirli veriyi temizle:** sınıfta başlar, bir hafta içinde teslim edilir. Bilgisayarın yoksa föyün başındaki yolu izleyebilirsin; puanlama aynıdır. Ödev: Kurgusal ekran süresi verisini içe aktar; tablo nesnesi, kontrol sütunu, koşullu biçimlendirme ve veri doğrulamayla düzenle.
 
 **Materyal:** [Föy 11](../materyal/11/foy-11.md) · [cihaz-arizalari.xlsx](../materyal/11/cihaz-arizalari.xlsx) · [ekran-suresi-kurgusal.csv](../materyal/11/ekran-suresi-kurgusal.csv)
 
@@ -319,7 +319,7 @@ Sunumu öğretim görevlisi bir ölçüt tablosuyla değerlendirir. Arkadaşlar�
 - Soruya uygun grafiği seçmek; yanıltıcı bir grafiği tanıyıp düzeltmek.
 - Bulguyu sayıyla desteklenen kısa bir yorumla yazmak; YZ'nin önerdiği bir formülü test durumlarıyla sınamak.
 
-**Ödev (Hafta 13'ün başına kadar):** **Föy 12, formül, özet tablo ve grafik:** sınıfta başlar, bir hafta içinde teslim edilir.
+**Ödev (Hafta 13'ün başına kadar):** **Föy 12, formül, özet tablo ve grafik:** sınıfta başlar, bir hafta içinde teslim edilir. Bilgisayarın yoksa föyün başındaki yolu izleyebilirsin; puanlama aynıdır.
 
 **Dönem projesi, 5. adım:** Konunla ilgili açık bir veri setini temizle ve analiz et; iki grafik ve kısa yorumlarıyla raporunun Bulgular bölümüne ekle.
 
