@@ -149,9 +149,9 @@ Bilişimin işlediği ham madde veridir; ama veri, değer yaratana kadar birkaç
 
 | Basamak | Ne demek? | Örnek (kurgusal) |
 |---|---|---|
-| **Veri** | Bağlamı olmayan ham değer | 180 |
-| **Enformasyon** | Bağlam kazanmış, ne olduğu belli veri | Sol ana teker lastik basıncı: 180 psi |
-| **Bilgi** | Enformasyonun yorumlanıp anlam kazanması | Bu değer üreticinin belirttiği aralığın altında; lastik şişirilmeli |
+| **Veri** | Bağlamı olmayan ham değer | 2,1 |
+| **Enformasyon** | Bağlam kazanmış, ne olduğu belli veri | Sol ön lastik basıncı: 2,1 bar |
+| **Bilgi** | Enformasyonun yorumlanıp anlam kazanması | Kapı kenarındaki etikette 2,4 bar yazıyor; lastik şişirilmeli |
 | **Bilgelik** | Deneyim ve değerlendirmeyle doğru kararı vermek | Bu lastik üç haftadır hep düşük çıkıyor; sorun sızıntı olabilir, kök nedeni araştırmalıyız |
 
 Bilgisayarlar ilk iki basamakta çok güçlüdür: milyonlarca veriyi saniyede düzenler. Üçüncü basamağa giderek daha fazla yardım ediyorlar. Dördüncü basamak, yani doğru soruyu sormak ve sorumluluğu almak, hâlâ büyük ölçüde insanın işidir.

@@ -46,7 +46,7 @@ Dünyada ve Türkiye'de aramaların büyük çoğunluğu tek bir arama motorunda
 
 ### Kelime seçimi
 
-İyi bir arama, iyi bir soruyla başlar. "Uçak neden uçar" yerine "kaldırma kuvveti Bernoulli" gibi konunun kendi terimlerini kullanmak, aramayı daraltır. Sonuç çok fazlaysa terimi özelleştir ("güvenlik" yerine "ağ güvenliği"), çok azsa genişlet.
+İyi bir arama, iyi bir soruyla başlar. "Telefonum neden çabuk bitiyor" yerine "pil sağlığı şarj döngüsü" gibi konunun kendi terimlerini kullanmak, aramayı daraltır. Sonuç çok fazlaysa terimi özelleştir ("güvenlik" yerine "ağ güvenliği"), çok azsa genişlet.
 
 ### Arama operatörleri
 
@@ -54,13 +54,13 @@ Aramayı daraltan bu özel işaret ve kelimelere **arama operatörü** denir.
 
 | Operatör | Ne yapar? | Örnek |
 |---|---|---|
-| `"..."` | Tam ifadeyi arar | `"bakım el kitabı"` |
+| `"..."` | Tam ifadeyi arar | `"kullanım kılavuzu"` |
 | `-` | Kelimeyi dışarıda bırakır | `uçak -oyuncak` |
 | `OR` | İki terimden birini içerenleri getirir | `İHA OR drone` |
-| `site:` | Yalnızca belirli bir sitede ya da alan adı türünde arar | `site:shgm.gov.tr`, `site:edu.tr` |
+| `site:` | Yalnızca belirli bir sitede ya da alan adı türünde arar | `site:mevzuat.gov.tr`, `site:edu.tr` |
 | `filetype:` | Belirli dosya türünü arar | `filetype:pdf yönetmelik` |
 
-Operatörler birleştirilebilir: `site:shgm.gov.tr filetype:pdf İHA` sorgusu, yalnızca SHGM'nin sitesindeki ve İHA geçen PDF dosyalarını getirir. Eski sunumlarda ve sitelerde görebileceğin `+`, `~`, `related:` ve `info:` operatörleri ise artık çalışmıyor; arama motorları değiştikçe operatörler de değişir.
+Operatörler birleştirilebilir: `site:mevzuat.gov.tr filetype:pdf "kişisel veri"` sorgusu, yalnızca mevzuat.gov.tr'deki ve "kişisel veri" ifadesinin tam geçtiği PDF dosyalarını getirir. Eski sunumlarda ve sitelerde görebileceğin `+`, `~`, `related:` ve `info:` operatörleri ise artık çalışmıyor; arama motorları değiştikçe operatörler de değişir.
 
 ### Arama motoru her şey değil
 
@@ -70,7 +70,6 @@ Operatörler birleştirilebilir: `site:shgm.gov.tr filetype:pdf İHA` sorgusu, y
 | Türkiye'deki tezler | YÖK Ulusal Tez Merkezi |
 | Yasa ve yönetmelik | Resmî Gazete, mevzuat.gov.tr |
 | Resmî istatistik | TÜİK, ilgili bakanlıkların veri sayfaları |
-| Havacılık kuralları | SHGM, EASA, ICAO'nun kendi siteleri |
 | Bir sayfanın eski hali | Wayback Machine (web.archive.org) |
 
 ### YZ ile arama
@@ -82,7 +81,7 @@ Bugün birçok arama motoru sonuçların üstünde yapay zekâyla yazılmış bi
 3. **İddiayı orada bul.** Sayfa var diye iddianın da orada olduğunu varsayma; ilgili cümleyi sayfada ara (Ctrl + F).
 4. **Künyeyi kontrol et.** Bir makale gösterildiyse başlığını Google Akademik'te ya da DergiPark'ta ara. Bilimsel makalelerin çoğunun **DOI** adı verilen kalıcı bir kimlik numarası vardır; `doi.org/` adresinin sonuna eklenen numara seni makalenin kendisine götürür. Var olmayan bir makalenin DOI'si de çalışmaz: uydurma bir DOI ya hiçbir yere götürmez ya da başka bir makaleye götürür.
 
-YZ'nin uydurduğu kaynaklar yüzünden mahkemede zor durumda kalan avukatların hikâyesini gelecek hafta göreceğiz.
+*2001: Bir Uzay Destanı*'nda (1968) bilgisayarla konuşmak bilim kurguydu ([Ek B](../ekler/b_bilim-kurgu.qmd)); bugün ona soru soruyoruz, ama cevabını hâlâ biz doğruluyoruz. YZ'nin uydurduğu kaynaklar yüzünden mahkemede zor durumda kalan avukatların hikâyesini gelecek hafta göreceğiz.
 
 ## 3. Kaynağı değerlendirmek
 
@@ -127,12 +126,14 @@ Bir analojiyle: Yeni bir lokantayı menüsünü okuyarak değil, mahalleliye sor
 | **Daha iyi kaynak bul** (Find) | Aynı iddiayı güvenilir başka kaynaklar da söylüyor mu? |
 | **İzini sür** (Trace) | İddiayı, alıntıyı ya da görseli ilk ortaya çıktığı yere kadar takip et. |
 
+Tek kaynağa dayanan bilgi, tek kopyası olan dosya gibidir: Dersin "hazırlıklı ol" felsefesindeki "İki, birdir; bir, hiçtir" kuralı doğrulamada da geçerli.
+
 ::: {.callout-important .kutu-efsane title="Efsane mi gerçek mi?"}
 "Vikipedi güvenilmez bir kaynaktır." Yarı gerçek. Vikipedi'yi herkes düzenleyebilir ve bir makale yanlış ya da eksik olabilir; bu yüzden ödevde doğrudan kaynak olarak gösterilmez. Ama iyi bir başlangıç noktasıdır: konunun kavramlarını öğrenmek ve makalenin altındaki kaynaklara ulaşmak için. Doğru kullanım, Vikipedi'den yola çıkıp onun gösterdiği birincil kaynaklara gitmektir.
 :::
 
 ::: {.callout-note .kutu-havacilik title="Havacılık bağlantısı: Kaynak hiyerarşisi yazılıdır"}
-Havacılıkta hangi kaynağa güvenileceği kişisel bir tercih değildir, kuralla belirlenir. Bir bakım işinde değerler ve adımlar, üreticinin onaylı ve güncel revizyondaki dokümanından alınır; kurallar ise otoritelerin (SHGM, EASA, ICAO) yayınlarından. Forumlar, videolar ve "tecrübeli bir arkadaşın söylediği" yol gösterebilir, ama kaynak olamaz. Bir kaza olduğunda da ilk saatlerde sosyal medyada pek çok iddia dolaşır; asıl bilgi aylar sonra yayımlanan resmî inceleme raporundadır. İyi bir teknisyen de iyi bir okuyucu gibi önce "Bunun kaynağı ne?" diye sorar.
+Havacılıkta hangi kaynağa güvenileceği kişisel bir tercih değildir, kuralla belirlenir. Bir bakım işinde değerler ve adımlar, üreticinin onaylı ve güncel revizyondaki dokümanından alınır; kurallar ise otoritelerin (SHGM, EASA, ICAO) yayınlarından; onları da otoritenin kendi sitesinde ara (`site:shgm.gov.tr filetype:pdf İHA`). Forumlar, videolar ve "tecrübeli bir arkadaşın söylediği" yol gösterebilir, ama kaynak olamaz. Bir kaza olduğunda da ilk saatlerde sosyal medyada pek çok iddia dolaşır; asıl bilgi aylar sonra yayımlanan resmî inceleme raporundadır. İyi bir teknisyen de iyi bir okuyucu gibi önce "Bunun kaynağı ne?" diye sorar.
 :::
 
 ## 4. Kaynakların merdiveni (okuma)

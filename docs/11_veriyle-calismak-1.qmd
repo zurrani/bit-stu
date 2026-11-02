@@ -149,7 +149,7 @@ Yalnızca telefonun varsa da bu araçlar elinin altında: Google E-Tablolar'ın 
 
 **Veri temizleme**, hatalı, eksik, tutarsız ya da **yinelenen kayıt**ları bulup düzeltmektir. Analizden önce gelir, çünkü kirli veriden çıkan sonuç da kirli olur. Bilişimin eski bir ilkesi bunu şöyle söyler: "Çöp girerse çöp çıkar" (garbage in, garbage out).
 
-İlk kural temizliğin kendisinden önce gelir: **Orijinali koru.** Ham veriyi bir sayfada bırak, temizliği bir kopyada yap. Hafta 3'teki adlandırma kuralıyla bir dosya ya da sayfa adı ver (`2026-11-23_ariza-kayitlari_temiz.xlsx`). Bir yanlış adımı geri alabilmek ve sonucu sorgulayan birine ham veriyi gösterebilmek için bu şarttır.
+İlk kural temizliğin kendisinden önce gelir: **Orijinali koru.** Ham veriyi bir sayfada bırak, temizliği bir kopyada yap. Hafta 3'teki adlandırma kuralıyla bir dosya ya da sayfa adı ver (`2026-11-23_ariza-kayitlari_temiz.xlsx`). Bir yanlış adımı geri alabilmek ve sonucu sorgulayan birine ham veriyi gösterebilmek için bu şarttır. Bu, dersin "hazırlıklı ol" felsefesinin tablodaki karşılığıdır: Ham veri, temizlik ters giderse döneceğin yedektir.
 
 Sık karşılaşılan sorunlar ve araçları:
 

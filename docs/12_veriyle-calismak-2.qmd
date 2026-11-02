@@ -8,7 +8,7 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>12 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>24 dakika</dd></div>
+    <div><dt>Okuma süresi</dt><dd>25 dakika</dd></div>
     <div><dt>Kelime</dt><dd>yaklaşık 3.300</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 1.3 Bilgiyi yönetme, 3.1 İçerik geliştirme, 5.2 İhtiyaçlar ve teknolojik çözümler</dd></div>
   </dl>
@@ -18,7 +18,7 @@ description: "Sorudan karara; formülün yapısı, göreli ve mutlak başvuru; t
 
 Ekranda aynı veriyle çizilmiş iki grafik var. İkisi de bir laboratuvarın üç aylık arıza sayısını gösteriyor: 40, 49 ve 31. Birincisinde çubuklar birbirine yakın; ikincisinde Ekim çubuğu Eylül'ün neredeyse iki katı, Kasım ise yerle bir. Hangisi doğru? İkisi de. Aradaki tek fark, ikinci grafiğin dikey ekseninin sıfırdan değil 30'dan başlaması. Üstelik bir tuzak daha var: Kasım verisi ayın yalnızca ilk üç haftasını kapsıyor; Kasım'da arızalar azalmadı, ay henüz bitmedi. Geçen hafta veriyi düzenli hale getirdin. Bu hafta o veriden sonuç çıkaracaksın: Formül veriyi bir soruya, özet tablo soruyu bir cevaba, grafik cevabı bir karara çevirir. Ama her adımda yanılma ihtimali var; bu yüzden sonucu sınamayı da öğreneceksin.
 
-**Okuma süresi:** yaklaşık 24 dakika.
+**Okuma süresi:** yaklaşık 25 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -299,7 +299,7 @@ Elektronik tablo çok şey yapar, ama her şeyi yapmaz. Veri büyüdükçe, sık
 - **Programlama:** Python gibi diller milyonlarca satırı işleyebilir ve her adımı bir betikte kaydettiği için analiz baştan sona yeniden üretilebilir. Google Colab, Python'u tarayıcıda kurulum olmadan çalıştırmanı sağlar.
 - **Veri tabanı:** Çok kullanıcılı, büyük ve sürekli güncellenen kayıtlar için elektronik tablo değil veri tabanı kullanılır (Hafta 11'deki satır sınırı hikâyesini hatırla).
 
-DigComp çerçevesi ileri düzeyde tam da bunu tarif eder: işe uygun aracı seçmek ve gerektiğinde araç değiştirmek. Bu ders seni bir panocu ya da programcı yapmaz; ama bir gün tablon yetmediğinde nereye bakacağını bilirsin.
+DigComp çerçevesi ileri düzeyde tam da bunu tarif eder: işe uygun aracı seçmek ve gerektiğinde araç değiştirmek. Bu ders seni bir panocu ya da programcı yapmaz; ama bir gün tablon yetmediğinde nereye bakacağını bilirsin. Her şeyin bir alternatifi var: Elektronik tablo programlarının seçenekleri [Ek C](../ekler/c_alternatifler.qmd) sayfasında.
 
 ::: {.callout-note .kutu-izle appearance="simple" title="İzle"}
 The Joy of Stats (İstatistiğin Neşesi, BBC, 2010): Hans Rosling'in iki yüz ülkenin iki yüz yıllık verisini dört dakikalık hareketli bir grafikle anlattığı ünlü bölümüyle tanınan belgesel. İzlerken grafiğin hangi eksenleri ve hangi ölçeği kullandığına dikkat et.

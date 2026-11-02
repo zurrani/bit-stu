@@ -255,7 +255,7 @@ Biraz ek bilgi: Tek kapı, kuyrukları ve kâğıt belgeleri azaltır; bir kurum
 
 Evde internet yoksa telefonun bir yedek olabilir: Ayarlardaki **kişisel erişim noktası** (hotspot) özelliği, telefonun hücresel bağlantısını Wi-Fi ile dizüstü bilgisayarına ya da tabletine paylaştırır. Kotanı hızla tüketir ve pili çabuk bitirir; uzun işler için değil, acil durumlar için uygundur.
 
-Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep telefonu aramasını 3 Nisan 1973'te, New York sokağında, bir tuğla büyüklüğündeki cihazla yaptı. İlk akıllı telefon sayılan IBM Simon 1994'te satışa çıktı; dokunmatik ekranı ve e-postası vardı. Şebekeler de kuşak kuşak gelişti; her kuşağa "nesil" (G) denir:
+Cep telefonunun hikâyesi de kısa: Motorola mühendisi Martin Cooper ilk cep telefonu aramasını 3 Nisan 1973'te, New York sokağında, bir tuğla büyüklüğündeki cihazla yaptı. İlk akıllı telefon sayılan IBM Simon 1994'te satışa çıktı; dokunmatik ekranı ve e-postası vardı. *Star Trek*'teki kapaklı iletişim cihazı 1966'da bir hayaldi; bugün cebindeki telefon ondan fazlasını yapıyor ([Ek B](../ekler/b_bilim-kurgu.qmd)). Şebekeler de kuşak kuşak gelişti; her kuşağa "nesil" (G) denir:
 
 | Nesil | Yaklaşık dönem | Getirdiği yenilik |
 |---|---|---|
@@ -346,7 +346,7 @@ Seçimi maliyet kadar verinin hassasiyeti ve yasal yükümlülükler belirler (H
 
 ### Bağımlılık
 
-Bütün verini ve iş akışını tek bir sağlayıcıya bağlamak kolaydır, çıkmak zordur. Veriyi taşımak zaman ve para ister; bazı sağlayıcılar veriyi dışarı çıkarmak için ayrıca ücret alır; uygulamalar o sağlayıcının araçlarına göre yazılmıştır. Buna **sağlayıcıya bağımlılık** (vendor lock-in) denir. Tek bir sağlayıcının arızası da dünyanın dört bir yanında uygulamaları aynı anda durdurabilir: 2025'te büyük bir bulut sağlayıcısının ABD'deki tek bir bölgesinde yaşanan arıza, saatlerce bankacılık, oyun ve iletişim uygulamalarını etkiledi. Hafta 3'teki "verini hiçbir platforma rehin bırakma" ilkesi kurumlar için de geçerlidir.
+Bütün verini ve iş akışını tek bir sağlayıcıya bağlamak kolaydır, çıkmak zordur. Veriyi taşımak zaman ve para ister; bazı sağlayıcılar veriyi dışarı çıkarmak için ayrıca ücret alır; uygulamalar o sağlayıcının araçlarına göre yazılmıştır. Buna **sağlayıcıya bağımlılık** (vendor lock-in) denir. Tek bir sağlayıcının arızası da dünyanın dört bir yanında uygulamaları aynı anda durdurabilir: 2025'te büyük bir bulut sağlayıcısının ABD'deki tek bir bölgesinde yaşanan arıza, saatlerce bankacılık, oyun ve iletişim uygulamalarını etkiledi. Hafta 3'teki "verini hiçbir platforma rehin bırakma" ilkesi kurumlar için de geçerlidir. Bağımlılığa karşı en iyi hazırlık alternatifi bilmektir: E-posta ve bulut depolamanın başka seçenekleri [Ek C](../ekler/c_alternatifler.qmd) sayfasında.
 
 ### Bulutun bedeni: elektrik ve su
 

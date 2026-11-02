@@ -44,7 +44,7 @@ On üç haftayı dört blokta geçtik:
 Ders boyunca dört fikir tekrar tekrar karşına çıktı:
 
 - **Yakından uzağa:** Her konuya kendi cebindeki telefondan, kendi dosyalarından başladık; sonra kuruma, mesleğe, topluma açıldık.
-- **Her şeyin bir alternatifi var:** Word'ün yanında Writer, Excel'in yanında Calc, PowerPoint'in yanında Impress ve kodla sunum vardı. Hafta 13'te bunun bir beceriye dönüştüğünü gördün: araç esnekliği.
+- **Her şeyin bir alternatifi var:** Word'ün yanında Writer, Excel'in yanında Calc, PowerPoint'in yanında Impress ve kodla sunum vardı. Hafta 13'te bunun bir beceriye dönüştüğünü gördün: araç esnekliği. Seçeneklerin güncel listesi [Ek C](../ekler/c_alternatifler.qmd) sayfasında.
 - **Geçmişin bilim kurgusu:** Bugün sıradan saydığımız birçok şey dün bir hayaldi. Bu hafta o hayallere bir kez daha bakacağız.
 - **Hazırlıklı ol:** Yedekler, çok faktörlü doğrulama, dayanıklılık planı. Teknoloji bir gün susacak; o gün ne yapacağını önceden bilmek gerekir (Hafta 9).
 

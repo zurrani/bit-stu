@@ -313,7 +313,7 @@ Dönem projenin son adımı, bulgularını üç dakikada sunmaktır. Kısa bir s
 5. **Tutarlılık:** Slayt ana şablonu ya da tema; tek yazı tipi; okunur boyut; erişilebilirlik denetimi.
 6. **Notlar ve prova:** Konuşmacı notları; en az iki prova; süre üç dakikayı aşmıyor.
 7. **YZ:** Kullandıysan son slaytta beyan.
-8. **Yedek:** Sunumun PDF'i bir bellekte ya da bulutta; projeksiyon çalışmazsa elinde basılı bir sayfa.
+8. **Yedek:** Sunumun PDF'i bir bellekte ya da bulutta; projeksiyon çalışmazsa elinde basılı bir sayfa ("hazırlıklı ol").
 
 Kısa sunumu sevmenin bir yolu da onu bir oyun gibi görmektir. **Pecha Kucha** biçiminde konuşmacı 20 slaytı, her biri 20 saniye kendiliğinden geçecek şekilde sunar; konuşma toplam 6 dakika 40 saniye sürer. **Asansör konuşması** (elevator pitch) ise bir fikri bir asansör yolculuğu kadar, yani yarım dakika ile bir dakika arasında anlatmaktır. İkisi de aynı şeyi öğretir: Süre sınırı, neyin gerçekten önemli olduğuna karar vermeye zorlar.
 

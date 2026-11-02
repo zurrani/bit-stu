@@ -8,8 +8,8 @@ description: "Mahremiyet ve gizlilik; veri ekonomisi ve profilleme; büyük veri
 <div class="gorev-karti" role="note" aria-label="Haftanın özeti">
   <dl>
     <div><dt>Hafta</dt><dd>8 / 14</dd></div>
-    <div><dt>Okuma süresi</dt><dd>31 dakika</dd></div>
-    <div><dt>Kelime</dt><dd>yaklaşık 4.200</dd></div>
+    <div><dt>Okuma süresi</dt><dd>32 dakika</dd></div>
+    <div><dt>Kelime</dt><dd>yaklaşık 4.300</dd></div>
     <div><dt>DigComp alanı</dt><dd>1.2 Bilgiyi değerlendirme, 2.6 Dijital kimliği yönetme, 4.2 Kişisel veri ve mahremiyet</dd></div>
   </dl>
   <p class="gk-soru"><b>Haftanın sorusu:</b> Senin hakkında kim, ne biliyor ve bununla ne yapıyor?</p>
@@ -18,7 +18,7 @@ description: "Mahremiyet ve gizlilik; veri ekonomisi ve profilleme; büyük veri
 
 Geçen hafta dikkatinin bir ürün olduğunu gördün. Bu hafta hikâyenin öbür yarısına bakıyoruz: Ekranda geçirdiğin her dakika veri bırakır. Bu veri nereye gidiyor, nasıl bir profile dönüşüyor, algoritmalar bu profille senin için neye karar veriyor? Sonra yasanın sana tanıdığı haklara ve beş dakikada yapabileceğin ayarlara geçeceğiz. Amaç seni korkutmak değil, verin üzerindeki kontrolü geri almanı sağlamak.
 
-**Okuma süresi:** yaklaşık 31 dakika.
+**Okuma süresi:** yaklaşık 32 dakika.
 
 **Bu haftanın sonunda şunları yapabileceksin:**
 
@@ -107,7 +107,7 @@ Hepsi yaklaşık saniyenin onda biri kadar sürer ve gün boyunca milyarlarca ke
 
 **Veri simsarları** (data broker), uygulamalar, sadakat kartları ve herkese açık kayıtlar gibi farklı kaynaklardan veri toplayıp birleştiren ve başka şirketlere satan firmalardır. Seninle doğrudan ilişkileri olmadığı için adlarını çoğu zaman duymazsın. Toplanan veriden yaşın, gelir düzeyin, hatta borç sıkıntısı yaşayıp yaşamadığın gibi tahminler çıkarılır. Bir kişi hakkında bu tür tahminlerden profil oluşturmaya **profilleme** denir.
 
-Shoshana Zuboff 2019'da yayımlanan kitabında bu düzene **gözetim kapitalizmi** adını verdi: İnsan davranışının ham madde gibi toplanması, davranışı tahmin eden ürünlere dönüştürülmesi ve satılması. Zuboff'a göre amaç davranışı yalnızca tahmin etmek değil, yönlendirmektir. Eleştirenler bazı iddiaların abartılı olduğunu savundu; yine de kavram, "ücretsiz" hizmetin gerçek fiyatını konuşmanın yaygın dili oldu.
+Shoshana Zuboff 2019'da yayımlanan kitabında bu düzene **gözetim kapitalizmi** adını verdi: İnsan davranışının ham madde gibi toplanması, davranışı tahmin eden ürünlere dönüştürülmesi ve satılması. Zuboff'a göre amaç davranışı yalnızca tahmin etmek değil, yönlendirmektir. Eleştirenler bazı iddiaların abartılı olduğunu savundu; yine de kavram, "ücretsiz" hizmetin gerçek fiyatını konuşmanın yaygın dili oldu. *Azınlık Raporu* (2002) kişiye özel reklamı bilim kurgu olarak göstermişti ([Ek B](../ekler/b_bilim-kurgu.qmd)); bugün her gün karşına çıkıyor.
 
 Veri bilimci Clive Humby'ye 2006'da atfedilen "Veri yeni petroldür" sözünün doğru bir yanı var: Ham veri de işlenmeden pek değer taşımaz. Ama benzetme iki yerde aksar: Petrol kullanıldıkça biter, veri sınırsız kopyalanır. Petrol kimseyle ilgili değildir, kişisel veri ise bir insanın hayatıdır.
 
@@ -359,7 +359,7 @@ Bir öğrencinin tehdit modeli ile bir gazetecininki farklıdır; amaç her şey
 | E-posta | Uzaktaki görsellerin otomatik yüklenmesini kapat |
 :::
 
-Merak edersen büyük platformların hakkında tuttuğu veriyi indirebilirsin (Google Takeout ya da sosyal medyadaki "Bilgilerini indir" seçeneği). Dosyada beklemediğin ne var? Bu dosya senin kişisel verindir; kimseyle paylaşma.
+Merak edersen büyük platformların hakkında tuttuğu veriyi indirebilirsin (Google Takeout ya da sosyal medyadaki "Bilgilerini indir" seçeneği). Dosyada beklemediğin ne var? Bu dosya senin kişisel verindir; kimseyle paylaşma. Bu dosya bir yedektir de: Hesap kapanırsa ya da hizmet durursa verin seninle kalır.
 
 Daha az veri toplayan seçenekleri [Ek C](../ekler/c_alternatifler.qmd) sayfasında bulabilirsin; her şeyin bir alternatifi var. Ama alternatif seçmek de bir tehdit modeli kararıdır: Arkadaşlarının hiçbiri kullanmıyorsa, en mahremiyet dostu mesajlaşma uygulaması bile seni yalnız bırakır.
 

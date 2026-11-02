@@ -232,7 +232,7 @@ Yapay zekâ yalnızca şirketlerin değil, devletlerin de gündeminde. Son on y�
 
 | Ülke ya da birlik | Belge | Öne çıkan vurgu |
 |---|---|---|
-| Çin | Yeni Nesil Yapay Zekâ Gelişim Planı (2017) | 2030'a kadar YZ'de dünyanın önde gelen merkezi olmak; devletin yönlendirdiği yatırım |
+| Çin | Yeni Nesil Yapay Zekâ Gelişim Planı (2017) | Devletin yönlendirdiği yatırım |
 | Avrupa Birliği | Koordineli YZ Planı (2018, güncelleme 2021); Yapay Zekâ Yasası (2024); YZ Kıtası Eylem Planı (2025) | Güvenilir YZ için risk temelli kurallar (Hafta 7); hesaplama altyapısı ve yetenek |
 | ABD | Amerikan YZ Girişimi (2019); Amerika'nın YZ Eylem Planı (2025) | Özel sektör yeniliği, veri merkezleri ve enerji altyapısı, YZ teknolojisinin ihracatı |
 | Türkiye | Ulusal Yapay Zekâ Stratejisi 2021–2025 ve 2024–2025 Eylem Planı; Türkiye Yapay Zekâ Eylem Planı 2026–2030 (Ekim 2026) | Yetenek ve YZ okuryazarlığı, veri ve hesaplama altyapısı, Türkçe dil modelleri, düzenleme ve güven |
