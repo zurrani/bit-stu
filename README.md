@@ -87,7 +87,7 @@ Yalnızca öğrenmeyi destekleyen sorular buraya girer; sınav soruları hiçbir
 
 ## Yayın
 
-Site **Cloudflare Pages** ile yayımlanır; depo Kasım 2026'dan beri public'tir: kaynak ve git geçmişi de herkese açıktır. Adres `https://bit.zurrani.com` (yedek adres `https://bit-stu.pages.dev`). Karar ve gerekçe: `bit-ins/planlama/00_proje-rehberi.md`, 4.8.
+Site **Cloudflare Pages** ile yayımlanır; depo Kasım 2026'dan beri public'tir: kaynak ve git geçmişi de herkese açıktır. Adres `https://bit.zurrani.com`. Pages adresi `bit-stu.pages.dev` öğrencilere verilmez (bazı Türkiye hatlarında açılmıyor). Karar ve gerekçe: `bit-ins/planlama/00_proje-rehberi.md`, 4.8.
 
 > **Düzeltme (16 Ekim 2026):** zurrani.com'un DNS'i Cloudflare'e taşındı. Yedek adres `bit-stu.pages.dev` Türkiye'deki bir ağdan açılmadı; öğrencilere yalnızca `bit.zurrani.com` verilir. Cloudflare ayarları, DNS, derleme komutu ve sağlık denetimi artık tek yerde: [`ALTYAPI.md`](ALTYAPI.md).
 
