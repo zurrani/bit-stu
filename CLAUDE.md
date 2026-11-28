@@ -4,9 +4,9 @@ Ortak kurallar C:\dev\_hub\ortak\KURALLAR.md'den yüklenir; burada tekrarlanmaz.
 
 Temel Bilgi Teknolojileri (BIT) dersinin öğrenci sitesi (Quarto). Planlama belgeleri ve öğretim görevlisi materyalleri kardeş özel depodadır: `../bit-ins`. Üç deponun düzeni: `../CLAUDE.md`.
 
-Çalışmaya başlamadan önce oku:
+Çalışmaya başlamadan önce oku (açılışta okunacakların tek listesi `../bit-ins/.claude/skills/bit-oturum/SKILL.md`, "Açılış"):
 
-1. `../bit-ins/planlama/00_proje-rehberi.md`: bütün tasarım, standart ve teknik kararlar
+1. `../bit-ins/planlama/00_proje-rehberi.md`: bütün tasarım, standart ve teknik kararlar; açılışta baş kısmı ve 6. bölüm, işe dokunan bölümler iş başlamadan
 2. `../bit-ins/planlama/03_durum.md`: nerede kalındığı ve sıradaki işler
 3. Bu deponun `README.md` dosyası: yazım kuralları (kutular, görev kartı, test sözdizimi) ve yeni hafta yayımlama listesi
 
